@@ -1,0 +1,51 @@
+html:root {
+  --accent: #0a96f0;
+  --accent-bg: #0a96f0;
+  --accent-txt: #d6faff;
+  --primary-bg: #d9d9d9;
+  --primary-txt: #000000;
+  --secondary-bg: #ffffff;
+  --secondary-txt: #000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #e7e7e7;
+  --col1: #000;
+  --teableHeadersBg: #0a96f0;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #cccccc;
+  --teableSubHeadersCol: #000000;
+  --tableBorders: #a3a3a3;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #f4c100;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+}
+
+$skin: "nextra";
+$cdnPath: "//#{$skin}.nextra.bet/#{$skin}";
+$imagesPath: "//#{$skin}.nextra.bet/#{$skin}/images";
+
+$logoUrl: "http://static.pcluster.info/skins/icesport/img/logo/logo.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/31/image/856aa46a0d619e56f10bc1558c8b3f77.jpeg";
+$bodyCol :#000;
+//invet 1 light skin inver 0 dark skin (images)
+$invet: 1;
+
+$secondary: #0a96f0;
+$secondaryCol: #fff;
+
+$secondaryDark: #128edb;
+$secondaryDarkCol: #fff;
+$black: #000000;
+$primary: #c2c2c2;
+$white: #ebebeb;
+$blue: #262ca8;
+$green: #2e9c3d;
+$red: #e1042e;
+$sb-2: #0a96f0;
+
+//icesport logo
+.header .top-header .top-header-content .logo-holder a:before {
+  transform: scale(2);
+}
