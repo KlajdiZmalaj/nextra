@@ -19065,34 +19065,7 @@ select option {
 }
 
 .breaking-container {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  width: 100%;
-}
-
-.breaking-container .breaking-inner {
-  position: relative;
-  width: 1360px;
-  margin: 0 auto;
-}
-
-.breaking-container .breaking-inner .breaking-img {
-  display: block;
-}
-
-.breaking-container .breaking-inner .breaking-text {
-  position: absolute;
-  left: 120px;
-  top: 45%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  margin: 0;
-  color: #222;
-  font-size: 13px;
-  font-weight: bold;
+  display: none;
 }
 
 .casino-search-container {
@@ -19247,18 +19220,13 @@ select option {
 }
 
 .game-grid-head {
-  background-image: url(//nextra.nextra.bet/nextra/images/casino/game-head.png);
-  background-repeat: no-repeat;
-  background-size: 70% 100%;
-  background-position: -200px center;
-  padding: 10px 0 10px 20px;
+  padding: 10px 0;
 }
 
 .game-grid-head h2 {
   margin: 0;
-  color: #ebebeb;
-  font-size: 1.5rem;
-  font-style: italic;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .game-grid {
