@@ -777,17 +777,23 @@ input[type="submit"] {
           margin-bottom: 0;
           padding-left: 8px;
           padding-right: 10px;
+          display: flex;
+          align-items: center;
           input {
-            margin-top: 6px;
-            margin-left: 5px;
-            height: 20px;
-            line-height: 20px;
-            float: left;
-            font-size: 13px;
-            border-radius: 3px;
+            height: 23px;
+            border-radius: 0;
+            border: 1px solid var(--tableBorders) !important;
+            margin-right: 4px;
             &.button {
               padding: 0 12px;
               font-size: 13px;
+              background: var(--bg1);
+              color: var(--col1);
+              text-transform: uppercase;
+              &:hover {
+                background: var(--accent-bg);
+                color: var(--accent-txt);
+              }
             }
           }
           input[type="text"],
@@ -812,6 +818,7 @@ input[type="submit"] {
             line-height: 32px;
             font-size: 12px;
             float: left;
+            margin-right: 7px;
           }
         }
       }
@@ -2030,7 +2037,7 @@ input[type="submit"] {
                 padding-left: 5px;
                 margin-left: 5px;
                 float: left;
-                width: calc(100% - 61px);
+                width: calc(100% - 124px);
                 overflow: hidden;
                 white-space: nowrap;
                 text-overflow: ellipsis;
@@ -4837,6 +4844,7 @@ footer {
         font: normal normal normal 14px/1 FontAwesome;
         font-size: 13px;
         position: relative;
+        margin-right: 3px;
       }
     }
     .match-details {
@@ -4866,12 +4874,14 @@ footer {
     .team-names {
       font-size: 12px;
       font-weight: bold;
-      max-width: calc(100% - 104px);
+      max-width: calc(100% - 124px);
       display: flex;
       flex-wrap: wrap;
       line-height: 1;
       align-items: center;
       height: 30px;
+      white-space: nowrap;
+      overflow: hidden;
       .home-team {
         /*padding-right: 10px;*/
         position: relative;
