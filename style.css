@@ -943,7 +943,6 @@ input[type="submit"] {
   color: var(--secondary-txt);
   border-bottom: 4px solid var(--accent);
   width: 100%;
-  height: 82px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1137,7 +1136,6 @@ input[type="submit"] {
 }
 
 .header.logged-header .bottom-header {
-  top: 17px;
   height: auto;
 }
 
@@ -3825,10 +3823,15 @@ input[type="submit"] {
 }
 
 .main-content-holder {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
   background: var(--bg1);
   color: var(--col1);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .center-content {
@@ -3840,7 +3843,9 @@ input[type="submit"] {
   -webkit-transition: 0s all;
   transition: 0s all;
   scrollbar-width: none;
-  /*overflow-x: hidden;*/
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .center-content::-webkit-scrollbar {
@@ -4601,6 +4606,8 @@ input[type="submit"] {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .center-content .competition-filter .title {
@@ -5425,17 +5432,23 @@ footer.center-footer .footer-logos .group-1 {
   bottom: 9px;
   background-color: var(--accent-bg);
   color: var(--accent-txt);
-  padding: 2px 10px 2px 20px;
+  padding: 2px 10px 2px 10px;
   border-radius: 3px;
   padding-right: 5px;
   line-height: 15px;
   font-size: 10px;
-  font-weight: 500;
-  background-image: url(//nextra.nextra.bet/nextra/images/info-icon.png);
-  background-position: left 2px center;
   background-size: 14px;
-  background-repeat: no-repeat;
   cursor: pointer;
+}
+
+.odds-table .first-header td .info-toggle:before,
+.odds-table .second-header td .info-toggle:before {
+  content: "\f05a";
+  font: normal normal normal 14px/1 FontAwesome;
+  margin-right: 4px;
+  position: relative;
+  top: 2px;
+  left: -2px;
 }
 
 .odds-table .info-row td {
@@ -6315,20 +6328,31 @@ footer.center-footer .footer-logos .group-1 {
   background: rgba(235, 235, 235, 0.06);
 }
 
+.championship-page .title .buttons-holder .title-button:before,
+.total-goals-page .title .buttons-holder .title-button:before,
+.soccer-fixtures-page .title .buttons-holder .title-button:before {
+  content: "\f059";
+  font: normal normal normal 14px/1 FontAwesome;
+  margin-right: 4px;
+}
+
 .championship-page .title .buttons-holder .title-button img,
 .total-goals-page .title .buttons-holder .title-button img,
 .soccer-fixtures-page .title .buttons-holder .title-button img {
-  display: inline-block;
-  float: left;
-  margin-top: 4px;
-  margin-right: 5px;
-  mix-blend-mode: difference;
+  display: none;
+}
+
+.championship-page .title .buttons-holder .title-button:nth-child(2):before,
+.total-goals-page .title .buttons-holder .title-button:nth-child(2):before,
+.soccer-fixtures-page .title .buttons-holder .title-button:nth-child(2):before {
+  content: "\f07c";
+  font: normal normal normal 14px/1 FontAwesome;
 }
 
 .championship-page .title .buttons-holder .title-button:nth-child(2) img,
 .total-goals-page .title .buttons-holder .title-button:nth-child(2) img,
 .soccer-fixtures-page .title .buttons-holder .title-button:nth-child(2) img {
-  margin-top: 5px;
+  display: none;
 }
 
 .championship-page .title .buttons-holder .single-icon,
@@ -6344,7 +6368,27 @@ footer.center-footer .footer-logos .group-1 {
   margin-right: 10px;
   margin-left: 5px;
   cursor: pointer;
-  mix-blend-mode: difference;
+  position: relative;
+}
+
+.championship-page .title .buttons-holder .single-icon img,
+.total-goals-page .title .buttons-holder .single-icon img,
+.soccer-fixtures-page .title .buttons-holder .single-icon img {
+  display: none;
+}
+
+.championship-page .title .buttons-holder .single-icon:after,
+.total-goals-page .title .buttons-holder .single-icon:after,
+.soccer-fixtures-page .title .buttons-holder .single-icon:after {
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f021";
+}
+
+.championship-page .title .buttons-holder .single-icon[onclick="RemoveTablet(18);"]:after,
+.total-goals-page .title .buttons-holder .single-icon[onclick="RemoveTablet(18);"]:after,
+.soccer-fixtures-page .title .buttons-holder .single-icon[onclick="RemoveTablet(18);"]:after {
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f00d";
 }
 
 .legend {
@@ -6566,11 +6610,19 @@ footer.center-footer .footer-logos .group-1 {
 .sports-book-page .filters-holder span .filters-icon {
   display: inline-block;
   float: right;
+  position: relative;
   margin-left: 10px;
 }
 
+.sports-book-page .filters-holder span .filters-icon:before {
+  content: "\f005";
+  font: normal normal normal 14px/1 FontAwesome;
+  position: relative;
+  top: 8px;
+}
+
 .sports-book-page .filters-holder span .filters-icon img {
-  margin-top: 3px;
+  display: none;
 }
 
 .sports-book-page .filters-holder .search-form {
@@ -6628,34 +6680,26 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .sports-book-page .filters-holder .buttons-holder .single-button {
-  background: #333844;
+  background: var(--bg1);
   line-height: 30px;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: bold;
-  color: #ebebeb;
-  padding: 0 7px 0 5px;
-  border-radius: 3px;
+  color: var(--col1);
+  padding: 0 5px;
   float: left;
   cursor: pointer;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .sports-book-page .filters-holder .buttons-holder .single-button:first-child {
   margin-right: 15px;
 }
 
-.sports-book-page .filters-holder .buttons-holder .single-button:hover {
-  background: #333949;
-}
-
 .sports-book-page .filters-holder .buttons-holder .single-button img {
-  float: left;
-  margin-top: 5px;
-  margin-right: 10px;
-  height: 20px;
-  width: auto;
+  display: none;
 }
 
 .sports-book-page .title {
@@ -8511,10 +8555,22 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+  color: inherit;
+}
+
+.live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .more-wrapper .more-icon:before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  content: "\f054";
+  font: normal normal normal 14px/1 FontAwesome;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .more-wrapper img {
-  display: inline-block;
+  display: none;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel.active .panel-content {
