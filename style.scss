@@ -489,8 +489,7 @@ input[type="submit"] {
 
 .header {
   width: 100%;
-  &.sports-page {
-  }
+
   .top-bar {
     background: var(--primary-bg);
     color: var(--primary-txt);
@@ -823,7 +822,6 @@ input[type="submit"] {
     color: var(--secondary-txt);
     border-bottom: 4px solid var(--accent);
     width: 100%;
-    height: 82px;
     display: flex;
     align-items: center;
     .top-header-content {
@@ -961,7 +959,6 @@ input[type="submit"] {
       padding-top: 15px;
     }
     .bottom-header {
-      top: 17px;
       height: auto;
     }
   }
@@ -1914,8 +1911,7 @@ input[type="submit"] {
               padding-right: 3px;
               width: 43%;
             }
-            &.running {
-            }
+
             &.won {
               &:after {
                 background-color: #2da050;
@@ -4640,17 +4636,21 @@ footer {
         bottom: 9px;
         background-color: var(--accent-bg);
         color: var(--accent-txt);
-        padding: 2px 10px 2px 20px;
+        padding: 2px 10px 2px 10px;
         border-radius: 3px;
         padding-right: 5px;
         line-height: 15px;
         font-size: 10px;
-        font-weight: 500;
-        background-image: url(#{$imagesPath}/info-icon.png);
-        background-position: left 2px center;
         background-size: 14px;
-        background-repeat: no-repeat;
         cursor: pointer;
+        &:before {
+          content: "\f05a";
+          font: normal normal normal 14px/1 FontAwesome;
+          margin-right: 4px;
+          position: relative;
+          top: 2px;
+          left: -2px;
+        }
       }
     }
   }
@@ -5401,16 +5401,21 @@ footer {
         &:hover {
           background: rgba($white, 0.06);
         }
+        &:before {
+          content: "\f059";
+          font: normal normal normal 14px/1 FontAwesome;
+          margin-right: 4px;
+        }
         img {
-          display: inline-block;
-          float: left;
-          margin-top: 4px;
-          margin-right: 5px;
-          mix-blend-mode: difference;
+          display: none;
         }
         &:nth-child(2) {
+          &:before {
+            content: "\f07c";
+            font: normal normal normal 14px/1 FontAwesome;
+          }
           img {
-            margin-top: 5px;
+            display: none;
           }
         }
       }
@@ -5421,7 +5426,20 @@ footer {
         margin-right: 10px;
         margin-left: 5px;
         cursor: pointer;
-        mix-blend-mode: difference;
+        position: relative;
+        img {
+          display: none;
+        }
+        &:after {
+          font: normal normal normal 14px/1 FontAwesome;
+          content: "\f021";
+        }
+        &[onclick="RemoveTablet(18);"] {
+          &:after {
+            font: normal normal normal 14px/1 FontAwesome;
+            content: "\f00d";
+          }
+        }
       }
     }
   }
@@ -5619,9 +5637,16 @@ footer {
       .filters-icon {
         display: inline-block;
         float: right;
+        position: relative;
         margin-left: 10px;
+        &:before {
+          content: "\f005";
+          font: normal normal normal 14px/1 FontAwesome;
+          position: relative;
+          top: 8px;
+        }
         img {
-          margin-top: 3px;
+          display: none;
         }
       }
     }
@@ -5670,29 +5695,22 @@ footer {
       float: right;
       display: inline-block;
       .single-button {
-        background: $sb-2;
+        background: var(--bg1);
         line-height: 30px;
-        font-size: 17px;
+        font-size: 14px;
         font-weight: bold;
-        color: $white;
-        padding: 0 7px 0 5px;
-        border-radius: 3px;
+        color: var(--col1);
+        padding: 0 5px;
         float: left;
         cursor: pointer;
         transition: 0.3s all;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+        font-weight: 300;
+        text-transform: uppercase;
         &:first-child {
           margin-right: 15px;
         }
-        &:hover {
-          background: $primary;
-        }
         img {
-          float: left;
-          margin-top: 5px;
-          margin-right: 10px;
-          height: 20px;
-          width: auto;
+          display: none;
         }
       }
     }
@@ -7305,9 +7323,19 @@ footer {
                 margin: 0 auto;
                 display: flex;
                 justify-content: center;
+                position: relative;
+                color: inherit;
+                &:before {
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%, -50%);
+                  content: "\f054";
+                  font: normal normal normal 14px/1 FontAwesome;
+                }
               }
               img {
-                display: inline-block;
+                display: none;
               }
             }
           }
