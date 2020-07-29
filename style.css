@@ -5538,7 +5538,7 @@ footer.center-footer .footer-logos .group-1 {
           filter: brightness(0.9);
 }
 
-.odds-table .single-match-row td .more-cell:before {
+.odds-table .single-match-row td .more-cell.with-number:before {
   content: "\f067";
   font-family: FontAwesome;
   font-size: 10px;

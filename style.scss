@@ -3218,8 +3218,7 @@ input[type="submit"] {
   width: 100%;
   background: var(--bg1);
   color: var(--col1);
-  justify-content:center;
-
+  justify-content: center;
 }
 .center-content {
   border-left: 5px solid var(--mainBg);
@@ -3229,7 +3228,7 @@ input[type="submit"] {
   float: left;
   transition: 0s all;
   scrollbar-width: none;
-  flex-grow:1;
+  flex-grow: 1;
 
   &::-webkit-scrollbar {
     display: none;
@@ -4740,7 +4739,7 @@ footer {
             filter: brightness(0.9);
           }
         }
-        &:before {
+        &.with-number:before {
           content: "\f067";
           font-family: FontAwesome;
           font-size: 10px;
