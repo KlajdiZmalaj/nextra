@@ -4,7 +4,7 @@
 
 //sec font
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@import "./settings";
+@import "./vars";
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;
@@ -3089,20 +3089,18 @@ input[type="submit"] {
           line-height: 18px;
           &:after {
             position: absolute;
-            content: "";
-            background-position: center;
-            background-size: cover;
-            background-color: transparent;
-            background-image: url(#{$imagesPath}/triangle-right.png);
-            transform: translateY(-50%) rotate(0deg);
-            left: 0;
+            content: "\f054";
             width: 18px;
             height: 18px;
             top: 50%;
+            font: normal normal normal 14px/1 FontAwesome;
+            top: 10px;
+            font-weight: 300;
+            left: 10px;
           }
           &.active {
             &:after {
-              transform: translateY(-50%) rotate(90deg);
+              transform: translateY(0) translateX(-5px) rotate(90deg);
             }
           }
         }
@@ -6580,10 +6578,10 @@ footer {
                 display: none;
               }
               &:before {
-                content : '\f023';
+                content: "\f023";
                 font: normal normal normal 14px/1 FontAwesome;
                 font-size: 12px;
-                color:inherit;
+                color: inherit;
                 display: flex;
                 margin: 0 auto;
                 align-items: center;
@@ -7161,7 +7159,7 @@ footer {
                   &:nth-child(3n + 2) {
                     border-left: none;
                     border-right: none;
-                  
+
                     &:last-child {
                       border-right: 1px solidvar(--tableBorders);
                     }
@@ -7230,18 +7228,18 @@ footer {
                         display: none;
                       }
                       &:before {
-                        content : '\f023';
+                        content: "\f023";
                         font: normal normal normal 14px/1 FontAwesome;
                         font-size: 12px;
-                        color:inherit;
+                        color: inherit;
                         display: flex;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+                        margin: 0 auto;
+                        align-items: center;
+                        justify-content: center;
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
                       }
                     }
                     .quote {
@@ -9041,22 +9039,9 @@ footer {
       margin: 0 0 30px;
       li {
         position: relative;
-        padding-left: 35px;
         font-weight: bold;
         font-size: 14px;
         line-height: 18px;
-        &:before {
-          content: "";
-          position: absolute;
-          left: 0;
-          top: 0;
-          height: 18px;
-          width: 18px;
-          background-image: url(#{$imagesPath}/check-purple.png);
-          background-size: 100% 100%;
-          background-position: center center;
-          background-repeat: no-repeat;
-        }
       }
     }
     p {

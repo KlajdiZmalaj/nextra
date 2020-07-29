@@ -3698,22 +3698,19 @@ input[type="submit"] {
 
 .single-sport .states .state > .anchor .trigger:after {
   position: absolute;
-  content: "";
-  background-position: center;
-  background-size: cover;
-  background-color: transparent;
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-right.png);
-  -webkit-transform: translateY(-50%) rotate(0deg);
-          transform: translateY(-50%) rotate(0deg);
-  left: 0;
+  content: "\f054";
   width: 18px;
   height: 18px;
   top: 50%;
+  font: normal normal normal 14px/1 FontAwesome;
+  top: 10px;
+  font-weight: 300;
+  left: 10px;
 }
 
 .single-sport .states .state > .anchor .trigger.active:after {
-  -webkit-transform: translateY(-50%) rotate(90deg);
-          transform: translateY(-50%) rotate(90deg);
+  -webkit-transform: translateY(0) translateX(-5px) rotate(90deg);
+          transform: translateY(0) translateX(-5px) rotate(90deg);
 }
 
 .single-sport .states .state > .anchor > .check {
@@ -7600,7 +7597,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-zero .odd-type:before {
-  content: '\f023';
+  content: "\f023";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 12px;
   color: inherit;
@@ -8385,7 +8382,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.odd-zero .odd-type:before {
-  content: '\f023';
+  content: "\f023";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 12px;
   color: inherit;
@@ -10539,24 +10536,9 @@ footer.center-footer .footer-logos .group-1 {
 .default-page-content .default-page-inner ul li,
 .text-content .default-page-inner ul li {
   position: relative;
-  padding-left: 35px;
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
-}
-
-.default-page-content .default-page-inner ul li:before,
-.text-content .default-page-inner ul li:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 18px;
-  width: 18px;
-  background-image: url(//nextra.nextra.bet/nextra/images/check-purple.png);
-  background-size: 100% 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 
 .default-page-content .default-page-inner p,
