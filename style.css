@@ -5435,6 +5435,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .odds-table {
   border-collapse: collapse;
+  margin-top: 5px;
   width: 100%;
   max-width: 100%;
   border: 1px solid var(--tableBorders);
@@ -5475,7 +5476,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .second-header td .info-toggle {
   position: absolute;
   left: 10px;
-  bottom: 9px;
+  bottom: 5px;
   background-color: var(--accent-bg);
   color: var(--accent-txt);
   padding: 2px 10px 2px 10px;
@@ -5555,6 +5556,12 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .second-header {
   background: var(--bg1);
   color: var(--col1);
+  opacity: 0.8;
+}
+
+.odds-table .second-header td {
+  border: none;
+  line-height: 24px;
 }
 
 .odds-table .single-match-row.match-odds-open {
@@ -5701,7 +5708,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .match-name .team-names {
   font-size: 12px;
   font-weight: bold;
-  max-width: calc(100% - 124px);
+  max-width: calc(100% - 123px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8555,11 +8562,13 @@ footer.center-footer .footer-logos .group-1 {
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.selected {
   background: var(--accent-bg);
   color: var(--accent-txt);
+  border: 4px solid var(--mainBg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.selected .quote,
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.selected .odd-type {
   color: inherit;
+  line-height: 32px;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.flash {
@@ -20083,6 +20092,7 @@ select option {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 10px;
 }
 
 .tabletsOdds .single-tab {
@@ -20093,7 +20103,7 @@ select option {
   float: left;
   background: var(--mainBg);
   margin-right: 10px;
-  border-radius: 5px;
+  border-radius: 0px;
   margin: 2px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
