@@ -3210,17 +3210,21 @@ input[type="submit"] {
   }
 }
 .main-content-holder {
-  display: inline-block;
+  display: flex;
   width: 100%;
   background: var(--bg1);
   color: var(--col1);
+  justify-content:center;
+
 }
 .center-content {
-  width: calc(100% - 536px);
+  border-left: 5px solid var(--mainBg);
+  border-right: 5px solid var(--mainBg);
+  width: calc(100% - 546px);
   float: left;
   transition: 0s all;
   scrollbar-width: none;
-  /*overflow-x: hidden;*/
+  flex-grow:1;
 
   &::-webkit-scrollbar {
     display: none;
@@ -3877,7 +3881,7 @@ input[type="submit"] {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-
+    box-sizing: border-box;
     .title {
       font-size: 13px;
       font-weight: 300;
