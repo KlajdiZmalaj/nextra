@@ -3177,7 +3177,7 @@ input[type="submit"] {
       -ms-flex-align: center;
           align-items: center;
   font-weight: bold;
-  padding: 0 20px;
+  padding: 0 10px;
   -ms-flex-negative: 1;
       flex-shrink: 1;
   display: flex;
@@ -3193,17 +3193,7 @@ input[type="submit"] {
 }
 
 .left-side-bar .single-item .item-button .second-part:after {
-  content: "New";
-  display: block;
-  position: absolute;
-  right: 10px;
-  top: 13px;
-  background: var(--mainBg);
-  color: var(--accent);
-  padding: 3px 6px;
-  font-weight: 300;
-  font-size: 12px;
-  text-transform: uppercase;
+  content: "";
 }
 
 .left-side-bar .single-item .item-button .second-part .new {
@@ -6703,7 +6693,7 @@ footer.center-footer .footer-logos .group-1 {
 .sports-book-page .filters-holder .search-form input[type="submit"] {
   float: left;
   width: 37px;
-  height: 30px;
+  height: 26px;
   background: #333844;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
@@ -6711,13 +6701,14 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 0;
   background-image: url(//nextra.nextra.bet/biwinner/images/search-icon.png);
   background-size: 50%;
-  background-position: center left 12px;
+  background-position: center left 9px;
   background-repeat: no-repeat;
   float: left;
 }
 
 .sports-book-page .filters-holder .search-form input[type="text"] {
-  border: 2px solid #333844;
+  border: none;
+  border-left: 1px solid #333844;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   line-height: 24px;
@@ -8318,7 +8309,9 @@ footer.center-footer .footer-logos .group-1 {
       -ms-flex-align: center;
           align-items: center;
   font-size: 12px;
-  padding-left: 8px;
+  padding-left: 5px;
+  width: 46px;
+  text-align: center;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .minute {
