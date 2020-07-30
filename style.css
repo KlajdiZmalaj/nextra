@@ -3816,6 +3816,7 @@ input[type="submit"] {
 .single-sport .states .state .championship.selected .anchor {
   background: #333844;
   color: #ebebeb;
+  font-weight: 500;
 }
 
 .single-sport .states.active {
@@ -3875,6 +3876,7 @@ input[type="submit"] {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  background: var(--bg1);
 }
 
 .center-content::-webkit-scrollbar {
@@ -5678,7 +5680,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 100%;
   text-align: center;
   font-size: 9px;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .odds-table .match-name .match-details.time-only {
@@ -6334,6 +6336,13 @@ footer.center-footer .footer-logos .group-1 {
   width: 21px;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
+}
+
+.championship-page .title img.icon:before,
+.total-goals-page .title img.icon:before,
+.soccer-fixtures-page .title img.icon:before {
+  content: "\f05a";
+  font: normal normal normal 14px/1 FontAwesome;
 }
 
 .championship-page .title img.icon.closed,
