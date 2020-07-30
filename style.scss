@@ -1464,7 +1464,7 @@ input[type="submit"] {
       .block-title {
         position: relative;
         .potential-winning {
-          font-weight: bold;
+          font-weight: 300;
           font-size: 11px;
           float: left;
           line-height: 36px;
@@ -1990,7 +1990,7 @@ input[type="submit"] {
               padding: 0 5px;
               float: left;
               font-size: 12px;
-              font-weight: bold;
+              font-weight: 300;
               line-height: 36px;
               span {
                 float: right;
@@ -2107,7 +2107,7 @@ input[type="submit"] {
                   float: right;
                   padding-right: 8px;
                   font-size: 11px;
-                  font-weight: bold;
+                  font-weight: 300;
                   line-height: 26px;
                 }
               }
@@ -2123,7 +2123,7 @@ input[type="submit"] {
               float: left;
               line-height: 28px;
               font-size: 11px;
-              font-weight: bold;
+              font-weight: 300;
               text-align: center;
               border-bottom: none;
               position: relative;
@@ -2440,7 +2440,7 @@ input[type="submit"] {
                 background-size: 100% 100%;
                 line-height: 56px;
                 font-size: 25px;
-                font-weight: bold;
+                font-weight: 300;
                 text-align: center;
                 width: 100%;
                 display: inline-block;
@@ -2498,22 +2498,23 @@ input[type="submit"] {
         }
       }
     }
-    &:nth-child(4) {
-      .block-title {
-        &:before {
-          content: "\f14a";
-          font: normal normal normal 14px/1 FontAwesome;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          padding: 0 10px;
-          font-size: 16px;
-        }
-        img {
-          display: none;
-        }
-      }
-    }
+
+    // &:nth-child(4) {
+    //   .block-title {
+    //     &:before {
+    //       content: "\f14a";
+    //       font: normal normal normal 14px/1 FontAwesome;
+    //       display: flex;
+    //       align-items: center;
+    //       justify-content: center;
+    //       padding: 0 10px;
+    //       font-size: 16px;
+    //     }
+    //     img {
+    //       display: none;
+    //     }
+    //   }
+    // }
   }
 }
 
@@ -2675,9 +2676,25 @@ input[type="submit"] {
     }
   }
 }
-
+//
 .right-side-bar {
   float: right;
+  .single-block:nth-child(4) {
+    .block-title {
+      &:before {
+        content: "\f14a";
+        font: normal normal normal 14px/1 FontAwesome;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        font-size: 16px;
+      }
+      img {
+        display: none;
+      }
+    }
+  }
 
   .banner-block {
     a {
@@ -4787,7 +4804,7 @@ footer {
           background: var(--bg1);
           color: var(--col1);
           font-size: 12px;
-          font-weight: bold;
+          font-weight: 300;
           line-height: 28px;
         }
         &:hover,
@@ -5193,10 +5210,6 @@ footer {
             }
           }
 
-          &:hover {
-            background: lighten($primary, 10%);
-            color: lighten($white, 20%);
-          }
           &.selected {
             background: var(--accent-bg);
             color: var(--accent-txt);
@@ -8453,17 +8466,16 @@ footer {
 }
 .registration-page {
   width: 100%;
-  padding: 0 0 8px;
   display: inline-block;
   .block-title {
     position: relative;
-    color: $secondaryDarkCol;
+    color: var(--teableHeadersCol);
     line-height: 36px;
     height: 36px;
     font-size: 14px;
     display: inline-block;
     width: 100%;
-    background: $secondaryDark;
+    background: var(--teableHeadersBg);
     text-transform: uppercase;
     img {
       display: inline-block;
@@ -8477,17 +8489,13 @@ footer {
     }
   }
   .registration-holder {
-    width: calc(100% - 558px);
+    width: calc(100%);
     float: left;
     padding-right: 8px;
     min-width: calc(50% - 8px);
     .form-holder {
-      border-bottom: 10px solid $secondaryDark;
-      background: #dbdadb;
-      background: -moz-linear-gradient(top, #dbdadb 0%, #cdcccc 100%);
-      background: -webkit-linear-gradient(top, #dbdadb 0%, #cdcccc 100%);
-      background: linear-gradient(to bottom, #dbdadb 0%, #cdcccc 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdadb', endColorstr='#cdcccc',GradientType=0 );
+      background: var(--mainBg);
+      color: var(--mainBgCol);
       padding: 20px 20px 0px 50px;
       position: relative;
       form {
@@ -8496,11 +8504,11 @@ footer {
           text-align: center;
           margin-top: 30px;
           p {
-            color: $primary;
           }
           a {
             position: absolute;
             width: 20px;
+            color: inherit;
           }
           img {
             display: inline-block;
@@ -8525,7 +8533,6 @@ footer {
           font-size: 13px;
           margin-bottom: 13px;
           line-height: 1;
-          color: lighten($primary, 12%);
         }
         .input-wrapper {
           padding-right: 30px;
@@ -8633,7 +8640,6 @@ footer {
             }
           }
           .check-label {
-            color: lighten($primary, 12%);
             font-size: 12px;
             font-weight: 500;
             float: left;
@@ -8791,13 +8797,7 @@ footer {
     }
   }
   .registration-banners {
-    width: 550px;
-    float: left;
-    max-width: 50%;
-    img {
-      width: 100%;
-      margin-bottom: 5px;
-    }
+    display:none;
   }
   .registration-successful {
     .content {
@@ -17115,6 +17115,7 @@ body {
   }
 }
 #loading {
+  display: none !important;
   .loader-logo {
     display: none;
   }
