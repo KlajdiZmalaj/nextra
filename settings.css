@@ -262,7 +262,6 @@ template {
 [class*="gicon "],
 [class*="glyph"] {
   font-family: "ciro" !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -274,7 +273,6 @@ template {
 
 .gicon-family {
   font-family: "ciro" !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -5009,7 +5007,12 @@ input[disabled] {
   font-weight: bold;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-top: 1px solid;
+}
+
+.sport_date_odds p {
+  padding: 6px;
+  margin: 0;
+  font-weight: 500;
 }
 
 .sport_date_odds[data-show="false"] {
@@ -5356,7 +5359,7 @@ h3.sport_title {
   font-size: 12px;
   font-weight: 300;
   text-align: left;
-  padding: 13px 5px;
+  padding: 10px 5px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 70%;
@@ -5777,7 +5780,6 @@ span.match-alias:after {
   top: 7px;
   right: -15px;
   font-family: "ciro" !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -10638,8 +10640,10 @@ h3.sport_title {
 }
 
 .sport_single_quote div span.tipoquota {
-  background: var(--primary-bg);
-  color: var(--primary-txt);
+  background: var(--bg1);
+  color: var(--col1);
+  opacity: 0.7;
+  padding: 3px 0;
 }
 
 a.sport_odds_button_more {
