@@ -3833,6 +3833,7 @@ input[type="submit"] {
 .single-sport .states .state .championship.selected .anchor {
   background: #0a96f0;
   color: #ebebeb;
+  font-weight: 500;
 }
 
 .single-sport .states.active {
@@ -3892,6 +3893,7 @@ input[type="submit"] {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  background: var(--bg1);
 }
 
 .center-content::-webkit-scrollbar {
@@ -5698,7 +5700,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 100%;
   text-align: center;
   font-size: 9px;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .odds-table .match-name .match-details.time-only {
@@ -6358,6 +6360,13 @@ footer.center-footer .footer-logos .group-1 {
   transition: 0.3s all;
 }
 
+.championship-page .title img.icon:before,
+.total-goals-page .title img.icon:before,
+.soccer-fixtures-page .title img.icon:before {
+  content: "\f05a";
+  font: normal normal normal 14px/1 FontAwesome;
+}
+
 .championship-page .title img.icon.closed,
 .total-goals-page .title img.icon.closed,
 .soccer-fixtures-page .title img.icon.closed {
@@ -6530,13 +6539,14 @@ footer.center-footer .footer-logos .group-1 {
   display: none;
   margin-top: 21px;
   border-top: 1px solid var(--tableBorders);
+  margin-bottom: 3px;
 }
 
 .tabs-holder .tabs-row .inner-tabs .single-inner-tab {
   line-height: 36px;
-  width: calc(100% / 6 - 1px);
-  border-right: 1px solid var(--tableBorders);
-  border-bottom: 1px solid var(--tableBorders);
+  width: calc(100% / 6 - 6px);
+  border: 1px solid var(--bg1);
+  padding: 0px 2px;
   float: left;
   text-align: center;
   cursor: pointer;
@@ -10525,6 +10535,10 @@ footer.center-footer .footer-logos .group-1 {
 
 .help-page {
   border-top: 4px solid #c2c2c2;
+}
+
+.help-page .center-content.default-page-content {
+  width: calc(100% - 280px) !important;
 }
 
 .help-page .help-menu {

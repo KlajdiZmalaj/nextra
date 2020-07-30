@@ -3205,6 +3205,7 @@ input[type="submit"] {
           .anchor {
             background: $sb-2;
             color: $white;
+            font-weight: 500;
           }
         }
       }
@@ -3260,7 +3261,7 @@ input[type="submit"] {
   transition: 0s all;
   scrollbar-width: none;
   flex-grow: 1;
-
+  background: var(--bg1);
   &::-webkit-scrollbar {
     display: none;
   }
@@ -4833,7 +4834,7 @@ footer {
         width: 100%;
         text-align: center;
         font-size: 9px;
-        font-weight: 400;
+        font-weight: 400 !important;
       }
 
       &.time-only {
@@ -5414,6 +5415,10 @@ footer {
       float: left;
       width: 21px;
       transition: 0.3s all;
+      &:before {
+        content: "\f05a";
+        font: normal normal normal 14px/1 FontAwesome;
+      }
       &.closed {
         transform: translate(2px, -1px) rotate(-90deg);
       }
@@ -5546,11 +5551,12 @@ footer {
       display: none;
       margin-top: 21px;
       border-top: 1px solid var(--tableBorders);
+      margin-bottom: 3px;
       .single-inner-tab {
         line-height: 36px;
-        width: calc(100% / 6 - 1px);
-        border-right: 1px solid var(--tableBorders);
-        border-bottom: 1px solid var(--tableBorders);
+        width: calc(100% / 6 - 6px);
+        border: 1px solid var(--bg1);
+        padding: 0px 2px;
         float: left;
         text-align: center;
         cursor: pointer;
@@ -8972,6 +8978,9 @@ footer {
 
 .help-page {
   border-top: 4px solid $primary;
+  .center-content.default-page-content {
+    width: calc(100% - 280px) !important;
+  }
   .help-menu {
     border: 2px solid #d5cccc;
     display: inline-block;
