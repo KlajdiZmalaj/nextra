@@ -4474,11 +4474,11 @@ input[type="submit"] {
 }
 
 .center-content .odds-graph-holder .match-odds-chart .ct-series-b * {
-  stroke: #677494;
+  stroke: #8bc34a;
 }
 
 .center-content .odds-graph-holder .match-odds-chart .ct-series-c * {
-  stroke: #262ca8;
+  stroke: #e15d33;
 }
 
 .center-content .odds-graph-holder .section-odds {
@@ -4553,15 +4553,14 @@ input[type="submit"] {
 .center-content .odds-graph-holder .section-odds .starting-odds .the-odds .first-row span {
   font-size: 13px;
   font-weight: bold;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
 }
 
 .center-content .odds-graph-holder .section-odds .starting-odds .the-odds .first-row span:first-child {
-  color: #262ca8;
+  color: #e15d33;
 }
 
 .center-content .odds-graph-holder .section-odds .starting-odds .the-odds .first-row span:nth-child(2) {
-  color: #677494;
+  color: #8bc34a;
 }
 
 .center-content .odds-graph-holder .section-odds .starting-odds .the-odds .first-row span:nth-child(3) {
@@ -4756,10 +4755,12 @@ input[type="submit"] {
 
 .center-content .percentage-block .single-over-under .percentage-graph .ct-series-a .ct-slice-donut {
   stroke: var(--accent);
+  stroke-width: 2px !important;
 }
 
 .center-content .percentage-block .single-over-under .percentage-graph .ct-series-b .ct-slice-donut {
   stroke: rgba(141, 140, 142, 0.19);
+  stroke-width: 2px !important;
 }
 
 .center-content .percentage-block .single-over-under .percentage-graph .value {
@@ -4772,28 +4773,39 @@ input[type="submit"] {
   text-align: left;
   line-height: 1;
   z-index: 2;
-}
-
-.center-content .percentage-block .single-over-under .percentage-graph .value .type {
-  padding-left: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 8px;
 }
 
 .center-content .percentage-block .single-over-under .percentage-graph .value .percentage {
-  font-weight: bold;
+  font-weight: 300;
   display: inline-block;
   text-align: center;
   width: 100%;
-  font-size: 24px;
+  font-size: 19px;
 }
 
 .center-content .percentage-block .single-over-under .team-names {
   width: 100%;
   padding: 10px 0;
+  text-transform: uppercase;
 }
 
 .center-content .percentage-block .single-over-under .team-names .home-team,
 .center-content .percentage-block .single-over-under .team-names .away-team {
-  font-weight: bold;
+  font-weight: 300;
   font-size: 13px;
   text-align: center;
   line-height: 23px;
@@ -4803,7 +4815,7 @@ input[type="submit"] {
   position: relative;
   width: 100%;
   text-align: center;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 13px;
 }
 
@@ -4814,15 +4826,6 @@ input[type="submit"] {
   top: 50%;
   width: 60px;
   height: 2px;
-  background: linear-gradient(45deg, rgba(125, 185, 232, 0) 0%, #a29ca8 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#a29ca8',GradientType=1 );
-}
-
-.center-content .percentage-block .single-over-under .team-names .vs:after {
-  left: auto;
-  right: calc(50% - 72px);
-  background: linear-gradient(45deg, #a29ca8 0%, rgba(125, 185, 232, 0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca8', endColorstr='#007db9e8',GradientType=1 );
 }
 
 .center-content .percentage-block .bets {
@@ -20400,5 +20403,13 @@ body .loader__ball {
 #search_event {
   -webkit-box-shadow: inset 0 0 8px -2px black;
           box-shadow: inset 0 0 8px -2px black;
+}
+
+.main-content.live-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: var(--mainBg);
+  color: var(--mainBgCol);
 }
 /*# sourceMappingURL=style.css.map */
