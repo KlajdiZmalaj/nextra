@@ -1,31 +1,20 @@
-$skin: "biwinner";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
-
-$logoUrl: "https://gradm-api.pcluster.info/api/skin/49/image/131d162d7dd48e35ba4d9b69202e331a.png";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/49/image/874404f8fef779a0bdae0931ba9eabfd.jpeg";
-$bodyCol: #000;
-
-//invet 1 light skin inver 0 dark skin (images)
-$invet: 0;
-
 html:root {
-  --accent: #de3442;
-  --accent-bg: #b30013;
-  --accent-txt: #fff;
-  --primary-bg: #11151a;
-  --primary-txt: #fff;
-  --secondary-bg: #8b000f;
-  --secondary-txt: #fff;
-  --mainBg: #24323b;
-  --mainBgCol: #fff;
-  --bg1: #2e3e49;
-  --col1: #fff;
-  --teableHeadersBg: #971523;
-  --teableHeadersCol: #fff;
-  --teableSubHeadersBg: #414755;
+  --accent: #005293;
+  --accent-bg: #005293;
+  --accent-txt: #ffcc00;
+  --primary-bg: #005293;
+  --primary-txt: #ffffff;
+  --secondary-bg: #ffffff;
+  --secondary-txt: #000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #e7e7e7;
+  --col1: #000;
+  --teableHeadersBg: #ffcc00;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #005293;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #161d2f;
+  --tableBorders: #a3a3a3;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #f4c100;
@@ -33,18 +22,35 @@ html:root {
   --backDrops: #000000cf;
 }
 
-$secondary: #b30013;
+$skin: "nextra";
+$cdnPath: "//#{$skin}.nextra.bet/#{$skin}";
+$imagesPath: "//#{$skin}.nextra.bet/#{$skin}/images";
+
+$logoUrl: "http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/45/image/98d3fcf49dcebf55ddfb3ebaab7fe447.jpeg";
+$bodyCol: #ebebeb;
+//invet 1 light skin inver 0 dark skin (images)
+$invet: 0;
+
+$secondary: #005293;
 $secondaryCol: #fff;
-$black: #000000;
-$secondaryDark: #b30013;
+
+$secondaryDark: #0a497e;
 $secondaryDarkCol: #fff;
-$primary: #2e3e49;
+$black: #000000;
+$primary: #c2c2c2;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #2e3e49;
+$sb-2: #0a96f0;
 
-.header .top-header .top-header-content .logo-holder a:before {
-  width: 130px !important;
+//icesport styles
+
+//black filter li logos
+#favouriteTournaments li:before {
+  filter: brightness(0.1);
+}
+body {
+  background-attachment: initial !important;
 }

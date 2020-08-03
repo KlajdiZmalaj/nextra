@@ -917,7 +917,7 @@ input[type="submit"] {
               display: inline-block;
               float: left;
               padding: 3px 5px 0 3px;
-              margin-top: 2px;
+              margin-top: 8px;
               font-size: 12px;
               line-height: 17px;
               font-weight: normal;
@@ -997,6 +997,7 @@ input[type="submit"] {
     display: flex;
     flex-flow: column;
     width: 100%;
+    margin-bottom: 1px;
     .block-title {
       position: relative;
       line-height: 36px;
@@ -1468,6 +1469,7 @@ input[type="submit"] {
       overflow-x: hidden;
       .block-title {
         position: relative;
+        margin-bottom: 1px;
         .potential-winning {
           font-weight: 300;
           font-size: 11px;
@@ -2598,6 +2600,7 @@ input[type="submit"] {
         font-weight: 500;
         &:after {
           content: "";
+          padding: 0;
           // display: block;
           // position: absolute;
           // right: 10px;
@@ -3189,6 +3192,7 @@ input[type="submit"] {
       }
       .championship {
         display: block;
+        border-bottom: 1px solid var(--tableBorders);
         .anchor {
           font-weight: bold;
           font-size: 12px;
@@ -3265,6 +3269,10 @@ input[type="submit"] {
     width: 42px;
     height: 22px;
     line-height: 22px;
+  }
+  &:hover {
+    background: var(--accent-bg);
+    color: var(--accent-txt);
   }
 }
 .main-content-holder {
@@ -9823,7 +9831,7 @@ footer {
     .cashdesk-tabs {
       width: 100%;
       border-bottom: 1px solid var(--tableBorders);
-      padding: 20px 0 60px;
+      padding: 15px 0 15px;
       background-color: var(--mainBg);
       color: var(--mainBgCol);
       display: inline-block;
@@ -10890,6 +10898,7 @@ footer {
 
       &:last-child {
         border-bottom: none;
+        width: 100%;
       }
       .row-content {
         width: 560px;
@@ -11007,7 +11016,7 @@ footer {
       .buttons-holder {
         width: 100%;
         display: inline-block;
-        margin: 30px 0;
+        margin: 20px 0;
         .single-button {
           float: left;
           font-size: 17px;
@@ -11149,7 +11158,7 @@ footer {
       margin-bottom: 5px;
     }
     .big-buttons {
-      height: 280px;
+      height: 230px;
       float: left;
       width: calc(100% - 325px);
       margin-right: 5px;
@@ -11184,7 +11193,7 @@ footer {
     .quick-look {
       width: 320px;
       display: inline-block;
-      height: 280px;
+      height: 230px;
       background: var(--mainBg);
       color: var(--mainBgCol);
       float: left;
@@ -11200,7 +11209,7 @@ footer {
           height: 100%;
           .single-holder {
             border-bottom: 1px solid var(--tableBorders);
-            padding: 14px 13px;
+            padding: 5px 10px;
             box-sizing: border-box;
             line-height: 1.3;
             &:last-child {
@@ -12213,14 +12222,14 @@ footer {
       .search-events-head {
         width: 100%;
         display: inline-block;
-        background: #231035;
+        background: var(--secondary-bg);
         .search-form {
           float: left;
           > div {
             margin: 7px 10px;
             padding: 4px;
             border-radius: 3px;
-            background-color: lighten($primary, 24%);
+            background-color: var(--accent-bg);
             display: inline-block;
             .icon {
               float: left;
@@ -12252,6 +12261,14 @@ footer {
         table {
           border: 1px solid #c2c1c1;
           width: 100%;
+          thead {
+            background: var(--bg1);
+            color: var(--col1);
+            opacity: 0.8;
+            th {
+              color: var(--col1) !important;
+            }
+          }
           tr {
             border-bottom: 1px solid #c2c1c1;
             th,
@@ -12265,7 +12282,9 @@ footer {
               }
             }
             td {
-              color: $primary;
+              // color: $primary;
+              background: var(--mainBg);
+              color: var(--mainBgCol);
               font-size: 12px;
               font-weight: normal;
               .pdf-icon {
@@ -13669,7 +13688,7 @@ footer {
 
 .ssl-holder {
   background-color: var(--mainBg);
-  padding: 10px 20px;
+  padding: 10px 0px;
   box-sizing: border-box;
   width: 100%;
   display: inline-block;
