@@ -1,0 +1,49 @@
+$skin: "biwinner";
+$cdnPath: "//nextra.nextra.bet/#{$skin}";
+$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+
+$logoUrl: "http://static.pcluster.info/skins/estrelasbet/img/logo/es.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/67/image/5e5ebfb41cfd85c9906bbe28d9ed6b2d.jpeg";
+$bodyCol: #313131;
+
+//invet 1 light skin inver 0 dark skin (images)
+$invet: 1;
+html:root {
+  --accent: #ffeb3b;
+  --accent-bg: #ffeb3b;
+  --accent-txt: #000;
+  --primary-bg: #1c1c1c;
+  --primary-txt: #fff;
+  --secondary-bg: #2e2e2e;
+  --secondary-txt: #fff;
+  --mainBg: #282828;
+  --mainBgCol: #fff;
+  --bg1: #323232;
+  --col1: #fff;
+  --teableHeadersBg: #14805e;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #636363;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #535353;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #f4c100;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+}
+
+$secondary: #14805e;
+$secondaryCol: #fff;
+$black: #000000;
+$secondaryDark: #14805e;
+$secondaryDarkCol: #fff;
+$primary: #323232;
+$white: #ebebeb;
+$blue: #262ca8;
+$green: #2e9c3d;
+$red: #e1042e;
+$sb-2: #323232;
+
+body {
+  background-size: 1800px !important;
+}
