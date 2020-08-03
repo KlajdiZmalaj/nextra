@@ -52,6 +52,6 @@ $sb-2: #278a3a;
   filter: brightness(0.1);
 }
 html footer {
-  background: #222;
-  color: #fff;
+  background:#222;
+  color:#fff;
 }

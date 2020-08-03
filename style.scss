@@ -17189,3 +17189,13 @@ body {
 .ct-grid {
   stroke: var(--tableBorders) !important;
 }
+span.ui-slider-handle:before {
+  content: "";
+  width: 500px;
+  height: 2px;
+  background: var(--accent);
+  display: block;
+  right: 0;
+  position: absolute;
+  top: 6px;
+}
