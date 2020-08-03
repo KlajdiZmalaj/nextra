@@ -1103,7 +1103,7 @@ input[type="submit"] {
   display: inline-block;
   float: left;
   padding: 3px 5px 0 3px;
-  margin-top: 2px;
+  margin-top: 8px;
   font-size: 12px;
   line-height: 17px;
   font-weight: normal;
@@ -3205,6 +3205,7 @@ input[type="submit"] {
 
 .left-side-bar .single-item .item-button .second-part:after {
   content: "";
+  padding: 0;
 }
 
 .left-side-bar .single-item .item-button .second-part .new {
@@ -3785,6 +3786,7 @@ input[type="submit"] {
 
 .single-sport .states .state .championship {
   display: block;
+  border-bottom: 1px solid var(--tableBorders);
 }
 
 .single-sport .states .state .championship .anchor {
@@ -12944,7 +12946,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-content.admin-content .big-buttons {
-  height: 280px;
+  height: 230px;
   float: left;
   width: calc(100% - 325px);
   margin-right: 5px;
@@ -12988,7 +12990,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-content.admin-content .quick-look {
   width: 320px;
   display: inline-block;
-  height: 280px;
+  height: 230px;
   background: var(--mainBg);
   color: var(--mainBgCol);
   float: left;
@@ -13012,7 +13014,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-content.admin-content .quick-look .content .left-content .single-holder,
 .logged-content.admin-content .quick-look .content .right-content .single-holder {
   border-bottom: 1px solid var(--tableBorders);
-  padding: 14px 13px;
+  padding: 5px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   line-height: 1.3;
