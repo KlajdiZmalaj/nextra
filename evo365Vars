@@ -1,0 +1,56 @@
+$skin: "biwinner";
+$cdnPath: "//nextra.nextra.bet/#{$skin}";
+$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+
+$logoUrl: "https://gradm-api.pcluster.info/api/skin/25/image/821baba3c808cd5870811b25c8d49535.png";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/30/image/7be4801f571d6a1bb0bab2ff0270f8b3.jpeg";
+$bodyCol: #000;
+
+//invet 1 light skin inver 0 dark skin (images)
+$invet: 0;
+
+html:root {
+  --accent: #f7c828;
+  --accent-bg: #f7c828;
+  --accent-txt: #000;
+  --primary-bg: #ffffff;
+  --primary-txt: #707070;
+  --secondary-bg: #000000;
+  --secondary-txt: #fff;
+  --mainBg: #101010;
+  --mainBgCol: #fff;
+  --bg1: #000 ;
+  --col1: #fff;
+  --teableHeadersBg: #f7c828;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: linear-gradient(180deg, black 64%, #6a5408 100%);
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #292929;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #f7c828;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+}
+
+$secondary: #f7c828;
+$secondaryCol: #fff;
+$black: #000000;
+$secondaryDark: #f7c828;
+$secondaryDarkCol: #222;
+$primary: #333949;
+$white: #ebebeb;
+$blue: #262ca8;
+$green: #2e9c3d;
+$red: #e1042e;
+$sb-2: #333844;
+
+
+
+.side-bar .single-block .block-content.sports-menu .sports-menu-bottom #sports-menu-slider.ui-widget.ui-widget-content.ui-slider-horizontal {
+      background: var(--accent-bg);
+}
+
+.side-bar .single-block .block-content.sports-menu .sports-menu-bottom {
+    background: var(--tableBorders);
+}
