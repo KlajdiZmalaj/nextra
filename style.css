@@ -2,25 +2,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 html:root {
-  --accent: #f7c828;
-  --accent-bg: ##f7c828;
+  --accent: #ea2125;
+  --accent-bg: #ea2125;
   --accent-txt: #000;
-  --primary-bg: #ffffff;
-  --primary-txt: #707070;
-  --secondary-bg: #111727;
+  --primary-bg: #1c1c1c;
+  --primary-txt: #fff;
+  --secondary-bg: #2e2e2e;
   --secondary-txt: #fff;
-  --mainBg: #0e121d;
+  --mainBg: #282828;
   --mainBgCol: #fff;
-  --bg1: #000;
+  --bg1: #323232;
   --col1: #fff;
-  --teableHeadersBg: #f7c828;
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #414755;
+  --teableHeadersBg: #ea2125;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #636363;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #161d2f;
+  --tableBorders: #535353;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f7c828;
+  --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
 }
@@ -174,7 +174,7 @@ th {
 
 body {
   margin: 0;
-  background-image: url("https://gradm-api.pcluster.info/api/skin/30/image/7be4801f571d6a1bb0bab2ff0270f8b3.jpeg");
+  background-image: url("https://gradm-api.pcluster.info/api/skin/35/image/cc4948ec3b59fe2173bb71a1df14271e.jpeg");
   background-size: 100% 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -186,7 +186,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   font-family: "Ubuntu", sans-serif;
-  background-color: #000;
+  background-color: #202020;
 }
 
 body.hidden {
@@ -338,7 +338,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid #485067;
+  border: 1px solid #4c4c4c;
   border-radius: 3px;
 }
 
@@ -350,14 +350,14 @@ input[type="submit"] {
   top: 1px;
   width: 3px;
   height: 7px;
-  border: solid #f7c828;
+  border: solid #ea2125;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .check:hover input ~ .checkmark {
-  background: #3d4558;
+  background: #3f3f3f;
 }
 
 .radio {
@@ -393,7 +393,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #f7c828;
+  border: 2px solid #ea2125;
 }
 
 .radio input:checked ~ .radiocircle:after {
@@ -402,7 +402,7 @@ input[type="submit"] {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f7c828;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -419,7 +419,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid #485067;
+  border: 1px solid #4c4c4c;
   border-radius: 3px;
   border-radius: 50%;
   border-width: 2px;
@@ -434,14 +434,14 @@ input[type="submit"] {
   top: 1px;
   width: 3px;
   height: 7px;
-  border: solid #f7c828;
+  border: solid #ea2125;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .radio:hover input ~ .radiocircle {
-  background: rgba(51, 57, 73, 0.5);
+  background: rgba(50, 50, 50, 0.5);
 }
 
 .lang-open {
@@ -717,7 +717,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .help:after {
   display: none;
   content: "";
-  border-bottom: 9px solid #1e222b;
+  border-bottom: 9px solid #191919;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -729,7 +729,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .help:before {
   display: none;
   content: "";
-  border-bottom: 9px solid #f7c828;
+  border-bottom: 9px solid #ea2125;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -771,8 +771,8 @@ input[type="submit"] {
   top: calc(100% + 8px);
   right: 0;
   width: 110px;
-  background: #14161c;
-  border: 1px solid #f7c828;
+  background: #0c0c0c;
+  border: 1px solid #ea2125;
   z-index: 3;
 }
 
@@ -785,17 +785,17 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .settings .controls-menu .option-block .title {
   padding-top: 8px;
   padding-left: 5px;
-  border-bottom: 1px solid #f7c828;
+  border-bottom: 1px solid #ea2125;
   cursor: default;
   pointer-events: none;
 }
 
 .header .top-bar .top-bar-content .login-bar .settings .controls-menu .option-block .option {
-  background: #1e222b;
+  background: #191919;
   line-height: 25px;
   padding-left: 25px;
   position: relative;
-  border-bottom: 1px solid #f7c828;
+  border-bottom: 1px solid #ea2125;
   cursor: pointer;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
@@ -810,7 +810,7 @@ input[type="submit"] {
           transform: translateY(-50%);
   width: 12px;
   height: 12px;
-  border: 1px solid #f7c828;
+  border: 1px solid #ea2125;
   border-radius: 50%;
 }
 
@@ -825,12 +825,12 @@ input[type="submit"] {
   width: 10px;
   height: 10px;
   border: none;
-  background: #fadb72;
+  background: #f1676a;
   border-radius: 50%;
 }
 
 .header .top-bar .top-bar-content .login-bar .settings .controls-menu .option-block .option:hover {
-  background: #292d3a;
+  background: #252525;
 }
 
 .header .top-bar .top-bar-content .login-bar .settings .controls-menu .option-block .option.selected:after {
@@ -844,7 +844,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .settings:after {
   display: none;
   content: "";
-  border-bottom: 9px solid #14161c;
+  border-bottom: 9px solid #0c0c0c;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -856,7 +856,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .settings:before {
   display: none;
   content: "";
-  border-bottom: 9px solid #f7c828;
+  border-bottom: 9px solid #ea2125;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -913,30 +913,30 @@ input[type="submit"] {
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"],
 .header .top-bar .top-bar-content .login-bar form input[type="password"] {
-  color: #333949;
-  border: 1px solid #333949;
+  color: #323232;
+  border: 1px solid #323232;
   width: 100px;
   padding: 0 0 0 6px;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::-webkit-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::-webkit-input-placeholder {
-  color: #333949;
+  color: #323232;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]:-ms-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]:-ms-input-placeholder {
-  color: #333949;
+  color: #323232;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::-ms-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::-ms-input-placeholder {
-  color: #333949;
+  color: #323232;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::placeholder {
-  color: #333949;
+  color: #323232;
 }
 
 .header .top-bar .top-bar-content .login-bar form i {
@@ -987,7 +987,7 @@ input[type="submit"] {
   height: 70px;
   display: block;
   position: relative;
-  background-image: url("https://gradm-api.pcluster.info/api/skin/25/image/821baba3c808cd5870811b25c8d49535.png");
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDIuNjcgMTIwLjg1Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2VkMDAxMTt9LmNscy0ye2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPnhiZXRwcm8tbG9nbzE8L3RpdGxlPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDguMjEsNTcuNzgsNDAsNDkuNTcsNjkuMzIsMjAuMjRsOC4yMSw4LjIyWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTguMjEsOTcuNzcsMCw4OS41NiwyOS4zMyw2MC4yNGw4LjIxLDguMjFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDAsNjguNDVsOC4yMS04LjIyTDc3LjUzLDg5LjU2bC04LjIxLDguMjFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMCwyOC40Nmw4LjIxLTguMjFMMzcuNTMsNDkuNTdsLTguMjEsOC4yMVoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yNDkuODMsNTRhMzcuNTMsMzcuNTMsMCwxLDAtNy4yNSwyOS4yMmwtOC44NS02Ljc5QTI2LjE5LDI2LjE5LDAsMSwxLDIzOC40Miw1NEgyMTAuNzZWNjUuMTRoMzkuMDdaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDY1LjI2LDM0LjY0YTI1Ljc5LDI1Ljc5LDAsMSwxLTI1Ljc4LDI1Ljc4LDI1LjgyLDI1LjgyLDAsMCwxLDI1Ljc4LTI1Ljc4bTAtMTEuNjJhMzcuNDEsMzcuNDEsMCwxLDAsMzcuNDEsMzcuNEEzNy40MSwzNy40MSwwLDAsMCw0NjUuMjYsMjNaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTI5LjgzLDIzYTM3LjI4LDM3LjI4LDAsMCwwLTI2LjI0LDEwLjc2VjBIOTIuNDNWNjAuNDJoMHYyLjc1aC4xMUEzNy40LDM3LjQsMCwxLDAsMTI5LjgzLDIzWm0wLDYzLjE5YTI1Ljc5LDI1Ljc5LDAsMSwxLDI1Ljc5LTI1Ljc5QTI1LjgxLDI1LjgxLDAsMCwxLDEyOS44Myw4Ni4yMVoiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0zMzIuOCwyM2EzNy40LDM3LjQsMCwwLDAtMzcuMjksMzQuNjVoLS4xMnYyLjc1aDB2NjAuNDJoMTEuMTdWODcuMDdBMzcuNCwzNy40LDAsMSwwLDMzMi44LDIzWm0wLDYzLjE5YTI1Ljc5LDI1Ljc5LDAsMSwxLDI1Ljc4LTI1Ljc5QTI1LjgyLDI1LjgyLDAsMCwxLDMzMi44LDg2LjIxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTI4Mi44OSwzNC4xOCwyODcuNDUsMjNIMjcwLjkyVjBIMjU5Ljc2VjcyLjY0YzAsMTEuNzgsNS40OSwxOC44OCwxNSwyNS4xM2w2LjM4LTkuMTVjLTYuNTItNC40NC0xMC4yMy03LjkyLTEwLjIzLTE2VjM0LjE4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQxNi45NCwyM2EzNy40MiwzNy40MiwwLDAsMC0zNy40LDM3LjRoMFY5Ny43N0gzOTAuN1Y4Ny4wN2wuNDYtMjYuNjVBMjUuNzcsMjUuNzcsMCwwLDEsNDIxLjEsMzVWMjMuMjZBMzguMDksMzguMDksMCwwLDAsNDE2Ljk0LDIzWiIvPjwvZz48L2c+PC9zdmc+");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1219,8 +1219,8 @@ input[type="submit"] {
   -ms-flex-item-align: center;
       align-self: center;
   padding: 0 5px;
-  -webkit-filter: grayscale(1) brightness(0) invert(0);
-          filter: grayscale(1) brightness(0) invert(0);
+  -webkit-filter: grayscale(1) brightness(0) invert(1);
+          filter: grayscale(1) brightness(0) invert(1);
 }
 
 .side-bar .single-block .block-title span {
@@ -1622,7 +1622,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block .block-content.sports-menu form input[type="submit"]:hover {
-  background-color: #f9d559;
+  background-color: #ee5053;
 }
 
 .side-bar .single-block .block-content.sports-menu .tabs {
@@ -1897,8 +1897,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .my-bets .my-coupons .buttons .single-button {
   width: 30px;
   height: 30px;
-  background: #292d3a;
-  border: 3px solid #525c76;
+  background: #252525;
+  border: 3px solid #585858;
   border-radius: 5px;
   line-height: 30px;
   text-align: center;
@@ -1913,7 +1913,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .my-coupons .buttons .single-button:hover {
-  background-color: #525c76;
+  background-color: #585858;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form {
@@ -1932,7 +1932,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .my-bets form div input[type="text"] {
   line-height: 30px;
   width: 100%;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   border-radius: 3px;
   font-weight: bold;
   padding: 0 10px 0 50px;
@@ -1967,24 +1967,24 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::-webkit-input-placeholder {
-  color: #333949;
+  color: #323232;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]:-ms-input-placeholder {
-  color: #333949;
+  color: #323232;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::-ms-input-placeholder {
-  color: #333949;
+  color: #323232;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::placeholder {
-  color: #333949;
+  color: #323232;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper {
-  background-color: #333949;
-  border: 4px solid #333949;
+  background-color: #323232;
+  border: 4px solid #323232;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2079,7 +2079,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting {
-  background-color: #f7c828;
+  background-color: #ea2125;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting .single-betslip-title {
@@ -2181,7 +2181,7 @@ input[type="submit"] {
   line-height: 28px;
   font-size: 12px;
   font-weight: 500;
-  color: #333949;
+  color: #323232;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div span {
@@ -2211,12 +2211,12 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div.half .refresh-button:hover i {
-  color: #1e222b;
+  color: #191919;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder {
   width: 100%;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
@@ -2225,7 +2225,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event {
-  border-bottom: 1px solid #333949;
+  border-bottom: 1px solid #323232;
   width: 100%;
   display: inline-block;
   line-height: 26px;
@@ -2300,7 +2300,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .legend {
-  background: #333949;
+  background: #323232;
   border: none;
   width: calc(100%);
   line-height: 22px;
@@ -2584,8 +2584,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select {
-  border: 1px solid #333949;
-  background-color: #333949;
+  border: 1px solid #323232;
+  background-color: #323232;
   color: #ebebeb;
   font-size: 12px;
   line-height: 24px;
@@ -2620,7 +2620,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select:hover {
-  background-color: #3d4558;
+  background-color: #3f3f3f;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group .ui-selectmenu-button .ui-icon,
@@ -2663,7 +2663,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th input,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td input {
   max-width: 30px;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   border-radius: 3px;
   font-weight: bold;
   color: #000000;
@@ -2856,7 +2856,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group table td .check:hover input ~ .checkmark,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .check:hover input ~ .checkmark,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .check:hover input ~ .checkmark {
-  background-color: rgba(51, 57, 73, 0.1);
+  background-color: rgba(50, 50, 50, 0.1);
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group table th,
@@ -2928,7 +2928,7 @@ input[type="submit"] {
   line-height: 20px;
   height: 20px;
   margin-top: 3px;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   border-radius: 3px;
 }
 
@@ -2936,8 +2936,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select {
-  border: 1px solid #333949;
-  background-color: #333949;
+  border: 1px solid #323232;
+  background-color: #323232;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -2953,7 +2953,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select:hover {
-  background-color: #3d4558;
+  background-color: #3f3f3f;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .ui-selectmenu-button .ui-icon,
@@ -3004,7 +3004,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table tr:last-child {
-  border-bottom: 3px solid #333949;
+  border-bottom: 3px solid #323232;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .totals {
@@ -3445,7 +3445,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid #485067;
+  border: 1px solid #4c4c4c;
   border-radius: 3px;
 }
 
@@ -3464,7 +3464,7 @@ input[type="submit"] {
 }
 
 .single-sport .anchor .check:hover input ~ .checkmark {
-  background: #3d4558;
+  background: #3f3f3f;
 }
 
 .single-sport .anchor .icon {
@@ -3764,7 +3764,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state > .anchor .check:hover input ~ .checkmark {
-  background: rgba(51, 57, 73, 0.2);
+  background: rgba(50, 50, 50, 0.2);
 }
 
 .single-sport .states .state i {
@@ -3814,7 +3814,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state .championship .anchor .check:hover input ~ .checkmark {
-  background: rgba(51, 57, 73, 0.2);
+  background: rgba(50, 50, 50, 0.2);
 }
 
 .single-sport .states .state .championship.active {
@@ -3826,7 +3826,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state .championship.selected .anchor {
-  background: #333844;
+  background: #323232;
   color: #ebebeb;
   font-weight: 500;
 }
@@ -4001,7 +4001,7 @@ input[type="submit"] {
 
 .center-content .main-slider .single-slide .odds-holder .single-odd div {
   float: left;
-  color: #f7c828;
+  color: #ea2125;
   position: absolute;
   left: 5px;
   top: 50%;
@@ -4044,14 +4044,14 @@ input[type="submit"] {
   border-radius: 50%;
   padding: 0;
   display: inline-block;
-  border: 2px solid #f7c828;
+  border: 2px solid #ea2125;
   cursor: pointer;
   margin: 0 3px;
   background: transparent;
 }
 
 .center-content .main-slider .slick-dots li.slick-active button, .center-content .main-slider .slick-dots li:hover button {
-  background-color: #f7c828;
+  background-color: #ea2125;
 }
 
 .center-content .center-block {
@@ -5196,19 +5196,19 @@ div.landing-page .banner-content .grid a {
 
 div.landing-page .banner-content .grid a.become-agent {
   float: right;
-  background: #f7c828;
+  background: #ea2125;
 }
 
 div.landing-page .banner-content .grid a.become-agent:hover {
-  background: #e4b208;
+  background: #c51316;
 }
 
 div.landing-page .banner-content .grid a.register-online {
-  background: #333844;
+  background: #323232;
 }
 
 div.landing-page .banner-content .grid a.register-online:hover {
-  background: #1d2027;
+  background: #191919;
 }
 
 .landing-bottom-holder {
@@ -5322,7 +5322,7 @@ footer .footer-logo a:before {
   height: 70px;
   display: block;
   position: relative;
-  background-image: url("https://gradm-api.pcluster.info/api/skin/25/image/821baba3c808cd5870811b25c8d49535.png");
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDIuNjcgMTIwLjg1Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2VkMDAxMTt9LmNscy0ye2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPnhiZXRwcm8tbG9nbzE8L3RpdGxlPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDguMjEsNTcuNzgsNDAsNDkuNTcsNjkuMzIsMjAuMjRsOC4yMSw4LjIyWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTguMjEsOTcuNzcsMCw4OS41NiwyOS4zMyw2MC4yNGw4LjIxLDguMjFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDAsNjguNDVsOC4yMS04LjIyTDc3LjUzLDg5LjU2bC04LjIxLDguMjFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMCwyOC40Nmw4LjIxLTguMjFMMzcuNTMsNDkuNTdsLTguMjEsOC4yMVoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yNDkuODMsNTRhMzcuNTMsMzcuNTMsMCwxLDAtNy4yNSwyOS4yMmwtOC44NS02Ljc5QTI2LjE5LDI2LjE5LDAsMSwxLDIzOC40Miw1NEgyMTAuNzZWNjUuMTRoMzkuMDdaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDY1LjI2LDM0LjY0YTI1Ljc5LDI1Ljc5LDAsMSwxLTI1Ljc4LDI1Ljc4LDI1LjgyLDI1LjgyLDAsMCwxLDI1Ljc4LTI1Ljc4bTAtMTEuNjJhMzcuNDEsMzcuNDEsMCwxLDAsMzcuNDEsMzcuNEEzNy40MSwzNy40MSwwLDAsMCw0NjUuMjYsMjNaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTI5LjgzLDIzYTM3LjI4LDM3LjI4LDAsMCwwLTI2LjI0LDEwLjc2VjBIOTIuNDNWNjAuNDJoMHYyLjc1aC4xMUEzNy40LDM3LjQsMCwxLDAsMTI5LjgzLDIzWm0wLDYzLjE5YTI1Ljc5LDI1Ljc5LDAsMSwxLDI1Ljc5LTI1Ljc5QTI1LjgxLDI1LjgxLDAsMCwxLDEyOS44Myw4Ni4yMVoiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0zMzIuOCwyM2EzNy40LDM3LjQsMCwwLDAtMzcuMjksMzQuNjVoLS4xMnYyLjc1aDB2NjAuNDJoMTEuMTdWODcuMDdBMzcuNCwzNy40LDAsMSwwLDMzMi44LDIzWm0wLDYzLjE5YTI1Ljc5LDI1Ljc5LDAsMSwxLDI1Ljc4LTI1Ljc5QTI1LjgyLDI1LjgyLDAsMCwxLDMzMi44LDg2LjIxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTI4Mi44OSwzNC4xOCwyODcuNDUsMjNIMjcwLjkyVjBIMjU5Ljc2VjcyLjY0YzAsMTEuNzgsNS40OSwxOC44OCwxNSwyNS4xM2w2LjM4LTkuMTVjLTYuNTItNC40NC0xMC4yMy03LjkyLTEwLjIzLTE2VjM0LjE4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQxNi45NCwyM2EzNy40MiwzNy40MiwwLDAsMC0zNy40LDM3LjRoMFY5Ny43N0gzOTAuN1Y4Ny4wN2wuNDYtMjYuNjVBMjUuNzcsMjUuNzcsMCwwLDEsNDIxLjEsMzVWMjMuMjZBMzguMDksMzguMDksMCwwLDAsNDE2Ljk0LDIzWiIvPjwvZz48L2c+PC9zdmc+");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -5635,7 +5635,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .single-match-row td .goal-odd {
   width: calc((100% / 6) - 1px);
   display: inline-block;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   margin-right: -1px;
   margin-bottom: -1px;
   text-align: center;
@@ -5773,7 +5773,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .match-name .team-names.has-info:before {
   display: none;
   content: "";
-  border-bottom: 9px solid #333949;
+  border-bottom: 9px solid #323232;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -5793,7 +5793,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .match-name .team-names.has-info .info-box {
   position: absolute;
   width: 166px;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   border-radius: 5px;
   background: var(--bg1);
   color: var(--col1);
@@ -5857,14 +5857,14 @@ footer.center-footer .footer-logos .group-1 {
 
 .odds-table .match-name .team-names.has-info .info-box .odd-types .single-type {
   width: 33%;
-  background: #333949;
-  color: #f7c828;
+  background: #323232;
+  color: #ea2125;
   font-size: 12px;
   text-align: center;
   font-weight: bold;
   line-height: 28px;
-  -webkit-box-shadow: inset 0 1px 0 #3d4558;
-          box-shadow: inset 0 1px 0 #3d4558;
+  -webkit-box-shadow: inset 0 1px 0 #3f3f3f;
+          box-shadow: inset 0 1px 0 #3f3f3f;
   float: left;
 }
 
@@ -5894,7 +5894,7 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   height: 15px;
   width: 34px;
-  background: #333949;
+  background: #323232;
   border-radius: 3px;
   position: relative;
   overflow: hidden;
@@ -5906,7 +5906,7 @@ footer.center-footer .footer-logos .group-1 {
   left: 0;
   top: 0;
   width: 50%;
-  background: #f7c828;
+  background: #ea2125;
 }
 
 .odds-table .match-name .team-names.has-info .info-box .bars-holder .single-bar-holder:nth-child(2) {
@@ -6129,20 +6129,20 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .title.light {
-  background: #525c76;
+  background: #585858;
 }
 
 .results-page .results-filter {
   width: 100%;
   display: inline-block;
-  background: #1e222b;
+  background: #191919;
 }
 
 .results-page .results-filter .single-filter {
   float: left;
   padding: 10px 20px 25px 10px;
-  border-right: 1px solid #333949;
-  color: #1e222b;
+  border-right: 1px solid #323232;
+  color: #191919;
   width: 130px;
 }
 
@@ -6155,7 +6155,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results-filter .single-filter input[type="date"] {
-  color: #1e222b;
+  color: #191919;
   background-color: #b398d1;
   background-image: url(//nextra.nextra.bet/biwinner/images/colored-calendar.png);
   background-size: auto 100%;
@@ -6183,7 +6183,7 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 3px;
   height: 26px;
   padding-left: 8px;
-  color: #1e222b;
+  color: #191919;
 }
 
 .results-page .results-filter .single-filter select::-ms-expand {
@@ -6215,7 +6215,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results .single-result .result-top-bar .championship-name {
-  color: #1e222b;
+  color: #191919;
   font-size: 12px;
   font-weight: bold;
   float: left;
@@ -6229,7 +6229,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results .single-result .result-top-bar .result div {
-  color: #1e222b;
+  color: #191919;
   font-size: 12px;
   font-weight: 500;
   width: 50px;
@@ -6245,14 +6245,14 @@ footer.center-footer .footer-logos .group-1 {
 .results-page .results .single-result .result-match {
   width: 100%;
   background: #f1f1f2;
-  border-bottom: 3px solid #1e222b;
+  border-bottom: 3px solid #191919;
 }
 
 .results-page .results .single-result .result-match .time {
   line-height: 76px;
   font-size: 12px;
   font-weight: 500;
-  color: #1e222b;
+  color: #191919;
   padding: 0 10px;
   text-align: center;
   display: inline-block;
@@ -6271,7 +6271,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 30px;
   font-size: 12px;
   font-weight: 500;
-  color: #1e222b;
+  color: #191919;
 }
 
 .results-page .results .single-result .result-match .match-teams .home-team.winner,
@@ -6299,7 +6299,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .results-page .results .single-result .result-match .result div {
   padding: 8px 0;
-  color: #1e222b;
+  color: #191919;
   font-size: 12px;
   font-weight: 500;
   width: 50px;
@@ -6320,7 +6320,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .results-page .results .single-result .result-match .result div.status {
   line-height: 60px;
-  color: #f7c828;
+  color: #ea2125;
   font-weight: bold;
 }
 
@@ -6571,7 +6571,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .explore-matches-page .title {
-  border-bottom: 1px solid #333949;
+  border-bottom: 1px solid #323232;
   line-height: 36px;
   width: calc(100% - 70px);
   padding: 0 35px;
@@ -6707,7 +6707,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   width: 37px;
   height: 26px;
-  background: #333844;
+  background: #323232;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   border: none;
@@ -6721,7 +6721,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .sports-book-page .filters-holder .search-form input[type="text"] {
   border: none;
-  border-left: 1px solid #333844;
+  border-left: 1px solid #323232;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   line-height: 24px;
@@ -7122,7 +7122,7 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   padding: 25px 15px;
   display: inline-block;
-  background: #333949;
+  background: #323232;
 }
 
 .sports-book-page .button-holder .button-next {
@@ -7171,7 +7171,7 @@ footer.center-footer .footer-logos .group-1 {
 .become-an-agent-page .agent-buttons {
   text-align: center;
   padding: 30px 0;
-  background-color: #292d3a;
+  background-color: #252525;
 }
 
 .become-an-agent-page .agent-buttons .single-button {
@@ -7249,11 +7249,11 @@ footer.center-footer .footer-logos .group-1 {
 
 .become-an-agent-page .page-content .inner-content .content-block.last-block p .colored {
   font-weight: bold;
-  color: #333844;
+  color: #323232;
 }
 
 .become-an-agent-page .page-content .inner-content .content-block .title {
-  color: #333844;
+  color: #323232;
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
@@ -7266,15 +7266,15 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   margin: 0 10px;
   padding: 0 20px;
-  border: 2px solid #333844;
+  border: 2px solid #323232;
   border-radius: 3px;
-  color: #333844;
+  color: #323232;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
 
 .become-an-agent-page .page-content .inner-content .content-block .title a:hover {
-  background: #333844;
+  background: #323232;
   color: #ebebeb;
 }
 
@@ -7305,7 +7305,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: #333844;
+  background: #323232;
 }
 
 .dark-overlay {
@@ -7527,7 +7527,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .sports-container .sports .sport .anchor.special {
   background: #ececed;
-  color: #333949;
+  color: #323232;
   font-weight: bold;
   font-size: 12px;
   border-top: 1px solid #feffff;
@@ -7969,7 +7969,7 @@ footer.center-footer .footer-logos .group-1 {
   border: none;
   margin-top: 26px;
   height: 2px;
-  background: #333844;
+  background: #323232;
   border-radius: 1px !important;
 }
 
@@ -7980,13 +7980,13 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 50% !important;
   top: -4px;
   border: none;
-  background: #e4b208;
+  background: #c51316;
   cursor: pointer;
 }
 
 .live-odds-table table tr td.odd-holder .match-live-sliders .home-team .live-slider-holder .ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle:hover,
 .live-odds-table table tr td.odd-holder .match-live-sliders .away-team .live-slider-holder .ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle:hover {
-  color: #b28b07;
+  color: #970e11;
 }
 
 .live-odds-table table tr td.odd-holder .match-live-sliders .home-team .live-slider-holder .slider-controls,
@@ -8923,7 +8923,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view {
   margin: 7px 13px;
-  background: #333949;
+  background: #323232;
   border-radius: 3px;
   cursor: pointer;
   display: inline-block;
@@ -8970,7 +8970,7 @@ footer.center-footer .footer-logos .group-1 {
 .live-sports-diary .matches-wrapper .single-match .match-details-wrapper .match-details {
   height: 28px;
   background-color: #ebebeb;
-  border: 1px solid #333844;
+  border: 1px solid #323232;
   border-radius: 3px;
   width: 40px;
   margin: 9px 12px;
@@ -8982,12 +8982,12 @@ footer.center-footer .footer-logos .group-1 {
   width: 100%;
   text-align: center;
   font-size: 9px;
-  color: #333844;
+  color: #323232;
   font-weight: 700;
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-details-wrapper .match-details .match-date {
-  background: #333844;
+  background: #323232;
   color: #ebebeb;
 }
 
@@ -9079,7 +9079,7 @@ footer.center-footer .footer-logos .group-1 {
   margin-right: 10px;
   background-image: url(//nextra.nextra.bet/biwinner/images/live-result-background.jpg);
   background-size: 100% 100%;
-  border: 1px solid #f7c828;
+  border: 1px solid #ea2125;
   width: 35px;
   float: left;
   display: inline-block;
@@ -9092,7 +9092,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 19px;
   font-size: 13px;
   font-weight: bold;
-  color: #f7c828;
+  color: #ea2125;
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .top-part .team-names {
@@ -9295,7 +9295,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches {
-  background: #333844;
+  background: #323232;
   padding: 20px 25px;
 }
 
@@ -9316,9 +9316,9 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #f7c828;
+  background: #ea2125;
   text-transform: uppercase;
-  color: #222;
+  color: #fff;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-title img {
@@ -9345,11 +9345,11 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-multiview .multiview-matches .single-multiview .multiview-content {
   display: none;
-  border-bottom: 5px solid #f7c828;
+  border-bottom: 5px solid #ea2125;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper {
-  background: #333949;
+  background: #323232;
   border-bottom: 1px solid #977fb1;
   display: inline-block;
   width: 100%;
@@ -9396,7 +9396,7 @@ footer.center-footer .footer-logos .group-1 {
   margin-right: 10px;
   background-image: url(//nextra.nextra.bet/biwinner/images/live-result-background.jpg);
   background-size: 100% 100%;
-  border: 1px solid #f7c828;
+  border: 1px solid #ea2125;
   width: 35px;
   float: left;
   display: inline-block;
@@ -9409,7 +9409,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 19px;
   font-size: 13px;
   font-weight: bold;
-  color: #f7c828;
+  color: #ea2125;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .match-info .team-names {
@@ -9433,7 +9433,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view {
-  background: #333949;
+  background: #323232;
   border-radius: 3px;
   cursor: pointer;
   border: 1px solid #977fb1;
@@ -9507,7 +9507,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: 500;
   padding-left: 10px;
   line-height: 24px;
-  background: #333949;
+  background: #323232;
   border-top: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -9556,7 +9556,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .odds-wrapper .odds-holder .single-odd:hover {
-  background: #485067;
+  background: #4c4c4c;
   color: white;
 }
 
@@ -9639,7 +9639,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 13px;
   margin-bottom: 13px;
   line-height: 1;
-  color: #4c556d;
+  color: #515151;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper {
@@ -9680,7 +9680,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .input-wrapper textarea {
   color: #333;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   background: #e5e5e5;
   width: 100%;
   padding: 5px;
@@ -9691,7 +9691,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .registration-holder .form-holder form .input-wrapper input[type="password"],
 .logged-page .registration-holder .form-holder form .input-wrapper input[type="number"] {
   color: #333;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   background: #e5e5e5;
   height: 24px;
   line-height: 24px;
@@ -9701,8 +9701,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button,
 .logged-page .registration-holder .form-holder form .input-wrapper select {
-  border: 1px solid #333949;
-  background-color: #333949;
+  border: 1px solid #323232;
+  background-color: #323232;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -9715,7 +9715,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button:hover,
 .logged-page .registration-holder .form-holder form .input-wrapper select:hover {
-  background-color: #3d4558;
+  background-color: #3f3f3f;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button .ui-icon,
@@ -9735,8 +9735,8 @@ footer.center-footer .footer-logos .group-1 {
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
-  border: 1px solid #4c556d;
-  background-color: #4c556d;
+  border: 1px solid #515151;
+  background-color: #515151;
   height: 24px;
   line-height: 22px;
   color: #ebebeb;
@@ -9757,7 +9757,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(51, 57, 73, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .check-label {
@@ -9802,7 +9802,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #f7c828;
+  border: 2px solid #ea2125;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -9811,7 +9811,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f7c828;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -9833,14 +9833,14 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f7c828;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(51, 57, 73, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio-label {
@@ -9877,7 +9877,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .note {
   font-size: 11px;
-  color: #f7c828;
+  color: #ea2125;
   line-height: 18px;
   padding-right: 30px;
 }
@@ -10061,7 +10061,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper textarea {
   color: #333;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   background: #e5e5e5;
   width: 100%;
   padding: 5px;
@@ -10073,7 +10073,7 @@ footer.center-footer .footer-logos .group-1 {
 .registration-page .registration-holder .form-holder form .input-wrapper input[type="password"],
 .registration-page .registration-holder .form-holder form .input-wrapper input[type="number"] {
   color: #333;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -10084,8 +10084,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button,
 .registration-page .registration-holder .form-holder form .input-wrapper select {
-  border: 1px solid #333949;
-  background-color: #333949;
+  border: 1px solid #323232;
+  background-color: #323232;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -10098,7 +10098,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button:hover,
 .registration-page .registration-holder .form-holder form .input-wrapper select:hover {
-  background-color: #3d4558;
+  background-color: #3f3f3f;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button .ui-icon,
@@ -10118,8 +10118,8 @@ footer.center-footer .footer-logos .group-1 {
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
-  border: 1px solid #333949;
-  background-color: #333949;
+  border: 1px solid #323232;
+  background-color: #323232;
   height: 24px;
   line-height: 22px;
   color: #ebebeb;
@@ -10140,7 +10140,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(51, 57, 73, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .check-label {
@@ -10185,7 +10185,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #f7c828;
+  border: 2px solid #ea2125;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -10194,7 +10194,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f7c828;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10216,14 +10216,14 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f7c828;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(51, 57, 73, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio-label {
@@ -10260,7 +10260,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .note {
   font-size: 11px;
-  color: #e4b208;
+  color: #c51316;
   line-height: 18px;
   padding-right: 30px;
 }
@@ -10272,7 +10272,7 @@ footer.center-footer .footer-logos .group-1 {
   position: relative;
   bottom: 0;
   left: -50px;
-  background: #333949;
+  background: #323232;
 }
 
 .registration-page .registration-holder .form-holder form .buttons .row {
@@ -10398,7 +10398,7 @@ footer.center-footer .footer-logos .group-1 {
 .registration-page.agent-registration .agent-buttons {
   text-align: center;
   padding: 30px 0;
-  background-color: #292d3a;
+  background-color: #252525;
 }
 
 .registration-page.agent-registration .agent-buttons .single-button {
@@ -10528,7 +10528,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .help-page {
-  border-top: 4px solid #333949;
+  border-top: 4px solid #323232;
 }
 
 .help-page .center-content.default-page-content {
@@ -10539,7 +10539,7 @@ footer.center-footer .footer-logos .group-1 {
   border: 2px solid #d5cccc;
   display: inline-block;
   width: 100%;
-  background: #333949;
+  background: #323232;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -10555,7 +10555,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .help-page .help-menu ul li:hover, .help-page .help-menu ul li.open {
-  background-color: #485067;
+  background-color: #4c4c4c;
 }
 
 .help-page .help-menu ul li a,
@@ -10571,7 +10571,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .help-page .help-menu ul li.selected a {
   font-weight: 500;
-  color: #f7c828;
+  color: #ea2125;
 }
 
 .help-page .help-menu ul li span {
@@ -10606,16 +10606,16 @@ footer.center-footer .footer-logos .group-1 {
 
 .help-page .help-menu ul li .sub-menu li a {
   font-size: 12px;
-  color: #333949;
+  color: #323232;
 }
 
 .help-page .help-menu ul li .sub-menu li a:hover {
-  color: #f7c828;
+  color: #ea2125;
 }
 
 .help-page .help-menu ul li .sub-menu li.selected a {
   font-weight: 500;
-  color: #f7c828;
+  color: #ea2125;
 }
 
 .help-page .help-menu ul li.has-sub-menu span {
@@ -10793,7 +10793,7 @@ footer.center-footer .footer-logos .group-1 {
 .forgot-password-page .forgot-password-holder .forgot-password-content .form-holder input[type="text"] {
   display: inline-block;
   color: #333;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -10895,7 +10895,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper {
-  background-color: #333949;
+  background-color: #323232;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -10909,8 +10909,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper.ui-state-active, .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper:hover {
   background: #ebebeb;
-  color: #333949;
-  border-color: #333949;
+  color: #323232;
+  border-color: #323232;
 }
 
 .logged-page .logged-menu {
@@ -11253,13 +11253,13 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:hover ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:hover ~ .checkmark {
-  background-color: rgba(51, 57, 73, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:checked ~ .checkmark {
-  border-color: #292d3a;
-  background-color: #292d3a;
+  border-color: #252525;
+  background-color: #252525;
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked ~ .checkmark:after,
@@ -11269,7 +11269,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked:hover ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:checked:hover ~ .checkmark {
-  background-color: rgba(51, 57, 73, 0.8);
+  background-color: rgba(50, 50, 50, 0.8);
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check.valid,
@@ -11279,7 +11279,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th input[type="text"],
 .logged-page .logged-table.cashdesk-table tr td input[type="text"] {
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   border-radius: 3px;
   font-weight: bold;
   font-size: 13px;
@@ -11418,7 +11418,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .cashdesk-content {
   width: 100%;
   display: inline-block;
-  border-bottom: 5px solid #f7c828;
+  border-bottom: 5px solid #ea2125;
   background-color: #d4d4d4;
 }
 
@@ -11451,12 +11451,12 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:hover ~ .checkmark {
-  background-color: rgba(51, 57, 73, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked ~ .checkmark {
-  border-color: #333844;
-  background-color: #333844;
+  border-color: #323232;
+  background-color: #323232;
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked ~ .checkmark:after {
@@ -11464,7 +11464,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked:hover ~ .checkmark {
-  background-color: rgba(51, 57, 73, 0.8);
+  background-color: rgba(50, 50, 50, 0.8);
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group > span {
@@ -11530,7 +11530,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .cashdesk-tabs .row .stake-holder input {
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   border-radius: 3px;
   font-weight: bold;
   font-size: 10px;
@@ -11678,7 +11678,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table tr td:nth-child(2) .hour {
-  color: #cb9f08;
+  color: #ae1014;
 }
 
 .logged-page .transactions-table tr td.fifteen i {
@@ -11768,7 +11768,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table.coupon-details-table tr td {
-  color: #333949;
+  color: #323232;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.3;
@@ -11860,7 +11860,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table.coupon-details-table thead tr th {
-  background: #333949;
+  background: #323232;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -12027,7 +12027,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .message-details-table {
   width: 100%;
-  background: #333949;
+  background: #323232;
 }
 
 .logged-page .message-details-table tr {
@@ -12055,7 +12055,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .message-details-table tr td .time {
-  color: #f7c828;
+  color: #ea2125;
 }
 
 .logged-page .message-details-table tr td .red {
@@ -12067,9 +12067,9 @@ footer.center-footer .footer-logos .group-1 {
   padding: 40px;
   background: #edeced;
   font-size: 12px;
-  color: #333949;
+  color: #323232;
   line-height: 18px;
-  border-bottom: 5px solid #f7c828;
+  border-bottom: 5px solid #ea2125;
 }
 
 .logged-page .message-content .buttons {
@@ -12116,14 +12116,14 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .message-content .buttons .single-button.reply-button {
   margin-right: 0;
   float: right;
-  background-color: #333844;
+  background-color: #323232;
   background-image: url(//nextra.nextra.bet/biwinner/images/reply-button.png);
-  -webkit-box-shadow: inset 0 1px #242730;
-          box-shadow: inset 0 1px #242730;
+  -webkit-box-shadow: inset 0 1px #202020;
+          box-shadow: inset 0 1px #202020;
 }
 
 .logged-page .message-content .buttons .single-button.reply-button:hover {
-  background-color: #242730;
+  background-color: #202020;
 }
 
 .logged-center {
@@ -12387,7 +12387,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .change-password-page .input-wrapper input[type="number"],
 .logged-center .change-password-page .input-wrapper input[type="date"] {
   color: #333;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -12417,7 +12417,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .change-password-page .input-wrapper .ui-selectmenu-button,
 .logged-center .change-password-page .input-wrapper select {
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   background-color: var(--bg1);
   color: var(--col1);
   font-size: 12px;
@@ -12482,7 +12482,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #f7c828;
+  border: 2px solid #ea2125;
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -12491,7 +12491,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f7c828;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -12513,14 +12513,14 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f7c828;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(51, 57, 73, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio-label {
@@ -12586,7 +12586,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  background-color: #14161c;
+  background-color: #0c0c0c;
   display: inline-block;
 }
 
@@ -12840,14 +12840,14 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button {
   margin-right: 30px;
   float: right;
-  background-color: #333844;
+  background-color: #323232;
   background-image: url(//nextra.nextra.bet/biwinner/images/search-icon.png);
-  -webkit-box-shadow: inset 0 1px #242730;
-          box-shadow: inset 0 1px #242730;
+  -webkit-box-shadow: inset 0 1px #202020;
+          box-shadow: inset 0 1px #202020;
 }
 
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button:hover {
-  background-color: #242730;
+  background-color: #202020;
 }
 
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button.new {
@@ -12888,7 +12888,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-content {
-  background: #333949;
+  background: #323232;
   padding: 5px;
   min-height: 800px;
   width: 100%;
@@ -12909,13 +12909,13 @@ footer.center-footer .footer-logos .group-1 {
   padding: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #14161c;
+  background-color: #0c0c0c;
 }
 
 .logged-content .info-text.big {
   font-weight: normal;
   font-size: 16px;
-  border-top: 1px solid #333949;
+  border-top: 1px solid #323232;
 }
 
 .logged-content.fund-transfer-content {
@@ -13118,7 +13118,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   font-size: 13px;
   border-radius: 3px;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   width: calc(100% - 82px);
   padding: 0 0 0 6px;
 }
@@ -13176,11 +13176,11 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  border: 2px solid #1e222b;
+  border: 2px solid #191919;
 }
 
 .logged-content .messages table tr td .status.read:after {
-  background-color: #f7c828;
+  background-color: #ea2125;
 }
 
 .logged-content .messages .table-legend {
@@ -13203,8 +13203,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-content .messages .table-legend div .icon {
   position: absolute;
-  background: #f7c828;
-  border: 2px solid #f7c828;
+  background: #ea2125;
+  border: 2px solid #ea2125;
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -13217,7 +13217,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-content .messages .table-legend div.read .icon {
   background: transparent;
-  border: 2px solid #333949;
+  border: 2px solid #323232;
 }
 
 .logged-content .messages .table-legend a {
@@ -13284,7 +13284,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .event-list-legend-holder {
-  background: #16181f;
+  background: #0e0e0e;
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13293,7 +13293,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .event-list-legend-holder .legend {
-  background: #333949;
+  background: #323232;
   border: none;
   width: calc(100%);
   line-height: 22px;
@@ -13502,7 +13502,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .reports-table .logged-table tbody tr.colored-row {
-  background-color: #525c76;
+  background-color: #585858;
 }
 
 .reports-table .logged-table tbody tr.colored-row td {
@@ -13540,11 +13540,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .reports-table .logged-table tfoot tr {
-  background: rgba(101, 113, 145, 0.3);
+  background: rgba(111, 111, 111, 0.3);
 }
 
 .reports-table .logged-table tfoot tr td {
-  color: #14161c;
+  color: #0c0c0c;
   font-weight: bold;
   background-color: transparent;
 }
@@ -13599,11 +13599,11 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   display: inline-block;
   width: 100%;
-  background: #f7c828;
+  background: #ea2125;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: inset 0px 1px 0 #f7c828;
-          box-shadow: inset 0px 1px 0 #f7c828;
+  -webkit-box-shadow: inset 0px 1px 0 #ea2125;
+          box-shadow: inset 0px 1px 0 #ea2125;
 }
 
 .reports .calculations .single-calculation .holder {
@@ -13917,7 +13917,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #090a0d;
+  color: black;
   padding: 10px;
   z-index: 99999;
 }
@@ -14103,7 +14103,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="number"],
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="date"] {
   color: #333;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -14205,8 +14205,8 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select {
-  border: 1px solid #333949;
-  background-color: #333949;
+  border: 1px solid #323232;
+  background-color: #323232;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -14251,7 +14251,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select:hover,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button:hover,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select:hover {
-  background-color: #3d4558;
+  background-color: #3f3f3f;
 }
 
 .coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .ui-selectmenu-button .ui-icon,
@@ -14293,13 +14293,13 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .title,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .title {
   position: relative;
-  color: #222;
+  color: #fff;
   line-height: 36px;
   height: 36px;
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #f7c828;
+  background: #ea2125;
   text-transform: uppercase;
 }
 
@@ -14482,7 +14482,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table thead tr th,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table thead tr th,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table thead tr th {
-  background: #333949;
+  background: #323232;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -14522,7 +14522,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tbody tr td span.colored,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tbody tr td span.colored,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tbody tr td span.colored {
-  color: #525c76;
+  color: #585858;
   font-weight: bold;
 }
 
@@ -14539,7 +14539,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-date-info,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info {
-  border-left: 1px solid #485067;
+  border-left: 1px solid #4c4c4c;
   float: left;
   padding: 10px;
   -webkit-box-sizing: border-box;
@@ -14565,7 +14565,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-code,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-code,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-code {
-  border-left: 1px solid #485067;
+  border-left: 1px solid #4c4c4c;
   line-height: 32px;
   padding: 10px;
   font-size: 16px;
@@ -14577,7 +14577,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details {
-  border-left: 1px solid #485067;
+  border-left: 1px solid #4c4c4c;
   float: left;
   color: white;
   padding: 10px;
@@ -14615,7 +14615,7 @@ footer.center-footer .footer-logos .group-1 {
   margin: 7px 10px;
   padding: 4px;
   border-radius: 3px;
-  background-color: #657191;
+  background-color: #6f6f6f;
   display: inline-block;
 }
 
@@ -14749,7 +14749,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .message .message-title span,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .message .message-title span {
   display: inline-block;
-  color: #333949;
+  color: #323232;
   font-size: 16px;
   line-height: 44px;
   font-weight: bold;
@@ -14859,7 +14859,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 36px;
   font-size: 13px;
   font-weight: 500;
-  color: #333949;
+  color: #323232;
   border-bottom: 2px solid #d4d2d2;
 }
 
@@ -14941,7 +14941,7 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   font-size: 18px;
   font-weight: bold;
-  color: #333949;
+  color: #323232;
   line-height: 52px;
 }
 
@@ -14988,7 +14988,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details {
-  background: #333949;
+  background: #323232;
   padding-bottom: 30px;
 }
 
@@ -15025,7 +15025,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table tr td,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table tr td {
   font-size: 13px;
-  color: #333949;
+  color: #323232;
   font-weight: 500;
   height: 30px;
   padding: 5px 0 5px 10px;
@@ -15115,7 +15115,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td {
-  color: #333949;
+  color: #323232;
   font-size: 12px;
   font-weight: normal;
 }
@@ -15195,7 +15195,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table thead tr th,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table thead tr th,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table thead tr th {
-  background: #333949;
+  background: #323232;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -15220,7 +15220,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list.system-details {
   padding-bottom: 30px;
-  background: #333949;
+  background: #323232;
 }
 
 .coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details table tr td,
@@ -15291,7 +15291,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block p,
 .login-popup-wrapper .popup-content .first-blocks .block p {
   font-size: 13px;
-  color: #333949;
+  color: #323232;
   line-height: 15px;
 }
 
@@ -15369,15 +15369,15 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button {
   margin-right: 0;
-  background-color: #333844;
+  background-color: #323232;
   background-image: url(//nextra.nextra.bet/biwinner/images/send-button.png);
-  -webkit-box-shadow: inset 0 1px #242730;
-          box-shadow: inset 0 1px #242730;
+  -webkit-box-shadow: inset 0 1px #202020;
+          box-shadow: inset 0 1px #202020;
 }
 
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover {
-  background-color: #242730;
+  background-color: #202020;
 }
 
 .coupon-popup-wrapper .popup-content .first-blocks .block:first-child,
@@ -15439,7 +15439,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .betslip-info .big-title,
 .login-popup-wrapper .popup-content .betslip-info .big-title {
   font-weight: 900;
-  color: #333949;
+  color: #323232;
 }
 
 .coupon-popup-wrapper .popup-content .betslip-info .big-title span,
@@ -15450,7 +15450,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .coupon-popup-wrapper .popup-content .betslip-info .details,
 .login-popup-wrapper .popup-content .betslip-info .details {
-  color: #333949;
+  color: #323232;
   font-size: 12px;
   font-weight: bold;
 }
@@ -15478,13 +15478,13 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   text-align: center;
   line-height: 34px;
-  background: #333949;
+  background: #323232;
 }
 
 .coupon-popup-wrapper .popup-content .betslip-table tr td,
 .login-popup-wrapper .popup-content .betslip-table tr td {
   font-size: 13px;
-  color: #333949;
+  color: #323232;
   line-height: 34px;
   text-align: center;
 }
@@ -15601,7 +15601,7 @@ footer.center-footer .footer-logos .group-1 {
   color: #ebebeb;
   font-size: 14px;
   font-weight: bold;
-  background-color: #333844;
+  background-color: #323232;
   background-image: url(//nextra.nextra.bet/biwinner/images/show-all-icon.png);
 }
 
@@ -15646,8 +15646,8 @@ footer.center-footer .footer-logos .group-1 {
   border-bottom-left-radius: 3px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
-  background-color: #f7c828;
-  color: #222;
+  background-color: #ea2125;
+  color: #fff;
   font-size: 0;
   background-image: url(//nextra.nextra.bet/biwinner/images/search-icon.png);
   background-size: 45% auto;
@@ -15658,16 +15658,16 @@ footer.center-footer .footer-logos .group-1 {
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form input[type="submit"]:hover,
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form input[type="button"]:hover,
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form .button:hover {
-  background-color: #f9d559;
+  background-color: #ee5053;
 }
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-title {
-  background: #333949;
+  background: #323232;
   height: 36px;
   display: inline-block;
   width: 100%;
-  -webkit-box-shadow: inset 0px 1px 0 #3d4558;
-          box-shadow: inset 0px 1px 0 #3d4558;
+  -webkit-box-shadow: inset 0px 1px 0 #3f3f3f;
+          box-shadow: inset 0px 1px 0 #3f3f3f;
   font-size: 14px;
   color: #ebebeb;
   line-height: 36px;
@@ -15728,7 +15728,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.date {
   width: 50px;
-  color: #333949;
+  color: #323232;
   font-size: 12px;
   font-weight: 500;
   line-height: 14px;
@@ -15738,7 +15738,7 @@ footer.center-footer .footer-logos .group-1 {
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.team-names {
   line-height: 28px;
   width: 540px;
-  color: #333949;
+  color: #323232;
   font-size: 13px;
   font-weight: bold;
 }
@@ -15791,11 +15791,11 @@ footer.center-footer .footer-logos .group-1 {
           flex: 1 0 19px;
   font-size: 9px;
   color: #ebebeb;
-  background: #1e222b;
+  background: #191919;
 }
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.odds-holder .single-odd .quote {
-  color: #1e222b;
+  color: #191919;
   font-size: 12px;
   font-weight: bold;
   -webkit-box-flex: 1;
@@ -15846,13 +15846,13 @@ footer.center-footer .footer-logos .group-1 {
 
 .login-popup .login-content .title {
   position: relative;
-  color: #222;
+  color: #fff;
   line-height: 36px;
   height: 36px;
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #f7c828;
+  background: #ea2125;
   text-transform: uppercase;
 }
 
@@ -15867,7 +15867,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
-  background-color: #14161c;
+  background-color: #0c0c0c;
   color: white;
   padding: 0 15px;
   font-size: 15px;
@@ -15912,7 +15912,7 @@ footer.center-footer .footer-logos .group-1 {
   max-width: 50%;
   display: inline-block;
   background-color: transparent;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 5px;
@@ -15946,7 +15946,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  background-color: #14161c;
+  background-color: #0c0c0c;
   display: inline-block;
 }
 
@@ -15966,17 +15966,17 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 33px;
   margin: 0 2px;
   margin-right: 0;
-  background-color: #333844;
+  background-color: #323232;
   background-image: url(//nextra.nextra.bet/biwinner/images/send-button.png);
-  -webkit-box-shadow: inset 0 1px #242730;
-          box-shadow: inset 0 1px #242730;
+  -webkit-box-shadow: inset 0 1px #202020;
+          box-shadow: inset 0 1px #202020;
   float: left;
   border: none;
 }
 
 .login-popup .login-content form .button-holder div:hover,
 .login-popup .login-content form .button-holder input[type="submit"]:hover {
-  background-color: #242730;
+  background-color: #202020;
 }
 
 .login-popup .login-content form .button-holder div.register-button,
@@ -16030,7 +16030,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #090a0d;
+  color: black;
   padding: 10px;
   z-index: 99999;
 }
@@ -16057,7 +16057,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #f7c828;
+  color: #ea2125;
 }
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16159,7 +16159,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #090a0d;
+  color: black;
   padding: 10px;
   z-index: 99999;
 }
@@ -16182,12 +16182,12 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 22px;
   width: calc(100% - 54px);
-  color: #333949;
+  color: #323232;
   font-size: 16px;
 }
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #f7c828;
+  color: #ea2125;
 }
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16290,7 +16290,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #090a0d;
+  color: black;
   padding: 10px;
   z-index: 99999;
 }
@@ -16313,12 +16313,12 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 22px;
   width: calc(100% - 54px);
-  color: #333949;
+  color: #323232;
   font-size: 16px;
 }
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #f7c828;
+  color: #ea2125;
 }
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16477,7 +16477,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .payment-method-table table tbody tr td:nth-child(3) .purple, .payment-method-table table tbody tr td:nth-child(4) .purple, .payment-method-table table tbody tr td:nth-child(5) .purple {
-  background: #333844;
+  background: #323232;
   color: #ebebeb;
   line-height: 50px;
   text-align: center;
@@ -16791,7 +16791,7 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   padding: 25px;
   border-bottom: 1px solid #d7d7d7;
-  color: #333949;
+  color: #323232;
 }
 
 .deposit-page .block .right-content .wrapper:last-child {
@@ -16821,7 +16821,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .input-group .label {
   width: calc(100% - 200px);
   float: left;
-  color: #333949;
+  color: #323232;
   font-size: 13px;
   font-weight: 500;
   line-height: 30px;
@@ -16830,7 +16830,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .input-group input {
   padding: 5px;
   height: 30px;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   border-radius: 3px;
   background-color: transparent;
   float: left;
@@ -16850,8 +16850,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button,
 .deposit-page .block .right-content .wrapper .input-group select {
-  border: 1px solid #333949;
-  background-color: #333949;
+  border: 1px solid #323232;
+  background-color: #323232;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -16877,7 +16877,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button:hover,
 .deposit-page .block .right-content .wrapper .input-group select:hover {
-  background-color: #3d4558;
+  background-color: #3f3f3f;
 }
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button .ui-icon,
@@ -16913,7 +16913,7 @@ footer.center-footer .footer-logos .group-1 {
   height: 30px;
   display: inline-block;
   padding: 0 12px;
-  background: #333949;
+  background: #323232;
   margin-right: 5px;
   border-radius: 3px;
   color: white;
@@ -16924,7 +16924,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount.first-amount {
   width: 30px;
   text-align: center;
-  background-color: #333949;
+  background-color: #323232;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-right: 20px;
@@ -16937,11 +16937,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount:hover {
-  background-color: #1e222b;
+  background-color: #191919;
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount.selected {
-  background-color: #f7c828;
+  background-color: #ea2125;
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .amount-block {
@@ -17028,7 +17028,7 @@ footer.center-footer .footer-logos .group-1 {
   margin: 0 10px;
   width: calc(100% - 120px);
   float: left;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   padding: 0 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -17060,7 +17060,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page.bonus-page .block-holder .block .right-content .progress-content p {
   width: 100%;
-  color: #333949;
+  color: #323232;
   line-height: 1.1;
   font-size: 14px;
   text-align: center;
@@ -17072,8 +17072,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 45px;
-  background: #333949;
-  border: 1px solid #525c76;
+  background: #323232;
+  border: 1px solid #585858;
   line-height: 36px;
   height: 36px;
   width: calc(100% - 90px);
@@ -17086,7 +17086,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 65px;
   text-align: center;
   font-size: 10px;
-  color: #333949;
+  color: #323232;
   line-height: 36px;
 }
 
@@ -17101,7 +17101,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 0;
   top: 0;
   left: 0;
-  background: #525c76;
+  background: #585858;
 }
 
 .coupon-details-page-content {
@@ -17132,7 +17132,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 38px;
   font-size: 14px;
-  color: #333949;
+  color: #323232;
 }
 
 .coupon-details-page-content .row .content {
@@ -17143,8 +17143,8 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-details-page-content .row .content .status {
   float: right;
   line-height: 28px;
-  border: 1px solid #333949;
-  color: #333949;
+  border: 1px solid #323232;
+  color: #323232;
   font-size: 13px;
   border-radius: 3px;
   padding: 0 5px;
@@ -17173,7 +17173,7 @@ footer.center-footer .footer-logos .group-1 {
   padding: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #090a0d;
+  background: black;
 }
 
 .coupon-details-buttons .button {
@@ -17247,19 +17247,19 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .coupon-details-buttons .button.explode {
-  background-color: #485067;
+  background-color: #4c4c4c;
 }
 
 .coupon-details-buttons .button.explode i {
-  color: #485067;
+  color: #4c4c4c;
 }
 
 .coupon-details-buttons .button.explode:hover {
-  background-color: #3d4558;
+  background-color: #3f3f3f;
 }
 
 .coupon-details-buttons .button.explode:hover i {
-  color: #3d4558;
+  color: #3f3f3f;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -17345,7 +17345,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 300px;
   margin: 20px;
   display: inline-block;
-  border: 1px solid #525c76;
+  border: 1px solid #585858;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .text-wrapper {
@@ -17391,8 +17391,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 45px;
-  background: #333949;
-  border: 1px solid #525c76;
+  background: #323232;
+  border: 1px solid #585858;
   line-height: 20px;
   height: 20px;
   width: calc(100% - 90px);
@@ -17420,12 +17420,12 @@ footer.center-footer .footer-logos .group-1 {
   width: 0;
   top: 0;
   left: 0;
-  background: #525c76;
+  background: #585858;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons {
   margin: 5px;
-  border: 1px solid #525c76;
+  border: 1px solid #585858;
   display: inline-block;
   width: calc(100% - 10px);
 }
@@ -17436,17 +17436,17 @@ footer.center-footer .footer-logos .group-1 {
   color: white;
   line-height: 34px;
   padding: 0 10px;
-  background-color: #616d8b;
+  background-color: #6a6a6a;
   border-radius: 4px;
   margin: 5px 10px;
   font-size: 14px;
-  -webkit-box-shadow: inset 0 1px #677494;
-          box-shadow: inset 0 1px #677494;
+  -webkit-box-shadow: inset 0 1px #727272;
+          box-shadow: inset 0 1px #727272;
   cursor: pointer;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons .button:hover {
-  background-color: #525c76;
+  background-color: #585858;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons .button:first-child {
@@ -17476,9 +17476,9 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 34px;
   padding: 0 8;
   border-radius: 4px;
-  background-color: #333844;
-  -webkit-box-shadow: inset 0 1px #242730;
-          box-shadow: inset 0 1px #242730;
+  background-color: #323232;
+  -webkit-box-shadow: inset 0 1px #202020;
+          box-shadow: inset 0 1px #202020;
   cursor: pointer;
   margin-bottom: 10px;
 }
@@ -17490,7 +17490,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .download-button:hover {
-  background-color: #242730;
+  background-color: #202020;
 }
 
 .marketing-assets-holder {
@@ -17498,7 +17498,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .marketing-assets-holder .info-text {
-  background-color: #0d0f13;
+  background-color: #040404;
   color: #ebebeb;
   font-size: 14px;
   line-height: 1.4;
@@ -17510,7 +17510,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .marketing-assets-holder .text-box h4 {
-  color: #485067;
+  color: #4c4c4c;
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 15px;
@@ -17574,7 +17574,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .hat-trick-holder .info-text {
-  background-color: #1e222b;
+  background-color: #191919;
   color: #ebebeb;
   line-height: 1.4;
   padding: 20px 10px;
@@ -17700,7 +17700,7 @@ footer.center-footer .footer-logos .group-1 {
 .new-profile-page input[type="number"],
 .new-profile-page input[type="date"] {
   color: #333;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -17755,8 +17755,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .input-wrapper .ui-selectmenu-button,
 .new-profile-page .input-wrapper select {
-  border: 1px solid #333949;
-  background-color: #333949;
+  border: 1px solid #323232;
+  background-color: #323232;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -17783,7 +17783,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .input-wrapper .ui-selectmenu-button:hover,
 .new-profile-page .input-wrapper select:hover {
-  background-color: #3d4558;
+  background-color: #3f3f3f;
 }
 
 .new-profile-page .input-wrapper .ui-selectmenu-button .ui-icon,
@@ -17808,7 +17808,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs {
-  border-bottom: 1px solid #333949;
+  border-bottom: 1px solid #323232;
   text-align: right;
   margin-top: 10px;
   padding-right: 10px;
@@ -17820,7 +17820,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
-  color: #333949;
+  color: #323232;
   padding: 0 10px;
   cursor: pointer;
 }
@@ -17839,16 +17839,16 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs .single-tab:hover {
-  background-color: rgba(51, 57, 73, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs .single-tab.active {
-  background-color: #333949;
+  background-color: #323232;
   color: #ebebeb;
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs .single-tab.active:hover {
-  background-color: #333949;
+  background-color: #323232;
 }
 
 .new-profile-page.betlist-checkout .accordion-content {
@@ -18039,7 +18039,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .limit-settings .bonus-outer .bonus-wrapper {
   position: relative;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   padding: 30px 10px 10px;
   margin-top: 30px;
   width: calc(100% - 20px);
@@ -18052,9 +18052,9 @@ footer.center-footer .footer-logos .group-1 {
 .new-profile-page .limit-settings .bonus-outer .bonus-wrapper .title {
   position: absolute;
   top: -14px;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   background-color: #ebebeb;
-  color: #333949;
+  color: #323232;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   left: 15px;
@@ -18161,7 +18161,7 @@ footer.center-footer .footer-logos .group-1 {
   margin-right: 2px;
   float: left;
   width: 90px;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   box-sizing: border-box;
   line-height: 22px;
 }
@@ -18224,7 +18224,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content .bonus-wrapper {
   position: relative;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   padding: 30px 10px 10px;
   margin-top: 40px;
   width: 380px;
@@ -18234,11 +18234,11 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: -14px;
   left: 30px;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   background-color: #ebebeb;
   width: 200px;
   line-height: 28px;
-  color: #333949;
+  color: #323232;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-left: 15px;
@@ -18288,8 +18288,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button,
 .new-profile-page .turn-over-content.provider select {
-  border: 1px solid #333949;
-  background-color: #333949;
+  border: 1px solid #323232;
+  background-color: #323232;
   color: #ebebeb;
   font-size: 12px;
   width: 120px;
@@ -18316,7 +18316,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button:hover,
 .new-profile-page .turn-over-content.provider select:hover {
-  background-color: #3d4558;
+  background-color: #3f3f3f;
 }
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button .ui-icon,
@@ -18367,7 +18367,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 13px;
   margin-bottom: 13px;
   line-height: 1;
-  color: #4c556d;
+  color: #515151;
 }
 
 .contact-us-form form .input-wrapper {
@@ -18408,7 +18408,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper textarea {
   color: #333;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   background: #e5e5e5;
   width: 100%;
   padding: 5px;
@@ -18421,7 +18421,7 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .input-wrapper input[type="password"],
 .contact-us-form form .input-wrapper input[type="number"] {
   color: #333;
-  border: 1px solid #333949;
+  border: 1px solid #323232;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -18432,8 +18432,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button,
 .contact-us-form form .input-wrapper select {
-  border: 1px solid #333949;
-  background-color: #333949;
+  border: 1px solid #323232;
+  background-color: #323232;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -18446,7 +18446,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button:hover,
 .contact-us-form form .input-wrapper select:hover {
-  background-color: #3d4558;
+  background-color: #3f3f3f;
 }
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button .ui-icon,
@@ -18466,8 +18466,8 @@ footer.center-footer .footer-logos .group-1 {
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
-  border: 1px solid #4c556d;
-  background-color: #4c556d;
+  border: 1px solid #515151;
+  background-color: #515151;
   height: 24px;
   line-height: 22px;
   color: #ebebeb;
@@ -18488,11 +18488,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .contact-us-form form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(51, 57, 73, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .contact-us-form form .input-wrapper .check-label {
-  color: #4c556d;
+  color: #515151;
   font-size: 12px;
   font-weight: 500;
   float: left;
@@ -18535,7 +18535,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #f7c828;
+  border: 2px solid #ea2125;
 }
 
 .contact-us-form form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -18544,7 +18544,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f7c828;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -18566,7 +18566,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f7c828;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -18616,14 +18616,14 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .buttons-holder .single-button.search-button {
   margin-right: 30px;
   float: right;
-  background-color: #333844;
+  background-color: #323232;
   background-image: url(//nextra.nextra.bet/biwinner/images/search-icon.png);
-  -webkit-box-shadow: inset 0 1px #242730;
-          box-shadow: inset 0 1px #242730;
+  -webkit-box-shadow: inset 0 1px #202020;
+          box-shadow: inset 0 1px #202020;
 }
 
 .contact-us-form form .buttons-holder .single-button.search-button:hover {
-  background-color: #242730;
+  background-color: #202020;
 }
 
 .contact-us-form form .buttons-holder .single-button.search-button.new {
@@ -18825,14 +18825,14 @@ span.ui-icon.ui-icon-circle-triangle-e {
     background: transparent;
   }
   60% {
-    background: #485067;
+    background: #4c4c4c;
     color: white;
   }
   70% {
     background: transparent;
   }
   80% {
-    background: #485067;
+    background: #4c4c4c;
     color: white;
   }
   90% {
@@ -18845,14 +18845,14 @@ span.ui-icon.ui-icon-circle-triangle-e {
     background: transparent;
   }
   60% {
-    background: #485067;
+    background: #4c4c4c;
     color: white;
   }
   70% {
     background: transparent;
   }
   80% {
-    background: #485067;
+    background: #4c4c4c;
     color: white;
   }
   90% {
@@ -18964,7 +18964,7 @@ select option {
   margin: -50px 0 0 -50px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #333949;
+  border-top-color: #323232;
   -webkit-animation: spin 4s linear infinite;
   animation: spin 4s linear infinite;
   z-index: 1001;
@@ -18980,7 +18980,7 @@ select option {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #677494;
+  border-top-color: #727272;
   -webkit-animation: spin 3s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 3s linear infinite;
@@ -18997,7 +18997,7 @@ select option {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #f7c828;
+  border-top-color: #ea2125;
   -webkit-animation: spin 5s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 5s linear infinite;
@@ -19290,7 +19290,7 @@ select option {
 }
 
 .casino-pro-down .casino-pro-list .casino-pro-item:hover {
-  background-color: #333844;
+  background-color: #323232;
 }
 
 .casino-pro-down .casino-pro-list .casino-pro-item-img {
@@ -19414,7 +19414,7 @@ select option {
 
 .game-grid-item .gg-item-details .gg-item-ico .gg-info:hover,
 .game-grid-item .gg-item-details .gg-item-ico .gg-star:hover {
-  color: #f7c828;
+  color: #ea2125;
 }
 
 .game-grid-item:hover .game-overlay {
@@ -19483,9 +19483,9 @@ select option {
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn {
-  color: #333949;
-  background-color: #f7c828;
-  border: 2px solid #f7c828;
+  color: #323232;
+  background-color: #ea2125;
+  border: 2px solid #ea2125;
   text-decoration: none;
   border-radius: 3px;
   padding: 6px 30px;
@@ -19496,21 +19496,21 @@ select option {
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn-b {
-  background-color: #333844;
+  background-color: #323232;
   color: #ebebeb;
-  border: 2px solid #333844;
+  border: 2px solid #323232;
   padding: 6px 25px;
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn-b:hover {
   background-color: #ebebeb !important;
-  color: #333949 !important;
-  border: 2px solid #333844;
+  color: #323232 !important;
+  border: 2px solid #323232;
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn:hover {
   background-color: #ebebeb;
-  color: #333949;
+  color: #323232;
 }
 
 .game-overlay-inner .game-pro-container {
@@ -20414,7 +20414,7 @@ body .loader__ball {
   width: 180px;
   height: 70px;
   display: block;
-  background-image: url("https://gradm-api.pcluster.info/api/skin/25/image/821baba3c808cd5870811b25c8d49535.png");
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDIuNjcgMTIwLjg1Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2VkMDAxMTt9LmNscy0ye2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPnhiZXRwcm8tbG9nbzE8L3RpdGxlPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDguMjEsNTcuNzgsNDAsNDkuNTcsNjkuMzIsMjAuMjRsOC4yMSw4LjIyWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTguMjEsOTcuNzcsMCw4OS41NiwyOS4zMyw2MC4yNGw4LjIxLDguMjFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDAsNjguNDVsOC4yMS04LjIyTDc3LjUzLDg5LjU2bC04LjIxLDguMjFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMCwyOC40Nmw4LjIxLTguMjFMMzcuNTMsNDkuNTdsLTguMjEsOC4yMVoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yNDkuODMsNTRhMzcuNTMsMzcuNTMsMCwxLDAtNy4yNSwyOS4yMmwtOC44NS02Ljc5QTI2LjE5LDI2LjE5LDAsMSwxLDIzOC40Miw1NEgyMTAuNzZWNjUuMTRoMzkuMDdaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDY1LjI2LDM0LjY0YTI1Ljc5LDI1Ljc5LDAsMSwxLTI1Ljc4LDI1Ljc4LDI1LjgyLDI1LjgyLDAsMCwxLDI1Ljc4LTI1Ljc4bTAtMTEuNjJhMzcuNDEsMzcuNDEsMCwxLDAsMzcuNDEsMzcuNEEzNy40MSwzNy40MSwwLDAsMCw0NjUuMjYsMjNaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTI5LjgzLDIzYTM3LjI4LDM3LjI4LDAsMCwwLTI2LjI0LDEwLjc2VjBIOTIuNDNWNjAuNDJoMHYyLjc1aC4xMUEzNy40LDM3LjQsMCwxLDAsMTI5LjgzLDIzWm0wLDYzLjE5YTI1Ljc5LDI1Ljc5LDAsMSwxLDI1Ljc5LTI1Ljc5QTI1LjgxLDI1LjgxLDAsMCwxLDEyOS44Myw4Ni4yMVoiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0zMzIuOCwyM2EzNy40LDM3LjQsMCwwLDAtMzcuMjksMzQuNjVoLS4xMnYyLjc1aDB2NjAuNDJoMTEuMTdWODcuMDdBMzcuNCwzNy40LDAsMSwwLDMzMi44LDIzWm0wLDYzLjE5YTI1Ljc5LDI1Ljc5LDAsMSwxLDI1Ljc4LTI1Ljc5QTI1LjgyLDI1LjgyLDAsMCwxLDMzMi44LDg2LjIxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTI4Mi44OSwzNC4xOCwyODcuNDUsMjNIMjcwLjkyVjBIMjU5Ljc2VjcyLjY0YzAsMTEuNzgsNS40OSwxOC44OCwxNSwyNS4xM2w2LjM4LTkuMTVjLTYuNTItNC40NC0xMC4yMy03LjkyLTEwLjIzLTE2VjM0LjE4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQxNi45NCwyM2EzNy40MiwzNy40MiwwLDAsMC0zNy40LDM3LjRoMFY5Ny43N0gzOTAuN1Y4Ny4wN2wuNDYtMjYuNjVBMjUuNzcsMjUuNzcsMCwwLDEsNDIxLjEsMzVWMjMuMjZBMzguMDksMzguMDksMCwwLDAsNDE2Ljk0LDIzWiIvPjwvZz48L2c+PC9zdmc+");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
