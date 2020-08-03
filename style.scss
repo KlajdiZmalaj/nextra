@@ -993,6 +993,7 @@ input[type="submit"] {
     display: flex;
     flex-flow: column;
     width: 100%;
+    margin-bottom: 1px;
     .block-title {
       position: relative;
       line-height: 36px;
@@ -1464,6 +1465,7 @@ input[type="submit"] {
       overflow-x: hidden;
       .block-title {
         position: relative;
+        margin-bottom: 1px;
         .potential-winning {
           font-weight: 300;
           font-size: 11px;

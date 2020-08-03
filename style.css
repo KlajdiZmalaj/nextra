@@ -1193,6 +1193,7 @@ input[type="submit"] {
       -ms-flex-flow: column;
           flex-flow: column;
   width: 100%;
+  margin-bottom: 1px;
 }
 
 .side-bar .single-block .block-title {
@@ -1803,6 +1804,7 @@ input[type="submit"] {
 
 .side-bar .single-block.betslip-holder .block-title {
   position: relative;
+  margin-bottom: 1px;
 }
 
 .side-bar .single-block.betslip-holder .block-title .potential-winning {
