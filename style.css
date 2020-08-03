@@ -2,36 +2,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 html:root {
-  --accent: #005293;
-  --accent-bg: #005293;
-  --accent-txt: #ffcc00;
-  --primary-bg: #005293;
-  --primary-txt: #ffffff;
-  --secondary-bg: #ffffff;
-  --secondary-txt: #000;
-  --mainBg: #ffffff;
-  --mainBgCol: #000;
-  --bg1: #e7e7e7;
-  --col1: #000;
-  --teableHeadersBg: #ffcc00;
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #005293;
+  --accent: #ea2125;
+  --accent-bg: #ea2125;
+  --accent-txt: #000;
+  --primary-bg: #1c1c1c;
+  --primary-txt: #fff;
+  --secondary-bg: #2e2e2e;
+  --secondary-txt: #fff;
+  --mainBg: #282828;
+  --mainBgCol: #fff;
+  --bg1: #323232;
+  --col1: #fff;
+  --teableHeadersBg: #ea2125;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #636363;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #a3a3a3;
+  --tableBorders: #535353;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-}
-
-#favouriteTournaments li:before {
-  -webkit-filter: brightness(0.1);
-          filter: brightness(0.1);
-}
-
-body {
-  background-attachment: initial !important;
 }
 
 @media (max-width: 1008px) {
@@ -183,7 +174,7 @@ th {
 
 body {
   margin: 0;
-  background-image: url("https://gradm-api.pcluster.info/api/skin/45/image/98d3fcf49dcebf55ddfb3ebaab7fe447.jpeg");
+  background-image: url("https://gradm-api.pcluster.info/api/skin/35/image/cc4948ec3b59fe2173bb71a1df14271e.jpeg");
   background-size: 100% 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -195,7 +186,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   font-family: "Ubuntu", sans-serif;
-  background-color: #ebebeb;
+  background-color: #202020;
 }
 
 body.hidden {
@@ -347,7 +338,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid gainsboro;
+  border: 1px solid #4c4c4c;
   border-radius: 3px;
 }
 
@@ -359,14 +350,14 @@ input[type="submit"] {
   top: 1px;
   width: 3px;
   height: 7px;
-  border: solid #005293;
+  border: solid #ea2125;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .check:hover input ~ .checkmark {
-  background: #cfcfcf;
+  background: #3f3f3f;
 }
 
 .radio {
@@ -402,7 +393,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #005293;
+  border: 2px solid #ea2125;
 }
 
 .radio input:checked ~ .radiocircle:after {
@@ -411,7 +402,7 @@ input[type="submit"] {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -428,7 +419,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid gainsboro;
+  border: 1px solid #4c4c4c;
   border-radius: 3px;
   border-radius: 50%;
   border-width: 2px;
@@ -443,14 +434,14 @@ input[type="submit"] {
   top: 1px;
   width: 3px;
   height: 7px;
-  border: solid #005293;
+  border: solid #ea2125;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .radio:hover input ~ .radiocircle {
-  background: rgba(194, 194, 194, 0.5);
+  background: rgba(50, 50, 50, 0.5);
 }
 
 .lang-open {
@@ -726,7 +717,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .help:after {
   display: none;
   content: "";
-  border-bottom: 9px solid darkgray;
+  border-bottom: 9px solid #191919;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -738,7 +729,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .help:before {
   display: none;
   content: "";
-  border-bottom: 9px solid #0a497e;
+  border-bottom: 9px solid #ea2125;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -780,8 +771,8 @@ input[type="submit"] {
   top: calc(100% + 8px);
   right: 0;
   width: 110px;
-  background: #9c9c9c;
-  border: 1px solid #0a497e;
+  background: #0c0c0c;
+  border: 1px solid #ea2125;
   z-index: 3;
 }
 
@@ -794,17 +785,17 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .settings .controls-menu .option-block .title {
   padding-top: 8px;
   padding-left: 5px;
-  border-bottom: 1px solid #0a497e;
+  border-bottom: 1px solid #ea2125;
   cursor: default;
   pointer-events: none;
 }
 
 .header .top-bar .top-bar-content .login-bar .settings .controls-menu .option-block .option {
-  background: darkgray;
+  background: #191919;
   line-height: 25px;
   padding-left: 25px;
   position: relative;
-  border-bottom: 1px solid #0a497e;
+  border-bottom: 1px solid #ea2125;
   cursor: pointer;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
@@ -819,7 +810,7 @@ input[type="submit"] {
           transform: translateY(-50%);
   width: 12px;
   height: 12px;
-  border: 1px solid #0a497e;
+  border: 1px solid #ea2125;
   border-radius: 50%;
 }
 
@@ -834,12 +825,12 @@ input[type="submit"] {
   width: 10px;
   height: 10px;
   border: none;
-  background: #1072c5;
+  background: #f1676a;
   border-radius: 50%;
 }
 
 .header .top-bar .top-bar-content .login-bar .settings .controls-menu .option-block .option:hover {
-  background: #b5b5b5;
+  background: #252525;
 }
 
 .header .top-bar .top-bar-content .login-bar .settings .controls-menu .option-block .option.selected:after {
@@ -853,7 +844,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .settings:after {
   display: none;
   content: "";
-  border-bottom: 9px solid #9c9c9c;
+  border-bottom: 9px solid #0c0c0c;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -865,7 +856,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .settings:before {
   display: none;
   content: "";
-  border-bottom: 9px solid #0a497e;
+  border-bottom: 9px solid #ea2125;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -922,30 +913,30 @@ input[type="submit"] {
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"],
 .header .top-bar .top-bar-content .login-bar form input[type="password"] {
-  color: #c2c2c2;
-  border: 1px solid #c2c2c2;
+  color: #323232;
+  border: 1px solid #323232;
   width: 100px;
   padding: 0 0 0 6px;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::-webkit-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::-webkit-input-placeholder {
-  color: #c2c2c2;
+  color: #323232;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]:-ms-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]:-ms-input-placeholder {
-  color: #c2c2c2;
+  color: #323232;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::-ms-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::-ms-input-placeholder {
-  color: #c2c2c2;
+  color: #323232;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::placeholder {
-  color: #c2c2c2;
+  color: #323232;
 }
 
 .header .top-bar .top-bar-content .login-bar form i {
@@ -996,7 +987,7 @@ input[type="submit"] {
   height: 70px;
   display: block;
   position: relative;
-  background-image: url("http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg");
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDIuNjcgMTIwLjg1Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2VkMDAxMTt9LmNscy0ye2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPnhiZXRwcm8tbG9nbzE8L3RpdGxlPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDguMjEsNTcuNzgsNDAsNDkuNTcsNjkuMzIsMjAuMjRsOC4yMSw4LjIyWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTguMjEsOTcuNzcsMCw4OS41NiwyOS4zMyw2MC4yNGw4LjIxLDguMjFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDAsNjguNDVsOC4yMS04LjIyTDc3LjUzLDg5LjU2bC04LjIxLDguMjFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMCwyOC40Nmw4LjIxLTguMjFMMzcuNTMsNDkuNTdsLTguMjEsOC4yMVoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yNDkuODMsNTRhMzcuNTMsMzcuNTMsMCwxLDAtNy4yNSwyOS4yMmwtOC44NS02Ljc5QTI2LjE5LDI2LjE5LDAsMSwxLDIzOC40Miw1NEgyMTAuNzZWNjUuMTRoMzkuMDdaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDY1LjI2LDM0LjY0YTI1Ljc5LDI1Ljc5LDAsMSwxLTI1Ljc4LDI1Ljc4LDI1LjgyLDI1LjgyLDAsMCwxLDI1Ljc4LTI1Ljc4bTAtMTEuNjJhMzcuNDEsMzcuNDEsMCwxLDAsMzcuNDEsMzcuNEEzNy40MSwzNy40MSwwLDAsMCw0NjUuMjYsMjNaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTI5LjgzLDIzYTM3LjI4LDM3LjI4LDAsMCwwLTI2LjI0LDEwLjc2VjBIOTIuNDNWNjAuNDJoMHYyLjc1aC4xMUEzNy40LDM3LjQsMCwxLDAsMTI5LjgzLDIzWm0wLDYzLjE5YTI1Ljc5LDI1Ljc5LDAsMSwxLDI1Ljc5LTI1Ljc5QTI1LjgxLDI1LjgxLDAsMCwxLDEyOS44Myw4Ni4yMVoiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0zMzIuOCwyM2EzNy40LDM3LjQsMCwwLDAtMzcuMjksMzQuNjVoLS4xMnYyLjc1aDB2NjAuNDJoMTEuMTdWODcuMDdBMzcuNCwzNy40LDAsMSwwLDMzMi44LDIzWm0wLDYzLjE5YTI1Ljc5LDI1Ljc5LDAsMSwxLDI1Ljc4LTI1Ljc5QTI1LjgyLDI1LjgyLDAsMCwxLDMzMi44LDg2LjIxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTI4Mi44OSwzNC4xOCwyODcuNDUsMjNIMjcwLjkyVjBIMjU5Ljc2VjcyLjY0YzAsMTEuNzgsNS40OSwxOC44OCwxNSwyNS4xM2w2LjM4LTkuMTVjLTYuNTItNC40NC0xMC4yMy03LjkyLTEwLjIzLTE2VjM0LjE4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQxNi45NCwyM2EzNy40MiwzNy40MiwwLDAsMC0zNy40LDM3LjRoMFY5Ny43N0gzOTAuN1Y4Ny4wN2wuNDYtMjYuNjVBMjUuNzcsMjUuNzcsMCwwLDEsNDIxLjEsMzVWMjMuMjZBMzguMDksMzguMDksMCwwLDAsNDE2Ljk0LDIzWiIvPjwvZz48L2c+PC9zdmc+");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1228,8 +1219,8 @@ input[type="submit"] {
   -ms-flex-item-align: center;
       align-self: center;
   padding: 0 5px;
-  -webkit-filter: grayscale(1) brightness(0) invert(0);
-          filter: grayscale(1) brightness(0) invert(0);
+  -webkit-filter: grayscale(1) brightness(0) invert(1);
+          filter: grayscale(1) brightness(0) invert(1);
 }
 
 .side-bar .single-block .block-title span {
@@ -1362,7 +1353,7 @@ input[type="submit"] {
 
 .side-bar .single-block .block-content form[name="fastslip3"] .ui-selectmenu-button .ui-icon,
 .side-bar .single-block .block-content form[name="fastslip3"] select .ui-icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png) !important;
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -1393,7 +1384,7 @@ input[type="submit"] {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
@@ -1631,7 +1622,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block .block-content.sports-menu form input[type="submit"]:hover {
-  background-color: #0e64ad;
+  background-color: #ee5053;
 }
 
 .side-bar .single-block .block-content.sports-menu .tabs {
@@ -1906,8 +1897,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .my-bets .my-coupons .buttons .single-button {
   width: 30px;
   height: 30px;
-  background: #b5b5b5;
-  border: 3px solid #e8e8e8;
+  background: #252525;
+  border: 3px solid #585858;
   border-radius: 5px;
   line-height: 30px;
   text-align: center;
@@ -1922,7 +1913,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .my-coupons .buttons .single-button:hover {
-  background-color: #e8e8e8;
+  background-color: #585858;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form {
@@ -1941,7 +1932,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .my-bets form div input[type="text"] {
   line-height: 30px;
   width: 100%;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   border-radius: 3px;
   font-weight: bold;
   padding: 0 10px 0 50px;
@@ -1950,7 +1941,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"] {
-  background-image: url(//nextra.nextra.bet/nextra/images/search-icon.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/search-icon.png);
   background-size: 50%;
   background-position: center left 12px;
   background-repeat: no-repeat;
@@ -1976,24 +1967,24 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::-webkit-input-placeholder {
-  color: #c2c2c2;
+  color: #323232;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]:-ms-input-placeholder {
-  color: #c2c2c2;
+  color: #323232;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::-ms-input-placeholder {
-  color: #c2c2c2;
+  color: #323232;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::placeholder {
-  color: #c2c2c2;
+  color: #323232;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper {
-  background-color: #c2c2c2;
-  border: 4px solid #c2c2c2;
+  background-color: #323232;
+  border: 4px solid #323232;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2034,7 +2025,7 @@ input[type="submit"] {
   height: 18px;
   background-color: rgba(0, 0, 0, 0.24);
   border-radius: 4px;
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
 }
@@ -2088,7 +2079,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting {
-  background-color: #005293;
+  background-color: #ea2125;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting .single-betslip-title {
@@ -2190,7 +2181,7 @@ input[type="submit"] {
   line-height: 28px;
   font-size: 12px;
   font-weight: 500;
-  color: #c2c2c2;
+  color: #323232;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div span {
@@ -2220,12 +2211,12 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div.half .refresh-button:hover i {
-  color: darkgray;
+  color: #191919;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder {
   width: 100%;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
@@ -2234,7 +2225,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event {
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #323232;
   width: 100%;
   display: inline-block;
   line-height: 26px;
@@ -2309,7 +2300,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .legend {
-  background: #c2c2c2;
+  background: #323232;
   border: none;
   width: calc(100%);
   line-height: 22px;
@@ -2593,8 +2584,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #323232;
+  background-color: #323232;
   color: #ebebeb;
   font-size: 12px;
   line-height: 24px;
@@ -2629,14 +2620,14 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select:hover {
-  background-color: #cfcfcf;
+  background-color: #3f3f3f;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group .ui-selectmenu-button .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select .ui-icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png) !important;
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -2672,7 +2663,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th input,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td input {
   max-width: 30px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   border-radius: 3px;
   font-weight: bold;
   color: #000000;
@@ -2865,7 +2856,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group table td .check:hover input ~ .checkmark,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .check:hover input ~ .checkmark,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .check:hover input ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.1);
+  background-color: rgba(50, 50, 50, 0.1);
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group table th,
@@ -2937,7 +2928,7 @@ input[type="submit"] {
   line-height: 20px;
   height: 20px;
   margin-top: 3px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   border-radius: 3px;
 }
 
@@ -2945,8 +2936,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #323232;
+  background-color: #323232;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -2962,14 +2953,14 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select:hover {
-  background-color: #cfcfcf;
+  background-color: #3f3f3f;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .ui-selectmenu-button .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select .ui-icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png) !important;
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -3013,7 +3004,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table tr:last-child {
-  border-bottom: 3px solid #c2c2c2;
+  border-bottom: 3px solid #323232;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .totals {
@@ -3389,7 +3380,7 @@ input[type="submit"] {
   background-color: var(--bg1);
   color: var(--col1);
   border-radius: 4px;
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
 }
@@ -3454,7 +3445,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid gainsboro;
+  border: 1px solid #4c4c4c;
   border-radius: 3px;
 }
 
@@ -3473,7 +3464,7 @@ input[type="submit"] {
 }
 
 .single-sport .anchor .check:hover input ~ .checkmark {
-  background: #cfcfcf;
+  background: #3f3f3f;
 }
 
 .single-sport .anchor .icon {
@@ -3486,7 +3477,7 @@ input[type="submit"] {
   width: 18px;
   height: 18px;
   border-radius: 4px;
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -3504,7 +3495,7 @@ input[type="submit"] {
   width: 18px;
   height: 18px;
   border-radius: 4px;
-  background-image: url(//nextra.nextra.bet/nextra/images/star.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/star.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 12px auto;
@@ -3521,7 +3512,7 @@ input[type="submit"] {
 }
 
 .single-sport .anchor.favourite .fav.off {
-  background-image: url(//nextra.nextra.bet/nextra/images/star-off.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/star-off.png);
 }
 
 .single-sport .anchor.favourite .fav.off:hover {
@@ -3530,167 +3521,167 @@ input[type="submit"] {
 }
 
 .single-sport .anchor.sport-1 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-1.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-1.svg);
 }
 
 .single-sport .anchor.sport-2 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-2.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-2.svg);
 }
 
 .single-sport .anchor.sport-3 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-3.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-3.svg);
 }
 
 .single-sport .anchor.sport-4 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-4.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-4.svg);
 }
 
 .single-sport .anchor.sport-5 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-5.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-5.svg);
 }
 
 .single-sport .anchor.sport-6 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-6.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-6.svg);
 }
 
 .single-sport .anchor.sport-7 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-7.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-7.svg);
 }
 
 .single-sport .anchor.sport-8 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-8.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-8.svg);
 }
 
 .single-sport .anchor.sport-9 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-9.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-9.svg);
 }
 
 .single-sport .anchor.sport-10 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-10.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-10.svg);
 }
 
 .single-sport .anchor.sport-11 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-11.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-11.svg);
 }
 
 .single-sport .anchor.sport-12 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-12.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-12.svg);
 }
 
 .single-sport .anchor.sport-13 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-13.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-13.svg);
 }
 
 .single-sport .anchor.sport-14 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-14.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-14.svg);
 }
 
 .single-sport .anchor.sport-15 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-15.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-15.svg);
 }
 
 .single-sport .anchor.sport-16 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-16.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-16.svg);
 }
 
 .single-sport .anchor.sport-17 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-17.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-17.svg);
 }
 
 .single-sport .anchor.sport-18 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-18.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-18.svg);
 }
 
 .single-sport .anchor.sport-19 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-19.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-19.svg);
 }
 
 .single-sport .anchor.sport-20 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-20.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-20.svg);
 }
 
 .single-sport .anchor.sport-21 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-21.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-21.svg);
 }
 
 .single-sport .anchor.sport-22 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-22.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-22.svg);
 }
 
 .single-sport .anchor.sport-23 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-23.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-23.svg);
 }
 
 .single-sport .anchor.sport-24 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-24.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-24.svg);
 }
 
 .single-sport .anchor.sport-25 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-25.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-25.svg);
 }
 
 .single-sport .anchor.sport-26 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-26.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-26.svg);
 }
 
 .single-sport .anchor.sport-27 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-27.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-27.svg);
 }
 
 .single-sport .anchor.sport-28 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-28.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-28.svg);
 }
 
 .single-sport .anchor.sport-29 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-29.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-29.svg);
 }
 
 .single-sport .anchor.sport-30 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-30.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-30.svg);
 }
 
 .single-sport .anchor.sport-31 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-31.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-31.svg);
 }
 
 .single-sport .anchor.sport-32 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-32.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-32.svg);
 }
 
 .single-sport .anchor.sport-33 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-33.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-33.svg);
 }
 
 .single-sport .anchor.sport-34 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-34.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-34.svg);
 }
 
 .single-sport .anchor.sport-35 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-35.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-35.svg);
 }
 
 .single-sport .anchor.sport-36 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-36.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-36.svg);
 }
 
 .single-sport .anchor.sport-37 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-37.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-37.svg);
 }
 
 .single-sport .anchor.sport-38 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-38.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-38.svg);
 }
 
 .single-sport .anchor.sport-39 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-39.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-39.svg);
 }
 
 .single-sport .anchor.sport-60 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-60.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-60.svg);
 }
 
 .single-sport .anchor.sport-117 .icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-117.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-117.svg);
 }
 
 .single-sport .states {
@@ -3773,7 +3764,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state > .anchor .check:hover input ~ .checkmark {
-  background: rgba(194, 194, 194, 0.2);
+  background: rgba(50, 50, 50, 0.2);
 }
 
 .single-sport .states .state i {
@@ -3823,7 +3814,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state .championship .anchor .check:hover input ~ .checkmark {
-  background: rgba(194, 194, 194, 0.2);
+  background: rgba(50, 50, 50, 0.2);
 }
 
 .single-sport .states .state .championship.active {
@@ -3835,7 +3826,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state .championship.selected .anchor {
-  background: #0a96f0;
+  background: #323232;
   color: #ebebeb;
   font-weight: 500;
 }
@@ -3893,7 +3884,6 @@ input[type="submit"] {
 .center-content {
   border-left: 5px solid var(--mainBg);
   border-right: 5px solid var(--mainBg);
-  padding: 0 2px;
   width: calc(100% - 546px);
   float: left;
   -webkit-transition: 0s all;
@@ -4011,7 +4001,7 @@ input[type="submit"] {
 
 .center-content .main-slider .single-slide .odds-holder .single-odd div {
   float: left;
-  color: #005293;
+  color: #ea2125;
   position: absolute;
   left: 5px;
   top: 50%;
@@ -4054,14 +4044,14 @@ input[type="submit"] {
   border-radius: 50%;
   padding: 0;
   display: inline-block;
-  border: 2px solid #005293;
+  border: 2px solid #ea2125;
   cursor: pointer;
   margin: 0 3px;
   background: transparent;
 }
 
 .center-content .main-slider .slick-dots li.slick-active button, .center-content .main-slider .slick-dots li:hover button {
-  background-color: #005293;
+  background-color: #ea2125;
 }
 
 .center-content .center-block {
@@ -4664,6 +4654,8 @@ input[type="submit"] {
   padding: 10px 5px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-left: 1px solid var(--tableBorders);
+  border-right: 1px solid var(--tableBorders);
 }
 
 .center-content .competition-filter .title {
@@ -5075,7 +5067,7 @@ div.landing-page .banner-content {
   margin: 0 auto;
   max-width: 1360px;
   min-height: 685px;
-  background: url(//nextra.nextra.bet/nextra/images/landing-images/landing-banner.jpg) no-repeat top !important;
+  background: url(//nextra.nextra.bet/biwinner/images/landing-images/landing-banner.jpg) no-repeat top !important;
 }
 
 div.landing-page .banner-content img {
@@ -5204,19 +5196,19 @@ div.landing-page .banner-content .grid a {
 
 div.landing-page .banner-content .grid a.become-agent {
   float: right;
-  background: #005293;
+  background: #ea2125;
 }
 
 div.landing-page .banner-content .grid a.become-agent:hover {
-  background: #003660;
+  background: #c51316;
 }
 
 div.landing-page .banner-content .grid a.register-online {
-  background: #0a96f0;
+  background: #323232;
 }
 
 div.landing-page .banner-content .grid a.register-online:hover {
-  background: #0877bf;
+  background: #191919;
 }
 
 .landing-bottom-holder {
@@ -5276,7 +5268,7 @@ div.landing-page .banner-content .grid a.register-online:hover {
   font-size: 20px;
   font-weight: 300;
   background-size: 100% 60px;
-  background-image: url(//nextra.nextra.bet/nextra/images/landing-images/landing-strip1.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/landing-images/landing-strip1.png);
 }
 
 .landing-bottom .single-block .image-holder img {
@@ -5288,7 +5280,7 @@ div.landing-page .banner-content .grid a.register-online:hover {
 }
 
 .landing-bottom .single-block:nth-child(2) .image-holder .strip {
-  background-image: url(//nextra.nextra.bet/nextra/images/landing-images/landing-strip2.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/landing-images/landing-strip2.png);
 }
 
 .landing-bottom .single-block:last-child {
@@ -5296,7 +5288,7 @@ div.landing-page .banner-content .grid a.register-online:hover {
 }
 
 .landing-bottom .single-block:last-child .image-holder .strip {
-  background-image: url(//nextra.nextra.bet/nextra/images/landing-images/landing-strip3.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/landing-images/landing-strip3.png);
 }
 
 footer {
@@ -5330,7 +5322,7 @@ footer .footer-logo a:before {
   height: 70px;
   display: block;
   position: relative;
-  background-image: url("http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg");
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDIuNjcgMTIwLjg1Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2VkMDAxMTt9LmNscy0ye2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPnhiZXRwcm8tbG9nbzE8L3RpdGxlPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDguMjEsNTcuNzgsNDAsNDkuNTcsNjkuMzIsMjAuMjRsOC4yMSw4LjIyWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTguMjEsOTcuNzcsMCw4OS41NiwyOS4zMyw2MC4yNGw4LjIxLDguMjFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDAsNjguNDVsOC4yMS04LjIyTDc3LjUzLDg5LjU2bC04LjIxLDguMjFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMCwyOC40Nmw4LjIxLTguMjFMMzcuNTMsNDkuNTdsLTguMjEsOC4yMVoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yNDkuODMsNTRhMzcuNTMsMzcuNTMsMCwxLDAtNy4yNSwyOS4yMmwtOC44NS02Ljc5QTI2LjE5LDI2LjE5LDAsMSwxLDIzOC40Miw1NEgyMTAuNzZWNjUuMTRoMzkuMDdaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDY1LjI2LDM0LjY0YTI1Ljc5LDI1Ljc5LDAsMSwxLTI1Ljc4LDI1Ljc4LDI1LjgyLDI1LjgyLDAsMCwxLDI1Ljc4LTI1Ljc4bTAtMTEuNjJhMzcuNDEsMzcuNDEsMCwxLDAsMzcuNDEsMzcuNEEzNy40MSwzNy40MSwwLDAsMCw0NjUuMjYsMjNaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTI5LjgzLDIzYTM3LjI4LDM3LjI4LDAsMCwwLTI2LjI0LDEwLjc2VjBIOTIuNDNWNjAuNDJoMHYyLjc1aC4xMUEzNy40LDM3LjQsMCwxLDAsMTI5LjgzLDIzWm0wLDYzLjE5YTI1Ljc5LDI1Ljc5LDAsMSwxLDI1Ljc5LTI1Ljc5QTI1LjgxLDI1LjgxLDAsMCwxLDEyOS44Myw4Ni4yMVoiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0zMzIuOCwyM2EzNy40LDM3LjQsMCwwLDAtMzcuMjksMzQuNjVoLS4xMnYyLjc1aDB2NjAuNDJoMTEuMTdWODcuMDdBMzcuNCwzNy40LDAsMSwwLDMzMi44LDIzWm0wLDYzLjE5YTI1Ljc5LDI1Ljc5LDAsMSwxLDI1Ljc4LTI1Ljc5QTI1LjgyLDI1LjgyLDAsMCwxLDMzMi44LDg2LjIxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTI4Mi44OSwzNC4xOCwyODcuNDUsMjNIMjcwLjkyVjBIMjU5Ljc2VjcyLjY0YzAsMTEuNzgsNS40OSwxOC44OCwxNSwyNS4xM2w2LjM4LTkuMTVjLTYuNTItNC40NC0xMC4yMy03LjkyLTEwLjIzLTE2VjM0LjE4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQxNi45NCwyM2EzNy40MiwzNy40MiwwLDAsMC0zNy40LDM3LjRoMFY5Ny43N0gzOTAuN1Y4Ny4wN2wuNDYtMjYuNjVBMjUuNzcsMjUuNzcsMCwwLDEsNDIxLjEsMzVWMjMuMjZBMzguMDksMzguMDksMCwwLDAsNDE2Ljk0LDIzWiIvPjwvZz48L2c+PC9zdmc+");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -5527,7 +5519,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: black;
   border-radius: 50%;
   padding: 2px;
-  background-image: url(//nextra.nextra.bet/nextra/images/cross.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cross.png);
   background-size: 8px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -5643,7 +5635,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .single-match-row td .goal-odd {
   width: calc((100% / 6) - 1px);
   display: inline-block;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   margin-right: -1px;
   margin-bottom: -1px;
   text-align: center;
@@ -5781,7 +5773,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .match-name .team-names.has-info:before {
   display: none;
   content: "";
-  border-bottom: 9px solid #c2c2c2;
+  border-bottom: 9px solid #323232;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -5801,7 +5793,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .match-name .team-names.has-info .info-box {
   position: absolute;
   width: 166px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   border-radius: 5px;
   background: var(--bg1);
   color: var(--col1);
@@ -5865,14 +5857,14 @@ footer.center-footer .footer-logos .group-1 {
 
 .odds-table .match-name .team-names.has-info .info-box .odd-types .single-type {
   width: 33%;
-  background: #c2c2c2;
-  color: #005293;
+  background: #323232;
+  color: #ea2125;
   font-size: 12px;
   text-align: center;
   font-weight: bold;
   line-height: 28px;
-  -webkit-box-shadow: inset 0 1px 0 #cfcfcf;
-          box-shadow: inset 0 1px 0 #cfcfcf;
+  -webkit-box-shadow: inset 0 1px 0 #3f3f3f;
+          box-shadow: inset 0 1px 0 #3f3f3f;
   float: left;
 }
 
@@ -5902,7 +5894,7 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   height: 15px;
   width: 34px;
-  background: #c2c2c2;
+  background: #323232;
   border-radius: 3px;
   position: relative;
   overflow: hidden;
@@ -5914,7 +5906,7 @@ footer.center-footer .footer-logos .group-1 {
   left: 0;
   top: 0;
   width: 50%;
-  background: #005293;
+  background: #ea2125;
 }
 
 .odds-table .match-name .team-names.has-info .info-box .bars-holder .single-bar-holder:nth-child(2) {
@@ -5993,7 +5985,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: black;
   border-radius: 50%;
   padding: 2px;
-  background-image: url(//nextra.nextra.bet/nextra/images/cross.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cross.png);
   background-size: 8px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -6092,15 +6084,15 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.odd-up .quote:after {
-  background-image: url(//nextra.nextra.bet/nextra/images/odd-up.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/odd-up.png);
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.odd-equal .quote:after {
-  background-image: url(//nextra.nextra.bet/nextra/images/odd-equal.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/odd-equal.png);
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.odd-down .quote:after {
-  background-image: url(//nextra.nextra.bet/nextra/images/odd-down.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/odd-down.png);
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.selected {
@@ -6137,20 +6129,20 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .title.light {
-  background: #e8e8e8;
+  background: #585858;
 }
 
 .results-page .results-filter {
   width: 100%;
   display: inline-block;
-  background: darkgray;
+  background: #191919;
 }
 
 .results-page .results-filter .single-filter {
   float: left;
   padding: 10px 20px 25px 10px;
-  border-right: 1px solid #c2c2c2;
-  color: darkgray;
+  border-right: 1px solid #323232;
+  color: #191919;
   width: 130px;
 }
 
@@ -6163,9 +6155,9 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results-filter .single-filter input[type="date"] {
-  color: darkgray;
+  color: #191919;
   background-color: #b398d1;
-  background-image: url(//nextra.nextra.bet/nextra/images/colored-calendar.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/colored-calendar.png);
   background-size: auto 100%;
   background-position: right top;
   background-repeat: no-repeat;
@@ -6183,7 +6175,7 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: #b398d1;
-  background-image: url(//nextra.nextra.bet/nextra/images/colored-triangle-down.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/colored-triangle-down.png);
   background-size: auto 100%;
   background-position: right top;
   background-repeat: no-repeat;
@@ -6191,7 +6183,7 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 3px;
   height: 26px;
   padding-left: 8px;
-  color: darkgray;
+  color: #191919;
 }
 
 .results-page .results-filter .single-filter select::-ms-expand {
@@ -6223,7 +6215,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results .single-result .result-top-bar .championship-name {
-  color: darkgray;
+  color: #191919;
   font-size: 12px;
   font-weight: bold;
   float: left;
@@ -6237,7 +6229,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results .single-result .result-top-bar .result div {
-  color: darkgray;
+  color: #191919;
   font-size: 12px;
   font-weight: 500;
   width: 50px;
@@ -6253,14 +6245,14 @@ footer.center-footer .footer-logos .group-1 {
 .results-page .results .single-result .result-match {
   width: 100%;
   background: #f1f1f2;
-  border-bottom: 3px solid darkgray;
+  border-bottom: 3px solid #191919;
 }
 
 .results-page .results .single-result .result-match .time {
   line-height: 76px;
   font-size: 12px;
   font-weight: 500;
-  color: darkgray;
+  color: #191919;
   padding: 0 10px;
   text-align: center;
   display: inline-block;
@@ -6279,7 +6271,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 30px;
   font-size: 12px;
   font-weight: 500;
-  color: darkgray;
+  color: #191919;
 }
 
 .results-page .results .single-result .result-match .match-teams .home-team.winner,
@@ -6307,7 +6299,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .results-page .results .single-result .result-match .result div {
   padding: 8px 0;
-  color: darkgray;
+  color: #191919;
   font-size: 12px;
   font-weight: 500;
   width: 50px;
@@ -6328,7 +6320,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .results-page .results .single-result .result-match .result div.status {
   line-height: 60px;
-  color: #0a497e;
+  color: #ea2125;
   font-weight: bold;
 }
 
@@ -6579,7 +6571,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .explore-matches-page .title {
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #323232;
   line-height: 36px;
   width: calc(100% - 70px);
   padding: 0 35px;
@@ -6715,12 +6707,12 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   width: 37px;
   height: 26px;
-  background: #0a96f0;
+  background: #323232;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   border: none;
   font-size: 0;
-  background-image: url(//nextra.nextra.bet/nextra/images/search-icon.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/search-icon.png);
   background-size: 50%;
   background-position: center left 9px;
   background-repeat: no-repeat;
@@ -6729,7 +6721,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .sports-book-page .filters-holder .search-form input[type="text"] {
   border: none;
-  border-left: 1px solid #0a96f0;
+  border-left: 1px solid #323232;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   line-height: 24px;
@@ -7130,7 +7122,7 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   padding: 25px 15px;
   display: inline-block;
-  background: #c2c2c2;
+  background: #323232;
 }
 
 .sports-book-page .button-holder .button-next {
@@ -7179,7 +7171,7 @@ footer.center-footer .footer-logos .group-1 {
 .become-an-agent-page .agent-buttons {
   text-align: center;
   padding: 30px 0;
-  background-color: #b5b5b5;
+  background-color: #252525;
 }
 
 .become-an-agent-page .agent-buttons .single-button {
@@ -7257,11 +7249,11 @@ footer.center-footer .footer-logos .group-1 {
 
 .become-an-agent-page .page-content .inner-content .content-block.last-block p .colored {
   font-weight: bold;
-  color: #0a96f0;
+  color: #323232;
 }
 
 .become-an-agent-page .page-content .inner-content .content-block .title {
-  color: #0a96f0;
+  color: #323232;
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
@@ -7274,15 +7266,15 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   margin: 0 10px;
   padding: 0 20px;
-  border: 2px solid #0a96f0;
+  border: 2px solid #323232;
   border-radius: 3px;
-  color: #0a96f0;
+  color: #323232;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
 
 .become-an-agent-page .page-content .inner-content .content-block .title a:hover {
-  background: #0a96f0;
+  background: #323232;
   color: #ebebeb;
 }
 
@@ -7313,7 +7305,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: #0a96f0;
+  background: #323232;
 }
 
 .dark-overlay {
@@ -7509,7 +7501,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: var(--bg1);
   color: var(--col1);
   border-radius: 4px;
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
   -webkit-transition: 0.3s all;
@@ -7535,7 +7527,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .sports-container .sports .sport .anchor.special {
   background: #ececed;
-  color: #c2c2c2;
+  color: #323232;
   font-weight: bold;
   font-size: 12px;
   border-top: 1px solid #feffff;
@@ -7545,7 +7537,7 @@ footer.center-footer .footer-logos .group-1 {
   background-position: center;
   background-size: cover;
   background-color: transparent;
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-right.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-right.png);
   -webkit-transform: translateY(-50%) rotate(0deg);
           transform: translateY(-50%) rotate(0deg);
 }
@@ -7695,7 +7687,7 @@ footer.center-footer .footer-logos .group-1 {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-image: url(//nextra.nextra.bet/nextra/images/locked.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/locked.svg);
   background-size: 60%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -7719,7 +7711,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type:hover .odd-type:empty {
-  background-image: url(//nextra.nextra.bet/nextra/images/locked-white.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/locked-white.svg);
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-zero {
@@ -7775,21 +7767,21 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-up .odd-type:after {
-  background-image: url(//nextra.nextra.bet/nextra/images/odd-up.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/odd-up.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-down .odd-type:after {
-  background-image: url(//nextra.nextra.bet/nextra/images/odd-down.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/odd-down.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-equal .odd-type:after {
-  background-image: url(//nextra.nextra.bet/nextra/images/odd-equal.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/odd-equal.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
@@ -7906,15 +7898,15 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-up .quote:after {
-  background-image: url(//nextra.nextra.bet/nextra/images/odd-up.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/odd-up.png);
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-equal .quote:after {
-  background-image: url(//nextra.nextra.bet/nextra/images/odd-equal.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/odd-equal.png);
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-down .quote:after {
-  background-image: url(//nextra.nextra.bet/nextra/images/odd-down.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/odd-down.png);
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-zero {
@@ -7977,7 +7969,7 @@ footer.center-footer .footer-logos .group-1 {
   border: none;
   margin-top: 26px;
   height: 2px;
-  background: #0a96f0;
+  background: #323232;
   border-radius: 1px !important;
 }
 
@@ -7988,13 +7980,13 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 50% !important;
   top: -4px;
   border: none;
-  background: #003660;
+  background: #c51316;
   cursor: pointer;
 }
 
 .live-odds-table table tr td.odd-holder .match-live-sliders .home-team .live-slider-holder .ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle:hover,
 .live-odds-table table tr td.odd-holder .match-live-sliders .away-team .live-slider-holder .ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle:hover {
-  color: #00192d;
+  color: #970e11;
 }
 
 .live-odds-table table tr td.odd-holder .match-live-sliders .home-team .live-slider-holder .slider-controls,
@@ -8363,24 +8355,24 @@ footer.center-footer .footer-logos .group-1 {
   margin: 5px 6px 4px;
   width: 36px;
   height: 25px;
-  background-image: url(//nextra.nextra.bet/nextra/images/soccer-field.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/soccer-field.svg);
   background-size: 100% 100%;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-5 {
-  background-image: url(//nextra.nextra.bet/nextra/images/tennis-field.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/tennis-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-2 {
-  background-image: url(//nextra.nextra.bet/nextra/images/basketball-field.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/basketball-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-4 {
-  background-image: url(//nextra.nextra.bet/nextra/images/hockey-field.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/hockey-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-23 {
-  background-image: url(//nextra.nextra.bet/nextra/images/volleyball-field.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/volleyball-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper {
@@ -8418,7 +8410,7 @@ footer.center-footer .footer-logos .group-1 {
   top: calc(50% - 15px);
   -webkit-animation: rotate 2s ease-in-out infinite;
           animation: rotate 2s ease-in-out infinite;
-  background-image: url(//nextra.nextra.bet/nextra/images/refresh-purple.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/refresh-purple.svg);
   background-size: cover;
   background-position: center;
 }
@@ -8503,21 +8495,21 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.odd-up .odd-type:after {
-  background-image: url(//nextra.nextra.bet/nextra/images/odd-up.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/odd-up.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.odd-down .odd-type:after {
-  background-image: url(//nextra.nextra.bet/nextra/images/odd-down.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/odd-down.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.odd-equal .odd-type:after {
-  background-image: url(//nextra.nextra.bet/nextra/images/odd-equal.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/odd-equal.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
@@ -8766,172 +8758,172 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-1 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-1.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-1.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-2 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-2.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-2.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-3 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-3.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-3.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-4 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-4.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-4.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-5 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-5.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-5.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-6 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-6.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-6.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-7 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-7.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-7.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-8 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-8.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-8.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-9 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-9.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-9.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-10 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-10.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-10.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-11 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-11.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-11.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-12 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-12.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-12.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-13 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-13.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-13.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-14 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-14.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-14.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-15 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-15.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-15.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-16 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-16.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-16.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-17 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-17.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-17.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-18 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-18.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-18.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-19 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-19.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-19.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-20 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-20.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-20.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-21 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-21.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-21.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-22 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-22.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-22.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-23 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-23.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-23.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-24 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-24.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-24.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-25 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-25.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-25.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-26 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-26.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-26.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-27 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-27.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-27.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-28 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-28.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-28.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-29 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-29.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-29.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-30 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-30.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-30.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-31 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-31.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-31.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-32 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-32.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-32.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-33 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-33.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-33.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-34 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-34.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-34.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-35 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-35.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-35.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-36 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-36.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-36.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-37 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-37.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-37.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-38 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-38.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-38.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-39 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-39.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-39.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-60 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-60.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-60.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-117 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-117.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-117.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view {
   margin: 7px 13px;
-  background: #c2c2c2;
+  background: #323232;
   border-radius: 3px;
   cursor: pointer;
   display: inline-block;
@@ -8951,34 +8943,34 @@ footer.center-footer .footer-logos .group-1 {
   margin: 5px 6px 4px;
   width: 36px;
   height: 25px;
-  background-image: url(//nextra.nextra.bet/nextra/images/soccer-field.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/soccer-field.svg);
   background-size: 100% 100%;
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.basketball {
-  background-image: url(//nextra.nextra.bet/nextra/images/basketball-field.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/basketball-field.png);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-5 {
-  background-image: url(//nextra.nextra.bet/nextra/images/tennis-field.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/tennis-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-2 {
-  background-image: url(//nextra.nextra.bet/nextra/images/basketball-field.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/basketball-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-4 {
-  background-image: url(//nextra.nextra.bet/nextra/images/hockey-field.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/hockey-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-23 {
-  background-image: url(//nextra.nextra.bet/nextra/images/volleyball-field.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/volleyball-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-details-wrapper .match-details {
   height: 28px;
   background-color: #ebebeb;
-  border: 1px solid #0a96f0;
+  border: 1px solid #323232;
   border-radius: 3px;
   width: 40px;
   margin: 9px 12px;
@@ -8990,12 +8982,12 @@ footer.center-footer .footer-logos .group-1 {
   width: 100%;
   text-align: center;
   font-size: 9px;
-  color: #0a96f0;
+  color: #323232;
   font-weight: 700;
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-details-wrapper .match-details .match-date {
-  background: #0a96f0;
+  background: #323232;
   color: #ebebeb;
 }
 
@@ -9085,9 +9077,9 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .top-part .score {
   margin-right: 10px;
-  background-image: url(//nextra.nextra.bet/nextra/images/live-result-background.jpg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/live-result-background.jpg);
   background-size: 100% 100%;
-  border: 1px solid #005293;
+  border: 1px solid #ea2125;
   width: 35px;
   float: left;
   display: inline-block;
@@ -9100,7 +9092,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 19px;
   font-size: 13px;
   font-weight: bold;
-  color: #005293;
+  color: #ea2125;
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .top-part .team-names {
@@ -9143,167 +9135,167 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-1 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-1.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-1.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-2 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-2.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-2.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-3 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-3.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-3.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-4 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-4.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-4.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-5 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-5.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-5.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-6 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-6.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-6.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-7 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-7.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-7.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-8 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-8.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-8.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-9 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-9.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-9.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-10 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-10.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-10.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-11 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-11.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-11.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-12 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-12.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-12.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-13 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-13.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-13.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-14 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-14.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-14.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-15 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-15.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-15.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-16 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-16.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-16.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-17 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-17.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-17.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-18 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-18.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-18.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-19 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-19.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-19.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-20 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-20.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-20.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-21 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-21.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-21.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-22 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-22.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-22.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-23 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-23.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-23.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-24 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-24.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-24.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-25 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-25.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-25.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-26 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-26.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-26.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-27 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-27.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-27.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-28 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-28.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-28.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-29 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-29.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-29.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-30 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-30.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-30.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-31 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-31.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-31.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-32 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-32.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-32.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-33 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-33.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-33.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-34 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-34.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-34.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-35 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-35.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-35.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-36 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-36.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-36.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-37 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-37.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-37.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-38 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-38.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-38.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-39 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-39.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-39.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-117 {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-117.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-117.svg);
 }
 
 .live-multiview .multiview-matches {
-  background: #0a96f0;
+  background: #323232;
   padding: 20px 25px;
 }
 
@@ -9324,7 +9316,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #0a497e;
+  background: #ea2125;
   text-transform: uppercase;
   color: #fff;
 }
@@ -9353,11 +9345,11 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-multiview .multiview-matches .single-multiview .multiview-content {
   display: none;
-  border-bottom: 5px solid #0a497e;
+  border-bottom: 5px solid #ea2125;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper {
-  background: #c2c2c2;
+  background: #323232;
   border-bottom: 1px solid #977fb1;
   display: inline-block;
   width: 100%;
@@ -9402,9 +9394,9 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .match-info .score {
   margin-right: 10px;
-  background-image: url(//nextra.nextra.bet/nextra/images/live-result-background.jpg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/live-result-background.jpg);
   background-size: 100% 100%;
-  border: 1px solid #005293;
+  border: 1px solid #ea2125;
   width: 35px;
   float: left;
   display: inline-block;
@@ -9417,7 +9409,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 19px;
   font-size: 13px;
   font-weight: bold;
-  color: #005293;
+  color: #ea2125;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .match-info .team-names {
@@ -9441,7 +9433,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view {
-  background: #c2c2c2;
+  background: #323232;
   border-radius: 3px;
   cursor: pointer;
   border: 1px solid #977fb1;
@@ -9462,28 +9454,28 @@ footer.center-footer .footer-logos .group-1 {
   margin: 5px 6px 4px;
   width: 36px;
   height: 25px;
-  background-image: url(//nextra.nextra.bet/nextra/images/soccer-field.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/soccer-field.svg);
   background-size: 100% 100%;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.basketball {
-  background-image: url(//nextra.nextra.bet/nextra/images/basketball-field.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/basketball-field.png);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-5 {
-  background-image: url(//nextra.nextra.bet/nextra/images/tennis-field.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/tennis-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-2 {
-  background-image: url(//nextra.nextra.bet/nextra/images/basketball-field.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/basketball-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-4 {
-  background-image: url(//nextra.nextra.bet/nextra/images/hockey-field.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/hockey-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-23 {
-  background-image: url(//nextra.nextra.bet/nextra/images/volleyball-field.svg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/volleyball-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .expand-wrapper {
@@ -9515,7 +9507,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: 500;
   padding-left: 10px;
   line-height: 24px;
-  background: #c2c2c2;
+  background: #323232;
   border-top: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -9564,7 +9556,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .odds-wrapper .odds-holder .single-odd:hover {
-  background: gainsboro;
+  background: #4c4c4c;
   color: white;
 }
 
@@ -9647,7 +9639,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 13px;
   margin-bottom: 13px;
   line-height: 1;
-  color: #e1e1e1;
+  color: #515151;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper {
@@ -9688,7 +9680,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .input-wrapper textarea {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   background: #e5e5e5;
   width: 100%;
   padding: 5px;
@@ -9699,7 +9691,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .registration-holder .form-holder form .input-wrapper input[type="password"],
 .logged-page .registration-holder .form-holder form .input-wrapper input[type="number"] {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   background: #e5e5e5;
   height: 24px;
   line-height: 24px;
@@ -9709,8 +9701,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button,
 .logged-page .registration-holder .form-holder form .input-wrapper select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #323232;
+  background-color: #323232;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -9723,12 +9715,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button:hover,
 .logged-page .registration-holder .form-holder form .input-wrapper select:hover {
-  background-color: #cfcfcf;
+  background-color: #3f3f3f;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button .ui-icon,
 .logged-page .registration-holder .form-holder form .input-wrapper select .ui-icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png) !important;
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -9739,12 +9731,12 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
-  border: 1px solid #e1e1e1;
-  background-color: #e1e1e1;
+  border: 1px solid #515151;
+  background-color: #515151;
   height: 24px;
   line-height: 22px;
   color: #ebebeb;
@@ -9765,7 +9757,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .check-label {
@@ -9810,7 +9802,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #005293;
+  border: 2px solid #ea2125;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -9819,7 +9811,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -9841,14 +9833,14 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio-label {
@@ -9885,7 +9877,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .note {
   font-size: 11px;
-  color: #005293;
+  color: #ea2125;
   line-height: 18px;
   padding-right: 30px;
 }
@@ -9916,7 +9908,7 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 3px;
   cursor: pointer;
   float: none;
-  background-image: url(//nextra.nextra.bet/nextra/images/cancel-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -9937,7 +9929,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .registration-holder .form-holder form .buttons .single-button.proceed {
-  background-image: url(//nextra.nextra.bet/nextra/images/proceed-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/proceed-button.png);
   background-color: #3a8c43;
 }
 
@@ -10069,7 +10061,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper textarea {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   background: #e5e5e5;
   width: 100%;
   padding: 5px;
@@ -10081,7 +10073,7 @@ footer.center-footer .footer-logos .group-1 {
 .registration-page .registration-holder .form-holder form .input-wrapper input[type="password"],
 .registration-page .registration-holder .form-holder form .input-wrapper input[type="number"] {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -10092,8 +10084,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button,
 .registration-page .registration-holder .form-holder form .input-wrapper select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #323232;
+  background-color: #323232;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -10106,12 +10098,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button:hover,
 .registration-page .registration-holder .form-holder form .input-wrapper select:hover {
-  background-color: #cfcfcf;
+  background-color: #3f3f3f;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button .ui-icon,
 .registration-page .registration-holder .form-holder form .input-wrapper select .ui-icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png) !important;
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -10122,12 +10114,12 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #323232;
+  background-color: #323232;
   height: 24px;
   line-height: 22px;
   color: #ebebeb;
@@ -10148,7 +10140,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .check-label {
@@ -10193,7 +10185,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #005293;
+  border: 2px solid #ea2125;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -10202,7 +10194,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10224,14 +10216,14 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio-label {
@@ -10268,7 +10260,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .note {
   font-size: 11px;
-  color: #003660;
+  color: #c51316;
   line-height: 18px;
   padding-right: 30px;
 }
@@ -10280,7 +10272,7 @@ footer.center-footer .footer-logos .group-1 {
   position: relative;
   bottom: 0;
   left: -50px;
-  background: #c2c2c2;
+  background: #323232;
 }
 
 .registration-page .registration-holder .form-holder form .buttons .row {
@@ -10299,7 +10291,7 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 3px;
   cursor: pointer;
   float: none;
-  background-image: url(//nextra.nextra.bet/nextra/images/cancel-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -10320,7 +10312,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .registration-page .registration-holder .form-holder form .buttons .single-button.proceed {
-  background-image: url(//nextra.nextra.bet/nextra/images/proceed-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/proceed-button.png);
   background-color: #3a8c43;
 }
 
@@ -10386,7 +10378,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   line-height: 30px;
   margin: 0 2px 0 290px;
-  background-image: url(//nextra.nextra.bet/nextra/images/proceed-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/proceed-button.png);
   background-color: #2e9c3d;
 }
 
@@ -10406,7 +10398,7 @@ footer.center-footer .footer-logos .group-1 {
 .registration-page.agent-registration .agent-buttons {
   text-align: center;
   padding: 30px 0;
-  background-color: #b5b5b5;
+  background-color: #252525;
 }
 
 .registration-page.agent-registration .agent-buttons .single-button {
@@ -10536,7 +10528,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .help-page {
-  border-top: 4px solid #c2c2c2;
+  border-top: 4px solid #323232;
 }
 
 .help-page .center-content.default-page-content {
@@ -10547,7 +10539,7 @@ footer.center-footer .footer-logos .group-1 {
   border: 2px solid #d5cccc;
   display: inline-block;
   width: 100%;
-  background: #c2c2c2;
+  background: #323232;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -10563,7 +10555,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .help-page .help-menu ul li:hover, .help-page .help-menu ul li.open {
-  background-color: gainsboro;
+  background-color: #4c4c4c;
 }
 
 .help-page .help-menu ul li a,
@@ -10579,7 +10571,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .help-page .help-menu ul li.selected a {
   font-weight: 500;
-  color: #0a497e;
+  color: #ea2125;
 }
 
 .help-page .help-menu ul li span {
@@ -10614,16 +10606,16 @@ footer.center-footer .footer-logos .group-1 {
 
 .help-page .help-menu ul li .sub-menu li a {
   font-size: 12px;
-  color: #c2c2c2;
+  color: #323232;
 }
 
 .help-page .help-menu ul li .sub-menu li a:hover {
-  color: #0a497e;
+  color: #ea2125;
 }
 
 .help-page .help-menu ul li .sub-menu li.selected a {
   font-weight: 500;
-  color: #0a497e;
+  color: #ea2125;
 }
 
 .help-page .help-menu ul li.has-sub-menu span {
@@ -10642,7 +10634,7 @@ footer.center-footer .footer-logos .group-1 {
   height: 18px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
   -webkit-transition: 0.3s all;
@@ -10801,7 +10793,7 @@ footer.center-footer .footer-logos .group-1 {
 .forgot-password-page .forgot-password-holder .forgot-password-content .form-holder input[type="text"] {
   display: inline-block;
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -10825,7 +10817,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   line-height: 30px;
   margin: 0 2px 0 290px;
-  background-image: url(//nextra.nextra.bet/nextra/images/proceed-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/proceed-button.png);
   background-color: #2e9c3d;
 }
 
@@ -10903,7 +10895,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper {
-  background-color: #c2c2c2;
+  background-color: #323232;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -10917,8 +10909,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper.ui-state-active, .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper:hover {
   background: #ebebeb;
-  color: #c2c2c2;
-  border-color: #c2c2c2;
+  color: #323232;
+  border-color: #323232;
 }
 
 .logged-page .logged-menu {
@@ -11011,7 +11003,7 @@ footer.center-footer .footer-logos .group-1 {
   height: 18px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
   -webkit-transition: 0.3s all;
@@ -11155,14 +11147,14 @@ footer.center-footer .footer-logos .group-1 {
   cursor: pointer;
   margin-top: 5px;
   margin-right: 10px;
-  background-image: url(//nextra.nextra.bet/nextra/images/remove-row.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/remove-row.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(1) .add-remove-icon.add,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(1) .add-remove-icon.add {
-  background-image: url(//nextra.nextra.bet/nextra/images/add-row.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/add-row.png);
   margin-bottom: 5px;
 }
 
@@ -11261,13 +11253,13 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:hover ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:hover ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:checked ~ .checkmark {
-  border-color: #b5b5b5;
-  background-color: #b5b5b5;
+  border-color: #252525;
+  background-color: #252525;
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked ~ .checkmark:after,
@@ -11277,7 +11269,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked:hover ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:checked:hover ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.8);
+  background-color: rgba(50, 50, 50, 0.8);
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check.valid,
@@ -11287,7 +11279,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th input[type="text"],
 .logged-page .logged-table.cashdesk-table tr td input[type="text"] {
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   border-radius: 3px;
   font-weight: bold;
   font-size: 13px;
@@ -11426,7 +11418,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .cashdesk-content {
   width: 100%;
   display: inline-block;
-  border-bottom: 5px solid #0a497e;
+  border-bottom: 5px solid #ea2125;
   background-color: #d4d4d4;
 }
 
@@ -11459,12 +11451,12 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:hover ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked ~ .checkmark {
-  border-color: #0a96f0;
-  background-color: #0a96f0;
+  border-color: #323232;
+  background-color: #323232;
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked ~ .checkmark:after {
@@ -11472,7 +11464,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked:hover ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.8);
+  background-color: rgba(50, 50, 50, 0.8);
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group > span {
@@ -11538,7 +11530,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .cashdesk-tabs .row .stake-holder input {
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   border-radius: 3px;
   font-weight: bold;
   font-size: 10px;
@@ -11563,7 +11555,7 @@ footer.center-footer .footer-logos .group-1 {
   padding-right: 8px;
   border-radius: 3px;
   cursor: pointer;
-  background-image: url(//nextra.nextra.bet/nextra/images/cancel-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -11585,7 +11577,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .cashdesk-content .cashdesk-tabs .row .buttons div.proceed {
   margin-right: 0;
-  background-image: url(//nextra.nextra.bet/nextra/images/proceed-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/proceed-button.png);
   background-color: #2e9c3d;
 }
 
@@ -11686,7 +11678,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table tr td:nth-child(2) .hour {
-  color: #042037;
+  color: #ae1014;
 }
 
 .logged-page .transactions-table tr td.fifteen i {
@@ -11725,14 +11717,14 @@ footer.center-footer .footer-logos .group-1 {
   height: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-image: url(//nextra.nextra.bet/nextra/images/check-purple-transparent.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/check-purple-transparent.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .logged-page .transactions-table tr td.status-cell .status.not-checked {
-  background-image: url(//nextra.nextra.bet/nextra/images/cross-red.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cross-red.png);
   background-size: auto;
   height: 17px;
   width: 21px;
@@ -11776,7 +11768,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table.coupon-details-table tr td {
-  color: #c2c2c2;
+  color: #323232;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.3;
@@ -11868,7 +11860,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table.coupon-details-table thead tr th {
-  background: #c2c2c2;
+  background: #323232;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -12035,7 +12027,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .message-details-table {
   width: 100%;
-  background: #c2c2c2;
+  background: #323232;
 }
 
 .logged-page .message-details-table tr {
@@ -12063,7 +12055,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .message-details-table tr td .time {
-  color: #005293;
+  color: #ea2125;
 }
 
 .logged-page .message-details-table tr td .red {
@@ -12075,9 +12067,9 @@ footer.center-footer .footer-logos .group-1 {
   padding: 40px;
   background: #edeced;
   font-size: 12px;
-  color: #c2c2c2;
+  color: #323232;
   line-height: 18px;
-  border-bottom: 5px solid #0a497e;
+  border-bottom: 5px solid #ea2125;
 }
 
 .logged-page .message-content .buttons {
@@ -12097,7 +12089,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.nextra.bet/nextra/images/back-icon.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -12112,7 +12104,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .message-content .buttons .single-button.delete-button {
   background-color: #ce3131;
-  background-image: url(//nextra.nextra.bet/nextra/images/cancel-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -12124,14 +12116,14 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .message-content .buttons .single-button.reply-button {
   margin-right: 0;
   float: right;
-  background-color: #0a96f0;
-  background-image: url(//nextra.nextra.bet/nextra/images/reply-button.png);
-  -webkit-box-shadow: inset 0 1px #0981ce;
-          box-shadow: inset 0 1px #0981ce;
+  background-color: #323232;
+  background-image: url(//nextra.nextra.bet/biwinner/images/reply-button.png);
+  -webkit-box-shadow: inset 0 1px #202020;
+          box-shadow: inset 0 1px #202020;
 }
 
 .logged-page .message-content .buttons .single-button.reply-button:hover {
-  background-color: #0981ce;
+  background-color: #202020;
 }
 
 .logged-center {
@@ -12242,7 +12234,7 @@ footer.center-footer .footer-logos .group-1 {
   right: 0px;
   top: 3px;
   background-color: transparent;
-  background-image: url(//nextra.nextra.bet/nextra/images/search-icon-gray.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/search-icon-gray.png);
   background-position: center;
   background-size: 50% auto;
   background-repeat: no-repeat;
@@ -12395,7 +12387,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .change-password-page .input-wrapper input[type="number"],
 .logged-center .change-password-page .input-wrapper input[type="date"] {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -12425,7 +12417,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .change-password-page .input-wrapper .ui-selectmenu-button,
 .logged-center .change-password-page .input-wrapper select {
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   background-color: var(--bg1);
   color: var(--col1);
   font-size: 12px;
@@ -12452,7 +12444,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .change-password-page .input-wrapper .ui-selectmenu-button .ui-icon,
 .logged-center .change-password-page .input-wrapper select .ui-icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png) !important;
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -12490,7 +12482,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #005293;
+  border: 2px solid #ea2125;
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -12499,7 +12491,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -12521,14 +12513,14 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio-label {
@@ -12594,7 +12586,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  background-color: #9c9c9c;
+  background-color: #0c0c0c;
   display: inline-block;
 }
 
@@ -12615,7 +12607,7 @@ footer.center-footer .footer-logos .group-1 {
   float: right;
   margin-right: 30px;
   float: right;
-  background-image: url(//nextra.nextra.bet/nextra/images/proceed-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/proceed-button.png);
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: #2e9c3d;
@@ -12631,7 +12623,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   margin-left: 30px;
   background-color: #ce3131;
-  background-image: url(//nextra.nextra.bet/nextra/images/cancel-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -12721,7 +12713,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .transaction-filters .row .row-content .input-holder .ui-selectmenu-button .ui-icon,
 .logged-center .transaction-filters .row .row-content .input-holder select .ui-icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png) !important;
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -12758,7 +12750,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-center .transaction-filters .row .row-content input[type="date"] {
-  background-image: url(//nextra.nextra.bet/nextra/images/calendar-white.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/calendar-white.png);
   background-size: auto 60%;
   background-position: right 8px center;
   background-repeat: no-repeat;
@@ -12820,7 +12812,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.nextra.bet/nextra/images/back-icon.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -12836,7 +12828,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .transaction-filters .row .buttons-holder .single-button.cancel-button {
   margin-left: 30px;
   background-color: #ce3131;
-  background-image: url(//nextra.nextra.bet/nextra/images/cancel-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -12848,14 +12840,14 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button {
   margin-right: 30px;
   float: right;
-  background-color: #0a96f0;
-  background-image: url(//nextra.nextra.bet/nextra/images/search-icon.png);
-  -webkit-box-shadow: inset 0 1px #0981ce;
-          box-shadow: inset 0 1px #0981ce;
+  background-color: #323232;
+  background-image: url(//nextra.nextra.bet/biwinner/images/search-icon.png);
+  -webkit-box-shadow: inset 0 1px #202020;
+          box-shadow: inset 0 1px #202020;
 }
 
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button:hover {
-  background-color: #0981ce;
+  background-color: #202020;
 }
 
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button.new {
@@ -12866,7 +12858,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .transaction-filters .row .buttons-holder .single-button.proceed-button {
   margin-right: 30px;
   float: right;
-  background-image: url(//nextra.nextra.bet/nextra/images/proceed-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/proceed-button.png);
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: #2e9c3d;
@@ -12896,7 +12888,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-content {
-  background: #c2c2c2;
+  background: #323232;
   padding: 5px;
   min-height: 800px;
   width: 100%;
@@ -12917,13 +12909,13 @@ footer.center-footer .footer-logos .group-1 {
   padding: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #9c9c9c;
+  background-color: #0c0c0c;
 }
 
 .logged-content .info-text.big {
   font-weight: normal;
   font-size: 16px;
-  border-top: 1px solid #c2c2c2;
+  border-top: 1px solid #323232;
 }
 
 .logged-content.fund-transfer-content {
@@ -13126,7 +13118,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   font-size: 13px;
   border-radius: 3px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   width: calc(100% - 82px);
   padding: 0 0 0 6px;
 }
@@ -13184,11 +13176,11 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  border: 2px solid darkgray;
+  border: 2px solid #191919;
 }
 
 .logged-content .messages table tr td .status.read:after {
-  background-color: #005293;
+  background-color: #ea2125;
 }
 
 .logged-content .messages .table-legend {
@@ -13211,8 +13203,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-content .messages .table-legend div .icon {
   position: absolute;
-  background: #005293;
-  border: 2px solid #005293;
+  background: #ea2125;
+  border: 2px solid #ea2125;
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -13225,7 +13217,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-content .messages .table-legend div.read .icon {
   background: transparent;
-  border: 2px solid #c2c2c2;
+  border: 2px solid #323232;
 }
 
 .logged-content .messages .table-legend a {
@@ -13253,14 +13245,14 @@ footer.center-footer .footer-logos .group-1 {
   height: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-image: url(//nextra.nextra.bet/nextra/images/check-purple-transparent.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/check-purple-transparent.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .logged-content .transactions table tr td.status-cell .status.not-checked {
-  background-image: url(//nextra.nextra.bet/nextra/images/cross-red.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cross-red.png);
   background-size: auto;
   height: 17px;
   width: 21px;
@@ -13292,7 +13284,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .event-list-legend-holder {
-  background: #9e9e9e;
+  background: #0e0e0e;
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13301,7 +13293,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .event-list-legend-holder .legend {
-  background: #c2c2c2;
+  background: #323232;
   border: none;
   width: calc(100%);
   line-height: 22px;
@@ -13510,7 +13502,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .reports-table .logged-table tbody tr.colored-row {
-  background-color: #e8e8e8;
+  background-color: #585858;
 }
 
 .reports-table .logged-table tbody tr.colored-row td {
@@ -13548,11 +13540,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .reports-table .logged-table tfoot tr {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(111, 111, 111, 0.3);
 }
 
 .reports-table .logged-table tfoot tr td {
-  color: #9c9c9c;
+  color: #0c0c0c;
   font-weight: bold;
   background-color: transparent;
 }
@@ -13607,11 +13599,11 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   display: inline-block;
   width: 100%;
-  background: #0a497e;
+  background: #ea2125;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: inset 0px 1px 0 #0a497e;
-          box-shadow: inset 0px 1px 0 #0a497e;
+  -webkit-box-shadow: inset 0px 1px 0 #ea2125;
+          box-shadow: inset 0px 1px 0 #ea2125;
 }
 
 .reports .calculations .single-calculation .holder {
@@ -13803,24 +13795,24 @@ footer.center-footer .footer-logos .group-1 {
   padding-left: 20px;
   font-size: 13px;
   font-weight: 500;
-  background-image: url(//nextra.nextra.bet/nextra/images/cross-red.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cross-red.png);
   background-size: 14px;
   background-position: left 3px top 5px;
   background-repeat: no-repeat;
 }
 
 .transactions-legend-holder .legend .single-item.running {
-  background-image: url(//nextra.nextra.bet/nextra/images/runnning-icon-white.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/runnning-icon-white.png);
   background-position: left 1px top 3px;
 }
 
 .transactions-legend-holder .legend .single-item.pending {
-  background-image: url(//nextra.nextra.bet/nextra/images/pending-icon.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/pending-icon.png);
   background-position: left 1px top 3px;
 }
 
 .transactions-legend-holder .legend .single-item.complete {
-  background-image: url(//nextra.nextra.bet/nextra/images/check-green.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/check-green.png);
   background-position: left 1px top 5px;
 }
 
@@ -13844,7 +13836,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .transactions-legend-holder .rows-per-page .ui-selectmenu-button .ui-icon,
 .transactions-legend-holder .rows-per-page select .ui-icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png) !important;
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -13875,12 +13867,12 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-legend-holder .legend .single-item.complete {
-  background-image: url(//nextra.nextra.bet/nextra/images/plus.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/plus.png);
   background-position: top 3px left;
 }
 
 .logged-page .transactions-legend-holder .legend .single-item.failed {
-  background-image: url(//nextra.nextra.bet/nextra/images/minus.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/minus.png);
   background-position: top 4px left;
 }
 
@@ -13925,7 +13917,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #8f8f8f;
+  color: black;
   padding: 10px;
   z-index: 99999;
 }
@@ -14111,7 +14103,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="number"],
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="date"] {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -14213,8 +14205,8 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #323232;
+  background-color: #323232;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -14259,7 +14251,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select:hover,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button:hover,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select:hover {
-  background-color: #cfcfcf;
+  background-color: #3f3f3f;
 }
 
 .coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .ui-selectmenu-button .ui-icon,
@@ -14270,7 +14262,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select .ui-icon,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button .ui-icon,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select .ui-icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png) !important;
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -14307,7 +14299,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #0a497e;
+  background: #ea2125;
   text-transform: uppercase;
 }
 
@@ -14490,7 +14482,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table thead tr th,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table thead tr th,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table thead tr th {
-  background: #c2c2c2;
+  background: #323232;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -14530,7 +14522,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tbody tr td span.colored,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tbody tr td span.colored,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tbody tr td span.colored {
-  color: #e8e8e8;
+  color: #585858;
   font-weight: bold;
 }
 
@@ -14547,7 +14539,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-date-info,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info {
-  border-left: 1px solid gainsboro;
+  border-left: 1px solid #4c4c4c;
   float: left;
   padding: 10px;
   -webkit-box-sizing: border-box;
@@ -14573,7 +14565,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-code,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-code,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-code {
-  border-left: 1px solid gainsboro;
+  border-left: 1px solid #4c4c4c;
   line-height: 32px;
   padding: 10px;
   font-size: 16px;
@@ -14585,7 +14577,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details {
-  border-left: 1px solid gainsboro;
+  border-left: 1px solid #4c4c4c;
   float: left;
   color: white;
   padding: 10px;
@@ -14623,7 +14615,7 @@ footer.center-footer .footer-logos .group-1 {
   margin: 7px 10px;
   padding: 4px;
   border-radius: 3px;
-  background-color: white;
+  background-color: #6f6f6f;
   display: inline-block;
 }
 
@@ -14757,7 +14749,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .message .message-title span,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .message .message-title span {
   display: inline-block;
-  color: #c2c2c2;
+  color: #323232;
   font-size: 16px;
   line-height: 44px;
   font-weight: bold;
@@ -14867,7 +14859,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 36px;
   font-size: 13px;
   font-weight: 500;
-  color: #c2c2c2;
+  color: #323232;
   border-bottom: 2px solid #d4d2d2;
 }
 
@@ -14949,7 +14941,7 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   font-size: 18px;
   font-weight: bold;
-  color: #c2c2c2;
+  color: #323232;
   line-height: 52px;
 }
 
@@ -14996,7 +14988,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details {
-  background: #c2c2c2;
+  background: #323232;
   padding-bottom: 30px;
 }
 
@@ -15033,7 +15025,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table tr td,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table tr td {
   font-size: 13px;
-  color: #c2c2c2;
+  color: #323232;
   font-weight: 500;
   height: 30px;
   padding: 5px 0 5px 10px;
@@ -15123,7 +15115,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td {
-  color: #c2c2c2;
+  color: #323232;
   font-size: 12px;
   font-weight: normal;
 }
@@ -15203,7 +15195,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table thead tr th,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table thead tr th,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table thead tr th {
-  background: #c2c2c2;
+  background: #323232;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -15228,7 +15220,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list.system-details {
   padding-bottom: 30px;
-  background: #c2c2c2;
+  background: #323232;
 }
 
 .coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details table tr td,
@@ -15299,7 +15291,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block p,
 .login-popup-wrapper .popup-content .first-blocks .block p {
   font-size: 13px;
-  color: #c2c2c2;
+  color: #323232;
   line-height: 15px;
 }
 
@@ -15365,7 +15357,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.print-button,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.print-button {
   margin-right: 10px;
-  background-image: url(//nextra.nextra.bet/nextra/images/print-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/print-button.png);
   background-color: #2e9c3d;
 }
 
@@ -15377,15 +15369,15 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button {
   margin-right: 0;
-  background-color: #0a96f0;
-  background-image: url(//nextra.nextra.bet/nextra/images/send-button.png);
-  -webkit-box-shadow: inset 0 1px #0981ce;
-          box-shadow: inset 0 1px #0981ce;
+  background-color: #323232;
+  background-image: url(//nextra.nextra.bet/biwinner/images/send-button.png);
+  -webkit-box-shadow: inset 0 1px #202020;
+          box-shadow: inset 0 1px #202020;
 }
 
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover {
-  background-color: #0981ce;
+  background-color: #202020;
 }
 
 .coupon-popup-wrapper .popup-content .first-blocks .block:first-child,
@@ -15447,7 +15439,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .betslip-info .big-title,
 .login-popup-wrapper .popup-content .betslip-info .big-title {
   font-weight: 900;
-  color: #c2c2c2;
+  color: #323232;
 }
 
 .coupon-popup-wrapper .popup-content .betslip-info .big-title span,
@@ -15458,7 +15450,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .coupon-popup-wrapper .popup-content .betslip-info .details,
 .login-popup-wrapper .popup-content .betslip-info .details {
-  color: #c2c2c2;
+  color: #323232;
   font-size: 12px;
   font-weight: bold;
 }
@@ -15486,13 +15478,13 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   text-align: center;
   line-height: 34px;
-  background: #c2c2c2;
+  background: #323232;
 }
 
 .coupon-popup-wrapper .popup-content .betslip-table tr td,
 .login-popup-wrapper .popup-content .betslip-table tr td {
   font-size: 13px;
-  color: #c2c2c2;
+  color: #323232;
   line-height: 34px;
   text-align: center;
 }
@@ -15609,8 +15601,8 @@ footer.center-footer .footer-logos .group-1 {
   color: #ebebeb;
   font-size: 14px;
   font-weight: bold;
-  background-color: #0a96f0;
-  background-image: url(//nextra.nextra.bet/nextra/images/show-all-icon.png);
+  background-color: #323232;
+  background-image: url(//nextra.nextra.bet/biwinner/images/show-all-icon.png);
 }
 
 .search-results-popup .search-results-content .inner-wrapper {
@@ -15654,10 +15646,10 @@ footer.center-footer .footer-logos .group-1 {
   border-bottom-left-radius: 3px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
-  background-color: #0a497e;
+  background-color: #ea2125;
   color: #fff;
   font-size: 0;
-  background-image: url(//nextra.nextra.bet/nextra/images/search-icon.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/search-icon.png);
   background-size: 45% auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -15666,16 +15658,16 @@ footer.center-footer .footer-logos .group-1 {
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form input[type="submit"]:hover,
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form input[type="button"]:hover,
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form .button:hover {
-  background-color: #0e64ad;
+  background-color: #ee5053;
 }
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-title {
-  background: #c2c2c2;
+  background: #323232;
   height: 36px;
   display: inline-block;
   width: 100%;
-  -webkit-box-shadow: inset 0px 1px 0 #cfcfcf;
-          box-shadow: inset 0px 1px 0 #cfcfcf;
+  -webkit-box-shadow: inset 0px 1px 0 #3f3f3f;
+          box-shadow: inset 0px 1px 0 #3f3f3f;
   font-size: 14px;
   color: #ebebeb;
   line-height: 36px;
@@ -15736,7 +15728,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.date {
   width: 50px;
-  color: #c2c2c2;
+  color: #323232;
   font-size: 12px;
   font-weight: 500;
   line-height: 14px;
@@ -15746,7 +15738,7 @@ footer.center-footer .footer-logos .group-1 {
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.team-names {
   line-height: 28px;
   width: 540px;
-  color: #c2c2c2;
+  color: #323232;
   font-size: 13px;
   font-weight: bold;
 }
@@ -15799,11 +15791,11 @@ footer.center-footer .footer-logos .group-1 {
           flex: 1 0 19px;
   font-size: 9px;
   color: #ebebeb;
-  background: darkgray;
+  background: #191919;
 }
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.odds-holder .single-odd .quote {
-  color: darkgray;
+  color: #191919;
   font-size: 12px;
   font-weight: bold;
   -webkit-box-flex: 1;
@@ -15860,7 +15852,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #0a497e;
+  background: #ea2125;
   text-transform: uppercase;
 }
 
@@ -15875,7 +15867,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
-  background-color: #9c9c9c;
+  background-color: #0c0c0c;
   color: white;
   padding: 0 15px;
   font-size: 15px;
@@ -15920,7 +15912,7 @@ footer.center-footer .footer-logos .group-1 {
   max-width: 50%;
   display: inline-block;
   background-color: transparent;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 5px;
@@ -15954,7 +15946,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  background-color: #9c9c9c;
+  background-color: #0c0c0c;
   display: inline-block;
 }
 
@@ -15974,17 +15966,17 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 33px;
   margin: 0 2px;
   margin-right: 0;
-  background-color: #0a96f0;
-  background-image: url(//nextra.nextra.bet/nextra/images/send-button.png);
-  -webkit-box-shadow: inset 0 1px #0981ce;
-          box-shadow: inset 0 1px #0981ce;
+  background-color: #323232;
+  background-image: url(//nextra.nextra.bet/biwinner/images/send-button.png);
+  -webkit-box-shadow: inset 0 1px #202020;
+          box-shadow: inset 0 1px #202020;
   float: left;
   border: none;
 }
 
 .login-popup .login-content form .button-holder div:hover,
 .login-popup .login-content form .button-holder input[type="submit"]:hover {
-  background-color: #0981ce;
+  background-color: #202020;
 }
 
 .login-popup .login-content form .button-holder div.register-button,
@@ -15994,7 +15986,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-shadow: inset 0 1px #ee6704;
           box-shadow: inset 0 1px #ee6704;
   background-color: #fb6e06;
-  background-image: url(//nextra.nextra.bet/nextra/images/register-white.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/register-white.png);
 }
 
 .login-popup .login-content form .button-holder div.register-button:hover,
@@ -16038,7 +16030,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #8f8f8f;
+  color: black;
   padding: 10px;
   z-index: 99999;
 }
@@ -16065,7 +16057,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #005293;
+  color: #ea2125;
 }
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16084,7 +16076,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.nextra.bet/nextra/images/back-icon.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -16099,7 +16091,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.confirm-button {
   float: right;
-  background-image: url(//nextra.nextra.bet/nextra/images/confirm-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/confirm-button.png);
   background-color: #2e9c3d;
 }
 
@@ -16110,7 +16102,7 @@ footer.center-footer .footer-logos .group-1 {
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.cancel-button {
   float: left;
   background-color: #ce3131;
-  background-image: url(//nextra.nextra.bet/nextra/images/cancel-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -16167,7 +16159,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #8f8f8f;
+  color: black;
   padding: 10px;
   z-index: 99999;
 }
@@ -16190,12 +16182,12 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 22px;
   width: calc(100% - 54px);
-  color: #c2c2c2;
+  color: #323232;
   font-size: 16px;
 }
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #005293;
+  color: #ea2125;
 }
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16214,7 +16206,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.nextra.bet/nextra/images/back-icon.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -16229,7 +16221,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.confirm-button {
   float: right;
-  background-image: url(//nextra.nextra.bet/nextra/images/confirm-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/confirm-button.png);
   background-color: #2e9c3d;
 }
 
@@ -16240,7 +16232,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.cancel-button {
   float: left;
   background-color: #ce3131;
-  background-image: url(//nextra.nextra.bet/nextra/images/cancel-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -16298,7 +16290,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #8f8f8f;
+  color: black;
   padding: 10px;
   z-index: 99999;
 }
@@ -16321,12 +16313,12 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 22px;
   width: calc(100% - 54px);
-  color: #c2c2c2;
+  color: #323232;
   font-size: 16px;
 }
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #005293;
+  color: #ea2125;
 }
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16345,7 +16337,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.nextra.bet/nextra/images/back-icon.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -16360,7 +16352,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.confirm-button {
   float: right;
-  background-image: url(//nextra.nextra.bet/nextra/images/confirm-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/confirm-button.png);
   background-color: #2e9c3d;
 }
 
@@ -16371,7 +16363,7 @@ footer.center-footer .footer-logos .group-1 {
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.cancel-button {
   float: left;
   background-color: #ce3131;
-  background-image: url(//nextra.nextra.bet/nextra/images/cancel-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -16485,7 +16477,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .payment-method-table table tbody tr td:nth-child(3) .purple, .payment-method-table table tbody tr td:nth-child(4) .purple, .payment-method-table table tbody tr td:nth-child(5) .purple {
-  background: #0a96f0;
+  background: #323232;
   color: #ebebeb;
   line-height: 50px;
   text-align: center;
@@ -16549,11 +16541,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .messages-page .message-content .buttons .single-button.back-button {
-  background-image: url(//nextra.nextra.bet/nextra/images/search-icon-green.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/search-icon-green.png);
 }
 
 .messages-page .message-content .buttons .single-button.reply-button {
-  background-image: url(//nextra.nextra.bet/nextra/images/send-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/send-button.png);
 }
 
 .messages-page .logged-table tr td {
@@ -16601,7 +16593,7 @@ footer.center-footer .footer-logos .group-1 {
   padding-right: 8px;
   border-radius: 3px;
   cursor: pointer;
-  background-image: url(//nextra.nextra.bet/nextra/images/cancel-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 4px;
   background-repeat: no-repeat;
@@ -16799,7 +16791,7 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   padding: 25px;
   border-bottom: 1px solid #d7d7d7;
-  color: #c2c2c2;
+  color: #323232;
 }
 
 .deposit-page .block .right-content .wrapper:last-child {
@@ -16829,7 +16821,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .input-group .label {
   width: calc(100% - 200px);
   float: left;
-  color: #c2c2c2;
+  color: #323232;
   font-size: 13px;
   font-weight: 500;
   line-height: 30px;
@@ -16838,7 +16830,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .input-group input {
   padding: 5px;
   height: 30px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   border-radius: 3px;
   background-color: transparent;
   float: left;
@@ -16858,8 +16850,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button,
 .deposit-page .block .right-content .wrapper .input-group select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #323232;
+  background-color: #323232;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -16885,12 +16877,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button:hover,
 .deposit-page .block .right-content .wrapper .input-group select:hover {
-  background-color: #cfcfcf;
+  background-color: #3f3f3f;
 }
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button .ui-icon,
 .deposit-page .block .right-content .wrapper .input-group select .ui-icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png) !important;
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -16921,7 +16913,7 @@ footer.center-footer .footer-logos .group-1 {
   height: 30px;
   display: inline-block;
   padding: 0 12px;
-  background: #c2c2c2;
+  background: #323232;
   margin-right: 5px;
   border-radius: 3px;
   color: white;
@@ -16932,7 +16924,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount.first-amount {
   width: 30px;
   text-align: center;
-  background-color: #c2c2c2;
+  background-color: #323232;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-right: 20px;
@@ -16945,11 +16937,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount:hover {
-  background-color: darkgray;
+  background-color: #191919;
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount.selected {
-  background-color: #005293;
+  background-color: #ea2125;
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .amount-block {
@@ -16971,7 +16963,7 @@ footer.center-footer .footer-logos .group-1 {
   padding-right: 8px;
   border-radius: 3px;
   cursor: pointer;
-  background-image: url(//nextra.nextra.bet/nextra/images/cancel-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -16991,7 +16983,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .deposit-page .block .right-content .wrapper .buttons div.proceed-button {
-  background-image: url(//nextra.nextra.bet/nextra/images/proceed-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/proceed-button.png);
   background-color: #2e9c3d;
   float: right;
 }
@@ -17036,7 +17028,7 @@ footer.center-footer .footer-logos .group-1 {
   margin: 0 10px;
   width: calc(100% - 120px);
   float: left;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   padding: 0 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -17068,7 +17060,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page.bonus-page .block-holder .block .right-content .progress-content p {
   width: 100%;
-  color: #c2c2c2;
+  color: #323232;
   line-height: 1.1;
   font-size: 14px;
   text-align: center;
@@ -17080,8 +17072,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 45px;
-  background: #c2c2c2;
-  border: 1px solid #e8e8e8;
+  background: #323232;
+  border: 1px solid #585858;
   line-height: 36px;
   height: 36px;
   width: calc(100% - 90px);
@@ -17094,7 +17086,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 65px;
   text-align: center;
   font-size: 10px;
-  color: #c2c2c2;
+  color: #323232;
   line-height: 36px;
 }
 
@@ -17109,7 +17101,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 0;
   top: 0;
   left: 0;
-  background: #e8e8e8;
+  background: #585858;
 }
 
 .coupon-details-page-content {
@@ -17140,7 +17132,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 38px;
   font-size: 14px;
-  color: #c2c2c2;
+  color: #323232;
 }
 
 .coupon-details-page-content .row .content {
@@ -17151,8 +17143,8 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-details-page-content .row .content .status {
   float: right;
   line-height: 28px;
-  border: 1px solid #c2c2c2;
-  color: #c2c2c2;
+  border: 1px solid #323232;
+  color: #323232;
   font-size: 13px;
   border-radius: 3px;
   padding: 0 5px;
@@ -17181,7 +17173,7 @@ footer.center-footer .footer-logos .group-1 {
   padding: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #8f8f8f;
+  background: black;
 }
 
 .coupon-details-buttons .button {
@@ -17255,19 +17247,19 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .coupon-details-buttons .button.explode {
-  background-color: gainsboro;
+  background-color: #4c4c4c;
 }
 
 .coupon-details-buttons .button.explode i {
-  color: gainsboro;
+  color: #4c4c4c;
 }
 
 .coupon-details-buttons .button.explode:hover {
-  background-color: #cfcfcf;
+  background-color: #3f3f3f;
 }
 
 .coupon-details-buttons .button.explode:hover i {
-  color: #cfcfcf;
+  color: #3f3f3f;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -17353,7 +17345,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 300px;
   margin: 20px;
   display: inline-block;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #585858;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .text-wrapper {
@@ -17399,8 +17391,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 45px;
-  background: #c2c2c2;
-  border: 1px solid #e8e8e8;
+  background: #323232;
+  border: 1px solid #585858;
   line-height: 20px;
   height: 20px;
   width: calc(100% - 90px);
@@ -17428,12 +17420,12 @@ footer.center-footer .footer-logos .group-1 {
   width: 0;
   top: 0;
   left: 0;
-  background: #e8e8e8;
+  background: #585858;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons {
   margin: 5px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #585858;
   display: inline-block;
   width: calc(100% - 10px);
 }
@@ -17444,17 +17436,17 @@ footer.center-footer .footer-logos .group-1 {
   color: white;
   line-height: 34px;
   padding: 0 10px;
-  background-color: #fafafa;
+  background-color: #6a6a6a;
   border-radius: 4px;
   margin: 5px 10px;
   font-size: 14px;
-  -webkit-box-shadow: inset 0 1px white;
-          box-shadow: inset 0 1px white;
+  -webkit-box-shadow: inset 0 1px #727272;
+          box-shadow: inset 0 1px #727272;
   cursor: pointer;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons .button:hover {
-  background-color: #e8e8e8;
+  background-color: #585858;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons .button:first-child {
@@ -17484,9 +17476,9 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 34px;
   padding: 0 8;
   border-radius: 4px;
-  background-color: #0a96f0;
-  -webkit-box-shadow: inset 0 1px #0981ce;
-          box-shadow: inset 0 1px #0981ce;
+  background-color: #323232;
+  -webkit-box-shadow: inset 0 1px #202020;
+          box-shadow: inset 0 1px #202020;
   cursor: pointer;
   margin-bottom: 10px;
 }
@@ -17498,7 +17490,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .download-button:hover {
-  background-color: #0981ce;
+  background-color: #202020;
 }
 
 .marketing-assets-holder {
@@ -17506,7 +17498,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .marketing-assets-holder .info-text {
-  background-color: #949494;
+  background-color: #040404;
   color: #ebebeb;
   font-size: 14px;
   line-height: 1.4;
@@ -17518,7 +17510,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .marketing-assets-holder .text-box h4 {
-  color: gainsboro;
+  color: #4c4c4c;
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 15px;
@@ -17582,7 +17574,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .hat-trick-holder .info-text {
-  background-color: darkgray;
+  background-color: #191919;
   color: #ebebeb;
   line-height: 1.4;
   padding: 20px 10px;
@@ -17708,7 +17700,7 @@ footer.center-footer .footer-logos .group-1 {
 .new-profile-page input[type="number"],
 .new-profile-page input[type="date"] {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -17763,8 +17755,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .input-wrapper .ui-selectmenu-button,
 .new-profile-page .input-wrapper select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #323232;
+  background-color: #323232;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -17791,12 +17783,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .input-wrapper .ui-selectmenu-button:hover,
 .new-profile-page .input-wrapper select:hover {
-  background-color: #cfcfcf;
+  background-color: #3f3f3f;
 }
 
 .new-profile-page .input-wrapper .ui-selectmenu-button .ui-icon,
 .new-profile-page .input-wrapper select .ui-icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png) !important;
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -17816,7 +17808,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs {
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #323232;
   text-align: right;
   margin-top: 10px;
   padding-right: 10px;
@@ -17828,7 +17820,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
-  color: #c2c2c2;
+  color: #323232;
   padding: 0 10px;
   cursor: pointer;
 }
@@ -17847,16 +17839,16 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs .single-tab:hover {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs .single-tab.active {
-  background-color: #c2c2c2;
+  background-color: #323232;
   color: #ebebeb;
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs .single-tab.active:hover {
-  background-color: #c2c2c2;
+  background-color: #323232;
 }
 
 .new-profile-page.betlist-checkout .accordion-content {
@@ -18047,7 +18039,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .limit-settings .bonus-outer .bonus-wrapper {
   position: relative;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   padding: 30px 10px 10px;
   margin-top: 30px;
   width: calc(100% - 20px);
@@ -18060,9 +18052,9 @@ footer.center-footer .footer-logos .group-1 {
 .new-profile-page .limit-settings .bonus-outer .bonus-wrapper .title {
   position: absolute;
   top: -14px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   background-color: #ebebeb;
-  color: #c2c2c2;
+  color: #323232;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   left: 15px;
@@ -18169,7 +18161,7 @@ footer.center-footer .footer-logos .group-1 {
   margin-right: 2px;
   float: left;
   width: 90px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   box-sizing: border-box;
   line-height: 22px;
 }
@@ -18232,7 +18224,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content .bonus-wrapper {
   position: relative;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   padding: 30px 10px 10px;
   margin-top: 40px;
   width: 380px;
@@ -18242,11 +18234,11 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: -14px;
   left: 30px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   background-color: #ebebeb;
   width: 200px;
   line-height: 28px;
-  color: #c2c2c2;
+  color: #323232;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-left: 15px;
@@ -18296,8 +18288,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button,
 .new-profile-page .turn-over-content.provider select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #323232;
+  background-color: #323232;
   color: #ebebeb;
   font-size: 12px;
   width: 120px;
@@ -18324,12 +18316,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button:hover,
 .new-profile-page .turn-over-content.provider select:hover {
-  background-color: #cfcfcf;
+  background-color: #3f3f3f;
 }
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button .ui-icon,
 .new-profile-page .turn-over-content.provider select .ui-icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png) !important;
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -18375,7 +18367,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 13px;
   margin-bottom: 13px;
   line-height: 1;
-  color: #e1e1e1;
+  color: #515151;
 }
 
 .contact-us-form form .input-wrapper {
@@ -18416,7 +18408,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper textarea {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   background: #e5e5e5;
   width: 100%;
   padding: 5px;
@@ -18429,7 +18421,7 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .input-wrapper input[type="password"],
 .contact-us-form form .input-wrapper input[type="number"] {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #323232;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -18440,8 +18432,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button,
 .contact-us-form form .input-wrapper select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #323232;
+  background-color: #323232;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -18454,12 +18446,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button:hover,
 .contact-us-form form .input-wrapper select:hover {
-  background-color: #cfcfcf;
+  background-color: #3f3f3f;
 }
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button .ui-icon,
 .contact-us-form form .input-wrapper select .ui-icon {
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png) !important;
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -18470,12 +18462,12 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.nextra.bet/nextra/images/triangle-down.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
-  border: 1px solid #e1e1e1;
-  background-color: #e1e1e1;
+  border: 1px solid #515151;
+  background-color: #515151;
   height: 24px;
   line-height: 22px;
   color: #ebebeb;
@@ -18496,11 +18488,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .contact-us-form form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(50, 50, 50, 0.2);
 }
 
 .contact-us-form form .input-wrapper .check-label {
-  color: #e1e1e1;
+  color: #515151;
   font-size: 12px;
   font-weight: 500;
   float: left;
@@ -18543,7 +18535,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #005293;
+  border: 2px solid #ea2125;
 }
 
 .contact-us-form form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -18552,7 +18544,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -18574,7 +18566,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #ea2125;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -18597,7 +18589,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.nextra.bet/nextra/images/back-icon.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -18612,7 +18604,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .buttons-holder .single-button.cancel-button {
   background-color: #ce3131;
-  background-image: url(//nextra.nextra.bet/nextra/images/cancel-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -18624,14 +18616,14 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .buttons-holder .single-button.search-button {
   margin-right: 30px;
   float: right;
-  background-color: #0a96f0;
-  background-image: url(//nextra.nextra.bet/nextra/images/search-icon.png);
-  -webkit-box-shadow: inset 0 1px #0981ce;
-          box-shadow: inset 0 1px #0981ce;
+  background-color: #323232;
+  background-image: url(//nextra.nextra.bet/biwinner/images/search-icon.png);
+  -webkit-box-shadow: inset 0 1px #202020;
+          box-shadow: inset 0 1px #202020;
 }
 
 .contact-us-form form .buttons-holder .single-button.search-button:hover {
-  background-color: #0981ce;
+  background-color: #202020;
 }
 
 .contact-us-form form .buttons-holder .single-button.search-button.new {
@@ -18642,7 +18634,7 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .buttons-holder .single-button.proceed-button {
   margin-right: 30px;
   float: right;
-  background-image: url(//nextra.nextra.bet/nextra/images/proceed-button.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/proceed-button.png);
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: #2e9c3d;
@@ -18771,12 +18763,12 @@ a {
 }
 
 span.ui-icon.ui-icon-circle-triangle-w {
-  background-image: url(//nextra.nextra.bet/nextra/images/angle-left-orange.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/angle-left-orange.png);
   background-position: center;
 }
 
 span.ui-icon.ui-icon-circle-triangle-e {
-  background-image: url(//nextra.nextra.bet/nextra/images/angle-right-orange.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/angle-right-orange.png);
   background-position: center;
 }
 
@@ -18833,14 +18825,14 @@ span.ui-icon.ui-icon-circle-triangle-e {
     background: transparent;
   }
   60% {
-    background: gainsboro;
+    background: #4c4c4c;
     color: white;
   }
   70% {
     background: transparent;
   }
   80% {
-    background: gainsboro;
+    background: #4c4c4c;
     color: white;
   }
   90% {
@@ -18853,14 +18845,14 @@ span.ui-icon.ui-icon-circle-triangle-e {
     background: transparent;
   }
   60% {
-    background: gainsboro;
+    background: #4c4c4c;
     color: white;
   }
   70% {
     background: transparent;
   }
   80% {
-    background: gainsboro;
+    background: #4c4c4c;
     color: white;
   }
   90% {
@@ -18972,7 +18964,7 @@ select option {
   margin: -50px 0 0 -50px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #c2c2c2;
+  border-top-color: #323232;
   -webkit-animation: spin 4s linear infinite;
   animation: spin 4s linear infinite;
   z-index: 1001;
@@ -18988,7 +18980,7 @@ select option {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: white;
+  border-top-color: #727272;
   -webkit-animation: spin 3s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 3s linear infinite;
@@ -19005,7 +18997,7 @@ select option {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #005293;
+  border-top-color: #ea2125;
   -webkit-animation: spin 5s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 5s linear infinite;
@@ -19127,7 +19119,7 @@ select option {
   width: 100%;
   background-color: var(--mainBg);
   color: var(--mainBgCol);
-  background-image: url(//nextra.nextra.bet/nextra/images/casino/casinoBg.jpeg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/casino/casinoBg.jpeg);
   background-repeat: no-repeat;
 }
 
@@ -19298,7 +19290,7 @@ select option {
 }
 
 .casino-pro-down .casino-pro-list .casino-pro-item:hover {
-  background-color: #0a96f0;
+  background-color: #323232;
 }
 
 .casino-pro-down .casino-pro-list .casino-pro-item-img {
@@ -19422,7 +19414,7 @@ select option {
 
 .game-grid-item .gg-item-details .gg-item-ico .gg-info:hover,
 .game-grid-item .gg-item-details .gg-item-ico .gg-star:hover {
-  color: #005293;
+  color: #ea2125;
 }
 
 .game-grid-item:hover .game-overlay {
@@ -19491,9 +19483,9 @@ select option {
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn {
-  color: #c2c2c2;
-  background-color: #005293;
-  border: 2px solid #005293;
+  color: #323232;
+  background-color: #ea2125;
+  border: 2px solid #ea2125;
   text-decoration: none;
   border-radius: 3px;
   padding: 6px 30px;
@@ -19504,21 +19496,21 @@ select option {
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn-b {
-  background-color: #0a96f0;
+  background-color: #323232;
   color: #ebebeb;
-  border: 2px solid #0a96f0;
+  border: 2px solid #323232;
   padding: 6px 25px;
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn-b:hover {
   background-color: #ebebeb !important;
-  color: #c2c2c2 !important;
-  border: 2px solid #0a96f0;
+  color: #323232 !important;
+  border: 2px solid #323232;
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn:hover {
   background-color: #ebebeb;
-  color: #c2c2c2;
+  color: #323232;
 }
 
 .game-overlay-inner .game-pro-container {
@@ -19562,7 +19554,7 @@ select option {
 }
 
 .tour-container {
-  background-image: url(//nextra.nextra.bet/nextra/images/poker/poker-bg1.jpg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/poker/poker-bg1.jpg);
   background-repeat: no-repeat;
   background-size: auto 114%;
   background-position: 0px -100px;
@@ -19631,7 +19623,7 @@ select option {
 }
 
 .reg-container {
-  background-image: url(//nextra.nextra.bet/nextra/images/poker/blue-bg1.png);
+  background-image: url(//nextra.nextra.bet/biwinner/images/poker/blue-bg1.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
@@ -19666,7 +19658,7 @@ select option {
 }
 
 .ptext-container {
-  background-image: url(//nextra.nextra.bet/nextra/images/poker/poker-bg2.jpg);
+  background-image: url(//nextra.nextra.bet/biwinner/images/poker/poker-bg2.jpg);
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: 0px center;
@@ -20330,16 +20322,12 @@ div#submenu-bot.height-fix {
   top: 2px;
 }
 
-li#miniTablet_1_8:before {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0iR3JvdXBfOCIgZGF0YS1uYW1lPSJHcm91cCA4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMy44OTkiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxMy44OTkgMTQiPg0KICA8cGF0aCBpZD0iUGF0aF80NTQ3IiBkYXRhLW5hbWU9IlBhdGggNDU0NyIgZD0iTTExNC4yMTIsMy4wMzVhLjA3OS4wNzksMCwwLDAsLjAzNC4xMDdsMi40MzgsMS40MThoLjAwNWEuMDc5LjA3OSwwLDAsMCwuMS0uMDI1bC4wMDYtLjAxMWEzLjIsMy4yLDAsMCwxLDIuMjMyLTEuNTc3aC4wMWEuMDg3LjA4NywwLDAsMCwuMDI4LS4wMTIuMDc5LjA3OSwwLDAsMCwuMDMyLS4wNzd2MEwxMTguNTg1LjA3OHYwYS4wNzQuMDc0LDAsMCwwLS4wMTQtLjAzMUEuMDc5LjA3OSwwLDAsMCwxMTguNS4wMTFoLS4wMDdhNi4yLDYuMiwwLDAsMC00LjI3OSwzLjAyNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTExMi4yNTkgLTAuMDEpIiBmaWxsPSIjZmZmIi8+DQogIDxwYXRoIGlkPSJQYXRoXzQ1NDgiIGRhdGEtbmFtZT0iUGF0aCA0NTQ4IiBkPSJNOC4wMTUsMTg4LjE1YS4wNzkuMDc5LDAsMCwwLC4wNjYuMDQ3LjA3Ny4wNzcsMCwwLDAsLjAzOC0uMDA3bDIuNjMzLTEuMDE1aC4wMDZhLjA3OS4wNzksMCwwLDAsLjA0OC0uMDY4LjA3OC4wNzgsMCwwLDAsMC0uMDI4LjA3NC4wNzQsMCwwLDAtLjAwNS0uMDEyLDMuMiwzLjIsMCwwLDEsLjE2Ny0yLjcyOGwwLS4wMDlhLjA4Ny4wODcsMCwwLDAsLjAwOC0uMDMuMDguMDgsMCwwLDAtLjA0LS4wNzRoLS4wMDVsLTIuNDg5LTEuMzM3aDBhLjA3Mi4wNzIsMCwwLDAtLjAzMy0uMDA5LjA3OS4wNzksMCwwLDAtLjA3LjAzN3YuMDA2aDBhNi4yLDYuMiwwLDAsMC0uMzIxLDUuMjMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03LjQ1NiAtMTc5Ljc2NSkiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9IlBhdGhfNDU0OSIgZGF0YS1uYW1lPSJQYXRoIDQ1NDkiIGQ9Ik0zLjkyLDQ3Ny45ODZhLjA3OS4wNzksMCwwLDAsLjEtLjA1N2wuODQtMi43di0uMDA2YS4wNzguMDc4LDAsMCwwLS4wMjQtLjA4LjA3Ny4wNzcsMCwwLDAtLjAyNC0uMDE1SDQuOEEzLjIsMy4yLDAsMCwxLDIuNzYxLDQ3My4zYS4wNS4wNSwwLDAsMCwwLS4wMDkuMDgyLjA4MiwwLDAsMC0uMDE4LS4wMjQuMDc5LjA3OSwwLDAsMC0uMDgzLS4wMTVIMi42NTVMLjA2Niw0NzQuMzhoMGEuMDczLjA3MywwLDAsMC0uMDI4LjAyMS4wOC4wOCwwLDAsMC0uMDE0LjA3OHYuMDA2aDBhNi4yLDYuMiwwLDAsMCwzLjksMy41IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4wMTYgLTQ2NS4xOTUpIiBmaWxsPSIjZmZmIi8+DQogIDxwYXRoIGlkPSJQYXRoXzQ1NTAiIGRhdGEtbmFtZT0iUGF0aCA0NTUwIiBkPSJNMjUwLjc2Niw2MTUuMTQ4YS4wNzkuMDc5LDAsMCwwLC4wMzEtLjA3NS4wNzYuMDc2LDAsMCwwLS4wMTUtLjAzN2wtMS41NzMtMi4zNDR2LS4wMDVhLjA4LjA4LDAsMCwwLS4xLS4wMjJsLS4wMTEuMDA4YTMuMiwzLjIsMCwwLDEtMi43LjQ0MWgtLjAxYS4wOTEuMDkxLDAsMCwwLS4wMywwLC4wNzkuMDc5LDAsMCwwLS4wNjMuMDU2di4wMDVsLS43NSwyLjcyMXYwYS4wNzcuMDc3LDAsMCwwLDAsLjAzNC4wOC4wOCwwLDAsMCwuMDUxLjA2aC4wMDdhNi4yLDYuMiwwLDAsMCw1LjE3LS44NDUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yNDEuMzU3IC02MDIuMjI3KSIgZmlsbD0iI2ZmZiIvPg0KICA8cGF0aCBpZD0iUGF0aF80NTUxIiBkYXRhLW5hbWU9IlBhdGggNDU1MSIgZD0iTTUxMi40MjksNDk0LjcyNWEuMDguMDgsMCwwLDAtLjAzOS0uMDcxLjA3Ny4wNzcsMCwwLDAtLjAzNy0uMDFsLTIuODE0LS4yMTloLS4wMDZhLjA3OC4wNzgsMCwwLDAtLjA3Mi4wNDEuMDc1LjA3NSwwLDAsMC0uMDA5LjAyNy4wNzIuMDcyLDAsMCwwLDAsLjAxMywzLjIsMy4yLDAsMCwxLTEuMzI3LDIuMzg5bC0uMDA4LjAwNWEuMDgxLjA4MSwwLDAsMC0uMDIuMDIzLjA3OS4wNzksMCwwLDAsMCwuMDg3djBsMS42NjksMi4yNzZoMGEuMDc0LjA3NCwwLDAsMCwuMDI2LjAyMy4wNzkuMDc5LDAsMCwwLC4wNzksMGguMDA1YTYuMiw2LjIsMCwwLDAsMi41NDQtNC41OCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTQ5OS40MzYgLTQ4Ni4wMDcpIiBmaWxsPSIjZmZmIi8+DQogIDxwYXRoIGlkPSJQYXRoXzQ1NTIiIGRhdGEtbmFtZT0iUGF0aCA0NTUyIiBkPSJNNTgwLjc1MiwxOTIuMDUxYS4wNzkuMDc5LDAsMCwwLS4xMTIuMDA5bC0xLjk0MiwyLjA0OHYwYS4wNzguMDc4LDAsMCwwLDAsLjEwNWwuMDEuMDA5YTMuMiwzLjIsMCwwLDEsMS4wMjEsMi41MzUuMDU2LjA1NiwwLDAsMCwwLC4wMS4wODkuMDg5LDAsMCwwLC4wMDUuMDMuMDc5LjA3OSwwLDAsMCwuMDY4LjA1aC4wMDVsMi44MTkuMTM3aC4wMDVhLjA3My4wNzMsMCwwLDAsLjAzNC0uMDA2LjA3OS4wNzksMCwwLDAsLjA0OC0uMDY0di0uMDA3aDBhNi4yLDYuMiwwLDAsMC0xLjk1Ni00Ljg2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTY4LjgyMiAtMTg4Ljc2MykiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9IlBhdGhfNDU1MyIgZGF0YS1uYW1lPSJQYXRoIDQ1NTMiIGQ9Ik00MDcuMjIyLDQwLjYyN2EuMDc5LjA3OSwwLDAsMC0uMDYzLjA5M2wuNDEzLDIuNzkydi4wMDZhLjA3OC4wNzgsMCwwLDAsLjA1Ni4wNjIuMDc2LjA3NiwwLDAsMCwuMDI4LDBoLjAxM2EzLjIsMy4yLDAsMCwxLDIuNjI1Ljc2MmwuMDA3LjAwNmEuMDg2LjA4NiwwLDAsMCwuMDI3LjAxNC4wNzkuMDc5LDAsMCwwLC4wODEtLjAyM2gwbDEuODQ3LTIuMTMzaDBhLjA3Mi4wNzIsMCwwLDAsLjAxNi0uMDMuMDc5LjA3OSwwLDAsMC0uMDIxLS4wNzdsLS4wMDUsMGgwYTYuMiw2LjIsMCwwLDAtNS4wMzEtMS40NjEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00MDAuMjI3IC0zOS44NjMpIiBmaWxsPSIjZmZmIi8+DQogIDxwYXRoIGlkPSJQYXRoXzQ1NTQiIGRhdGEtbmFtZT0iUGF0aCA0NTU0IiBkPSJNMjY1LjkxNSwyNzkuMzRhMi4zMzUsMi4zMzUsMCwxLDAsMi4zMzUsMi4zMzUsMi4zMzUsMi4zMzUsMCwwLDAtMi4zMzUtMi4zMzVtMS43LDMuNjUxYTEuMzU4LDEuMzU4LDAsMCwwLC4wNTgtLjI5MiwxLjQ1MSwxLjQ1MSwwLDAsMS0uMTUxLjEyNywxLjMzNCwxLjMzNCwwLDAsMS0uNS4yMjhsLS40NTItLjQ5My0uMDA2LDAsLjMyNy41NzlhMS4zMywxLjMzLDAsMCwxLS4zNzUuNDEyLDEuNDYyLDEuNDYyLDAsMCwxLS4xNjguMSwxLjM3MSwxLjM3MSwwLDAsMCwuMjk0LjAzNSwyLjE0OCwyLjE0OCwwLDAsMS0xLjQ0NiwwLDEuMzU3LDEuMzU3LDAsMCwwLC4yOTQtLjAzNCwxLjQzNSwxLjQzNSwwLDAsMS0uMTY3LS4xLDEuMzMzLDEuMzMzLDAsMCwxLS4zNzUtLjQxMmwuMzI3LS41OC0uMDA2LDAtLjQ1Mi40OTNhMS4zMzIsMS4zMzIsMCwwLDEtLjUtLjIyOCwxLjQyNSwxLjQyNSwwLDAsMS0uMTUxLS4xMjcsMS4zNDUsMS4zNDUsMCwwLDAsLjA1OC4yOTMsMi4xMzcsMi4xMzcsMCwwLDEtLjQ1Mi0xLjMxN3YtLjA3YTEuMjk0LDEuMjk0LDAsMCwwLC4xMjcuMjc5LDEuMzg5LDEuMzg5LDAsMCwxLC4wNDgtLjE5MSwxLjMyNywxLjMyNywwLDAsMSwuMjc4LS40ODZsLjY0Ni4xMzF2LS4wMDdsLS42LS4yNzZhMS4zMzQsMS4zMzQsMCwwLDEsLjA2My0uNTQ1LDEuNDI0LDEuNDI0LDAsMCwxLC4wNzQtLjE4NCwxLjI0LDEuMjQsMCwwLDAtLjI3My4xNTcsMi4xNSwyLjE1LDAsMCwxLDEuMjA3LS44NzYsMS4xOTMsMS4xOTMsMCwwLDAtLjIzOS4yMTQsMS40NjMsMS40NjMsMCwwLDEsLjItLjAxMywxLjMzNCwxLjMzNCwwLDAsMSwuNTQ0LjExMWwuMDc1LjY1M2guMDA4bC4wNzUtLjY1NGExLjMzLDEuMzMsMCwwLDEsLjU0Mi0uMTExLDEuNDY0LDEuNDY0LDAsMCwxLC4yLjAxMywxLjIxNywxLjIxNywwLDAsMC0uMjM5LS4yMTQsMi4xNTEsMi4xNTEsMCwwLDEsMS4yLjg3MSwxLjI1NCwxLjI1NCwwLDAsMC0uMjcyLS4xNTYsMS41MTIsMS41MTIsMCwwLDEsLjA3NC4xODQsMS4zMywxLjMzLDAsMCwxLC4wNjIuNTQ2bC0uNi4yNzV2LjAwN2wuNjQ2LS4xM2ExLjMyNSwxLjMyNSwwLDAsMSwuMjc3LjQ4NiwxLjQyMSwxLjQyMSwwLDAsMSwuMDQ4LjE5MiwxLjMyLDEuMzIsMCwwLDAsLjEyNi0uMjc4di4wNjhhMi4xNDEsMi4xNDEsMCwwLDEtLjQ1MiwxLjMxNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1OS4wOTQgLTI3NC41ODUpIiBmaWxsPSIjZmZmIi8+DQogIDxwYXRoIGlkPSJQYXRoXzQ1NTUiIGRhdGEtbmFtZT0iUGF0aCA0NTU1IiBkPSJNMzQ1LjM1LDM1OC44NDZsLjM2LDEuMTFoMS4xNjdsLjM2LTEuMTEtLjk0NC0uNjg2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMzOS40NzIgLTM1Mi4wNjMpIiBmaWxsPSIjZmZmIi8+DQo8L3N2Zz4NCg==");
+li[id*="miniTablet_"]:before {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0iR3JvdXBfNiIgZGF0YS1uYW1lPSJHcm91cCA2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNC4wODUiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNC4wODUgMTQiPg0KICA8cGF0aCBpZD0icGF0aDgiIGQ9Ik0zMi44ODksMTU0LjQ0OGMuMzkxLS4wNDcuNjMtLjcuNTQxLTEuNDdzLS40ODMtMS4zNDItLjg3My0xLjMtLjYzNS43LS41MzgsMS40NjZTMzIuNSwxNTQuNDk1LDMyLjg4OSwxNTQuNDQ4WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMxLjk5OCAtMTQ1LjA2NSkiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9InBhdGgxNSIgZD0iTTczLjc1NCwxMi45YzEuNzMxLS42LDMuMDgtMS4yMjQsMy4wMjQtMS40MDdhMi44MjMsMi44MjMsMCwwLDAtMS41MDgtLjE2MiwxLjMxNSwxLjMxNSwwLDAsMSwuNDYuMTU0bC0xLjgyOS44MjMtMi4xOTIuNTc2YS41LjUsMCwwLDEtLjI3My0uMTUxYy0uNTcyLjQzMy0uOTMxLjgxOS0uOTIxLjkxN0M3MC41MjksMTMuODM4LDcyLjAyMiwxMy40OTQsNzMuNzU0LDEyLjlaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNjguNzAyIC0xMS4yOSkiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9InBhdGgyMiIgZD0iTTEwMy40MTcsMTMuNzhhNy4yMTksNy4yMTksMCwwLDAtMS4zMzQuNjMsNy40NTcsNy40NTcsMCwwLDAsMi41MTMtLjkzMkE2LjU3OSw2LjU3OSwwLDAsMCwxMDMuNDE3LDEzLjc4WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTk4Ljc5NSAtMTMuMzQ2KSIgZmlsbD0iI2ZmZiIvPg0KICA8cGF0aCBpZD0icGF0aDI5IiBkPSJNMzUuMTc4LDk4LjAwOGMtLjUyMi4wNTgtLjkuNy0xLjE1MSwxLjQ4NWE1LjE4Niw1LjE4NiwwLDAsMSwxLjE5NC0uNDQ1LDguMDExLDguMDExLDAsMCwxLDEuMywyLjM4OSwxMi40MzcsMTIuNDM3LDAsMCwxLS4zLDIuNzc1LDMuMTY0LDMuMTY0LDAsMCwxLTEuNTIuMDgyYy40MzMuOTM5Ljk5NCwxLjE4NiwxLjYsMS4xMTcuOTkzLS4xMDksMS40MTQtMi4wODgsMS4yMjktMy45QzM3LjMyNCw5OS41NTcsMzYuMTY5LDk3LjksMzUuMTc4LDk4LjAwOFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMy45MzIgLTkzLjkwNSkiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9InBhdGgzNiIgZD0iTTIzOS44MTgsMjQuNDY4YTE4LjY4OCwxOC42ODgsMCwwLDAsMS43MjgsMS40ODksNi4wNyw2LjA3LDAsMCwwLTEuNDY1LTEuODMsNy4yMzksNy4yMzksMCwwLDAtMS4zNjgtLjk0MywyLjU0OCwyLjU0OCwwLDAsMC0uNi0uMjY2QzIzOC4xLDIyLjk2LDIzOC44NzgsMjMuNjIyLDIzOS44MTgsMjQuNDY4WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIyOC40MzcgLTIyLjM0MikiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9InBhdGg0MyIgZD0iTTEzNS4xNjcsNTAuMDg3YTMuODQ1LDMuODQ1LDAsMCwwLTMuMjU1LDQuMzUzLDMuOTIxLDMuOTIxLDAsMCwwLDMuMzE3LDMuNXMtLjAzNS0uMzc1LS4wNzctLjc0Ny0uMDkyLS43MzQtLjA5Mi0uNzM0bC0uNDQ0LjA0NmE3Ljk2Niw3Ljk2NiwwLDAsMS0uOTEzLTEuMDU1LDcuNTc5LDcuNTc5LDAsMCwxLS42MzgtMS4xNDFzLjE5NC0uNjY4LjQ0NS0xLjI4N2ExMi40MTcsMTIuNDE3LDAsMCwxLC41NjgtMS4yMDYsMTEuMjQ2LDExLjI0NiwwLDAsMSwxLjIxNC0uMjEyYy42NTctLjA3MywxLjMzNy0uMDgxLDEuMzM3LS4wODFhOC41Nyw4LjU3LDAsMCwxLC44MzksMS4wMDUsOS43MSw5LjcxLDAsMCwxLC43LDEuMTk0LDYuMDksNi4wOSwwLDAsMS0uMzM4LDEuMjM0LDguNCw4LjQsMCwwLDEtLjY3MiwxLjI1NmwtLjQuMDY2cy4wNTQuMzUyLjA3Ny43MTVjLjAzLjM4My4wNS43NTQuMDUuNzU0YTMuOTA4LDMuOTA4LDAsMCwwLDIuNDMzLTQuMTU3QTMuODQ3LDMuODQ3LDAsMCwwLDEzNS4xNjcsNTAuMDg3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEyNy4xOTYgLTQ4LjIxNSkiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9InBhdGg1MCIgZD0iTTMwNS41NzEsMTE4LjE3NmMtLjE1OS0uMDUzLS40ODQsMS4yNjEtLjcxMiwyLjg2NWE3LjQxOSw3LjQxOSwwLDAsMC0uMTA5LDIuOTUzYy4yNzEuMDE1LjktMS40MTgsMS4xMDYtMi43NjdhNS44MDUsNS44MDUsMCwwLDAtLjI4NS0zLjA1MVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yOTEuODU5IC0xMTMuMTMxKSIgZmlsbD0iI2ZmZiIvPg0KICA8cGF0aCBpZD0icGF0aDU3IiBkPSJNMTI5Ljk1MiwyNDEuNDc0Yy0xLjk0NC4yOTQtMy41MTgsMS4xODctMy4yNjcsMi4xNTMuMTA5LjQ0LjUxNC43NTMsMS4zMjIuOTE2YTIuODczLDIuODczLDAsMCwxLS4zNDQtMS4wNTMsMTAuMTY4LDEwLjE2OCwwLDAsMSwyLjQyNC0xLjIwNiwyMC4yODMsMjAuMjgzLDAsMCwxLDIuNTYzLjQxLDMuNCwzLjQsMCwwLDEtLjAzLDEuMTE0Yy42NzctLjQ0OS45Mi0uODU4Ljc5Mi0xLjM3M0MxMzMuMjQ5LDI0MS43NzMsMTMxLjcyNiwyNDEuMiwxMjkuOTUyLDI0MS40NzRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTIyLjIxOCAtMjMwLjU3OSkiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9InBhdGg2NCIgZD0iTTE3Ni41MjQsMjgwLjk2N2MtLjc2MS4xMi0xLjMzNC40OTUtMS4yNzcuODM5cy43MTUuNTI2LDEuNDczLjQsMS4zMzEtLjUsMS4yNzctLjg0NFMxNzcuMjgxLDI4MC44NDQsMTc2LjUyNCwyODAuOTY3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE2OC41MjIgLTI2OC4yNDgpIiBmaWxsPSIjZmZmIi8+DQogIDxwYXRoIGlkPSJwYXRoNzEiIGQ9Ik0xODguOTEzLDEwNy4zMTFhMS4yODUsMS4yODUsMCwxLDAtLjI2My45NTQsMS4yODEsMS4yODEsMCwwLDAsLjI2My0uOTU0WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE3OS4xMTQgLTEwMS42NzcpIiBmaWxsPSIjZmZmIi8+DQo8L3N2Zz4NCg==");
 }
 
-li#miniTablet_1_17:before,
-li#miniTablet_1_18:before,
-li#miniTablet_1_19:before,
-li#miniTablet_1_23:before,
-li#miniTablet_1_238:before {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0iR3JvdXBfNiIgZGF0YS1uYW1lPSJHcm91cCA2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNC4wODUiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNC4wODUgMTQiPg0KICA8cGF0aCBpZD0icGF0aDgiIGQ9Ik0zMi44ODksMTU0LjQ0OGMuMzkxLS4wNDcuNjMtLjcuNTQxLTEuNDdzLS40ODMtMS4zNDItLjg3My0xLjMtLjYzNS43LS41MzgsMS40NjZTMzIuNSwxNTQuNDk1LDMyLjg4OSwxNTQuNDQ4WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMxLjk5OCAtMTQ1LjA2NSkiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9InBhdGgxNSIgZD0iTTczLjc1NCwxMi45YzEuNzMxLS42LDMuMDgtMS4yMjQsMy4wMjQtMS40MDdhMi44MjMsMi44MjMsMCwwLDAtMS41MDgtLjE2MiwxLjMxNSwxLjMxNSwwLDAsMSwuNDYuMTU0bC0xLjgyOS44MjMtMi4xOTIuNTc2YS41LjUsMCwwLDEtLjI3My0uMTUxYy0uNTcyLjQzMy0uOTMxLjgxOS0uOTIxLjkxN0M3MC41MjksMTMuODM4LDcyLjAyMiwxMy40OTQsNzMuNzU0LDEyLjlaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNjguNzAyIC0xMS4yOSkiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9InBhdGgyMiIgZD0iTTEwMy40MTcsMTMuNzhhNy4yMTksNy4yMTksMCwwLDAtMS4zMzQuNjMsNy40NTcsNy40NTcsMCwwLDAsMi41MTMtLjkzMkE2LjU3OSw2LjU3OSwwLDAsMCwxMDMuNDE3LDEzLjc4WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTk4Ljc5NSAtMTMuMzQ2KSIgZmlsbD0iI2ZmZiIvPg0KICA8cGF0aCBpZD0icGF0aDI5IiBkPSJNMzUuMTc4LDk4LjAwOGMtLjUyMi4wNTgtLjkuNy0xLjE1MSwxLjQ4NWE1LjE4Niw1LjE4NiwwLDAsMSwxLjE5NC0uNDQ1LDguMDExLDguMDExLDAsMCwxLDEuMywyLjM4OSwxMi40MzcsMTIuNDM3LDAsMCwxLS4zLDIuNzc1LDMuMTY0LDMuMTY0LDAsMCwxLTEuNTIuMDgyYy40MzMuOTM5Ljk5NCwxLjE4NiwxLjYsMS4xMTcuOTkzLS4xMDksMS40MTQtMi4wODgsMS4yMjktMy45QzM3LjMyNCw5OS41NTcsMzYuMTY5LDk3LjksMzUuMTc4LDk4LjAwOFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMy45MzIgLTkzLjkwNSkiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9InBhdGgzNiIgZD0iTTIzOS44MTgsMjQuNDY4YTE4LjY4OCwxOC42ODgsMCwwLDAsMS43MjgsMS40ODksNi4wNyw2LjA3LDAsMCwwLTEuNDY1LTEuODMsNy4yMzksNy4yMzksMCwwLDAtMS4zNjgtLjk0MywyLjU0OCwyLjU0OCwwLDAsMC0uNi0uMjY2QzIzOC4xLDIyLjk2LDIzOC44NzgsMjMuNjIyLDIzOS44MTgsMjQuNDY4WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIyOC40MzcgLTIyLjM0MikiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9InBhdGg0MyIgZD0iTTEzNS4xNjcsNTAuMDg3YTMuODQ1LDMuODQ1LDAsMCwwLTMuMjU1LDQuMzUzLDMuOTIxLDMuOTIxLDAsMCwwLDMuMzE3LDMuNXMtLjAzNS0uMzc1LS4wNzctLjc0Ny0uMDkyLS43MzQtLjA5Mi0uNzM0bC0uNDQ0LjA0NmE3Ljk2Niw3Ljk2NiwwLDAsMS0uOTEzLTEuMDU1LDcuNTc5LDcuNTc5LDAsMCwxLS42MzgtMS4xNDFzLjE5NC0uNjY4LjQ0NS0xLjI4N2ExMi40MTcsMTIuNDE3LDAsMCwxLC41NjgtMS4yMDYsMTEuMjQ2LDExLjI0NiwwLDAsMSwxLjIxNC0uMjEyYy42NTctLjA3MywxLjMzNy0uMDgxLDEuMzM3LS4wODFhOC41Nyw4LjU3LDAsMCwxLC44MzksMS4wMDUsOS43MSw5LjcxLDAsMCwxLC43LDEuMTk0LDYuMDksNi4wOSwwLDAsMS0uMzM4LDEuMjM0LDguNCw4LjQsMCwwLDEtLjY3MiwxLjI1NmwtLjQuMDY2cy4wNTQuMzUyLjA3Ny43MTVjLjAzLjM4My4wNS43NTQuMDUuNzU0YTMuOTA4LDMuOTA4LDAsMCwwLDIuNDMzLTQuMTU3QTMuODQ3LDMuODQ3LDAsMCwwLDEzNS4xNjcsNTAuMDg3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEyNy4xOTYgLTQ4LjIxNSkiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9InBhdGg1MCIgZD0iTTMwNS41NzEsMTE4LjE3NmMtLjE1OS0uMDUzLS40ODQsMS4yNjEtLjcxMiwyLjg2NWE3LjQxOSw3LjQxOSwwLDAsMC0uMTA5LDIuOTUzYy4yNzEuMDE1LjktMS40MTgsMS4xMDYtMi43NjdhNS44MDUsNS44MDUsMCwwLDAtLjI4NS0zLjA1MVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yOTEuODU5IC0xMTMuMTMxKSIgZmlsbD0iI2ZmZiIvPg0KICA8cGF0aCBpZD0icGF0aDU3IiBkPSJNMTI5Ljk1MiwyNDEuNDc0Yy0xLjk0NC4yOTQtMy41MTgsMS4xODctMy4yNjcsMi4xNTMuMTA5LjQ0LjUxNC43NTMsMS4zMjIuOTE2YTIuODczLDIuODczLDAsMCwxLS4zNDQtMS4wNTMsMTAuMTY4LDEwLjE2OCwwLDAsMSwyLjQyNC0xLjIwNiwyMC4yODMsMjAuMjgzLDAsMCwxLDIuNTYzLjQxLDMuNCwzLjQsMCwwLDEtLjAzLDEuMTE0Yy42NzctLjQ0OS45Mi0uODU4Ljc5Mi0xLjM3M0MxMzMuMjQ5LDI0MS43NzMsMTMxLjcyNiwyNDEuMiwxMjkuOTUyLDI0MS40NzRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTIyLjIxOCAtMjMwLjU3OSkiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9InBhdGg2NCIgZD0iTTE3Ni41MjQsMjgwLjk2N2MtLjc2MS4xMi0xLjMzNC40OTUtMS4yNzcuODM5cy43MTUuNTI2LDEuNDczLjQsMS4zMzEtLjUsMS4yNzctLjg0NFMxNzcuMjgxLDI4MC44NDQsMTc2LjUyNCwyODAuOTY3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE2OC41MjIgLTI2OC4yNDgpIiBmaWxsPSIjZmZmIi8+DQogIDxwYXRoIGlkPSJwYXRoNzEiIGQ9Ik0xODguOTEzLDEwNy4zMTFhMS4yODUsMS4yODUsMCwxLDAtLjI2My45NTQsMS4yODEsMS4yODEsMCwwLDAsLjI2My0uOTU0WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE3OS4xMTQgLTEwMS42NzcpIiBmaWxsPSIjZmZmIi8+DQo8L3N2Zz4NCg==");
+li#miniTablet_1_8:before {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0iR3JvdXBfOCIgZGF0YS1uYW1lPSJHcm91cCA4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMy44OTkiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxMy44OTkgMTQiPg0KICA8cGF0aCBpZD0iUGF0aF80NTQ3IiBkYXRhLW5hbWU9IlBhdGggNDU0NyIgZD0iTTExNC4yMTIsMy4wMzVhLjA3OS4wNzksMCwwLDAsLjAzNC4xMDdsMi40MzgsMS40MThoLjAwNWEuMDc5LjA3OSwwLDAsMCwuMS0uMDI1bC4wMDYtLjAxMWEzLjIsMy4yLDAsMCwxLDIuMjMyLTEuNTc3aC4wMWEuMDg3LjA4NywwLDAsMCwuMDI4LS4wMTIuMDc5LjA3OSwwLDAsMCwuMDMyLS4wNzd2MEwxMTguNTg1LjA3OHYwYS4wNzQuMDc0LDAsMCwwLS4wMTQtLjAzMUEuMDc5LjA3OSwwLDAsMCwxMTguNS4wMTFoLS4wMDdhNi4yLDYuMiwwLDAsMC00LjI3OSwzLjAyNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTExMi4yNTkgLTAuMDEpIiBmaWxsPSIjZmZmIi8+DQogIDxwYXRoIGlkPSJQYXRoXzQ1NDgiIGRhdGEtbmFtZT0iUGF0aCA0NTQ4IiBkPSJNOC4wMTUsMTg4LjE1YS4wNzkuMDc5LDAsMCwwLC4wNjYuMDQ3LjA3Ny4wNzcsMCwwLDAsLjAzOC0uMDA3bDIuNjMzLTEuMDE1aC4wMDZhLjA3OS4wNzksMCwwLDAsLjA0OC0uMDY4LjA3OC4wNzgsMCwwLDAsMC0uMDI4LjA3NC4wNzQsMCwwLDAtLjAwNS0uMDEyLDMuMiwzLjIsMCwwLDEsLjE2Ny0yLjcyOGwwLS4wMDlhLjA4Ny4wODcsMCwwLDAsLjAwOC0uMDMuMDguMDgsMCwwLDAtLjA0LS4wNzRoLS4wMDVsLTIuNDg5LTEuMzM3aDBhLjA3Mi4wNzIsMCwwLDAtLjAzMy0uMDA5LjA3OS4wNzksMCwwLDAtLjA3LjAzN3YuMDA2aDBhNi4yLDYuMiwwLDAsMC0uMzIxLDUuMjMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03LjQ1NiAtMTc5Ljc2NSkiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9IlBhdGhfNDU0OSIgZGF0YS1uYW1lPSJQYXRoIDQ1NDkiIGQ9Ik0zLjkyLDQ3Ny45ODZhLjA3OS4wNzksMCwwLDAsLjEtLjA1N2wuODQtMi43di0uMDA2YS4wNzguMDc4LDAsMCwwLS4wMjQtLjA4LjA3Ny4wNzcsMCwwLDAtLjAyNC0uMDE1SDQuOEEzLjIsMy4yLDAsMCwxLDIuNzYxLDQ3My4zYS4wNS4wNSwwLDAsMCwwLS4wMDkuMDgyLjA4MiwwLDAsMC0uMDE4LS4wMjQuMDc5LjA3OSwwLDAsMC0uMDgzLS4wMTVIMi42NTVMLjA2Niw0NzQuMzhoMGEuMDczLjA3MywwLDAsMC0uMDI4LjAyMS4wOC4wOCwwLDAsMC0uMDE0LjA3OHYuMDA2aDBhNi4yLDYuMiwwLDAsMCwzLjksMy41IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4wMTYgLTQ2NS4xOTUpIiBmaWxsPSIjZmZmIi8+DQogIDxwYXRoIGlkPSJQYXRoXzQ1NTAiIGRhdGEtbmFtZT0iUGF0aCA0NTUwIiBkPSJNMjUwLjc2Niw2MTUuMTQ4YS4wNzkuMDc5LDAsMCwwLC4wMzEtLjA3NS4wNzYuMDc2LDAsMCwwLS4wMTUtLjAzN2wtMS41NzMtMi4zNDR2LS4wMDVhLjA4LjA4LDAsMCwwLS4xLS4wMjJsLS4wMTEuMDA4YTMuMiwzLjIsMCwwLDEtMi43LjQ0MWgtLjAxYS4wOTEuMDkxLDAsMCwwLS4wMywwLC4wNzkuMDc5LDAsMCwwLS4wNjMuMDU2di4wMDVsLS43NSwyLjcyMXYwYS4wNzcuMDc3LDAsMCwwLDAsLjAzNC4wOC4wOCwwLDAsMCwuMDUxLjA2aC4wMDdhNi4yLDYuMiwwLDAsMCw1LjE3LS44NDUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yNDEuMzU3IC02MDIuMjI3KSIgZmlsbD0iI2ZmZiIvPg0KICA8cGF0aCBpZD0iUGF0aF80NTUxIiBkYXRhLW5hbWU9IlBhdGggNDU1MSIgZD0iTTUxMi40MjksNDk0LjcyNWEuMDguMDgsMCwwLDAtLjAzOS0uMDcxLjA3Ny4wNzcsMCwwLDAtLjAzNy0uMDFsLTIuODE0LS4yMTloLS4wMDZhLjA3OC4wNzgsMCwwLDAtLjA3Mi4wNDEuMDc1LjA3NSwwLDAsMC0uMDA5LjAyNy4wNzIuMDcyLDAsMCwwLDAsLjAxMywzLjIsMy4yLDAsMCwxLTEuMzI3LDIuMzg5bC0uMDA4LjAwNWEuMDgxLjA4MSwwLDAsMC0uMDIuMDIzLjA3OS4wNzksMCwwLDAsMCwuMDg3djBsMS42NjksMi4yNzZoMGEuMDc0LjA3NCwwLDAsMCwuMDI2LjAyMy4wNzkuMDc5LDAsMCwwLC4wNzksMGguMDA1YTYuMiw2LjIsMCwwLDAsMi41NDQtNC41OCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTQ5OS40MzYgLTQ4Ni4wMDcpIiBmaWxsPSIjZmZmIi8+DQogIDxwYXRoIGlkPSJQYXRoXzQ1NTIiIGRhdGEtbmFtZT0iUGF0aCA0NTUyIiBkPSJNNTgwLjc1MiwxOTIuMDUxYS4wNzkuMDc5LDAsMCwwLS4xMTIuMDA5bC0xLjk0MiwyLjA0OHYwYS4wNzguMDc4LDAsMCwwLDAsLjEwNWwuMDEuMDA5YTMuMiwzLjIsMCwwLDEsMS4wMjEsMi41MzUuMDU2LjA1NiwwLDAsMCwwLC4wMS4wODkuMDg5LDAsMCwwLC4wMDUuMDMuMDc5LjA3OSwwLDAsMCwuMDY4LjA1aC4wMDVsMi44MTkuMTM3aC4wMDVhLjA3My4wNzMsMCwwLDAsLjAzNC0uMDA2LjA3OS4wNzksMCwwLDAsLjA0OC0uMDY0di0uMDA3aDBhNi4yLDYuMiwwLDAsMC0xLjk1Ni00Ljg2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTY4LjgyMiAtMTg4Ljc2MykiIGZpbGw9IiNmZmYiLz4NCiAgPHBhdGggaWQ9IlBhdGhfNDU1MyIgZGF0YS1uYW1lPSJQYXRoIDQ1NTMiIGQ9Ik00MDcuMjIyLDQwLjYyN2EuMDc5LjA3OSwwLDAsMC0uMDYzLjA5M2wuNDEzLDIuNzkydi4wMDZhLjA3OC4wNzgsMCwwLDAsLjA1Ni4wNjIuMDc2LjA3NiwwLDAsMCwuMDI4LDBoLjAxM2EzLjIsMy4yLDAsMCwxLDIuNjI1Ljc2MmwuMDA3LjAwNmEuMDg2LjA4NiwwLDAsMCwuMDI3LjAxNC4wNzkuMDc5LDAsMCwwLC4wODEtLjAyM2gwbDEuODQ3LTIuMTMzaDBhLjA3Mi4wNzIsMCwwLDAsLjAxNi0uMDMuMDc5LjA3OSwwLDAsMC0uMDIxLS4wNzdsLS4wMDUsMGgwYTYuMiw2LjIsMCwwLDAtNS4wMzEtMS40NjEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00MDAuMjI3IC0zOS44NjMpIiBmaWxsPSIjZmZmIi8+DQogIDxwYXRoIGlkPSJQYXRoXzQ1NTQiIGRhdGEtbmFtZT0iUGF0aCA0NTU0IiBkPSJNMjY1LjkxNSwyNzkuMzRhMi4zMzUsMi4zMzUsMCwxLDAsMi4zMzUsMi4zMzUsMi4zMzUsMi4zMzUsMCwwLDAtMi4zMzUtMi4zMzVtMS43LDMuNjUxYTEuMzU4LDEuMzU4LDAsMCwwLC4wNTgtLjI5MiwxLjQ1MSwxLjQ1MSwwLDAsMS0uMTUxLjEyNywxLjMzNCwxLjMzNCwwLDAsMS0uNS4yMjhsLS40NTItLjQ5My0uMDA2LDAsLjMyNy41NzlhMS4zMywxLjMzLDAsMCwxLS4zNzUuNDEyLDEuNDYyLDEuNDYyLDAsMCwxLS4xNjguMSwxLjM3MSwxLjM3MSwwLDAsMCwuMjk0LjAzNSwyLjE0OCwyLjE0OCwwLDAsMS0xLjQ0NiwwLDEuMzU3LDEuMzU3LDAsMCwwLC4yOTQtLjAzNCwxLjQzNSwxLjQzNSwwLDAsMS0uMTY3LS4xLDEuMzMzLDEuMzMzLDAsMCwxLS4zNzUtLjQxMmwuMzI3LS41OC0uMDA2LDAtLjQ1Mi40OTNhMS4zMzIsMS4zMzIsMCwwLDEtLjUtLjIyOCwxLjQyNSwxLjQyNSwwLDAsMS0uMTUxLS4xMjcsMS4zNDUsMS4zNDUsMCwwLDAsLjA1OC4yOTMsMi4xMzcsMi4xMzcsMCwwLDEtLjQ1Mi0xLjMxN3YtLjA3YTEuMjk0LDEuMjk0LDAsMCwwLC4xMjcuMjc5LDEuMzg5LDEuMzg5LDAsMCwxLC4wNDgtLjE5MSwxLjMyNywxLjMyNywwLDAsMSwuMjc4LS40ODZsLjY0Ni4xMzF2LS4wMDdsLS42LS4yNzZhMS4zMzQsMS4zMzQsMCwwLDEsLjA2My0uNTQ1LDEuNDI0LDEuNDI0LDAsMCwxLC4wNzQtLjE4NCwxLjI0LDEuMjQsMCwwLDAtLjI3My4xNTcsMi4xNSwyLjE1LDAsMCwxLDEuMjA3LS44NzYsMS4xOTMsMS4xOTMsMCwwLDAtLjIzOS4yMTQsMS40NjMsMS40NjMsMCwwLDEsLjItLjAxMywxLjMzNCwxLjMzNCwwLDAsMSwuNTQ0LjExMWwuMDc1LjY1M2guMDA4bC4wNzUtLjY1NGExLjMzLDEuMzMsMCwwLDEsLjU0Mi0uMTExLDEuNDY0LDEuNDY0LDAsMCwxLC4yLjAxMywxLjIxNywxLjIxNywwLDAsMC0uMjM5LS4yMTQsMi4xNTEsMi4xNTEsMCwwLDEsMS4yLjg3MSwxLjI1NCwxLjI1NCwwLDAsMC0uMjcyLS4xNTYsMS41MTIsMS41MTIsMCwwLDEsLjA3NC4xODQsMS4zMywxLjMzLDAsMCwxLC4wNjIuNTQ2bC0uNi4yNzV2LjAwN2wuNjQ2LS4xM2ExLjMyNSwxLjMyNSwwLDAsMSwuMjc3LjQ4NiwxLjQyMSwxLjQyMSwwLDAsMSwuMDQ4LjE5MiwxLjMyLDEuMzIsMCwwLDAsLjEyNi0uMjc4di4wNjhhMi4xNDEsMi4xNDEsMCwwLDEtLjQ1MiwxLjMxNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1OS4wOTQgLTI3NC41ODUpIiBmaWxsPSIjZmZmIi8+DQogIDxwYXRoIGlkPSJQYXRoXzQ1NTUiIGRhdGEtbmFtZT0iUGF0aCA0NTU1IiBkPSJNMzQ1LjM1LDM1OC44NDZsLjM2LDEuMTFoMS4xNjdsLjM2LTEuMTEtLjk0NC0uNjg2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMzOS40NzIgLTM1Mi4wNjMpIiBmaWxsPSIjZmZmIi8+DQo8L3N2Zz4NCg==");
 }
 
 #marketMoversBets .ct-line {
@@ -20426,7 +20414,7 @@ body .loader__ball {
   width: 180px;
   height: 70px;
   display: block;
-  background-image: url("http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg");
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDIuNjcgMTIwLjg1Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2VkMDAxMTt9LmNscy0ye2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPnhiZXRwcm8tbG9nbzE8L3RpdGxlPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDguMjEsNTcuNzgsNDAsNDkuNTcsNjkuMzIsMjAuMjRsOC4yMSw4LjIyWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTguMjEsOTcuNzcsMCw4OS41NiwyOS4zMyw2MC4yNGw4LjIxLDguMjFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDAsNjguNDVsOC4yMS04LjIyTDc3LjUzLDg5LjU2bC04LjIxLDguMjFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMCwyOC40Nmw4LjIxLTguMjFMMzcuNTMsNDkuNTdsLTguMjEsOC4yMVoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yNDkuODMsNTRhMzcuNTMsMzcuNTMsMCwxLDAtNy4yNSwyOS4yMmwtOC44NS02Ljc5QTI2LjE5LDI2LjE5LDAsMSwxLDIzOC40Miw1NEgyMTAuNzZWNjUuMTRoMzkuMDdaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDY1LjI2LDM0LjY0YTI1Ljc5LDI1Ljc5LDAsMSwxLTI1Ljc4LDI1Ljc4LDI1LjgyLDI1LjgyLDAsMCwxLDI1Ljc4LTI1Ljc4bTAtMTEuNjJhMzcuNDEsMzcuNDEsMCwxLDAsMzcuNDEsMzcuNEEzNy40MSwzNy40MSwwLDAsMCw0NjUuMjYsMjNaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTI5LjgzLDIzYTM3LjI4LDM3LjI4LDAsMCwwLTI2LjI0LDEwLjc2VjBIOTIuNDNWNjAuNDJoMHYyLjc1aC4xMUEzNy40LDM3LjQsMCwxLDAsMTI5LjgzLDIzWm0wLDYzLjE5YTI1Ljc5LDI1Ljc5LDAsMSwxLDI1Ljc5LTI1Ljc5QTI1LjgxLDI1LjgxLDAsMCwxLDEyOS44Myw4Ni4yMVoiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0zMzIuOCwyM2EzNy40LDM3LjQsMCwwLDAtMzcuMjksMzQuNjVoLS4xMnYyLjc1aDB2NjAuNDJoMTEuMTdWODcuMDdBMzcuNCwzNy40LDAsMSwwLDMzMi44LDIzWm0wLDYzLjE5YTI1Ljc5LDI1Ljc5LDAsMSwxLDI1Ljc4LTI1Ljc5QTI1LjgyLDI1LjgyLDAsMCwxLDMzMi44LDg2LjIxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTI4Mi44OSwzNC4xOCwyODcuNDUsMjNIMjcwLjkyVjBIMjU5Ljc2VjcyLjY0YzAsMTEuNzgsNS40OSwxOC44OCwxNSwyNS4xM2w2LjM4LTkuMTVjLTYuNTItNC40NC0xMC4yMy03LjkyLTEwLjIzLTE2VjM0LjE4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQxNi45NCwyM2EzNy40MiwzNy40MiwwLDAsMC0zNy40LDM3LjRoMFY5Ny43N0gzOTAuN1Y4Ny4wN2wuNDYtMjYuNjVBMjUuNzcsMjUuNzcsMCwwLDEsNDIxLjEsMzVWMjMuMjZBMzguMDksMzguMDksMCwwLDAsNDE2Ljk0LDIzWiIvPjwvZz48L2c+PC9zdmc+");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -20472,5 +20460,9 @@ body .loader__ball {
 .ct-label {
   fill: unset !important;
   color: inherit !important;
+}
+
+.ct-grid {
+  stroke: var(--tableBorders) !important;
 }
 /*# sourceMappingURL=style.css.map */

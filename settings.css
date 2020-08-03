@@ -1,34 +1,25 @@
 html:root {
-  --accent: #005293;
-  --accent-bg: #005293;
-  --accent-txt: #ffcc00;
-  --primary-bg: #005293;
-  --primary-txt: #ffffff;
-  --secondary-bg: #ffffff;
-  --secondary-txt: #000;
-  --mainBg: #ffffff;
-  --mainBgCol: #000;
-  --bg1: #e7e7e7;
-  --col1: #000;
-  --teableHeadersBg: #ffcc00;
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #005293;
+  --accent: #ea2125;
+  --accent-bg: #ea2125;
+  --accent-txt: #000;
+  --primary-bg: #1c1c1c;
+  --primary-txt: #fff;
+  --secondary-bg: #2e2e2e;
+  --secondary-txt: #fff;
+  --mainBg: #282828;
+  --mainBgCol: #fff;
+  --bg1: #323232;
+  --col1: #fff;
+  --teableHeadersBg: #ea2125;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #636363;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #a3a3a3;
+  --tableBorders: #535353;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-}
-
-#favouriteTournaments li:before {
-  -webkit-filter: brightness(0.1);
-          filter: brightness(0.1);
-}
-
-body {
-  background-attachment: initial !important;
 }
 
 button,
@@ -3814,7 +3805,7 @@ div[data-source="upcoming"] .sport_odds_main {
   display: block;
   width: 200px;
   height: 53px;
-  background-image: url("http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg");
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDIuNjcgMTIwLjg1Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2VkMDAxMTt9LmNscy0ye2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPnhiZXRwcm8tbG9nbzE8L3RpdGxlPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDguMjEsNTcuNzgsNDAsNDkuNTcsNjkuMzIsMjAuMjRsOC4yMSw4LjIyWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTguMjEsOTcuNzcsMCw4OS41NiwyOS4zMyw2MC4yNGw4LjIxLDguMjFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDAsNjguNDVsOC4yMS04LjIyTDc3LjUzLDg5LjU2bC04LjIxLDguMjFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMCwyOC40Nmw4LjIxLTguMjFMMzcuNTMsNDkuNTdsLTguMjEsOC4yMVoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yNDkuODMsNTRhMzcuNTMsMzcuNTMsMCwxLDAtNy4yNSwyOS4yMmwtOC44NS02Ljc5QTI2LjE5LDI2LjE5LDAsMSwxLDIzOC40Miw1NEgyMTAuNzZWNjUuMTRoMzkuMDdaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDY1LjI2LDM0LjY0YTI1Ljc5LDI1Ljc5LDAsMSwxLTI1Ljc4LDI1Ljc4LDI1LjgyLDI1LjgyLDAsMCwxLDI1Ljc4LTI1Ljc4bTAtMTEuNjJhMzcuNDEsMzcuNDEsMCwxLDAsMzcuNDEsMzcuNEEzNy40MSwzNy40MSwwLDAsMCw0NjUuMjYsMjNaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTI5LjgzLDIzYTM3LjI4LDM3LjI4LDAsMCwwLTI2LjI0LDEwLjc2VjBIOTIuNDNWNjAuNDJoMHYyLjc1aC4xMUEzNy40LDM3LjQsMCwxLDAsMTI5LjgzLDIzWm0wLDYzLjE5YTI1Ljc5LDI1Ljc5LDAsMSwxLDI1Ljc5LTI1Ljc5QTI1LjgxLDI1LjgxLDAsMCwxLDEyOS44Myw4Ni4yMVoiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0zMzIuOCwyM2EzNy40LDM3LjQsMCwwLDAtMzcuMjksMzQuNjVoLS4xMnYyLjc1aDB2NjAuNDJoMTEuMTdWODcuMDdBMzcuNCwzNy40LDAsMSwwLDMzMi44LDIzWm0wLDYzLjE5YTI1Ljc5LDI1Ljc5LDAsMSwxLDI1Ljc4LTI1Ljc5QTI1LjgyLDI1LjgyLDAsMCwxLDMzMi44LDg2LjIxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTI4Mi44OSwzNC4xOCwyODcuNDUsMjNIMjcwLjkyVjBIMjU5Ljc2VjcyLjY0YzAsMTEuNzgsNS40OSwxOC44OCwxNSwyNS4xM2w2LjM4LTkuMTVjLTYuNTItNC40NC0xMC4yMy03LjkyLTEwLjIzLTE2VjM0LjE4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQxNi45NCwyM2EzNy40MiwzNy40MiwwLDAsMC0zNy40LDM3LjRoMFY5Ny43N0gzOTAuN1Y4Ny4wN2wuNDYtMjYuNjVBMjUuNzcsMjUuNzcsMCwwLDEsNDIxLjEsMzVWMjMuMjZBMzguMDksMzguMDksMCwwLDAsNDE2Ljk0LDIzWiIvPjwvZz48L2c+PC9zdmc+");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
