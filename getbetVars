@@ -2,7 +2,7 @@ $skin: "biwinner";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
-$logoUrl: "https://gradm-api.pcluster.info/api/skin/49/image/131d162d7dd48e35ba4d9b69202e331a.png";
+$logoUrl: 'https://gradm-api.pcluster.info/api/skin/49/image/131d162d7dd48e35ba4d9b69202e331a.png';
 $bodyBg: "https://gradm-api.pcluster.info/api/skin/49/image/874404f8fef779a0bdae0931ba9eabfd.jpeg";
 $bodyCol: #000;
 
@@ -10,19 +10,19 @@ $bodyCol: #000;
 $invet: 0;
 
 html:root {
-  --accent: #de3442;
-  --accent-bg: #b30013;
+  --accent: #DE3442;
+  --accent-bg: #B30013;
   --accent-txt: #fff;
-  --primary-bg: #11151a;
+  --primary-bg: #11151A;
   --primary-txt: #fff;
-  --secondary-bg: #8b000f;
+  --secondary-bg: #8B000F;
   --secondary-txt: #fff;
-  --mainBg: #24323b;
+  --mainBg: #24323B;
   --mainBgCol: #fff;
-  --bg1: #2e3e49;
+  --bg1: #2E3E49;
   --col1: #fff;
-  --teableHeadersBg: #971523;
-  --teableHeadersCol: #fff;
+  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
+  --teableHeadersCol: #000000;
   --teableSubHeadersBg: #414755;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #161d2f;
@@ -33,18 +33,14 @@ html:root {
   --backDrops: #000000cf;
 }
 
-$secondary: #b30013;
+$secondary: #B30013;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #b30013;
+$secondaryDark: #B30013;
 $secondaryDarkCol: #fff;
-$primary: #2e3e49;
+$primary: #2E3E49;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #2e3e49;
-
-.header .top-header .top-header-content .logo-holder a:before {
-  width: 130px !important;
-}
+$sb-2: #2E3E49;

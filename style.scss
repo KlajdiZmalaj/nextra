@@ -828,6 +828,7 @@ input[type="submit"] {
     width: 100%;
     display: flex;
     align-items: center;
+    height: 84px;
     .top-header-content {
       position: relative;
       display: flex;
@@ -960,11 +961,14 @@ input[type="submit"] {
   &.logged-header {
     .top-header {
       flex-flow: column;
-      padding-top: 15px;
+      > .grid {
+        position: relative;
+        top: 8px;
+      }
     }
     .bottom-header {
       height: auto;
-      top: 32px;
+      top: 18px;
     }
     + .live-page {
       padding-top: 28px;
@@ -3945,8 +3949,6 @@ input[type="submit"] {
       }
     }
     .competitions {
-      // width: calc(100% - 135px);
-      // overflow: scroll;
       width: 100%;
       &::-webkit-scrollbar {
         height: 0;
@@ -3962,7 +3964,7 @@ input[type="submit"] {
           display: flex;
           font-size: 13px;
           padding: 6px 10px;
-          border: 1px solid var(--tableBorders);
+          border: 1px solid var(--mainBgCol);
           border-radius: 3px;
           margin-right: 5px;
           font-weight: 400;
@@ -4273,7 +4275,6 @@ input[type="submit"] {
 }
 
 div.landing-page {
-  margin-top: -4px;
   .banner-content {
     position: relative;
     margin: 0 auto;
@@ -4432,6 +4433,8 @@ div.landing-page {
   padding: 40px 0 50px;
   display: inline-block;
   width: 100%;
+  background: var(--mainBg);
+  color: var(--mainBgCol);
   .single-block {
     width: calc(33% - 35px);
     float: left;
@@ -16005,8 +16008,8 @@ select {
     margin: 0 auto;
     .casino-inner {
       width: 100%;
-      padding-top: 326px;
-      height: calc(100vh - 432px);
+      padding-top: 35vh;
+      height: calc(100vh - 35vh - 106px);
       overflow: scroll;
       &::-webkit-scrollbar {
         width: 0;
@@ -16475,8 +16478,8 @@ select {
 }
 
 .clive-container {
-  background-color: #ebebeb;
-  color: #ebebeb;
+  background-color: var(--mainBg);
+  color: var(--mainBgCol);
 }
 
 .clive-container .clive-inner {
@@ -16491,6 +16494,7 @@ select {
 .clive-container .clive-inner .clive-strip-img {
   display: block;
   width: 100%;
+  filter: grayscale(1);
 }
 
 .clgames-container {

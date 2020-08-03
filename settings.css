@@ -1,20 +1,20 @@
 html:root {
-  --accent: #0a96f0;
-  --accent-bg: #0a96f0;
-  --accent-txt: #d6faff;
-  --primary-bg: #d9d9d9;
-  --primary-txt: #000000;
-  --secondary-bg: #ffffff;
-  --secondary-txt: #000;
-  --mainBg: #ffffff;
-  --mainBgCol: #000;
-  --bg1: #e7e7e7;
-  --col1: #000;
-  --teableHeadersBg: #0a96f0;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #cccccc;
-  --teableSubHeadersCol: #000000;
-  --tableBorders: #a3a3a3;
+  --accent: #de3442;
+  --accent-bg: #b30013;
+  --accent-txt: #fff;
+  --primary-bg: #11151a;
+  --primary-txt: #fff;
+  --secondary-bg: #8b000f;
+  --secondary-txt: #fff;
+  --mainBg: #24323b;
+  --mainBgCol: #fff;
+  --bg1: #2e3e49;
+  --col1: #fff;
+  --teableHeadersBg: #971523;
+  --teableHeadersCol: #fff;
+  --teableSubHeadersBg: #414755;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #161d2f;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #f4c100;
@@ -23,13 +23,7 @@ html:root {
 }
 
 .header .top-header .top-header-content .logo-holder a:before {
-  -webkit-transform: scale(2);
-          transform: scale(2);
-}
-
-#favouriteTournaments li:before {
-  -webkit-filter: brightness(0.1);
-          filter: brightness(0.1);
+  width: 130px !important;
 }
 
 button,
@@ -3815,7 +3809,7 @@ div[data-source="upcoming"] .sport_odds_main {
   display: block;
   width: 200px;
   height: 53px;
-  background-image: url("http://static.pcluster.info/skins/icesport/img/logo/logo.svg");
+  background-image: url("https://gradm-api.pcluster.info/api/skin/49/image/131d162d7dd48e35ba4d9b69202e331a.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
