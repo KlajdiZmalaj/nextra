@@ -22,7 +22,7 @@ html:root {
   --backDrops: #000000cf;
 }
 
-$skin: "nextra";
+$skin: "fourbet";
 $cdnPath: "//#{$skin}.nextra.bet/#{$skin}";
 $imagesPath: "//#{$skin}.nextra.bet/#{$skin}/images";
 
