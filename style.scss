@@ -1220,7 +1220,8 @@ input[type="submit"] {
             float: left;
             border-top-right-radius: 3px;
             border-bottom-right-radius: 3px;
-            background: var(--accent);
+            background: var(--accent-bg);
+            color: var(--accent-txt);
             font-size: 13px;
             font-weight: 500;
           }

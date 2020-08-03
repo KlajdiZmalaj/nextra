@@ -28,7 +28,7 @@ $imagesPath: "//#{$skin}.nextra.bet/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/fourbet/img/logo/newlogo.svg";
 $bodyBg: "https://gradm-api.pcluster.info/api/skin/60/image/01aee99446d084908851397ec18505c8.jpeg";
-$bodyCol: #000;
+$bodyCol: #0d1528;
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 
@@ -45,20 +45,19 @@ $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #0a96f0;
 
-
 //black filter li logos
 #favouriteTournaments li:before {
   filter: brightness(0.1);
 }
 
-
-body {
-  background-position-y: 80px!important;
+html body {
+  background-position-y: 80px !important;
+  background-attachment: initial;
 }
 
 .header .top-header {
-  background: var(--accent-bg)!important;
-  color: var(--accent-txt)!important;
+  background: var(--accent-bg) !important;
+  color: var(--accent-txt) !important;
 }
 
 .header .top-bar {
