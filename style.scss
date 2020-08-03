@@ -768,9 +768,6 @@ input[type="submit"] {
         }
         a {
           transition: 0.3s all;
-          &:hover {
-            background: rgba(0, 0, 0, 0.04);
-          }
         }
         form {
           float: left;
@@ -967,6 +964,10 @@ input[type="submit"] {
     }
     .bottom-header {
       height: auto;
+      top: 32px;
+    }
+    + .live-page {
+      padding-top: 28px;
     }
   }
 }
@@ -4120,7 +4121,6 @@ input[type="submit"] {
         line-height: 36px;
         font-weight: 500;
         font-size: 12px;
-        color: darken($primary, 15%);
         &:nth-child(2) {
           border-top: 1px solid transparent;
         }
@@ -8163,6 +8163,10 @@ footer {
 }
 
 .logged-page {
+  .grid {
+    display: flex;
+    flex-flow: row;
+  }
   .registration-holder {
     width: 100%;
     .form-holder {
@@ -8331,7 +8335,7 @@ footer {
             }
           }
           .radio-holder {
-            display: inline-block;
+            display: flex;
             .radio {
               display: inline-block;
               float: left;
@@ -8664,7 +8668,7 @@ footer {
             }
           }
           .radio-holder {
-            display: inline-block;
+            display: flex;
             .radio {
               display: inline-block;
               float: left;
@@ -10614,7 +10618,7 @@ footer {
     .input-wrapper {
       padding: 10px 0;
       transition: 0.3s all;
-      display: inline-block;
+      display: flex;
       width: 100%;
       box-sizing: border-box;
       border-bottom: 1px solid darken($white, 3%);
@@ -10691,8 +10695,8 @@ footer {
       .ui-selectmenu-button,
       select {
         border: 1px solid $primary;
-        background-color: $primary;
-        color: $white;
+        background-color: var(--bg1);
+        color: var(--col1);
         font-size: 12px;
         width: 200px;
         line-height: 24px;
@@ -10709,9 +10713,7 @@ footer {
           -ms-user-select: none;
           user-select: none;
         }
-        &:hover {
-          background-color: lighten($primary, 5%);
-        }
+
         .ui-icon {
           background-image: url(#{$imagesPath}/triangle-down.png) !important;
           background-size: auto;
@@ -10719,7 +10721,7 @@ footer {
         }
       }
       .radio-holder {
-        display: inline-block;
+        display: flex;
         width: 200px;
         position: relative;
         top: 5px;
@@ -10803,7 +10805,10 @@ footer {
     }
     &.edit-user-page {
       background-color: lighten($white, 5%);
+      display: flex;
+      flex-flow: row wrap;
       .row {
+        width: calc(100% / 2);
         .cell {
           border-bottom: 1px solid darken($white, 3%);
           text-align: center;
@@ -10870,13 +10875,16 @@ footer {
     width: 100%;
     background: var(--mainBg);
     color: var(--mainBgCol);
+    display: flex;
+    flex-flow: row wrap;
     form {
       width: 100%;
     }
     .row {
-      width: 100%;
       text-align: center;
       border-bottom: 1px solid var(--tableBorders);
+      width: calc(100% / 2);
+
       &:last-child {
         border-bottom: none;
       }
@@ -10966,7 +10974,7 @@ footer {
         .radio-holder {
           display: block;
           padding: 5px 0;
-          width: 110px;
+          width: 120px;
           height: 27px;
           box-sizing: border-box;
           .radio {
@@ -10989,7 +10997,7 @@ footer {
             float: left;
           }
           .radio-holder {
-            display: inline-block;
+            display: flex;
           }
         }
       }
@@ -12090,8 +12098,8 @@ footer {
             &.hasDatepicker {
               float: left;
               width: 100%;
-              color: $white !important;
-              background-color: $primary !important;
+              color: #222;
+              background-color: #ccc;
             }
           }
         }
@@ -13561,6 +13569,7 @@ footer {
     display: inline-block;
     border-radius: 5px;
     background-color: white;
+    color: #222;
     padding: 20px;
     text-align: left;
     top: 110px;
@@ -13730,12 +13739,10 @@ footer {
           &:nth-child(2) {
             line-height: 20px;
             .name {
-              color: $primary;
               font-size: 14px;
               font-weight: bold;
             }
             span {
-              color: #666567;
               font-size: 12px;
               font-weight: 500;
               width: 100%;
@@ -14491,7 +14498,6 @@ footer {
       width: 100%;
       display: none;
       font-size: 12px;
-      color: $white;
       .single-bonus {
         width: 300px;
         margin: 20px;
@@ -14500,8 +14506,6 @@ footer {
         .text-wrapper {
           padding: 5px;
           box-sizing: border-box;
-          background: lighten($primary, 30%);
-          color: darken($primary, 10%);
           h4 {
             font-weight: bold;
             margin-bottom: 5px;
@@ -15744,8 +15748,8 @@ footer {
   input[type="text"] {
     &.hasDatepicker {
       float: left;
-      color: #ebebeb !important;
-      background-color: $primary !important;
+      color: #222;
+      background-color: #ccc;
     }
   }
 }
@@ -17158,4 +17162,8 @@ body {
 .casino-banner-container,
 .casino-section + footer {
   display: none;
+}
+.ct-label {
+  fill: unset !important;
+  color: inherit !important;
 }
