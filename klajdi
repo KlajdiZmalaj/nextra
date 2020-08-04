@@ -1,0 +1,53 @@
+$skin: "biwinner";
+$cdnPath: "//nextra.nextra.bet/#{$skin}";
+$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+
+$logoUrl: "http://static.pcluster.info/skins/betclass24/img/logo/logo.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/31/image/856aa46a0d619e56f10bc1558c8b3f77.jpeg";
+$bodyCol: #012348;
+
+//invet 1 light skin inver 0 dark skin (images)
+$invet: 1;
+html:root {
+  --accent: #00adb5;
+  --accent-bg: #00adb5;
+  --accent-txt: #fff;
+  --primary-bg: #222831;
+  --primary-txt: #ffffff;
+  --secondary-bg: #393e46;
+  --secondary-txt: #fff;
+  --mainBg: #eeeeee;
+  --mainBgCol: #000;
+  --bg1: #dbdbdb;
+  --col1: #000;
+  --teableHeadersBg: #14c2ca;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #393e46;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #adadad;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #636363;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+}
+
+$secondary: #00adb5;
+$secondaryCol: #fff;
+$black: #000000;
+$secondaryDark: #14c2ca;
+$secondaryDarkCol: #fff;
+$primary: #323232;
+$white: #ebebeb;
+$blue: #262ca8;
+$green: #2e9c3d;
+$red: #e1042e;
+$sb-2: #eeeeee;
+
+body {
+  background-size: 2070px !important;
+}
+//black filter li logos
+#favouriteTournaments li:before {
+  filter: brightness(0.1);
+}

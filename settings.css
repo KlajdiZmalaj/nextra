@@ -1,25 +1,29 @@
 html:root {
-  --accent: #ea2125;
-  --accent-bg: #ea2125;
-  --accent-txt: #fff;
-  --primary-bg: #172a5c;
+  --accent: #f15a24;
+  --accent-bg: #f15a24;
+  --accent-txt: #000;
+  --primary-bg: #1c1c1c;
   --primary-txt: #fff;
-  --secondary-bg: #081538;
+  --secondary-bg: #2e2e2e;
   --secondary-txt: #fff;
-  --mainBg: #020c22;
+  --mainBg: #282828;
   --mainBgCol: #fff;
-  --bg1: #172a5c;
+  --bg1: #323232;
   --col1: #fff;
-  --teableHeadersBg: #102140;
+  --teableHeadersBg: #000;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #081732;
+  --teableSubHeadersBg: #636363;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #47598a;
+  --tableBorders: #535353;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+}
+
+body {
+  background-size: 1890px !important;
 }
 
 button,
@@ -3805,7 +3809,7 @@ div[data-source="upcoming"] .sport_odds_main {
   display: block;
   width: 200px;
   height: 53px;
-  background-image: url("http://www.d10sbet.com/Assets/webclient/d10sbet/shared/logo.svg");
+  background-image: url("");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
