@@ -22,7 +22,7 @@ html:root {
   --backDrops: #000000cf;
 }
 
-$skin: "fourbet";
+$skin: "biwinner";
 $cdnPath: "//#{$skin}.nextra.bet/#{$skin}";
 $imagesPath: "//#{$skin}.nextra.bet/#{$skin}/images";
 
@@ -38,12 +38,12 @@ $secondaryCol: #fff;
 $secondaryDark: #075424;
 $secondaryDarkCol: #fff;
 $black: #000000;
-$primary: #c2c2c2;
-$white: #ebebeb;
+$primary: #848484;
+$white: #848484;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #0a96f0;
+$sb-2: #162444;
 
 //black filter li logos
 #favouriteTournaments li:before {
@@ -58,8 +58,10 @@ html body {
 .header .top-header {
   background: var(--accent-bg) !important;
   color: var(--accent-txt) !important;
+  border-bottom: 4px solid #var(--casinoGradient2)!important;
 }
 
 .header .top-bar {
-  background: var(--black);
+  background: #0e1428 !important;
+  color: var(--accent-txt)!important;
 }
