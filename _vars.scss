@@ -1,41 +1,45 @@
-$skin: "biwinner";
+$skin: "nextra";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
 $logoUrl: "";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/29/image/9c0b636736c1d14b21af485266efc3a6.jpeg";
-$bodyCol: #454140;
-//
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
+$bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #f15a24;
-  --accent-bg: #f15a24;
+  --accent: #95cd3b;
+  --accent-bg: #95cd3b;
   --accent-txt: #000;
-  --primary-bg: #1c1c1c;
+  --primary-bg: #000;
   --primary-txt: #fff;
-  --secondary-bg: #2e2e2e;
+  --secondary-bg: #212931;
   --secondary-txt: #fff;
-  --mainBg: #282828;
+  --mainBg: #212931;
   --mainBgCol: #fff;
-  --bg1: #323232;
+  --bg1: #29333b;
   --col1: #fff;
-  --teableHeadersBg: #000;
+  --teableHeadersBg: #384351;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #636363;
+  --teableSubHeadersBg: #14191d;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #535353;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
+  --casinoGradient1: linear-gradient(
+    to right,
+    #95cd3b00 3%,
+    #95cd3b 60%,
+    #95cd3b00 99%
+  );
+  --casinoGradient1-txt: #000;
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
 }
 
-$secondary: #f15a24;
+$secondary: #95cd3b;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #f15a24;
+$secondaryDark: #95cd3b;
 $secondaryDarkCol: #fff;
 $primary: #323232;
 $white: #ebebeb;
@@ -43,6 +47,7 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #323232;
+
 body {
-  background-size: 1890px !important;
+  background-size: 2038px !important;
 }

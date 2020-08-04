@@ -4,6 +4,9 @@
 
 //sec font
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+//font-family: 'Nanum Gothic', sans-serif;
+
 @import "./vars";
 @media (max-width: 1008px) {
   html {
@@ -166,6 +169,15 @@ body {
   // &.landing-page {
   //   min-width: 1360px;
   // }
+  &.landing-page {
+    background-color: #1d202f;
+    background-image: none;
+    .grid {
+      max-width: 1920px;
+      padding: 0px 15px;
+      box-sizing: border-box;
+    }
+  }
   &.hidden {
     overflow: hidden;
   }
@@ -4283,15 +4295,33 @@ input[type="submit"] {
     }
   }
 }
-
 div.landing-page {
   .banner-content {
     position: relative;
     margin: 0 auto;
-    max-width: 1360px;
-    min-height: 685px;
-    background: url(#{$imagesPath}/landing-images/landing-banner.jpg) no-repeat
-      top !important;
+    max-width: 1920px;
+    height: 555px;
+    background-image: url(#{$imagesPath}/landing-images/homeBanner.jpg) !important;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    &:before {
+      content: "INIZA A VINCERE ALLA GRANDE";
+      font-family: "Nanum Gothic", sans-serif;
+      position: absolute;
+      left: 0;
+      bottom: 100px;
+      background: var(--casinoGradient1);
+      color: var(--casinoGradient1-txt);
+      padding: 11px;
+      padding-left: 10%;
+      padding-right: 22%;
+      font-size: 27px;
+    }
     img {
       width: 100%;
     }
@@ -4313,16 +4343,16 @@ div.landing-page {
       left: 0;
       height: 220px;
       width: 100%;
-      display: none;
+      display: flex;
+      transform: translateY(100%);
+      > .grid.full {
+        display: flex;
+        max-width: 1920px;
+        padding-left: 0;
+        padding-right: 0;
+      }
       .inner {
-        padding: 0 20px;
-        margin: 75px 0;
-        line-height: 35px;
-        color: $white;
-        font-size: 21px;
         text-align: center;
-        border-right: 1px solid $white;
-        height: 70px;
         span {
           display: inline-block;
         }
@@ -4330,79 +4360,67 @@ div.landing-page {
           font-weight: 300;
         }
         strong {
-          font-weight: 900;
-          &.big {
-            font-size: 38px;
-            line-height: 35px;
-          }
+          font-weight: 500;
+          margin: 0 2px;
         }
       }
       .quarter {
+        width: calc(100% / 4);
+        font-size: 16px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--bg1);
+        margin: 2px;
+        margin-top: 0;
+        color: var(--accent);
         &:first-child {
-          .inner {
-            strong {
-              &.big {
-                padding-left: 7px;
-                font-size: 38px;
-                line-height: 35px;
-                position: relative;
-                top: 4px;
-              }
-            }
+          &:before {
+            content: "";
+            width: 45px;
+            height: 45px;
+            background-image: url(#{$imagesPath}/landing-images/fIcon.svg);
+            display: block;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
           }
         }
         &:nth-child(2) {
-          .inner {
-            span {
-              font-size: 23px;
-              position: relative;
-              top: 4px;
-            }
-            strong {
-              &.big {
-                font-size: 38px;
-                line-height: 35px;
-              }
-            }
+          &:before {
+            content: "";
+            width: 45px;
+            height: 45px;
+            background-image: url(#{$imagesPath}/landing-images/Icon2.svg);
+            display: block;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
           }
         }
         &:nth-child(3) {
-          .inner {
-            .left-block,
-            .right-block {
-              height: 70px;
-              display: inline-block;
-            }
-            .right-block {
-              float: none;
-              position: relative;
-              top: 0;
-              line-height: 70px;
-              span {
-                font-size: 70px;
-              }
-            }
-            span {
-              font-size: 23px;
-              position: relative;
-              &.extra-padding {
-                padding-left: 21px;
-              }
-            }
-            strong {
-              &.big {
-                font-size: 38px;
-                line-height: 35px;
-              }
-            }
+          &:before {
+            content: "";
+            width: 45px;
+            height: 45px;
+            background-image: url(#{$imagesPath}/landing-images/Icon3.svg);
+            display: block;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
           }
         }
         &:last-child {
-          .inner {
-            border-right: none;
-            .light {
-              font-size: 28px;
-            }
+          &:before {
+            content: "";
+            width: 45px;
+            height: 45px;
+            background-image: url(#{$imagesPath}/landing-images/Icon4.svg);
+            display: block;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
           }
         }
       }
@@ -4436,71 +4454,127 @@ div.landing-page {
 }
 
 .landing-bottom-holder {
-  max-width: 1360px;
+  max-width: 1920px;
   margin: 0 auto;
+  margin-top: 220px;
+  padding: 0 30px;
+  overflow: hidden;
 }
 .landing-bottom {
-  padding: 40px 0 50px;
-  display: inline-block;
-  width: 100%;
-  background: var(--mainBg);
-  color: var(--mainBgCol);
+  display: flex;
+  .grid.full {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
   .single-block {
-    width: calc(33% - 35px);
-    float: left;
+    width: auto;
     padding: 0 10px;
+    display: flex;
+    flex-flow: column;
+    flex-direction: column-reverse;
+    padding-top: 150px;
+    padding-bottom: 100px;
     .title {
-      text-align: center;
-      margin-bottom: 40px;
-      font-size: 33px;
-      font-weight: bold;
-      line-height: 1;
-      display: inline-block;
-      width: 100%;
+      background: var(--accent-bg);
+      color: var(--accent-txt);
       text-transform: uppercase;
+      text-align: center;
+      width: auto;
+      flex-grow: 0;
+      padding: 10px;
+      border-radius: 12px;
+      flex-shrink: 1;
+      flex-grow: 0;
+      width: max-content;
+      margin: 11px auto;
+      max-width: 383px;
+      width: 100%;
       img {
-        display: inline-block;
-        height: 48px;
-        width: auto;
-        margin-right: 10px;
-        transform: translateY(11px);
+        display: none;
       }
     }
     .image-holder {
-      border-radius: 12px;
-      overflow: hidden;
       position: relative;
-      .strip {
-        position: absolute;
-        bottom: 30px;
-        left: 0;
-        width: calc(100% - 20px);
-        height: 60px;
-        line-height: 60px;
-        padding-left: 20px;
-        color: $white;
-        font-size: 20px;
-        font-weight: 300;
-        background-size: 100% 60px;
-        background-image: url(#{$imagesPath}/landing-images/landing-strip1.png);
+      width: 400px;
+      height: 283px;
+      border: 1px solid var(--accent);
+      border-radius: 40px;
+      background-image: url(//nextra.nextra.bet/nextra/images/landing-images/playersBg.png);
+      margin: 0 auto;
+      transition:.3s;
+      &:hover {
+        box-shadow: 0 0 40px 0px var(--accent);
+        transform: scale(1.03);
       }
+      .strip,
       img {
-        width: 100%;
+        display: none;
       }
-    }
-    &:nth-child(2) {
-      margin: 0 27px;
-      .image-holder {
-        .strip {
-          background-image: url(#{$imagesPath}/landing-images/landing-strip2.png);
+      &:before {
+        content: "";
+        width: 170%;
+        height: 150%;
+        display: block;
+        position: absolute;
+        background-image: url(//nextra.nextra.bet/nextra/images/landing-images/players.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: -102px -60px;
+        z-index: 8;
+        left: -20px;
+        top: -42px;
+        @media (max-width: 1680px) {
+          background-position: -61px -19px;
+          z-index: 8;
+          left: -20px;
+          top: -42px;
+          background-size: 83%;
         }
       }
     }
-    &:last-child {
-      float: right;
+    &:nth-child(2) {
       .image-holder {
-        .strip {
-          background-image: url(#{$imagesPath}/landing-images/landing-strip3.png);
+        background-image: url(//nextra.nextra.bet/nextra/images/landing-images/girlBg.png);
+        &:before {
+          content: "";
+          width: 170%;
+          height: 150%;
+          display: block;
+          position: absolute;
+          background-image: url(//nextra.nextra.bet/nextra/images/landing-images/girl.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: 58px 0px;
+          z-index: 8;
+          left: -57px;
+          top: -88px;
+          background-size: 398px;
+        }
+      }
+    }
+    &:nth-child(3) {
+      .image-holder {
+        background-image: url(//nextra.nextra.bet/nextra/images/landing-images/horseBg.png);
+        &:before {
+          content: "";
+          width: 170%;
+          height: 150%;
+          display: block;
+          position: absolute;
+          background-image: url(//nextra.nextra.bet/nextra/images/landing-images/horse.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: 58px 0px;
+          z-index: 8;
+          left: 30px;
+          top: -32px;
+          background-size: 270px;
         }
       }
     }
@@ -4508,13 +4582,18 @@ div.landing-page {
 }
 
 footer {
-  padding: 50px 0 90px;
-  display: inline-block;
   width: 100%;
   position: relative;
-  border-top: 6px solid var(--accent);
   background: var(--bg1);
   color: var(--col1);
+  display: flex;
+  flex-flow: column;
+  .grid {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+  }
   .grid.full-width {
     max-width: 1360px;
   }
@@ -4571,18 +4650,14 @@ footer {
   }
 
   .payment {
-    float: right;
-    width: auto;
-    margin-top: 0;
-    margin-left: 30px;
-    max-width: calc(100% - 850px);
+    height: 60px;
   }
   .footer-copyright {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 11px;
+    font-size: 12;
+    text-align: center;
+    padding: 6px;
+    background: var(--mainBg);
+    color: var(--mainBgCol);
   }
   &.center-footer {
     display: none;

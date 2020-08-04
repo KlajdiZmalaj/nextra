@@ -1,29 +1,34 @@
 html:root {
-  --accent: #f15a24;
-  --accent-bg: #f15a24;
+  --accent: #95cd3b;
+  --accent-bg: #95cd3b;
   --accent-txt: #000;
-  --primary-bg: #1c1c1c;
+  --primary-bg: #000;
   --primary-txt: #fff;
-  --secondary-bg: #2e2e2e;
+  --secondary-bg: #212931;
   --secondary-txt: #fff;
-  --mainBg: #282828;
+  --mainBg: #212931;
   --mainBgCol: #fff;
-  --bg1: #323232;
+  --bg1: #29333b;
   --col1: #fff;
-  --teableHeadersBg: #000;
+  --teableHeadersBg: #384351;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #636363;
+  --teableSubHeadersBg: #14191d;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #535353;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
+  --casinoGradient1: linear-gradient(
+    to right,
+    #95cd3b00 3%,
+    #95cd3b 60%,
+    #95cd3b00 99%
+  );
+  --casinoGradient1-txt: #000;
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
 }
 
 body {
-  background-size: 1890px !important;
+  background-size: 2038px !important;
 }
 
 button,
