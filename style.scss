@@ -4344,7 +4344,7 @@ div.landing-page {
       height: 220px;
       width: 100%;
       display: flex;
-      transform: translateY(100%);
+      transform: translateY(97%);
       > .grid.full {
         display: flex;
         max-width: 1920px;
@@ -4375,6 +4375,14 @@ div.landing-page {
         margin: 2px;
         margin-top: 0;
         color: var(--accent);
+        border-radius: 10px;
+        border-right: 3px solid var(--mainBg);
+        border-left: 3px solid var(--mainBg);
+        transition: 0.3s;
+        &:hover {
+          border-right: 3px solid var(--accent);
+          border-left: 3px solid var(--accent);
+        }
         &:first-child {
           &:before {
             content: "";
@@ -4385,6 +4393,7 @@ div.landing-page {
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
+            margin-bottom: 10px;
           }
         }
         &:nth-child(2) {
@@ -4397,6 +4406,7 @@ div.landing-page {
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
+            margin-bottom: 10px;
           }
         }
         &:nth-child(3) {
@@ -4409,6 +4419,7 @@ div.landing-page {
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
+            margin-bottom: 10px;
           }
         }
         &:last-child {
@@ -4421,6 +4432,7 @@ div.landing-page {
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
+            margin-bottom: 10px;
           }
         }
       }

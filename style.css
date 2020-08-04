@@ -5154,8 +5154,8 @@ div.landing-page .banner-content .bottom-text-holder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+  -webkit-transform: translateY(97%);
+          transform: translateY(97%);
 }
 
 div.landing-page .banner-content .bottom-text-holder > .grid.full {
@@ -5204,6 +5204,16 @@ div.landing-page .banner-content .bottom-text-holder .quarter {
   margin: 2px;
   margin-top: 0;
   color: var(--accent);
+  border-radius: 10px;
+  border-right: 3px solid var(--mainBg);
+  border-left: 3px solid var(--mainBg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+div.landing-page .banner-content .bottom-text-holder .quarter:hover {
+  border-right: 3px solid var(--accent);
+  border-left: 3px solid var(--accent);
 }
 
 div.landing-page .banner-content .bottom-text-holder .quarter:first-child:before {
@@ -5215,6 +5225,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:first-child:before
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  margin-bottom: 10px;
 }
 
 div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(2):before {
@@ -5226,6 +5237,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(2):befor
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  margin-bottom: 10px;
 }
 
 div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(3):before {
@@ -5237,6 +5249,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(3):befor
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  margin-bottom: 10px;
 }
 
 div.landing-page .banner-content .bottom-text-holder .quarter:last-child:before {
@@ -5248,6 +5261,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:last-child:before 
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  margin-bottom: 10px;
 }
 
 div.landing-page .banner-content .grid a {
