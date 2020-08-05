@@ -22,9 +22,9 @@ html:root {
   --backDrops: #000000cf;
 }
 
-$skin: "nextra";
-$cdnPath: "//#{$skin}.nextra.bet/#{$skin}";
-$imagesPath: "//#{$skin}.nextra.bet/#{$skin}/images";
+$skin: "bsport10";
+$cdnPath: "//nextra.nextra.bet/#{$skin}";
+$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg";
 $bodyBg: "https://gradm-api.pcluster.info/api/skin/45/image/98d3fcf49dcebf55ddfb3ebaab7fe447.jpeg";

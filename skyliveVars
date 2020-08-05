@@ -23,8 +23,8 @@ html:root {
 }
 
 $skin: "skylive";
-$cdnPath: "//#{$skin}.nextra.bet/#{$skin}";
-$imagesPath: "//#{$skin}.nextra.bet/#{$skin}/images";
+$cdnPath: "//nextra.nextra.bet/#{$skin}";
+$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/skylive/img/logo/newlogo.svg";
 $bodyBg: "https://gradm-api.pcluster.info/api/skin/62/image/b52d9bbab8774707bdfac5505e2ff196.jpeg";
