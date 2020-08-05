@@ -1,25 +1,25 @@
 html:root {
-    --accent: #b30013;
-    --accent-bg: #b30013;
-    --accent-txt: #000;
-    --primary-bg: #ffffff;
-    --primary-txt: #707070;
-    --secondary-bg: #111727;
-    --secondary-txt: #fff;
-    --mainBg: #2e3e49;
-    --mainBgCol: #fff;
-    --bg1: #24323b;
-    --col1: #fff;
-    --teableHeadersBg: #b30013;
-    --teableHeadersCol: #000000;
-      --teableSubHeadersBg: #3f5463;
-    --teableSubHeadersCol: #ffffff;
-    --tableBorders: #161d2f;
-    --casinoGradient1: #000000;
-    --casinoGradient1-txt: #fff;
-    --casinoGradient2: #b30013;
-    --casinoGradient2-txt: #000;
-    --backDrops: #000000cf;
+  --accent: #b30013;
+  --accent-bg: #b30013;
+  --accent-txt: #fff;
+  --primary-bg: #ffffff;
+  --primary-txt: #707070;
+  --secondary-bg: #111727;
+  --secondary-txt: #fff;
+  --mainBg: #2e3e49;
+  --mainBgCol: #fff;
+  --bg1: #24323b;
+  --col1: #fff;
+  --teableHeadersBg: #b30013;
+  --teableHeadersCol: #fff;
+  --teableSubHeadersBg: #3f5463;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #161d2f;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #b30013;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
 }
 
 $skin: "skylive";
@@ -28,9 +28,9 @@ $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/skylive/img/logo/newlogo.svg";
 $bodyBg: "https://gradm-api.pcluster.info/api/skin/62/image/b52d9bbab8774707bdfac5505e2ff196.jpeg";
-$bodyCol: #ebebeb;
+$bodyCol: #10151b;
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 0;
+$invet: 1;
 
 $secondary: #005293;
 $secondaryCol: #fff;
@@ -47,12 +47,9 @@ $sb-2: #0a96f0;
 
 //icesport styles
 
-//black filter li logos
-#favouriteTournaments li:before {
-  filter: brightness(0.1);
-}
-
 body {
   background-attachment: initial !important;
-  background-color: #10151b!important;
+}
+.casino-section {
+  background-color: #1b0142 !important;
 }
