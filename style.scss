@@ -16092,6 +16092,7 @@ select {
   color: var(--mainBgCol);
   background-image: url(#{$imagesPath}/casino/casinoBg.jpeg);
   background-repeat: no-repeat;
+  background-position: top center;
   .casino-container {
     // width: 100%;
     width: 1360px;

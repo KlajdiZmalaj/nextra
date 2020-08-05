@@ -1,25 +1,35 @@
 html:root {
-  --accent: #ff8b00;
-  --accent-bg: #ff8b00;
-  --accent-txt: #000;
-  --primary-bg: #ffffff;
-  --primary-txt: #707070;
-  --secondary-bg: #000000;
-  --secondary-txt: #fff;
-  --mainBg: #1f1e1d;
-  --mainBgCol: #fff;
-  --bg1: #131211;
-  --col1: #fff;
-  --teableHeadersBg: linear-gradient(180deg, #f8c624, #ff8e01);
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #545454;
-  --teableSubHeadersCol: #ffffff;
-  --tableBorders: #2f2e2c;
+  --accent: #0a96f0;
+  --accent-bg: #0a96f0;
+  --accent-txt: #d6faff;
+  --primary-bg: #d9d9d9;
+  --primary-txt: #000000;
+  --secondary-bg: #ffffff;
+  --secondary-txt: #000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #e7e7e7;
+  --col1: #000;
+  --teableHeadersBg: #0a96f0;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #cccccc;
+  --teableSubHeadersCol: #000000;
+  --tableBorders: #a3a3a3;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #ff8b00;
+  --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+}
+
+.header .top-header .top-header-content .logo-holder a:before {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+#favouriteTournaments li:before {
+  -webkit-filter: brightness(0.1);
+          filter: brightness(0.1);
 }
 
 button,
@@ -3805,7 +3815,7 @@ div[data-source="upcoming"] .sport_odds_main {
   display: block;
   width: 200px;
   height: 53px;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MjEuMzggODIuOTYiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZmZmO308L3N0eWxlPjwvZGVmcz48dGl0bGU+bWlzdGVyYmV0LWxvZ28xPC90aXRsZT48ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQ0NC44MSw4MS44VjEuMTZoMjQuMDdhMjAuMTMsMjAuMTMsMCwwLDEsMTQuNjksNS42NywxOS4wNiwxOS4wNiwwLDAsMSw1LjksMTQuMzRjMCw4LTQuMDUsMTQuNDctMTEsMTYuNzgsMTAuMTgsMS4zOSwxNi43OCwxMC4wNywxNi43OCwyMC44M2EyMS45MiwyMS45MiwwLDAsMS02LjcxLDE2LjQzLDIyLjk0LDIyLjk0LDAsMCwxLTE2LjY2LDYuNTlabTYtNDUuOTNoMTcuNTljOC42NywwLDE1LTYuMTMsMTUtMTQuNDZzLTYuMjUtMTQuNy0xNC45My0xNC43aC0xNy43Wm0wLDQwLjM4aDIwLjcxYTE3LjIsMTcuMiwwLDAsMCwxMi42MS01LDE3LDE3LDAsMCwwLDUuMDktMTIuNSwxNi41NSwxNi41NSwwLDAsMC01LjA5LTEyLjM4Yy0zLjM1LTMuMzYtNy43NS01LTEzLjA3LTVINDUwLjgzWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTUxMi44NSw4MS44VjEuMTZoNDRWNi43MUg1MTguODZWMzYuMzNoMzUuNzZWNDJINTE4Ljg2Vjc2LjI1aDM4Ljc2VjgxLjhaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNTkxLjg3LDgxLjhWNi43MUg1NjguNVYxLjE2aDUyLjg4VjYuNzFINTk3Ljg5VjgxLjhaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTIwLDgxLjhWMS4xNmgyMlY4MS44WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE2My42Niw1My45MmEyNC44NiwyNC44NiwwLDAsMCwyMC4xMyw5Ljk1YzcuMTcsMCwxMC43Ni0yLDEwLjc2LTUuNzksMC0yLjE5LTEuMzktMy43LTQuNTEtNS0xLjUxLS41OC0zLjEzLTEuMTYtNC43NS0xLjYyLTMuMTItLjkzLTguOTEtMi42Ni0xMi43My00LjA1LTEyLjM4LTQuNjMtMTguNjItMTIuMzgtMTguNjItMjMuMjYsMC03LjYzLDIuNzctMTMuNTQsOC40NC0xNy44MlMxNzQuODgsMCwxODIuODYsMHEyMCwwLDI5Ljg2LDEyLjg0TDE5OC4yNSwyNS4yMmMtMy41OC00LjI4LTguNDQtNi4zNi0xNC41OC02LjM2LTUuNjcsMC04Ljc5LDIuMDgtOC43OSw1LDAsMi4zMi44MSwzLjU5LDMuMjQsNC42M2EyMy44NywyMy44NywwLDAsMCw0LDEuMzksMTMxLjQ3LDEzMS40NywwLDAsMSwxNC4yMyw0LjI4QzIxMC4yOSwzOS4xMSwyMTYsNDYuNCwyMTYsNTcuMzksMjE2LDczLDIwNS4xOSw4MywxODMuNzksODNjLTksMC0xNi40My0xLjYyLTIyLjMzLTVhMzguODYsMzguODYsMCwwLDEtMTMuMzEtMTIuMTVaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjM5LDgxLjhWMjEuMDZIMjE3LjIzVjEuMTZoNjV2MTkuOUgyNjFWODEuOFoiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0yODkuNDMsODEuOFYxLjE2SDM0OC45VjIwLjk0SDMxMS40MVYzMi4wNWgzNC45NVY1MC4xSDMxMS40MVY2Mi4zN2gzOC40MlY4MS44WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTM2MS4wNSw4MS44VjEuMTZoMzYuNjhhMjguNDcsMjguNDcsMCwwLDEsMjAuNDgsOC4xLDI2LjA2LDI2LjA2LDAsMCwxLDguNDQsMTkuNjdjMCwxMC4yOS01LjQzLDE5LjItMTMuNzYsMjNMNDMzLDgxLjhINDA3Ljc5TDM5MS4zNiw1Ni43SDM4M1Y4MS44Wm0yMi00Mi42OUgzOTUuM2M1LjksMCw5LjQ5LTMuNDcsOS40OS05LjQ5LDAtNS4wOS0zLjM2LTguNTYtNy42NC04LjU2SDM4M1oiLz48cG9seWdvbiBjbGFzcz0iY2xzLTEiIHBvaW50cz0iMCA4MS45MSAxMi42NyAwLjkxIDQzLjk4IDAuOTEgNTUgNjguMjUgNTUgODEuOTEgMzMgODEuOTEgMjguMjUgNTIuNjIgMjQgODEuOTEgMCA4MS45MSIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSIxMTAgODEuOTEgOTcuMzMgMC45MSA2Ni4wMiAwLjkxIDU1IDY4LjI1IDU1IDgxLjkxIDc3IDgxLjkxIDgxLjc1IDUyLjYyIDg2IDgxLjkxIDExMCA4MS45MSIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSI1NSAwLjkxIDYxLjE4IDAuOTEgNTguMDkgMy41OSA1NSA2LjI2IDUxLjkxIDMuNTkgNDguODIgMC45MSA1NSAwLjkxIi8+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjU1IDIyLjUgNTUgMzkuNzQgNTMuMjEgMzEuMTIgNTEuNDIgMjIuNSA1My4yMSAxMy44OCA1NSA1LjI2IDU1IDIyLjUiLz48cG9seWdvbiBjbGFzcz0iY2xzLTEiIHBvaW50cz0iNTUgMjIuNSA1NSAzOS43NCA1Ni43OSAzMS4xMiA1OC41OCAyMi41IDU2Ljc5IDEzLjg4IDU1IDUuMjYgNTUgMjIuNSIvPjwvZz48L2c+PC9zdmc+");
+  background-image: url("http://static.pcluster.info/skins/icesport/img/logo/logo.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
