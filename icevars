@@ -22,13 +22,13 @@ html:root {
   --backDrops: #000000cf;
 }
 
-$skin: "nextra";
+$skin: "icesport";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/icesport/img/logo/logo.svg";
 $bodyBg: "https://gradm-api.pcluster.info/api/skin/31/image/856aa46a0d619e56f10bc1558c8b3f77.jpeg";
-$bodyCol: #000;
+$bodyCol: #e5e5e5;
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 
