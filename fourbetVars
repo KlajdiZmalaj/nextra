@@ -65,3 +65,7 @@ html body {
   background: #0e1428 !important;
   color: var(--accent-txt)!important;
 }
+
+footer {
+    background: var(--accent-bg)!important;
+}
