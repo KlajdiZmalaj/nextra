@@ -1,50 +1,25 @@
 html:root {
-  --accent: #075424;
-  --accent-bg: #075424;
-  --accent-txt: #fff;
-  --primary-bg: #d9d9d9;
-  --primary-txt: #000000;
-  --secondary-bg: #ffffff;
-  --secondary-txt: #000;
-  --mainBg: #ffffff;
-  --mainBgCol: #000;
-  --bg1: #e7e7e7;
-  --col1: #000;
-  --teableHeadersBg: #075424;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #cccccc;
-  --teableSubHeadersCol: #000000;
-  --tableBorders: #a3a3a3;
+  --accent: #fedf00;
+  --accent-bg: #fedf00;
+  --accent-txt: #26755b;
+  --primary-bg: #444444;
+  --primary-txt: #fff;
+  --secondary-bg: #161616;
+  --secondary-txt: #fff;
+  --mainBg: #333333;
+  --mainBgCol: #fff;
+  --bg1: #444444;
+  --col1: #fff;
+  --teableHeadersBg: #26755b;
+  --teableHeadersCol: #fedf00;
+  --teableSubHeadersBg: #666666;
+  --teableSubHeadersCol: #fedf00;
+  --tableBorders: #666666;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-}
-
-#favouriteTournaments li:before {
-  -webkit-filter: brightness(0.1);
-          filter: brightness(0.1);
-}
-
-html body {
-  background-position-y: 80px !important;
-  background-attachment: initial;
-}
-
-.header .top-header {
-  background: var(--accent-bg) !important;
-  color: var(--accent-txt) !important;
-  border-bottom: 4px solid #var --casinoGradient2 !important;
-}
-
-.header .top-bar {
-  background: #0e1428 !important;
-  color: var(--accent-txt) !important;
-}
-
-footer {
-  background: var(--accent-bg) !important;
 }
 
 button,
@@ -3830,7 +3805,7 @@ div[data-source="upcoming"] .sport_odds_main {
   display: block;
   width: 200px;
   height: 53px;
-  background-image: url("http://static.pcluster.info/skins/fourbet/img/logo/newlogo.svg");
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3ODcuNzEgMTY0LjIxIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6IzMwYTU3Yjt9LmNscy0ye2ZpbGw6I2ZlZGYwMDt9LmNscy0ze2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmxvZ288L3RpdGxlPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDE3Ljc1LDgyLjJhNTEsNTEsMCwwLDAtODEuNTctNDAuNzlWMTkuNjRBMTguNTIsMTguNTIsMCwwLDAsMzE3LjY2LDEuMTJoLTEuODhWODMuOGgwYTUxLDUxLDAsMCwwLDEwMS45My0xLjZabS0yMC4zOSwwYTMwLjU5LDMwLjU5LDAsMSwxLTMwLjU5LTMwLjU5QTMwLjYsMzAuNiwwLDAsMSwzOTcuMzYsODIuMloiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xNDMuODYsMzEuMjJhNTEsNTEsMCwxLDAsNTEsNTFBNTEsNTEsMCwwLDAsMTQzLjg2LDMxLjIyWm0wLDgxLjU4YTMwLjYsMzAuNiwwLDEsMSwzMC41OS0zMC42QTMwLjYsMzAuNiwwLDAsMSwxNDMuODYsMTEyLjhaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMCwzMS4yMkEyMC4zOSwyMC4zOSwwLDAsMCwyMC4zOSw1MS42MUg0MC45M3Y2My4wNmExOC41MiwxOC41MiwwLDAsMCwxOC41MiwxOC41MmgxLjg3VjUxLjYxSDgxLjg1YTIwLjM5LDIwLjM5LDAsMCwwLDIwLjQtMjAuMzlaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNTE5LjI4LDMxLjIyYTIwLjM5LDIwLjM5LDAsMCwwLDIwLjM5LDIwLjM5SDU2MC4ydjYzLjA2YTE4LjUyLDE4LjUyLDAsMCwwLDE4LjUyLDE4LjUyaDEuODhWNTEuNjFoMjAuNTNhMjAuMzksMjAuMzksMCwwLDAsMjAuMzktMjAuMzlaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNTE5LjU0LDU0LjA5YTUwLjg3LDUwLjg3LDAsMCwwLTE0LjQyLTE0LjQyQTUxLDUxLDAsMCwwLDQ0MSwxMTguMjYsNTAuOTQsNTAuOTQsMCwwLDAsNTI3LjQzLDc1bC0yOC43OSwyOC44YTMwLjUyLDMwLjUyLDAsMCwxLTM0LjczLDUuODhsNDAuNjEtNDAuNjFabS02NC4xNyw2LjQ4YTMwLjUsMzAuNSwwLDAsMSwzNC43My01Ljg4TDQ0OS40OSw5NS4zQTMwLjUsMzAuNSwwLDAsMSw0NTUuMzcsNjAuNTdaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjU1LjMyLDMxLjIyYTUxLDUxLDAsMCwwLTUwLjk1LDQ5LjM5aDB2ODIuNjhoMS44N2ExOC41MiwxOC41MiwwLDAsMCwxOC41Mi0xOC41MlYxMjNhNTEsNTEsMCwxLDAsMzAuNi05MS43N1ptMCw4MS41OGEzMC42LDMwLjYsMCwxLDEsMzAuNTktMzAuNkEzMC42LDMwLjYsMCwwLDEsMjU1LjMyLDExMi44WiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTczOC4zNywxMjhhODAuMDYsODAuMDYsMCwwLDEtMzAuNTMsMTkuNzcsODEuODYsODEuODYsMCwwLDEtMzEuMDYtMjAuNTgsMzIuMjEsMzIuMjEsMCwwLDEtMTUuMjEsNi41OGMyMC4yMSwyMy40MSw0My44OCwyOS44NSw0NC4yOSwzMGwxLjk1LjQ5LDEuOTQtLjQ5Yy40Mi0uMTEsMjMuOTQtNi41MSw0NC4xMi0yOS43NEEzNS4xNSwzNS4xNSwwLDAsMSw3MzguMzcsMTI4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTY2NC41Nyw4MC42M2gtLjFsMjAuMTgtMjYuOEg2MzMuMjJWNjloMjQuM0w2MzguODYsOTQuMDhhNTAuNjgsNTAuNjgsMCwwLDEsMTMuNTYtMS40MUM2NjIsOTIuNjcsNjY3LjUsOTcsNjY3LjUsMTA0cy01LjY0LDExLjM5LTEzLjM1LDExLjM5Yy02LjgzLDAtMTEuNzEtMi42LTE0LjY0LTcuOTJsLTEzLjEzLDguMTRjNS4xLDkuMTEsMTUuNTIsMTUsMjguMSwxNSwxLjQ0LDAsMi44Mi0uMDksNC4xNy0uMjJhMjkuMzUsMjkuMzUsMCwwLDAsMTUuNTctNS45MWMuNjQtLjUsMS4yNi0xLDEuODUtMS41N2EyNS40NywyNS40NywwLDAsMCw4LjE0LTE5LjMxQTIzLDIzLDAsMCwwLDY3OC41Niw4OCwyMC4yOSwyMC4yOSwwLDAsMCw2NjQuNTcsODAuNjNaIi8+PHBhdGggY2xhc3M9ImNscy0zIiBkPSJNNzc5Ljc5LDg1LjgzYTI1LjkyLDI1LjkyLDAsMCwwLTE4Ljg3LTcuNTksMTcuNzEsMTcuNzEsMCwwLDAtNS43Ni43NmwxLjYzLTEwSDc4Mi41VjUzLjgzSDc0NC40MmwtMywxOC4xNUEzMy4zNSwzMy4zNSwwLDAsMSw3NTAsOTIuOTFhNTkuODksNTkuODksMCwwLDEsNi4yOC0uMzVDNzY0LjkzLDkyLjU2LDc3MSw5Ni45LDc3MSwxMDRjMCw2LjUxLTUuNTQsMTEuMzktMTIuMTYsMTEuMzlhMTUuMTUsMTUuMTUsMCwwLDEtMTEuNjItNS4xNywzNy41NywzNy41NywwLDAsMS05LDEyLjc4bC0uMDcuMDZhMzEsMzEsMCwwLDAsMTguNzYsNy40Yy42NSwwLDEuMjkuMTIsMiwuMTJhMjkuMDYsMjkuMDYsMCwwLDAsMjAuNC03LjgxQTI0LjcxLDI0LjcxLDAsMCwwLDc4Ny43MSwxMDQsMjMuOTQsMjMuOTQsMCwwLDAsNzc5Ljc5LDg1LjgzWiIvPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTc0Ni4yMiw5My40MWEzMCwzMCwwLDAsMC01LjY1LTE2LjQ5QTMxLjIzLDMxLjIzLDAsMCwwLDczNiw3MmMtNi43NC02LjE5LTEzLjg4LTkuMjEtMjEuNDUtOS4yMWExMS4xOSwxMS4xOSwwLDAsMC0zLjcxLjQxbDE5LjgtMjkuNDJINzA3LjRMNjg4LjI5LDYyLjg4Yy0zLjU4LDUuMzctNi4xOSw5LjQ5LTcuNywxMi4xYTY3LjY4LDY3LjY4LDAsMCwwLTQuNTQsOS43NywzMC4zLDMwLjMsMCwwLDAtMi4yLDExLjE0LDMyLjU2LDMyLjU2LDAsMCwwLDEwLjU5LDI0LjMzLDM1LjM5LDM1LjM5LDAsMCwwLDI1LjQ0LDEwYzEwLDAsMTguNTgtMy4yNiwyNS41Ny05LjkybC4xNC0uMTJhMzIuOTUsMzIuOTUsMCwwLDAsMTAuNzItMjQuNjFDNzQ2LjMxLDk0Ljg2LDc0Ni4yNiw5NC4xNCw3NDYuMjIsOTMuNDFabS0yNS42MiwxMy4yYTE0LjYxLDE0LjYxLDAsMCwxLTEwLjcyLDQuNCwxNS4wNiwxNS4wNiwwLDAsMSwwLTMwLjExLDE0LjY2LDE0LjY2LDAsMCwxLDEwLjcyLDQuNTMsMTQuMDcsMTQuMDcsMCwwLDEsNC41NCwxMC40NkExNC42NCwxNC42NCwwLDAsMSw3MjAuNiwxMDYuNjFaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNNjQ5LDQ2LjY4VjM4LjgybDU4Ljc4LTIyLjE0LDU4Ljc4LDIyLjE0djcuODZjMCwuNjEsMCwxLjE4LDAsMS43OWgxNS44NGMwLS42MSwwLTEuMTgsMC0xLjc5VjI3LjM3TDcwNy44MSwwLDYzMy4xOSwyNy4zN1Y0Ni42OGMwLC42MSwwLDEuMTgsMCwxLjc5aDE1Ljg0QzY0OS4wNiw0Ny44Niw2NDksNDcuMjksNjQ5LDQ2LjY4WiIvPjwvZz48L2c+PC9zdmc+");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
