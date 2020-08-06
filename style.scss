@@ -638,11 +638,11 @@ input[type="submit"] {
           &:after {
             display: none;
             content: "";
-            border-bottom: 9px solid darken($primary, 10%);
+            border-bottom: 9px solid var(--bg1);
             border-left: 9px solid transparent;
             border-right: 9px solid transparent;
             position: absolute;
-            top: calc(100% + 1px);
+            top: 100%;
             right: 8px;
             z-index: 4;
           }
@@ -685,12 +685,11 @@ input[type="submit"] {
             top: calc(100% + 8px);
             right: 0;
             width: 110px;
-            background: darken($primary, 15%);
-            border: 1px solid $secondaryDark;
+            background: var(--mainBg);
+            color: var(--mainBgCol);
             z-index: 3;
             .option-block {
               font-size: 11px;
-              color: $white;
               line-height: 25px;
               .title {
                 padding-top: 8px;
@@ -700,7 +699,8 @@ input[type="submit"] {
                 pointer-events: none;
               }
               .option {
-                background: darken($primary, 10%);
+                background: var(--bg1);
+                color: var(--col1);
                 line-height: 25px;
                 padding-left: 25px;
                 position: relative;
@@ -731,9 +731,7 @@ input[type="submit"] {
                   background: lighten($secondaryDark, 15%);
                   border-radius: 50%;
                 }
-                &:hover {
-                  background: darken($primary, 5%);
-                }
+
                 &.selected {
                   &:after {
                     display: inline-block;
@@ -1475,7 +1473,7 @@ input[type="submit"] {
           top: 4px;
           font-size: 11px;
           font-weight: 500;
-          color: $white;
+          color: #fff;
           background: #b60a2e;
           line-height: 1.2;
           padding: 2px 5px;
