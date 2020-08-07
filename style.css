@@ -31,8 +31,8 @@ body {
 }
 
 footer .footer-logo a:before {
-  -webkit-filter: grayscale(1) invert(0.7);
-          filter: grayscale(1) invert(0.7);
+  -webkit-filter: grayscale(1) invert(0.7) !important;
+          filter: grayscale(1) invert(0.7) !important;
 }
 
 @media (max-width: 1008px) {
