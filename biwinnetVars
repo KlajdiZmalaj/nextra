@@ -38,7 +38,7 @@ $secondaryCol: #fff;
 $black: #000000;
 $secondaryDark: #d1a813;
 $secondaryDarkCol: #222;
-$primary: #333949;
+$primary: #b8bfd2;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
