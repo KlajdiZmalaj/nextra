@@ -749,7 +749,7 @@ input[type="submit"] {
           &:after {
             display: none;
             content: "";
-            border-bottom: 9px solid darken($primary, 15%);
+            border-bottom: 9px solid var(--mainBg);
             border-left: 9px solid transparent;
             border-right: 9px solid transparent;
             position: absolute;
@@ -760,7 +760,7 @@ input[type="submit"] {
           &:before {
             display: none;
             content: "";
-            border-bottom: 9px solid $secondaryDark;
+            border-bottom: 9px solid var(--mainBg);
             border-left: 9px solid transparent;
             border-right: 9px solid transparent;
             position: absolute;
