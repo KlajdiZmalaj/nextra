@@ -125,3 +125,14 @@
 .casino-section {
   background-position: top center !important;
 }
+
+.header .top-bar .top-bar-content .login-bar .logout-button,
+.header .top-bar .top-bar-content .login-bar .shop-button {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.header .top-bar .top-bar-content .login-bar .logout-button a,
+.header .top-bar .top-bar-content .login-bar .shop-button a {
+  height: auto !important;
+}
