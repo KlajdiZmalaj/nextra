@@ -136,3 +136,18 @@
 .header .top-bar .top-bar-content .login-bar .shop-button a {
   height: auto !important;
 }
+.forgot-password-page
+  .forgot-password-holder
+  .forgot-password-content
+  .form-holder
+  input[type="submit"] {
+  background: #288835 !important;
+  color: #fff !important;
+  border: 0 !important;
+}
+.forgot-password-content {
+  padding: 45px;
+}
+.registration-page.agent-registration .agent-buttons .single-button {
+  height: auto !important;
+}
