@@ -10,7 +10,7 @@ $bodyCol: #000;
 $invet: 0;
 
 html:root {
---accent: #fec900;
+    --accent: #fec900;
     --accent-bg: #fec900;
     --accent-txt: #000;
     --primary-bg: #ffffff;
@@ -38,7 +38,7 @@ $secondaryCol: #fff;
 $black: #000000;
 $secondaryDark: #d1a813;
 $secondaryDarkCol: #222;
-$primary: #333949;
+$primary: #6d6d6d;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
