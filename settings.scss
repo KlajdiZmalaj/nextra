@@ -3869,12 +3869,12 @@ div[data-source="upcoming"] .sport_odds_main {
   padding-top: 0;
   svg {
     width: 100%;
-    height: 100%;
+    height: 24px;
     display: block;
     background: var(--accent-bg);
     color: var(--accent-txt);
     fill: var(--accent-txt);
-    padding: 8px;
+    padding: 0px;
     box-sizing: border-box;
   }
 }
@@ -3900,6 +3900,11 @@ div[data-source="upcoming"] .sport_odds_main {
   display: inline-block;
   float: left;
   width: 100%;
+  .main_container_tile {
+    p {
+      padding: 10px 0;
+    }
+  }
 }
 
 .main_container {
