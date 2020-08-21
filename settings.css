@@ -1,33 +1,37 @@
 html:root {
-  --accent: #b30013;
-  --accent-bg: #b30013;
-  --accent-txt: #fff;
+  --accent: #f7c828;
+  --accent-bg: #f7c828;
+  --accent-txt: #000;
   --primary-bg: #ffffff;
   --primary-txt: #707070;
-  --secondary-bg: #111727;
+  --secondary-bg: #000000;
   --secondary-txt: #fff;
-  --mainBg: #2e3e49;
+  --mainBg: #101010;
   --mainBgCol: #fff;
-  --bg1: #24323b;
+  --bg1: #000;
   --col1: #fff;
-  --teableHeadersBg: #b30013;
-  --teableHeadersCol: #fff;
-  --teableSubHeadersBg: #3f5463;
+  --teableHeadersBg: #f7c828;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: linear-gradient(180deg, black 64%, #6a5408 100%);
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #161d2f;
+  --tableBorders: #292929;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #b30013;
+  --casinoGradient2: #f7c828;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
 }
 
-body {
-  background-attachment: initial !important;
+.side-bar
+.single-block
+.block-content.sports-menu
+.sports-menu-bottom
+#sports-menu-slider.ui-widget.ui-widget-content.ui-slider-horizontal {
+  background: var(--accent-bg);
 }
 
-.casino-section {
-  background-color: #1b0142 !important;
+.side-bar .single-block .block-content.sports-menu .sports-menu-bottom {
+  background: var(--tableBorders);
 }
 
 button,
@@ -3813,7 +3817,7 @@ div[data-source="upcoming"] .sport_odds_main {
   display: block;
   width: 200px;
   height: 53px;
-  background-image: url("http://static.pcluster.info/skins/skylive/img/logo/newlogo.svg");
+  background-image: url("https://gradm-api.pcluster.info/api/skin/25/image/821baba3c808cd5870811b25c8d49535.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -3907,7 +3911,7 @@ div[data-source="upcoming"] .sport_odds_main {
 
 .main_submenu .button svg {
   width: 100%;
-  height: 24px;
+  height: 26px;
   display: block;
   background: var(--accent-bg);
   color: var(--accent-txt);

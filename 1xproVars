@@ -1,0 +1,46 @@
+$skin: "biwinner";
+$cdnPath: "//nextra.nextra.bet/#{$skin}";
+$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+
+$logoUrl: "https://nextra.nextra.bet/1xpro/images/logo2.svg";
+$bodyBg: "";
+$bodyCol: var(--secondary-bg);
+
+//invet 1 light skin inver 0 dark skin (images)
+$invet: 0;
+
+html:root {
+    --accent: #f0c808;
+    --accent-bg: #f0c808;
+    --accent-txt: #000;
+    --primary-bg: #f0c808;
+    --primary-txt: #000000;
+    --secondary-bg: #053546;
+    --secondary-txt: #fff;
+    --mainBg: #05516b;
+    --mainBgCol: #fff;
+    --bg1: #086788;
+    --col1: #fff;
+    --teableHeadersBg: #00aeef;
+    --teableHeadersCol: #000000;
+    --teableSubHeadersBg: #053546;
+    --teableSubHeadersCol: #ffffff;
+    --tableBorders: #2d7d98;
+    --casinoGradient1: #000000;
+    --casinoGradient1-txt: #fff;
+    --casinoGradient2: #f0c808;
+    --casinoGradient2-txt: #000;
+    --backDrops: #000000cf;
+}
+
+$secondary: #f0c808;
+$secondaryCol: #fff;
+$black: #000000;
+$secondaryDark:  #f0c808;
+$secondaryDarkCol: #222;
+$primary: #53bce0;
+$white: #ebebeb;
+$blue: #262ca8;
+$green: #2e9c3d;
+$red: #e1042e;
+$sb-2: #333844;

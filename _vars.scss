@@ -1,112 +1,58 @@
-// html:root {
-//   --accent: #005293;
-//   --accent-bg: #005293;
-//   --accent-txt: #ffcc00;
-//   --primary-bg: #005293;
-//   --primary-txt: #ffffff;
-//   --secondary-bg: #ffffff;
-//   --secondary-txt: #000;
-//   --mainBg: #ffffff;
-//   --mainBgCol: #000;
-//   --bg1: #e7e7e7;
-//   --col1: #000;
-//   --teableHeadersBg: #ffcc00;
-//   --teableHeadersCol: #000000;
-//   --teableSubHeadersBg: #005293;
-//   --teableSubHeadersCol: #ffffff;
-//   --tableBorders: #a3a3a3;
-//   --casinoGradient1: #000000;
-//   --casinoGradient1-txt: #fff;
-//   --casinoGradient2: #f4c100;
-//   --casinoGradient2-txt: #000;
-//   --backDrops: #000000cf;
-// }
+$skin: "biwinner";
+$cdnPath: "//nextra.nextra.bet/#{$skin}";
+$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
-// $skin: "bsport10";
-// $cdnPath: "//nextra.nextra.bet/#{$skin}";
-// $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+$logoUrl: "https://gradm-api.pcluster.info/api/skin/25/image/821baba3c808cd5870811b25c8d49535.png";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/30/image/7be4801f571d6a1bb0bab2ff0270f8b3.jpeg";
+$bodyCol: #000;
 
-// $logoUrl: "http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg";
-// $bodyBg: "https://gradm-api.pcluster.info/api/skin/45/image/98d3fcf49dcebf55ddfb3ebaab7fe447.jpeg";
-// $bodyCol: #ebebeb;
-// //invet 1 light skin inver 0 dark skin (images)
-// $invet: 0;
-
-// $secondary: #005293;
-// $secondaryCol: #fff;
-
-// $secondaryDark: #0a497e;
-// $secondaryDarkCol: #fff;
-// $black: #000000;
-// $primary: #c2c2c2;
-// $white: #ebebeb;
-// $blue: #262ca8;
-// $green: #2e9c3d;
-// $red: #e1042e;
-// $sb-2: #0a96f0;
-
-// //icesport styles
-
-// //black filter li logos
-// #favouriteTournaments li:before {
-//   filter: brightness(0.1);
-// }
-// body {
-//   background-attachment: initial !important;
-// }
+//invet 1 light skin inver 0 dark skin (images)
+$invet: 0;
 
 html:root {
-  --accent: #b30013;
-  --accent-bg: #b30013;
-  --accent-txt: #fff;
+  --accent: #f7c828;
+  --accent-bg: #f7c828;
+  --accent-txt: #000;
   --primary-bg: #ffffff;
   --primary-txt: #707070;
-  --secondary-bg: #111727;
+  --secondary-bg: #000000;
   --secondary-txt: #fff;
-  --mainBg: #2e3e49;
+  --mainBg: #101010;
   --mainBgCol: #fff;
-  --bg1: #24323b;
+  --bg1: #000;
   --col1: #fff;
-  --teableHeadersBg: #b30013;
-  --teableHeadersCol: #fff;
-  --teableSubHeadersBg: #3f5463;
+  --teableHeadersBg: #f7c828;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: linear-gradient(180deg, black 64%, #6a5408 100%);
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #161d2f;
+  --tableBorders: #292929;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #b30013;
+  --casinoGradient2: #f7c828;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
 }
 
-$skin: "skylive";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
-
-$logoUrl: "http://static.pcluster.info/skins/skylive/img/logo/newlogo.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/62/image/b52d9bbab8774707bdfac5505e2ff196.jpeg";
-$bodyCol: #10151b;
-//invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
-
-$secondary: #005293;
+$secondary: #f7c828;
 $secondaryCol: #fff;
-
-$secondaryDark: #0a497e;
-$secondaryDarkCol: #fff;
 $black: #000000;
-$primary: #c2c2c2;
+$secondaryDark: #f7c828;
+$secondaryDarkCol: #222;
+$primary: #545454;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #0a96f0;
+$sb-2: #444444;
 
-//icesport styles
-
-body {
-  background-attachment: initial !important;
+.side-bar
+  .single-block
+  .block-content.sports-menu
+  .sports-menu-bottom
+  #sports-menu-slider.ui-widget.ui-widget-content.ui-slider-horizontal {
+  background: var(--accent-bg);
 }
-.casino-section {
-  background-color: #1b0142 !important;
+
+.side-bar .single-block .block-content.sports-menu .sports-menu-bottom {
+  background: var(--tableBorders);
 }

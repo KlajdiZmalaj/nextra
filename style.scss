@@ -165,7 +165,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   background-color: $bodyCol;
 
-  // min-width: 1007px;
+  min-width: 1007px;
   // &.landing-page {
   //   min-width: 1360px;
   // }
@@ -3080,9 +3080,44 @@ input[type="submit"] {
         background-image: url(#{$imagesPath}/sport-icons/sport-icon-60.svg);
       }
     }
+    &.sport-61 {
+      .icon {
+        background-image: url(#{$imagesPath}/sport-icons/sport-icon-61.png);
+      }
+    }
+    &.sport-109 {
+      .icon {
+        background-image: url(#{$imagesPath}/sport-icons/sport-icon-109.svg);
+      }
+    }
+    &.sport-110 {
+      .icon {
+        background-image: url(#{$imagesPath}/sport-icons/sport-icon-110.png);
+      }
+    }
+    &.sport-111 {
+      .icon {
+        background-image: url(#{$imagesPath}/sport-icons/sport-icon-111.png);
+      }
+    }
     &.sport-117 {
       .icon {
         background-image: url(#{$imagesPath}/sport-icons/sport-icon-117.svg);
+      }
+    }
+    &.sport-118 {
+      .icon {
+        background-image: url(#{$imagesPath}/sport-icons/sport-icon-118.png);
+      }
+    }
+    &.sport-121 {
+      .icon {
+        background-image: url(#{$imagesPath}/sport-icons/sport-icon-121.png);
+      }
+    }
+    &.sport-125 {
+      .icon {
+        background-image: url(#{$imagesPath}/sport-icons/sport-icon-125.png);
       }
     }
   }
@@ -4287,7 +4322,7 @@ div.landing-page {
     flex-flow: column;
     justify-content: flex-end;
     &:before {
-      content: "INIZA A VINCERE ALLA GRANDE";
+      content: "INIZIA A VINCERE ALLA GRANDE";
       font-family: "Nanum Gothic", sans-serif;
       position: absolute;
       left: 0;
@@ -7103,6 +7138,7 @@ footer {
             margin: 6px 10px 0 15px;
             transition: 0.3s all;
             cursor: pointer;
+            filter: grayscale(1) brightness(0) invert($invet);
             &.active {
               margin: 8px 10px 0 15px;
               transform: rotate(0deg);
@@ -10904,6 +10940,7 @@ footer {
     }
     &.edit-user-page {
       background-color: lighten($white, 5%);
+      color: darken($primary, 3%);
       display: flex;
       flex-flow: row wrap;
       .row {
@@ -17288,3 +17325,91 @@ span.ui-slider-handle:before {
   position: absolute;
   top: 6px;
 }
+
+/*Antepost*/
+
+.antepost-holder {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0px 10px;
+  transform: translateY(-38px);
+  margin-bottom: -38px;
+  div {
+    span {
+      box-sizing: border-box;
+      display: inline-block;
+      padding: 5px;
+      line-height: 30px;
+      font-size: 12px;
+      &:first-child {
+        width: calc(100% - 90px);
+        border-right: 1px solid $sb-2;
+      }
+      &:last-child {
+        width: 84px;
+        text-align: center;
+      }
+    }
+    &.antepost-header {
+      background-color: $secondary;
+      span {
+        color: #fff;
+        font-weight: bold;
+        line-height: 20px;
+      }
+    }
+    &.antepost-row {
+      display: inline-block;
+      border-bottom: 1px solid var(--tableBorders);
+      .odd {
+        width: 60px;
+      }
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+.odds-table {
+  .single-match-row td.antepost-cell {
+    border-color: var(--tableBorders);
+    min-width: 350px;
+    padding: 0;
+  }
+  .match-name.antepost-name {
+    vertical-align: top !important;
+    padding: 0 !important;
+    border-color: var(--tableBorders) !important;
+    border-bottom-color: transparent !important;
+    .team-names {
+      color: #fff;
+    }
+  }
+}
+
+.antepost-default {
+  vertical-align: top !important;
+  padding: 0 !important;
+  border-color: transparent !important;
+  div {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+.antepost-name {
+  border-color: var(--tableBorders);
+  padding: 0 !important;
+}
+
+.antepost-name-wrap {
+  display: inline-block;
+  width: 100%;
+  background-color: $sb-2;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+/*End Antepost*/

@@ -7,30 +7,30 @@ $bodyBg: "https://gradm-api.pcluster.info/api/skin/49/image/874404f8fef779a0bdae
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 0;
+$invet: 1;
 
 html:root {
-  --accent: #DE3442;
-  --accent-bg: #B30013;
-  --accent-txt: #fff;
-  --primary-bg: #11151A;
-  --primary-txt: #fff;
-  --secondary-bg: #8B000F;
-  --secondary-txt: #fff;
-  --mainBg: #24323B;
-  --mainBgCol: #fff;
-  --bg1: #2E3E49;
-  --col1: #fff;
-  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #414755;
-  --teableSubHeadersCol: #ffffff;
-  --tableBorders: #161d2f;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
-  --casinoGradient2-txt: #000;
-  --backDrops: #000000cf;
+    --accent: #de3442;
+    --accent-bg: #fff;
+    --accent-txt: #b30013;
+    --primary-bg: #11151a;
+    --primary-txt: #fff;
+    --secondary-bg: #8b000f;
+    --secondary-txt: #fff;
+    --mainBg: #24323b;
+    --mainBgCol: #fff;
+    --bg1: #2e3e49;
+    --col1: #fff;
+    --teableHeadersBg: #b30013;
+    --teableHeadersCol: #fff;
+    --teableSubHeadersBg: #414755;
+    --teableSubHeadersCol: #ffffff;
+    --tableBorders: #161d2f;
+    --casinoGradient1: #000000;
+    --casinoGradient1-txt: #fff;
+    --casinoGradient2: #f4c100;
+    --casinoGradient2-txt: #000;
+    --backDrops: #000000cf;
 }
 
 $secondary: #B30013;
