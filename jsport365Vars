@@ -1,4 +1,4 @@
-$skin: "jsport";
+$skin: "jsport365";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 

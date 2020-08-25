@@ -1,10 +1,10 @@
-$skin: "biwinner";
+$skin: "gigabet";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/gigabet/img/logo/logo.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/37/image/2899c847b055806dec73a4b765e7fa26.jpeg";
-$bodyCol: #0b0000;
+$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/red.jpg";
+$bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;

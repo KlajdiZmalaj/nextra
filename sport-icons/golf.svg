@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <radialGradient id="golf-09-a" cy="40.478%" r="57.928%" fx="50%" fy="40.478%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#DCDCDC"/>
+    </radialGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="7.795" cy="6.154" r="6.049" fill="url(#golf-09-a)"/>
+    <rect width="3.963" height="1.252" x="5.813" y="11.791" fill="#FFBA57"/>
+    <polygon fill="#F29B1C" points="5.813 13.042 9.776 13.042 8.866 14.294 6.8 14.294"/>
+    <polygon fill="#FFBA57" points="6.805 14.294 8.869 14.294 8.395 15.963 7.319 15.963"/>
+    <circle cx="4.641" cy="3.826" r="1" fill="#B2B2B2" transform="rotate(90 4.64 3.826)"/>
+    <circle cx="3.699" cy="5.95" r="1" fill="#B2B2B2" transform="rotate(90 3.7 5.95)"/>
+    <circle cx="4.641" cy="8.132" r="1" fill="#B2B2B2" transform="rotate(90 4.64 8.132)"/>
+    <circle cx="5.892" cy="10.168" r="1" fill="#B2B2B2" transform="rotate(90 5.892 10.168)"/>
+    <circle cx="5.684" cy="1.877" r="1" fill="#B2B2B2" transform="rotate(90 5.684 1.877)"/>
+    <circle cx="10.826" cy="3.826" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 7 -7)"/>
+    <circle cx="11.767" cy="5.95" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 5.817 -5.817)"/>
+    <circle cx="10.826" cy="8.132" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 2.693 -2.693)"/>
+    <circle cx="9.574" cy="10.168" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 -.594 .594)"/>
+    <circle cx="9.783" cy="1.877" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 7.905 -7.905)"/>
+    <circle cx="11.243" cy="1.877" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 9.366 -9.366)"/>
+    <circle cx="12.141" cy="3.118" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 9.024 -9.024)"/>
+    <circle cx="12.641" cy="4.417" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 8.224 -8.224)"/>
+    <circle cx="13.178" cy="5.95" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 7.228 -7.228)"/>
+    <circle cx="12.81" cy="7.417" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 5.393 -5.393)"/>
+    <circle cx="12.141" cy="8.815" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 3.326 -3.326)"/>
+    <circle cx="11.141" cy="10.168" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 .974 -.974)"/>
+    <circle cx="4.242" cy="9.93" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 -5.687 5.687)"/>
+    <circle cx="3.117" cy="8.815" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 -5.699 5.699)"/>
+    <circle cx="2.612" cy="7.147" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 -4.535 4.535)"/>
+    <circle cx="2.491" cy="5.367" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 -2.876 2.876)"/>
+    <circle cx="3.117" cy="3.618" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 -.5 .5)"/>
+    <circle cx="3.932" cy="2.417" r="1" fill="#B2B2B2" transform="matrix(0 1 1 0 1.515 -1.515)"/>
+    <circle cx="7.795" cy="6.008" r="1" fill="#B2B2B2"/>
+    <circle cx="5.684" cy="6.008" r="1" fill="#B2B2B2"/>
+    <circle cx="6.518" cy="8.064" r="1" fill="#B2B2B2"/>
+    <circle cx="9.856" cy="6.008" r="1" fill="#B2B2B2"/>
+    <circle cx="8.813" cy="8.064" r="1" fill="#B2B2B2"/>
+    <circle cx="7.665" cy="10.013" r="1" fill="#B2B2B2"/>
+    <circle cx="8.813" cy="3.826" r="1" fill="#B2B2B2" transform="rotate(-90 8.813 3.826)"/>
+    <circle cx="6.518" cy="3.826" r="1" fill="#B2B2B2" transform="rotate(-90 6.518 3.826)"/>
+    <circle cx="7.665" cy="1.877" r="1" fill="#B2B2B2" transform="rotate(-90 7.665 1.877)"/>
+  </g>
+</svg>

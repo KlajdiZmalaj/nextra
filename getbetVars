@@ -1,9 +1,9 @@
-$skin: "biwinner";
+$skin: "getbet";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
 $logoUrl: 'https://gradm-api.pcluster.info/api/skin/49/image/131d162d7dd48e35ba4d9b69202e331a.png';
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/49/image/874404f8fef779a0bdae0931ba9eabfd.jpeg";
+$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/red.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
@@ -44,3 +44,6 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #2E3E49;
+body {
+    background-size: 2038px !important;
+}

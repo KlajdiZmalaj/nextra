@@ -1,41 +1,41 @@
-$skin: "biwinner";
+$skin: "topbet";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
 $logoUrl: "https://nextra.nextra.bet/topbet365/images/logo2.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/41/image/ff936f12ca8b8e7532ce21816318ca6c.jpeg";
-$bodyCol: #1b1b1b;
+$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/green.jpg";
+$bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #fedf00;
-  --accent-bg: #fedf00;
-  --accent-txt: #26755b;
-  --primary-bg: #444444;
-  --primary-txt: #fff;
-  --secondary-bg: #161616;
-  --secondary-txt: #fff;
-  --mainBg: #333333;
-  --mainBgCol: #fff;
-  --bg1: #444444;
-  --col1: #fff;
-  --teableHeadersBg: #26755b;
-  --teableHeadersCol: #fedf00;
-  --teableSubHeadersBg: #666666;
-  --teableSubHeadersCol: #fedf00;
-  --tableBorders: #666666;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
-  --casinoGradient2: #636363;
-  --casinoGradient2-txt: #000;
-  --backDrops: #000000cf;
+--accent: #C8151E;
+    --accent-bg: #C8151E;
+    --accent-txt: #ffffff;
+    --primary-bg: #444444;
+    --primary-txt: #fff;
+    --secondary-bg: #161616;
+    --secondary-txt: #fff;
+    --mainBg: #1e1e1e;
+    --mainBgCol: #fff;
+    --bg1: #3e3e3e;
+    --col1: #fff;
+    --teableHeadersBg: linear-gradient(to bottom , #373838, #2D2E2D);
+    --teableHeadersCol: #ffffff;
+    --teableSubHeadersBg: #666666;
+    --teableSubHeadersCol: #cccccc;
+    --tableBorders: #666666;
+    --casinoGradient1: #000000;
+    --casinoGradient1-txt: #fff;
+    --casinoGradient2: #636363;
+    --casinoGradient2-txt: #000;
+    --backDrops: #000000cf;
 }
 
-$secondary: #26755b;
+$secondary: #C8151E;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #26755b;
+$secondaryDark: #C8151E;
 $secondaryDarkCol: #fff;
 $primary: #323232;
 $white: #ebebeb;

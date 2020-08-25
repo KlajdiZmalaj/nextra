@@ -3,8 +3,8 @@ $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
 $logoUrl: "https://nextra.nextra.bet/crazybet/images/logo2.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/46/image/f7e53f812b1c910c795abc181d9b1354.jpeg";
-$bodyCol: #010619;
+$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/orange.jpg";
+$bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
@@ -45,5 +45,5 @@ $red: #e1042e;
 $sb-2: #323232;
 
 body {
-  background-size: 2150px !important;
+  background-size: 2038px !important;
 }

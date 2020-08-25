@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>sports icons/bawls</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="30.7763473%" cy="9.59670659%" fx="30.7763473%" fy="9.59670659%" r="96.9796407%" id="radialGradient-1">
+            <stop stop-color="#BD845E" offset="0%"></stop>
+            <stop stop-color="#B06B4C" offset="10.59%"></stop>
+            <stop stop-color="#9E4934" offset="27.58%"></stop>
+            <stop stop-color="#912E20" offset="44.94%"></stop>
+            <stop stop-color="#871B13" offset="62.59%"></stop>
+            <stop stop-color="#81100B" offset="80.71%"></stop>
+            <stop stop-color="#7F0C08" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="45.4450009%" cy="39.3749299%" fx="45.4450009%" fy="39.3749299%" r="63.4682692%" id="radialGradient-2">
+            <stop stop-color="#FFFEEE" offset="0.5618%"></stop>
+            <stop stop-color="#F3F4E9" offset="28.49%"></stop>
+            <stop stop-color="#D7DADE" offset="74.72%"></stop>
+            <stop stop-color="#DCD8D4" offset="87.64%"></stop>
+        </radialGradient>
+        <radialGradient cx="36.3502564%" cy="11.5535897%" fx="36.3502564%" fy="11.5535897%" r="76.6369231%" id="radialGradient-3">
+            <stop stop-color="#737577" offset="0%"></stop>
+            <stop stop-color="#606062" offset="13.16%"></stop>
+            <stop stop-color="#454445" offset="35.31%"></stop>
+            <stop stop-color="#322F31" offset="57.35%"></stop>
+            <stop stop-color="#272324" offset="79.06%"></stop>
+            <stop stop-color="#231F20" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Artboard-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sports-icons/bawls">
+            <g id="Group" transform="translate(0.000000, 0.500000)">
+                <circle id="Oval" fill="url(#radialGradient-1)" fill-rule="nonzero" cx="12" cy="11.5" r="4.5"></circle>
+                <circle id="Oval" fill="url(#radialGradient-2)" fill-rule="nonzero" cx="3.25" cy="11.8364206" r="2.75"></circle>
+                <circle id="Oval-2" stroke="#B4574A" stroke-width="0.1" cx="12" cy="11.5" r="3.95"></circle>
+                <circle id="Oval-2-Copy" stroke="#B4574A" stroke-width="0.1" cx="12" cy="11.5" r="3.7"></circle>
+                <circle id="Oval-2-Copy-2" stroke="#FFFFFF" stroke-width="0.1" cx="12.5474104" cy="11.8364206" r="2.27739916"></circle>
+                <circle id="Oval-2-Copy-4" stroke="#FFFFFF" stroke-width="0.1" cx="12.5474104" cy="11.7927239" r="1.92152764"></circle>
+                <circle id="Oval-2-Copy-3" fill="#FFFFFF" cx="12.5474104" cy="11.8364206" r="1.30221861"></circle>
+                <circle id="Oval-Copy" fill="url(#radialGradient-3)" fill-rule="nonzero" cx="5.53859918" cy="4.5" r="4.5"></circle>
+                <circle id="Oval-2-Copy-9" stroke="#B4574A" stroke-width="0.1" cx="5.53859918" cy="4.5" r="3.95"></circle>
+                <circle id="Oval-2-Copy-8" stroke="#B4574A" stroke-width="0.1" cx="5.53859918" cy="4.5" r="3.7"></circle>
+                <circle id="Oval-2-Copy-7" stroke="#FFFFFF" stroke-width="0.1" cx="5.03859918" cy="3.77937632" r="2.27739916"></circle>
+                <circle id="Oval-2-Copy-6" stroke="#FFFFFF" stroke-width="0.1" cx="5.03859918" cy="3.73567963" r="1.92152764"></circle>
+                <circle id="Oval-2-Copy-5" fill="#FFFFFF" cx="5.03859918" cy="3.77937632" r="1.30221861"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

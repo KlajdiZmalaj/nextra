@@ -22,13 +22,13 @@ html:root {
   --backDrops: #000000cf;
 }
 
-$skin: "biwinner";
+$skin: "stilobet";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
 $logoUrl: "https://nextra.nextra.bet/stilobet365/images/logo2.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/12/image/d7372f79f4776258f5925c6bdce72a97.jpeg";
-$bodyCol: #8c8c8c;
+$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/green.jpg";
+$bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 0;
 
@@ -37,6 +37,7 @@ $secondaryCol: #fff;
 
 $secondaryDark: #094016;
 $secondaryDarkCol: #fff;
+
 $black: #000000;
 $primary: #c2c2c2;
 $white: #ebebeb;
@@ -54,4 +55,6 @@ $sb-2: #278a3a;
 html footer {
   background:#222;
   color:#fff;
+}body {
+    background-size: 2038px !important;
 }

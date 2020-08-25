@@ -1,4 +1,4 @@
-$skin: "biwinner";
+$skin: "kobet24";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="14px" viewBox="0 0 17 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>sports icons/snooker</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="30.5599707%" cy="30.183167%" fx="30.5599707%" fy="30.183167%" r="60.4264961%" id="radialGradient-1">
+            <stop stop-color="#F5515F" offset="0%"></stop>
+            <stop stop-color="#9F041B" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Artboard-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -2.000000)">
+        <g id="sports-icons/snooker" fill="url(#radialGradient-1)">
+            <circle id="Oval-2-Copy-10" cx="2.66654389" cy="13.4896412" r="1.94448537"></circle>
+            <circle id="Oval-2-Copy-9" cx="6.55551463" cy="13.4896412" r="1.94448537"></circle>
+            <circle id="Oval-2-Copy-8" cx="10.4444854" cy="13.4896412" r="1.94448537"></circle>
+            <circle id="Oval-2-Copy-7" cx="14.3334561" cy="13.4896412" r="1.94448537"></circle>
+            <circle id="Oval-2-Copy-10" cx="4.61102926" cy="10.4013409" r="1.94448537"></circle>
+            <circle id="Oval-2-Copy-9" cx="8.5" cy="10.4013409" r="1.94448537"></circle>
+            <circle id="Oval-2-Copy-8" cx="12.3889707" cy="10.4013409" r="1.94448537"></circle>
+            <circle id="Oval-2-Copy-9" cx="6.55551463" cy="7.31302664" r="1.94448537"></circle>
+            <circle id="Oval-2-Copy-8" cx="10.4444854" cy="7.31302664" r="1.94448537"></circle>
+            <circle id="Oval-2-Copy-9" cx="8.72876298" cy="4.11035881" r="1.94448537"></circle>
+        </g>
+    </g>
+</svg>

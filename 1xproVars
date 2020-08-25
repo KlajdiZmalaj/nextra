@@ -1,9 +1,9 @@
-$skin: "biwinner";
+$skin: "1xpro";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
 $logoUrl: "https://nextra.nextra.bet/1xpro/images/logo2.svg";
-$bodyBg: "";
+$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/blue.jpg";
 $bodyCol: var(--secondary-bg);
 
 //invet 1 light skin inver 0 dark skin (images)
@@ -44,3 +44,6 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #333844;
+body {
+  background-size: 2038px !important;
+}

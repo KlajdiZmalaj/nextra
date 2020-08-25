@@ -27,8 +27,8 @@ $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/icesport/img/logo/logo.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/31/image/856aa46a0d619e56f10bc1558c8b3f77.jpeg";
-$bodyCol: #e5e5e5;
+$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/blue.jpg";
+$bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 
@@ -52,4 +52,7 @@ $sb-2: #0a96f0;
 //black filter li logos
 #favouriteTournaments li:before {
   filter: brightness(0.1);
+}
+body {
+  background-size: 2038px !important;
 }

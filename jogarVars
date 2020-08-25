@@ -3,7 +3,7 @@ $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/fastbet24/img/logo/newlogo.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/24/image/51345629667ab67c22bd180144b9a245.jpeg";
+$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/gold.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
