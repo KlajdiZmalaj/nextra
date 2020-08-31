@@ -3141,7 +3141,7 @@ input[type="submit"] {
         padding: 0px 0 0px 5px;
         background: var(--mainBg);
         color: var(--mainBgCol);
-        font-weight: bold;
+        font-weight: 300;
         font-size: 12px;
         border-top: 1px solid var(--tableBorders);
         &:hover {
@@ -3219,7 +3219,7 @@ input[type="submit"] {
         display: block;
         border-bottom: 1px solid var(--tableBorders);
         .anchor {
-          font-weight: bold;
+          font-weight: 300;
           font-size: 12px;
           display: flex;
           justify-content: space-between;
@@ -4612,6 +4612,8 @@ footer {
   color: var(--col1);
   display: flex;
   flex-flow: column;
+  border-top: 1px solid var(--tableBorders);
+  margin-top: 1px;
   .grid {
     display: flex;
     flex-flow: row;
