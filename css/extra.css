@@ -518,6 +518,12 @@ div.token-input-dropdown {
   color: var(--accent-txt);
   opacity: 0.9;
 }
+
+.logged-page .logged-menu ul li a i,
+.logged-page .logged-menu ul li span i {
+  padding: 8px;
+}
+
 .logged-center .change-password-page .input-wrapper {
   border-bottom: 1px solid var(--tableBorders);
 }

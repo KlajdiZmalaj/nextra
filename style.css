@@ -12127,7 +12127,7 @@ footer.center-footer .footer-logos .group-1 {
           transform: translate(-50%, -50%);
   height: 20px;
   width: 20px;
-  background: #0073b9;
+  background: #dcb630;
   border-radius: 3px;
 }
 
@@ -12144,7 +12144,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table.betlist-table td .result-holder.cancelled:after {
-  background-color: #dcb630;
+  background-color: #0073b9;
 }
 
 .logged-page .transactions-table.betlist-table td .result-holder.evaluation:after {
@@ -13637,7 +13637,7 @@ footer.center-footer .footer-logos .group-1 {
   top: 3px;
   height: 14px;
   width: 14px;
-  background: #0073b9;
+  background: #dcb630;
   border-radius: 3px;
 }
 
@@ -13654,7 +13654,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .betlist-legend-holder .legend .single-item.cancelled:after {
-  background-color: #dcb630;
+  background-color: #0073b9;
 }
 
 .betlist-legend-holder .legend .single-item.evaluation:after {
