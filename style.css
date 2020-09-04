@@ -3,22 +3,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
 html:root {
-  --accent: #fec900;
-  --accent-bg: #fec900;
-  --accent-txt: #000;
-  --primary-bg: #ffffff;
-  --primary-txt: #707070;
-  --secondary-bg: #111727;
+  --accent: #57de3d;
+  --accent-bg: #ffcc00;
+  --accent-txt: #000000;
+  --primary-bg: #12421c;
+  --primary-txt: #fff;
+  --secondary-bg: #2b883d;
   --secondary-txt: #fff;
-  --mainBg: #0e121d;
-  --mainBgCol: #fff;
-  --bg1: #333844;
-  --col1: #fff;
-  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #414755;
-  --teableSubHeadersCol: #ffffff;
-  --tableBorders: #161d2f;
+  --mainBg: #ededed;
+  --mainBgCol: #222;
+  --bg1: #fff;
+  --col1: #222;
+  --teableHeadersBg: #2b883d;
+  --teableHeadersCol: #fff;
+  --teableSubHeadersBg: #dedede;
+  --teableSubHeadersCol: #222;
+  --tableBorders: #a3a3a3;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #f4c100;
@@ -26,12 +26,18 @@ html:root {
   --backDrops: #000000cf;
 }
 
-.casino-section {
-  background: #000 !important;
+#favouriteTournaments li:before {
+  -webkit-filter: brightness(0.1);
+          filter: brightness(0.1);
 }
 
-.casino-section .casino-container .casino-inner {
-  padding-top: 320px !important;
+html footer {
+  background: #222;
+  color: #fff;
+}
+
+body {
+  background-size: 2038px !important;
 }
 
 @media (max-width: 1008px) {
@@ -183,7 +189,7 @@ th {
 
 body {
   margin: 0;
-  background-image: url("https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg");
+  background-image: url("https://nextra.nextra.bet/nextra/images/bg/green.jpg");
   background-size: 100% 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -366,7 +372,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid #d7dbe6;
+  border: 1px solid gainsboro;
   border-radius: 3px;
 }
 
@@ -378,14 +384,14 @@ input[type="submit"] {
   top: 1px;
   width: 3px;
   height: 7px;
-  border: solid #f4c100;
+  border: solid #278a3a;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .check:hover input ~ .checkmark {
-  background: #c8cddc;
+  background: #cfcfcf;
 }
 
 .radio {
@@ -421,7 +427,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #f4c100;
+  border: 2px solid #278a3a;
 }
 
 .radio input:checked ~ .radiocircle:after {
@@ -430,7 +436,7 @@ input[type="submit"] {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f4c100;
+  background: #278a3a;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -447,7 +453,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid #d7dbe6;
+  border: 1px solid gainsboro;
   border-radius: 3px;
   border-radius: 50%;
   border-width: 2px;
@@ -462,14 +468,14 @@ input[type="submit"] {
   top: 1px;
   width: 3px;
   height: 7px;
-  border: solid #f4c100;
+  border: solid #278a3a;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .radio:hover input ~ .radiocircle {
-  background: rgba(184, 191, 210, 0.5);
+  background: rgba(194, 194, 194, 0.5);
 }
 
 .lang-open {
@@ -757,7 +763,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .help:before {
   display: none;
   content: "";
-  border-bottom: 9px solid #d1a813;
+  border-bottom: 9px solid #094016;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -812,7 +818,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .settings .controls-menu .option-block .title {
   padding-top: 8px;
   padding-left: 5px;
-  border-bottom: 1px solid #d1a813;
+  border-bottom: 1px solid #094016;
   cursor: default;
   pointer-events: none;
 }
@@ -823,7 +829,7 @@ input[type="submit"] {
   line-height: 25px;
   padding-left: 25px;
   position: relative;
-  border-bottom: 1px solid #d1a813;
+  border-bottom: 1px solid #094016;
   cursor: pointer;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
@@ -838,7 +844,7 @@ input[type="submit"] {
           transform: translateY(-50%);
   width: 12px;
   height: 12px;
-  border: 1px solid #d1a813;
+  border: 1px solid #094016;
   border-radius: 50%;
 }
 
@@ -853,7 +859,7 @@ input[type="submit"] {
   width: 10px;
   height: 10px;
   border: none;
-  background: #eec943;
+  background: #12832d;
   border-radius: 50%;
 }
 
@@ -937,30 +943,30 @@ input[type="submit"] {
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"],
 .header .top-bar .top-bar-content .login-bar form input[type="password"] {
-  color: #b8bfd2;
-  border: 1px solid #b8bfd2;
+  color: #c2c2c2;
+  border: 1px solid #c2c2c2;
   width: 100px;
   padding: 0 0 0 6px;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::-webkit-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::-webkit-input-placeholder {
-  color: #b8bfd2;
+  color: #c2c2c2;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]:-ms-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]:-ms-input-placeholder {
-  color: #b8bfd2;
+  color: #c2c2c2;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::-ms-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::-ms-input-placeholder {
-  color: #b8bfd2;
+  color: #c2c2c2;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::placeholder {
-  color: #b8bfd2;
+  color: #c2c2c2;
 }
 
 .header .top-bar .top-bar-content .login-bar form i {
@@ -1011,7 +1017,7 @@ input[type="submit"] {
   height: 70px;
   display: block;
   position: relative;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzYuMDI3IiBoZWlnaHQ9IjMzLjcyMSIgdmlld0JveD0iMCAwIDE3Ni4wMjcgMzMuNzIxIj4NCiAgPGcgaWQ9Ikdyb3VwXzEzIiBkYXRhLW5hbWU9Ikdyb3VwIDEzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTE0LjEzMSAtMTM0LjE4KSI+DQogICAgPHBhdGggaWQ9IlBhdGhfNTUiIGRhdGEtbmFtZT0iUGF0aCA1NSIgZD0iTTEzMy42NjMsMTM0LjE4cTUuMzM4LDAsNy41ODcsMi4zNDNhNi4yNzQsNi4yNzQsMCwwLDEsMS42ODYsNC41LDExLjE0OCwxMS4xNDgsMCwwLDEtLjE4OCwxLjk2NmwtLjQyMiwyLjI0MmE3LjkzNyw3LjkzNywwLDAsMS0xLjk4OSw0LjE2OSw3LjQsNy40LDAsMCwxLTIuNjcxLDEuNTIxLDEwLjY4OSwxMC42ODksMCwwLDEsMi42OTQsMS44LDQuODM4LDQuODM4LDAsMCwxLDEuMzU4LDMuNDI1LDguMDQ2LDguMDQ2LDAsMCwxLS4xODgsMS42ODZsLS4yNzksMS40NTJhMTAuMjQ1LDEwLjI0NSwwLDAsMS0zLjU3NCw2LjMyM3EtMi44MjMsMi4yOTQtNy44OTMsMi4yOTRIMTE0LjEzMWw1Ljk0OS0zMy43MjFabS00LjIyNCwxOS45NTFIMTI1bC0xLjExOCw2LjQ2Nmg0LjYzYTUuMzM2LDUuMzM2LDAsMCwwLDMuNDE4LTEuMDA3LDMuMDQyLDMuMDQyLDAsMCwwLDEuMjY3LTIuNDZxMC0zLTMuNzUtM1ptMS4yNjQtMTIuNjQzaC0zLjVsLTEuMjE4LDYuOTg5aDMuNDY0cTQuNTA3LDAsNC41MDctMy45NDVhMy4wMjksMy4wMjksMCwwLDAtLjgxOS0yLjJBMy4yNjMsMy4yNjMsMCwwLDAsMTMwLjcsMTQxLjQ4OFoiIGZpbGw9IiNmZWM5MDAiLz4NCiAgICA8cGF0aCBpZD0iUGF0aF81NiIgZGF0YS1uYW1lPSJQYXRoIDU2IiBkPSJNNTk4LjQ0NSwxNjUuMzhoLTIuNDczbC0uODQyLDUuNzM1aDIuMzA3YTMuMjI3LDMuMjI3LDAsMCwwLDIuNTA1LS44NDIsMy4xODIsMy4xODIsMCwwLDAsLjc1Ny0yLjIyM1E2MDAuNjg0LDE2NS4zOCw1OTguNDQ1LDE2NS4zOFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMjQuNzA4IC0yMS4wNjIpIiBmaWxsPSIjZmZmIi8+DQogICAgPHBhdGggaWQ9IlBhdGhfNTciIGRhdGEtbmFtZT0iUGF0aCA1NyIgZD0iTTM3MC4wNTUsMTM0LjE4aC0xMjguMkwyMzUuOTExLDE2Ny45SDM2NC45OGEyLjMxNywyLjMxNywwLDAsMCwyLjI3NS0xLjkxNGw1LjA3OS0yOS4wOTRhMi4zMTMsMi4zMTMsMCwwLDAtMi4yNzgtMi43MTNaTTI2MC4wNDcsMTYyLjlsLjg5LTE1LjE5MUwyNTYuNTIxLDE2Mi45aC05Ljg4OGwuMjMxLTIzLjcyaDYuNDZsLS41OTEsMTcuOTU5aC43NTdsNS43NjgtMTcuOTU5aDYuNDI0bC0uNTU5LDE3Ljk1OWguNzU0bDUuNzM1LTE3Ljk1OWg2LjQ2bC04LjEyMywyMy43MlptMTUuMTI2LDAsNC4xODgtMjMuNzJoNS45M2wtNC4xNDMsMjMuNzJabTIxLjAyNiwwLTQuMTUzLTEzLTIuMjQyLDEzaC01Ljk2Mmw0LjE4NS0yMy43Mmg2LjExOGw0LjEsMTIuMTIsMi4xNDEtMTIuMTI2aDUuOTMzbC00LjE1MywyMy43MlptMjEuMDI2LDAtNC4xNTMtMTMtMi4yNDIsMTNoLTUuOTYybDQuMTg4LTIzLjcyaDYuMTI4bDQuMDg0LDEyLjEyLDIuMTQxLTEyLjEyNmg1LjkzbC00LjE0OSwyMy43MlptMjUuMjA4LDBIMzI1Ljg5MWw0LjE4NS0yMy43MmgxNi41NDVsLS45MjMsNS4xMzRIMzM1LjA4NmwtLjc2LDQuNDQ4SDM0My4xbC0uOTI5LDUuMTRIMzMzLjRsLS42NSwzLjg1N2gxMC42MDlabTIxLjk4Mi0xNy41My0uNDYxLDIuNTdhOC4zLDguMywwLDAsMS0xLjM2OCwzLjQ1Nyw1LjgyNiw1LjgyNiwwLDAsMS0yLjE1NCwxLjg4MWwzLDkuNjIxaC02LjY2MUwzNTQsMTU0LjA0SDM1MS45NmwtMS4zNTIsOC44NjRoLTYuMzNsNC4xODUtMjMuNzJoOS41NTlxMy43NTMsMCw1LjMzOSwxLjY0N0E0LjQyNSw0LjQyNSwwLDAsMSwzNjQuNTQ4LDE0NCw3LjgxMSw3LjgxMSwwLDAsMSwzNjQuNDE1LDE0NS4zNzRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtODIuMjEpIiBmaWxsPSIjZmZmIi8+DQogICAgPHBhdGggaWQ9IlBhdGhfNTgiIGRhdGEtbmFtZT0iUGF0aCA1OCIgZD0iTTIxNC43MDksMTM0LjE4bC01LjksMzMuNzIxaC04LjQ3NGw1Ljk0Ni0zMy43MjFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTguMTkxKSIgZmlsbD0iI2ZlYzkwMCIvPg0KICA8L2c+DQo8L3N2Zz4NCg==");
+  background-image: url("https://nextra.nextra.bet/stilobet365/images/logo2.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1632,7 +1638,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block .block-content.sports-menu form input[type="submit"]:hover {
-  background-color: #ecc22b;
+  background-color: #0f6d25;
 }
 
 .side-bar .single-block .block-content.sports-menu .tabs {
@@ -1907,8 +1913,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .my-bets .my-coupons .buttons .single-button {
   width: 30px;
   height: 30px;
-  background: #a8b1c8;
-  border: 3px solid #e7e9f0;
+  background: #b5b5b5;
+  border: 3px solid #e8e8e8;
   border-radius: 5px;
   line-height: 30px;
   text-align: center;
@@ -1923,7 +1929,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .my-coupons .buttons .single-button:hover {
-  background-color: #e7e9f0;
+  background-color: #e8e8e8;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form {
@@ -1942,7 +1948,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .my-bets form div input[type="text"] {
   line-height: 30px;
   width: 100%;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   border-radius: 3px;
   font-weight: bold;
   padding: 0 10px 0 50px;
@@ -1977,24 +1983,24 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::-webkit-input-placeholder {
-  color: #b8bfd2;
+  color: #c2c2c2;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]:-ms-input-placeholder {
-  color: #b8bfd2;
+  color: #c2c2c2;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::-ms-input-placeholder {
-  color: #b8bfd2;
+  color: #c2c2c2;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::placeholder {
-  color: #b8bfd2;
+  color: #c2c2c2;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper {
-  background-color: #b8bfd2;
-  border: 4px solid #b8bfd2;
+  background-color: #c2c2c2;
+  border: 4px solid #c2c2c2;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2089,7 +2095,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting {
-  background-color: #f4c100;
+  background-color: #278a3a;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting .single-betslip-title {
@@ -2191,7 +2197,7 @@ input[type="submit"] {
   line-height: 28px;
   font-size: 12px;
   font-weight: 500;
-  color: #b8bfd2;
+  color: #c2c2c2;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div span {
@@ -2221,12 +2227,12 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div.half .refresh-button:hover i {
-  color: #99a3be;
+  color: darkgray;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder {
   width: 100%;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
@@ -2235,7 +2241,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event {
-  border-bottom: 1px solid #b8bfd2;
+  border-bottom: 1px solid #c2c2c2;
   width: 100%;
   display: inline-block;
   line-height: 26px;
@@ -2310,7 +2316,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .legend {
-  background: #b8bfd2;
+  background: #c2c2c2;
   border: none;
   width: calc(100%);
   line-height: 22px;
@@ -2594,8 +2600,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select {
-  border: 1px solid #b8bfd2;
-  background-color: #b8bfd2;
+  border: 1px solid #c2c2c2;
+  background-color: #c2c2c2;
   color: #ebebeb;
   font-size: 12px;
   line-height: 24px;
@@ -2630,7 +2636,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select:hover {
-  background-color: #c8cddc;
+  background-color: #cfcfcf;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group .ui-selectmenu-button .ui-icon,
@@ -2673,7 +2679,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th input,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td input {
   max-width: 30px;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   border-radius: 3px;
   font-weight: bold;
   color: #000000;
@@ -2866,7 +2872,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group table td .check:hover input ~ .checkmark,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .check:hover input ~ .checkmark,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .check:hover input ~ .checkmark {
-  background-color: rgba(184, 191, 210, 0.1);
+  background-color: rgba(194, 194, 194, 0.1);
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group table th,
@@ -2938,7 +2944,7 @@ input[type="submit"] {
   line-height: 20px;
   height: 20px;
   margin-top: 3px;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   border-radius: 3px;
 }
 
@@ -2946,8 +2952,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select {
-  border: 1px solid #b8bfd2;
-  background-color: #b8bfd2;
+  border: 1px solid #c2c2c2;
+  background-color: #c2c2c2;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -2963,7 +2969,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select:hover {
-  background-color: #c8cddc;
+  background-color: #cfcfcf;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .ui-selectmenu-button .ui-icon,
@@ -3014,7 +3020,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table tr:last-child {
-  border-bottom: 3px solid #b8bfd2;
+  border-bottom: 3px solid #c2c2c2;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .totals {
@@ -3455,7 +3461,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid #d7dbe6;
+  border: 1px solid gainsboro;
   border-radius: 3px;
 }
 
@@ -3474,7 +3480,7 @@ input[type="submit"] {
 }
 
 .single-sport .anchor .check:hover input ~ .checkmark {
-  background: #c8cddc;
+  background: #cfcfcf;
 }
 
 .single-sport .anchor .icon {
@@ -3802,7 +3808,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state > .anchor .check:hover input ~ .checkmark {
-  background: rgba(184, 191, 210, 0.2);
+  background: rgba(194, 194, 194, 0.2);
 }
 
 .single-sport .states .state i {
@@ -3852,7 +3858,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state .championship .anchor .check:hover input ~ .checkmark {
-  background: rgba(184, 191, 210, 0.2);
+  background: rgba(194, 194, 194, 0.2);
 }
 
 .single-sport .states .state .championship.active {
@@ -3864,7 +3870,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state .championship.selected .anchor {
-  background: #333844;
+  background: #278a3a;
   color: #ebebeb;
   font-weight: 500;
 }
@@ -4038,7 +4044,7 @@ input[type="submit"] {
 
 .center-content .main-slider .single-slide .odds-holder .single-odd div {
   float: left;
-  color: #f4c100;
+  color: #278a3a;
   position: absolute;
   left: 5px;
   top: 50%;
@@ -4081,14 +4087,14 @@ input[type="submit"] {
   border-radius: 50%;
   padding: 0;
   display: inline-block;
-  border: 2px solid #f4c100;
+  border: 2px solid #278a3a;
   cursor: pointer;
   margin: 0 3px;
   background: transparent;
 }
 
 .center-content .main-slider .slick-dots li.slick-active button, .center-content .main-slider .slick-dots li:hover button {
-  background-color: #f4c100;
+  background-color: #278a3a;
 }
 
 .center-content .center-block {
@@ -5285,19 +5291,19 @@ div.landing-page .banner-content .grid a {
 
 div.landing-page .banner-content .grid a.become-agent {
   float: right;
-  background: #f4c100;
+  background: #278a3a;
 }
 
 div.landing-page .banner-content .grid a.become-agent:hover {
-  background: #c19900;
+  background: #1c6229;
 }
 
 div.landing-page .banner-content .grid a.register-online {
-  background: #333844;
+  background: #278a3a;
 }
 
 div.landing-page .banner-content .grid a.register-online:hover {
-  background: #1d2027;
+  background: #1c6229;
 }
 
 .landing-bottom-holder {
@@ -5518,7 +5524,7 @@ footer .footer-logo a:before {
   height: 70px;
   display: block;
   position: relative;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzYuMDI3IiBoZWlnaHQ9IjMzLjcyMSIgdmlld0JveD0iMCAwIDE3Ni4wMjcgMzMuNzIxIj4NCiAgPGcgaWQ9Ikdyb3VwXzEzIiBkYXRhLW5hbWU9Ikdyb3VwIDEzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTE0LjEzMSAtMTM0LjE4KSI+DQogICAgPHBhdGggaWQ9IlBhdGhfNTUiIGRhdGEtbmFtZT0iUGF0aCA1NSIgZD0iTTEzMy42NjMsMTM0LjE4cTUuMzM4LDAsNy41ODcsMi4zNDNhNi4yNzQsNi4yNzQsMCwwLDEsMS42ODYsNC41LDExLjE0OCwxMS4xNDgsMCwwLDEtLjE4OCwxLjk2NmwtLjQyMiwyLjI0MmE3LjkzNyw3LjkzNywwLDAsMS0xLjk4OSw0LjE2OSw3LjQsNy40LDAsMCwxLTIuNjcxLDEuNTIxLDEwLjY4OSwxMC42ODksMCwwLDEsMi42OTQsMS44LDQuODM4LDQuODM4LDAsMCwxLDEuMzU4LDMuNDI1LDguMDQ2LDguMDQ2LDAsMCwxLS4xODgsMS42ODZsLS4yNzksMS40NTJhMTAuMjQ1LDEwLjI0NSwwLDAsMS0zLjU3NCw2LjMyM3EtMi44MjMsMi4yOTQtNy44OTMsMi4yOTRIMTE0LjEzMWw1Ljk0OS0zMy43MjFabS00LjIyNCwxOS45NTFIMTI1bC0xLjExOCw2LjQ2Nmg0LjYzYTUuMzM2LDUuMzM2LDAsMCwwLDMuNDE4LTEuMDA3LDMuMDQyLDMuMDQyLDAsMCwwLDEuMjY3LTIuNDZxMC0zLTMuNzUtM1ptMS4yNjQtMTIuNjQzaC0zLjVsLTEuMjE4LDYuOTg5aDMuNDY0cTQuNTA3LDAsNC41MDctMy45NDVhMy4wMjksMy4wMjksMCwwLDAtLjgxOS0yLjJBMy4yNjMsMy4yNjMsMCwwLDAsMTMwLjcsMTQxLjQ4OFoiIGZpbGw9IiNmZWM5MDAiLz4NCiAgICA8cGF0aCBpZD0iUGF0aF81NiIgZGF0YS1uYW1lPSJQYXRoIDU2IiBkPSJNNTk4LjQ0NSwxNjUuMzhoLTIuNDczbC0uODQyLDUuNzM1aDIuMzA3YTMuMjI3LDMuMjI3LDAsMCwwLDIuNTA1LS44NDIsMy4xODIsMy4xODIsMCwwLDAsLjc1Ny0yLjIyM1E2MDAuNjg0LDE2NS4zOCw1OTguNDQ1LDE2NS4zOFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMjQuNzA4IC0yMS4wNjIpIiBmaWxsPSIjZmZmIi8+DQogICAgPHBhdGggaWQ9IlBhdGhfNTciIGRhdGEtbmFtZT0iUGF0aCA1NyIgZD0iTTM3MC4wNTUsMTM0LjE4aC0xMjguMkwyMzUuOTExLDE2Ny45SDM2NC45OGEyLjMxNywyLjMxNywwLDAsMCwyLjI3NS0xLjkxNGw1LjA3OS0yOS4wOTRhMi4zMTMsMi4zMTMsMCwwLDAtMi4yNzgtMi43MTNaTTI2MC4wNDcsMTYyLjlsLjg5LTE1LjE5MUwyNTYuNTIxLDE2Mi45aC05Ljg4OGwuMjMxLTIzLjcyaDYuNDZsLS41OTEsMTcuOTU5aC43NTdsNS43NjgtMTcuOTU5aDYuNDI0bC0uNTU5LDE3Ljk1OWguNzU0bDUuNzM1LTE3Ljk1OWg2LjQ2bC04LjEyMywyMy43MlptMTUuMTI2LDAsNC4xODgtMjMuNzJoNS45M2wtNC4xNDMsMjMuNzJabTIxLjAyNiwwLTQuMTUzLTEzLTIuMjQyLDEzaC01Ljk2Mmw0LjE4NS0yMy43Mmg2LjExOGw0LjEsMTIuMTIsMi4xNDEtMTIuMTI2aDUuOTMzbC00LjE1MywyMy43MlptMjEuMDI2LDAtNC4xNTMtMTMtMi4yNDIsMTNoLTUuOTYybDQuMTg4LTIzLjcyaDYuMTI4bDQuMDg0LDEyLjEyLDIuMTQxLTEyLjEyNmg1LjkzbC00LjE0OSwyMy43MlptMjUuMjA4LDBIMzI1Ljg5MWw0LjE4NS0yMy43MmgxNi41NDVsLS45MjMsNS4xMzRIMzM1LjA4NmwtLjc2LDQuNDQ4SDM0My4xbC0uOTI5LDUuMTRIMzMzLjRsLS42NSwzLjg1N2gxMC42MDlabTIxLjk4Mi0xNy41My0uNDYxLDIuNTdhOC4zLDguMywwLDAsMS0xLjM2OCwzLjQ1Nyw1LjgyNiw1LjgyNiwwLDAsMS0yLjE1NCwxLjg4MWwzLDkuNjIxaC02LjY2MUwzNTQsMTU0LjA0SDM1MS45NmwtMS4zNTIsOC44NjRoLTYuMzNsNC4xODUtMjMuNzJoOS41NTlxMy43NTMsMCw1LjMzOSwxLjY0N0E0LjQyNSw0LjQyNSwwLDAsMSwzNjQuNTQ4LDE0NCw3LjgxMSw3LjgxMSwwLDAsMSwzNjQuNDE1LDE0NS4zNzRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtODIuMjEpIiBmaWxsPSIjZmZmIi8+DQogICAgPHBhdGggaWQ9IlBhdGhfNTgiIGRhdGEtbmFtZT0iUGF0aCA1OCIgZD0iTTIxNC43MDksMTM0LjE4bC01LjksMzMuNzIxaC04LjQ3NGw1Ljk0Ni0zMy43MjFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTguMTkxKSIgZmlsbD0iI2ZlYzkwMCIvPg0KICA8L2c+DQo8L3N2Zz4NCg==");
+  background-image: url("https://nextra.nextra.bet/stilobet365/images/logo2.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -5838,7 +5844,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .single-match-row td .goal-odd {
   width: calc((100% / 6) - 1px);
   display: inline-block;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   margin-right: -1px;
   margin-bottom: -1px;
   text-align: center;
@@ -5976,7 +5982,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .match-name .team-names.has-info:before {
   display: none;
   content: "";
-  border-bottom: 9px solid #b8bfd2;
+  border-bottom: 9px solid #c2c2c2;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -5996,7 +6002,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .match-name .team-names.has-info .info-box {
   position: absolute;
   width: 166px;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   border-radius: 5px;
   background: var(--bg1);
   color: var(--col1);
@@ -6060,14 +6066,14 @@ footer.center-footer .footer-logos .group-1 {
 
 .odds-table .match-name .team-names.has-info .info-box .odd-types .single-type {
   width: 33%;
-  background: #b8bfd2;
-  color: #f4c100;
+  background: #c2c2c2;
+  color: #278a3a;
   font-size: 12px;
   text-align: center;
   font-weight: bold;
   line-height: 28px;
-  -webkit-box-shadow: inset 0 1px 0 #c8cddc;
-          box-shadow: inset 0 1px 0 #c8cddc;
+  -webkit-box-shadow: inset 0 1px 0 #cfcfcf;
+          box-shadow: inset 0 1px 0 #cfcfcf;
   float: left;
 }
 
@@ -6097,7 +6103,7 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   height: 15px;
   width: 34px;
-  background: #b8bfd2;
+  background: #c2c2c2;
   border-radius: 3px;
   position: relative;
   overflow: hidden;
@@ -6109,7 +6115,7 @@ footer.center-footer .footer-logos .group-1 {
   left: 0;
   top: 0;
   width: 50%;
-  background: #f4c100;
+  background: #278a3a;
 }
 
 .odds-table .match-name .team-names.has-info .info-box .bars-holder .single-bar-holder:nth-child(2) {
@@ -6332,20 +6338,20 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .title.light {
-  background: #e7e9f0;
+  background: #e8e8e8;
 }
 
 .results-page .results-filter {
   width: 100%;
   display: inline-block;
-  background: #99a3be;
+  background: darkgray;
 }
 
 .results-page .results-filter .single-filter {
   float: left;
   padding: 10px 20px 25px 10px;
-  border-right: 1px solid #b8bfd2;
-  color: #99a3be;
+  border-right: 1px solid #c2c2c2;
+  color: darkgray;
   width: 130px;
 }
 
@@ -6358,7 +6364,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results-filter .single-filter input[type="date"] {
-  color: #99a3be;
+  color: darkgray;
   background-color: #b398d1;
   background-image: url(//nextra.nextra.bet/biwinner/images/colored-calendar.png);
   background-size: auto 100%;
@@ -6386,7 +6392,7 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 3px;
   height: 26px;
   padding-left: 8px;
-  color: #99a3be;
+  color: darkgray;
 }
 
 .results-page .results-filter .single-filter select::-ms-expand {
@@ -6418,7 +6424,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results .single-result .result-top-bar .championship-name {
-  color: #99a3be;
+  color: darkgray;
   font-size: 12px;
   font-weight: bold;
   float: left;
@@ -6432,7 +6438,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results .single-result .result-top-bar .result div {
-  color: #99a3be;
+  color: darkgray;
   font-size: 12px;
   font-weight: 500;
   width: 50px;
@@ -6448,14 +6454,14 @@ footer.center-footer .footer-logos .group-1 {
 .results-page .results .single-result .result-match {
   width: 100%;
   background: #f1f1f2;
-  border-bottom: 3px solid #99a3be;
+  border-bottom: 3px solid darkgray;
 }
 
 .results-page .results .single-result .result-match .time {
   line-height: 76px;
   font-size: 12px;
   font-weight: 500;
-  color: #99a3be;
+  color: darkgray;
   padding: 0 10px;
   text-align: center;
   display: inline-block;
@@ -6474,7 +6480,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 30px;
   font-size: 12px;
   font-weight: 500;
-  color: #99a3be;
+  color: darkgray;
 }
 
 .results-page .results .single-result .result-match .match-teams .home-team.winner,
@@ -6502,7 +6508,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .results-page .results .single-result .result-match .result div {
   padding: 8px 0;
-  color: #99a3be;
+  color: darkgray;
   font-size: 12px;
   font-weight: 500;
   width: 50px;
@@ -6523,7 +6529,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .results-page .results .single-result .result-match .result div.status {
   line-height: 60px;
-  color: #d1a813;
+  color: #094016;
   font-weight: bold;
 }
 
@@ -6554,6 +6560,8 @@ footer.center-footer .footer-logos .group-1 {
   width: 21px;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+          filter: grayscale(1) brightness(0) invert(0);
 }
 
 .championship-page .title img.icon:before,
@@ -6774,7 +6782,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .explore-matches-page .title {
-  border-bottom: 1px solid #b8bfd2;
+  border-bottom: 1px solid #c2c2c2;
   line-height: 36px;
   width: calc(100% - 70px);
   padding: 0 35px;
@@ -6910,7 +6918,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   width: 37px;
   height: 26px;
-  background: #333844;
+  background: #278a3a;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   border: none;
@@ -6924,7 +6932,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .sports-book-page .filters-holder .search-form input[type="text"] {
   border: none;
-  border-left: 1px solid #333844;
+  border-left: 1px solid #278a3a;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   line-height: 24px;
@@ -7327,7 +7335,7 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   padding: 25px 15px;
   display: inline-block;
-  background: #b8bfd2;
+  background: #c2c2c2;
 }
 
 .sports-book-page .button-holder .button-next {
@@ -7376,7 +7384,7 @@ footer.center-footer .footer-logos .group-1 {
 .become-an-agent-page .agent-buttons {
   text-align: center;
   padding: 30px 0;
-  background-color: #a8b1c8;
+  background-color: #b5b5b5;
 }
 
 .become-an-agent-page .agent-buttons .single-button {
@@ -7454,11 +7462,11 @@ footer.center-footer .footer-logos .group-1 {
 
 .become-an-agent-page .page-content .inner-content .content-block.last-block p .colored {
   font-weight: bold;
-  color: #333844;
+  color: #278a3a;
 }
 
 .become-an-agent-page .page-content .inner-content .content-block .title {
-  color: #333844;
+  color: #278a3a;
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
@@ -7471,15 +7479,15 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   margin: 0 10px;
   padding: 0 20px;
-  border: 2px solid #333844;
+  border: 2px solid #278a3a;
   border-radius: 3px;
-  color: #333844;
+  color: #278a3a;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
 
 .become-an-agent-page .page-content .inner-content .content-block .title a:hover {
-  background: #333844;
+  background: #278a3a;
   color: #ebebeb;
 }
 
@@ -7510,7 +7518,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: #333844;
+  background: #278a3a;
 }
 
 .dark-overlay {
@@ -7732,7 +7740,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .sports-container .sports .sport .anchor.special {
   background: #ececed;
-  color: #b8bfd2;
+  color: #c2c2c2;
   font-weight: bold;
   font-size: 12px;
   border-top: 1px solid #feffff;
@@ -8174,7 +8182,7 @@ footer.center-footer .footer-logos .group-1 {
   border: none;
   margin-top: 26px;
   height: 2px;
-  background: #333844;
+  background: #278a3a;
   border-radius: 1px !important;
 }
 
@@ -8185,13 +8193,13 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 50% !important;
   top: -4px;
   border: none;
-  background: #c19900;
+  background: #1c6229;
   cursor: pointer;
 }
 
 .live-odds-table table tr td.odd-holder .match-live-sliders .home-team .live-slider-holder .ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle:hover,
 .live-odds-table table tr td.odd-holder .match-live-sliders .away-team .live-slider-holder .ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle:hover {
-  color: #8e7000;
+  color: #113a19;
 }
 
 .live-odds-table table tr td.odd-holder .match-live-sliders .home-team .live-slider-holder .slider-controls,
@@ -9130,7 +9138,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view {
   margin: 7px 13px;
-  background: #b8bfd2;
+  background: #c2c2c2;
   border-radius: 3px;
   cursor: pointer;
   display: inline-block;
@@ -9177,7 +9185,7 @@ footer.center-footer .footer-logos .group-1 {
 .live-sports-diary .matches-wrapper .single-match .match-details-wrapper .match-details {
   height: 28px;
   background-color: #ebebeb;
-  border: 1px solid #333844;
+  border: 1px solid #278a3a;
   border-radius: 3px;
   width: 40px;
   margin: 9px 12px;
@@ -9189,12 +9197,12 @@ footer.center-footer .footer-logos .group-1 {
   width: 100%;
   text-align: center;
   font-size: 9px;
-  color: #333844;
+  color: #278a3a;
   font-weight: 700;
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-details-wrapper .match-details .match-date {
-  background: #333844;
+  background: #278a3a;
   color: #ebebeb;
 }
 
@@ -9286,7 +9294,7 @@ footer.center-footer .footer-logos .group-1 {
   margin-right: 10px;
   background-image: url(//nextra.nextra.bet/biwinner/images/live-result-background.jpg);
   background-size: 100% 100%;
-  border: 1px solid #f4c100;
+  border: 1px solid #278a3a;
   width: 35px;
   float: left;
   display: inline-block;
@@ -9299,7 +9307,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 19px;
   font-size: 13px;
   font-weight: bold;
-  color: #f4c100;
+  color: #278a3a;
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .top-part .team-names {
@@ -9502,7 +9510,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches {
-  background: #333844;
+  background: #278a3a;
   padding: 20px 25px;
 }
 
@@ -9523,9 +9531,9 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #d1a813;
+  background: #094016;
   text-transform: uppercase;
-  color: #222;
+  color: #fff;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-title img {
@@ -9552,11 +9560,11 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-multiview .multiview-matches .single-multiview .multiview-content {
   display: none;
-  border-bottom: 5px solid #d1a813;
+  border-bottom: 5px solid #094016;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper {
-  background: #b8bfd2;
+  background: #c2c2c2;
   border-bottom: 1px solid #977fb1;
   display: inline-block;
   width: 100%;
@@ -9603,7 +9611,7 @@ footer.center-footer .footer-logos .group-1 {
   margin-right: 10px;
   background-image: url(//nextra.nextra.bet/biwinner/images/live-result-background.jpg);
   background-size: 100% 100%;
-  border: 1px solid #f4c100;
+  border: 1px solid #278a3a;
   width: 35px;
   float: left;
   display: inline-block;
@@ -9616,7 +9624,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 19px;
   font-size: 13px;
   font-weight: bold;
-  color: #f4c100;
+  color: #278a3a;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .match-info .team-names {
@@ -9640,7 +9648,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view {
-  background: #b8bfd2;
+  background: #c2c2c2;
   border-radius: 3px;
   cursor: pointer;
   border: 1px solid #977fb1;
@@ -9714,7 +9722,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: 500;
   padding-left: 10px;
   line-height: 24px;
-  background: #b8bfd2;
+  background: #c2c2c2;
   border-top: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -9763,7 +9771,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .odds-wrapper .odds-holder .single-odd:hover {
-  background: #d7dbe6;
+  background: gainsboro;
   color: white;
 }
 
@@ -9958,7 +9966,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(184, 191, 210, 0.2);
+  background-color: rgba(194, 194, 194, 0.2);
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .check-label {
@@ -10003,7 +10011,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #f4c100;
+  border: 2px solid #278a3a;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -10012,7 +10020,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f4c100;
+  background: #278a3a;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10034,14 +10042,14 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f4c100;
+  background: #278a3a;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(184, 191, 210, 0.2);
+  background-color: rgba(194, 194, 194, 0.2);
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio-label {
@@ -10078,7 +10086,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .note {
   font-size: 11px;
-  color: #f4c100;
+  color: #278a3a;
   line-height: 18px;
   padding-right: 30px;
 }
@@ -10262,7 +10270,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper textarea {
   color: #333;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   background: #e5e5e5;
   width: 100%;
   padding: 5px;
@@ -10274,7 +10282,7 @@ footer.center-footer .footer-logos .group-1 {
 .registration-page .registration-holder .form-holder form .input-wrapper input[type="password"],
 .registration-page .registration-holder .form-holder form .input-wrapper input[type="number"] {
   color: #333;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -10285,8 +10293,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button,
 .registration-page .registration-holder .form-holder form .input-wrapper select {
-  border: 1px solid #b8bfd2;
-  background-color: #b8bfd2;
+  border: 1px solid #c2c2c2;
+  background-color: #c2c2c2;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -10299,7 +10307,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button:hover,
 .registration-page .registration-holder .form-holder form .input-wrapper select:hover {
-  background-color: #c8cddc;
+  background-color: #cfcfcf;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button .ui-icon,
@@ -10319,8 +10327,8 @@ footer.center-footer .footer-logos .group-1 {
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
-  border: 1px solid #b8bfd2;
-  background-color: #b8bfd2;
+  border: 1px solid #c2c2c2;
+  background-color: #c2c2c2;
   height: 24px;
   line-height: 22px;
   color: #ebebeb;
@@ -10341,7 +10349,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(184, 191, 210, 0.2);
+  background-color: rgba(194, 194, 194, 0.2);
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .check-label {
@@ -10386,7 +10394,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #f4c100;
+  border: 2px solid #278a3a;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -10395,7 +10403,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f4c100;
+  background: #278a3a;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10417,14 +10425,14 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f4c100;
+  background: #278a3a;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(184, 191, 210, 0.2);
+  background-color: rgba(194, 194, 194, 0.2);
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio-label {
@@ -10461,7 +10469,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .note {
   font-size: 11px;
-  color: #c19900;
+  color: #1c6229;
   line-height: 18px;
   padding-right: 30px;
 }
@@ -10600,7 +10608,7 @@ footer.center-footer .footer-logos .group-1 {
 .registration-page.agent-registration .agent-buttons {
   text-align: center;
   padding: 30px 0;
-  background-color: #a8b1c8;
+  background-color: #b5b5b5;
 }
 
 .registration-page.agent-registration .agent-buttons .single-button {
@@ -10730,7 +10738,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .help-page {
-  border-top: 4px solid #b8bfd2;
+  border-top: 4px solid #c2c2c2;
 }
 
 .help-page .center-content.default-page-content {
@@ -10741,7 +10749,7 @@ footer.center-footer .footer-logos .group-1 {
   border: 2px solid #d5cccc;
   display: inline-block;
   width: 100%;
-  background: #b8bfd2;
+  background: #c2c2c2;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -10757,7 +10765,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .help-page .help-menu ul li:hover, .help-page .help-menu ul li.open {
-  background-color: #d7dbe6;
+  background-color: gainsboro;
 }
 
 .help-page .help-menu ul li a,
@@ -10773,7 +10781,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .help-page .help-menu ul li.selected a {
   font-weight: 500;
-  color: #d1a813;
+  color: #094016;
 }
 
 .help-page .help-menu ul li span {
@@ -10808,16 +10816,16 @@ footer.center-footer .footer-logos .group-1 {
 
 .help-page .help-menu ul li .sub-menu li a {
   font-size: 12px;
-  color: #b8bfd2;
+  color: #c2c2c2;
 }
 
 .help-page .help-menu ul li .sub-menu li a:hover {
-  color: #d1a813;
+  color: #094016;
 }
 
 .help-page .help-menu ul li .sub-menu li.selected a {
   font-weight: 500;
-  color: #d1a813;
+  color: #094016;
 }
 
 .help-page .help-menu ul li.has-sub-menu span {
@@ -10995,7 +11003,7 @@ footer.center-footer .footer-logos .group-1 {
 .forgot-password-page .forgot-password-holder .forgot-password-content .form-holder input[type="text"] {
   display: inline-block;
   color: #333;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -11097,7 +11105,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper {
-  background-color: #b8bfd2;
+  background-color: #c2c2c2;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -11111,8 +11119,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper.ui-state-active, .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper:hover {
   background: #ebebeb;
-  color: #b8bfd2;
-  border-color: #b8bfd2;
+  color: #c2c2c2;
+  border-color: #c2c2c2;
 }
 
 .logged-page .logged-menu {
@@ -11455,13 +11463,13 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:hover ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:hover ~ .checkmark {
-  background-color: rgba(184, 191, 210, 0.2);
+  background-color: rgba(194, 194, 194, 0.2);
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:checked ~ .checkmark {
-  border-color: #a8b1c8;
-  background-color: #a8b1c8;
+  border-color: #b5b5b5;
+  background-color: #b5b5b5;
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked ~ .checkmark:after,
@@ -11471,7 +11479,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked:hover ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:checked:hover ~ .checkmark {
-  background-color: rgba(184, 191, 210, 0.8);
+  background-color: rgba(194, 194, 194, 0.8);
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check.valid,
@@ -11481,7 +11489,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th input[type="text"],
 .logged-page .logged-table.cashdesk-table tr td input[type="text"] {
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   border-radius: 3px;
   font-weight: bold;
   font-size: 13px;
@@ -11620,7 +11628,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .cashdesk-content {
   width: 100%;
   display: inline-block;
-  border-bottom: 5px solid #d1a813;
+  border-bottom: 5px solid #094016;
   background-color: #d4d4d4;
 }
 
@@ -11653,12 +11661,12 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:hover ~ .checkmark {
-  background-color: rgba(184, 191, 210, 0.2);
+  background-color: rgba(194, 194, 194, 0.2);
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked ~ .checkmark {
-  border-color: #333844;
-  background-color: #333844;
+  border-color: #278a3a;
+  background-color: #278a3a;
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked ~ .checkmark:after {
@@ -11666,7 +11674,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked:hover ~ .checkmark {
-  background-color: rgba(184, 191, 210, 0.8);
+  background-color: rgba(194, 194, 194, 0.8);
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group > span {
@@ -11732,7 +11740,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .cashdesk-tabs .row .stake-holder input {
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   border-radius: 3px;
   font-weight: bold;
   font-size: 10px;
@@ -11880,7 +11888,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table tr td:nth-child(2) .hour {
-  color: #8b700d;
+  color: black;
 }
 
 .logged-page .transactions-table tr td.fifteen i {
@@ -11970,7 +11978,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table.coupon-details-table tr td {
-  color: #b8bfd2;
+  color: #c2c2c2;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.3;
@@ -12062,7 +12070,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table.coupon-details-table thead tr th {
-  background: #b8bfd2;
+  background: #c2c2c2;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -12229,7 +12237,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .message-details-table {
   width: 100%;
-  background: #b8bfd2;
+  background: #c2c2c2;
 }
 
 .logged-page .message-details-table tr {
@@ -12257,7 +12265,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .message-details-table tr td .time {
-  color: #f4c100;
+  color: #278a3a;
 }
 
 .logged-page .message-details-table tr td .red {
@@ -12269,9 +12277,9 @@ footer.center-footer .footer-logos .group-1 {
   padding: 40px;
   background: #edeced;
   font-size: 12px;
-  color: #b8bfd2;
+  color: #c2c2c2;
   line-height: 18px;
-  border-bottom: 5px solid #d1a813;
+  border-bottom: 5px solid #094016;
 }
 
 .logged-page .message-content .buttons {
@@ -12318,14 +12326,14 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .message-content .buttons .single-button.reply-button {
   margin-right: 0;
   float: right;
-  background-color: #333844;
+  background-color: #278a3a;
   background-image: url(//nextra.nextra.bet/biwinner/images/reply-button.png);
-  -webkit-box-shadow: inset 0 1px #242730;
-          box-shadow: inset 0 1px #242730;
+  -webkit-box-shadow: inset 0 1px #1f6e2e;
+          box-shadow: inset 0 1px #1f6e2e;
 }
 
 .logged-page .message-content .buttons .single-button.reply-button:hover {
-  background-color: #242730;
+  background-color: #1f6e2e;
 }
 
 .logged-center {
@@ -12604,7 +12612,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .change-password-page .input-wrapper input[type="number"],
 .logged-center .change-password-page .input-wrapper input[type="date"] {
   color: #333;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -12634,7 +12642,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .change-password-page .input-wrapper .ui-selectmenu-button,
 .logged-center .change-password-page .input-wrapper select {
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   background-color: var(--bg1);
   color: var(--col1);
   font-size: 12px;
@@ -12699,7 +12707,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #f4c100;
+  border: 2px solid #278a3a;
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -12708,7 +12716,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f4c100;
+  background: #278a3a;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -12730,14 +12738,14 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f4c100;
+  background: #278a3a;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(184, 191, 210, 0.2);
+  background-color: rgba(194, 194, 194, 0.2);
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio-label {
@@ -12764,7 +12772,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .change-password-page.edit-user-page {
   background-color: #f8f8f8;
-  color: #afb7cc;
+  color: #bababa;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12804,7 +12812,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  background-color: #8995b4;
+  background-color: #9c9c9c;
   display: inline-block;
 }
 
@@ -13058,14 +13066,14 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button {
   margin-right: 30px;
   float: right;
-  background-color: #333844;
+  background-color: #278a3a;
   background-image: url(//nextra.nextra.bet/biwinner/images/search-icon.png);
-  -webkit-box-shadow: inset 0 1px #242730;
-          box-shadow: inset 0 1px #242730;
+  -webkit-box-shadow: inset 0 1px #1f6e2e;
+          box-shadow: inset 0 1px #1f6e2e;
 }
 
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button:hover {
-  background-color: #242730;
+  background-color: #1f6e2e;
 }
 
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button.new {
@@ -13106,7 +13114,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-content {
-  background: #b8bfd2;
+  background: #c2c2c2;
   padding: 5px;
   min-height: 800px;
   width: 100%;
@@ -13127,13 +13135,13 @@ footer.center-footer .footer-logos .group-1 {
   padding: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #8995b4;
+  background-color: #9c9c9c;
 }
 
 .logged-content .info-text.big {
   font-weight: normal;
   font-size: 16px;
-  border-top: 1px solid #b8bfd2;
+  border-top: 1px solid #c2c2c2;
 }
 
 .logged-content.fund-transfer-content {
@@ -13336,7 +13344,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   font-size: 13px;
   border-radius: 3px;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   width: calc(100% - 82px);
   padding: 0 0 0 6px;
 }
@@ -13394,11 +13402,11 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  border: 2px solid #99a3be;
+  border: 2px solid darkgray;
 }
 
 .logged-content .messages table tr td .status.read:after {
-  background-color: #f4c100;
+  background-color: #278a3a;
 }
 
 .logged-content .messages .table-legend {
@@ -13421,8 +13429,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-content .messages .table-legend div .icon {
   position: absolute;
-  background: #f4c100;
-  border: 2px solid #f4c100;
+  background: #278a3a;
+  border: 2px solid #278a3a;
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -13435,7 +13443,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-content .messages .table-legend div.read .icon {
   background: transparent;
-  border: 2px solid #b8bfd2;
+  border: 2px solid #c2c2c2;
 }
 
 .logged-content .messages .table-legend a {
@@ -13502,7 +13510,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .event-list-legend-holder {
-  background: #8c98b6;
+  background: #9e9e9e;
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13511,7 +13519,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .event-list-legend-holder .legend {
-  background: #b8bfd2;
+  background: #c2c2c2;
   border: none;
   width: calc(100%);
   line-height: 22px;
@@ -13720,7 +13728,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .reports-table .logged-table tbody tr.colored-row {
-  background-color: #e7e9f0;
+  background-color: #e8e8e8;
 }
 
 .reports-table .logged-table tbody tr.colored-row td {
@@ -13762,7 +13770,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .reports-table .logged-table tfoot tr td {
-  color: #8995b4;
+  color: #9c9c9c;
   font-weight: bold;
   background-color: transparent;
 }
@@ -13817,11 +13825,11 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   display: inline-block;
   width: 100%;
-  background: #d1a813;
+  background: #094016;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: inset 0px 1px 0 #d1a813;
-          box-shadow: inset 0px 1px 0 #d1a813;
+  -webkit-box-shadow: inset 0px 1px 0 #094016;
+          box-shadow: inset 0px 1px 0 #094016;
 }
 
 .reports .calculations .single-calculation .holder {
@@ -14135,7 +14143,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #7a87aa;
+  color: #8f8f8f;
   padding: 10px;
   z-index: 99999;
 }
@@ -14321,7 +14329,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="number"],
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="date"] {
   color: #333;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -14423,8 +14431,8 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select {
-  border: 1px solid #b8bfd2;
-  background-color: #b8bfd2;
+  border: 1px solid #c2c2c2;
+  background-color: #c2c2c2;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -14469,7 +14477,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select:hover,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button:hover,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select:hover {
-  background-color: #c8cddc;
+  background-color: #cfcfcf;
 }
 
 .coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .ui-selectmenu-button .ui-icon,
@@ -14511,13 +14519,13 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .title,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .title {
   position: relative;
-  color: #222;
+  color: #fff;
   line-height: 36px;
   height: 36px;
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #d1a813;
+  background: #094016;
   text-transform: uppercase;
 }
 
@@ -14700,7 +14708,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table thead tr th,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table thead tr th,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table thead tr th {
-  background: #b8bfd2;
+  background: #c2c2c2;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -14740,7 +14748,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tbody tr td span.colored,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tbody tr td span.colored,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tbody tr td span.colored {
-  color: #e7e9f0;
+  color: #e8e8e8;
   font-weight: bold;
 }
 
@@ -14757,7 +14765,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-date-info,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info {
-  border-left: 1px solid #d7dbe6;
+  border-left: 1px solid gainsboro;
   float: left;
   padding: 10px;
   -webkit-box-sizing: border-box;
@@ -14783,7 +14791,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-code,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-code,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-code {
-  border-left: 1px solid #d7dbe6;
+  border-left: 1px solid gainsboro;
   line-height: 32px;
   padding: 10px;
   font-size: 16px;
@@ -14795,7 +14803,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details {
-  border-left: 1px solid #d7dbe6;
+  border-left: 1px solid gainsboro;
   float: left;
   color: white;
   padding: 10px;
@@ -14967,7 +14975,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .message .message-title span,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .message .message-title span {
   display: inline-block;
-  color: #b8bfd2;
+  color: #c2c2c2;
   font-size: 16px;
   line-height: 44px;
   font-weight: bold;
@@ -15077,7 +15085,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 36px;
   font-size: 13px;
   font-weight: 500;
-  color: #b8bfd2;
+  color: #c2c2c2;
   border-bottom: 2px solid #d4d2d2;
 }
 
@@ -15159,7 +15167,7 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   font-size: 18px;
   font-weight: bold;
-  color: #b8bfd2;
+  color: #c2c2c2;
   line-height: 52px;
 }
 
@@ -15206,7 +15214,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details {
-  background: #b8bfd2;
+  background: #c2c2c2;
   padding-bottom: 30px;
 }
 
@@ -15243,7 +15251,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table tr td,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table tr td {
   font-size: 13px;
-  color: #b8bfd2;
+  color: #c2c2c2;
   font-weight: 500;
   height: 30px;
   padding: 5px 0 5px 10px;
@@ -15333,7 +15341,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td {
-  color: #b8bfd2;
+  color: #c2c2c2;
   font-size: 12px;
   font-weight: normal;
 }
@@ -15413,7 +15421,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table thead tr th,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table thead tr th,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table thead tr th {
-  background: #b8bfd2;
+  background: #c2c2c2;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -15438,7 +15446,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list.system-details {
   padding-bottom: 30px;
-  background: #b8bfd2;
+  background: #c2c2c2;
 }
 
 .coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details table tr td,
@@ -15509,7 +15517,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block p,
 .login-popup-wrapper .popup-content .first-blocks .block p {
   font-size: 13px;
-  color: #b8bfd2;
+  color: #c2c2c2;
   line-height: 15px;
 }
 
@@ -15587,15 +15595,15 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button {
   margin-right: 0;
-  background-color: #333844;
+  background-color: #278a3a;
   background-image: url(//nextra.nextra.bet/biwinner/images/send-button.png);
-  -webkit-box-shadow: inset 0 1px #242730;
-          box-shadow: inset 0 1px #242730;
+  -webkit-box-shadow: inset 0 1px #1f6e2e;
+          box-shadow: inset 0 1px #1f6e2e;
 }
 
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover {
-  background-color: #242730;
+  background-color: #1f6e2e;
 }
 
 .coupon-popup-wrapper .popup-content .first-blocks .block:first-child,
@@ -15657,7 +15665,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .betslip-info .big-title,
 .login-popup-wrapper .popup-content .betslip-info .big-title {
   font-weight: 900;
-  color: #b8bfd2;
+  color: #c2c2c2;
 }
 
 .coupon-popup-wrapper .popup-content .betslip-info .big-title span,
@@ -15668,7 +15676,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .coupon-popup-wrapper .popup-content .betslip-info .details,
 .login-popup-wrapper .popup-content .betslip-info .details {
-  color: #b8bfd2;
+  color: #c2c2c2;
   font-size: 12px;
   font-weight: bold;
 }
@@ -15696,13 +15704,13 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   text-align: center;
   line-height: 34px;
-  background: #b8bfd2;
+  background: #c2c2c2;
 }
 
 .coupon-popup-wrapper .popup-content .betslip-table tr td,
 .login-popup-wrapper .popup-content .betslip-table tr td {
   font-size: 13px;
-  color: #b8bfd2;
+  color: #c2c2c2;
   line-height: 34px;
   text-align: center;
 }
@@ -15819,7 +15827,7 @@ footer.center-footer .footer-logos .group-1 {
   color: #ebebeb;
   font-size: 14px;
   font-weight: bold;
-  background-color: #333844;
+  background-color: #278a3a;
   background-image: url(//nextra.nextra.bet/biwinner/images/show-all-icon.png);
 }
 
@@ -15864,8 +15872,8 @@ footer.center-footer .footer-logos .group-1 {
   border-bottom-left-radius: 3px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
-  background-color: #d1a813;
-  color: #222;
+  background-color: #094016;
+  color: #fff;
   font-size: 0;
   background-image: url(//nextra.nextra.bet/biwinner/images/search-icon.png);
   background-size: 45% auto;
@@ -15876,16 +15884,16 @@ footer.center-footer .footer-logos .group-1 {
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form input[type="submit"]:hover,
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form input[type="button"]:hover,
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form .button:hover {
-  background-color: #ecc22b;
+  background-color: #0f6d25;
 }
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-title {
-  background: #b8bfd2;
+  background: #c2c2c2;
   height: 36px;
   display: inline-block;
   width: 100%;
-  -webkit-box-shadow: inset 0px 1px 0 #c8cddc;
-          box-shadow: inset 0px 1px 0 #c8cddc;
+  -webkit-box-shadow: inset 0px 1px 0 #cfcfcf;
+          box-shadow: inset 0px 1px 0 #cfcfcf;
   font-size: 14px;
   color: #ebebeb;
   line-height: 36px;
@@ -15946,7 +15954,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.date {
   width: 50px;
-  color: #b8bfd2;
+  color: #c2c2c2;
   font-size: 12px;
   font-weight: 500;
   line-height: 14px;
@@ -15956,7 +15964,7 @@ footer.center-footer .footer-logos .group-1 {
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.team-names {
   line-height: 28px;
   width: 540px;
-  color: #b8bfd2;
+  color: #c2c2c2;
   font-size: 13px;
   font-weight: bold;
 }
@@ -16009,11 +16017,11 @@ footer.center-footer .footer-logos .group-1 {
           flex: 1 0 19px;
   font-size: 9px;
   color: #ebebeb;
-  background: #99a3be;
+  background: darkgray;
 }
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.odds-holder .single-odd .quote {
-  color: #99a3be;
+  color: darkgray;
   font-size: 12px;
   font-weight: bold;
   -webkit-box-flex: 1;
@@ -16064,13 +16072,13 @@ footer.center-footer .footer-logos .group-1 {
 
 .login-popup .login-content .title {
   position: relative;
-  color: #222;
+  color: #fff;
   line-height: 36px;
   height: 36px;
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #d1a813;
+  background: #094016;
   text-transform: uppercase;
 }
 
@@ -16085,7 +16093,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
-  background-color: #8995b4;
+  background-color: #9c9c9c;
   color: white;
   padding: 0 15px;
   font-size: 15px;
@@ -16130,7 +16138,7 @@ footer.center-footer .footer-logos .group-1 {
   max-width: 50%;
   display: inline-block;
   background-color: transparent;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 5px;
@@ -16164,7 +16172,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  background-color: #8995b4;
+  background-color: #9c9c9c;
   display: inline-block;
 }
 
@@ -16184,17 +16192,17 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 33px;
   margin: 0 2px;
   margin-right: 0;
-  background-color: #333844;
+  background-color: #278a3a;
   background-image: url(//nextra.nextra.bet/biwinner/images/send-button.png);
-  -webkit-box-shadow: inset 0 1px #242730;
-          box-shadow: inset 0 1px #242730;
+  -webkit-box-shadow: inset 0 1px #1f6e2e;
+          box-shadow: inset 0 1px #1f6e2e;
   float: left;
   border: none;
 }
 
 .login-popup .login-content form .button-holder div:hover,
 .login-popup .login-content form .button-holder input[type="submit"]:hover {
-  background-color: #242730;
+  background-color: #1f6e2e;
 }
 
 .login-popup .login-content form .button-holder div.register-button,
@@ -16248,7 +16256,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #7a87aa;
+  color: #8f8f8f;
   padding: 10px;
   z-index: 99999;
 }
@@ -16275,7 +16283,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #f4c100;
+  color: #278a3a;
 }
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16377,7 +16385,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #7a87aa;
+  color: #8f8f8f;
   padding: 10px;
   z-index: 99999;
 }
@@ -16400,12 +16408,12 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 22px;
   width: calc(100% - 54px);
-  color: #b8bfd2;
+  color: #c2c2c2;
   font-size: 16px;
 }
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #f4c100;
+  color: #278a3a;
 }
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16508,7 +16516,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #7a87aa;
+  color: #8f8f8f;
   padding: 10px;
   z-index: 99999;
 }
@@ -16531,12 +16539,12 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 22px;
   width: calc(100% - 54px);
-  color: #b8bfd2;
+  color: #c2c2c2;
   font-size: 16px;
 }
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #f4c100;
+  color: #278a3a;
 }
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16695,7 +16703,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .payment-method-table table tbody tr td:nth-child(3) .purple, .payment-method-table table tbody tr td:nth-child(4) .purple, .payment-method-table table tbody tr td:nth-child(5) .purple {
-  background: #333844;
+  background: #278a3a;
   color: #ebebeb;
   line-height: 50px;
   text-align: center;
@@ -17009,7 +17017,7 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   padding: 25px;
   border-bottom: 1px solid #d7d7d7;
-  color: #b8bfd2;
+  color: #c2c2c2;
 }
 
 .deposit-page .block .right-content .wrapper:last-child {
@@ -17039,7 +17047,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .input-group .label {
   width: calc(100% - 200px);
   float: left;
-  color: #b8bfd2;
+  color: #c2c2c2;
   font-size: 13px;
   font-weight: 500;
   line-height: 30px;
@@ -17048,7 +17056,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .input-group input {
   padding: 5px;
   height: 30px;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   border-radius: 3px;
   background-color: transparent;
   float: left;
@@ -17068,8 +17076,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button,
 .deposit-page .block .right-content .wrapper .input-group select {
-  border: 1px solid #b8bfd2;
-  background-color: #b8bfd2;
+  border: 1px solid #c2c2c2;
+  background-color: #c2c2c2;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -17095,7 +17103,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button:hover,
 .deposit-page .block .right-content .wrapper .input-group select:hover {
-  background-color: #c8cddc;
+  background-color: #cfcfcf;
 }
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button .ui-icon,
@@ -17131,7 +17139,7 @@ footer.center-footer .footer-logos .group-1 {
   height: 30px;
   display: inline-block;
   padding: 0 12px;
-  background: #b8bfd2;
+  background: #c2c2c2;
   margin-right: 5px;
   border-radius: 3px;
   color: white;
@@ -17142,7 +17150,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount.first-amount {
   width: 30px;
   text-align: center;
-  background-color: #b8bfd2;
+  background-color: #c2c2c2;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-right: 20px;
@@ -17155,11 +17163,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount:hover {
-  background-color: #99a3be;
+  background-color: darkgray;
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount.selected {
-  background-color: #f4c100;
+  background-color: #278a3a;
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .amount-block {
@@ -17246,7 +17254,7 @@ footer.center-footer .footer-logos .group-1 {
   margin: 0 10px;
   width: calc(100% - 120px);
   float: left;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   padding: 0 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -17278,7 +17286,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page.bonus-page .block-holder .block .right-content .progress-content p {
   width: 100%;
-  color: #b8bfd2;
+  color: #c2c2c2;
   line-height: 1.1;
   font-size: 14px;
   text-align: center;
@@ -17290,8 +17298,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 45px;
-  background: #b8bfd2;
-  border: 1px solid #e7e9f0;
+  background: #c2c2c2;
+  border: 1px solid #e8e8e8;
   line-height: 36px;
   height: 36px;
   width: calc(100% - 90px);
@@ -17304,7 +17312,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 65px;
   text-align: center;
   font-size: 10px;
-  color: #b8bfd2;
+  color: #c2c2c2;
   line-height: 36px;
 }
 
@@ -17319,7 +17327,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 0;
   top: 0;
   left: 0;
-  background: #e7e9f0;
+  background: #e8e8e8;
 }
 
 .coupon-details-page-content {
@@ -17350,7 +17358,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 38px;
   font-size: 14px;
-  color: #b8bfd2;
+  color: #c2c2c2;
 }
 
 .coupon-details-page-content .row .content {
@@ -17361,8 +17369,8 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-details-page-content .row .content .status {
   float: right;
   line-height: 28px;
-  border: 1px solid #b8bfd2;
-  color: #b8bfd2;
+  border: 1px solid #c2c2c2;
+  color: #c2c2c2;
   font-size: 13px;
   border-radius: 3px;
   padding: 0 5px;
@@ -17391,7 +17399,7 @@ footer.center-footer .footer-logos .group-1 {
   padding: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #7a87aa;
+  background: #8f8f8f;
 }
 
 .coupon-details-buttons .button {
@@ -17465,19 +17473,19 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .coupon-details-buttons .button.explode {
-  background-color: #d7dbe6;
+  background-color: gainsboro;
 }
 
 .coupon-details-buttons .button.explode i {
-  color: #d7dbe6;
+  color: gainsboro;
 }
 
 .coupon-details-buttons .button.explode:hover {
-  background-color: #c8cddc;
+  background-color: #cfcfcf;
 }
 
 .coupon-details-buttons .button.explode:hover i {
-  color: #c8cddc;
+  color: #cfcfcf;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -17563,7 +17571,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 300px;
   margin: 20px;
   display: inline-block;
-  border: 1px solid #e7e9f0;
+  border: 1px solid #e8e8e8;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .text-wrapper {
@@ -17609,8 +17617,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 45px;
-  background: #b8bfd2;
-  border: 1px solid #e7e9f0;
+  background: #c2c2c2;
+  border: 1px solid #e8e8e8;
   line-height: 20px;
   height: 20px;
   width: calc(100% - 90px);
@@ -17638,12 +17646,12 @@ footer.center-footer .footer-logos .group-1 {
   width: 0;
   top: 0;
   left: 0;
-  background: #e7e9f0;
+  background: #e8e8e8;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons {
   margin: 5px;
-  border: 1px solid #e7e9f0;
+  border: 1px solid #e8e8e8;
   display: inline-block;
   width: calc(100% - 10px);
 }
@@ -17654,7 +17662,7 @@ footer.center-footer .footer-logos .group-1 {
   color: white;
   line-height: 34px;
   padding: 0 10px;
-  background-color: #fdfdfe;
+  background-color: #fafafa;
   border-radius: 4px;
   margin: 5px 10px;
   font-size: 14px;
@@ -17664,7 +17672,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons .button:hover {
-  background-color: #e7e9f0;
+  background-color: #e8e8e8;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons .button:first-child {
@@ -17694,9 +17702,9 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 34px;
   padding: 0 8;
   border-radius: 4px;
-  background-color: #333844;
-  -webkit-box-shadow: inset 0 1px #242730;
-          box-shadow: inset 0 1px #242730;
+  background-color: #278a3a;
+  -webkit-box-shadow: inset 0 1px #1f6e2e;
+          box-shadow: inset 0 1px #1f6e2e;
   cursor: pointer;
   margin-bottom: 10px;
 }
@@ -17708,7 +17716,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .download-button:hover {
-  background-color: #242730;
+  background-color: #1f6e2e;
 }
 
 .marketing-assets-holder {
@@ -17716,7 +17724,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .marketing-assets-holder .info-text {
-  background-color: #808cae;
+  background-color: #949494;
   color: #ebebeb;
   font-size: 14px;
   line-height: 1.4;
@@ -17728,7 +17736,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .marketing-assets-holder .text-box h4 {
-  color: #d7dbe6;
+  color: gainsboro;
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 15px;
@@ -17792,7 +17800,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .hat-trick-holder .info-text {
-  background-color: #99a3be;
+  background-color: darkgray;
   color: #ebebeb;
   line-height: 1.4;
   padding: 20px 10px;
@@ -17918,7 +17926,7 @@ footer.center-footer .footer-logos .group-1 {
 .new-profile-page input[type="number"],
 .new-profile-page input[type="date"] {
   color: #333;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   background: #e5e5e5 !important;
   border-radius: 3px;
   height: 24px;
@@ -17973,8 +17981,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .input-wrapper .ui-selectmenu-button,
 .new-profile-page .input-wrapper select {
-  border: 1px solid #b8bfd2;
-  background-color: #b8bfd2;
+  border: 1px solid #c2c2c2;
+  background-color: #c2c2c2;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -18001,7 +18009,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .input-wrapper .ui-selectmenu-button:hover,
 .new-profile-page .input-wrapper select:hover {
-  background-color: #c8cddc;
+  background-color: #cfcfcf;
 }
 
 .new-profile-page .input-wrapper .ui-selectmenu-button .ui-icon,
@@ -18026,7 +18034,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs {
-  border-bottom: 1px solid #b8bfd2;
+  border-bottom: 1px solid #c2c2c2;
   text-align: right;
   margin-top: 10px;
   padding-right: 10px;
@@ -18038,7 +18046,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
-  color: #b8bfd2;
+  color: #c2c2c2;
   padding: 0 10px;
   cursor: pointer;
 }
@@ -18057,16 +18065,16 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs .single-tab:hover {
-  background-color: rgba(184, 191, 210, 0.2);
+  background-color: rgba(194, 194, 194, 0.2);
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs .single-tab.active {
-  background-color: #b8bfd2;
+  background-color: #c2c2c2;
   color: #ebebeb;
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs .single-tab.active:hover {
-  background-color: #b8bfd2;
+  background-color: #c2c2c2;
 }
 
 .new-profile-page.betlist-checkout .accordion-content {
@@ -18257,7 +18265,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .limit-settings .bonus-outer .bonus-wrapper {
   position: relative;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   padding: 30px 10px 10px;
   margin-top: 30px;
   width: calc(100% - 20px);
@@ -18270,9 +18278,9 @@ footer.center-footer .footer-logos .group-1 {
 .new-profile-page .limit-settings .bonus-outer .bonus-wrapper .title {
   position: absolute;
   top: -14px;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   background-color: #ebebeb;
-  color: #b8bfd2;
+  color: #c2c2c2;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   left: 15px;
@@ -18379,7 +18387,7 @@ footer.center-footer .footer-logos .group-1 {
   margin-right: 2px;
   float: left;
   width: 90px;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   box-sizing: border-box;
   line-height: 22px;
   background: transparent !important;
@@ -18443,7 +18451,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content .bonus-wrapper {
   position: relative;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   padding: 30px 10px 10px;
   margin-top: 40px;
   width: 380px;
@@ -18453,11 +18461,11 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: -14px;
   left: 30px;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   background-color: #ebebeb;
   width: 200px;
   line-height: 28px;
-  color: #b8bfd2;
+  color: #c2c2c2;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-left: 15px;
@@ -18507,8 +18515,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button,
 .new-profile-page .turn-over-content.provider select {
-  border: 1px solid #b8bfd2;
-  background-color: #b8bfd2;
+  border: 1px solid #c2c2c2;
+  background-color: #c2c2c2;
   color: #ebebeb;
   font-size: 12px;
   width: 120px;
@@ -18535,7 +18543,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button:hover,
 .new-profile-page .turn-over-content.provider select:hover {
-  background-color: #c8cddc;
+  background-color: #cfcfcf;
 }
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button .ui-icon,
@@ -18586,7 +18594,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 13px;
   margin-bottom: 13px;
   line-height: 1;
-  color: #dde1ea;
+  color: #e1e1e1;
 }
 
 .contact-us-form form .input-wrapper {
@@ -18627,7 +18635,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper textarea {
   color: #333;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   background: #e5e5e5;
   width: 100%;
   padding: 5px;
@@ -18640,7 +18648,7 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .input-wrapper input[type="password"],
 .contact-us-form form .input-wrapper input[type="number"] {
   color: #333;
-  border: 1px solid #b8bfd2;
+  border: 1px solid #c2c2c2;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -18651,8 +18659,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button,
 .contact-us-form form .input-wrapper select {
-  border: 1px solid #b8bfd2;
-  background-color: #b8bfd2;
+  border: 1px solid #c2c2c2;
+  background-color: #c2c2c2;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -18665,7 +18673,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button:hover,
 .contact-us-form form .input-wrapper select:hover {
-  background-color: #c8cddc;
+  background-color: #cfcfcf;
 }
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button .ui-icon,
@@ -18685,8 +18693,8 @@ footer.center-footer .footer-logos .group-1 {
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
-  border: 1px solid #dde1ea;
-  background-color: #dde1ea;
+  border: 1px solid #e1e1e1;
+  background-color: #e1e1e1;
   height: 24px;
   line-height: 22px;
   color: #ebebeb;
@@ -18707,11 +18715,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .contact-us-form form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(184, 191, 210, 0.2);
+  background-color: rgba(194, 194, 194, 0.2);
 }
 
 .contact-us-form form .input-wrapper .check-label {
-  color: #dde1ea;
+  color: #e1e1e1;
   font-size: 12px;
   font-weight: 500;
   float: left;
@@ -18754,7 +18762,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #f4c100;
+  border: 2px solid #278a3a;
 }
 
 .contact-us-form form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -18763,7 +18771,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f4c100;
+  background: #278a3a;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -18785,7 +18793,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #f4c100;
+  background: #278a3a;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -18835,14 +18843,14 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .buttons-holder .single-button.search-button {
   margin-right: 30px;
   float: right;
-  background-color: #333844;
+  background-color: #278a3a;
   background-image: url(//nextra.nextra.bet/biwinner/images/search-icon.png);
-  -webkit-box-shadow: inset 0 1px #242730;
-          box-shadow: inset 0 1px #242730;
+  -webkit-box-shadow: inset 0 1px #1f6e2e;
+          box-shadow: inset 0 1px #1f6e2e;
 }
 
 .contact-us-form form .buttons-holder .single-button.search-button:hover {
-  background-color: #242730;
+  background-color: #1f6e2e;
 }
 
 .contact-us-form form .buttons-holder .single-button.search-button.new {
@@ -19044,14 +19052,14 @@ span.ui-icon.ui-icon-circle-triangle-e {
     background: transparent;
   }
   60% {
-    background: #d7dbe6;
+    background: gainsboro;
     color: white;
   }
   70% {
     background: transparent;
   }
   80% {
-    background: #d7dbe6;
+    background: gainsboro;
     color: white;
   }
   90% {
@@ -19064,14 +19072,14 @@ span.ui-icon.ui-icon-circle-triangle-e {
     background: transparent;
   }
   60% {
-    background: #d7dbe6;
+    background: gainsboro;
     color: white;
   }
   70% {
     background: transparent;
   }
   80% {
-    background: #d7dbe6;
+    background: gainsboro;
     color: white;
   }
   90% {
@@ -19183,7 +19191,7 @@ select option {
   margin: -50px 0 0 -50px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #b8bfd2;
+  border-top-color: #c2c2c2;
   -webkit-animation: spin 4s linear infinite;
   animation: spin 4s linear infinite;
   z-index: 1001;
@@ -19216,7 +19224,7 @@ select option {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #f4c100;
+  border-top-color: #278a3a;
   -webkit-animation: spin 5s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 5s linear infinite;
@@ -19510,7 +19518,7 @@ select option {
 }
 
 .casino-pro-down .casino-pro-list .casino-pro-item:hover {
-  background-color: #333844;
+  background-color: #278a3a;
 }
 
 .casino-pro-down .casino-pro-list .casino-pro-item-img {
@@ -19634,7 +19642,7 @@ select option {
 
 .game-grid-item .gg-item-details .gg-item-ico .gg-info:hover,
 .game-grid-item .gg-item-details .gg-item-ico .gg-star:hover {
-  color: #f4c100;
+  color: #278a3a;
 }
 
 .game-grid-item:hover .game-overlay {
@@ -19703,9 +19711,9 @@ select option {
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn {
-  color: #b8bfd2;
-  background-color: #f4c100;
-  border: 2px solid #f4c100;
+  color: #c2c2c2;
+  background-color: #278a3a;
+  border: 2px solid #278a3a;
   text-decoration: none;
   border-radius: 3px;
   padding: 6px 30px;
@@ -19716,21 +19724,21 @@ select option {
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn-b {
-  background-color: #333844;
+  background-color: #278a3a;
   color: #ebebeb;
-  border: 2px solid #333844;
+  border: 2px solid #278a3a;
   padding: 6px 25px;
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn-b:hover {
   background-color: #ebebeb !important;
-  color: #b8bfd2 !important;
-  border: 2px solid #333844;
+  color: #c2c2c2 !important;
+  border: 2px solid #278a3a;
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn:hover {
   background-color: #ebebeb;
-  color: #b8bfd2;
+  color: #c2c2c2;
 }
 
 .game-overlay-inner .game-pro-container {
@@ -20634,7 +20642,7 @@ body .loader__ball {
   width: 180px;
   height: 70px;
   display: block;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzYuMDI3IiBoZWlnaHQ9IjMzLjcyMSIgdmlld0JveD0iMCAwIDE3Ni4wMjcgMzMuNzIxIj4NCiAgPGcgaWQ9Ikdyb3VwXzEzIiBkYXRhLW5hbWU9Ikdyb3VwIDEzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTE0LjEzMSAtMTM0LjE4KSI+DQogICAgPHBhdGggaWQ9IlBhdGhfNTUiIGRhdGEtbmFtZT0iUGF0aCA1NSIgZD0iTTEzMy42NjMsMTM0LjE4cTUuMzM4LDAsNy41ODcsMi4zNDNhNi4yNzQsNi4yNzQsMCwwLDEsMS42ODYsNC41LDExLjE0OCwxMS4xNDgsMCwwLDEtLjE4OCwxLjk2NmwtLjQyMiwyLjI0MmE3LjkzNyw3LjkzNywwLDAsMS0xLjk4OSw0LjE2OSw3LjQsNy40LDAsMCwxLTIuNjcxLDEuNTIxLDEwLjY4OSwxMC42ODksMCwwLDEsMi42OTQsMS44LDQuODM4LDQuODM4LDAsMCwxLDEuMzU4LDMuNDI1LDguMDQ2LDguMDQ2LDAsMCwxLS4xODgsMS42ODZsLS4yNzksMS40NTJhMTAuMjQ1LDEwLjI0NSwwLDAsMS0zLjU3NCw2LjMyM3EtMi44MjMsMi4yOTQtNy44OTMsMi4yOTRIMTE0LjEzMWw1Ljk0OS0zMy43MjFabS00LjIyNCwxOS45NTFIMTI1bC0xLjExOCw2LjQ2Nmg0LjYzYTUuMzM2LDUuMzM2LDAsMCwwLDMuNDE4LTEuMDA3LDMuMDQyLDMuMDQyLDAsMCwwLDEuMjY3LTIuNDZxMC0zLTMuNzUtM1ptMS4yNjQtMTIuNjQzaC0zLjVsLTEuMjE4LDYuOTg5aDMuNDY0cTQuNTA3LDAsNC41MDctMy45NDVhMy4wMjksMy4wMjksMCwwLDAtLjgxOS0yLjJBMy4yNjMsMy4yNjMsMCwwLDAsMTMwLjcsMTQxLjQ4OFoiIGZpbGw9IiNmZWM5MDAiLz4NCiAgICA8cGF0aCBpZD0iUGF0aF81NiIgZGF0YS1uYW1lPSJQYXRoIDU2IiBkPSJNNTk4LjQ0NSwxNjUuMzhoLTIuNDczbC0uODQyLDUuNzM1aDIuMzA3YTMuMjI3LDMuMjI3LDAsMCwwLDIuNTA1LS44NDIsMy4xODIsMy4xODIsMCwwLDAsLjc1Ny0yLjIyM1E2MDAuNjg0LDE2NS4zOCw1OTguNDQ1LDE2NS4zOFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMjQuNzA4IC0yMS4wNjIpIiBmaWxsPSIjZmZmIi8+DQogICAgPHBhdGggaWQ9IlBhdGhfNTciIGRhdGEtbmFtZT0iUGF0aCA1NyIgZD0iTTM3MC4wNTUsMTM0LjE4aC0xMjguMkwyMzUuOTExLDE2Ny45SDM2NC45OGEyLjMxNywyLjMxNywwLDAsMCwyLjI3NS0xLjkxNGw1LjA3OS0yOS4wOTRhMi4zMTMsMi4zMTMsMCwwLDAtMi4yNzgtMi43MTNaTTI2MC4wNDcsMTYyLjlsLjg5LTE1LjE5MUwyNTYuNTIxLDE2Mi45aC05Ljg4OGwuMjMxLTIzLjcyaDYuNDZsLS41OTEsMTcuOTU5aC43NTdsNS43NjgtMTcuOTU5aDYuNDI0bC0uNTU5LDE3Ljk1OWguNzU0bDUuNzM1LTE3Ljk1OWg2LjQ2bC04LjEyMywyMy43MlptMTUuMTI2LDAsNC4xODgtMjMuNzJoNS45M2wtNC4xNDMsMjMuNzJabTIxLjAyNiwwLTQuMTUzLTEzLTIuMjQyLDEzaC01Ljk2Mmw0LjE4NS0yMy43Mmg2LjExOGw0LjEsMTIuMTIsMi4xNDEtMTIuMTI2aDUuOTMzbC00LjE1MywyMy43MlptMjEuMDI2LDAtNC4xNTMtMTMtMi4yNDIsMTNoLTUuOTYybDQuMTg4LTIzLjcyaDYuMTI4bDQuMDg0LDEyLjEyLDIuMTQxLTEyLjEyNmg1LjkzbC00LjE0OSwyMy43MlptMjUuMjA4LDBIMzI1Ljg5MWw0LjE4NS0yMy43MmgxNi41NDVsLS45MjMsNS4xMzRIMzM1LjA4NmwtLjc2LDQuNDQ4SDM0My4xbC0uOTI5LDUuMTRIMzMzLjRsLS42NSwzLjg1N2gxMC42MDlabTIxLjk4Mi0xNy41My0uNDYxLDIuNTdhOC4zLDguMywwLDAsMS0xLjM2OCwzLjQ1Nyw1LjgyNiw1LjgyNiwwLDAsMS0yLjE1NCwxLjg4MWwzLDkuNjIxaC02LjY2MUwzNTQsMTU0LjA0SDM1MS45NmwtMS4zNTIsOC44NjRoLTYuMzNsNC4xODUtMjMuNzJoOS41NTlxMy43NTMsMCw1LjMzOSwxLjY0N0E0LjQyNSw0LjQyNSwwLDAsMSwzNjQuNTQ4LDE0NCw3LjgxMSw3LjgxMSwwLDAsMSwzNjQuNDE1LDE0NS4zNzRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtODIuMjEpIiBmaWxsPSIjZmZmIi8+DQogICAgPHBhdGggaWQ9IlBhdGhfNTgiIGRhdGEtbmFtZT0iUGF0aCA1OCIgZD0iTTIxNC43MDksMTM0LjE4bC01LjksMzMuNzIxaC04LjQ3NGw1Ljk0Ni0zMy43MjFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTguMTkxKSIgZmlsbD0iI2ZlYzkwMCIvPg0KICA8L2c+DQo8L3N2Zz4NCg==");
+  background-image: url("https://nextra.nextra.bet/stilobet365/images/logo2.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -20723,7 +20731,7 @@ span.ui-slider-handle:before {
 
 .antepost-holder div span:first-child {
   width: calc(100% - 90px);
-  border-right: 1px solid #333844;
+  border-right: 1px solid #278a3a;
 }
 
 .antepost-holder div span:last-child {
@@ -20732,7 +20740,7 @@ span.ui-slider-handle:before {
 }
 
 .antepost-holder div.antepost-header {
-  background-color: #f4c100;
+  background-color: #278a3a;
 }
 
 .antepost-holder div.antepost-header span {
@@ -20791,7 +20799,7 @@ span.ui-slider-handle:before {
 .antepost-name-wrap {
   display: inline-block;
   width: 100%;
-  background-color: #333844;
+  background-color: #278a3a;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 5px;

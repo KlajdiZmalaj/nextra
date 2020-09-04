@@ -5547,6 +5547,7 @@ footer {
       float: left;
       width: 21px;
       transition: 0.3s all;
+      filter: grayscale(1) brightness(0) invert($invet);
       &:before {
         content: "\f05a";
         font: normal normal normal 14px/1 FontAwesome;
