@@ -3,21 +3,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
 html:root {
-  --accent: #57de3d;
-  --accent-bg: #ffcc00;
+  --accent: #0a96f0;
+  --accent-bg: #ff9800;
   --accent-txt: #000000;
-  --primary-bg: #12421c;
-  --primary-txt: #fff;
-  --secondary-bg: #2b883d;
-  --secondary-txt: #fff;
-  --mainBg: #ededed;
-  --mainBgCol: #222;
-  --bg1: #fff;
-  --col1: #222;
-  --teableHeadersBg: #2b883d;
-  --teableHeadersCol: #fff;
-  --teableSubHeadersBg: #dedede;
-  --teableSubHeadersCol: #222;
+  --primary-bg: #d9d9d9;
+  --primary-txt: #000000;
+  --secondary-bg: #ffffff;
+  --secondary-txt: #000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #e7e7e7;
+  --col1: #000;
+  --teableHeadersBg: #0a96f0;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #cccccc;
+  --teableSubHeadersCol: #000000;
   --tableBorders: #a3a3a3;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
@@ -26,14 +26,14 @@ html:root {
   --backDrops: #000000cf;
 }
 
+.header .top-header .top-header-content .logo-holder a:before {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
 #favouriteTournaments li:before {
   -webkit-filter: brightness(0.1);
           filter: brightness(0.1);
-}
-
-html footer {
-  background: #222;
-  color: #fff;
 }
 
 body {
@@ -189,7 +189,7 @@ th {
 
 body {
   margin: 0;
-  background-image: url("https://nextra.nextra.bet/nextra/images/bg/green.jpg");
+  background-image: url("https://nextra.nextra.bet/nextra/images/bg/blue.jpg");
   background-size: 100% 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -384,7 +384,7 @@ input[type="submit"] {
   top: 1px;
   width: 3px;
   height: 7px;
-  border: solid #278a3a;
+  border: solid #0a96f0;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -427,7 +427,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #278a3a;
+  border: 2px solid #0a96f0;
 }
 
 .radio input:checked ~ .radiocircle:after {
@@ -436,7 +436,7 @@ input[type="submit"] {
   width: 9px;
   height: 9px;
   border: none;
-  background: #278a3a;
+  background: #0a96f0;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -468,7 +468,7 @@ input[type="submit"] {
   top: 1px;
   width: 3px;
   height: 7px;
-  border: solid #278a3a;
+  border: solid #0a96f0;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -763,7 +763,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .help:before {
   display: none;
   content: "";
-  border-bottom: 9px solid #094016;
+  border-bottom: 9px solid #128edb;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -818,7 +818,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .settings .controls-menu .option-block .title {
   padding-top: 8px;
   padding-left: 5px;
-  border-bottom: 1px solid #094016;
+  border-bottom: 1px solid #128edb;
   cursor: default;
   pointer-events: none;
 }
@@ -829,7 +829,7 @@ input[type="submit"] {
   line-height: 25px;
   padding-left: 25px;
   position: relative;
-  border-bottom: 1px solid #094016;
+  border-bottom: 1px solid #128edb;
   cursor: pointer;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
@@ -844,7 +844,7 @@ input[type="submit"] {
           transform: translateY(-50%);
   width: 12px;
   height: 12px;
-  border: 1px solid #094016;
+  border: 1px solid #128edb;
   border-radius: 50%;
 }
 
@@ -859,7 +859,7 @@ input[type="submit"] {
   width: 10px;
   height: 10px;
   border: none;
-  background: #12832d;
+  background: #49b0f0;
   border-radius: 50%;
 }
 
@@ -1017,7 +1017,7 @@ input[type="submit"] {
   height: 70px;
   display: block;
   position: relative;
-  background-image: url("https://nextra.nextra.bet/stilobet365/images/logo2.svg");
+  background-image: url("http://static.pcluster.info/skins/icesport/img/logo/logo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1234,8 +1234,8 @@ input[type="submit"] {
   -ms-flex-item-align: center;
       align-self: center;
   padding: 0 5px;
-  -webkit-filter: grayscale(1) brightness(0) invert(0);
-          filter: grayscale(1) brightness(0) invert(0);
+  -webkit-filter: grayscale(1) brightness(0) invert(1);
+          filter: grayscale(1) brightness(0) invert(1);
 }
 
 .side-bar .single-block .block-title span {
@@ -1638,7 +1638,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block .block-content.sports-menu form input[type="submit"]:hover {
-  background-color: #0f6d25;
+  background-color: #32a6ee;
 }
 
 .side-bar .single-block .block-content.sports-menu .tabs {
@@ -2095,7 +2095,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting {
-  background-color: #278a3a;
+  background-color: #0a96f0;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting .single-betslip-title {
@@ -3870,7 +3870,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state .championship.selected .anchor {
-  background: #278a3a;
+  background: #0a96f0;
   color: #ebebeb;
   font-weight: 500;
 }
@@ -4044,7 +4044,7 @@ input[type="submit"] {
 
 .center-content .main-slider .single-slide .odds-holder .single-odd div {
   float: left;
-  color: #278a3a;
+  color: #0a96f0;
   position: absolute;
   left: 5px;
   top: 50%;
@@ -4087,14 +4087,14 @@ input[type="submit"] {
   border-radius: 50%;
   padding: 0;
   display: inline-block;
-  border: 2px solid #278a3a;
+  border: 2px solid #0a96f0;
   cursor: pointer;
   margin: 0 3px;
   background: transparent;
 }
 
 .center-content .main-slider .slick-dots li.slick-active button, .center-content .main-slider .slick-dots li:hover button {
-  background-color: #278a3a;
+  background-color: #0a96f0;
 }
 
 .center-content .center-block {
@@ -5291,19 +5291,19 @@ div.landing-page .banner-content .grid a {
 
 div.landing-page .banner-content .grid a.become-agent {
   float: right;
-  background: #278a3a;
+  background: #0a96f0;
 }
 
 div.landing-page .banner-content .grid a.become-agent:hover {
-  background: #1c6229;
+  background: #0877bf;
 }
 
 div.landing-page .banner-content .grid a.register-online {
-  background: #278a3a;
+  background: #0a96f0;
 }
 
 div.landing-page .banner-content .grid a.register-online:hover {
-  background: #1c6229;
+  background: #0877bf;
 }
 
 .landing-bottom-holder {
@@ -5524,7 +5524,7 @@ footer .footer-logo a:before {
   height: 70px;
   display: block;
   position: relative;
-  background-image: url("https://nextra.nextra.bet/stilobet365/images/logo2.svg");
+  background-image: url("http://static.pcluster.info/skins/icesport/img/logo/logo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -6067,7 +6067,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .match-name .team-names.has-info .info-box .odd-types .single-type {
   width: 33%;
   background: #c2c2c2;
-  color: #278a3a;
+  color: #0a96f0;
   font-size: 12px;
   text-align: center;
   font-weight: bold;
@@ -6115,7 +6115,7 @@ footer.center-footer .footer-logos .group-1 {
   left: 0;
   top: 0;
   width: 50%;
-  background: #278a3a;
+  background: #0a96f0;
 }
 
 .odds-table .match-name .team-names.has-info .info-box .bars-holder .single-bar-holder:nth-child(2) {
@@ -6529,7 +6529,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .results-page .results .single-result .result-match .result div.status {
   line-height: 60px;
-  color: #094016;
+  color: #128edb;
   font-weight: bold;
 }
 
@@ -6560,8 +6560,8 @@ footer.center-footer .footer-logos .group-1 {
   width: 21px;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
-  -webkit-filter: grayscale(1) brightness(0) invert(0);
-          filter: grayscale(1) brightness(0) invert(0);
+  -webkit-filter: grayscale(1) brightness(0) invert(1);
+          filter: grayscale(1) brightness(0) invert(1);
 }
 
 .championship-page .title img.icon:before,
@@ -6918,7 +6918,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   width: 37px;
   height: 26px;
-  background: #278a3a;
+  background: #0a96f0;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   border: none;
@@ -6932,7 +6932,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .sports-book-page .filters-holder .search-form input[type="text"] {
   border: none;
-  border-left: 1px solid #278a3a;
+  border-left: 1px solid #0a96f0;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   line-height: 24px;
@@ -7000,8 +7000,8 @@ footer.center-footer .footer-logos .group-1 {
   cursor: pointer;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
-  -webkit-filter: grayscale(1) brightness(0) invert(0);
-          filter: grayscale(1) brightness(0) invert(0);
+  -webkit-filter: grayscale(1) brightness(0) invert(1);
+          filter: grayscale(1) brightness(0) invert(1);
 }
 
 .sports-book-page .title .title-icon.closed {
@@ -7462,11 +7462,11 @@ footer.center-footer .footer-logos .group-1 {
 
 .become-an-agent-page .page-content .inner-content .content-block.last-block p .colored {
   font-weight: bold;
-  color: #278a3a;
+  color: #0a96f0;
 }
 
 .become-an-agent-page .page-content .inner-content .content-block .title {
-  color: #278a3a;
+  color: #0a96f0;
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
@@ -7479,15 +7479,15 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   margin: 0 10px;
   padding: 0 20px;
-  border: 2px solid #278a3a;
+  border: 2px solid #0a96f0;
   border-radius: 3px;
-  color: #278a3a;
+  color: #0a96f0;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
 
 .become-an-agent-page .page-content .inner-content .content-block .title a:hover {
-  background: #278a3a;
+  background: #0a96f0;
   color: #ebebeb;
 }
 
@@ -7518,7 +7518,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: #278a3a;
+  background: #0a96f0;
 }
 
 .dark-overlay {
@@ -8182,7 +8182,7 @@ footer.center-footer .footer-logos .group-1 {
   border: none;
   margin-top: 26px;
   height: 2px;
-  background: #278a3a;
+  background: #0a96f0;
   border-radius: 1px !important;
 }
 
@@ -8193,13 +8193,13 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 50% !important;
   top: -4px;
   border: none;
-  background: #1c6229;
+  background: #0877bf;
   cursor: pointer;
 }
 
 .live-odds-table table tr td.odd-holder .match-live-sliders .home-team .live-slider-holder .ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle:hover,
 .live-odds-table table tr td.odd-holder .match-live-sliders .away-team .live-slider-holder .ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle:hover {
-  color: #113a19;
+  color: #06598e;
 }
 
 .live-odds-table table tr td.odd-holder .match-live-sliders .home-team .live-slider-holder .slider-controls,
@@ -8369,8 +8369,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
   cursor: pointer;
-  -webkit-filter: grayscale(1) brightness(0) invert(0);
-          filter: grayscale(1) brightness(0) invert(0);
+  -webkit-filter: grayscale(1) brightness(0) invert(1);
+          filter: grayscale(1) brightness(0) invert(1);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-title img.active {
@@ -9185,7 +9185,7 @@ footer.center-footer .footer-logos .group-1 {
 .live-sports-diary .matches-wrapper .single-match .match-details-wrapper .match-details {
   height: 28px;
   background-color: #ebebeb;
-  border: 1px solid #278a3a;
+  border: 1px solid #0a96f0;
   border-radius: 3px;
   width: 40px;
   margin: 9px 12px;
@@ -9197,12 +9197,12 @@ footer.center-footer .footer-logos .group-1 {
   width: 100%;
   text-align: center;
   font-size: 9px;
-  color: #278a3a;
+  color: #0a96f0;
   font-weight: 700;
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-details-wrapper .match-details .match-date {
-  background: #278a3a;
+  background: #0a96f0;
   color: #ebebeb;
 }
 
@@ -9294,7 +9294,7 @@ footer.center-footer .footer-logos .group-1 {
   margin-right: 10px;
   background-image: url(//nextra.nextra.bet/biwinner/images/live-result-background.jpg);
   background-size: 100% 100%;
-  border: 1px solid #278a3a;
+  border: 1px solid #0a96f0;
   width: 35px;
   float: left;
   display: inline-block;
@@ -9307,7 +9307,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 19px;
   font-size: 13px;
   font-weight: bold;
-  color: #278a3a;
+  color: #0a96f0;
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .top-part .team-names {
@@ -9510,7 +9510,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches {
-  background: #278a3a;
+  background: #0a96f0;
   padding: 20px 25px;
 }
 
@@ -9531,7 +9531,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #094016;
+  background: #128edb;
   text-transform: uppercase;
   color: #fff;
 }
@@ -9560,7 +9560,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-multiview .multiview-matches .single-multiview .multiview-content {
   display: none;
-  border-bottom: 5px solid #094016;
+  border-bottom: 5px solid #128edb;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper {
@@ -9611,7 +9611,7 @@ footer.center-footer .footer-logos .group-1 {
   margin-right: 10px;
   background-image: url(//nextra.nextra.bet/biwinner/images/live-result-background.jpg);
   background-size: 100% 100%;
-  border: 1px solid #278a3a;
+  border: 1px solid #0a96f0;
   width: 35px;
   float: left;
   display: inline-block;
@@ -9624,7 +9624,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 19px;
   font-size: 13px;
   font-weight: bold;
-  color: #278a3a;
+  color: #0a96f0;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .match-info .team-names {
@@ -10011,7 +10011,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #278a3a;
+  border: 2px solid #0a96f0;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -10020,7 +10020,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #278a3a;
+  background: #0a96f0;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10042,7 +10042,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #278a3a;
+  background: #0a96f0;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10086,7 +10086,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .note {
   font-size: 11px;
-  color: #278a3a;
+  color: #0a96f0;
   line-height: 18px;
   padding-right: 30px;
 }
@@ -10394,7 +10394,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #278a3a;
+  border: 2px solid #0a96f0;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -10403,7 +10403,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #278a3a;
+  background: #0a96f0;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10425,7 +10425,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #278a3a;
+  background: #0a96f0;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10469,7 +10469,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .note {
   font-size: 11px;
-  color: #1c6229;
+  color: #0877bf;
   line-height: 18px;
   padding-right: 30px;
 }
@@ -10781,7 +10781,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .help-page .help-menu ul li.selected a {
   font-weight: 500;
-  color: #094016;
+  color: #128edb;
 }
 
 .help-page .help-menu ul li span {
@@ -10820,12 +10820,12 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .help-page .help-menu ul li .sub-menu li a:hover {
-  color: #094016;
+  color: #128edb;
 }
 
 .help-page .help-menu ul li .sub-menu li.selected a {
   font-weight: 500;
-  color: #094016;
+  color: #128edb;
 }
 
 .help-page .help-menu ul li.has-sub-menu span {
@@ -11628,7 +11628,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .cashdesk-content {
   width: 100%;
   display: inline-block;
-  border-bottom: 5px solid #094016;
+  border-bottom: 5px solid #128edb;
   background-color: #d4d4d4;
 }
 
@@ -11665,8 +11665,8 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked ~ .checkmark {
-  border-color: #278a3a;
-  background-color: #278a3a;
+  border-color: #0a96f0;
+  background-color: #0a96f0;
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked ~ .checkmark:after {
@@ -11888,7 +11888,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table tr td:nth-child(2) .hour {
-  color: black;
+  color: #0c6094;
 }
 
 .logged-page .transactions-table tr td.fifteen i {
@@ -12265,7 +12265,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .message-details-table tr td .time {
-  color: #278a3a;
+  color: #0a96f0;
 }
 
 .logged-page .message-details-table tr td .red {
@@ -12279,7 +12279,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 12px;
   color: #c2c2c2;
   line-height: 18px;
-  border-bottom: 5px solid #094016;
+  border-bottom: 5px solid #128edb;
 }
 
 .logged-page .message-content .buttons {
@@ -12326,14 +12326,14 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .message-content .buttons .single-button.reply-button {
   margin-right: 0;
   float: right;
-  background-color: #278a3a;
+  background-color: #0a96f0;
   background-image: url(//nextra.nextra.bet/biwinner/images/reply-button.png);
-  -webkit-box-shadow: inset 0 1px #1f6e2e;
-          box-shadow: inset 0 1px #1f6e2e;
+  -webkit-box-shadow: inset 0 1px #0981ce;
+          box-shadow: inset 0 1px #0981ce;
 }
 
 .logged-page .message-content .buttons .single-button.reply-button:hover {
-  background-color: #1f6e2e;
+  background-color: #0981ce;
 }
 
 .logged-center {
@@ -12707,7 +12707,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #278a3a;
+  border: 2px solid #0a96f0;
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -12716,7 +12716,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #278a3a;
+  background: #0a96f0;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -12738,7 +12738,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #278a3a;
+  background: #0a96f0;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -13066,14 +13066,14 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button {
   margin-right: 30px;
   float: right;
-  background-color: #278a3a;
+  background-color: #0a96f0;
   background-image: url(//nextra.nextra.bet/biwinner/images/search-icon.png);
-  -webkit-box-shadow: inset 0 1px #1f6e2e;
-          box-shadow: inset 0 1px #1f6e2e;
+  -webkit-box-shadow: inset 0 1px #0981ce;
+          box-shadow: inset 0 1px #0981ce;
 }
 
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button:hover {
-  background-color: #1f6e2e;
+  background-color: #0981ce;
 }
 
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button.new {
@@ -13406,7 +13406,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-content .messages table tr td .status.read:after {
-  background-color: #278a3a;
+  background-color: #0a96f0;
 }
 
 .logged-content .messages .table-legend {
@@ -13429,8 +13429,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-content .messages .table-legend div .icon {
   position: absolute;
-  background: #278a3a;
-  border: 2px solid #278a3a;
+  background: #0a96f0;
+  border: 2px solid #0a96f0;
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -13825,11 +13825,11 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   display: inline-block;
   width: 100%;
-  background: #094016;
+  background: #128edb;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: inset 0px 1px 0 #094016;
-          box-shadow: inset 0px 1px 0 #094016;
+  -webkit-box-shadow: inset 0px 1px 0 #128edb;
+          box-shadow: inset 0px 1px 0 #128edb;
 }
 
 .reports .calculations .single-calculation .holder {
@@ -14525,7 +14525,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #094016;
+  background: #128edb;
   text-transform: uppercase;
 }
 
@@ -15595,15 +15595,15 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button {
   margin-right: 0;
-  background-color: #278a3a;
+  background-color: #0a96f0;
   background-image: url(//nextra.nextra.bet/biwinner/images/send-button.png);
-  -webkit-box-shadow: inset 0 1px #1f6e2e;
-          box-shadow: inset 0 1px #1f6e2e;
+  -webkit-box-shadow: inset 0 1px #0981ce;
+          box-shadow: inset 0 1px #0981ce;
 }
 
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover {
-  background-color: #1f6e2e;
+  background-color: #0981ce;
 }
 
 .coupon-popup-wrapper .popup-content .first-blocks .block:first-child,
@@ -15827,7 +15827,7 @@ footer.center-footer .footer-logos .group-1 {
   color: #ebebeb;
   font-size: 14px;
   font-weight: bold;
-  background-color: #278a3a;
+  background-color: #0a96f0;
   background-image: url(//nextra.nextra.bet/biwinner/images/show-all-icon.png);
 }
 
@@ -15872,7 +15872,7 @@ footer.center-footer .footer-logos .group-1 {
   border-bottom-left-radius: 3px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
-  background-color: #094016;
+  background-color: #128edb;
   color: #fff;
   font-size: 0;
   background-image: url(//nextra.nextra.bet/biwinner/images/search-icon.png);
@@ -15884,7 +15884,7 @@ footer.center-footer .footer-logos .group-1 {
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form input[type="submit"]:hover,
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form input[type="button"]:hover,
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form .button:hover {
-  background-color: #0f6d25;
+  background-color: #32a6ee;
 }
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-title {
@@ -16078,7 +16078,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #094016;
+  background: #128edb;
   text-transform: uppercase;
 }
 
@@ -16192,17 +16192,17 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 33px;
   margin: 0 2px;
   margin-right: 0;
-  background-color: #278a3a;
+  background-color: #0a96f0;
   background-image: url(//nextra.nextra.bet/biwinner/images/send-button.png);
-  -webkit-box-shadow: inset 0 1px #1f6e2e;
-          box-shadow: inset 0 1px #1f6e2e;
+  -webkit-box-shadow: inset 0 1px #0981ce;
+          box-shadow: inset 0 1px #0981ce;
   float: left;
   border: none;
 }
 
 .login-popup .login-content form .button-holder div:hover,
 .login-popup .login-content form .button-holder input[type="submit"]:hover {
-  background-color: #1f6e2e;
+  background-color: #0981ce;
 }
 
 .login-popup .login-content form .button-holder div.register-button,
@@ -16283,7 +16283,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #278a3a;
+  color: #0a96f0;
 }
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16413,7 +16413,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #278a3a;
+  color: #0a96f0;
 }
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16544,7 +16544,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #278a3a;
+  color: #0a96f0;
 }
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16703,7 +16703,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .payment-method-table table tbody tr td:nth-child(3) .purple, .payment-method-table table tbody tr td:nth-child(4) .purple, .payment-method-table table tbody tr td:nth-child(5) .purple {
-  background: #278a3a;
+  background: #0a96f0;
   color: #ebebeb;
   line-height: 50px;
   text-align: center;
@@ -17167,7 +17167,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount.selected {
-  background-color: #278a3a;
+  background-color: #0a96f0;
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .amount-block {
@@ -17702,9 +17702,9 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 34px;
   padding: 0 8;
   border-radius: 4px;
-  background-color: #278a3a;
-  -webkit-box-shadow: inset 0 1px #1f6e2e;
-          box-shadow: inset 0 1px #1f6e2e;
+  background-color: #0a96f0;
+  -webkit-box-shadow: inset 0 1px #0981ce;
+          box-shadow: inset 0 1px #0981ce;
   cursor: pointer;
   margin-bottom: 10px;
 }
@@ -17716,7 +17716,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .download-button:hover {
-  background-color: #1f6e2e;
+  background-color: #0981ce;
 }
 
 .marketing-assets-holder {
@@ -18762,7 +18762,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #278a3a;
+  border: 2px solid #0a96f0;
 }
 
 .contact-us-form form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -18771,7 +18771,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #278a3a;
+  background: #0a96f0;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -18793,7 +18793,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #278a3a;
+  background: #0a96f0;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -18843,14 +18843,14 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .buttons-holder .single-button.search-button {
   margin-right: 30px;
   float: right;
-  background-color: #278a3a;
+  background-color: #0a96f0;
   background-image: url(//nextra.nextra.bet/biwinner/images/search-icon.png);
-  -webkit-box-shadow: inset 0 1px #1f6e2e;
-          box-shadow: inset 0 1px #1f6e2e;
+  -webkit-box-shadow: inset 0 1px #0981ce;
+          box-shadow: inset 0 1px #0981ce;
 }
 
 .contact-us-form form .buttons-holder .single-button.search-button:hover {
-  background-color: #1f6e2e;
+  background-color: #0981ce;
 }
 
 .contact-us-form form .buttons-holder .single-button.search-button.new {
@@ -19224,7 +19224,7 @@ select option {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #278a3a;
+  border-top-color: #0a96f0;
   -webkit-animation: spin 5s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 5s linear infinite;
@@ -19518,7 +19518,7 @@ select option {
 }
 
 .casino-pro-down .casino-pro-list .casino-pro-item:hover {
-  background-color: #278a3a;
+  background-color: #0a96f0;
 }
 
 .casino-pro-down .casino-pro-list .casino-pro-item-img {
@@ -19642,7 +19642,7 @@ select option {
 
 .game-grid-item .gg-item-details .gg-item-ico .gg-info:hover,
 .game-grid-item .gg-item-details .gg-item-ico .gg-star:hover {
-  color: #278a3a;
+  color: #0a96f0;
 }
 
 .game-grid-item:hover .game-overlay {
@@ -19712,8 +19712,8 @@ select option {
 
 .game-overlay-inner .game-play-contianer .game-play-btn {
   color: #c2c2c2;
-  background-color: #278a3a;
-  border: 2px solid #278a3a;
+  background-color: #0a96f0;
+  border: 2px solid #0a96f0;
   text-decoration: none;
   border-radius: 3px;
   padding: 6px 30px;
@@ -19724,16 +19724,16 @@ select option {
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn-b {
-  background-color: #278a3a;
+  background-color: #0a96f0;
   color: #ebebeb;
-  border: 2px solid #278a3a;
+  border: 2px solid #0a96f0;
   padding: 6px 25px;
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn-b:hover {
   background-color: #ebebeb !important;
   color: #c2c2c2 !important;
-  border: 2px solid #278a3a;
+  border: 2px solid #0a96f0;
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn:hover {
@@ -20642,7 +20642,7 @@ body .loader__ball {
   width: 180px;
   height: 70px;
   display: block;
-  background-image: url("https://nextra.nextra.bet/stilobet365/images/logo2.svg");
+  background-image: url("http://static.pcluster.info/skins/icesport/img/logo/logo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -20731,7 +20731,7 @@ span.ui-slider-handle:before {
 
 .antepost-holder div span:first-child {
   width: calc(100% - 90px);
-  border-right: 1px solid #278a3a;
+  border-right: 1px solid #0a96f0;
 }
 
 .antepost-holder div span:last-child {
@@ -20740,7 +20740,7 @@ span.ui-slider-handle:before {
 }
 
 .antepost-holder div.antepost-header {
-  background-color: #278a3a;
+  background-color: #0a96f0;
 }
 
 .antepost-holder div.antepost-header span {
@@ -20799,7 +20799,7 @@ span.ui-slider-handle:before {
 .antepost-name-wrap {
   display: inline-block;
   width: 100%;
-  background-color: #278a3a;
+  background-color: #0a96f0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 5px;

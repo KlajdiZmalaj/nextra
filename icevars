@@ -1,7 +1,7 @@
 html:root {
   --accent: #0a96f0;
-  --accent-bg: #0a96f0;
-  --accent-txt: #d6faff;
+  --accent-bg: #FF9800;
+  --accent-txt: #000000;
   --primary-bg: #d9d9d9;
   --primary-txt: #000000;
   --secondary-bg: #ffffff;
@@ -22,7 +22,7 @@ html:root {
   --backDrops: #000000cf;
 }
 
-$skin: "icesport";
+$skin: "biwinner";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 

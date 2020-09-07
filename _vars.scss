@@ -1,73 +1,19 @@
-// $skin: "biwinner";
-// $cdnPath: "//nextra.nextra.bet/#{$skin}";
-// $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
-
-// $logoUrl: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzYuMDI3IiBoZWlnaHQ9IjMzLjcyMSIgdmlld0JveD0iMCAwIDE3Ni4wMjcgMzMuNzIxIj4NCiAgPGcgaWQ9Ikdyb3VwXzEzIiBkYXRhLW5hbWU9Ikdyb3VwIDEzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTE0LjEzMSAtMTM0LjE4KSI+DQogICAgPHBhdGggaWQ9IlBhdGhfNTUiIGRhdGEtbmFtZT0iUGF0aCA1NSIgZD0iTTEzMy42NjMsMTM0LjE4cTUuMzM4LDAsNy41ODcsMi4zNDNhNi4yNzQsNi4yNzQsMCwwLDEsMS42ODYsNC41LDExLjE0OCwxMS4xNDgsMCwwLDEtLjE4OCwxLjk2NmwtLjQyMiwyLjI0MmE3LjkzNyw3LjkzNywwLDAsMS0xLjk4OSw0LjE2OSw3LjQsNy40LDAsMCwxLTIuNjcxLDEuNTIxLDEwLjY4OSwxMC42ODksMCwwLDEsMi42OTQsMS44LDQuODM4LDQuODM4LDAsMCwxLDEuMzU4LDMuNDI1LDguMDQ2LDguMDQ2LDAsMCwxLS4xODgsMS42ODZsLS4yNzksMS40NTJhMTAuMjQ1LDEwLjI0NSwwLDAsMS0zLjU3NCw2LjMyM3EtMi44MjMsMi4yOTQtNy44OTMsMi4yOTRIMTE0LjEzMWw1Ljk0OS0zMy43MjFabS00LjIyNCwxOS45NTFIMTI1bC0xLjExOCw2LjQ2Nmg0LjYzYTUuMzM2LDUuMzM2LDAsMCwwLDMuNDE4LTEuMDA3LDMuMDQyLDMuMDQyLDAsMCwwLDEuMjY3LTIuNDZxMC0zLTMuNzUtM1ptMS4yNjQtMTIuNjQzaC0zLjVsLTEuMjE4LDYuOTg5aDMuNDY0cTQuNTA3LDAsNC41MDctMy45NDVhMy4wMjksMy4wMjksMCwwLDAtLjgxOS0yLjJBMy4yNjMsMy4yNjMsMCwwLDAsMTMwLjcsMTQxLjQ4OFoiIGZpbGw9IiNmZWM5MDAiLz4NCiAgICA8cGF0aCBpZD0iUGF0aF81NiIgZGF0YS1uYW1lPSJQYXRoIDU2IiBkPSJNNTk4LjQ0NSwxNjUuMzhoLTIuNDczbC0uODQyLDUuNzM1aDIuMzA3YTMuMjI3LDMuMjI3LDAsMCwwLDIuNTA1LS44NDIsMy4xODIsMy4xODIsMCwwLDAsLjc1Ny0yLjIyM1E2MDAuNjg0LDE2NS4zOCw1OTguNDQ1LDE2NS4zOFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMjQuNzA4IC0yMS4wNjIpIiBmaWxsPSIjZmZmIi8+DQogICAgPHBhdGggaWQ9IlBhdGhfNTciIGRhdGEtbmFtZT0iUGF0aCA1NyIgZD0iTTM3MC4wNTUsMTM0LjE4aC0xMjguMkwyMzUuOTExLDE2Ny45SDM2NC45OGEyLjMxNywyLjMxNywwLDAsMCwyLjI3NS0xLjkxNGw1LjA3OS0yOS4wOTRhMi4zMTMsMi4zMTMsMCwwLDAtMi4yNzgtMi43MTNaTTI2MC4wNDcsMTYyLjlsLjg5LTE1LjE5MUwyNTYuNTIxLDE2Mi45aC05Ljg4OGwuMjMxLTIzLjcyaDYuNDZsLS41OTEsMTcuOTU5aC43NTdsNS43NjgtMTcuOTU5aDYuNDI0bC0uNTU5LDE3Ljk1OWguNzU0bDUuNzM1LTE3Ljk1OWg2LjQ2bC04LjEyMywyMy43MlptMTUuMTI2LDAsNC4xODgtMjMuNzJoNS45M2wtNC4xNDMsMjMuNzJabTIxLjAyNiwwLTQuMTUzLTEzLTIuMjQyLDEzaC01Ljk2Mmw0LjE4NS0yMy43Mmg2LjExOGw0LjEsMTIuMTIsMi4xNDEtMTIuMTI2aDUuOTMzbC00LjE1MywyMy43MlptMjEuMDI2LDAtNC4xNTMtMTMtMi4yNDIsMTNoLTUuOTYybDQuMTg4LTIzLjcyaDYuMTI4bDQuMDg0LDEyLjEyLDIuMTQxLTEyLjEyNmg1LjkzbC00LjE0OSwyMy43MlptMjUuMjA4LDBIMzI1Ljg5MWw0LjE4NS0yMy43MmgxNi41NDVsLS45MjMsNS4xMzRIMzM1LjA4NmwtLjc2LDQuNDQ4SDM0My4xbC0uOTI5LDUuMTRIMzMzLjRsLS42NSwzLjg1N2gxMC42MDlabTIxLjk4Mi0xNy41My0uNDYxLDIuNTdhOC4zLDguMywwLDAsMS0xLjM2OCwzLjQ1Nyw1LjgyNiw1LjgyNiwwLDAsMS0yLjE1NCwxLjg4MWwzLDkuNjIxaC02LjY2MUwzNTQsMTU0LjA0SDM1MS45NmwtMS4zNTIsOC44NjRoLTYuMzNsNC4xODUtMjMuNzJoOS41NTlxMy43NTMsMCw1LjMzOSwxLjY0N0E0LjQyNSw0LjQyNSwwLDAsMSwzNjQuNTQ4LDE0NCw3LjgxMSw3LjgxMSwwLDAsMSwzNjQuNDE1LDE0NS4zNzRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtODIuMjEpIiBmaWxsPSIjZmZmIi8+DQogICAgPHBhdGggaWQ9IlBhdGhfNTgiIGRhdGEtbmFtZT0iUGF0aCA1OCIgZD0iTTIxNC43MDksMTM0LjE4bC01LjksMzMuNzIxaC04LjQ3NGw1Ljk0Ni0zMy43MjFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTguMTkxKSIgZmlsbD0iI2ZlYzkwMCIvPg0KICA8L2c+DQo8L3N2Zz4NCg==";
-// $bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
-// $bodyCol: #000;
-
-// //invet 1 light skin inver 0 dark skin (images)
-// $invet: 0;
-
-// html:root {
-//   --accent: #fec900;
-//   --accent-bg: #fec900;
-//   --accent-txt: #000;
-//   --primary-bg: #ffffff;
-//   --primary-txt: #707070;
-//   --secondary-bg: #111727;
-//   --secondary-txt: #fff;
-//   --mainBg: #0e121d;
-//   --mainBgCol: #fff;
-//   --bg1: #333844;
-//   --col1: #fff;
-//   --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
-//   --teableHeadersCol: #000000;
-//   --teableSubHeadersBg: #414755;
-//   --teableSubHeadersCol: #ffffff;
-//   --tableBorders: #161d2f;
-//   --casinoGradient1: #000000;
-//   --casinoGradient1-txt: #fff;
-//   --casinoGradient2: #f4c100;
-//   --casinoGradient2-txt: #000;
-//   --backDrops: #000000cf;
-// }
-
-// $secondary: #f4c100;
-// $secondaryCol: #fff;
-// $black: #000000;
-// $secondaryDark: #d1a813;
-// $secondaryDarkCol: #222;
-// $primary: #b8bfd2;
-// $white: #ebebeb;
-// $blue: #262ca8;
-// $green: #2e9c3d;
-// $red: #e1042e;
-// $sb-2: #333844;
-
-// .casino-section {
-//   background: #000 !important;
-// }
-// .casino-section .casino-container .casino-inner {
-//   padding-top: 320px !important;
-// }
-
 html:root {
-  --accent: #57de3d;
-  --accent-bg: #ffcc00;
+  --accent: #0a96f0;
+  --accent-bg: #ff9800;
   --accent-txt: #000000;
-  --primary-bg: #12421c;
-  --primary-txt: #fff;
-  --secondary-bg: #2b883d;
-  --secondary-txt: #fff;
-  --mainBg: #ededed;
-  --mainBgCol: #222;
-  --bg1: #fff;
-  --col1: #222;
-  --teableHeadersBg: #2b883d;
-  --teableHeadersCol: #fff;
-  --teableSubHeadersBg: #dedede;
-  --teableSubHeadersCol: #222;
+  --primary-bg: #d9d9d9;
+  --primary-txt: #000000;
+  --secondary-bg: #ffffff;
+  --secondary-txt: #000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #e7e7e7;
+  --col1: #000;
+  --teableHeadersBg: #0a96f0;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #cccccc;
+  --teableSubHeadersCol: #000000;
   --tableBorders: #a3a3a3;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
@@ -80,35 +26,32 @@ $skin: "biwinner";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
-$logoUrl: "https://nextra.nextra.bet/stilobet365/images/logo2.svg";
-$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/green.jpg";
+$logoUrl: "http://static.pcluster.info/skins/icesport/img/logo/logo.svg";
+$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/blue.jpg";
 $bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 0;
+$invet: 1;
 
-$secondary: #278a3a;
+$secondary: #0a96f0;
 $secondaryCol: #fff;
 
-$secondaryDark: #094016;
+$secondaryDark: #128edb;
 $secondaryDarkCol: #fff;
-
 $black: #000000;
 $primary: #c2c2c2;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #278a3a;
+$sb-2: #0a96f0;
 
 //icesport styles
-
+.header .top-header .top-header-content .logo-holder a:before {
+  transform: scale(2);
+}
 //black filter li logos
 #favouriteTournaments li:before {
   filter: brightness(0.1);
-}
-html footer {
-  background: #222;
-  color: #fff;
 }
 body {
   background-size: 2038px !important;

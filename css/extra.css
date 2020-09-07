@@ -566,7 +566,7 @@ body .odd.selected {
 }
 .odd {
   width: auto;
-  min-width: 30px;
+  min-width: 31px;
 }
 
 footer {
@@ -592,4 +592,8 @@ footer .footer-copyright {
 .logged-page .transactions-table.betlist-table td .result-holder:after {
   background: #dcb630;
   border-radius: 50px;
+}
+
+.tabletsOdds .single-tab:first-child {
+  margin-left: 0;
 }

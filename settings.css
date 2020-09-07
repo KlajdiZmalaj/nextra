@@ -1,19 +1,19 @@
 html:root {
-  --accent: #57de3d;
-  --accent-bg: #ffcc00;
+  --accent: #0a96f0;
+  --accent-bg: #ff9800;
   --accent-txt: #000000;
-  --primary-bg: #12421c;
-  --primary-txt: #fff;
-  --secondary-bg: #2b883d;
-  --secondary-txt: #fff;
-  --mainBg: #ededed;
-  --mainBgCol: #222;
-  --bg1: #fff;
-  --col1: #222;
-  --teableHeadersBg: #2b883d;
-  --teableHeadersCol: #fff;
-  --teableSubHeadersBg: #dedede;
-  --teableSubHeadersCol: #222;
+  --primary-bg: #d9d9d9;
+  --primary-txt: #000000;
+  --secondary-bg: #ffffff;
+  --secondary-txt: #000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #e7e7e7;
+  --col1: #000;
+  --teableHeadersBg: #0a96f0;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #cccccc;
+  --teableSubHeadersCol: #000000;
   --tableBorders: #a3a3a3;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
@@ -22,14 +22,14 @@ html:root {
   --backDrops: #000000cf;
 }
 
+.header .top-header .top-header-content .logo-holder a:before {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
 #favouriteTournaments li:before {
   -webkit-filter: brightness(0.1);
           filter: brightness(0.1);
-}
-
-html footer {
-  background: #222;
-  color: #fff;
 }
 
 body {
@@ -3819,7 +3819,7 @@ div[data-source="upcoming"] .sport_odds_main {
   display: block;
   width: 200px;
   height: 53px;
-  background-image: url("https://nextra.nextra.bet/stilobet365/images/logo2.svg");
+  background-image: url("http://static.pcluster.info/skins/icesport/img/logo/logo.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
