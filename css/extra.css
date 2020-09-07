@@ -38,7 +38,9 @@
 .logged-center .change-password-page.edit-user-page .row .cell {
   border-color: var(--tableBorders) !important;
 }
-
+.logged-center .change-password-page.edit-user-page .row:last-child {
+  width: 100%;
+}
 .logged-center .usrlist #client_list td {
   padding: 5px;
 }
@@ -46,6 +48,13 @@
 .logged-center .usrlist #betlist a {
   font-weight: bold;
   color: #222;
+}
+.logged-center .new-profile-page > .transaction-filters .row,
+.logged-center .new-profile-page > .transaction-filters .row:last-child {
+  width: 100%;
+}
+.logged-center .new-profile-page .new-profile-page.save .row {
+  width: 100%;
 }
 
 .usrlist-inner {
@@ -613,7 +622,7 @@ body .casino-section .casino-container .casino-inner {
   top: 3px;
   height: 14px;
   width: 14px;
-  background: #0073b9;
+  background: #dcb630;
   border-radius: 3px;
 }
 
@@ -629,9 +638,9 @@ body .casino-section .casino-container .casino-inner {
   background-color: #ff423d;
 }
 
-.betlist-legend-holder .legend .single-item.cancelled:after {
+/* .betlist-legend-holder .legend .single-item.cancelled:after {
   background-color: #dcb630;
-}
+} */
 
 .betlist-legend-holder .legend .single-item.evaluation:after {
   background-color: #769a2f;
@@ -786,4 +795,9 @@ body .logged-page .logged-table tfoot tr td,
 }
 .logged-page + footer {
   margin-top: 0 !important;
+}
+
+.logged-center .transaction-filters .row:last-child {
+  width: 50%;
+  border-bottom: 1px solid var(--tableBorders);
 }
