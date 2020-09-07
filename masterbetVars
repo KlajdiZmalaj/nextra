@@ -24,7 +24,7 @@ html:root {
   --teableHeadersCol: #ffffff;
   --teableSubHeadersBg: #14191d;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #535353;
+--tableBorders: #445461;
   --casinoGradient1: linear-gradient(
     to right,
     #95cd3b00 3%,
@@ -47,7 +47,7 @@ $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #323232;
+$sb-2: #7c7c7c;
 
 body {
   background-size: 2038px !important;
