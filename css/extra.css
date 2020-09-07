@@ -38,7 +38,9 @@
 .logged-center .change-password-page.edit-user-page .row .cell {
   border-color: var(--tableBorders) !important;
 }
-
+.logged-center .change-password-page.edit-user-page .row:last-child {
+  width: 100%;
+}
 .logged-center .usrlist #client_list td {
   padding: 5px;
 }
@@ -46,6 +48,13 @@
 .logged-center .usrlist #betlist a {
   font-weight: bold;
   color: #222;
+}
+.logged-center .new-profile-page > .transaction-filters .row,
+.logged-center .new-profile-page > .transaction-filters .row:last-child {
+  width: 100%;
+}
+.logged-center .new-profile-page .new-profile-page.save .row {
+  width: 100%;
 }
 
 .usrlist-inner {
