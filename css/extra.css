@@ -787,3 +787,8 @@ body .logged-page .logged-table tfoot tr td,
 .logged-page + footer {
   margin-top: 0 !important;
 }
+
+.logged-center .transaction-filters .row:last-child {
+  width: 50%;
+  border-bottom: 1px solid var(--tableBorders);
+}
