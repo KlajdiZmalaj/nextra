@@ -801,3 +801,23 @@ body .logged-page .logged-table tfoot tr td,
   width: 50%;
   border-bottom: 1px solid var(--tableBorders);
 }
+
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .combination-wrapper
+  .combination-group
+  table
+  td
+  .default-bets
+  .single-bet:hover {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  transition: 0.3s;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
