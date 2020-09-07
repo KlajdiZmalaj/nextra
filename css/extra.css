@@ -755,3 +755,8 @@ body .casino-section .casino-container .casino-inner {
   background: red;
   border-radius: 10px;
 }
+body .logged-page .logged-table tfoot tr td,
+.logged-page .logged-table tr.total td {
+  background: #ffffff;
+  color: #000;
+}
