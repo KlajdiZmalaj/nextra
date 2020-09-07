@@ -760,3 +760,20 @@ body .logged-page .logged-table tfoot tr td,
   background: #ffffff;
   color: #000;
 }
+.logged-page .logged-table thead tr th {
+  font-weight: 300 !important;
+}
+.logged-content.admin-content
+  .quick-look
+  .content
+  .left-content
+  .single-holder
+  .date,
+.logged-content.admin-content
+  .quick-look
+  .content
+  .right-content
+  .single-holder
+  .date {
+  color: inherit !important;
+}
