@@ -56,3 +56,7 @@ $sb-2: #0a96f0;
 body {
   background-size: 2038px !important;
 }
+
+.casino-section {
+    background-color: #d0d5cf;
+}

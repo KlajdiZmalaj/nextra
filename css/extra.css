@@ -1,6 +1,8 @@
 /* +++++++++++++++++++++++++++++++++++++ GLOBAL STYLES FOR SITESSSSSS +++++++++++++++++++++++++++++++++++++*/
 .casino-section {
   background-position: top center !important;
+  height: calc(100vh - 120px);
+  overflow: hidden;
 }
 
 .header .top-bar .top-bar-content .login-bar .logout-button,
@@ -34,6 +36,15 @@
 }
 .logged-center .change-password-page.edit-user-page .row .cell {
   border-color: var(--tableBorders) !important;
+}
+
+.logged-center .usrlist #client_list td {
+  padding: 5px;
+}
+
+.logged-center .usrlist #betlist a {
+  font-weight: bold;
+  color: #222;
 }
 
 .usrlist-inner {
@@ -513,10 +524,19 @@ div.token-input-dropdown {
   display: flex;
   align-items: center;
 }
+
 .logged-page .logged-menu ul li .sub-menu li a:hover {
   background-color: var(--accent-bg);
   color: var(--accent-txt);
   opacity: 0.9;
+}
+
+.logged-page .logged-menu ul li a i,
+.logged-page .logged-menu ul li span i {
+  padding: 8px;
+}
+.logged-page .grid {
+  max-width: 100%;
 }
 .logged-center .change-password-page .input-wrapper {
   border-bottom: 1px solid var(--tableBorders);
@@ -537,4 +557,47 @@ body .odd.selected {
 .odds-block-type-percentages .odd,
 .center-content .percentage-block .bets .bet .odd {
   width: 50px;
+}
+
+/* .logged-center #couponhtml ~ #mainpage .transaction-filters .row:first-child {
+  width: 100%;
+  padding-right: 50%;
+} */
+.input-holder .ui-datepicker-trigger {
+  filter: grayscale(1) brightness(0) invert(0);
+}
+.odd {
+  width: auto;
+  min-width: 30px;
+}
+
+footer {
+  background: var(--mainBg);
+}
+
+footer .footer-copyright {
+  background: var(--bg1);
+}
+
+.single-sport .anchor.sport-112 .icon {
+  background-image: url(//nextra.nextra.bet/biwinner/images/sport-icons/sport-icon-112.svg);
+}
+
+.betlist-legend-holder .legend .single-item:after {
+  background: #dcb630;
+}
+
+.betlist-legend-holder .legend .single-item.cancelled:after {
+  background-color: #0073b9;
+}
+
+.logged-page .transactions-table.betlist-table td .result-holder:after {
+  background: #dcb630;
+  border-radius: 50px;
+}
+body .casino-section .casino-container .casino-inner {
+  width: 100%;
+  padding-top: 310px;
+  height: calc(100% - 312px) !important;
+  overflow: scroll;
 }

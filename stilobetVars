@@ -1,7 +1,7 @@
 html:root {
   --accent: #57de3d;
-  --accent-bg: #278a3a;
-  --accent-txt: #fff;
+  --accent-bg: #ffcc00;
+  --accent-txt: #000000;
   --primary-bg: #12421c;
   --primary-txt: #fff;
   --secondary-bg: #2b883d;
@@ -22,7 +22,7 @@ html:root {
   --backDrops: #000000cf;
 }
 
-$skin: "stilobet";
+$skin: "biwinner";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
