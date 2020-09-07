@@ -1,4 +1,4 @@
-$skin: "1x2sportlive";
+$skin: "biwinner";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
@@ -46,7 +46,7 @@ $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #323232;
+$sb-2: #60666b;
 
 body {
   background-size: 2038px !important;

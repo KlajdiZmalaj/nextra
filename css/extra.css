@@ -797,9 +797,8 @@ body .logged-page .logged-table tfoot tr td,
   margin-top: 0 !important;
 }
 
-.logged-center .transaction-filters .row:last-child {
-  width: 50%;
-  border-bottom: 1px solid var(--tableBorders);
+.logged-center .transaction-filters [name="giroconto"] .row:last-child {
+  width: 100%;
 }
 
 .side-bar
@@ -820,4 +819,18 @@ body .logged-page .logged-table tfoot tr td,
   -moz-user-select: none; /* Old versions of Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
+}
+
+.ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper {
+  background-color: #b8bfd2;
+  color: #333333;
+}
+
+.transactions-legend-holder .rows-per-page .ui-selectmenu-button, .transactions-legend-holder .rows-per-page select {
+  width: 50px;
+}
+
+.new-profile-page .turn-over-content .bonus-wrapper .title {
+    background-color: #ebebeb;
+    color: #404040;
 }
