@@ -33,6 +33,7 @@
 
 .logged-center .change-password-page.edit-user-page {
   background-color: transparent !important;
+  color: inherit;
 }
 .logged-center .change-password-page.edit-user-page .row .cell {
   border-color: var(--tableBorders) !important;
@@ -776,4 +777,13 @@ body .logged-page .logged-table tfoot tr td,
   .single-holder
   .date {
   color: inherit !important;
+}
+.logged-center {
+  margin-bottom: 0 !important;
+}
+.logged-page footer {
+  margin-top: 0 !important;
+}
+.logged-page + footer {
+  margin-top: 0 !important;
 }
