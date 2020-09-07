@@ -22,7 +22,7 @@ html:root {
   --backDrops: #000000cf;
 }
 
-$skin: "biwinner";
+$skin: "icesport";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
@@ -38,12 +38,14 @@ $secondaryCol: #fff;
 $secondaryDark: #128edb;
 $secondaryDarkCol: #fff;
 $black: #000000;
-$primary: #c2c2c2;
+$secondaryDark: #d1a813;
+$secondaryDarkCol: #222;
+$primary: #b8bfd2;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #0a96f0;
+$sb-2: #333844;
 
 //icesport styles
 .header .top-header .top-header-content .logo-holder a:before {

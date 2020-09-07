@@ -22,7 +22,7 @@ html:root {
   --backDrops: #000000cf;
 }
 
-$skin: "biwinner";
+$skin: "icesport";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
@@ -55,4 +55,8 @@ $sb-2: #0a96f0;
 }
 body {
   background-size: 2038px !important;
+}
+
+.casino-section {
+    background-color: #d0d5cf;
 }

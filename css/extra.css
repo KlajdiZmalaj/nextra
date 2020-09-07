@@ -1,6 +1,8 @@
 /* +++++++++++++++++++++++++++++++++++++ GLOBAL STYLES FOR SITESSSSSS +++++++++++++++++++++++++++++++++++++*/
 .casino-section {
   background-position: top center !important;
+  height: calc(100vh - 120px);
+  overflow: hidden;
 }
 
 .header .top-bar .top-bar-content .login-bar .logout-button,
@@ -593,7 +595,163 @@ footer .footer-copyright {
   background: #dcb630;
   border-radius: 50px;
 }
-
+body .casino-section .casino-container .casino-inner {
+  width: 100%;
+  padding-top: 310px;
+  height: calc(100% - 312px) !important;
+  overflow: scroll;
+}
 .tabletsOdds .single-tab:first-child {
   margin-left: 0;
+}
+
+.betlist-legend-holder .legend .single-item:after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 3px;
+  height: 14px;
+  width: 14px;
+  background: #0073b9;
+  border-radius: 3px;
+}
+
+.betlist-legend-holder .legend .single-item.won:after {
+  background-color: #2da050;
+}
+
+.betlist-legend-holder .legend .single-item.partially-won:after {
+  background-color: #924add;
+}
+
+.betlist-legend-holder .legend .single-item.lost:after {
+  background-color: #ff423d;
+}
+
+.betlist-legend-holder .legend .single-item.cancelled:after {
+  background-color: #dcb630;
+}
+
+.betlist-legend-holder .legend .single-item.evaluation:after {
+  background-color: #769a2f;
+}
+
+.betlist-legend-holder .legend .single-item.cashout:after {
+  background-color: #f4c685;
+}
+
+.betlist-legend-holder .legend .single-item.promotion:after {
+  background-color: #c929ad;
+}
+
+.betlist-legend-holder .legend .single-item.admin:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 0px;
+  height: 20px;
+  width: 18px;
+  border-radius: 2px;
+  background-image: url(//nextra.nextra.bet/nextra/images/user-suit.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 14px 18px;
+  background-color: #ebebeb;
+}
+
+.betlist-legend-holder .legend .single-item.agent:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 0px;
+  height: 20px;
+  width: 18px;
+  border-radius: 2px;
+  background-image: url(//nextra.nextra.bet/nextra/images/user-shirt.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 14px 18px;
+  background-color: #ebebeb;
+}
+
+.betlist-legend-holder .legend .single-item.shop:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 0px;
+  height: 20px;
+  width: 18px;
+  border-radius: 2px;
+  background-image: url(//nextra.nextra.bet/nextra/images/shop-ico.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 16px 18px;
+  background-color: #ebebeb;
+}
+
+.betlist-legend-holder .legend .single-item.player:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 0px;
+  height: 20px;
+  width: 18px;
+  border-radius: 2px;
+  background-image: url(//nextra.nextra.bet/nextra/images/joystick-ico.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 16px 15px;
+  background-color: #ebebeb;
+}
+
+.betlist-legend-holder .legend .single-item.cashier:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 0px;
+  height: 20px;
+  width: 18px;
+  border-radius: 2px;
+  background-image: url(//nextra.nextra.bet/nextra/images/cash-reg-ico.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 14px 18px;
+  background-color: #ebebeb;
+}
+
+.betlist-legend-holder .legend .single-item.removed:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 0px;
+  height: 20px;
+  width: 18px;
+  border-radius: 2px;
+  background-image: url(//nextra.nextra.bet/nextra/images/person-na.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-color: #ebebeb;
+}
+
+.betlist-legend-holder .legend .single-item.active:after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 3px;
+  height: 14px;
+  width: 14px;
+  background: green;
+  border-radius: 10px;
+}
+
+.betlist-legend-holder .legend .single-item.unactive:after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 3px;
+  height: 14px;
+  width: 14px;
+  background: red;
+  border-radius: 10px;
 }
