@@ -1,60 +1,54 @@
+$skin: "biwinner";
+$cdnPath: "//nextra.nextra.bet/#{$skin}";
+$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+
+$logoUrl: "https://nextra.nextra.bet/masterbet/images/logo2.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
+$bodyCol: #000;
+
+//invet 1 light skin inver 0 dark skin (images)
+$invet: 1;
 html:root {
-  --accent: #0a96f0;
-  --accent-bg: #ff9800;
-  --accent-txt: #000000;
-  --primary-bg: #d9d9d9;
-  --primary-txt: #000000;
-  --secondary-bg: #ffffff;
-  --secondary-txt: #000;
-  --mainBg: #ffffff;
-  --mainBgCol: #000;
-  --bg1: #e7e7e7;
-  --col1: #000;
-  --teableHeadersBg: #0a96f0;
+  --accent: #95cd3b;
+  --accent-bg: #95cd3b;
+  --accent-txt: #000;
+  --primary-bg: #000;
+  --primary-txt: #fff;
+  --secondary-bg: #212931;
+  --secondary-txt: #fff;
+  --mainBg: #212931;
+  --mainBgCol: #fff;
+  --bg1: #29333b;
+  --col1: #fff;
+  --teableHeadersBg: #384351;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #cccccc;
-  --teableSubHeadersCol: #000000;
-  --tableBorders: #a3a3a3;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --teableSubHeadersBg: #14191d;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #445461;
+  --casinoGradient1: linear-gradient(
+    to right,
+    #95cd3b00 3%,
+    #95cd3b 60%,
+    #95cd3b00 99%
+  );
+  --casinoGradient1-txt: #000;
+  --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
 }
 
-$skin: "icesport";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
-
-$logoUrl: "http://static.pcluster.info/skins/icesport/img/logo/logo.svg";
-$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/blue.jpg";
-$bodyCol: #000;
-//invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
-
-$secondary: #0a96f0;
+$secondary: #95cd3b;
 $secondaryCol: #fff;
-
-$secondaryDark: #128edb;
-$secondaryDarkCol: #fff;
 $black: #000000;
-$secondaryDark: #d1a813;
-$secondaryDarkCol: #222;
-$primary: #b8bfd2;
+$secondaryDark: #95cd3b;
+$secondaryDarkCol: #fff;
+$primary: #607d8b;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #333844;
+$sb-2: #7c7c7c;
 
-//icesport styles
-.header .top-header .top-header-content .logo-holder a:before {
-  transform: scale(2);
-}
-//black filter li logos
-#favouriteTournaments li:before {
-  filter: brightness(0.1);
-}
 body {
   background-size: 2038px !important;
 }
