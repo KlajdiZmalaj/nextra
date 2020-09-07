@@ -33,6 +33,7 @@
 
 .logged-center .change-password-page.edit-user-page {
   background-color: transparent !important;
+  color: inherit;
 }
 .logged-center .change-password-page.edit-user-page .row .cell {
   border-color: var(--tableBorders) !important;
@@ -754,4 +755,35 @@ body .casino-section .casino-container .casino-inner {
   width: 14px;
   background: red;
   border-radius: 10px;
+}
+body .logged-page .logged-table tfoot tr td,
+.logged-page .logged-table tr.total td {
+  background: #ffffff;
+  color: #000;
+}
+.logged-page .logged-table thead tr th {
+  font-weight: 300 !important;
+}
+.logged-content.admin-content
+  .quick-look
+  .content
+  .left-content
+  .single-holder
+  .date,
+.logged-content.admin-content
+  .quick-look
+  .content
+  .right-content
+  .single-holder
+  .date {
+  color: inherit !important;
+}
+.logged-center {
+  margin-bottom: 0 !important;
+}
+.logged-page footer {
+  margin-top: 0 !important;
+}
+.logged-page + footer {
+  margin-top: 0 !important;
 }
