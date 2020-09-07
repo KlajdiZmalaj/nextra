@@ -22,12 +22,9 @@ html:root {
   --backDrops: #000000cf;
 }
 
-.casino-section {
-  background: #000 !important;
-}
-
-.casino-section .casino-container .casino-inner {
-  padding-top: 320px !important;
+footer .payment {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 button,
