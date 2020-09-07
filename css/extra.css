@@ -622,7 +622,7 @@ body .casino-section .casino-container .casino-inner {
   top: 3px;
   height: 14px;
   width: 14px;
-  background: #0073b9;
+  background: #dcb630;
   border-radius: 3px;
 }
 
@@ -638,9 +638,9 @@ body .casino-section .casino-container .casino-inner {
   background-color: #ff423d;
 }
 
-.betlist-legend-holder .legend .single-item.cancelled:after {
+/* .betlist-legend-holder .legend .single-item.cancelled:after {
   background-color: #dcb630;
-}
+} */
 
 .betlist-legend-holder .legend .single-item.evaluation:after {
   background-color: #769a2f;
