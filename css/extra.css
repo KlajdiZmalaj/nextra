@@ -552,11 +552,11 @@ div.token-input-dropdown {
   border-bottom: 1px solid var(--tableBorders);
 }
 .first-header td {
-  padding: 0 8px;
   white-space: nowrap;
   line-height: 26px;
   text-overflow: ellipsis;
-  overflow: hidden;
+  max-width: 45px;
+  font-size: 11px;
 }
 .bet-confirm-popup-wrapper .bet-confirm-popup {
   color: #222;
