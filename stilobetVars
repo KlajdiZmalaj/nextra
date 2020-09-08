@@ -30,7 +30,7 @@ $logoUrl: "https://nextra.nextra.bet/stilobet365/images/logo2.svg";
 $bodyBg: "https://nextra.nextra.bet/nextra/images/bg/green.jpg";
 $bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 0;
+$invet: 1;
 
 $secondary: #278a3a;
 $secondaryCol: #fff;
@@ -53,8 +53,35 @@ $sb-2: #278a3a;
   filter: brightness(0.1);
 }
 html footer {
-  background:#222;
-  color:#fff;
-}body {
-    background-size: 2038px !important;
+  background: #222;
+  color: #fff;
+}
+
+body {
+  background-size: 2038px !important;
+}
+
+.main-content.home-page
+  .left-side-bar
+  .single-block:first-child
+  .block-title
+  span,
+.main-content.home-page
+  .right-side-bar
+  .single-block:first-child
+  .block-title
+  span,
+.main-content.home-page
+  .right-side-bar
+  .single-block:nth-child(2)
+  .block-title
+  span {
+  color: var(--accent-bg);
+}
+
+
+.side-bar .single-block:first-child .block-title img,
+.side-bar .single-block:nth-child(2) .block-title img {
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+  filter: grayscale(1) brightness(0) invert(0);
 }

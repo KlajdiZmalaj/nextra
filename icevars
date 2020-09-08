@@ -60,3 +60,15 @@ body {
 .casino-section {
     background-color: #d0d5cf;
 }
+
+.side-bar .single-block:first-child .block-title,
+.side-bar .single-block:nth-child(2) .block-title {
+  background-color: var(--accent-bg);
+  color: var(--accent-txt);
+}
+
+.side-bar .single-block:first-child .block-title img,
+.side-bar .single-block:nth-child(2) .block-title img {
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+  filter: grayscale(1) brightness(0) invert(0);
+}

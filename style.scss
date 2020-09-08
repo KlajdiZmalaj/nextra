@@ -5683,7 +5683,7 @@ footer {
       width: 100%;
       display: none;
       margin-top: 21px;
-      border-top: 1px solid $white;
+      // border-top: 1px solid $white;
       margin-bottom: 3px;
       .single-inner-tab {
         line-height: 36px;
@@ -5698,6 +5698,7 @@ footer {
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
+        margin: 1px;
         &:hover,
         &.active {
           background: var(--accent-bg);

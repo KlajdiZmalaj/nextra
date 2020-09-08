@@ -611,9 +611,6 @@ body .casino-section .casino-container .casino-inner {
   height: calc(100% - 312px) !important;
   overflow: scroll;
 }
-.tabletsOdds .single-tab:first-child {
-  margin-left: 0;
-}
 
 .betlist-legend-holder .legend .single-item:after {
   content: "";
@@ -826,11 +823,12 @@ body .logged-page .logged-table tfoot tr td,
   color: #333333;
 }
 
-.transactions-legend-holder .rows-per-page .ui-selectmenu-button, .transactions-legend-holder .rows-per-page select {
+.transactions-legend-holder .rows-per-page .ui-selectmenu-button,
+.transactions-legend-holder .rows-per-page select {
   width: 50px;
 }
 
 .new-profile-page .turn-over-content .bonus-wrapper .title {
-    background-color: #ebebeb;
-    color: #404040;
+  background-color: #ebebeb;
+  color: #404040;
 }
