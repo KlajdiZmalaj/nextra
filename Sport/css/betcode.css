@@ -14,7 +14,7 @@ html:root {
   --teableHeadersCol: #ffffff;
   --teableSubHeadersBg: #14191d;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #445461;
+  --tableBorders: #535f6f;
   --casinoGradient1: linear-gradient(
     to right,
     #95cd3b00 3%,
@@ -31,9 +31,10 @@ body {
   background-size: 2038px !important;
 }
 
-#favouriteTournaments li:before {
-  -webkit-filter: brightness(0);
-          filter: brightness(0);
+html .header .top-header .top-header-content .logo-holder a:before {
+  width: 240px;
+  position: relative;
+  top: 2px;
 }
 
 body {

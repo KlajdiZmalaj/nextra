@@ -23,7 +23,7 @@ html:root {
   --teableHeadersCol: #ffffff;
   --teableSubHeadersBg: #14191d;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #535353;
+  --tableBorders: #535f6f;
   --casinoGradient1: linear-gradient(
     to right,
     #95cd3b00 3%,
@@ -41,7 +41,7 @@ $secondaryCol: #fff;
 $black: #000000;
 $secondaryDark: #95cd3b;
 $secondaryDarkCol: #fff;
-$primary: #323232;
+$primary: #536377;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
