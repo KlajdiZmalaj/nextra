@@ -1,57 +1,45 @@
-$skin: "biwinner";
+$skin: "topbet365";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
-$logoUrl: "https://nextra.nextra.bet/masterbet/images/logo2.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
+$logoUrl: "https://nextra.nextra.bet/topbet365/images/logo2.svg";
+$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/green.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #95cd3b;
-  --accent-bg: #95cd3b;
-  --accent-txt: #000;
-  --primary-bg: #000;
+  --accent: #c8151e;
+  --accent-bg: #c8151e;
+  --accent-txt: #ffffff;
+  --primary-bg: #444444;
   --primary-txt: #fff;
-  --secondary-bg: #212931;
+  --secondary-bg: #161616;
   --secondary-txt: #fff;
-  --mainBg: #212931;
+  --mainBg: #1e1e1e;
   --mainBgCol: #fff;
-  --bg1: #29333b;
+  --bg1: #3e3e3e;
   --col1: #fff;
-  --teableHeadersBg: #384351;
+  --teableHeadersBg: linear-gradient(to bottom, #373838, #2d2e2d);
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #14191d;
-  --teableSubHeadersCol: #ffffff;
-  --tableBorders: #445461;
-  --casinoGradient1: linear-gradient(
-    to right,
-    #95cd3b00 3%,
-    #95cd3b 60%,
-    #95cd3b00 99%
-  );
-  --casinoGradient1-txt: #000;
+  --teableSubHeadersBg: #666666;
+  --teableSubHeadersCol: #cccccc;
+  --tableBorders: #666666;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
 }
 
-$secondary: #95cd3b;
+$secondary: #c8151e;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #95cd3b;
+$secondaryDark: #c8151e;
 $secondaryDarkCol: #fff;
-$primary: #607d8b;
+$primary: #323232;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #7c7c7c;
-
-body {
-  background-size: 2038px !important;
-}
-#favouriteTournaments li:before {
-  filter: brightness(0);
-}
+$sb-2: #444444;
