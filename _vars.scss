@@ -2,7 +2,7 @@ $skin: "biwinner";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
-$logoUrl: "https://nextra.nextra.bet/masterbet/images/logo2.svg";
+$logoUrl: "https://nextra.nextra.bet/bbgame/images/logo2.svg";
 $bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
 $bodyCol: #000;
 
@@ -24,7 +24,7 @@ html:root {
   --teableHeadersCol: #ffffff;
   --teableSubHeadersBg: #14191d;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #445461;
+  --tableBorders: #535353;
   --casinoGradient1: linear-gradient(
     to right,
     #95cd3b00 3%,
@@ -42,79 +42,13 @@ $secondaryCol: #fff;
 $black: #000000;
 $secondaryDark: #95cd3b;
 $secondaryDarkCol: #fff;
-$primary: #607d8b;
+$primary: #323232;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #525b61;
+$sb-2: #323232;
 
 body {
   background-size: 2038px !important;
-}
-
-.main-content.home-page
-  .left-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:nth-child(2)
-  .block-title
-  span {
-  color: var(--accent-bg);
-  font-weight: 500;
-}
-
-.single-sport .states .state .championship.selected .anchor {
-  color: var(--accent) !important;
-}
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark:after,
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark {
-  border-color: var(--accent) !important;
-}
-
-.odds-table .second-header td.day {
-  color: var(--accent) !important;
-}
-
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
-  border: 1px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-
-.tabs-holder .tabs-row .single-tab {
-  border-bottom: 2px solid transparent !important;
-}
-
-.tabs-holder .tabs-row .single-tab:hover,
-.tabs-holder .tabs-row .single-tab.active {
-  border-bottom: 2px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-.odds-table .second-header {
-  opacity: 1 !important;
 }

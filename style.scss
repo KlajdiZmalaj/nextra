@@ -4776,15 +4776,16 @@ footer {
       .info-toggle {
         position: absolute;
         left: 10px;
-        bottom: 5px;
-        background-color: var(--accent-bg);
-        color: var(--accent-txt);
+        bottom: 2px;
+        background-color: transparent;
+        color: var(--mainBgCol);
         padding: 2px 10px 2px 10px;
         border-radius: 3px;
         padding-right: 5px;
         line-height: 15px;
         font-size: 10px;
         background-size: 14px;
+        border: 1px solid;
         cursor: pointer;
         &:before {
           content: "\f05a";

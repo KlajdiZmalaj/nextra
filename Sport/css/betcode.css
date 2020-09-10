@@ -1,102 +1,34 @@
 html:root {
-  --accent: #95cd3b;
-  --accent-bg: #95cd3b;
-  --accent-txt: #000;
-  --primary-bg: #000;
-  --primary-txt: #fff;
-  --secondary-bg: #212931;
-  --secondary-txt: #fff;
-  --mainBg: #212931;
-  --mainBgCol: #fff;
-  --bg1: #29333b;
-  --col1: #fff;
-  --teableHeadersBg: #384351;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #14191d;
+  --accent: #005293;
+  --accent-bg: #005293;
+  --accent-txt: #ffcc00;
+  --primary-bg: #005293;
+  --primary-txt: #ffffff;
+  --secondary-bg: #ffffff;
+  --secondary-txt: #000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #e7e7e7;
+  --col1: #000;
+  --teableHeadersBg: #ffcc00;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #005293;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #445461;
-  --casinoGradient1: linear-gradient(
-    to right,
-    #95cd3b00 3%,
-    #95cd3b 60%,
-    #95cd3b00 99%
-  );
-  --casinoGradient1-txt: #000;
-  --casinoGradient2: #636363;
+  --tableBorders: #a3a3a3;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
 }
 
-body {
-  background-size: 2038px !important;
+#favouriteTournaments li:before {
+  -webkit-filter: brightness(0.1);
+          filter: brightness(0.1);
 }
 
-.main-content.home-page
-.left-side-bar
-.single-block:first-child
-.block-title
-span,
-.main-content.home-page
-.right-side-bar
-.single-block:first-child
-.block-title
-span,
-.main-content.home-page
-.right-side-bar
-.single-block:nth-child(2)
-.block-title
-span {
-  color: var(--accent-bg);
-  font-weight: 500;
-}
-
-.single-sport .states .state .championship.selected .anchor {
-  color: var(--accent) !important;
-}
-
-.single-sport
-.states
-.state
-.championship
-.anchor
-.check
-input:checked
-~ .checkmark:after,
-.single-sport
-.states
-.state
-.championship
-.anchor
-.check
-input:checked
-~ .checkmark {
-  border-color: var(--accent) !important;
-}
-
-.odds-table .second-header td.day {
-  color: var(--accent) !important;
-}
-
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
-  border: 1px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-
-.tabs-holder .tabs-row .single-tab {
-  border-bottom: 2px solid transparent !important;
-}
-
-.tabs-holder .tabs-row .single-tab:hover,
-.tabs-holder .tabs-row .single-tab.active {
-  border-bottom: 2px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-
-.odds-table .second-header {
-  opacity: 1 !important;
+.side-bar .single-block .block-content form #entercode3[type="submit"] {
+  background-color: var(--accent-txt);
 }
 
 body {

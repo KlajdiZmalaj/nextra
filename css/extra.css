@@ -832,3 +832,265 @@ body .logged-page .logged-table tfoot tr td,
   background-color: #ebebeb;
   color: #404040;
 }
+
+.coupon-details-page-content .row > div,
+.logged-page .transactions-table.coupon-details-table thead tr th,
+.logged-page .transactions-table.coupon-details-table tr td {
+  color: #1b1b1b;
+}
+
+/* start coupon details on lista scomessa */
+.event-list-legend-holder .legend .single-item:after,
+.logged-page .transactions-table.coupon-details-table tr td.result span {
+  background: #fec82e;
+}
+
+.event-list-legend-holder .legend .single-item.void:after,
+.logged-page .transactions-table.coupon-details-table tr td.result.void span {
+  background-color: #0073b9;
+}
+
+/* end coupon details on lista scomessa */
+
+.single-sport .states .state .championship:hover,
+.single-sport .states .state > .anchor.special:hover,
+.single-sport > .anchor:hover {
+  background: var(--teableSubHeadersBg) !important;
+  color: var(--teableSubHeadersCol) !important;
+  border-left: 2px solid var(--accent);
+}
+.single-sport .states .state > .anchor.special:hover .trigger {
+  color: var(--teableSubHeadersCol) !important;
+}
+
+.single-sport .states .state .championship,
+.single-sport .states .state > .anchor.special,
+.single-sport > .anchor {
+  border-left: 2px solid transparent;
+}
+
+.side-bar
+  .single-block
+  .block-content
+  form[name="fastslip3"]
+  .ui-selectmenu-button,
+.side-bar .single-block .block-content form[name="fastslip3"] select {
+  color: var(--mainBgCol);
+}
+
+.side-bar .single-block .block-content form input#entercode3[type="submit"],
+.side-bar .single-block .block-content form input#entercode[type="submit"] {
+  background-image: url("https://nextra.pcluster.info/img/submit.png");
+  background-size: 17px;
+  background-position: top 5px center;
+}
+
+.sports-book-page .filters-holder .buttons-holder .single-button:hover {
+  background-color: var(--accent-bg);
+  color: var(--accent-txt);
+}
+.odds-table .single-match-odds .single-match-odds-table .odd-type .info-toggle {
+  border-radius: 3px;
+  margin-left: 10px;
+  height: 14px;
+  background-color: var(--accent-bg);
+  color: var(--accent-txt);
+  padding: 2px 5px 2px 5px;
+  top: 3px;
+  line-height: 16px;
+  font-size: 11px;
+}
+.odds-table .single-match-odds .single-match-odds-table .info-row td {
+  background: #dedede;
+  color: #000;
+}
+
+.sked-tape__location {
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+}
+.sked-tape__event-row:nth-child(odd) {
+  background-color: #fdfdfd;
+  color: #000;
+}
+.sked-tape__event-row {
+  color: #000;
+  background-color: #f4f4f4;
+}
+.sked-tape__date:nth-child(odd) {
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+}
+.sked-tape__date {
+  background: #e0e0e0;
+  color: var(--mainBg);
+}
+.casino-section {
+  background-image: url(http://nextra.pcluster.info/jogar365/images/casino/casinoBg.png);
+}
+
+@media (max-width: 1088px) {
+  .logged-header.header
+    .top-header
+    .top-header-content
+    .primary-menu
+    .register-button {
+    line-height: normal;
+  }
+}
+
+.ed-container {
+  max-width: 630px;
+  margin: 0px auto;
+  border: 1px solid #c7c7c9;
+  border-radius: 8px;
+  padding: 40px;
+}
+.ed-a {
+  padding: 0 0 20px 0px;
+}
+.ed-b {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(100px, 25%) 1fr;
+  grid-template-columns: minmax(100px, 25%) 1fr;
+  border: 1px solid #c7c7c9;
+  border-radius: 8px;
+  padding: 20px 20px 20px 0;
+}
+.ed-b-img {
+  padding-top: 30px;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+.ed-b-img img {
+  width: 60px;
+  display: block;
+}
+.ed-b-content .ed-b-head {
+  margin: 10px 0;
+  font-size: 19px;
+  font-weight: bold;
+}
+.ed-b-content .ed-b-li {
+  line-height: 17px;
+  margin-bottom: 2px;
+  font-size: 12px;
+  display: block;
+}
+.ed-qr {
+  padding: 10px 0px 0px 10px;
+  margin-bottom: 20px;
+}
+.ed-b-content .ed-b-digit {
+  margin-top: 15px;
+  outline: 0;
+  font-size: 12px;
+  border: 1px solid #101b74;
+  display: block;
+}
+.ed-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  /* -webkit-box-align: center; */
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: right;
+  padding: 20px 0;
+  border-bottom: 2px solid #c7c7c9;
+}
+.ed-c-left {
+  padding-right: 20px;
+}
+.ed-c-left .ed-c-head {
+  display: block;
+  margin-bottom: 5px;
+}
+.ed-c-left .ed-c-text {
+  font-size: 10px;
+}
+
+.ed-c-left .ed-c-text a {
+  font-weight: bold;
+  color: var(--accent);
+}
+
+.ed-a-link {
+  color: var(--accent);
+}
+
+.ed-switch {
+  position: relative;
+  display: inline-block;
+}
+.ed-switch input {
+  width: 30px;
+  height: 30px;
+}
+.ed-d-head {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.ed-d-text {
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.ed-d-app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 20px;
+  position: relative;
+}
+.ed-d-app .ed-d-box {
+  padding: 0 20px;
+}
+.ed-d-app .ed-d-box img {
+  display: block;
+  width: 100px;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.ed-a-head {
+  margin: 0 0 10px 0;
+  padding: 10px 0 12px 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.reports .report-types .single-type {
+  color: var(--col1);
+}
+
+.logged-center .transfer-successful {
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+}
+
+.logged-center .transfer-successful .content {
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+}
+
+.logged-center .transfer-successful .content .first-row .text {
+  color: var(--mainBgCol);
+}
+
+.logged-center .transfer-successful .content .text {
+  color: var(--mainBgCol);
+}
+.logged-page .logged-table.transactions-table.betlist-table #betlist td img {
+  max-width: 25px;
+}

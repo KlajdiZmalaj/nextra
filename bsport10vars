@@ -51,3 +51,8 @@ $sb-2: #0a96f0;
 #favouriteTournaments li:before {
   filter: brightness(0.1);
 }
+
+
+.side-bar .single-block .block-content form input[type="submit"] {
+    background-color: var(--accent-txt);
+}
