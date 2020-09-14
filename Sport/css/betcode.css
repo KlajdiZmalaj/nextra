@@ -1,34 +1,25 @@
 html:root {
-  --accent: #005293;
-  --accent-bg: #005293;
-  --accent-txt: #ffcc00;
-  --primary-bg: #005293;
-  --primary-txt: #ffffff;
-  --secondary-bg: #ffffff;
-  --secondary-txt: #000;
-  --mainBg: #ffffff;
-  --mainBgCol: #000;
-  --bg1: #e7e7e7;
-  --col1: #000;
-  --teableHeadersBg: #ffcc00;
+  --accent: #fec900;
+  --accent-bg: #fec900;
+  --accent-txt: #000;
+  --primary-bg: #ffffff;
+  --primary-txt: #707070;
+  --secondary-bg: #111727;
+  --secondary-txt: #fff;
+  --mainBg: #0e121d;
+  --mainBgCol: #fff;
+  --bg1: #333844;
+  --col1: #fff;
+  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
   --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #005293;
+  --teableSubHeadersBg: #414755;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #a3a3a3;
+  --tableBorders: #161d2f;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-}
-
-#favouriteTournaments li:before {
-  -webkit-filter: brightness(0.1);
-          filter: brightness(0.1);
-}
-
-.side-bar .single-block .block-content form #entercode3[type="submit"] {
-  background-color: var(--accent-txt);
 }
 
 body {

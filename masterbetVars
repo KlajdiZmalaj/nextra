@@ -117,3 +117,8 @@ body {
 }
 .odds-table .second-header {
   opacity: 1!important;
+}
+
+.side-bar .single-block.betslip-holder .betslip .selections-wrapper .single-event .selected-bet .bet .quote {
+  color:var(--accent:)
+}

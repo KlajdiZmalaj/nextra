@@ -558,9 +558,12 @@ div.token-input-dropdown {
   max-width: 45px;
   font-size: 11px;
 }
+
 .bet-confirm-popup-wrapper .bet-confirm-popup {
   color: #222;
+  background-color: #d8d8d8;
 }
+
 body .odd.selected {
   width: auto;
 }
@@ -1091,6 +1094,35 @@ body .logged-page .logged-table tfoot tr td,
 .logged-center .transfer-successful .content .text {
   color: var(--mainBgCol);
 }
+
 .logged-page .logged-table.transactions-table.betlist-table #betlist td img {
   max-width: 25px;
+}
+
+.clgames-item-img {
+  background-color: var(--teableSubHeadersBg);
+}
+
+.header .top-header .top-header-content .primary-menu ul li.active {
+  color: var(--accent);
+}
+.poker-strip {
+  background-color: var(--teableSubHeadersBg);
+  color: var(--accent-col);
+}
+
+.odd:hover,
+.single-odd .quote:hover {
+  background: var(--accent-bg) !important;
+  color: var(--accent-txt) !important;
+}
+
+.logged-page .cashdesk-content {
+  background-color: #d4d4d4;
+  color: #0e0e0e;
+}
+
+.ui-datepicker .ui-datepicker-calendar {
+  background: #ffffff;
+  color: #333333 !important;
 }

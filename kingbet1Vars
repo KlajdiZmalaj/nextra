@@ -55,3 +55,10 @@ body footer .footer-logo a:before {
   filter: grayscale(1) brightness(2.1);
   opacity: 0.5;
 }
+
+.logged-page .registration-holder .form-holder form .note {
+     color: var(--col1)!important;
+}
+.logged-page .registration-holder .form-holder form .buttons {
+  background:transparent;
+}

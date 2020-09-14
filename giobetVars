@@ -47,6 +47,12 @@ $sb-2: #323232;
 body {
     background-size: 2038px !important;
 }
+
 footer .footer-logo a:before {
-  filter: grayscale(1) invert(0.7);
+    opacity: 0.9;
+}
+
+footer {
+    background: var(--tableBorders);
+    margin-top: 0;
 }

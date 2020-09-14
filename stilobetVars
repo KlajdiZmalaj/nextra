@@ -85,3 +85,7 @@ body {
   -webkit-filter: grayscale(1) brightness(0) invert(0);
   filter: grayscale(1) brightness(0) invert(0);
 }
+
+.header .top-bar .top-bar-content .login-bar form input[type="text"], .header .top-bar .top-bar-content .login-bar form input[type="password"] {
+    color: var(--accent-txt)!important;
+}
