@@ -1126,3 +1126,13 @@ body .logged-page .logged-table tfoot tr td,
   background: #ffffff;
   color: #333333 !important;
 }
+
+.odds-table .single-match-row.match-odds-open {
+  /* position: absolute; */
+  width: auto;
+  z-index: 1;
+  left: 0;
+  padding: 0;
+  background: #666666;
+  width: 100%;
+}
