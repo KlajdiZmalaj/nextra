@@ -1136,3 +1136,35 @@ body .logged-page .logged-table tfoot tr td,
   background: #666666;
   width: 100%;
 }
+
+.center-content .popular-bets .title {
+  padding-left: 5px;
+}
+
+.center-content .popular-bets .title img {
+  padding: 0 5px;
+  display: inline-block;
+}
+
+#miniTablets .odds-table .single-match-row td .more-cell:before {
+  content: "\f067";
+  font-family: FontAwesome;
+  font-size: 10px;
+}
+
+.logged-page .transactions-table.coupon-details-table thead tr th {
+  background: var(--teableSubHeadersBg);
+  color: var(--teableSubHeadersCol) !important;
+}
+
+/*start logged part mobile*/
+[data-logged="true"][data-state="open"] .main_submenu .button.saldo {
+  background-color: var(--accent-bg);
+}
+
+[data-logged="true"] ul#login_data li {
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+}
+
+/*end logged part mobile*/
