@@ -606,8 +606,15 @@ footer .footer-copyright {
 
 .logged-page .transactions-table.betlist-table td .result-holder:after {
   background: #dcb630;
-  border-radius: 50px;
 }
+
+.logged-page
+  .transactions-table.betlist-table
+  td
+  .result-holder.evaluation:after {
+  background-color: #517111;
+}
+
 body .casino-section .casino-container .casino-inner {
   width: 100%;
   padding-top: 310px;
@@ -643,7 +650,7 @@ body .casino-section .casino-container .casino-inner {
 } */
 
 .betlist-legend-holder .legend .single-item.evaluation:after {
-  background-color: #769a2f;
+  background-color: #517111;
 }
 
 .betlist-legend-holder .legend .single-item.cashout:after {
@@ -1076,7 +1083,9 @@ body .logged-page .logged-table tfoot tr td,
 .reports .report-types .single-type {
   color: var(--col1);
 }
-
+.reports .report-types {
+  background-color: transparent;
+}
 .logged-center .transfer-successful {
   background: var(--mainBg);
   color: var(--mainBgCol);
@@ -1155,6 +1164,51 @@ body .logged-page .logged-table tfoot tr td,
 .logged-page .transactions-table.coupon-details-table thead tr th {
   background: var(--teableSubHeadersBg);
   color: var(--teableSubHeadersCol) !important;
+}
+
+.logged-page .registration-holder .form-holder form .buttons {
+  background: transparent !important;
+}
+
+.odds-block-type-percentages .odd.selected,
+.center-content .percentage-block .bets .bet .odd.selected {
+  width: 50px;
+}
+
+.logged-page
+  .transactions-table.betlist-table
+  td
+  .result-holder.evaluation:after {
+  background-color: #517111;
+}
+
+#reportShopCredit .input-holder img.ui-datepicker-trigger:last-child,
+#reportShop .input-holder img.ui-datepicker-trigger:last-child {
+  display: none;
+}
+
+li[id*="miniTablet_"][data-id="23"]:before {
+  background-image: url(https://nextra.pcluster.info/bbgame/images/serieA.svg);
+}
+li[id*="miniTablet_"][data-id="17"]:before {
+  background-image: url(https://nextra.pcluster.info/bbgame/images/premierL.svg);
+}
+
+li[id*="miniTablet_"][data-id="8"]:before {
+  background-image: url(https://nextra.pcluster.info/bbgame/images/laliga.svg) !important;
+}
+
+li[id*="miniTablet_"][data-id="35"]:before {
+  background-image: url(https://nextra.pcluster.info/bbgame/images/bundesL.svg);
+}
+li[id*="miniTablet_"][data-id="34"]:before,
+li[id*="miniTablet_"][data-id="4"]:before {
+  background-image: url(https://nextra.pcluster.info/bbgame/images/ligue1.svg);
+}
+
+#favouriteTournaments li:before {
+  -webkit-filter: none;
+  filter: none;
 }
 
 /*start logged part mobile*/
