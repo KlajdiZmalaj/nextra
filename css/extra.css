@@ -1206,7 +1206,12 @@ li[id*="miniTablet_"][data-id="4"]:before {
   background-image: url(https://nextra.pcluster.info/bbgame/images/ligue1.svg);
 }
 
-#favouriteTournaments li:before {
+/* #favouriteTournaments li:before {
+  -webkit-filter: none;
+  filter: none;
+} */
+
+#favouriteTournaments li:not(:last-child):before {
   -webkit-filter: none;
   filter: none;
 }
