@@ -1266,3 +1266,74 @@ div.landing-page
   position: relative;
   top: -160px;
 }
+
+#reservedCoupon {
+  z-index: 999999;
+}
+
+.coupon-popup-wrapper
+  .coupon-details-popup
+  .coupon-details-content
+  .events-list
+  table
+  thead
+  tr
+  th,
+.coupon-popup-wrapper
+  .deposit-iframe-popup
+  .coupon-details-content
+  .events-list
+  table
+  thead
+  tr
+  th,
+.login-popup-wrapper
+  .coupon-details-popup
+  .coupon-details-content
+  .events-list
+  table
+  thead
+  tr
+  th,
+.login-popup-wrapper
+  .deposit-iframe-popup
+  .coupon-details-content
+  .events-list
+  table
+  thead
+  tr
+  th {
+  background: var(--teableHeadersBg);
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--teableHeadersCol);
+}
+
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .title {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+}
+.coupon-popup-wrapper
+  .coupon-details-popup
+  .coupon-details-content
+  .single-multiple-details {
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+}
+.coupon-popup-wrapper
+  .coupon-details-popup
+  .coupon-details-content
+  .single-multiple-details
+  table
+  tr,
+.coupon-popup-wrapper
+  .coupon-details-popup
+  .coupon-details-content
+  .single-multiple-details
+  table
+  tr
+  td {
+  background: var(--mainBgCol);
+  color: var(--mainBg);
+}
+/*end logged part mobile*/
