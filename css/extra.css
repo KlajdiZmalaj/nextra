@@ -1228,8 +1228,41 @@ li#miniTablet_1_325:before {
   background: var(--mainBg);
   color: var(--mainBgCol);
 }
+
+/*end logged part mobile*/
+
+div.landing-page
+  .banner-content
+  .bottom-text-holder
+  .quarter:first-child:before {
+  background-image: url(//nextra.nextra.bet/icesport/images/landing-images/fIcon.svg);
+}
+div.landing-page
+  .banner-content
+  .bottom-text-holder
+  .quarter:nth-child(2):before {
+  background-image: url(//nextra.nextra.bet/icesport/images/landing-images/Icon2.svg);
+}
+div.landing-page
+  .banner-content
+  .bottom-text-holder
+  .quarter:nth-child(3):before {
+  background-image: url(//nextra.nextra.bet/icesport/images/landing-images/Icon3.svg);
+}
+div.landing-page
+  .banner-content
+  .bottom-text-holder
+  .quarter:last-child:before {
+  background-image: url(//nextra.nextra.bet/icesport/images/landing-images/Icon4.svg);
+}
 .odds-table .second-header td {
   color: var(--accent);
 }
-
-/*end logged part mobile*/
+.grid .cell.quarter {
+  overflow: hidden;
+}
+.cell.quarter:before {
+  filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
+  position: relative;
+  top: -160px;
+}

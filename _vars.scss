@@ -1,53 +1,61 @@
-$skin: "biwinner";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
-
-$logoUrl: "https://nextra.nextra.bet/bbgame/images/logo2.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
-$bodyCol: #000;
-
-//invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
 html:root {
-  --accent: #95cd3b;
-  --accent-bg: #95cd3b;
-  --accent-txt: #000;
-  --primary-bg: #000;
+  --accent: #12421c;
+  --accent-bg: #ffcc00;
+  --accent-txt: #000000;
+  --primary-bg: #12421c;
   --primary-txt: #fff;
-  --secondary-bg: #212931;
+  --secondary-bg: #2b883d;
   --secondary-txt: #fff;
-  --mainBg: #212931;
-  --mainBgCol: #fff;
-  --bg1: #29333b;
-  --col1: #fff;
-  --teableHeadersBg: #384351;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #14191d;
-  --teableSubHeadersCol: #ffffff;
-  --tableBorders: #445461;
-  --casinoGradient1: linear-gradient(
-    to right,
-    #95cd3b00 3%,
-    #95cd3b 60%,
-    #95cd3b00 99%
-  );
-  --casinoGradient1-txt: #000;
-  --casinoGradient2: #636363;
+  --mainBg: #ededed;
+  --mainBgCol: #222;
+  --bg1: #fff;
+  --col1: #222;
+  --teableHeadersBg: #2b883d;
+  --teableHeadersCol: #fff;
+  --teableSubHeadersBg: #dedede;
+  --teableSubHeadersCol: #222;
+  --tableBorders: #a3a3a3;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
 }
 
-$secondary: #95cd3b;
+$skin: "biwinner";
+$cdnPath: "//nextra.nextra.bet/#{$skin}";
+$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+
+$logoUrl: "https://nextra.nextra.bet/stilobet365/images/logo2.svg";
+$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/green.jpg";
+$bodyCol: #000;
+//invet 1 light skin inver 0 dark skin (images)
+$invet: 1;
+
+$secondary: #278a3a;
 $secondaryCol: #fff;
-$black: #000000;
-$secondaryDark: #95cd3b;
+
+$secondaryDark: #094016;
 $secondaryDarkCol: #fff;
-$primary: #607d8b;
+
+$black: #000000;
+$primary: #c2c2c2;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #525b61;
+$sb-2: #278a3a;
+
+//icesport styles
+
+//black filter li logos
+#favouriteTournaments li:before {
+  filter: brightness(0.1);
+}
+html footer {
+  background: #222;
+  color: #fff;
+}
 
 body {
   background-size: 2038px !important;
@@ -69,67 +77,24 @@ body {
   .block-title
   span {
   color: var(--accent-bg);
-  font-weight: 500;
 }
 
-.single-sport .states .state .championship.selected .anchor {
-  color: var(--accent);
-}
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark:after,
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark {
-  border-color: var(--accent) !important;
+.side-bar .single-block:first-child .block-title img,
+.side-bar .single-block:nth-child(2) .block-title img {
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+  filter: grayscale(1) brightness(0) invert(0);
 }
 
-.odds-table .second-header td.day {
-  color: var(--accent);
+.header .top-bar .top-bar-content .login-bar form input[type="text"],
+.header .top-bar .top-bar-content .login-bar form input[type="password"] {
+  color: var(--accent-txt) !important;
 }
-
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
-  border: 1px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab {
+  border-color: #222 !important;
 }
-
-.tabs-holder .tabs-row .single-tab {
-  border-bottom: 2px solid transparent !important;
+.header .top-header .top-header-content .primary-menu ul li.active {
+  color: #ffcc00 !important;
 }
-
-.tabs-holder .tabs-row .single-tab:hover,
-.tabs-holder .tabs-row .single-tab.active {
-  border-bottom: 2px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-.odds-table .second-header {
-  opacity: 1 !important;
-}
-
-.side-bar
-  .single-block.betslip-holder
-  .betslip
-  .selections-wrapper
-  .single-event
-  .selected-bet
-  .bet
-  .quote {
-  color: var(--accent);
-}
-
-.odds-table .second-header td {
-  color: var(--accent);
+.header .top-header {
+  border-bottom: 4px solid #42d15d !important;
 }
