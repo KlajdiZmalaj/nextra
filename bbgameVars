@@ -123,3 +123,7 @@ body {
 .side-bar .single-block.betslip-holder .betslip .selections-wrapper .single-event .selected-bet .bet .quote {
   color:var(--accent)
 }
+
+.odds-table .second-header td {
+  color : var(--accent)
+}

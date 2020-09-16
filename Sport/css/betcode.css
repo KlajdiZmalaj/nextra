@@ -110,6 +110,10 @@ input:checked
   color: var(--accent);
 }
 
+.odds-table .second-header td {
+  color: var(--accent);
+}
+
 body {
   background: #333;
   font-family: arial, helvetica, sans-serif;

@@ -114,6 +114,10 @@ input:checked
   color: var(--accent);
 }
 
+.odds-table .second-header td {
+  color: var(--accent);
+}
+
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;

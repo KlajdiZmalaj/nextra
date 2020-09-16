@@ -110,6 +110,10 @@ input:checked
   color: var(--accent);
 }
 
+.odds-table .second-header td {
+  color: var(--accent);
+}
+
 button,
 hr,
 input {

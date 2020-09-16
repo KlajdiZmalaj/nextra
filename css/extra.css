@@ -1206,6 +1206,9 @@ li[id*="miniTablet_"][data-id="4"]:before {
   background-image: url(https://nextra.pcluster.info/bbgame/images/ligue1.svg);
 }
 
+li#miniTablet_1_325:before {
+  background-image: url(https://nextra.pcluster.info/bbgame/images/seriaABrasil.png);
+}
 /* #favouriteTournaments li:before {
   -webkit-filter: none;
   filter: none;
@@ -1224,6 +1227,9 @@ li[id*="miniTablet_"][data-id="4"]:before {
 [data-logged="true"] ul#login_data li {
   background: var(--mainBg);
   color: var(--mainBgCol);
+}
+.odds-table .second-header td {
+  color: var(--accent);
 }
 
 /*end logged part mobile*/
