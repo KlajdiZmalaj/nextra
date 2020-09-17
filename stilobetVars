@@ -1,5 +1,5 @@
 html:root {
-  --accent: #57de3d;
+  --accent: #12421c;
   --accent-bg: #ffcc00;
   --accent-txt: #000000;
   --primary-bg: #12421c;
@@ -22,7 +22,7 @@ html:root {
   --backDrops: #000000cf;
 }
 
-$skin: "biwinner";
+$skin: "stilobet365";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
@@ -79,13 +79,22 @@ body {
   color: var(--accent-bg);
 }
 
-
 .side-bar .single-block:first-child .block-title img,
 .side-bar .single-block:nth-child(2) .block-title img {
   -webkit-filter: grayscale(1) brightness(0) invert(0);
   filter: grayscale(1) brightness(0) invert(0);
 }
 
-.header .top-bar .top-bar-content .login-bar form input[type="text"], .header .top-bar .top-bar-content .login-bar form input[type="password"] {
-    color: var(--accent-txt)!important;
+.header .top-bar .top-bar-content .login-bar form input[type="text"],
+.header .top-bar .top-bar-content .login-bar form input[type="password"] {
+  color: var(--accent-txt) !important;
+}
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab {
+  border-color: #222 !important;
+}
+.header .top-header .top-header-content .primary-menu ul li.active {
+  color: #ffcc00 !important;
+}
+.header .top-header {
+  border-bottom: 4px solid #42d15d !important;
 }
