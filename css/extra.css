@@ -1337,3 +1337,28 @@ div.landing-page
   color: var(--mainBg);
 }
 /*end logged part mobile*/
+.header .top-header .top-header-content .primary-menu ul li {
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .top-header .top-header-content .primary-menu ul li a {
+  display: flex;
+  justify-content: center;
+  padding: 0 13px;
+  margin-right: 0;
+}
+.header .top-header .top-header-content .primary-menu ul li:hover:before,
+.header .top-header .top-header-content .primary-menu ul li.active:before {
+  content: "";
+  border-left: 1px;
+  border: 10px solid transparent !important;
+  border-bottom: 10px solid var(--accent) !important;
+  width: 1px;
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+}

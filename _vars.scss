@@ -1,100 +1,59 @@
 html:root {
-  --accent: #12421c;
-  --accent-bg: #ffcc00;
-  --accent-txt: #000000;
-  --primary-bg: #12421c;
-  --primary-txt: #fff;
-  --secondary-bg: #2b883d;
+  --accent: #b30013;
+  --accent-bg: #b30013;
+  --accent-txt: #fff;
+  --primary-bg: #ffffff;
+  --primary-txt: #707070;
+  --secondary-bg: #111727;
   --secondary-txt: #fff;
-  --mainBg: #ededed;
-  --mainBgCol: #222;
-  --bg1: #fff;
-  --col1: #222;
-  --teableHeadersBg: #2b883d;
+  --mainBg: #2e3e49;
+  --mainBgCol: #fff;
+  --bg1: #24323b;
+  --col1: #fff;
+  --teableHeadersBg: #b30013;
   --teableHeadersCol: #fff;
-  --teableSubHeadersBg: #dedede;
-  --teableSubHeadersCol: #222;
-  --tableBorders: #a3a3a3;
+  --teableSubHeadersBg: #3f5463;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #161d2f;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --casinoGradient2: #b30013;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
 }
 
-$skin: "stilobet365";
+$skin: "skylive";
 $cdnPath: "//nextra.nextra.bet/#{$skin}";
 $imagesPath: "//nextra.nextra.bet/#{$skin}/images";
 
-$logoUrl: "https://nextra.nextra.bet/stilobet365/images/logo2.svg";
-$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/green.jpg";
+$logoUrl: "http://static.pcluster.info/skins/skylive/img/logo/newlogo.svg";
+$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/red.jpg";
 $bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 
-$secondary: #278a3a;
+$secondary: #005293;
 $secondaryCol: #fff;
 
-$secondaryDark: #094016;
+$secondaryDark: #0a497e;
 $secondaryDarkCol: #fff;
-
 $black: #000000;
 $primary: #c2c2c2;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #278a3a;
+$sb-2: #0a96f0;
 
 //icesport styles
-
-//black filter li logos
-#favouriteTournaments li:before {
-  filter: brightness(0.1);
-}
-html footer {
-  background: #222;
-  color: #fff;
-}
 
 body {
   background-size: 2038px !important;
 }
-
-.main-content.home-page
-  .left-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:nth-child(2)
-  .block-title
-  span {
-  color: var(--accent-bg);
+.casino-section {
+  background-color: #1b0142 !important;
 }
 
-.side-bar .single-block:first-child .block-title img,
-.side-bar .single-block:nth-child(2) .block-title img {
-  -webkit-filter: grayscale(1) brightness(0) invert(0);
-  filter: grayscale(1) brightness(0) invert(0);
-}
-
-.header .top-bar .top-bar-content .login-bar form input[type="text"],
-.header .top-bar .top-bar-content .login-bar form input[type="password"] {
-  color: var(--accent-txt) !important;
-}
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab {
-  border-color: #222 !important;
-}
-.header .top-header .top-header-content .primary-menu ul li.active {
-  color: #ffcc00 !important;
-}
-.header .top-header {
-  border-bottom: 4px solid #42d15d !important;
+.odds-table .second-header td {
+  color: #ffffff !important;
 }
