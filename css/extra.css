@@ -1365,3 +1365,58 @@ div.landing-page
 .single-sport .states .state .championship.selected .anchor {
   color: var(--accent) !important;
 }
+.odds-table .match-name .team-names {
+  overflow: visible !important;
+}
+.odds-table .match-name .team-names.has-info:hover .info-box {
+  display: flex !important;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.odds-table .match-name .team-names.has-info .info-box .teams .home-team:after {
+  display: none !important;
+}
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .combination-wrapper
+  .totals-section
+  .totals
+  .buttons
+  div {
+  transition: 0.3s;
+}
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .combination-wrapper
+  .totals-section
+  .totals
+  .buttons
+  div.cancel:hover {
+  background-color: #e20034b5;
+  color: #fff;
+}
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .combination-wrapper
+  .totals-section
+  .totals
+  .buttons
+  div.book:hover {
+  background-color: #feca2ecc;
+  color: #222;
+}
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .combination-wrapper
+  .totals-section
+  .totals
+  .buttons
+  div.proceed:hover {
+  background-color: #2e9c5ed3;
+  color: #fff;
+}
