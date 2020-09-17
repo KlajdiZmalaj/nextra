@@ -650,7 +650,7 @@ body .casino-section .casino-container .casino-inner {
 } */
 
 .betlist-legend-holder .legend .single-item.evaluation:after {
-  background-color: #517111;
+  background-color: #d8ff00;
 }
 
 .betlist-legend-holder .legend .single-item.cashout:after {
@@ -1179,7 +1179,7 @@ body .logged-page .logged-table tfoot tr td,
   .transactions-table.betlist-table
   td
   .result-holder.evaluation:after {
-  background-color: #517111;
+  background-color: #d8ff00;
 }
 
 #reportShopCredit .input-holder img.ui-datepicker-trigger:last-child,
