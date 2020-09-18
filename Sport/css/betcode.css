@@ -1,33 +1,29 @@
 html:root {
-  --accent: #b30013;
-  --accent-bg: #b30013;
-  --accent-txt: #fff;
-  --primary-bg: #ffffff;
-  --primary-txt: #707070;
-  --secondary-bg: #111727;
+  --accent: #de3442;
+  --accent-bg: #fff;
+  --accent-txt: #b30013;
+  --primary-bg: #11151a;
+  --primary-txt: #fff;
+  --secondary-bg: #8b000f;
   --secondary-txt: #fff;
-  --mainBg: #2e3e49;
+  --mainBg: #24323b;
   --mainBgCol: #fff;
-  --bg1: #24323b;
+  --bg1: #2e3e49;
   --col1: #fff;
   --teableHeadersBg: #b30013;
   --teableHeadersCol: #fff;
-  --teableSubHeadersBg: #3f5463;
+  --teableSubHeadersBg: #414755;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #161d2f;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #b30013;
+  --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
 }
 
 body {
   background-size: 2038px !important;
-}
-
-.casino-section {
-  background-color: #1b0142 !important;
 }
 
 .odds-table .second-header td {

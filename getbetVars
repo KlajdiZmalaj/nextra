@@ -47,3 +47,6 @@ $sb-2: #2E3E49;
 body {
     background-size: 2038px !important;
 }
+.odds-table .second-header td {
+  color: #ffffff !important;
+}
