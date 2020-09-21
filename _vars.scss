@@ -1,58 +1,80 @@
-$skin: "getbet";
-$cdnPath: "//nextra.pcluster.info/#{$skin}";
-$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
-
-$logoUrl: "https://gradm-api.pcluster.info/api/skin/49/image/131d162d7dd48e35ba4d9b69202e331a.png";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/red.jpg";
-$bodyCol: #000;
-
-//invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
-
 html:root {
-  --accent: #de3442;
-  --accent-bg: #fff;
-  --accent-txt: #b30013;
-  --primary-bg: #11151a;
-  --primary-txt: #fff;
-  --secondary-bg: #8b000f;
-  --secondary-txt: #fff;
-  --mainBg: #24323b;
-  --mainBgCol: #fff;
-  --bg1: #2e3e49;
-  --col1: #fff;
-  --teableHeadersBg: #b30013;
-  --teableHeadersCol: #fff;
-  --teableSubHeadersBg: #414755;
-  --teableSubHeadersCol: #ffffff;
-  --tableBorders: #161d2f;
-  --casinoGradient1: #0c1429b5;
+  --accent: #0a96f0;
+  --accent-bg: #ff9800;
+  --accent-txt: #000000;
+  --primary-bg: #d9d9d9;
+  --primary-txt: #000000;
+  --secondary-bg: #ffffff;
+  --secondary-txt: #000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #e7e7e7;
+  --col1: #000;
+  --teableHeadersBg: #0a96f0;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #cccccc;
+  --teableSubHeadersCol: #000000;
+  --tableBorders: #a3a3a3;
+  --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "getbet";
+  --skin: "icesport";
 }
 
-$secondary: #b30013;
+$skin: "icesport";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
+
+$logoUrl: "http://static.pcluster.info/skins/icesport/img/logo/logo.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/blue.jpg";
+$bodyCol: #000;
+//invet 1 light skin inver 0 dark skin (images)
+$invet: 1;
+
+$secondary: #0a96f0;
 $secondaryCol: #fff;
-$black: #000000;
-$secondaryDark: #b30013;
+
+$secondaryDark: #128edb;
 $secondaryDarkCol: #fff;
-$primary: #2e3e49;
+$black: #000000;
+$primary: #c2c2c2;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #2e3e49;
+$sb-2: #0a96f0;
+
+//icesport styles
+.header .top-header .top-header-content .logo-holder a:before {
+  transform: scale(2);
+}
+//black filter li logos
+#favouriteTournaments li:before {
+  filter: brightness(0.1);
+}
 body {
   background-size: 2038px !important;
 }
-.odds-table .second-header td {
-  color: #ffffff !important;
+
+.casino-section {
+  background-color: #d0d5cf;
+}
+
+.side-bar .single-block:first-child .block-title,
+.side-bar .single-block:nth-child(2) .block-title {
+  background-color: var(--accent-bg);
+  color: var(--accent-txt);
+}
+
+.side-bar .single-block:first-child .block-title img,
+.side-bar .single-block:nth-child(2) .block-title img {
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+  filter: grayscale(1) brightness(0) invert(0);
 }
 
 body.landing-page {
-  background-color: #0c1429 !important;
+  background-color: #ffffff !important;
   background-image: none;
 }

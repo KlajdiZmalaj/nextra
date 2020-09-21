@@ -34,6 +34,7 @@ html:root {
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin : '1x2 Live'
 }
 
 $secondary: #95cd3b;

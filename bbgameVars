@@ -1,5 +1,4 @@
-
-$skin: "biwinner";
+$skin: "bbgame";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
@@ -36,6 +35,7 @@ html:root {
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "bbgame";
 }
 
 $secondary: #95cd3b;
@@ -117,13 +117,25 @@ body {
   color: inherit !important;
 }
 .odds-table .second-header {
-  opacity: 1!important;
+  opacity: 1 !important;
 }
 
-.side-bar .single-block.betslip-holder .betslip .selections-wrapper .single-event .selected-bet .bet .quote {
-  color:var(--accent)
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .selections-wrapper
+  .single-event
+  .selected-bet
+  .bet
+  .quote {
+  color: var(--accent);
 }
 
 .odds-table .second-header td {
-  color : var(--accent)
+  color: var(--accent);
+}
+
+body.landing-page {
+  background-color: #31343d !important;
+  background-image: none;
 }
