@@ -1,9 +1,9 @@
 $skin: "topbet365";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.nextra.bet/topbet365/images/logo2.svg";
-$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/green.jpg";
+$logoUrl: "https://nextra.pcluster.info/topbet365/images/logo2.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/green.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)

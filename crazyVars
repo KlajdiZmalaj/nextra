@@ -1,9 +1,9 @@
 $skin: "biwinner";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.nextra.bet/crazybet/images/logo2.svg";
-$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/orange.jpg";
+$logoUrl: "https://nextra.pcluster.info/crazybet/images/logo2.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/orange.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)

@@ -1,9 +1,9 @@
 $skin: "betclass24";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/betclass24/img/logo/logo.svg";
-$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/darkblue.jpg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/darkblue.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)

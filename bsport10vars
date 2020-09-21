@@ -23,11 +23,11 @@ html:root {
 }
 
 $skin: "bsport10";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg";
-$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/blue.jpg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/blue.jpg";
 $bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 0;

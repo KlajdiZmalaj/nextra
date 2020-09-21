@@ -1,9 +1,9 @@
 $skin: "getbet";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "https://gradm-api.pcluster.info/api/skin/49/image/131d162d7dd48e35ba4d9b69202e331a.png";
-$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/red.jpg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/red.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
@@ -26,11 +26,12 @@ html:root {
   --teableSubHeadersBg: #414755;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #161d2f;
-  --casinoGradient1: #000000;
+  --casinoGradient1: #0c1429b5;
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "getbet";
 }
 
 $secondary: #b30013;
@@ -49,4 +50,9 @@ body {
 }
 .odds-table .second-header td {
   color: #ffffff !important;
+}
+
+body.landing-page {
+  background-color: #0c1429 !important;
+  background-image: none;
 }

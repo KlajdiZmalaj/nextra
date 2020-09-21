@@ -1,9 +1,9 @@
 $skin: "clickbet";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/clickbet/img/logo/logo2.svg";
-$bodyBg: "https://nextra.nextra.bet/nextra/images/bg/green.jpg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/green.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
@@ -25,11 +25,12 @@ html:root {
   --teableSubHeadersBg: #636363;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #535353;
-  --casinoGradient1: #000000;
+  --casinoGradient1: #2b335a;
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "clickbet";
 }
 
 $secondary: #14805e;
@@ -44,5 +45,9 @@ $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #323232;
 body {
-    background-size: 2038px !important;
+  background-size: 2038px !important;
+}
+body.landing-page {
+  background-color: #01050e !important;
+  background-image: none;
 }

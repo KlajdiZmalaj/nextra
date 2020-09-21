@@ -15,11 +15,12 @@ html:root {
   --teableSubHeadersBg: #414755;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #161d2f;
-  --casinoGradient1: #000000;
+  --casinoGradient1: #0c1429b5;
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "getbet";
 }
 
 body {
@@ -28,6 +29,11 @@ body {
 
 .odds-table .second-header td {
   color: #ffffff !important;
+}
+
+body.landing-page {
+  background-color: #0c1429 !important;
+  background-image: none;
 }
 
 body {
