@@ -1430,7 +1430,7 @@ div.landing-page
   border-bottom: 10px solid var(--accent) !important;
   width: 1px;
   position: absolute;
-  bottom: -35px;
+  bottom: -21px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -1627,7 +1627,7 @@ div.landing-page
   padding-top: 0px;
 }
 
-.header .top-header .top-header-content .primary-menu li:before {
+.header .top-header .top-header-content .primary-menu li:after {
   content: "";
   width: 27px;
   height: 27px;
@@ -1636,23 +1636,34 @@ div.landing-page
   justify-content: center;
   background-position: center;
   background-size: contain;
+  filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
+  position: absolute;
+  top: -184px;
+  background-repeat: no-repeat;
+  left: 50%;
+  transform: translateX(-50%);
 }
-#indexSport:before {
+#indexSport:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/football-ball.svg");
 }
-#indexLive:before {
+#indexLive:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/stopwatch.svg");
 }
-#indexCasino:before {
+#indexCasino:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/roulette.svg");
 }
-#indexCasinoLive:before {
+#indexCasinoLive:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/slot-machine.svg");
 }
-#indexPoker:before {
+#indexPoker:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/poker.svg");
 }
 
-#indexLivechat:before {
+#indexLivechat:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/user-headset.svg");
+}
+.header .top-header .top-header-content .primary-menu ul li {
+  position: relative;
+  top: 15px;
+  margin-right: 40px;
 }
