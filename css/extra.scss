@@ -1,0 +1,1681 @@
+/* +++++++++++++++++++++++++++++++++++++ GLOBAL STYLES FOR SITESSSSSS +++++++++++++++++++++++++++++++++++++*/
+.casino-section {
+    background-position: top center !important;
+    height: calc(100vh - 120px);
+    overflow: hidden;
+  }
+  
+  .header .top-bar .top-bar-content .login-bar .logout-button,
+  .header .top-bar .top-bar-content .login-bar .shop-button {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .header .top-bar .top-bar-content .login-bar .logout-button a,
+  .header .top-bar .top-bar-content .login-bar .shop-button a {
+    height: auto !important;
+  }
+  .forgot-password-page
+    .forgot-password-holder
+    .forgot-password-content
+    .form-holder
+    input[type="submit"] {
+    background: #288835 !important;
+    color: #fff !important;
+    border: 0 !important;
+  }
+  .forgot-password-content {
+    padding: 45px;
+  }
+  .registration-page.agent-registration .agent-buttons .single-button {
+    height: auto !important;
+  }
+  
+  .logged-center .change-password-page.edit-user-page {
+    background-color: transparent !important;
+    color: inherit;
+  }
+  .logged-center .change-password-page.edit-user-page .row .cell {
+    border-color: var(--tableBorders) !important;
+  }
+  .logged-center .change-password-page.edit-user-page .row:last-child {
+    width: 100%;
+  }
+  .logged-center .usrlist #client_list td {
+    padding: 5px;
+  }
+  
+  .logged-center .usrlist #betlist a {
+    font-weight: bold;
+    color: #222;
+  }
+  .logged-center .new-profile-page > .transaction-filters .row,
+  .logged-center .new-profile-page > .transaction-filters .row:last-child {
+    width: 100%;
+  }
+  .logged-center .new-profile-page .new-profile-page.save .row {
+    width: 100%;
+  }
+  
+  .usrlist-inner {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    table-layout: fixed;
+  }
+  
+  .usrlist-inner thead tr th {
+    background-color: var(--teableSubHeadersBg);
+    color: var(--teableSubHeadersCol);
+    border: 1px solid var(--tableBorders);
+    padding: 5px 0;
+    font-weight: 500;
+  }
+  
+  .usrlist-inner thead tr th:nth-child(1) {
+    width: 50px;
+  }
+  
+  .usrlist-inner thead tr th:nth-child(2) {
+    width: 140px;
+  }
+  
+  .usrlist-inner tbody tr th {
+    background-color: var(--teableSubHeadersBg);
+    color: var(--teableSubHeadersCol);
+    border: 1px solid var(--tableBorders);
+    padding: 5px 0;
+    font-weight: 500;
+  }
+  
+  .usrlist-inner tbody tr td {
+    border: 1px solid #c2c1c1;
+    padding: 4px 0;
+    background-color: #ebebeb;
+    color: #222;
+    clear: both;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .usrlist-inner tbody tr td:nth-child(1) {
+    width: 50px;
+  }
+  
+  .usrlist-inner tbody tr td:nth-child(2) {
+    width: 140px;
+  }
+  
+  .usrlist-inner tbody tr td .lev {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 5px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .usrlist-inner tbody tr td .lev-arrow-0 {
+    padding: 0 5px;
+    font-size: 16px;
+  }
+  
+  .usrlist-inner tbody tr td .lev-arrow-1 {
+    padding: 0 5px;
+    font-size: 16px;
+    color: #00aeef;
+  }
+  
+  .usrlist-inner tbody tr td .lev-arrow-1.fa-circle-o {
+    font-size: 8px;
+  }
+  
+  .usrlist-inner tbody tr td .lev-arrow-2 {
+    padding: 0 5px;
+    font-size: 16px;
+    color: #ec008c;
+  }
+  
+  .usrlist-inner tbody tr td .lev-arrow-2.fa-circle-o {
+    font-size: 8px;
+  }
+  
+  .usrlist-inner tbody tr td .lev-arrow-3 {
+    padding: 0 5px;
+    font-size: 16px;
+    color: #00a651;
+  }
+  
+  .usrlist-inner tbody tr td .lev-arrow-3.fa-circle-o {
+    font-size: 8px;
+  }
+  
+  .usrlist-inner tbody tr td .lev-arrow-4 {
+    padding: 0 5px;
+    font-size: 11px;
+    color: #fec900;
+  }
+  
+  .usrlist-inner tbody tr td .lev-arrow-4.fa-circle-o {
+    font-size: 8px;
+  }
+  
+  .usrlist-inner tbody tr td .lev-num-0 {
+    background-color: #fff;
+    padding: 2px 5px;
+    color: #222;
+  }
+  
+  .usrlist-inner tbody tr td .lev-num-1 {
+    background-color: #00aeef;
+    padding: 2px 5px;
+    color: #fff;
+  }
+  
+  .usrlist-inner tbody tr td .lev-num-2 {
+    background-color: #ec008c;
+    padding: 2px 5px;
+    color: #ebebeb;
+  }
+  
+  .usrlist-inner tbody tr td .lev-num-3 {
+    background-color: #00a651;
+    padding: 2px 5px;
+    color: #ebebeb;
+  }
+  
+  .usrlist-inner tbody tr td .lev-num-4 {
+    background-color: var(--accent-bg);
+    padding: 2px 5px;
+    color: var(--accent-txt);
+  }
+  
+  .usrlist-inner tbody tr td .usr-nm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 5px;
+  }
+  
+  .usrlist-inner tbody tr td .usr-nm-title {
+    text-align: left;
+    padding-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .usrlist-inner tbody tr td .knd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 5px;
+  }
+  
+  .usrlist-inner tbody tr td .knd-ico-00 {
+    margin-right: 5px;
+    background-image: url(//nextra.pcluster.info/nextra/images/person-na.png);
+    background-repeat: no-repeat;
+    background-size: 18px 17px;
+    width: 20px;
+    height: 17px;
+    display: inline-block;
+  }
+  
+  .usrlist-inner tbody tr td .knd-ico-01 {
+    margin-right: 5px;
+    background-image: url(//nextra.pcluster.info/nextra/images/person-na.png);
+    background-repeat: no-repeat;
+    background-size: 18px 17px;
+    width: 20px;
+    height: 17px;
+    display: inline-block;
+  }
+  
+  .usrlist-inner tbody tr td .knd-ico-10 {
+    margin-right: 5px;
+    background-image: url(//nextra.pcluster.info/nextra/images/joystick-ico.png);
+    background-repeat: no-repeat;
+    background-size: 16px 15px;
+    width: 20px;
+    height: 17px;
+    display: inline-block;
+  }
+  
+  .usrlist-inner tbody tr td .knd-ico-11 {
+    margin-right: 5px;
+    background-image: url(//nextra.pcluster.info/nextra/images/cash-reg-ico.png);
+    background-repeat: no-repeat;
+    background-size: 16px 15px;
+    width: 20px;
+    height: 17px;
+    display: inline-block;
+  }
+  
+  .usrlist-inner tbody tr td .knd-ico-20 {
+    margin-right: 5px;
+    background-image: url(//nextra.pcluster.info/nextra/images/shop-ico.png);
+    background-repeat: no-repeat;
+    background-size: 16px 18px;
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+  }
+  
+  .usrlist-inner tbody tr td .knd-ico-21 {
+    margin-right: 5px;
+    background-image: url(//nextra.pcluster.info/nextra/images/shop-ico.png);
+    background-repeat: no-repeat;
+    background-size: 16px 18px;
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+  }
+  
+  .usrlist-inner tbody tr td .knd-ico-30 {
+    margin-right: 5px;
+    background-image: url(//nextra.pcluster.info/nextra/images/user-shirt.png);
+    background-repeat: no-repeat;
+    background-size: 14px 18px;
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+  }
+  
+  .usrlist-inner tbody tr td .knd-ico-31 {
+    margin-right: 5px;
+    background-image: url(//nextra.pcluster.info/nextra/images/user-shirt.png);
+    background-repeat: no-repeat;
+    background-size: 14px 18px;
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+  }
+  
+  .usrlist-inner tbody tr td .knd-ico-70 {
+    margin-right: 5px;
+    background-image: url(//nextra.pcluster.info/nextra/images/user-suit.png);
+    background-repeat: no-repeat;
+    background-size: 14px 18px;
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+  }
+  
+  .usrlist-inner tbody tr td .knd-ico-71 {
+    margin-right: 5px;
+    background-image: url(//nextra.pcluster.info/nextra/images/user-suit.png);
+    background-repeat: no-repeat;
+    background-size: 14px 18px;
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+  }
+  
+  .usrlist-inner tbody tr td .ln-title {
+    text-decoration: none;
+  }
+  
+  .usrlist-inner tbody tr td .status-no .status-0 {
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+  .usrlist-inner tbody tr td .status-no .status-1 {
+    width: 12px;
+    height: 12px;
+    background-color: green;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+  .popin-container {
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .popin-inner {
+    background-color: lightgray;
+    width: 550px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0px 10px 11px 6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 11px 6px rgba(0, 0, 0, 0.75);
+  }
+  
+  .popin-head {
+    background-color: var(--accent-bg);
+    color: var(--accent-txt);
+  }
+  
+  .popin-head-inner {
+    padding: 10px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .popin-head-inner .ph-a-ico {
+    margin-right: 10px;
+  }
+  
+  .popin-head-inner .ph-b {
+    width: 15px;
+    height: 12px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .popin-head-inner .ph-b-ico {
+    position: absolute;
+    top: -2px;
+  }
+  
+  div.token-input-dropdown {
+    width: 285px;
+  }
+  
+  .popin-det {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 3fr;
+    grid-template-columns: 2fr 3fr;
+    -webkit-column-gap: 10px;
+    column-gap: 10px;
+    margin-bottom: 5px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .popin-det-lab {
+    text-align: right;
+    color: #222;
+  }
+  
+  .popin-det-lat .token-input-list {
+    width: auto;
+  }
+  
+  .popin-det-lat .token-input-list .token-input-input-token input {
+    padding: 0 5px;
+    height: 25px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid var(--tableBorders);
+    outline: 0;
+    background-color: #fff;
+    color: #222;
+  }
+  
+  .popin-det-lat-sel {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 5px;
+    border: 1px solid #062164;
+    background-image: url(//nextra.pcluster.info/nextra/images/v.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: right -1px center;
+    width: 100%;
+    height: 25px;
+    outline: 0;
+    padding: 0px 25px 0px 5px;
+    cursor: pointer;
+    filter: grayscale(1);
+  }
+  
+  .popin-det-lat-text {
+    padding: 0 5px;
+    height: 25px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid var(--tableBorders);
+    outline: 0;
+  }
+  
+  .popin-form {
+    padding: 10px 20px;
+  }
+  
+  .popin-form-inner {
+    border: 1px solid var(--tableBorders);
+    border-radius: 5px;
+    padding: 20px 40px;
+    margin-bottom: 15px;
+  }
+  
+  .popin-form-btn {
+    display: block;
+    margin: 0 auto;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    background-color: #2e9c3d;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .popin-form-btn-ico {
+    background-color: #fff;
+    color: #2e9c3d;
+    padding: 4px 5px;
+    margin-right: 5px;
+  }
+  
+  .popin-form-btn:hover {
+    opacity: 0.9;
+  }
+  .cl-popin {
+    display: none !important;
+  }
+  .op-popin {
+    text-decoration: none;
+    background-color: var(--accent-bg);
+    color: var(--accent-txt);
+    padding: 5px 15px 5px 5px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  .op-popin-ico {
+    padding: 5px;
+    margin-right: 15px;
+  }
+  
+  .op-popin:hover {
+    opacity: 0.9;
+  }
+  .logged-page .logged-menu ul li .sub-menu li a {
+    transition: 0.3s;
+    height: 35px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logged-page .logged-menu ul li .sub-menu li a:hover {
+    background-color: var(--accent-bg);
+    color: var(--accent-txt);
+    opacity: 0.9;
+  }
+  
+  .logged-page .logged-menu ul li a i,
+  .logged-page .logged-menu ul li span i {
+    padding: 8px;
+  }
+  .logged-page .grid {
+    max-width: 100%;
+  }
+  .logged-center .change-password-page .input-wrapper {
+    border-bottom: 1px solid var(--tableBorders);
+  }
+  .first-header td {
+    white-space: nowrap;
+    line-height: 26px;
+    text-overflow: ellipsis;
+    max-width: 45px;
+    font-size: 11px;
+  }
+  
+  .bet-confirm-popup-wrapper .bet-confirm-popup {
+    color: #222;
+    background-color: #d8d8d8;
+  }
+  
+  body .odd.selected {
+    width: auto;
+  }
+  .odds-block-type-percentages .odd,
+  .center-content .percentage-block .bets .bet .odd {
+    width: 50px;
+  }
+  
+  /* .logged-center #couponhtml ~ #mainpage .transaction-filters .row:first-child {
+    width: 100%;
+    padding-right: 50%;
+  } */
+  .input-holder .ui-datepicker-trigger {
+    filter: grayscale(1) brightness(0) invert(0);
+  }
+  .odd {
+    width: auto;
+    min-width: 31px;
+  }
+  
+  footer {
+    background: var(--mainBg);
+  }
+  
+  footer .footer-copyright {
+    background: var(--bg1);
+  }
+  
+  .single-sport .anchor.sport-112 .icon {
+    background-image: url(//nextra.pcluster.info/biwinner/images/sport-icons/sport-icon-112.svg);
+  }
+  
+  .betlist-legend-holder .legend .single-item:after {
+    background: #dcb630;
+  }
+  
+  .betlist-legend-holder .legend .single-item.cancelled:after {
+    background-color: #0073b9;
+  }
+  
+  .logged-page .transactions-table.betlist-table td .result-holder:after {
+    background: #dcb630;
+  }
+  
+  .logged-page
+    .transactions-table.betlist-table
+    td
+    .result-holder.evaluation:after {
+    background-color: #8da1ad;
+  }
+  
+  body .casino-section .casino-container .casino-inner {
+    width: 100%;
+    padding-top: 310px;
+    height: calc(100% - 312px) !important;
+    overflow: scroll;
+  }
+  
+  .betlist-legend-holder .legend .single-item:after {
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 3px;
+    height: 14px;
+    width: 14px;
+    background: #dcb630;
+    border-radius: 3px;
+  }
+  
+  .betlist-legend-holder .legend .single-item.won:after {
+    background-color: #2da050;
+  }
+  
+  .betlist-legend-holder .legend .single-item.partially-won:after {
+    background-color: #924add;
+  }
+  
+  .betlist-legend-holder .legend .single-item.lost:after {
+    background-color: #ff423d;
+  }
+  
+  /* .betlist-legend-holder .legend .single-item.cancelled:after {
+    background-color: #dcb630;
+  } */
+  
+  .betlist-legend-holder .legend .single-item.evaluation:after {
+    background-color: #8da1ad;
+  }
+  
+  .betlist-legend-holder .legend .single-item.cashout:after {
+    background-color: #f4c685;
+  }
+  
+  .betlist-legend-holder .legend .single-item.promotion:after {
+    background-color: #c929ad;
+  }
+  
+  .betlist-legend-holder .legend .single-item.admin:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    height: 20px;
+    width: 18px;
+    border-radius: 2px;
+    background-image: url(//nextra.pcluster.info/nextra/images/user-suit.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 14px 18px;
+    background-color: #ebebeb;
+  }
+  
+  .betlist-legend-holder .legend .single-item.agent:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    height: 20px;
+    width: 18px;
+    border-radius: 2px;
+    background-image: url(//nextra.pcluster.info/nextra/images/user-shirt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 14px 18px;
+    background-color: #ebebeb;
+  }
+  
+  .betlist-legend-holder .legend .single-item.shop:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    height: 20px;
+    width: 18px;
+    border-radius: 2px;
+    background-image: url(//nextra.pcluster.info/nextra/images/shop-ico.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16px 18px;
+    background-color: #ebebeb;
+  }
+  
+  .betlist-legend-holder .legend .single-item.player:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    height: 20px;
+    width: 18px;
+    border-radius: 2px;
+    background-image: url(//nextra.pcluster.info/nextra/images/joystick-ico.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16px 15px;
+    background-color: #ebebeb;
+  }
+  
+  .betlist-legend-holder .legend .single-item.cashier:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    height: 20px;
+    width: 18px;
+    border-radius: 2px;
+    background-image: url(//nextra.pcluster.info/nextra/images/cash-reg-ico.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 14px 18px;
+    background-color: #ebebeb;
+  }
+  
+  .betlist-legend-holder .legend .single-item.removed:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    height: 20px;
+    width: 18px;
+    border-radius: 2px;
+    background-image: url(//nextra.pcluster.info/nextra/images/person-na.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-color: #ebebeb;
+  }
+  
+  .betlist-legend-holder .legend .single-item.active:after {
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 3px;
+    height: 14px;
+    width: 14px;
+    background: green;
+    border-radius: 10px;
+  }
+  
+  .betlist-legend-holder .legend .single-item.unactive:after {
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 3px;
+    height: 14px;
+    width: 14px;
+    background: red;
+    border-radius: 10px;
+  }
+  body .logged-page .logged-table tfoot tr td,
+  .logged-page .logged-table tr.total td {
+    background: #ffffff;
+    color: #000;
+  }
+  .logged-page .logged-table thead tr th {
+    font-weight: 300 !important;
+  }
+  .logged-content.admin-content
+    .quick-look
+    .content
+    .left-content
+    .single-holder
+    .date,
+  .logged-content.admin-content
+    .quick-look
+    .content
+    .right-content
+    .single-holder
+    .date {
+    color: inherit !important;
+  }
+  .logged-center {
+    margin-bottom: 0 !important;
+  }
+  .logged-page footer {
+    margin-top: 0 !important;
+  }
+  .logged-page + footer {
+    margin-top: 0 !important;
+  }
+  
+  .logged-center .transaction-filters [name="giroconto"] .row:last-child {
+    width: 100%;
+  }
+  
+  .side-bar
+    .single-block.betslip-holder
+    .betslip
+    .combination-wrapper
+    .combination-group
+    table
+    td
+    .default-bets
+    .single-bet:hover {
+    background: var(--accent-bg);
+    color: var(--accent-txt);
+    transition: 0.3s;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+  }
+  
+  .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper {
+    background-color: #b8bfd2;
+    color: #333333;
+  }
+  
+  .transactions-legend-holder .rows-per-page .ui-selectmenu-button,
+  .transactions-legend-holder .rows-per-page select {
+    width: 50px;
+  }
+  
+  .new-profile-page .turn-over-content .bonus-wrapper .title {
+    background-color: #ebebeb;
+    color: #404040;
+  }
+  
+  .coupon-details-page-content .row > div,
+  .logged-page .transactions-table.coupon-details-table thead tr th,
+  .logged-page .transactions-table.coupon-details-table tr td {
+    color: #1b1b1b;
+  }
+  
+  /* start coupon details on lista scomessa */
+  .event-list-legend-holder .legend .single-item:after,
+  .logged-page .transactions-table.coupon-details-table tr td.result span {
+    background: #fec82e;
+  }
+  
+  .event-list-legend-holder .legend .single-item.void:after,
+  .logged-page .transactions-table.coupon-details-table tr td.result.void span {
+    background-color: #0073b9;
+  }
+  
+  /* end coupon details on lista scomessa */
+  
+  .single-sport .states .state .championship:hover,
+  .single-sport .states .state > .anchor.special:hover,
+  .single-sport > .anchor:hover {
+    background: var(--teableSubHeadersBg) !important;
+    color: var(--teableSubHeadersCol) !important;
+    border-left: 2px solid var(--accent);
+  }
+  .single-sport .states .state > .anchor.special:hover .trigger {
+    color: var(--teableSubHeadersCol) !important;
+  }
+  
+  .single-sport .states .state .championship,
+  .single-sport .states .state > .anchor.special,
+  .single-sport > .anchor {
+    border-left: 2px solid transparent;
+  }
+  
+  .side-bar
+    .single-block
+    .block-content
+    form[name="fastslip3"]
+    .ui-selectmenu-button,
+  .side-bar .single-block .block-content form[name="fastslip3"] select {
+    color: var(--mainBgCol);
+  }
+  
+  .side-bar .single-block .block-content form input#entercode3[type="submit"],
+  .side-bar .single-block .block-content form input#entercode[type="submit"] {
+    background-image: url("https://nextra.pcluster.info/img/submit.png");
+    background-size: 17px;
+    background-position: top 5px center;
+  }
+  
+  .sports-book-page .filters-holder .buttons-holder .single-button:hover {
+    background-color: var(--accent-bg);
+    color: var(--accent-txt);
+  }
+  .odds-table .single-match-odds .single-match-odds-table .odd-type .info-toggle {
+    border-radius: 3px;
+    margin-left: 10px;
+    height: 14px;
+    background-color: var(--accent-bg);
+    color: var(--accent-txt);
+    padding: 2px 5px 2px 5px;
+    top: 3px;
+    line-height: 16px;
+    font-size: 11px;
+  }
+  .odds-table .single-match-odds .single-match-odds-table .info-row td {
+    background: #dedede;
+    color: #000;
+  }
+  
+  .sked-tape__location {
+    background: var(--mainBg);
+    color: var(--mainBgCol);
+  }
+  .sked-tape__event-row:nth-child(odd) {
+    background-color: #fdfdfd;
+    color: #000;
+  }
+  .sked-tape__event-row {
+    color: #000;
+    background-color: #f4f4f4;
+  }
+  .sked-tape__date:nth-child(odd) {
+    background: var(--mainBg);
+    color: var(--mainBgCol);
+  }
+  .sked-tape__date {
+    background: #e0e0e0;
+    color: var(--mainBg);
+  }
+  .casino-section {
+    background-image: url(http://nextra.pcluster.info/jogar365/images/casino/casinoBg.png);
+  }
+  
+  @media (max-width: 1088px) {
+    .logged-header.header
+      .top-header
+      .top-header-content
+      .primary-menu
+      .register-button {
+      line-height: normal;
+    }
+  }
+  
+  .ed-container {
+    max-width: 630px;
+    margin: 0px auto;
+    border: 1px solid #c7c7c9;
+    border-radius: 8px;
+    padding: 40px;
+  }
+  .ed-a {
+    padding: 0 0 20px 0px;
+  }
+  .ed-b {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: minmax(100px, 25%) 1fr;
+    grid-template-columns: minmax(100px, 25%) 1fr;
+    border: 1px solid #c7c7c9;
+    border-radius: 8px;
+    padding: 20px 20px 20px 0;
+  }
+  .ed-b-img {
+    padding-top: 30px;
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+  .ed-b-img img {
+    width: 60px;
+    display: block;
+  }
+  .ed-b-content .ed-b-head {
+    margin: 10px 0;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .ed-b-content .ed-b-li {
+    line-height: 17px;
+    margin-bottom: 2px;
+    font-size: 12px;
+    display: block;
+  }
+  .ed-qr {
+    padding: 10px 0px 0px 10px;
+    margin-bottom: 20px;
+  }
+  .ed-b-content .ed-b-digit {
+    margin-top: 15px;
+    outline: 0;
+    font-size: 12px;
+    border: 1px solid #101b74;
+    display: block;
+  }
+  .ed-c {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    /* -webkit-box-align: center; */
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: right;
+    padding: 20px 0;
+    border-bottom: 2px solid #c7c7c9;
+  }
+  .ed-c-left {
+    padding-right: 20px;
+  }
+  .ed-c-left .ed-c-head {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .ed-c-left .ed-c-text {
+    font-size: 10px;
+  }
+  
+  .ed-c-left .ed-c-text a {
+    font-weight: bold;
+    color: var(--accent);
+  }
+  
+  .ed-a-link {
+    color: var(--accent);
+  }
+  
+  .ed-switch {
+    position: relative;
+    display: inline-block;
+  }
+  .ed-switch input {
+    width: 30px;
+    height: 30px;
+  }
+  .ed-d-head {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  .ed-d-text {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .ed-d-app {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 20px;
+    position: relative;
+  }
+  .ed-d-app .ed-d-box {
+    padding: 0 20px;
+  }
+  .ed-d-app .ed-d-box img {
+    display: block;
+    width: 100px;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+  }
+  
+  .ed-a-head {
+    margin: 0 0 10px 0;
+    padding: 10px 0 12px 0px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .reports .report-types .single-type {
+    color: var(--col1);
+  }
+  .reports .report-types {
+    background-color: transparent;
+  }
+  .logged-center .transfer-successful {
+    background: var(--mainBg);
+    color: var(--mainBgCol);
+  }
+  
+  .logged-center .transfer-successful .content {
+    background: var(--mainBg);
+    color: var(--mainBgCol);
+  }
+  
+  .logged-center .transfer-successful .content .first-row .text {
+    color: var(--mainBgCol);
+  }
+  
+  .logged-center .transfer-successful .content .text {
+    color: var(--mainBgCol);
+  }
+  
+  .logged-page .logged-table.transactions-table.betlist-table #betlist td img {
+    max-width: 25px;
+  }
+  
+  .clgames-item-img {
+    background-color: var(--teableSubHeadersBg);
+  }
+  
+  .header .top-header .top-header-content .primary-menu ul li.active {
+    color: var(--accent);
+  }
+  .poker-strip {
+    background-color: var(--teableSubHeadersBg);
+    color: var(--accent-col);
+  }
+  
+  .odd:hover,
+  .single-odd .quote:hover {
+    background: var(--accent-bg) !important;
+    color: var(--accent-txt) !important;
+  }
+  
+  .logged-page .cashdesk-content {
+    background-color: #d4d4d4;
+    color: #0e0e0e;
+  }
+  
+  .ui-datepicker .ui-datepicker-calendar {
+    background: #ffffff;
+    color: #333333 !important;
+  }
+  
+  .odds-table .single-match-row.match-odds-open {
+    /* position: absolute; */
+    width: auto;
+    z-index: 1;
+    left: 0;
+    padding: 0;
+    background: #666666;
+    width: 100%;
+  }
+  
+  .center-content .popular-bets .title {
+    padding-left: 5px;
+  }
+  
+  .center-content .popular-bets .title img {
+    padding: 0 5px;
+    display: inline-block;
+  }
+  
+  #miniTablets .odds-table .single-match-row td .more-cell:before {
+    content: "\f067";
+    font-family: FontAwesome;
+    font-size: 10px;
+  }
+  
+  .logged-page .transactions-table.coupon-details-table thead tr th {
+    background: var(--teableSubHeadersBg);
+    color: var(--teableSubHeadersCol) !important;
+  }
+  
+  .logged-page .registration-holder .form-holder form .buttons {
+    background: transparent !important;
+  }
+  
+  .odds-block-type-percentages .odd.selected,
+  .center-content .percentage-block .bets .bet .odd.selected {
+    width: 50px;
+  }
+  
+  .logged-page
+    .transactions-table.betlist-table
+    td
+    .result-holder.evaluation:after {
+    background-color: #8da1ad;
+  }
+  
+  #reportShopCredit .input-holder img.ui-datepicker-trigger:last-child,
+  #reportShop .input-holder img.ui-datepicker-trigger:last-child {
+    display: none;
+  }
+  
+  li[id*="miniTablet_"][data-id="23"]:before {
+    background-image: url(https://nextra.pcluster.info/bbgame/images/serieA.svg);
+  }
+  li[id*="miniTablet_"][data-id="17"]:before {
+    background-image: url(https://nextra.pcluster.info/bbgame/images/premierL.svg);
+  }
+  
+  li[id*="miniTablet_"][data-id="8"]:before {
+    background-image: url(https://nextra.pcluster.info/bbgame/images/laliga.svg) !important;
+  }
+  
+  li[id*="miniTablet_"][data-id="35"]:before {
+    background-image: url(https://nextra.pcluster.info/bbgame/images/bundesL.svg);
+  }
+  li[id*="miniTablet_"][data-id="34"]:before,
+  li[id*="miniTablet_"][data-id="4"]:before {
+    background-image: url(https://nextra.pcluster.info/bbgame/images/ligue1.svg);
+  }
+  
+  li#miniTablet_1_325:before {
+    background-image: url(https://nextra.pcluster.info/bbgame/images/seriaABrasil.png);
+  }
+  /* #favouriteTournaments li:before {
+    -webkit-filter: none;
+    filter: none;
+  } */
+  
+  #favouriteTournaments li:not(:last-child):before {
+    -webkit-filter: none;
+    filter: none;
+  }
+  
+  /*start logged part mobile*/
+  [data-logged="true"][data-state="open"] .main_submenu .button.saldo {
+    background-color: var(--accent-bg);
+  }
+  
+  [data-logged="true"] ul#login_data li {
+    background: var(--mainBg);
+    color: var(--mainBgCol);
+  }
+  
+  /*end logged part mobile*/
+  
+  div.landing-page
+    .banner-content
+    .bottom-text-holder
+    .quarter:first-child:before {
+    background-image: url(//nextra.pcluster.info/icesport/images/landing-images/fIcon.svg);
+  }
+  div.landing-page
+    .banner-content
+    .bottom-text-holder
+    .quarter:nth-child(2):before {
+    background-image: url(//nextra.pcluster.info/icesport/images/landing-images/Icon2.svg);
+  }
+  div.landing-page
+    .banner-content
+    .bottom-text-holder
+    .quarter:nth-child(3):before {
+    background-image: url(//nextra.pcluster.info/icesport/images/landing-images/Icon3.svg);
+  }
+  div.landing-page
+    .banner-content
+    .bottom-text-holder
+    .quarter:last-child:before {
+    background-image: url(//nextra.pcluster.info/icesport/images/landing-images/Icon4.svg);
+  }
+  .odds-table .second-header td {
+    color: var(--accent);
+  }
+  .grid .cell.quarter {
+    overflow: hidden;
+  }
+  .cell.quarter:before {
+    filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
+    -webkit-filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
+  
+    position: relative;
+    top: -160px;
+  }
+  
+  #reservedCoupon {
+    z-index: 999999;
+  }
+  .coupon-popup-wrapper
+    .coupon-details-popup
+    .coupon-details-content
+    .details
+    .blocks
+    .block
+    .row {
+    color: #000;
+  }
+  
+  .coupon-popup-wrapper
+    .coupon-details-popup
+    .coupon-details-content
+    .details
+    .blocks
+    .block.amounts
+    .box {
+    border-bottom: 0;
+  }
+  .coupon-popup-wrapper
+    .coupon-details-popup
+    .coupon-details-content
+    .details
+    .blocks
+    .block.amounts
+    .box
+    .label {
+    text-align: center;
+  }
+  .coupon-popup-wrapper
+    .coupon-details-popup
+    .coupon-details-content
+    .details
+    .blocks
+    .block
+    .row
+    div.detail {
+    padding-left: 10px;
+  }
+  .coupon-popup-wrapper
+    .coupon-details-popup
+    .coupon-details-content
+    .details
+    .blocks
+    .block
+    .row {
+    line-height: 34px;
+  }
+  .coupon-popup-wrapper
+    .coupon-details-popup
+    .coupon-details-content
+    .details
+    .blocks
+    .block.amounts
+    .box {
+    margin: 15px 0 15px;
+  }
+  
+  #reservedCoupon .event-list-legend-holder {
+    background: #4e4e4e;
+  }
+  #reservedCoupon .event-list-legend-holder .legend {
+    background: #6f6f6f;
+    padding: 5px 0px;
+  }
+  .coupon-popup-wrapper
+    .coupon-details-popup
+    .coupon-details-content
+    .events-list
+    table
+    thead
+    tr
+    th,
+  .coupon-popup-wrapper
+    .deposit-iframe-popup
+    .coupon-details-content
+    .events-list
+    table
+    thead
+    tr
+    th,
+  .login-popup-wrapper
+    .coupon-details-popup
+    .coupon-details-content
+    .events-list
+    table
+    thead
+    tr
+    th,
+  .login-popup-wrapper
+    .deposit-iframe-popup
+    .coupon-details-content
+    .events-list
+    table
+    thead
+    tr
+    th {
+    background: #4e4e4e;
+    color: #fff;
+  }
+  
+  .coupon-popup-wrapper
+    .coupon-details-popup
+    .coupon-details-content
+    .events-list
+    table
+    tr
+    td {
+    color: #000;
+  }
+  
+  .coupon-popup-wrapper .coupon-details-popup .coupon-details-content .title {
+    background: var(--accent-bg);
+    color: var(--accent-txt);
+  }
+  .coupon-popup-wrapper
+    .coupon-details-popup
+    .coupon-details-content
+    .single-multiple-details {
+    background: var(--mainBg);
+    color: var(--mainBgCol);
+  }
+  .coupon-popup-wrapper
+    .coupon-details-popup
+    .coupon-details-content
+    .single-multiple-details
+    table
+    tr,
+  .coupon-popup-wrapper
+    .coupon-details-popup
+    .coupon-details-content
+    .single-multiple-details
+    table
+    tr
+    td {
+    background: var(--mainBgCol);
+    color: var(--mainBg);
+  }
+  /*end logged part mobile*/
+  .header .top-header .top-header-content .primary-menu ul li {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header .top-header .top-header-content .primary-menu ul li a {
+    display: flex;
+    justify-content: center;
+    padding: 0 13px;
+    margin-right: 0;
+    padding-top: 50px;
+    position: relative;
+    top: -25px;
+  }
+  .header .top-header .top-header-content .primary-menu ul li:hover:before,
+  .header .top-header .top-header-content .primary-menu ul li.active:before {
+    content: "";
+    border-left: 1px;
+    border: 10px solid transparent !important;
+    border-bottom: 10px solid var(--accent) !important;
+    width: 1px;
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .single-sport .states .state .championship.selected .anchor {
+    color: var(--accent) !important;
+  }
+  .odds-table .match-name .team-names {
+    overflow: visible !important;
+  }
+  .odds-table .match-name .team-names.has-info:hover .info-box {
+    display: flex !important;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .odds-table .match-name .team-names.has-info .info-box .teams .home-team:after {
+    display: none !important;
+  }
+  .side-bar
+    .single-block.betslip-holder
+    .betslip
+    .combination-wrapper
+    .totals-section
+    .totals
+    .buttons
+    div {
+    transition: 0.3s;
+  }
+  .side-bar
+    .single-block.betslip-holder
+    .betslip
+    .combination-wrapper
+    .totals-section
+    .totals
+    .buttons
+    div.cancel:hover {
+    background-color: #e20034b5;
+    color: #fff;
+  }
+  .side-bar
+    .single-block.betslip-holder
+    .betslip
+    .combination-wrapper
+    .totals-section
+    .totals
+    .buttons
+    div.book:hover {
+    background-color: #feca2ecc;
+    color: #222;
+  }
+  .side-bar
+    .single-block.betslip-holder
+    .betslip
+    .combination-wrapper
+    .totals-section
+    .totals
+    .buttons
+    div.proceed:hover {
+    background-color: #2e9c5ed3;
+    color: #fff;
+  }
+  .default-bets .single-bet {
+    white-space: nowrap;
+  }
+  .odds-table .match-name .team-names.has-info .info-box {
+    pointer-events: none;
+  }
+  
+  .odds-table
+    .match-name
+    .team-names.has-info
+    .info-box
+    .bars-holder
+    .single-bar-holder {
+    background-color: var(--mainBg) !important;
+    color: var(--mainBgCol) !important;
+  }
+  .odds-table
+    .match-name
+    .team-names.has-info
+    .info-box
+    .odd-types
+    .single-type:nth-child(2) {
+    color: #c52e2e !important;
+  }
+  .odds-table
+    .match-name
+    .team-names.has-info
+    .info-box
+    .bars-holder
+    .single-bar-holder:nth-child(2)
+    .bar
+    .inner {
+    background: #c52e2e !important;
+  }
+  
+  .coupon-popup-wrapper .popup-content .betslip-table tr th {
+    background: #212931;
+    color: #fff;
+  }
+  .coupon-popup-wrapper .popup-content .first-blocks .block p {
+    font-size: 13px;
+    color: #545454;
+    line-height: 15px;
+  }
+  
+  .coupon-popup-wrapper
+    .popup-content
+    .first-blocks
+    .block
+    .buttons
+    .button.register-button.login-button,
+  .coupon-popup-wrapper
+    .popup-content
+    .first-blocks
+    .block
+    .buttons
+    .button.register-button {
+    width: 41%;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .coupon-popup-wrapper
+    .popup-content
+    .first-blocks
+    .block
+    .buttons
+    .button.print-button {
+    width: 20%;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .coupon-popup-wrapper .popup-content .betslip-info {
+    background: #eaeaea;
+  }
+  
+  .coupon-popup-wrapper
+    .popup-content
+    .first-blocks
+    .block
+    .buttons
+    .button.send-button {
+    width: calc(55% - 20px);
+    text-align: center;
+  }
+  .coupon-popup-wrapper .popup-content .betslip-info .big-title,
+  .coupon-popup-wrapper .popup-content .betslip-info .details,
+  .coupon-popup-wrapper .popup-content .betslip-table tr td {
+    color: #545454;
+  }
+  .coupon-popup-wrapper .popup-content .first-blocks .block {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .coupon-popup-wrapper .popup-content .first-blocks .block:first-child {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .coupon-popup-wrapper .popup-content .first-blocks {
+    background: #f3f3f3;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .coupon-popup-wrapper .popup-content .betslip-info .details {
+    font-size: 14px;
+    padding: 0 12px;
+  }
+  
+  .lang-inner .lang-down-a {
+    background-color: var(--bg1);
+    color: var(--col1) !important;
+  }
+  
+  .right-side-bar .single-block:nth-child(4) .block-title {
+    background: var(--bg1);
+    color: var(--accent);
+  }
+  .right-side-bar .single-block:nth-child(4) .block-title span {
+    text-align: center;
+    width: 100%;
+  }
+  .right-side-bar .single-block:nth-child(4) .block-title:before {
+    content: "";
+    display: none;
+  }
+  .side-bar .single-block .block-content.verify-coupon {
+    padding-top: 0px;
+  }
+  
+  .header .top-header .top-header-content .primary-menu li a:after {
+    content: "";
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: contain;
+    filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
+    -webkit-filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
+  
+    position: absolute;
+    top: -135px;
+    background-repeat: no-repeat;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #indexSport a:after {
+    background-image: url("http://nextra.pcluster.info/biwinner/images/football-ball.svg");
+  }
+  #indexLive a:after {
+    background-image: url("http://nextra.pcluster.info/biwinner/images/stopwatch.svg");
+  }
+  #indexCasino a:after {
+    background-image: url("http://nextra.pcluster.info/biwinner/images/roulette.svg");
+  }
+  #indexCasinoLive a:after {
+    background-image: url("http://nextra.pcluster.info/biwinner/images/slot-machine.svg");
+  }
+  #indexPoker a:after {
+    background-image: url("http://nextra.pcluster.info/biwinner/images/poker.svg");
+  }
+  
+  #indexLivechat a:after {
+    background-image: url("http://nextra.pcluster.info/biwinner/images/user-headset.svg");
+  }
+  .header .top-header .top-header-content .primary-menu ul li {
+    position: relative;
+    top: 15px;
+    margin-right: 10px;
+  }
+  
+  .dark-overlay {
+    pointer-events: none;
+  }
+  

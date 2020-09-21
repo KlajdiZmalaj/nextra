@@ -7,26 +7,36 @@
 
 .header .top-bar .top-bar-content .login-bar .logout-button,
 .header .top-bar .top-bar-content .login-bar .shop-button {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
   display: flex !important;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .header .top-bar .top-bar-content .login-bar .logout-button a,
 .header .top-bar .top-bar-content .login-bar .shop-button a {
   height: auto !important;
 }
+
 .forgot-password-page
-  .forgot-password-holder
-  .forgot-password-content
-  .form-holder
-  input[type="submit"] {
+.forgot-password-holder
+.forgot-password-content
+.form-holder
+input[type="submit"] {
   background: #288835 !important;
   color: #fff !important;
   border: 0 !important;
 }
+
 .forgot-password-content {
   padding: 45px;
 }
+
 .registration-page.agent-registration .agent-buttons .single-button {
   height: auto !important;
 }
@@ -35,12 +45,15 @@
   background-color: transparent !important;
   color: inherit;
 }
+
 .logged-center .change-password-page.edit-user-page .row .cell {
   border-color: var(--tableBorders) !important;
 }
+
 .logged-center .change-password-page.edit-user-page .row:last-child {
   width: 100%;
 }
+
 .logged-center .usrlist #client_list td {
   padding: 5px;
 }
@@ -49,10 +62,12 @@
   font-weight: bold;
   color: #222;
 }
+
 .logged-center .new-profile-page > .transaction-filters .row,
 .logged-center .new-profile-page > .transaction-filters .row:last-child {
   width: 100%;
 }
+
 .logged-center .new-profile-page .new-profile-page.save .row {
   width: 100%;
 }
@@ -456,7 +471,8 @@ div.token-input-dropdown {
   outline: 0;
   padding: 0px 25px 0px 5px;
   cursor: pointer;
-  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 .popin-det-lat-text {
@@ -508,9 +524,11 @@ div.token-input-dropdown {
 .popin-form-btn:hover {
   opacity: 0.9;
 }
+
 .cl-popin {
   display: none !important;
 }
+
 .op-popin {
   text-decoration: none;
   background-color: var(--accent-bg);
@@ -528,11 +546,17 @@ div.token-input-dropdown {
 .op-popin:hover {
   opacity: 0.9;
 }
+
 .logged-page .logged-menu ul li .sub-menu li a {
+  -webkit-transition: 0.3s;
   transition: 0.3s;
   height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logged-page .logged-menu ul li .sub-menu li a:hover {
@@ -545,12 +569,15 @@ div.token-input-dropdown {
 .logged-page .logged-menu ul li span i {
   padding: 8px;
 }
+
 .logged-page .grid {
   max-width: 100%;
 }
+
 .logged-center .change-password-page .input-wrapper {
   border-bottom: 1px solid var(--tableBorders);
 }
+
 .first-header td {
   white-space: nowrap;
   line-height: 26px;
@@ -567,18 +594,21 @@ div.token-input-dropdown {
 body .odd.selected {
   width: auto;
 }
+
 .odds-block-type-percentages .odd,
 .center-content .percentage-block .bets .bet .odd {
   width: 50px;
 }
 
 /* .logged-center #couponhtml ~ #mainpage .transaction-filters .row:first-child {
-  width: 100%;
-  padding-right: 50%;
-} */
+    width: 100%;
+    padding-right: 50%;
+  } */
 .input-holder .ui-datepicker-trigger {
-  filter: grayscale(1) brightness(0) invert(0);
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+          filter: grayscale(1) brightness(0) invert(0);
 }
+
 .odd {
   width: auto;
   min-width: 31px;
@@ -609,9 +639,9 @@ footer .footer-copyright {
 }
 
 .logged-page
-  .transactions-table.betlist-table
-  td
-  .result-holder.evaluation:after {
+.transactions-table.betlist-table
+td
+.result-holder.evaluation:after {
   background-color: #8da1ad;
 }
 
@@ -646,9 +676,8 @@ body .casino-section .casino-container .casino-inner {
 }
 
 /* .betlist-legend-holder .legend .single-item.cancelled:after {
-  background-color: #dcb630;
-} */
-
+    background-color: #dcb630;
+  } */
 .betlist-legend-holder .legend .single-item.evaluation:after {
   background-color: #8da1ad;
 }
@@ -772,34 +801,40 @@ body .casino-section .casino-container .casino-inner {
   background: red;
   border-radius: 10px;
 }
+
 body .logged-page .logged-table tfoot tr td,
 .logged-page .logged-table tr.total td {
   background: #ffffff;
   color: #000;
 }
+
 .logged-page .logged-table thead tr th {
   font-weight: 300 !important;
 }
+
 .logged-content.admin-content
-  .quick-look
-  .content
-  .left-content
-  .single-holder
-  .date,
+.quick-look
+.content
+.left-content
+.single-holder
+.date,
 .logged-content.admin-content
-  .quick-look
-  .content
-  .right-content
-  .single-holder
-  .date {
+.quick-look
+.content
+.right-content
+.single-holder
+.date {
   color: inherit !important;
 }
+
 .logged-center {
   margin-bottom: 0 !important;
 }
+
 .logged-page footer {
   margin-top: 0 !important;
 }
+
 .logged-page + footer {
   margin-top: 0 !important;
 }
@@ -809,22 +844,27 @@ body .logged-page .logged-table tfoot tr td,
 }
 
 .side-bar
-  .single-block.betslip-holder
-  .betslip
-  .combination-wrapper
-  .combination-group
-  table
-  td
-  .default-bets
-  .single-bet:hover {
+.single-block.betslip-holder
+.betslip
+.combination-wrapper
+.combination-group
+table
+td
+.default-bets
+.single-bet:hover {
   background: var(--accent-bg);
   color: var(--accent-txt);
+  -webkit-transition: 0.3s;
   transition: 0.3s;
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Old versions of Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
   user-select: none;
 }
 
@@ -861,7 +901,6 @@ body .logged-page .logged-table tfoot tr td,
 }
 
 /* end coupon details on lista scomessa */
-
 .single-sport .states .state .championship:hover,
 .single-sport .states .state > .anchor.special:hover,
 .single-sport > .anchor:hover {
@@ -869,6 +908,7 @@ body .logged-page .logged-table tfoot tr td,
   color: var(--teableSubHeadersCol) !important;
   border-left: 2px solid var(--accent);
 }
+
 .single-sport .states .state > .anchor.special:hover .trigger {
   color: var(--teableSubHeadersCol) !important;
 }
@@ -880,10 +920,10 @@ body .logged-page .logged-table tfoot tr td,
 }
 
 .side-bar
-  .single-block
-  .block-content
-  form[name="fastslip3"]
-  .ui-selectmenu-button,
+.single-block
+.block-content
+form[name="fastslip3"]
+.ui-selectmenu-button,
 .side-bar .single-block .block-content form[name="fastslip3"] select {
   color: var(--mainBgCol);
 }
@@ -899,6 +939,7 @@ body .logged-page .logged-table tfoot tr td,
   background-color: var(--accent-bg);
   color: var(--accent-txt);
 }
+
 .odds-table .single-match-odds .single-match-odds-table .odd-type .info-toggle {
   border-radius: 3px;
   margin-left: 10px;
@@ -910,6 +951,7 @@ body .logged-page .logged-table tfoot tr td,
   line-height: 16px;
   font-size: 11px;
 }
+
 .odds-table .single-match-odds .single-match-odds-table .info-row td {
   background: #dedede;
   color: #000;
@@ -919,32 +961,37 @@ body .logged-page .logged-table tfoot tr td,
   background: var(--mainBg);
   color: var(--mainBgCol);
 }
+
 .sked-tape__event-row:nth-child(odd) {
   background-color: #fdfdfd;
   color: #000;
 }
+
 .sked-tape__event-row {
   color: #000;
   background-color: #f4f4f4;
 }
+
 .sked-tape__date:nth-child(odd) {
   background: var(--mainBg);
   color: var(--mainBgCol);
 }
+
 .sked-tape__date {
   background: #e0e0e0;
   color: var(--mainBg);
 }
+
 .casino-section {
   background-image: url(http://nextra.pcluster.info/jogar365/images/casino/casinoBg.png);
 }
 
 @media (max-width: 1088px) {
   .logged-header.header
-    .top-header
-    .top-header-content
-    .primary-menu
-    .register-button {
+.top-header
+.top-header-content
+.primary-menu
+.register-button {
     line-height: normal;
   }
 }
@@ -956,9 +1003,11 @@ body .logged-page .logged-table tfoot tr td,
   border-radius: 8px;
   padding: 40px;
 }
+
 .ed-a {
   padding: 0 0 20px 0px;
 }
+
 .ed-b {
   display: -ms-grid;
   display: grid;
@@ -968,30 +1017,36 @@ body .logged-page .logged-table tfoot tr td,
   border-radius: 8px;
   padding: 20px 20px 20px 0;
 }
+
 .ed-b-img {
   padding-top: 30px;
   -ms-grid-column-align: center;
   justify-self: center;
 }
+
 .ed-b-img img {
   width: 60px;
   display: block;
 }
+
 .ed-b-content .ed-b-head {
   margin: 10px 0;
   font-size: 19px;
   font-weight: bold;
 }
+
 .ed-b-content .ed-b-li {
   line-height: 17px;
   margin-bottom: 2px;
   font-size: 12px;
   display: block;
 }
+
 .ed-qr {
   padding: 10px 0px 0px 10px;
   margin-bottom: 20px;
 }
+
 .ed-b-content .ed-b-digit {
   margin-top: 15px;
   outline: 0;
@@ -999,6 +1054,7 @@ body .logged-page .logged-table tfoot tr td,
   border: 1px solid #101b74;
   display: block;
 }
+
 .ed-c {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1008,18 +1064,22 @@ body .logged-page .logged-table tfoot tr td,
   justify-content: flex-end;
   /* -webkit-box-align: center; */
   -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
   text-align: right;
   padding: 20px 0;
   border-bottom: 2px solid #c7c7c9;
 }
+
 .ed-c-left {
   padding-right: 20px;
 }
+
 .ed-c-left .ed-c-head {
   display: block;
   margin-bottom: 5px;
 }
+
 .ed-c-left .ed-c-text {
   font-size: 10px;
 }
@@ -1037,22 +1097,26 @@ body .logged-page .logged-table tfoot tr td,
   position: relative;
   display: inline-block;
 }
+
 .ed-switch input {
   width: 30px;
   height: 30px;
 }
+
 .ed-d-head {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
   margin: 20px 0;
 }
+
 .ed-d-text {
   font-size: 12px;
   display: block;
   text-align: center;
   margin-bottom: 5px;
 }
+
 .ed-d-app {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1063,9 +1127,11 @@ body .logged-page .logged-table tfoot tr td,
   padding-top: 20px;
   position: relative;
 }
+
 .ed-d-app .ed-d-box {
   padding: 0 20px;
 }
+
 .ed-d-app .ed-d-box img {
   display: block;
   width: 100px;
@@ -1083,9 +1149,11 @@ body .logged-page .logged-table tfoot tr td,
 .reports .report-types .single-type {
   color: var(--col1);
 }
+
 .reports .report-types {
   background-color: transparent;
 }
+
 .logged-center .transfer-successful {
   background: var(--mainBg);
   color: var(--mainBgCol);
@@ -1115,6 +1183,7 @@ body .logged-page .logged-table tfoot tr td,
 .header .top-header .top-header-content .primary-menu ul li.active {
   color: var(--accent);
 }
+
 .poker-strip {
   background-color: var(--teableSubHeadersBg);
   color: var(--accent-col);
@@ -1176,9 +1245,9 @@ body .logged-page .logged-table tfoot tr td,
 }
 
 .logged-page
-  .transactions-table.betlist-table
-  td
-  .result-holder.evaluation:after {
+.transactions-table.betlist-table
+td
+.result-holder.evaluation:after {
   background-color: #8da1ad;
 }
 
@@ -1190,6 +1259,7 @@ body .logged-page .logged-table tfoot tr td,
 li[id*="miniTablet_"][data-id="23"]:before {
   background-image: url(https://nextra.pcluster.info/bbgame/images/serieA.svg);
 }
+
 li[id*="miniTablet_"][data-id="17"]:before {
   background-image: url(https://nextra.pcluster.info/bbgame/images/premierL.svg);
 }
@@ -1201,6 +1271,7 @@ li[id*="miniTablet_"][data-id="8"]:before {
 li[id*="miniTablet_"][data-id="35"]:before {
   background-image: url(https://nextra.pcluster.info/bbgame/images/bundesL.svg);
 }
+
 li[id*="miniTablet_"][data-id="34"]:before,
 li[id*="miniTablet_"][data-id="4"]:before {
   background-image: url(https://nextra.pcluster.info/bbgame/images/ligue1.svg);
@@ -1209,11 +1280,11 @@ li[id*="miniTablet_"][data-id="4"]:before {
 li#miniTablet_1_325:before {
   background-image: url(https://nextra.pcluster.info/bbgame/images/seriaABrasil.png);
 }
-/* #favouriteTournaments li:before {
-  -webkit-filter: none;
-  filter: none;
-} */
 
+/* #favouriteTournaments li:before {
+    -webkit-filter: none;
+    filter: none;
+  } */
 #favouriteTournaments li:not(:last-child):before {
   -webkit-filter: none;
   filter: none;
@@ -1230,41 +1301,45 @@ li#miniTablet_1_325:before {
 }
 
 /*end logged part mobile*/
-
 div.landing-page
-  .banner-content
-  .bottom-text-holder
-  .quarter:first-child:before {
+.banner-content
+.bottom-text-holder
+.quarter:first-child:before {
   background-image: url(//nextra.pcluster.info/icesport/images/landing-images/fIcon.svg);
 }
+
 div.landing-page
-  .banner-content
-  .bottom-text-holder
-  .quarter:nth-child(2):before {
+.banner-content
+.bottom-text-holder
+.quarter:nth-child(2):before {
   background-image: url(//nextra.pcluster.info/icesport/images/landing-images/Icon2.svg);
 }
+
 div.landing-page
-  .banner-content
-  .bottom-text-holder
-  .quarter:nth-child(3):before {
+.banner-content
+.bottom-text-holder
+.quarter:nth-child(3):before {
   background-image: url(//nextra.pcluster.info/icesport/images/landing-images/Icon3.svg);
 }
+
 div.landing-page
-  .banner-content
-  .bottom-text-holder
-  .quarter:last-child:before {
+.banner-content
+.bottom-text-holder
+.quarter:last-child:before {
   background-image: url(//nextra.pcluster.info/icesport/images/landing-images/Icon4.svg);
 }
+
 .odds-table .second-header td {
   color: var(--accent);
 }
+
 .grid .cell.quarter {
   overflow: hidden;
 }
+
 .cell.quarter:before {
   filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
   -webkit-filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
-
   position: relative;
   top: -160px;
 }
@@ -1272,114 +1347,121 @@ div.landing-page
 #reservedCoupon {
   z-index: 999999;
 }
+
 .coupon-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .details
-  .blocks
-  .block
-  .row {
+.coupon-details-popup
+.coupon-details-content
+.details
+.blocks
+.block
+.row {
   color: #000;
 }
 
 .coupon-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .details
-  .blocks
-  .block.amounts
-  .box {
+.coupon-details-popup
+.coupon-details-content
+.details
+.blocks
+.block.amounts
+.box {
   border-bottom: 0;
 }
+
 .coupon-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .details
-  .blocks
-  .block.amounts
-  .box
-  .label {
+.coupon-details-popup
+.coupon-details-content
+.details
+.blocks
+.block.amounts
+.box
+.label {
   text-align: center;
 }
+
 .coupon-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .details
-  .blocks
-  .block
-  .row
-  div.detail {
+.coupon-details-popup
+.coupon-details-content
+.details
+.blocks
+.block
+.row
+div.detail {
   padding-left: 10px;
 }
+
 .coupon-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .details
-  .blocks
-  .block
-  .row {
+.coupon-details-popup
+.coupon-details-content
+.details
+.blocks
+.block
+.row {
   line-height: 34px;
 }
+
 .coupon-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .details
-  .blocks
-  .block.amounts
-  .box {
+.coupon-details-popup
+.coupon-details-content
+.details
+.blocks
+.block.amounts
+.box {
   margin: 15px 0 15px;
 }
 
 #reservedCoupon .event-list-legend-holder {
   background: #4e4e4e;
 }
+
 #reservedCoupon .event-list-legend-holder .legend {
   background: #6f6f6f;
   padding: 5px 0px;
 }
+
 .coupon-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .events-list
-  table
-  thead
-  tr
-  th,
+.coupon-details-popup
+.coupon-details-content
+.events-list
+table
+thead
+tr
+th,
 .coupon-popup-wrapper
-  .deposit-iframe-popup
-  .coupon-details-content
-  .events-list
-  table
-  thead
-  tr
-  th,
+.deposit-iframe-popup
+.coupon-details-content
+.events-list
+table
+thead
+tr
+th,
 .login-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .events-list
-  table
-  thead
-  tr
-  th,
+.coupon-details-popup
+.coupon-details-content
+.events-list
+table
+thead
+tr
+th,
 .login-popup-wrapper
-  .deposit-iframe-popup
-  .coupon-details-content
-  .events-list
-  table
-  thead
-  tr
-  th {
+.deposit-iframe-popup
+.coupon-details-content
+.events-list
+table
+thead
+tr
+th {
   background: #4e4e4e;
   color: #fff;
 }
 
 .coupon-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .events-list
-  table
-  tr
-  td {
+.coupon-details-popup
+.coupon-details-content
+.events-list
+table
+tr
+td {
   color: #000;
 }
 
@@ -1387,46 +1469,61 @@ div.landing-page
   background: var(--accent-bg);
   color: var(--accent-txt);
 }
+
 .coupon-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .single-multiple-details {
+.coupon-details-popup
+.coupon-details-content
+.single-multiple-details {
   background: var(--mainBg);
   color: var(--mainBgCol);
 }
+
 .coupon-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .single-multiple-details
-  table
-  tr,
+.coupon-details-popup
+.coupon-details-content
+.single-multiple-details
+table
+tr,
 .coupon-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .single-multiple-details
-  table
-  tr
-  td {
+.coupon-details-popup
+.coupon-details-content
+.single-multiple-details
+table
+tr
+td {
   background: var(--mainBgCol);
   color: var(--mainBg);
 }
+
 /*end logged part mobile*/
 .header .top-header .top-header-content .primary-menu ul li {
   position: relative;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .header .top-header .top-header-content .primary-menu ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 0 13px;
   margin-right: 0;
   padding-top: 50px;
   position: relative;
   top: -25px;
 }
+
 .header .top-header .top-header-content .primary-menu ul li:hover:before,
 .header .top-header .top-header-content .primary-menu ul li.active:before {
   content: "";
@@ -1437,98 +1534,121 @@ div.landing-page
   position: absolute;
   bottom: 4px;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
+
 .single-sport .states .state .championship.selected .anchor {
   color: var(--accent) !important;
 }
+
 .odds-table .match-name .team-names {
   overflow: visible !important;
 }
+
 .odds-table .match-name .team-names.has-info:hover .info-box {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
   display: flex !important;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .odds-table .match-name .team-names.has-info .info-box .teams .home-team:after {
   display: none !important;
 }
+
 .side-bar
-  .single-block.betslip-holder
-  .betslip
-  .combination-wrapper
-  .totals-section
-  .totals
-  .buttons
-  div {
+.single-block.betslip-holder
+.betslip
+.combination-wrapper
+.totals-section
+.totals
+.buttons
+div {
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
 .side-bar
-  .single-block.betslip-holder
-  .betslip
-  .combination-wrapper
-  .totals-section
-  .totals
-  .buttons
-  div.cancel:hover {
+.single-block.betslip-holder
+.betslip
+.combination-wrapper
+.totals-section
+.totals
+.buttons
+div.cancel:hover {
   background-color: #e20034b5;
   color: #fff;
 }
+
 .side-bar
-  .single-block.betslip-holder
-  .betslip
-  .combination-wrapper
-  .totals-section
-  .totals
-  .buttons
-  div.book:hover {
+.single-block.betslip-holder
+.betslip
+.combination-wrapper
+.totals-section
+.totals
+.buttons
+div.book:hover {
   background-color: #feca2ecc;
   color: #222;
 }
+
 .side-bar
-  .single-block.betslip-holder
-  .betslip
-  .combination-wrapper
-  .totals-section
-  .totals
-  .buttons
-  div.proceed:hover {
+.single-block.betslip-holder
+.betslip
+.combination-wrapper
+.totals-section
+.totals
+.buttons
+div.proceed:hover {
   background-color: #2e9c5ed3;
   color: #fff;
 }
+
 .default-bets .single-bet {
   white-space: nowrap;
 }
+
 .odds-table .match-name .team-names.has-info .info-box {
   pointer-events: none;
 }
 
 .odds-table
-  .match-name
-  .team-names.has-info
-  .info-box
-  .bars-holder
-  .single-bar-holder {
+.match-name
+.team-names.has-info
+.info-box
+.bars-holder
+.single-bar-holder {
   background-color: var(--mainBg) !important;
   color: var(--mainBgCol) !important;
 }
+
 .odds-table
-  .match-name
-  .team-names.has-info
-  .info-box
-  .odd-types
-  .single-type:nth-child(2) {
+.match-name
+.team-names.has-info
+.info-box
+.odd-types
+.single-type:nth-child(2) {
   color: #c52e2e !important;
 }
+
 .odds-table
-  .match-name
-  .team-names.has-info
-  .info-box
-  .bars-holder
-  .single-bar-holder:nth-child(2)
-  .bar
-  .inner {
+.match-name
+.team-names.has-info
+.info-box
+.bars-holder
+.single-bar-holder:nth-child(2)
+.bar
+.inner {
   background: #c52e2e !important;
 }
 
@@ -1536,6 +1656,7 @@ div.landing-page
   background: #212931;
   color: #fff;
 }
+
 .coupon-popup-wrapper .popup-content .first-blocks .block p {
   font-size: 13px;
   color: #545454;
@@ -1543,28 +1664,28 @@ div.landing-page
 }
 
 .coupon-popup-wrapper
-  .popup-content
-  .first-blocks
-  .block
-  .buttons
-  .button.register-button.login-button,
+.popup-content
+.first-blocks
+.block
+.buttons
+.button.register-button.login-button,
 .coupon-popup-wrapper
-  .popup-content
-  .first-blocks
-  .block
-  .buttons
-  .button.register-button {
+.popup-content
+.first-blocks
+.block
+.buttons
+.button.register-button {
   width: 41%;
   text-align: center;
   color: #fff;
 }
 
 .coupon-popup-wrapper
-  .popup-content
-  .first-blocks
-  .block
-  .buttons
-  .button.print-button {
+.popup-content
+.first-blocks
+.block
+.buttons
+.button.print-button {
   width: 20%;
   text-align: center;
   color: #fff;
@@ -1575,19 +1696,21 @@ div.landing-page
 }
 
 .coupon-popup-wrapper
-  .popup-content
-  .first-blocks
-  .block
-  .buttons
-  .button.send-button {
+.popup-content
+.first-blocks
+.block
+.buttons
+.button.send-button {
   width: calc(55% - 20px);
   text-align: center;
 }
+
 .coupon-popup-wrapper .popup-content .betslip-info .big-title,
 .coupon-popup-wrapper .popup-content .betslip-info .details,
 .coupon-popup-wrapper .popup-content .betslip-table tr td {
   color: #545454;
 }
+
 .coupon-popup-wrapper .popup-content .first-blocks .block {
   margin-bottom: 5px;
   margin-top: 5px;
@@ -1620,14 +1743,17 @@ div.landing-page
   background: var(--bg1);
   color: var(--accent);
 }
+
 .right-side-bar .single-block:nth-child(4) .block-title span {
   text-align: center;
   width: 100%;
 }
+
 .right-side-bar .single-block:nth-child(4) .block-title:before {
   content: "";
   display: none;
 }
+
 .side-bar .single-block .block-content.verify-coupon {
   padding-top: 0px;
 }
@@ -1636,32 +1762,43 @@ div.landing-page
   content: "";
   width: 27px;
   height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-position: center;
   background-size: contain;
   filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
   -webkit-filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
-
   position: absolute;
   top: -135px;
   background-repeat: no-repeat;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
+
 #indexSport a:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/football-ball.svg");
 }
+
 #indexLive a:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/stopwatch.svg");
 }
+
 #indexCasino a:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/roulette.svg");
 }
+
 #indexCasinoLive a:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/slot-machine.svg");
 }
+
 #indexPoker a:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/poker.svg");
 }
@@ -1669,6 +1806,7 @@ div.landing-page
 #indexLivechat a:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/user-headset.svg");
 }
+
 .header .top-header .top-header-content .primary-menu ul li {
   position: relative;
   top: 15px;
@@ -1678,3 +1816,4 @@ div.landing-page
 .dark-overlay {
   pointer-events: none;
 }
+/*# sourceMappingURL=extra.css.map */
