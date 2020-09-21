@@ -1421,6 +1421,9 @@ div.landing-page
   justify-content: center;
   padding: 0 13px;
   margin-right: 0;
+  padding-top: 50px;
+  position: relative;
+  top: -25px;
 }
 .header .top-header .top-header-content .primary-menu ul li:hover:before,
 .header .top-header .top-header-content .primary-menu ul li.active:before {
@@ -1430,7 +1433,7 @@ div.landing-page
   border-bottom: 10px solid var(--accent) !important;
   width: 1px;
   position: absolute;
-  bottom: -21px;
+  bottom: 4px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -1627,7 +1630,7 @@ div.landing-page
   padding-top: 0px;
 }
 
-.header .top-header .top-header-content .primary-menu li:after {
+.header .top-header .top-header-content .primary-menu li a:after {
   content: "";
   width: 27px;
   height: 27px;
@@ -1638,32 +1641,36 @@ div.landing-page
   background-size: contain;
   filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
   position: absolute;
-  top: -184px;
+  top: -135px;
   background-repeat: no-repeat;
   left: 50%;
   transform: translateX(-50%);
 }
-#indexSport:after {
+#indexSport a:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/football-ball.svg");
 }
-#indexLive:after {
+#indexLive a:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/stopwatch.svg");
 }
-#indexCasino:after {
+#indexCasino a:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/roulette.svg");
 }
-#indexCasinoLive:after {
+#indexCasinoLive a:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/slot-machine.svg");
 }
-#indexPoker:after {
+#indexPoker a:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/poker.svg");
 }
 
-#indexLivechat:after {
+#indexLivechat a:after {
   background-image: url("http://nextra.pcluster.info/biwinner/images/user-headset.svg");
 }
 .header .top-header .top-header-content .primary-menu ul li {
   position: relative;
   top: 15px;
-  margin-right: 40px;
+  margin-right: 10px;
+}
+
+.dark-overlay {
+  pointer-events: none;
 }
