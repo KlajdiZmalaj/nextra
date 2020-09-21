@@ -1270,7 +1270,33 @@ div.landing-page
 #reservedCoupon {
   z-index: 999999;
 }
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row {
+  color:#000;
+}
 
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts .box {
+  border-bottom: 0;
+}
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts .box .label {
+  text-align: center;
+}
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row div.detail {
+  padding-left: 10px;
+}
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row {
+  line-height: 34px;
+}
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts .box {
+  margin: 15px 0 15px;
+}
+
+#reservedCoupon .event-list-legend-holder {
+  background: #4e4e4e;
+}
+#reservedCoupon .event-list-legend-holder .legend {
+  background: #6f6f6f;
+  padding: 5px 0px;
+}
 .coupon-popup-wrapper
   .coupon-details-popup
   .coupon-details-content
@@ -1303,10 +1329,12 @@ div.landing-page
   thead
   tr
   th {
-  background: var(--teableHeadersBg);
-  font-size: 12px;
-  font-weight: bold;
-  color: var(--teableHeadersCol);
+  background: #4e4e4e;
+  color: #fff;
+}
+
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td {
+  color:#000;
 }
 
 .coupon-popup-wrapper .coupon-details-popup .coupon-details-content .title {
@@ -1484,4 +1512,10 @@ div.landing-page
 .coupon-popup-wrapper .popup-content .betslip-info .details {
   font-size: 14px;
   padding: 0 12px;
+}
+
+
+.lang-inner .lang-down-a {
+  background-color: var(--bg1);
+  color: var(--col1)!important;
 }
