@@ -612,7 +612,7 @@ footer .footer-copyright {
   .transactions-table.betlist-table
   td
   .result-holder.evaluation:after {
-  background-color: #517111;
+  background-color: #8da1ad;
 }
 
 body .casino-section .casino-container .casino-inner {
@@ -650,7 +650,7 @@ body .casino-section .casino-container .casino-inner {
 } */
 
 .betlist-legend-holder .legend .single-item.evaluation:after {
-  background-color: #d8ff00;
+  background-color: #8da1ad;
 }
 
 .betlist-legend-holder .legend .single-item.cashout:after {
@@ -1179,7 +1179,7 @@ body .logged-page .logged-table tfoot tr td,
   .transactions-table.betlist-table
   td
   .result-holder.evaluation:after {
-  background-color: #d8ff00;
+  background-color: #8da1ad;
 }
 
 #reportShopCredit .input-holder img.ui-datepicker-trigger:last-child,
@@ -1422,4 +1422,35 @@ div.landing-page
 }
 .default-bets .single-bet {
   white-space: nowrap;
+}
+.odds-table .match-name .team-names.has-info .info-box {
+  pointer-events: none;
+}
+
+.odds-table
+  .match-name
+  .team-names.has-info
+  .info-box
+  .bars-holder
+  .single-bar-holder {
+  background-color: var(--mainBg) !important;
+  color: var(--mainBgCol) !important;
+}
+.odds-table
+  .match-name
+  .team-names.has-info
+  .info-box
+  .odd-types
+  .single-type:nth-child(2) {
+  color: #c52e2e !important;
+}
+.odds-table
+  .match-name
+  .team-names.has-info
+  .info-box
+  .bars-holder
+  .single-bar-holder:nth-child(2)
+  .bar
+  .inner {
+  background: #c52e2e !important;
 }
