@@ -1270,7 +1270,71 @@ div.landing-page
 #reservedCoupon {
   z-index: 999999;
 }
+.coupon-popup-wrapper
+  .coupon-details-popup
+  .coupon-details-content
+  .details
+  .blocks
+  .block
+  .row {
+  color: #000;
+}
 
+.coupon-popup-wrapper
+  .coupon-details-popup
+  .coupon-details-content
+  .details
+  .blocks
+  .block.amounts
+  .box {
+  border-bottom: 0;
+}
+.coupon-popup-wrapper
+  .coupon-details-popup
+  .coupon-details-content
+  .details
+  .blocks
+  .block.amounts
+  .box
+  .label {
+  text-align: center;
+}
+.coupon-popup-wrapper
+  .coupon-details-popup
+  .coupon-details-content
+  .details
+  .blocks
+  .block
+  .row
+  div.detail {
+  padding-left: 10px;
+}
+.coupon-popup-wrapper
+  .coupon-details-popup
+  .coupon-details-content
+  .details
+  .blocks
+  .block
+  .row {
+  line-height: 34px;
+}
+.coupon-popup-wrapper
+  .coupon-details-popup
+  .coupon-details-content
+  .details
+  .blocks
+  .block.amounts
+  .box {
+  margin: 15px 0 15px;
+}
+
+#reservedCoupon .event-list-legend-holder {
+  background: #4e4e4e;
+}
+#reservedCoupon .event-list-legend-holder .legend {
+  background: #6f6f6f;
+  padding: 5px 0px;
+}
 .coupon-popup-wrapper
   .coupon-details-popup
   .coupon-details-content
@@ -1303,10 +1367,18 @@ div.landing-page
   thead
   tr
   th {
-  background: var(--teableHeadersBg);
-  font-size: 12px;
-  font-weight: bold;
-  color: var(--teableHeadersCol);
+  background: #4e4e4e;
+  color: #fff;
+}
+
+.coupon-popup-wrapper
+  .coupon-details-popup
+  .coupon-details-content
+  .events-list
+  table
+  tr
+  td {
+  color: #000;
 }
 
 .coupon-popup-wrapper .coupon-details-popup .coupon-details-content .title {
@@ -1453,4 +1525,134 @@ div.landing-page
   .bar
   .inner {
   background: #c52e2e !important;
+}
+
+.coupon-popup-wrapper .popup-content .betslip-table tr th {
+  background: #212931;
+  color: #fff;
+}
+.coupon-popup-wrapper .popup-content .first-blocks .block p {
+  font-size: 13px;
+  color: #545454;
+  line-height: 15px;
+}
+
+.coupon-popup-wrapper
+  .popup-content
+  .first-blocks
+  .block
+  .buttons
+  .button.register-button.login-button,
+.coupon-popup-wrapper
+  .popup-content
+  .first-blocks
+  .block
+  .buttons
+  .button.register-button {
+  width: 41%;
+  text-align: center;
+  color: #fff;
+}
+
+.coupon-popup-wrapper
+  .popup-content
+  .first-blocks
+  .block
+  .buttons
+  .button.print-button {
+  width: 20%;
+  text-align: center;
+  color: #fff;
+}
+
+.coupon-popup-wrapper .popup-content .betslip-info {
+  background: #eaeaea;
+}
+
+.coupon-popup-wrapper
+  .popup-content
+  .first-blocks
+  .block
+  .buttons
+  .button.send-button {
+  width: calc(55% - 20px);
+  text-align: center;
+}
+.coupon-popup-wrapper .popup-content .betslip-info .big-title,
+.coupon-popup-wrapper .popup-content .betslip-info .details,
+.coupon-popup-wrapper .popup-content .betslip-table tr td {
+  color: #545454;
+}
+.coupon-popup-wrapper .popup-content .first-blocks .block {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.coupon-popup-wrapper .popup-content .first-blocks .block:first-child {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.coupon-popup-wrapper .popup-content .first-blocks {
+  background: #f3f3f3;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.coupon-popup-wrapper .popup-content .betslip-info .details {
+  font-size: 14px;
+  padding: 0 12px;
+}
+
+.lang-inner .lang-down-a {
+  background-color: var(--bg1);
+  color: var(--col1) !important;
+}
+
+.right-side-bar .single-block:nth-child(4) .block-title {
+  background: var(--bg1);
+  color: var(--accent);
+}
+.right-side-bar .single-block:nth-child(4) .block-title span {
+  text-align: center;
+  width: 100%;
+}
+.right-side-bar .single-block:nth-child(4) .block-title:before {
+  content: "";
+  display: none;
+}
+.side-bar .single-block .block-content.verify-coupon {
+  padding-top: 0px;
+}
+
+.header .top-header .top-header-content .primary-menu li:before {
+  content: "";
+  width: 27px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: contain;
+}
+#indexSport:before {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/football-ball.svg");
+}
+#indexLive:before {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/stopwatch.svg");
+}
+#indexCasino:before {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/roulette.svg");
+}
+#indexCasinoLive:before {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/slot-machine.svg");
+}
+#indexPoker:before {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/poker.svg");
+}
+
+#indexLivechat:before {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/user-headset.svg");
 }
