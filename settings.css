@@ -1,61 +1,174 @@
 html:root {
-  --accent: #0a96f0;
-  --accent-bg: #ff9800;
-  --accent-txt: #000000;
-  --primary-bg: #d9d9d9;
-  --primary-txt: #000000;
-  --secondary-bg: #ffffff;
-  --secondary-txt: #000;
-  --mainBg: #ffffff;
-  --mainBgCol: #000;
-  --bg1: #e7e7e7;
-  --col1: #000;
-  --teableHeadersBg: #0a96f0;
+  --accent: #95cd3b;
+  --accent-bg: #95cd3b;
+  --accent-txt: #000;
+  --primary-bg: #000;
+  --primary-txt: #fff;
+  --secondary-bg: #212931;
+  --secondary-txt: #fff;
+  --mainBg: #212931;
+  --mainBgCol: #fff;
+  --bg1: #29333b;
+  --col1: #fff;
+  --teableHeadersBg: #384351;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #cccccc;
-  --teableSubHeadersCol: #000000;
-  --tableBorders: #a3a3a3;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --teableSubHeadersBg: #14191d;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #445461;
+  --casinoGradient1: linear-gradient(
+    to right,
+    #95cd3b00 3%,
+    #95cd3b 60%,
+    #95cd3b00 99%
+  );
+  --casinoGradient1-txt: #000;
+  --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "icesport";
-}
-
-.header .top-header .top-header-content .logo-holder a:before {
-  -webkit-transform: scale(2);
-          transform: scale(2);
-}
-
-#favouriteTournaments li:before {
-  -webkit-filter: brightness(0.1);
-          filter: brightness(0.1);
+  --skin: "masterbet";
 }
 
 body {
   background-size: 2038px !important;
 }
 
-.casino-section {
-  background-color: #d0d5cf;
+.main-content.home-page
+.left-side-bar
+.single-block:first-child
+.block-title
+span,
+.main-content.home-page
+.right-side-bar
+.single-block:first-child
+.block-title
+span,
+.main-content.home-page
+.right-side-bar
+.single-block:nth-child(2)
+.block-title
+span {
+  color: var(--accent-bg);
+  font-weight: 500;
 }
 
-.side-bar .single-block:first-child .block-title,
-.side-bar .single-block:nth-child(2) .block-title {
-  background-color: var(--accent-bg);
-  color: var(--accent-txt);
+.single-sport .states .state .championship.selected .anchor {
+  color: var(--accent);
 }
 
-.side-bar .single-block:first-child .block-title img,
-.side-bar .single-block:nth-child(2) .block-title img {
-  -webkit-filter: grayscale(1) brightness(0) invert(0);
-  filter: grayscale(1) brightness(0) invert(0);
+.single-sport
+.states
+.state
+.championship
+.anchor
+.check
+input:checked
+~ .checkmark:after,
+.single-sport
+.states
+.state
+.championship
+.anchor
+.check
+input:checked
+~ .checkmark {
+  border-color: var(--accent) !important;
 }
 
-body.landing-page {
-  background-color: #ffffff !important;
-  background-image: none;
+.odds-table .second-header td.day {
+  color: var(--accent);
+}
+
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
+  border: 1px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+
+.tabs-holder .tabs-row .single-tab {
+  border-bottom: 2px solid transparent !important;
+}
+
+.tabs-holder .tabs-row .single-tab:hover,
+.tabs-holder .tabs-row .single-tab.active {
+  border-bottom: 2px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+
+.odds-table .second-header {
+  opacity: 1 !important;
+}
+
+.side-bar
+.single-block.betslip-holder
+.betslip
+.selections-wrapper
+.single-event
+.selected-bet
+.bet
+.quote {
+  color: var(--accent);
+}
+
+.header .top-header .top-header-content .primary-menu li a:after {
+  content: "";
+  width: 27px;
+  height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-position: center;
+  background-size: contain;
+  filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
+  -webkit-filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
+  position: absolute;
+  top: -135px;
+  background-repeat: no-repeat;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#indexSport a:after {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/football-ball.svg");
+}
+
+#indexLive a:after {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/stopwatch.svg");
+}
+
+#indexCasino a:after {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/roulette.svg");
+}
+
+#indexCasinoLive a:after {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/slot-machine.svg");
+}
+
+#indexPoker a:after {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/poker.svg");
+}
+
+#indexLivechat a:after {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/user-headset.svg");
+}
+
+.header .top-header .top-header-content .primary-menu ul li {
+  position: relative;
+  top: 15px;
+  margin-right: 10px;
+}
+
+.header .top-header .top-header-content .primary-menu ul li:hover:before,
+.header .top-header .top-header-content .primary-menu ul li.active:before {
+  bottom: 4px !important;
 }
 
 button,
@@ -3841,7 +3954,7 @@ div[data-source="upcoming"] .sport_odds_main {
   display: block;
   width: 200px;
   height: 53px;
-  background-image: url("http://static.pcluster.info/skins/icesport/img/logo/logo.svg");
+  background-image: url("https://nextra.pcluster.info/masterbet/images/logo2.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

@@ -1,4 +1,4 @@
-$skin: "biwinner";
+$skin: "masterbet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
@@ -35,6 +35,7 @@ html:root {
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "masterbet";
 }
 
 $secondary: #95cd3b;
@@ -116,9 +117,59 @@ body {
   color: inherit !important;
 }
 .odds-table .second-header {
-  opacity: 1!important;
+  opacity: 1 !important;
 }
 
-.side-bar .single-block.betslip-holder .betslip .selections-wrapper .single-event .selected-bet .bet .quote {
-  color:var(--accent)
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .selections-wrapper
+  .single-event
+  .selected-bet
+  .bet
+  .quote {
+  color: var(--accent);
+}
+
+.header .top-header .top-header-content .primary-menu li a:after {
+  content: "";
+  width: 27px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: contain;
+  filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
+  -webkit-filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
+
+  position: absolute;
+  top: -135px;
+  background-repeat: no-repeat;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#indexSport a:after {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/football-ball.svg");
+}
+#indexLive a:after {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/stopwatch.svg");
+}
+#indexCasino a:after {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/roulette.svg");
+}
+#indexCasinoLive a:after {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/slot-machine.svg");
+}
+#indexPoker a:after {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/poker.svg");
+}
+
+#indexLivechat a:after {
+  background-image: url("http://nextra.pcluster.info/biwinner/images/user-headset.svg");
+}
+.header .top-header .top-header-content .primary-menu ul li {
+  position: relative;
+  top: 15px;
+  margin-right: 10px;
 }

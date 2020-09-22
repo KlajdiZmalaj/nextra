@@ -1532,7 +1532,7 @@ td {
   border-bottom: 10px solid var(--accent) !important;
   width: 1px;
   position: absolute;
-  bottom: 4px;
+  bottom: -10px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -1758,66 +1758,110 @@ div.proceed:hover {
   padding-top: 0px;
 }
 
-.header .top-header .top-header-content .primary-menu li a:after {
-  content: "";
-  width: 27px;
-  height: 27px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-position: center;
-  background-size: contain;
-  filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
-  -webkit-filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
-  position: absolute;
-  top: -135px;
-  background-repeat: no-repeat;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
-
-#indexSport a:after {
-  background-image: url("http://nextra.pcluster.info/biwinner/images/football-ball.svg");
-}
-
-#indexLive a:after {
-  background-image: url("http://nextra.pcluster.info/biwinner/images/stopwatch.svg");
-}
-
-#indexCasino a:after {
-  background-image: url("http://nextra.pcluster.info/biwinner/images/roulette.svg");
-}
-
-#indexCasinoLive a:after {
-  background-image: url("http://nextra.pcluster.info/biwinner/images/slot-machine.svg");
-}
-
-#indexPoker a:after {
-  background-image: url("http://nextra.pcluster.info/biwinner/images/poker.svg");
-}
-
-#indexLivechat a:after {
-  background-image: url("http://nextra.pcluster.info/biwinner/images/user-headset.svg");
-}
-
-.header .top-header .top-header-content .primary-menu ul li {
-  position: relative;
-  top: 15px;
-  margin-right: 10px;
-}
-
 .dark-overlay {
   pointer-events: none;
 }
 
 .mCSB_scrollTools {
   right: -6px !important;
+}
+
+.sports-container .matches .single-match .bottom-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.sports-container #LVSPORT_1 .anchor {
+  background: rgba(26, 112, 80, 0.836) !important;
+  color: #fff !important;
+}
+
+.sports-container #LVSPORT_1 .matches .single-match .match-info,
+.sports-container #LVSPORT_1 .matches .single-match .match-odds {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(26, 112, 81, 0.635)), color-stop(60%, var(--bg1)), to(var(--bg1)));
+  background: linear-gradient(to right, rgba(26, 112, 81, 0.635) 0, var(--bg1) 60%, var(--bg1) 100%);
+}
+
+.sports-container #LVSPORT_5 .anchor {
+  background: rgba(140, 137, 58, 0.836) !important;
+  color: #fff !important;
+}
+
+.sports-container #LVSPORT_5 .matches .single-match .match-info,
+.sports-container #LVSPORT_5 .matches .single-match .match-odds {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(140, 137, 58, 0.635)), color-stop(60%, var(--bg1)), to(var(--bg1)));
+  background: linear-gradient(to right, rgba(140, 137, 58, 0.635) 0, var(--bg1) 60%, var(--bg1) 100%);
+}
+
+.sports-container #LVSPORT_2 .anchor {
+  background: rgba(252, 164, 1, 0.836) !important;
+  color: #222 !important;
+}
+
+.sports-container #LVSPORT_2 .matches .single-match .match-info,
+.sports-container #LVSPORT_2 .matches .single-match .match-odds {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(252, 166, 1, 0.635)), color-stop(60%, var(--bg1)), to(var(--bg1)));
+  background: linear-gradient(to right, rgba(252, 166, 1, 0.635) 0, var(--bg1) 60%, var(--bg1) 100%);
+}
+
+.sports-container #LVSPORT_23 .anchor {
+  background: rgba(230, 231, 149, 0.815) !important;
+  color: #222 !important;
+}
+
+.sports-container #LVSPORT_23 .matches .single-match .match-info,
+.sports-container #LVSPORT_23 .matches .single-match .match-odds {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(230, 231, 149, 0.384)), color-stop(60%, var(--bg1)), to(var(--bg1)));
+  background: linear-gradient(to right, rgba(230, 231, 149, 0.384) 0, var(--bg1) 60%, var(--bg1) 100%);
+}
+
+.sports-container #LVSPORT_4 .anchor {
+  background: rgba(80, 162, 198, 0.849) !important;
+  color: #fff !important;
+}
+
+.sports-container #LVSPORT_4 .matches .single-match .match-info,
+.sports-container #LVSPORT_4 .matches .single-match .match-odds {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(80, 162, 198, 0.635)), color-stop(60%, var(--bg1)), to(var(--bg1)));
+  background: linear-gradient(to right, rgba(80, 162, 198, 0.635) 0, var(--bg1) 60%, var(--bg1) 100%);
+}
+
+.sports-container #LVSPORT_6 .matches .single-match .match-info,
+.sports-container #LVSPORT_6 .matches .single-match .match-odds {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(198, 143, 80, 0.635)), color-stop(60%, var(--bg1)), to(var(--bg1)));
+  background: linear-gradient(to right, rgba(198, 143, 80, 0.635) 0, var(--bg1) 60%, var(--bg1) 100%);
+}
+
+.sports-container #LVSPORT_3 .matches .single-match .match-info,
+.sports-container #LVSPORT_3 .matches .single-match .match-odds {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(135, 80, 198, 0.635)), color-stop(60%, var(--bg1)), to(var(--bg1)));
+  background: linear-gradient(to right, rgba(135, 80, 198, 0.635) 0, var(--bg1) 60%, var(--bg1) 100%);
+}
+
+.sports-container .sports .single-match .team-names {
+  padding: 4px 6px !important;
+}
+
+body #oddsMenu tr {
+  padding: 2px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body #oddsMenu tr .odd-type {
+  background: var(--teableSubHeadersBg);
+  color: var(--teableSubHeadersCol);
+  width: calc(100% - 3px) !important;
+}
+
+.lc-bottom-panel,
+#lc-toggle-main-wrap:after {
+  background-color: var(--mainBg) !important;
+  color: var(--accent) !important;
 }
 /*# sourceMappingURL=extra.css.map */
