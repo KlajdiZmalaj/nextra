@@ -1816,4 +1816,8 @@ div.proceed:hover {
 .dark-overlay {
   pointer-events: none;
 }
+
+.mCSB_scrollTools {
+  right: -6px !important;
+}
 /*# sourceMappingURL=extra.css.map */
