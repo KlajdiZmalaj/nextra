@@ -25,11 +25,12 @@ html:root {
   --teableSubHeadersBg: #191919;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #535353;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
-  --casinoGradient2: #636363;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --casinoGradient2: #63636300;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "giokibet";
 }
 
 $secondary: #ea2125;
@@ -45,14 +46,18 @@ $red: #e1042e;
 $sb-2: #323232;
 
 body {
-    background-size: 2038px !important;
+  background-size: 2038px !important;
 }
 
 footer .footer-logo a:before {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 footer {
-    background: var(--tableBorders);
-    margin-top: 0;
+  background: var(--tableBorders);
+  margin-top: 0;
+}
+body.landing-page {
+  background-color: #31343d !important;
+  background-image: none;
 }

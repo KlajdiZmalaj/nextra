@@ -15,11 +15,12 @@ html:root {
   --teableSubHeadersBg: #3f5463;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #161d2f;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
   --casinoGradient2: #cc0318;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "kingbet1";
 }
 
 $skin: "kingbet1";
@@ -57,8 +58,12 @@ body footer .footer-logo a:before {
 }
 
 .logged-page .registration-holder .form-holder form .note {
-     color: var(--col1)!important;
+  color: var(--col1) !important;
 }
 .logged-page .registration-holder .form-holder form .buttons {
-  background:transparent;
+  background: transparent;
+}
+body.landing-page {
+  background-color: #31343d !important;
+  background-image: none;
 }

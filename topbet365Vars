@@ -9,33 +9,34 @@ $bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
---accent: #C8151E;
-    --accent-bg: #C8151E;
-    --accent-txt: #ffffff;
-    --primary-bg: #444444;
-    --primary-txt: #fff;
-    --secondary-bg: #161616;
-    --secondary-txt: #fff;
-    --mainBg: #1e1e1e;
-    --mainBgCol: #fff;
-    --bg1: #3e3e3e;
-    --col1: #fff;
-    --teableHeadersBg: linear-gradient(to bottom , #373838, #2D2E2D);
-    --teableHeadersCol: #ffffff;
-    --teableSubHeadersBg: #666666;
-    --teableSubHeadersCol: #cccccc;
-    --tableBorders: #666666;
-    --casinoGradient1: #000000;
-    --casinoGradient1-txt: #fff;
-    --casinoGradient2: #636363;
-    --casinoGradient2-txt: #000;
-    --backDrops: #000000cf;
+  --accent: #c8151e;
+  --accent-bg: #c8151e;
+  --accent-txt: #ffffff;
+  --primary-bg: #444444;
+  --primary-txt: #fff;
+  --secondary-bg: #161616;
+  --secondary-txt: #fff;
+  --mainBg: #1e1e1e;
+  --mainBgCol: #fff;
+  --bg1: #3e3e3e;
+  --col1: #fff;
+  --teableHeadersBg: linear-gradient(to bottom, #373838, #2d2e2d);
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #666666;
+  --teableSubHeadersCol: #cccccc;
+  --tableBorders: #666666;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --casinoGradient2: #636363;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+  --skin: "topbet365";
 }
 
-$secondary: #C8151E;
+$secondary: #c8151e;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #C8151E;
+$secondaryDark: #c8151e;
 $secondaryDarkCol: #fff;
 $primary: #323232;
 $white: #ebebeb;
@@ -43,3 +44,7 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #444444;
+body.landing-page {
+  background-color: #0e0e0e !important;
+  background-image: none;
+}

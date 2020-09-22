@@ -30,6 +30,7 @@ html:root {
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "gigabet";
 }
 
 $secondary: #ea2125;
@@ -43,3 +44,7 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #323232;
+body.landing-page {
+    background-color: #1e1e1e !important;
+    background-image: none;
+}

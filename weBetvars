@@ -25,11 +25,12 @@ html:root {
   --teableSubHeadersBg: #636363;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #535353;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "webet";
 }
 
 $secondary: #f15a24;
@@ -45,4 +46,8 @@ $red: #e1042e;
 $sb-2: #323232;
 body {
   background-size: 2038px !important;
+}
+body.landing-page {
+  background-color: #000 !important;
+  background-image: none;
 }

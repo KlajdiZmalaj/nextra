@@ -25,11 +25,12 @@ html:root {
   --teableSubHeadersBg: #081732;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #47598a;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "1x2sportbet";
 }
 
 $secondary: #ffeb3b;
@@ -47,5 +48,9 @@ body {
   background-size: 2038px !important;
 }
 #favouriteTournaments li:before {
-    filter: brightness(0);
+  filter: brightness(0);
+}
+body.landing-page {
+  background-color: #0e0c0d !important;
+  background-image: none;
 }

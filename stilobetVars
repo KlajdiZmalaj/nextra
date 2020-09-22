@@ -20,6 +20,7 @@ html:root {
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "stilobet365";
 }
 
 $skin: "stilobet365";
@@ -97,4 +98,8 @@ body {
 }
 .header .top-header {
   border-bottom: 4px solid #42d15d !important;
+}
+body.landing-page {
+  background-color: #000 !important;
+  background-image: none;
 }

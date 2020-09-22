@@ -15,11 +15,12 @@ html:root {
   --teableSubHeadersBg: #005293;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #a3a3a3;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "bsport10";
 }
 
 $skin: "bsport10";
@@ -52,7 +53,11 @@ $sb-2: #0a96f0;
   filter: brightness(0.1);
 }
 
-
 .side-bar .single-block .block-content form input[type="submit"] {
-    background-color: var(--accent-txt);
+  background-color: var(--accent-txt);
+}
+
+body.landing-page {
+  background-color: #181e2c !important;
+  background-image: none;
 }

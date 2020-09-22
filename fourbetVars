@@ -20,6 +20,7 @@ html:root {
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "fourbet";
 }
 
 $skin: "fourbet";
@@ -58,14 +59,14 @@ html body {
 .header .top-header {
   background: var(--accent-bg) !important;
   color: var(--accent-txt) !important;
-  border-bottom: 4px solid #var(--casinoGradient2)!important;
+  border-bottom: 4px solid #var(--casinoGradient2) !important;
 }
 
 .header .top-bar {
   background: #0e1428 !important;
-  color: var(--accent-txt)!important;
+  color: var(--accent-txt) !important;
 }
 
 footer {
-    background: var(--accent-bg)!important;
+  background: var(--accent-bg) !important;
 }

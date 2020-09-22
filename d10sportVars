@@ -25,11 +25,12 @@ html:root {
   --teableSubHeadersBg: #081732;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #47598a;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "d10sport";
 }
 
 $secondary: #ea2125;
@@ -43,3 +44,8 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #172a5d;
+
+body.landing-page {
+  background-color: #1e1e1e !important;
+  background-image: none;
+}
