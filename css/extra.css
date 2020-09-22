@@ -1864,4 +1864,29 @@ body #oddsMenu tr .odd-type {
   background-color: var(--mainBg) !important;
   color: var(--accent) !important;
 }
+
+.live-center-view-container
+.lc-progress-container
+.bar-container
+.progress-bar {
+  background: var(--accent) !important;
+}
+
+.right-side-bar .banner-block a {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  pointer-events: none;
+}
+
+.right-side-bar .banner-block a img {
+  width: 100%;
+}
 /*# sourceMappingURL=extra.css.map */

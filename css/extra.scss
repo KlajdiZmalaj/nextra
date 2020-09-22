@@ -1746,3 +1746,19 @@ body #oddsMenu tr {
   background-color: var(--mainBg) !important;
   color: var(--accent) !important;
 }
+.live-center-view-container
+  .lc-progress-container
+  .bar-container
+  .progress-bar {
+  background: var(--accent) !important;
+}
+.right-side-bar .banner-block a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  img {
+    width: 100%;
+  }
+}
