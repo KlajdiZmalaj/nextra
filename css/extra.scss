@@ -1762,3 +1762,72 @@ body #oddsMenu tr {
     width: 100%;
   }
 }
+.footer-copyright {
+  color: transparent !important;
+  &::before {
+    content: var(--skin) "© 2020 All rights reserved.";
+    color: var(--mainBgCol) !important;
+    position: absolute;
+    text-transform: uppercase;
+  }
+}
+
+@font-face {
+  font-family: "ikonaSvg";
+  src: url("https://nextra.pcluster.info/masterbet/fonts/icomoon.eot?rsl9kg");
+  src: url("https://nextra.pcluster.info/masterbet/fonts/icomoon.eot?rsl9kg#iefix")
+      format("embedded-opentype"),
+    url("https://nextra.pcluster.info/masterbet/fonts/icomoon.ttf?rsl9kg")
+      format("truetype"),
+    url("https://nextra.pcluster.info/masterbet/fonts/icomoon.woff?rsl9kg")
+      format("woff"),
+    url("https://nextra.pcluster.info/masterbet/fonts/icomoon.svg?rsl9kg#icomoon")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "ikonaSvg" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-nav1:before {
+  content: "\e904";
+}
+.icon-nav2:before {
+  content: "\e905";
+}
+.icon-nav3:before {
+  content: "\e906";
+}
+.icon-nav4:before {
+  content: "\e907";
+}
+.icon-nav5:before {
+  content: "\e908";
+}
+.icon-Icon4:before {
+  content: "\e900";
+}
+.icon-Icon3:before {
+  content: "\e901";
+}
+.icon-Icon2:before {
+  content: "\e902";
+}
+.icon-Icon1:before {
+  content: "\e903";
+}
