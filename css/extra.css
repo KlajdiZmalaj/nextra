@@ -2046,4 +2046,8 @@ body #oddsMenu tr .odd-type {
 .header .top-header .top-header-content .primary-menu ul li.active:before {
   bottom: 5px !important;
 }
+
+#indexLivechat {
+  display: none !important;
+}
 /*# sourceMappingURL=extra.css.map */
