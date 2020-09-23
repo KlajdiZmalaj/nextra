@@ -1306,28 +1306,28 @@ div.landing-page
 .banner-content
 .bottom-text-holder
 .quarter:first-child:before {
-  background-image: url(//nextra.pcluster.info/icesport/images/landing-images/fIcon.svg);
+  content: "\e903";
 }
 
 div.landing-page
 .banner-content
 .bottom-text-holder
 .quarter:nth-child(2):before {
-  background-image: url(//nextra.pcluster.info/icesport/images/landing-images/Icon2.svg);
+  content: "\e902";
 }
 
 div.landing-page
 .banner-content
 .bottom-text-holder
 .quarter:nth-child(3):before {
-  background-image: url(//nextra.pcluster.info/icesport/images/landing-images/Icon3.svg);
+  content: "\e901";
 }
 
 div.landing-page
 .banner-content
 .bottom-text-holder
 .quarter:last-child:before {
-  background-image: url(//nextra.pcluster.info/icesport/images/landing-images/Icon4.svg);
+  content: "\e900";
 }
 
 .odds-table .second-header td {
@@ -1339,10 +1339,30 @@ div.landing-page
 }
 
 .cell.quarter:before {
-  filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
-  -webkit-filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
+  -webkit-filter: unset;
+  filter: unset;
+  top: -10px;
+  font-family: "ikonaSvg" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 49px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
-  top: -160px;
+  left: 2px;
 }
 
 #reservedCoupon {
@@ -1960,5 +1980,70 @@ body #oddsMenu tr .odd-type {
 
 .icon-Icon1:before {
   content: "\e903";
+}
+
+.header .top-header .top-header-content .primary-menu li a:after {
+  content: "";
+  width: 27px;
+  height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-filter: unset;
+  filter: unset;
+  top: 11px;
+  font-family: "ikonaSvg" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 27px;
+  position: absolute;
+  color: var(--accent);
+}
+
+#indexSport a:after {
+  content: "\e904";
+}
+
+#indexLive a:after {
+  content: "\e905";
+}
+
+#indexCasino a:after {
+  content: "\e906";
+}
+
+#indexCasinoLive a:after {
+  content: "\e907";
+}
+
+#indexPoker a:after {
+  content: "\e908";
+}
+
+#indexLivechat a:after {
+  content: "\e909";
+}
+
+.header .top-header .top-header-content .primary-menu ul li {
+  position: relative;
+  top: 15px;
+  margin-right: 10px;
+}
+
+.header .top-header .top-header-content .primary-menu ul li:hover:before,
+.header .top-header .top-header-content .primary-menu ul li.active:before {
+  bottom: 5px !important;
 }
 /*# sourceMappingURL=extra.css.map */

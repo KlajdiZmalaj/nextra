@@ -1,50 +1,136 @@
-$skin: "betop";
+$skin: "masterbet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "data:image/png;base64,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";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/red.jpg";
+$logoUrl: "https://nextra.pcluster.info/masterbet/images/logo2.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #ea2125;
-  --accent-bg: #ea2125;
+  --accent: #95cd3b;
+  --accent-bg: #95cd3b;
   --accent-txt: #000;
-  --primary-bg: #1c1c1c;
+  --primary-bg: #000;
   --primary-txt: #fff;
-  --secondary-bg: #2e2e2e;
+  --secondary-bg: #212931;
   --secondary-txt: #fff;
-  --mainBg: #2a2a2a;
+  --mainBg: #212931;
   --mainBgCol: #fff;
-  --bg1: #323232;
+  --bg1: #29333b;
   --col1: #fff;
-  --teableHeadersBg: #000;
+  --teableHeadersBg: #384351;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #191919;
+  --teableSubHeadersBg: #14191d;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #535353;
-  --casinoGradient1: #00000000;
-  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --tableBorders: #445461;
+  --casinoGradient1: linear-gradient(
+    to right,
+    #95cd3b00 3%,
+    #95cd3b 60%,
+    #95cd3b00 99%
+  );
+  --casinoGradient1-txt: #000;
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "betop";
+  --skin: "masterbet";
 }
 
-$secondary: #ea2125;
+$secondary: #95cd3b;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #ea2125;
+$secondaryDark: #95cd3b;
 $secondaryDarkCol: #fff;
-$primary: #323232;
+$primary: #607d8b;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #323232;
+$sb-2: #525b61;
 
 body {
-  background-size: 2083px !important;
+  background-size: 2038px !important;
+}
+
+.main-content.home-page
+  .left-side-bar
+  .single-block:first-child
+  .block-title
+  span,
+.main-content.home-page
+  .right-side-bar
+  .single-block:first-child
+  .block-title
+  span,
+.main-content.home-page
+  .right-side-bar
+  .single-block:nth-child(2)
+  .block-title
+  span {
+  color: var(--accent-bg);
+  font-weight: 500;
+}
+
+.single-sport .states .state .championship.selected .anchor {
+  color: var(--accent);
+}
+.single-sport
+  .states
+  .state
+  .championship
+  .anchor
+  .check
+  input:checked
+  ~ .checkmark:after,
+.single-sport
+  .states
+  .state
+  .championship
+  .anchor
+  .check
+  input:checked
+  ~ .checkmark {
+  border-color: var(--accent) !important;
+}
+
+.odds-table .second-header td.day {
+  color: var(--accent);
+}
+
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
+  border: 1px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+
+.tabs-holder .tabs-row .single-tab {
+  border-bottom: 2px solid transparent !important;
+}
+
+.tabs-holder .tabs-row .single-tab:hover,
+.tabs-holder .tabs-row .single-tab.active {
+  border-bottom: 2px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+.odds-table .second-header {
+  opacity: 1 !important;
+}
+
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .selections-wrapper
+  .single-event
+  .selected-bet
+  .bet
+  .quote {
+  color: var(--accent);
+}
+
+.header .top-header .top-header-content .primary-menu li a:after {
+  display: none !important;
 }

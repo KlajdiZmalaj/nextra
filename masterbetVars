@@ -131,45 +131,4 @@ body {
   color: var(--accent);
 }
 
-.header .top-header .top-header-content .primary-menu li a:after {
-  content: "";
-  width: 27px;
-  height: 27px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-position: center;
-  background-size: contain;
-  filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
-  -webkit-filter: brightness(0) drop-shadow(0px 150px 0px var(--accent));
 
-  position: absolute;
-  top: -135px;
-  background-repeat: no-repeat;
-  left: 50%;
-  transform: translateX(-50%);
-}
-#indexSport a:after {
-  background-image: url("http://nextra.pcluster.info/biwinner/images/football-ball.svg");
-}
-#indexLive a:after {
-  background-image: url("http://nextra.pcluster.info/biwinner/images/stopwatch.svg");
-}
-#indexCasino a:after {
-  background-image: url("http://nextra.pcluster.info/biwinner/images/roulette.svg");
-}
-#indexCasinoLive a:after {
-  background-image: url("http://nextra.pcluster.info/biwinner/images/slot-machine.svg");
-}
-#indexPoker a:after {
-  background-image: url("http://nextra.pcluster.info/biwinner/images/poker.svg");
-}
-
-#indexLivechat a:after {
-  background-image: url("http://nextra.pcluster.info/biwinner/images/user-headset.svg");
-}
-.header .top-header .top-header-content .primary-menu ul li {
-  position: relative;
-  top: 15px;
-  margin-right: 10px;
-}
