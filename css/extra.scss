@@ -2050,6 +2050,24 @@ body
   position: sticky;
   top: 0;
   z-index: 1;
+  display: flex !important;
+  background: var(--mainBg);
+  margin: 12px;
+  margin-top: 2px;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  &[style="display:none"] {
+    &:before {
+      content: "\f071";
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: 20px;
+    }
+    &:after {
+      content: "Widget non trovato";
+      font-size: 15px;
+    }
+  }
   @media (max-width: 1500px) {
     max-height: 680px;
     overflow: auto;

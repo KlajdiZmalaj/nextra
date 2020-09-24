@@ -2256,6 +2256,33 @@ body
   position: sticky;
   top: 0;
   z-index: 1;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  background: var(--mainBg);
+  margin: 12px;
+  margin-top: 2px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.event-viewer-wrapper[style="display:none"]:before {
+  content: "\f071";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 20px;
+}
+
+.event-viewer-wrapper[style="display:none"]:after {
+  content: "Widget non trovato";
+  font-size: 15px;
 }
 
 @media (max-width: 1500px) {
