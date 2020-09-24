@@ -43,3 +43,8 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #323232;
+
+
+.sports-container #LVSPORT_5 .matches .single-match .match-info, .sports-container #LVSPORT_5 .matches .single-match .match-odds, .sports-container #LVSPORT_5 .matches .single-match .match-info, .sports-container #LVSPORT_5 .matches .single-match .match-odds ,.sports-container #LVSPORT_23 .matches .single-match .match-info, .sports-container #LVSPORT_23 .matches .single-match .match-odds, .sports-container #LVSPORT_23 .matches .single-match .match-info, .sports-container #LVSPORT_23 .matches .single-match .match-odds {
+  color :#fff !important
+}

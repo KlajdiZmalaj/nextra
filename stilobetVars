@@ -103,3 +103,123 @@ body.landing-page {
   background-color: #000 !important;
   background-image: none;
 }
+
+#LVSPORT_1 {
+  .anchor {
+    background: #1b7700 !important;
+    color: #fff !important;
+  }
+  .single-match {
+    border-left: 3px solid #45dc2d;
+    .match-info,
+    .match-odds {
+      background: linear-gradient(to right, #1b7700 -37%, #6ea683 110%);
+      color: #fff;
+    }
+    &.selected {
+      border-right: 3px solid #45dc2d;
+      border-left: 1px solid var(--tableBorders);
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to left, #7d9e73 11%, #ffffff 160%);
+        color: #000;
+      }
+    }
+  }
+}
+
+#LVSPORT_5 {
+  .anchor {
+    background: #bf9a17 !important;
+    color: #000 !important;
+  }
+  .single-match {
+    border-left: 3px solid #deb826;
+    .match-info,
+    .match-odds {
+      background: linear-gradient(to right, #bf9a17 -21%, #f0f0f0 120%);
+      color: #000;
+    }
+    &.selected {
+      border-right: 3px solid #deb826;
+      border-left: 1px solid var(--tableBorders);
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to left, #f7c924 11%, #f0f0f0 160%);
+        color: #222;
+      }
+    }
+  }
+}
+
+#LVSPORT_2 {
+  .anchor {
+    background: #91311d !important;
+    color: #fff !important;
+  }
+  .single-match {
+    border-left: 3px solid #c74227;
+    .match-info,
+    .match-odds {
+      background: linear-gradient(to right, #91311d -21%, #db7965 120%);
+      color: #fff;
+    }
+    &.selected {
+      border-right: 3px solid #e44f31;
+      border-left: 1px solid var(--tableBorders);
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to left, #e74d2e 11%, #fff 160%);
+        color: #222;
+      }
+    }
+  }
+}
+
+#LVSPORT_23 {
+  .anchor {
+    background: #e6a260 !important;
+    color: #222 !important;
+  }
+  .single-match {
+    border-left: 3px solid #f1c394;
+    .match-info,
+    .match-odds {
+      background: linear-gradient(to right, #e6a260 -21%, #fff 120%);
+      color: #222;
+    }
+    &.selected {
+      border-right: 3px solid #ffeddb;
+      border-left: 1px solid var(--tableBorders);
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to left, #ffbb76 11%, #fff 160%);
+        color: #222;
+      }
+    }
+  }
+}
+
+#LVSPORT_4 {
+  .anchor {
+    background: #006290 !important;
+    color: #fff !important;
+  }
+  .single-match {
+    border-left: 3px solid #1d8bbe;
+    .match-info,
+    .match-odds {
+      background: linear-gradient(to right, #006290 -21%, #40b9f2 120%);
+      color: #fff;
+    }
+    &.selected {
+      border-right: 3px solid #1b8fc5;
+      border-left: 1px solid var(--tableBorders);
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to left, #1291cc 11%, #fff 160%);
+        color: #222;
+      }
+    }
+  }
+}

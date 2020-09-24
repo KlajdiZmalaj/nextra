@@ -1,51 +1,184 @@
-$skin: "kobet24";
+html:root {
+  --accent: #005293;
+  --accent-bg: #005293;
+  --accent-txt: #ffcc00;
+  --primary-bg: #005293;
+  --primary-txt: #ffffff;
+  --secondary-bg: #ffffff;
+  --secondary-txt: #000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #e7e7e7;
+  --col1: #000;
+  --teableHeadersBg: #ffcc00;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #005293;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #a3a3a3;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --casinoGradient2: #f4c100;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+  --skin: "bsport10";
+}
+
+$skin: "bsport10";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDEuNzYgNzAuMjMiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZjhhYjBlO30uY2xzLTJ7ZmlsbDojZmZmO308L3N0eWxlPjwvZGVmcz48dGl0bGU+bG9nbzwvdGl0bGU+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xNC4yOS42Mkg0OUw0Mi42MSwzMC45MWwuNDEuNzNDNjQuNjcsMTQuMjgsNzYuMzQsMy41MSw3Ni44Mi41NGgzMy41NUw2Ny44MiwzOC4xNyw4NS4yNCw2NC42Myw4Ni4zOSw2Nmw0Ljg3LDQuMjVINTUuMzdBNC4yOCw0LjI4LDAsMCwwLDU1LjE2LDY2bC0xNS0yMy41NUwzNi42MSw1OWEyMS44MSwyMS44MSwwLDAsMCwuNiwxMS4yNUgwbC4xMi0uMTNBMjMuMTQsMjMuMTQsMCwwLDAsNi4wNiw1OC43NUwxNi42Nyw4LjJTMTgsLjYyLDE0LjI5LjYyWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE4OC4xLDBhMTAuNjUsMTAuNjUsMCwwLDEsMTAuNDIsMTIuODhsLTguODQsNDEuNDRhMjAsMjAsMCwwLDEtMTkuNTQsMTUuODNsLTU2LjIzLjA2YTEwLDEwLDAsMCwxLTkuNzktMTIuMDlsOS00Mi4zQTIwLDIwLDAsMCwxLDEzMi43MywwWk0xNDMuOTQsMTcuNTgsMTM3LjIsNTAuMjFhNSw1LDAsMCwwLDQuODksNkgxNTRhNC44Myw0LjgzLDAsMCwwLDQuNDktMi44NWwwLDBoMGEyMiwyMiwwLDAsMCwuNjktMi41M0wxNjYsMTguNjdxMS41Ni01LjYtNC4yNS01LjA4SDE0OC44NEE1LDUsMCwwLDAsMTQzLjk0LDE3LjU4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQ0MS4xNywxOC41NWMuMjMtMi4yOS0uMTktNC0xLjI1LTUuMjFhNS4yMSw1LjIxLDAsMCwwLTQtMS41Nkg0MDQuMTZMNDAxLjYyLDI0aDI3LjY3bC0uODEsMy41M2MtLjIxLjgyLS42NiwxLjU3LTIuNDksMS41N0g0MDUuNDVhNS41OSw1LjU5LDAsMCwwLTQuMTEsMS43LDkuMjQsOS4yNCwwLDAsMC0yLjI0LDQuOGwtMy4zLDE1LjgyLDAsLjE2Yy0uMjMsMi4yOS4xOSw0LDEuMjUsNS4yMWE1LjIzLDUuMjMsMCwwLDAsNC4wNSwxLjU2SDQzMi45TDQzNS41MSw0Nkg0MDkuNzVjLTEuMSwwLTEuNDMtLjI3LTEuNTEtLjM1YTEuMzIsMS4zMiwwLDAsMS0uMTUtLjgybC44My00LDIyLjYzLjA5YzIuMzIsMCw1LjMtMS4xNCw2LjM0LTYuNTlsMy4yNi0xNS42M1oiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik00NzEuMzEsMTEuODdsLTQuNTksMjIuMjVINDUzLjM3bDQuNS0yMi4yNUg0NDYuNzZsLTYuMSwyOS42MWE0LjI3LDQuMjcsMCwwLDAsLjkxLDMuNTlBNC4zNSw0LjM1LDAsMCwwLDQ0NSw0Ni43aDE5LjEzbC0yLjM4LDExLjczaDExLjUxbDkuNi00Ni41NloiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yNTIuMDksNDEuNjlsLTE3LjI4LS4xOC0xLjM1LDYuNjYsMTcuNDgsMHE0LjE3LS4xNSw1LTMuMDlDMjU2LjUsNDMuMTUsMjU1LjIyLDQyLDI1Mi4wOSw0MS42OVoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yNTYuMDUsMjIuNTRIMjM4LjUzbC0xLjM1LDYuNjYsMTcuNDgsMGMyLjc5LS4xLDQuNDYtMS4xMiw1LTMuMDhTMjU5LDIzLDI1Ni4wNSwyMi41NFoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik00OTEuMTEsMEgyMDUuODZzOC4xNywxLjUsNC41MywxOS4yNWwtOC4zMiwzOC44N2ExMCwxMCwwLDAsMCw5Ljc5LDEyLjA5bDI2MS4yOS0uMDZhMjAsMjAsMCwwLDAsMTkuNTMtMTUuODNsOC44NS00MS40NEExMC42NiwxMC42NiwwLDAsMCw0OTEuMTEsMFpNMjc0LjI1LDIyLjk0cS0xLDcuNS01Ljg3LDExLjQ4LDUuMzcsMy40LDMsMTIuNzhRMjY4LDYwLjU1LDI1MC4xLDYwLjM3bC0zNC41NCwwTDIyNS43OCw5LjhoMzUuMDhRMjc1LjMyLDExLDI3NC4yNSwyMi45NFptNzQuOTIsMzcuNDdoLTE0bDYuNS0zMS44OWgxNFptMjEuMzUtMzguMjYtNzEuMTQsMGMtMi41OS0uMDktNC4yMi41Ni00Ljg3LDJsLTEuNjksNC4zNCwxNy4yOCwwLTIuNTgsMTIuMTYtMTctLjE0LS4yNywyLjg2cS0uMjIsMy42MiwyLjIsMy45MWwzMi41NSwwLTIuNjgsMTMuMTRIMjg2LjY2cS0xNS4yNi0uOS0xMC4zMy0yNS4zMlQyOTgsOS44NEgzNzNaTTQ5Ny42MSwxMmwtOC44NCw0MS40NGExNi4wOCwxNi4wOCwwLDAsMS0xNS42MiwxMi42N2wtOTQuMzcsMEwzOTEuNzUsNGg5OS4zNmE2LjY1LDYuNjUsMCwwLDEsNi41LDhaIi8+PC9nPjwvZz48L3N2Zz4=";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
+$logoUrl: "http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/blue.jpg";
 $bodyCol: #000;
-
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 0;
 
-html:root {
-  --accent: #ffae00;
-  --accent-bg: #ffae00;
-  --accent-txt: #000;
-  --primary-bg: #ffffff;
-  --primary-txt: #707070;
-  --secondary-bg: #2b2a29;
-  --secondary-txt: #fff;
-  --mainBg: #232220;
-  --mainBgCol: #fff;
-  --bg1: #292826;
-  --col1: #fff;
-  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #ff8e01);
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #3c3b3b;
-  --teableSubHeadersCol: #ffffff;
-  --tableBorders: #3c3b3b;
-  --casinoGradient1: #00000000;
-  --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #ffae00;
-  --casinoGradient2-txt: #000;
-  --backDrops: #000000cf;
-  --skin: "kobet24";
-}
-
-$secondary: #f4c100;
+$secondary: #005293;
 $secondaryCol: #fff;
+
+$secondaryDark: #0a497e;
+$secondaryDarkCol: #fff;
 $black: #000000;
-$secondaryDark: #d1a813;
-$secondaryDarkCol: #222;
-$primary: #848484;
+$primary: #c2c2c2;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #444444;
+$sb-2: #0a96f0;
+
+//icesport styles
+
+//black filter li logos
+#favouriteTournaments li:before {
+  filter: brightness(0.1);
+}
+
+.side-bar .single-block .block-content form input[type="submit"] {
+  background-color: var(--accent-txt);
+}
+
 body.landing-page {
-  background-color: #121212 !important;
+  background-color: #181e2c !important;
   background-image: none;
+}
+html {
+  #LVSPORT_1 {
+    .anchor {
+      background: #1b7700 !important;
+      color: #fff !important;
+    }
+    .single-match {
+      border-left: 3px solid #45dc2d;
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to right, #1b7700 -37%, #6ea683 110%);
+        color: #fff;
+      }
+      &.selected {
+        border-right: 3px solid #45dc2d;
+        border-left: 1px solid var(--tableBorders);
+        .match-info,
+        .match-odds {
+          background: linear-gradient(to left, #7d9e73 11%, #ffffff 160%);
+          color: #000;
+        }
+      }
+    }
+  }
+
+  #LVSPORT_5 {
+    .anchor {
+      background: #bf9a17 !important;
+      color: #000 !important;
+    }
+    .single-match {
+      border-left: 3px solid #deb826;
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to right, #bf9a17 -21%, #f0f0f0 120%);
+        color: #000;
+      }
+      &.selected {
+        border-right: 3px solid #deb826;
+        border-left: 1px solid var(--tableBorders);
+        .match-info,
+        .match-odds {
+          background: linear-gradient(to left, #f7c924 11%, #f0f0f0 160%);
+          color: #222;
+        }
+      }
+    }
+  }
+
+  #LVSPORT_2 {
+    .anchor {
+      background: #91311d !important;
+      color: #fff !important;
+    }
+    .single-match {
+      border-left: 3px solid #c74227;
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to right, #91311d -21%, #db7965 120%);
+        color: #fff;
+      }
+      &.selected {
+        border-right: 3px solid #e44f31;
+        border-left: 1px solid var(--tableBorders);
+        .match-info,
+        .match-odds {
+          background: linear-gradient(to left, #e74d2e 11%, #fff 160%);
+          color: #222;
+        }
+      }
+    }
+  }
+
+  #LVSPORT_23 {
+    .anchor {
+      background: #e6a260 !important;
+      color: #222 !important;
+    }
+    .single-match {
+      border-left: 3px solid #f1c394;
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to right, #e6a260 -21%, #fff 120%);
+        color: #222;
+      }
+      &.selected {
+        border-right: 3px solid #ffeddb;
+        border-left: 1px solid var(--tableBorders);
+        .match-info,
+        .match-odds {
+          background: linear-gradient(to left, #ffbb76 11%, #fff 160%);
+          color: #222;
+        }
+      }
+    }
+  }
+
+  #LVSPORT_4 {
+    .anchor {
+      background: #006290 !important;
+      color: #fff !important;
+    }
+    .single-match {
+      border-left: 3px solid #1d8bbe;
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to right, #006290 -21%, #40b9f2 120%);
+        color: #fff;
+      }
+      &.selected {
+        border-right: 3px solid #1b8fc5;
+        border-left: 1px solid var(--tableBorders);
+        .match-info,
+        .match-odds {
+          background: linear-gradient(to left, #1291cc 11%, #fff 160%);
+          color: #222;
+        }
+      }
+    }
+  }
 }
