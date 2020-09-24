@@ -1659,72 +1659,125 @@ div.landing-page
 }
 
 .sports-container #LVSPORT_1 .anchor {
-  background: rgba(26, 112, 80, 0.836) !important;
+  background: #1b7700 !important;
   color: #fff !important;
 }
-.sports-container #LVSPORT_1 .matches .single-match .match-info,
-.sports-container #LVSPORT_1 .matches .single-match .match-odds {
-  background: linear-gradient(
-    to right,
-    rgba(26, 112, 81, 0.635) 0,
-    var(--bg1) 60%,
-    var(--bg1) 100%
-  );
+.sports-container #LVSPORT_1 .matches .single-match,
+.sports-container #LVSPORT_1 .matches .single-match {
+  border-left: 3px solid #45dc2d;
+
+  .match-info,
+  .match-odds {
+    background: linear-gradient(to right, #1b7700 -37%, #00000000 110%);
+    color: #fff;
+  }
+  &.selected {
+    border-right: 3px solid #fff;
+    border-left: 1px solid var(--tableBorders);
+    .match-info,
+    .match-odds {
+      background: linear-gradient(to left, #7d9e73 11%, #00000000 160%);
+      color: #fff;
+    }
+  }
 }
+
 .sports-container #LVSPORT_5 .anchor {
-  background: rgba(140, 137, 58, 0.836) !important;
-  color: #fff !important;
+  background: #bf9a17 !important;
+  color: #000 !important;
 }
-.sports-container #LVSPORT_5 .matches .single-match .match-info,
-.sports-container #LVSPORT_5 .matches .single-match .match-odds {
-  background: linear-gradient(
-    to right,
-    rgba(140, 137, 58, 0.635) 0,
-    var(--bg1) 60%,
-    var(--bg1) 100%
-  );
+.sports-container #LVSPORT_5 .matches .single-match,
+.sports-container #LVSPORT_5 .matches .single-match {
+  border-left: 3px solid #deb826;
+
+  .match-info,
+  .match-odds {
+    background: linear-gradient(to right, #bf9a17 -21%, #00000000 120%);
+    color: #000;
+  }
+  &.selected {
+    border-right: 3px solid #deb826;
+    border-left: 1px solid var(--tableBorders);
+    .match-info,
+    .match-odds {
+      background: linear-gradient(to left, #f7c924 11%, #00000000 160%);
+      color: #222;
+    }
+  }
 }
 
 .sports-container #LVSPORT_2 .anchor {
-  background: rgba(252, 164, 1, 0.836) !important;
-  color: #222 !important;
-}
-.sports-container #LVSPORT_2 .matches .single-match .match-info,
-.sports-container #LVSPORT_2 .matches .single-match .match-odds {
-  background: linear-gradient(
-    to right,
-    rgba(252, 166, 1, 0.635) 0,
-    var(--bg1) 60%,
-    var(--bg1) 100%
-  );
+  background: #91311d !important;
+  color: #fff !important;
 }
 
+.sports-container #LVSPORT_2 .matches .single-match,
+.sports-container #LVSPORT_2 .matches .single-match {
+  border-left: 3px solid #c74227;
+
+  .match-info,
+  .match-odds {
+    background: linear-gradient(to right, #91311d -21%, #00000000 120%);
+    color: #fff;
+  }
+  &.selected {
+    border-right: 3px solid #e44f31;
+    border-left: 1px solid var(--tableBorders);
+    .match-info,
+    .match-odds {
+      background: linear-gradient(to left, #e74d2e 11%, #00000000 160%);
+      color: #fff;
+    }
+  }
+}
 .sports-container #LVSPORT_23 .anchor {
-  background: rgba(230, 231, 149, 0.815) !important;
+  background: #e6a260 !important;
   color: #222 !important;
 }
-.sports-container #LVSPORT_23 .matches .single-match .match-info,
-.sports-container #LVSPORT_23 .matches .single-match .match-odds {
-  background: linear-gradient(
-    to right,
-    rgba(230, 231, 149, 0.384) 0,
-    var(--bg1) 60%,
-    var(--bg1) 100%
-  );
+
+.sports-container #LVSPORT_23 .matches .single-match,
+.sports-container #LVSPORT_23 .matches .single-match {
+  border-left: 3px solid #f1c394;
+
+  .match-info,
+  .match-odds {
+    background: linear-gradient(to right, #e6a260 -21%, #00000000 120%);
+    color: #222;
+  }
+  &.selected {
+    border-right: 3px solid #ffeddb;
+    border-left: 1px solid var(--tableBorders);
+    .match-info,
+    .match-odds {
+      background: linear-gradient(to left, #ffbb76 11%, #00000000 160%);
+      color: #222;
+    }
+  }
 }
 
 .sports-container #LVSPORT_4 .anchor {
-  background: rgba(80, 162, 198, 0.849) !important;
+  background: #006290 !important;
   color: #fff !important;
 }
-.sports-container #LVSPORT_4 .matches .single-match .match-info,
-.sports-container #LVSPORT_4 .matches .single-match .match-odds {
-  background: linear-gradient(
-    to right,
-    rgba(80, 162, 198, 0.635) 0,
-    var(--bg1) 60%,
-    var(--bg1) 100%
-  );
+
+.sports-container #LVSPORT_4 .matches .single-match,
+.sports-container #LVSPORT_4 .matches .single-match {
+  border-left: 3px solid #1d8bbe;
+
+  .match-info,
+  .match-odds {
+    background: linear-gradient(to right, #006290 -21%, #00000000 120%);
+    color: #fff;
+  }
+  &.selected {
+    border-right: 3px solid #1b8fc5;
+    border-left: 1px solid var(--tableBorders);
+    .match-info,
+    .match-odds {
+      background: linear-gradient(to left, #0874a7 11%, #00000000 160%);
+      color: #fff;
+    }
+  }
 }
 .sports-container #LVSPORT_6 .matches .single-match .match-info,
 .sports-container #LVSPORT_6 .matches .single-match .match-odds {
@@ -1902,37 +1955,37 @@ body #oddsMenu tr {
   display: none !important;
 }
 
-.sports-container .matches .single-match.selected .match-info,
-.sports-container .matches .single-match.selected .match-odds {
-  background: transparent !important;
-  color: var(--accent-txt) !important;
-  position: relative;
-  z-index: 2;
-}
+// .sports-container .matches .single-match.selected .match-info,
+// .sports-container .matches .single-match.selected .match-odds {
+//   background: transparent !important;
+//   color: var(--accent-txt) !important;
+//   position: relative;
+//   z-index: 2;
+// }
 
-.sports-container .sports .single-match.selected:before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  content: "";
-  /* background: var(--accent-bg); */
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  filter: hue-rotate(5deg);
-  background: linear-gradient(
-    to left,
-    var(--accent-bg) -20%,
-    var(--bg1) 180%,
-    var(--bg1) 150%
-  );
-  filter: brightness(1.4) hue-rotate(15deg);
-}
-.sports-container .matches .single-match.selected .match-odds {
-  filter: drop-shadow(9px 1px 4px var(--secondary-bg));
-  position: relative;
-  z-index: 3;
-}
+// .sports-container .sports .single-match.selected:before {
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   content: "";
+//   /* background: var(--accent-bg); */
+//   width: 100%;
+//   height: 100%;
+//   z-index: 1;
+//   filter: hue-rotate(5deg);
+//   background: linear-gradient(
+//     to left,
+//     var(--accent-bg) -20%,
+//     var(--bg1) 180%,
+//     var(--bg1) 150%
+//   );
+//   filter: brightness(1.4) hue-rotate(15deg);
+// }
+// .sports-container .matches .single-match.selected .match-odds {
+//   filter: drop-shadow(9px 1px 4px var(--secondary-bg));
+//   position: relative;
+//   z-index: 3;
+// }
 .live-sports-diary
   .matches-wrapper
   .single-match
@@ -1983,19 +2036,32 @@ body
 }
 .center-content.live-center-content {
   display: grid !important;
-  grid-template-columns: 1fr 460px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(auto-fill, 35px);
+  @media (max-width: 1500px) {
+    display: inline-block !important;
+  }
 }
 .event-viewer-wrapper {
   grid-column: 2/3;
-  grid-row: 1/6;
+  grid-row: 1/21;
   max-height: 740px;
   overflow: hidden;
   position: sticky;
   top: 0;
+  z-index: 1;
+  @media (max-width: 1500px) {
+    max-height: 680px;
+    overflow: auto;
+  }
 }
 .live-center-view-container .live-center-content {
   display: flex;
   flex-flow: column;
+
+  @media (max-width: 1500px) {
+    flex-flow: row;
+  }
 }
 .live-center-view-container.stats-active .lc-left-module,
 .live-center-view-container.stats-active .lc-right-module {
@@ -2008,4 +2074,26 @@ div.landing-page .banner-content:before {
 
 .lc-scene > g:nth-child(3) {
   transform: scale(0.6) translateY(230.1px);
+}
+
+.main-content.live-page > .grid {
+  display: flex;
+}
+.sports-container .matches .single-match .match-odds .single-odd-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px !important;
+}
+.sports-container .matches .single-match .match-info div,
+.sports-container .matches .single-match .bottom-info div {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+.sports-container .sports .single-match.selected {
+  background: unset !important;
+  color: unset !important;
+}
+.current-minute:after {
+  content: "'";
 }
