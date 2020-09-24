@@ -139,3 +139,7 @@ body.landing-page {
   background-color: #31343d !important;
   background-image: none;
 }
+.center-content.live-center-content {
+      grid-template-columns: 1fr 340px !important;
+
+}

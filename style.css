@@ -3,182 +3,130 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
 html:root {
-  --accent: #005293;
-  --accent-bg: #005293;
-  --accent-txt: #ffcc00;
-  --primary-bg: #005293;
-  --primary-txt: #ffffff;
-  --secondary-bg: #ffffff;
-  --secondary-txt: #000;
-  --mainBg: #ffffff;
-  --mainBgCol: #000;
-  --bg1: #e7e7e7;
-  --col1: #000;
-  --teableHeadersBg: #ffcc00;
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #005293;
+  --accent: #95cd3b;
+  --accent-bg: #95cd3b;
+  --accent-txt: #000;
+  --primary-bg: #000;
+  --primary-txt: #fff;
+  --secondary-bg: #212931;
+  --secondary-txt: #fff;
+  --mainBg: #212931;
+  --mainBgCol: #fff;
+  --bg1: #29333b;
+  --col1: #fff;
+  --teableHeadersBg: #384351;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #14191d;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #a3a3a3;
-  --casinoGradient1: #00000000;
-  --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #f4c100;
+  --tableBorders: #445461;
+  --casinoGradient1: linear-gradient(
+    to right,
+    #95cd3b00 3%,
+    #95cd3b 60%,
+    #95cd3b00 99%
+  );
+  --casinoGradient1-txt: #000;
+  --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "bsport10";
+  --skin: "bbgame";
 }
 
-#favouriteTournaments li:before {
-  -webkit-filter: brightness(0.1);
-          filter: brightness(0.1);
+body {
+  background-size: 2038px !important;
 }
 
-.side-bar .single-block .block-content form input[type="submit"] {
-  background-color: var(--accent-txt);
+.main-content.home-page
+.left-side-bar
+.single-block:first-child
+.block-title
+span,
+.main-content.home-page
+.right-side-bar
+.single-block:first-child
+.block-title
+span,
+.main-content.home-page
+.right-side-bar
+.single-block:nth-child(2)
+.block-title
+span {
+  color: var(--accent-bg);
+  font-weight: 500;
+}
+
+.single-sport .states .state .championship.selected .anchor {
+  color: var(--accent);
+}
+
+.single-sport
+.states
+.state
+.championship
+.anchor
+.check
+input:checked
+~ .checkmark:after,
+.single-sport
+.states
+.state
+.championship
+.anchor
+.check
+input:checked
+~ .checkmark {
+  border-color: var(--accent) !important;
+}
+
+.odds-table .second-header td.day {
+  color: var(--accent);
+}
+
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
+  border: 1px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+
+.tabs-holder .tabs-row .single-tab {
+  border-bottom: 2px solid transparent !important;
+}
+
+.tabs-holder .tabs-row .single-tab:hover,
+.tabs-holder .tabs-row .single-tab.active {
+  border-bottom: 2px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+
+.odds-table .second-header {
+  opacity: 1 !important;
+}
+
+.side-bar
+.single-block.betslip-holder
+.betslip
+.selections-wrapper
+.single-event
+.selected-bet
+.bet
+.quote {
+  color: var(--accent);
+}
+
+.odds-table .second-header td {
+  color: var(--accent);
 }
 
 body.landing-page {
-  background-color: #181e2c !important;
+  background-color: #31343d !important;
   background-image: none;
 }
 
-html #LVSPORT_1 .anchor {
-  background: #1b7700 !important;
-  color: #fff !important;
-}
-
-html #LVSPORT_1 .single-match {
-  border-left: 3px solid #45dc2d;
-}
-
-html #LVSPORT_1 .single-match .match-info,
-html #LVSPORT_1 .single-match .match-odds {
-  background: -webkit-gradient(linear, left top, right top, color-stop(-37%, #1b7700), color-stop(110%, #6ea683));
-  background: linear-gradient(to right, #1b7700 -37%, #6ea683 110%);
-  color: #fff;
-}
-
-html #LVSPORT_1 .single-match.selected {
-  border-right: 3px solid #45dc2d;
-  border-left: 1px solid var(--tableBorders);
-}
-
-html #LVSPORT_1 .single-match.selected .match-info,
-html #LVSPORT_1 .single-match.selected .match-odds {
-  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #7d9e73), color-stop(160%, #ffffff));
-  background: linear-gradient(to left, #7d9e73 11%, #ffffff 160%);
-  color: #000;
-}
-
-html #LVSPORT_5 .anchor {
-  background: #bf9a17 !important;
-  color: #000 !important;
-}
-
-html #LVSPORT_5 .single-match {
-  border-left: 3px solid #deb826;
-}
-
-html #LVSPORT_5 .single-match .match-info,
-html #LVSPORT_5 .single-match .match-odds {
-  background: -webkit-gradient(linear, left top, right top, color-stop(-21%, #bf9a17), color-stop(120%, #f0f0f0));
-  background: linear-gradient(to right, #bf9a17 -21%, #f0f0f0 120%);
-  color: #000;
-}
-
-html #LVSPORT_5 .single-match.selected {
-  border-right: 3px solid #deb826;
-  border-left: 1px solid var(--tableBorders);
-}
-
-html #LVSPORT_5 .single-match.selected .match-info,
-html #LVSPORT_5 .single-match.selected .match-odds {
-  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #f7c924), color-stop(160%, #f0f0f0));
-  background: linear-gradient(to left, #f7c924 11%, #f0f0f0 160%);
-  color: #222;
-}
-
-html #LVSPORT_2 .anchor {
-  background: #91311d !important;
-  color: #fff !important;
-}
-
-html #LVSPORT_2 .single-match {
-  border-left: 3px solid #c74227;
-}
-
-html #LVSPORT_2 .single-match .match-info,
-html #LVSPORT_2 .single-match .match-odds {
-  background: -webkit-gradient(linear, left top, right top, color-stop(-21%, #91311d), color-stop(120%, #db7965));
-  background: linear-gradient(to right, #91311d -21%, #db7965 120%);
-  color: #fff;
-}
-
-html #LVSPORT_2 .single-match.selected {
-  border-right: 3px solid #e44f31;
-  border-left: 1px solid var(--tableBorders);
-}
-
-html #LVSPORT_2 .single-match.selected .match-info,
-html #LVSPORT_2 .single-match.selected .match-odds {
-  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #e74d2e), color-stop(160%, #fff));
-  background: linear-gradient(to left, #e74d2e 11%, #fff 160%);
-  color: #222;
-}
-
-html #LVSPORT_23 .anchor {
-  background: #e6a260 !important;
-  color: #222 !important;
-}
-
-html #LVSPORT_23 .single-match {
-  border-left: 3px solid #f1c394;
-}
-
-html #LVSPORT_23 .single-match .match-info,
-html #LVSPORT_23 .single-match .match-odds {
-  background: -webkit-gradient(linear, left top, right top, color-stop(-21%, #e6a260), color-stop(120%, #fff));
-  background: linear-gradient(to right, #e6a260 -21%, #fff 120%);
-  color: #222;
-}
-
-html #LVSPORT_23 .single-match.selected {
-  border-right: 3px solid #ffeddb;
-  border-left: 1px solid var(--tableBorders);
-}
-
-html #LVSPORT_23 .single-match.selected .match-info,
-html #LVSPORT_23 .single-match.selected .match-odds {
-  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #ffbb76), color-stop(160%, #fff));
-  background: linear-gradient(to left, #ffbb76 11%, #fff 160%);
-  color: #222;
-}
-
-html #LVSPORT_4 .anchor {
-  background: #006290 !important;
-  color: #fff !important;
-}
-
-html #LVSPORT_4 .single-match {
-  border-left: 3px solid #1d8bbe;
-}
-
-html #LVSPORT_4 .single-match .match-info,
-html #LVSPORT_4 .single-match .match-odds {
-  background: -webkit-gradient(linear, left top, right top, color-stop(-21%, #006290), color-stop(120%, #40b9f2));
-  background: linear-gradient(to right, #006290 -21%, #40b9f2 120%);
-  color: #fff;
-}
-
-html #LVSPORT_4 .single-match.selected {
-  border-right: 3px solid #1b8fc5;
-  border-left: 1px solid var(--tableBorders);
-}
-
-html #LVSPORT_4 .single-match.selected .match-info,
-html #LVSPORT_4 .single-match.selected .match-odds {
-  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #1291cc), color-stop(160%, #fff));
-  background: linear-gradient(to left, #1291cc 11%, #fff 160%);
-  color: #222;
+.center-content.live-center-content {
+  -ms-grid-columns: 1fr 360px !important;
+      grid-template-columns: 1fr 360px !important;
 }
 
 @media (max-width: 1008px) {
@@ -330,7 +278,7 @@ th {
 
 body {
   margin: 0;
-  background-image: url("https://nextra.pcluster.info/nextra/images/bg/blue.jpg");
+  background-image: url("https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png");
   background-size: 100% 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -513,7 +461,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid gainsboro;
+  border: 1px solid #7b96a3;
   border-radius: 3px;
 }
 
@@ -525,14 +473,14 @@ input[type="submit"] {
   top: 1px;
   width: 3px;
   height: 7px;
-  border: solid #005293;
+  border: solid #95cd3b;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .check:hover input ~ .checkmark {
-  background: #cfcfcf;
+  background: #6b8a99;
 }
 
 .radio {
@@ -568,7 +516,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #005293;
+  border: 2px solid #95cd3b;
 }
 
 .radio input:checked ~ .radiocircle:after {
@@ -577,7 +525,7 @@ input[type="submit"] {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #95cd3b;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -594,7 +542,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid gainsboro;
+  border: 1px solid #7b96a3;
   border-radius: 3px;
   border-radius: 50%;
   border-width: 2px;
@@ -609,14 +557,14 @@ input[type="submit"] {
   top: 1px;
   width: 3px;
   height: 7px;
-  border: solid #005293;
+  border: solid #95cd3b;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .radio:hover input ~ .radiocircle {
-  background: rgba(194, 194, 194, 0.5);
+  background: rgba(96, 125, 139, 0.5);
 }
 
 .lang-open {
@@ -904,7 +852,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .help:before {
   display: none;
   content: "";
-  border-bottom: 9px solid #0a497e;
+  border-bottom: 9px solid #95cd3b;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -959,7 +907,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .settings .controls-menu .option-block .title {
   padding-top: 8px;
   padding-left: 5px;
-  border-bottom: 1px solid #0a497e;
+  border-bottom: 1px solid #95cd3b;
   cursor: default;
   pointer-events: none;
 }
@@ -970,7 +918,7 @@ input[type="submit"] {
   line-height: 25px;
   padding-left: 25px;
   position: relative;
-  border-bottom: 1px solid #0a497e;
+  border-bottom: 1px solid #95cd3b;
   cursor: pointer;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
@@ -985,7 +933,7 @@ input[type="submit"] {
           transform: translateY(-50%);
   width: 12px;
   height: 12px;
-  border: 1px solid #0a497e;
+  border: 1px solid #95cd3b;
   border-radius: 50%;
 }
 
@@ -1000,7 +948,7 @@ input[type="submit"] {
   width: 10px;
   height: 10px;
   border: none;
-  background: #1072c5;
+  background: #b6dd78;
   border-radius: 50%;
 }
 
@@ -1084,30 +1032,30 @@ input[type="submit"] {
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"],
 .header .top-bar .top-bar-content .login-bar form input[type="password"] {
-  color: #c2c2c2;
-  border: 1px solid #c2c2c2;
+  color: #607d8b;
+  border: 1px solid #607d8b;
   width: 100px;
   padding: 0 0 0 6px;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::-webkit-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::-webkit-input-placeholder {
-  color: #c2c2c2;
+  color: #607d8b;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]:-ms-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]:-ms-input-placeholder {
-  color: #c2c2c2;
+  color: #607d8b;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::-ms-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::-ms-input-placeholder {
-  color: #c2c2c2;
+  color: #607d8b;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::placeholder {
-  color: #c2c2c2;
+  color: #607d8b;
 }
 
 .header .top-bar .top-bar-content .login-bar form i {
@@ -1158,7 +1106,7 @@ input[type="submit"] {
   height: 70px;
   display: block;
   position: relative;
-  background-image: url("http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg");
+  background-image: url("https://nextra.pcluster.info/bbgame/images/logo2.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1375,8 +1323,8 @@ input[type="submit"] {
   -ms-flex-item-align: center;
       align-self: center;
   padding: 0 5px;
-  -webkit-filter: grayscale(1) brightness(0) invert(0);
-          filter: grayscale(1) brightness(0) invert(0);
+  -webkit-filter: grayscale(1) brightness(0) invert(1);
+          filter: grayscale(1) brightness(0) invert(1);
 }
 
 .side-bar .single-block .block-title span {
@@ -1509,7 +1457,7 @@ input[type="submit"] {
 
 .side-bar .single-block .block-content form[name="fastslip3"] .ui-selectmenu-button .ui-icon,
 .side-bar .single-block .block-content form[name="fastslip3"] select .ui-icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -1540,7 +1488,7 @@ input[type="submit"] {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
@@ -1779,7 +1727,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block .block-content.sports-menu form input[type="submit"]:hover {
-  background-color: #0e64ad;
+  background-color: #abd764;
 }
 
 .side-bar .single-block .block-content.sports-menu .tabs {
@@ -2054,8 +2002,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .my-bets .my-coupons .buttons .single-button {
   width: 30px;
   height: 30px;
-  background: #b5b5b5;
-  border: 3px solid #e8e8e8;
+  background: #566f7c;
+  border: 3px solid #8aa2ae;
   border-radius: 5px;
   line-height: 30px;
   text-align: center;
@@ -2070,7 +2018,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .my-coupons .buttons .single-button:hover {
-  background-color: #e8e8e8;
+  background-color: #8aa2ae;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form {
@@ -2089,7 +2037,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .my-bets form div input[type="text"] {
   line-height: 30px;
   width: 100%;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   border-radius: 3px;
   font-weight: bold;
   padding: 0 10px 0 50px;
@@ -2098,7 +2046,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"] {
-  background-image: url(//nextra.pcluster.info/bsport10/images/search-icon.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/search-icon.png);
   background-size: 50%;
   background-position: center left 12px;
   background-repeat: no-repeat;
@@ -2124,24 +2072,24 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::-webkit-input-placeholder {
-  color: #c2c2c2;
+  color: #607d8b;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]:-ms-input-placeholder {
-  color: #c2c2c2;
+  color: #607d8b;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::-ms-input-placeholder {
-  color: #c2c2c2;
+  color: #607d8b;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::placeholder {
-  color: #c2c2c2;
+  color: #607d8b;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper {
-  background-color: #c2c2c2;
-  border: 4px solid #c2c2c2;
+  background-color: #607d8b;
+  border: 4px solid #607d8b;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2182,7 +2130,7 @@ input[type="submit"] {
   height: 18px;
   background-color: rgba(0, 0, 0, 0.24);
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
 }
@@ -2236,7 +2184,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting {
-  background-color: #005293;
+  background-color: #95cd3b;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting .single-betslip-title {
@@ -2338,7 +2286,7 @@ input[type="submit"] {
   line-height: 28px;
   font-size: 12px;
   font-weight: 500;
-  color: #c2c2c2;
+  color: #607d8b;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div span {
@@ -2368,12 +2316,12 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div.half .refresh-button:hover i {
-  color: darkgray;
+  color: #4b626d;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder {
   width: 100%;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
@@ -2382,7 +2330,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event {
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #607d8b;
   width: 100%;
   display: inline-block;
   line-height: 26px;
@@ -2457,7 +2405,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .legend {
-  background: #c2c2c2;
+  background: #607d8b;
   border: none;
   width: calc(100%);
   line-height: 22px;
@@ -2741,8 +2689,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #607d8b;
+  background-color: #607d8b;
   color: #ebebeb;
   font-size: 12px;
   line-height: 24px;
@@ -2777,14 +2725,14 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select:hover {
-  background-color: #cfcfcf;
+  background-color: #6b8a99;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group .ui-selectmenu-button .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select .ui-icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -2820,7 +2768,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th input,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td input {
   max-width: 30px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   border-radius: 3px;
   font-weight: bold;
   color: #000000;
@@ -3013,7 +2961,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group table td .check:hover input ~ .checkmark,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .check:hover input ~ .checkmark,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .check:hover input ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.1);
+  background-color: rgba(96, 125, 139, 0.1);
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group table th,
@@ -3085,7 +3033,7 @@ input[type="submit"] {
   line-height: 20px;
   height: 20px;
   margin-top: 3px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   border-radius: 3px;
 }
 
@@ -3093,8 +3041,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #607d8b;
+  background-color: #607d8b;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -3110,14 +3058,14 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select:hover {
-  background-color: #cfcfcf;
+  background-color: #6b8a99;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .ui-selectmenu-button .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select .ui-icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -3161,7 +3109,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table tr:last-child {
-  border-bottom: 3px solid #c2c2c2;
+  border-bottom: 3px solid #607d8b;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .totals {
@@ -3537,7 +3485,7 @@ input[type="submit"] {
   background-color: var(--bg1);
   color: var(--col1);
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
 }
@@ -3602,7 +3550,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid gainsboro;
+  border: 1px solid #7b96a3;
   border-radius: 3px;
 }
 
@@ -3621,7 +3569,7 @@ input[type="submit"] {
 }
 
 .single-sport .anchor .check:hover input ~ .checkmark {
-  background: #cfcfcf;
+  background: #6b8a99;
 }
 
 .single-sport .anchor .icon {
@@ -3634,7 +3582,7 @@ input[type="submit"] {
   width: 18px;
   height: 18px;
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -3652,7 +3600,7 @@ input[type="submit"] {
   width: 18px;
   height: 18px;
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/star.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/star.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 12px auto;
@@ -3669,7 +3617,7 @@ input[type="submit"] {
 }
 
 .single-sport .anchor.favourite .fav.off {
-  background-image: url(//nextra.pcluster.info/bsport10/images/star-off.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/star-off.png);
 }
 
 .single-sport .anchor.favourite .fav.off:hover {
@@ -3678,195 +3626,195 @@ input[type="submit"] {
 }
 
 .single-sport .anchor.sport-1 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-1.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-1.svg);
 }
 
 .single-sport .anchor.sport-2 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-2.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-2.svg);
 }
 
 .single-sport .anchor.sport-3 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-3.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-3.svg);
 }
 
 .single-sport .anchor.sport-4 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-4.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-4.svg);
 }
 
 .single-sport .anchor.sport-5 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-5.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-5.svg);
 }
 
 .single-sport .anchor.sport-6 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-6.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-6.svg);
 }
 
 .single-sport .anchor.sport-7 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-7.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-7.svg);
 }
 
 .single-sport .anchor.sport-8 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-8.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-8.svg);
 }
 
 .single-sport .anchor.sport-9 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-9.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-9.svg);
 }
 
 .single-sport .anchor.sport-10 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-10.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-10.svg);
 }
 
 .single-sport .anchor.sport-11 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-11.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-11.svg);
 }
 
 .single-sport .anchor.sport-12 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-12.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-12.svg);
 }
 
 .single-sport .anchor.sport-13 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-13.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-13.svg);
 }
 
 .single-sport .anchor.sport-14 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-14.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-14.svg);
 }
 
 .single-sport .anchor.sport-15 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-15.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-15.svg);
 }
 
 .single-sport .anchor.sport-16 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-16.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-16.svg);
 }
 
 .single-sport .anchor.sport-17 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-17.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-17.svg);
 }
 
 .single-sport .anchor.sport-18 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-18.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-18.svg);
 }
 
 .single-sport .anchor.sport-19 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-19.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-19.svg);
 }
 
 .single-sport .anchor.sport-20 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-20.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-20.svg);
 }
 
 .single-sport .anchor.sport-21 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-21.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-21.svg);
 }
 
 .single-sport .anchor.sport-22 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-22.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-22.svg);
 }
 
 .single-sport .anchor.sport-23 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-23.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-23.svg);
 }
 
 .single-sport .anchor.sport-24 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-24.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-24.svg);
 }
 
 .single-sport .anchor.sport-25 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-25.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-25.svg);
 }
 
 .single-sport .anchor.sport-26 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-26.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-26.svg);
 }
 
 .single-sport .anchor.sport-27 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-27.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-27.svg);
 }
 
 .single-sport .anchor.sport-28 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-28.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-28.svg);
 }
 
 .single-sport .anchor.sport-29 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-29.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-29.svg);
 }
 
 .single-sport .anchor.sport-30 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-30.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-30.svg);
 }
 
 .single-sport .anchor.sport-31 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-31.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-31.svg);
 }
 
 .single-sport .anchor.sport-32 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-32.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-32.svg);
 }
 
 .single-sport .anchor.sport-33 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-33.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-33.svg);
 }
 
 .single-sport .anchor.sport-34 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-34.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-34.svg);
 }
 
 .single-sport .anchor.sport-35 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-35.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-35.svg);
 }
 
 .single-sport .anchor.sport-36 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-36.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-36.svg);
 }
 
 .single-sport .anchor.sport-37 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-37.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-37.svg);
 }
 
 .single-sport .anchor.sport-38 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-38.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-38.svg);
 }
 
 .single-sport .anchor.sport-39 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-39.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-39.svg);
 }
 
 .single-sport .anchor.sport-60 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-60.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-60.svg);
 }
 
 .single-sport .anchor.sport-61 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-61.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-61.png);
 }
 
 .single-sport .anchor.sport-109 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-109.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-109.svg);
 }
 
 .single-sport .anchor.sport-110 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-110.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-110.png);
 }
 
 .single-sport .anchor.sport-111 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-111.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-111.png);
 }
 
 .single-sport .anchor.sport-117 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-117.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-117.svg);
 }
 
 .single-sport .anchor.sport-118 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-118.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-118.png);
 }
 
 .single-sport .anchor.sport-121 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-121.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-121.png);
 }
 
 .single-sport .anchor.sport-125 .icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-125.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-125.png);
 }
 
 .single-sport .states {
@@ -3949,7 +3897,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state > .anchor .check:hover input ~ .checkmark {
-  background: rgba(194, 194, 194, 0.2);
+  background: rgba(96, 125, 139, 0.2);
 }
 
 .single-sport .states .state i {
@@ -3999,7 +3947,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state .championship .anchor .check:hover input ~ .checkmark {
-  background: rgba(194, 194, 194, 0.2);
+  background: rgba(96, 125, 139, 0.2);
 }
 
 .single-sport .states .state .championship.active {
@@ -4011,7 +3959,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state .championship.selected .anchor {
-  background: #0a96f0;
+  background: #525b61;
   color: #ebebeb;
   font-weight: 500;
 }
@@ -4185,7 +4133,7 @@ input[type="submit"] {
 
 .center-content .main-slider .single-slide .odds-holder .single-odd div {
   float: left;
-  color: #005293;
+  color: #95cd3b;
   position: absolute;
   left: 5px;
   top: 50%;
@@ -4228,14 +4176,14 @@ input[type="submit"] {
   border-radius: 50%;
   padding: 0;
   display: inline-block;
-  border: 2px solid #005293;
+  border: 2px solid #95cd3b;
   cursor: pointer;
   margin: 0 3px;
   background: transparent;
 }
 
 .center-content .main-slider .slick-dots li.slick-active button, .center-content .main-slider .slick-dots li:hover button {
-  background-color: #005293;
+  background-color: #95cd3b;
 }
 
 .center-content .center-block {
@@ -5251,7 +5199,7 @@ div.landing-page .banner-content {
   margin: 0 auto;
   max-width: 1920px;
   height: 555px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/landing-images/homeBanner.jpg) !important;
+  background-image: url(//nextra.pcluster.info/bbgame/images/landing-images/homeBanner.jpg) !important;
   background-size: initial;
   background-repeat: no-repeat;
   background-position: top center;
@@ -5375,7 +5323,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:first-child:before
   content: "";
   width: 45px;
   height: 45px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/landing-images/fIcon.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/landing-images/fIcon.svg);
   display: block;
   background-repeat: no-repeat;
   background-position: center;
@@ -5387,7 +5335,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(2):befor
   content: "";
   width: 45px;
   height: 45px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/landing-images/Icon2.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/landing-images/Icon2.svg);
   display: block;
   background-repeat: no-repeat;
   background-position: center;
@@ -5399,7 +5347,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(3):befor
   content: "";
   width: 45px;
   height: 45px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/landing-images/Icon3.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/landing-images/Icon3.svg);
   display: block;
   background-repeat: no-repeat;
   background-position: center;
@@ -5411,7 +5359,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:last-child:before 
   content: "";
   width: 45px;
   height: 45px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/landing-images/Icon4.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/landing-images/Icon4.svg);
   display: block;
   background-repeat: no-repeat;
   background-position: center;
@@ -5432,19 +5380,19 @@ div.landing-page .banner-content .grid a {
 
 div.landing-page .banner-content .grid a.become-agent {
   float: right;
-  background: #005293;
+  background: #95cd3b;
 }
 
 div.landing-page .banner-content .grid a.become-agent:hover {
-  background: #003660;
+  background: #79aa2b;
 }
 
 div.landing-page .banner-content .grid a.register-online {
-  background: #0a96f0;
+  background: #525b61;
 }
 
 div.landing-page .banner-content .grid a.register-online:hover {
-  background: #0877bf;
+  background: #3b4145;
 }
 
 .landing-bottom-holder {
@@ -5665,7 +5613,7 @@ footer .footer-logo a:before {
   height: 70px;
   display: block;
   position: relative;
-  background-image: url("http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg");
+  background-image: url("https://nextra.pcluster.info/bbgame/images/logo2.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -5861,7 +5809,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: black;
   border-radius: 50%;
   padding: 2px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/cross.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cross.png);
   background-size: 8px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -5986,7 +5934,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .single-match-row td .goal-odd {
   width: calc((100% / 6) - 1px);
   display: inline-block;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   margin-right: -1px;
   margin-bottom: -1px;
   text-align: center;
@@ -6124,7 +6072,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .match-name .team-names.has-info:before {
   display: none;
   content: "";
-  border-bottom: 9px solid #c2c2c2;
+  border-bottom: 9px solid #607d8b;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -6144,7 +6092,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .match-name .team-names.has-info .info-box {
   position: absolute;
   width: 166px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   border-radius: 5px;
   background: var(--bg1);
   color: var(--col1);
@@ -6208,14 +6156,14 @@ footer.center-footer .footer-logos .group-1 {
 
 .odds-table .match-name .team-names.has-info .info-box .odd-types .single-type {
   width: 33%;
-  background: #c2c2c2;
-  color: #005293;
+  background: #607d8b;
+  color: #95cd3b;
   font-size: 12px;
   text-align: center;
   font-weight: bold;
   line-height: 28px;
-  -webkit-box-shadow: inset 0 1px 0 #cfcfcf;
-          box-shadow: inset 0 1px 0 #cfcfcf;
+  -webkit-box-shadow: inset 0 1px 0 #6b8a99;
+          box-shadow: inset 0 1px 0 #6b8a99;
   float: left;
 }
 
@@ -6245,7 +6193,7 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   height: 15px;
   width: 34px;
-  background: #c2c2c2;
+  background: #607d8b;
   border-radius: 3px;
   position: relative;
   overflow: hidden;
@@ -6257,7 +6205,7 @@ footer.center-footer .footer-logos .group-1 {
   left: 0;
   top: 0;
   width: 50%;
-  background: #005293;
+  background: #95cd3b;
 }
 
 .odds-table .match-name .team-names.has-info .info-box .bars-holder .single-bar-holder:nth-child(2) {
@@ -6336,7 +6284,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: black;
   border-radius: 50%;
   padding: 2px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/cross.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cross.png);
   background-size: 8px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -6435,15 +6383,15 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.odd-up .quote:after {
-  background-image: url(//nextra.pcluster.info/bsport10/images/odd-up.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/odd-up.png);
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.odd-equal .quote:after {
-  background-image: url(//nextra.pcluster.info/bsport10/images/odd-equal.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/odd-equal.png);
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.odd-down .quote:after {
-  background-image: url(//nextra.pcluster.info/bsport10/images/odd-down.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/odd-down.png);
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.selected {
@@ -6480,20 +6428,20 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .title.light {
-  background: #e8e8e8;
+  background: #8aa2ae;
 }
 
 .results-page .results-filter {
   width: 100%;
   display: inline-block;
-  background: darkgray;
+  background: #4b626d;
 }
 
 .results-page .results-filter .single-filter {
   float: left;
   padding: 10px 20px 25px 10px;
-  border-right: 1px solid #c2c2c2;
-  color: darkgray;
+  border-right: 1px solid #607d8b;
+  color: #4b626d;
   width: 130px;
 }
 
@@ -6506,9 +6454,9 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results-filter .single-filter input[type="date"] {
-  color: darkgray;
+  color: #4b626d;
   background-color: #b398d1;
-  background-image: url(//nextra.pcluster.info/bsport10/images/colored-calendar.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/colored-calendar.png);
   background-size: auto 100%;
   background-position: right top;
   background-repeat: no-repeat;
@@ -6526,7 +6474,7 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: #b398d1;
-  background-image: url(//nextra.pcluster.info/bsport10/images/colored-triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/colored-triangle-down.png);
   background-size: auto 100%;
   background-position: right top;
   background-repeat: no-repeat;
@@ -6534,7 +6482,7 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 3px;
   height: 26px;
   padding-left: 8px;
-  color: darkgray;
+  color: #4b626d;
 }
 
 .results-page .results-filter .single-filter select::-ms-expand {
@@ -6566,7 +6514,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results .single-result .result-top-bar .championship-name {
-  color: darkgray;
+  color: #4b626d;
   font-size: 12px;
   font-weight: bold;
   float: left;
@@ -6580,7 +6528,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results .single-result .result-top-bar .result div {
-  color: darkgray;
+  color: #4b626d;
   font-size: 12px;
   font-weight: 500;
   width: 50px;
@@ -6596,14 +6544,14 @@ footer.center-footer .footer-logos .group-1 {
 .results-page .results .single-result .result-match {
   width: 100%;
   background: #f1f1f2;
-  border-bottom: 3px solid darkgray;
+  border-bottom: 3px solid #4b626d;
 }
 
 .results-page .results .single-result .result-match .time {
   line-height: 76px;
   font-size: 12px;
   font-weight: 500;
-  color: darkgray;
+  color: #4b626d;
   padding: 0 10px;
   text-align: center;
   display: inline-block;
@@ -6622,7 +6570,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 30px;
   font-size: 12px;
   font-weight: 500;
-  color: darkgray;
+  color: #4b626d;
 }
 
 .results-page .results .single-result .result-match .match-teams .home-team.winner,
@@ -6650,7 +6598,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .results-page .results .single-result .result-match .result div {
   padding: 8px 0;
-  color: darkgray;
+  color: #4b626d;
   font-size: 12px;
   font-weight: 500;
   width: 50px;
@@ -6671,7 +6619,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .results-page .results .single-result .result-match .result div.status {
   line-height: 60px;
-  color: #0a497e;
+  color: #95cd3b;
   font-weight: bold;
 }
 
@@ -6702,8 +6650,8 @@ footer.center-footer .footer-logos .group-1 {
   width: 21px;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
-  -webkit-filter: grayscale(1) brightness(0) invert(0);
-          filter: grayscale(1) brightness(0) invert(0);
+  -webkit-filter: grayscale(1) brightness(0) invert(1);
+          filter: grayscale(1) brightness(0) invert(1);
 }
 
 .championship-page .title img.icon:before,
@@ -6924,7 +6872,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .explore-matches-page .title {
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #607d8b;
   line-height: 36px;
   width: calc(100% - 70px);
   padding: 0 35px;
@@ -7060,12 +7008,12 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   width: 37px;
   height: 26px;
-  background: #0a96f0;
+  background: #525b61;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   border: none;
   font-size: 0;
-  background-image: url(//nextra.pcluster.info/bsport10/images/search-icon.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/search-icon.png);
   background-size: 50%;
   background-position: center left 9px;
   background-repeat: no-repeat;
@@ -7074,7 +7022,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .sports-book-page .filters-holder .search-form input[type="text"] {
   border: none;
-  border-left: 1px solid #0a96f0;
+  border-left: 1px solid #525b61;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   line-height: 24px;
@@ -7142,8 +7090,8 @@ footer.center-footer .footer-logos .group-1 {
   cursor: pointer;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
-  -webkit-filter: grayscale(1) brightness(0) invert(0);
-          filter: grayscale(1) brightness(0) invert(0);
+  -webkit-filter: grayscale(1) brightness(0) invert(1);
+          filter: grayscale(1) brightness(0) invert(1);
 }
 
 .sports-book-page .title .title-icon.closed {
@@ -7477,7 +7425,7 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   padding: 25px 15px;
   display: inline-block;
-  background: #c2c2c2;
+  background: #607d8b;
 }
 
 .sports-book-page .button-holder .button-next {
@@ -7526,7 +7474,7 @@ footer.center-footer .footer-logos .group-1 {
 .become-an-agent-page .agent-buttons {
   text-align: center;
   padding: 30px 0;
-  background-color: #b5b5b5;
+  background-color: #566f7c;
 }
 
 .become-an-agent-page .agent-buttons .single-button {
@@ -7604,11 +7552,11 @@ footer.center-footer .footer-logos .group-1 {
 
 .become-an-agent-page .page-content .inner-content .content-block.last-block p .colored {
   font-weight: bold;
-  color: #0a96f0;
+  color: #525b61;
 }
 
 .become-an-agent-page .page-content .inner-content .content-block .title {
-  color: #0a96f0;
+  color: #525b61;
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
@@ -7621,15 +7569,15 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   margin: 0 10px;
   padding: 0 20px;
-  border: 2px solid #0a96f0;
+  border: 2px solid #525b61;
   border-radius: 3px;
-  color: #0a96f0;
+  color: #525b61;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
 
 .become-an-agent-page .page-content .inner-content .content-block .title a:hover {
-  background: #0a96f0;
+  background: #525b61;
   color: #ebebeb;
 }
 
@@ -7660,7 +7608,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: #0a96f0;
+  background: #525b61;
 }
 
 .dark-overlay {
@@ -7856,7 +7804,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: var(--bg1);
   color: var(--col1);
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
   -webkit-transition: 0.3s all;
@@ -7882,7 +7830,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .sports-container .sports .sport .anchor.special {
   background: #ececed;
-  color: #c2c2c2;
+  color: #607d8b;
   font-weight: bold;
   font-size: 12px;
   border-top: 1px solid #feffff;
@@ -7892,7 +7840,7 @@ footer.center-footer .footer-logos .group-1 {
   background-position: center;
   background-size: cover;
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-right.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-right.png);
   -webkit-transform: translateY(-50%) rotate(0deg);
           transform: translateY(-50%) rotate(0deg);
 }
@@ -8042,7 +7990,7 @@ footer.center-footer .footer-logos .group-1 {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-image: url(//nextra.pcluster.info/bsport10/images/locked.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/locked.svg);
   background-size: 60%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -8066,7 +8014,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type:hover .odd-type:empty {
-  background-image: url(//nextra.pcluster.info/bsport10/images/locked-white.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/locked-white.svg);
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-zero {
@@ -8122,21 +8070,21 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-up .odd-type:after {
-  background-image: url(//nextra.pcluster.info/bsport10/images/odd-up.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/odd-up.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-down .odd-type:after {
-  background-image: url(//nextra.pcluster.info/bsport10/images/odd-down.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/odd-down.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-equal .odd-type:after {
-  background-image: url(//nextra.pcluster.info/bsport10/images/odd-equal.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/odd-equal.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
@@ -8253,15 +8201,15 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-up .quote:after {
-  background-image: url(//nextra.pcluster.info/bsport10/images/odd-up.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/odd-up.png);
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-equal .quote:after {
-  background-image: url(//nextra.pcluster.info/bsport10/images/odd-equal.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/odd-equal.png);
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-down .quote:after {
-  background-image: url(//nextra.pcluster.info/bsport10/images/odd-down.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/odd-down.png);
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-zero {
@@ -8324,7 +8272,7 @@ footer.center-footer .footer-logos .group-1 {
   border: none;
   margin-top: 26px;
   height: 2px;
-  background: #0a96f0;
+  background: #525b61;
   border-radius: 1px !important;
 }
 
@@ -8335,13 +8283,13 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 50% !important;
   top: -4px;
   border: none;
-  background: #003660;
+  background: #79aa2b;
   cursor: pointer;
 }
 
 .live-odds-table table tr td.odd-holder .match-live-sliders .home-team .live-slider-holder .ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle:hover,
 .live-odds-table table tr td.odd-holder .match-live-sliders .away-team .live-slider-holder .ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle:hover {
-  color: #00192d;
+  color: #5c8121;
 }
 
 .live-odds-table table tr td.odd-holder .match-live-sliders .home-team .live-slider-holder .slider-controls,
@@ -8511,8 +8459,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
   cursor: pointer;
-  -webkit-filter: grayscale(1) brightness(0) invert(0);
-          filter: grayscale(1) brightness(0) invert(0);
+  -webkit-filter: grayscale(1) brightness(0) invert(1);
+          filter: grayscale(1) brightness(0) invert(1);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-title img.active {
@@ -8712,24 +8660,24 @@ footer.center-footer .footer-logos .group-1 {
   margin: 5px 6px 4px;
   width: 36px;
   height: 25px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/soccer-field.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/soccer-field.svg);
   background-size: 100% 100%;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-5 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/tennis-field.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/tennis-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-2 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/basketball-field.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/basketball-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-4 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/hockey-field.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/hockey-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-23 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/volleyball-field.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/volleyball-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper {
@@ -8767,7 +8715,7 @@ footer.center-footer .footer-logos .group-1 {
   top: calc(50% - 15px);
   -webkit-animation: rotate 2s ease-in-out infinite;
           animation: rotate 2s ease-in-out infinite;
-  background-image: url(//nextra.pcluster.info/bsport10/images/refresh-purple.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/refresh-purple.svg);
   background-size: cover;
   background-position: center;
 }
@@ -8852,21 +8800,21 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.odd-up .odd-type:after {
-  background-image: url(//nextra.pcluster.info/bsport10/images/odd-up.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/odd-up.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.odd-down .odd-type:after {
-  background-image: url(//nextra.pcluster.info/bsport10/images/odd-down.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/odd-down.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.odd-equal .odd-type:after {
-  background-image: url(//nextra.pcluster.info/bsport10/images/odd-equal.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/odd-equal.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
@@ -9115,172 +9063,172 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-1 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-1.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-1.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-2 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-2.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-2.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-3 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-3.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-3.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-4 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-4.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-4.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-5 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-5.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-5.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-6 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-6.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-6.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-7 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-7.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-7.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-8 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-8.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-8.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-9 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-9.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-9.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-10 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-10.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-10.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-11 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-11.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-11.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-12 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-12.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-12.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-13 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-13.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-13.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-14 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-14.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-14.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-15 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-15.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-15.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-16 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-16.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-16.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-17 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-17.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-17.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-18 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-18.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-18.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-19 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-19.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-19.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-20 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-20.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-20.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-21 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-21.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-21.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-22 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-22.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-22.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-23 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-23.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-23.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-24 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-24.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-24.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-25 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-25.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-25.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-26 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-26.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-26.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-27 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-27.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-27.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-28 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-28.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-28.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-29 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-29.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-29.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-30 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-30.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-30.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-31 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-31.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-31.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-32 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-32.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-32.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-33 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-33.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-33.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-34 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-34.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-34.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-35 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-35.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-35.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-36 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-36.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-36.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-37 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-37.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-37.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-38 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-38.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-38.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-39 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-39.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-39.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-60 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-60.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-60.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-117 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-117.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-117.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view {
   margin: 7px 13px;
-  background: #c2c2c2;
+  background: #607d8b;
   border-radius: 3px;
   cursor: pointer;
   display: inline-block;
@@ -9300,34 +9248,34 @@ footer.center-footer .footer-logos .group-1 {
   margin: 5px 6px 4px;
   width: 36px;
   height: 25px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/soccer-field.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/soccer-field.svg);
   background-size: 100% 100%;
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.basketball {
-  background-image: url(//nextra.pcluster.info/bsport10/images/basketball-field.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/basketball-field.png);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-5 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/tennis-field.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/tennis-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-2 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/basketball-field.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/basketball-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-4 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/hockey-field.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/hockey-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-23 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/volleyball-field.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/volleyball-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-details-wrapper .match-details {
   height: 28px;
   background-color: #ebebeb;
-  border: 1px solid #0a96f0;
+  border: 1px solid #525b61;
   border-radius: 3px;
   width: 40px;
   margin: 9px 12px;
@@ -9339,12 +9287,12 @@ footer.center-footer .footer-logos .group-1 {
   width: 100%;
   text-align: center;
   font-size: 9px;
-  color: #0a96f0;
+  color: #525b61;
   font-weight: 700;
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-details-wrapper .match-details .match-date {
-  background: #0a96f0;
+  background: #525b61;
   color: #ebebeb;
 }
 
@@ -9434,9 +9382,9 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .top-part .score {
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/live-result-background.jpg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/live-result-background.jpg);
   background-size: 100% 100%;
-  border: 1px solid #005293;
+  border: 1px solid #95cd3b;
   width: 35px;
   float: left;
   display: inline-block;
@@ -9449,7 +9397,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 19px;
   font-size: 13px;
   font-weight: bold;
-  color: #005293;
+  color: #95cd3b;
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .top-part .team-names {
@@ -9492,167 +9440,167 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-1 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-1.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-1.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-2 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-2.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-2.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-3 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-3.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-3.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-4 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-4.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-4.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-5 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-5.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-5.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-6 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-6.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-6.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-7 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-7.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-7.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-8 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-8.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-8.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-9 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-9.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-9.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-10 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-10.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-10.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-11 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-11.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-11.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-12 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-12.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-12.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-13 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-13.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-13.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-14 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-14.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-14.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-15 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-15.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-15.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-16 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-16.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-16.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-17 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-17.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-17.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-18 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-18.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-18.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-19 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-19.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-19.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-20 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-20.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-20.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-21 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-21.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-21.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-22 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-22.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-22.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-23 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-23.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-23.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-24 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-24.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-24.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-25 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-25.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-25.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-26 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-26.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-26.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-27 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-27.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-27.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-28 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-28.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-28.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-29 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-29.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-29.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-30 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-30.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-30.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-31 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-31.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-31.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-32 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-32.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-32.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-33 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-33.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-33.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-34 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-34.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-34.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-35 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-35.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-35.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-36 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-36.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-36.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-37 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-37.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-37.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-38 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-38.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-38.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-39 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-39.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-39.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-117 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-117.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-117.svg);
 }
 
 .live-multiview .multiview-matches {
-  background: #0a96f0;
+  background: #525b61;
   padding: 20px 25px;
 }
 
@@ -9673,7 +9621,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #0a497e;
+  background: #95cd3b;
   text-transform: uppercase;
   color: #fff;
 }
@@ -9702,11 +9650,11 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-multiview .multiview-matches .single-multiview .multiview-content {
   display: none;
-  border-bottom: 5px solid #0a497e;
+  border-bottom: 5px solid #95cd3b;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper {
-  background: #c2c2c2;
+  background: #607d8b;
   border-bottom: 1px solid #977fb1;
   display: inline-block;
   width: 100%;
@@ -9751,9 +9699,9 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .match-info .score {
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/live-result-background.jpg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/live-result-background.jpg);
   background-size: 100% 100%;
-  border: 1px solid #005293;
+  border: 1px solid #95cd3b;
   width: 35px;
   float: left;
   display: inline-block;
@@ -9766,7 +9714,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 19px;
   font-size: 13px;
   font-weight: bold;
-  color: #005293;
+  color: #95cd3b;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .match-info .team-names {
@@ -9790,7 +9738,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view {
-  background: #c2c2c2;
+  background: #607d8b;
   border-radius: 3px;
   cursor: pointer;
   border: 1px solid #977fb1;
@@ -9811,28 +9759,28 @@ footer.center-footer .footer-logos .group-1 {
   margin: 5px 6px 4px;
   width: 36px;
   height: 25px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/soccer-field.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/soccer-field.svg);
   background-size: 100% 100%;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.basketball {
-  background-image: url(//nextra.pcluster.info/bsport10/images/basketball-field.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/basketball-field.png);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-5 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/tennis-field.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/tennis-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-2 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/basketball-field.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/basketball-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-4 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/hockey-field.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/hockey-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-23 {
-  background-image: url(//nextra.pcluster.info/bsport10/images/volleyball-field.svg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/volleyball-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .expand-wrapper {
@@ -9864,7 +9812,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: 500;
   padding-left: 10px;
   line-height: 24px;
-  background: #c2c2c2;
+  background: #607d8b;
   border-top: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -9913,7 +9861,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .odds-wrapper .odds-holder .single-odd:hover {
-  background: gainsboro;
+  background: #7b96a3;
   color: white;
 }
 
@@ -10071,7 +10019,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button .ui-icon,
 .logged-page .registration-holder .form-holder form .input-wrapper select .ui-icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -10082,7 +10030,7 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
@@ -10108,7 +10056,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(96, 125, 139, 0.2);
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .check-label {
@@ -10153,7 +10101,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #005293;
+  border: 2px solid #95cd3b;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -10162,7 +10110,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #95cd3b;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10184,14 +10132,14 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #95cd3b;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(96, 125, 139, 0.2);
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio-label {
@@ -10228,7 +10176,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .note {
   font-size: 11px;
-  color: #005293;
+  color: #95cd3b;
   line-height: 18px;
   padding-right: 30px;
 }
@@ -10259,7 +10207,7 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 3px;
   cursor: pointer;
   float: none;
-  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -10280,7 +10228,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .registration-holder .form-holder form .buttons .single-button.proceed {
-  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/proceed-button.png);
   background-color: #3a8c43;
 }
 
@@ -10412,7 +10360,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper textarea {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   background: #e5e5e5;
   width: 100%;
   padding: 5px;
@@ -10424,7 +10372,7 @@ footer.center-footer .footer-logos .group-1 {
 .registration-page .registration-holder .form-holder form .input-wrapper input[type="password"],
 .registration-page .registration-holder .form-holder form .input-wrapper input[type="number"] {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -10435,8 +10383,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button,
 .registration-page .registration-holder .form-holder form .input-wrapper select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #607d8b;
+  background-color: #607d8b;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -10449,12 +10397,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button:hover,
 .registration-page .registration-holder .form-holder form .input-wrapper select:hover {
-  background-color: #cfcfcf;
+  background-color: #6b8a99;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button .ui-icon,
 .registration-page .registration-holder .form-holder form .input-wrapper select .ui-icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -10465,12 +10413,12 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #607d8b;
+  background-color: #607d8b;
   height: 24px;
   line-height: 22px;
   color: #ebebeb;
@@ -10491,7 +10439,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(96, 125, 139, 0.2);
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .check-label {
@@ -10536,7 +10484,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #005293;
+  border: 2px solid #95cd3b;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -10545,7 +10493,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #95cd3b;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10567,14 +10515,14 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #95cd3b;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(96, 125, 139, 0.2);
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio-label {
@@ -10611,7 +10559,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .note {
   font-size: 11px;
-  color: #003660;
+  color: #79aa2b;
   line-height: 18px;
   padding-right: 30px;
 }
@@ -10643,7 +10591,7 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 3px;
   cursor: pointer;
   float: none;
-  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -10664,7 +10612,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .registration-page .registration-holder .form-holder form .buttons .single-button.proceed {
-  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/proceed-button.png);
   background-color: #3a8c43;
 }
 
@@ -10730,7 +10678,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   line-height: 30px;
   margin: 0 2px 0 290px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/proceed-button.png);
   background-color: #2e9c3d;
 }
 
@@ -10750,7 +10698,7 @@ footer.center-footer .footer-logos .group-1 {
 .registration-page.agent-registration .agent-buttons {
   text-align: center;
   padding: 30px 0;
-  background-color: #b5b5b5;
+  background-color: #566f7c;
 }
 
 .registration-page.agent-registration .agent-buttons .single-button {
@@ -10880,7 +10828,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .help-page {
-  border-top: 4px solid #c2c2c2;
+  border-top: 4px solid #607d8b;
 }
 
 .help-page .center-content.default-page-content {
@@ -10891,7 +10839,7 @@ footer.center-footer .footer-logos .group-1 {
   border: 2px solid #d5cccc;
   display: inline-block;
   width: 100%;
-  background: #c2c2c2;
+  background: #607d8b;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -10907,7 +10855,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .help-page .help-menu ul li:hover, .help-page .help-menu ul li.open {
-  background-color: gainsboro;
+  background-color: #7b96a3;
 }
 
 .help-page .help-menu ul li a,
@@ -10923,7 +10871,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .help-page .help-menu ul li.selected a {
   font-weight: 500;
-  color: #0a497e;
+  color: #95cd3b;
 }
 
 .help-page .help-menu ul li span {
@@ -10958,16 +10906,16 @@ footer.center-footer .footer-logos .group-1 {
 
 .help-page .help-menu ul li .sub-menu li a {
   font-size: 12px;
-  color: #c2c2c2;
+  color: #607d8b;
 }
 
 .help-page .help-menu ul li .sub-menu li a:hover {
-  color: #0a497e;
+  color: #95cd3b;
 }
 
 .help-page .help-menu ul li .sub-menu li.selected a {
   font-weight: 500;
-  color: #0a497e;
+  color: #95cd3b;
 }
 
 .help-page .help-menu ul li.has-sub-menu span {
@@ -10986,7 +10934,7 @@ footer.center-footer .footer-logos .group-1 {
   height: 18px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
   -webkit-transition: 0.3s all;
@@ -11145,7 +11093,7 @@ footer.center-footer .footer-logos .group-1 {
 .forgot-password-page .forgot-password-holder .forgot-password-content .form-holder input[type="text"] {
   display: inline-block;
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -11169,7 +11117,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   line-height: 30px;
   margin: 0 2px 0 290px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/proceed-button.png);
   background-color: #2e9c3d;
 }
 
@@ -11247,7 +11195,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper {
-  background-color: #c2c2c2;
+  background-color: #607d8b;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -11261,8 +11209,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper.ui-state-active, .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper:hover {
   background: #ebebeb;
-  color: #c2c2c2;
-  border-color: #c2c2c2;
+  color: #607d8b;
+  border-color: #607d8b;
 }
 
 .logged-page .logged-menu {
@@ -11355,7 +11303,7 @@ footer.center-footer .footer-logos .group-1 {
   height: 18px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
   -webkit-transition: 0.3s all;
@@ -11498,14 +11446,14 @@ footer.center-footer .footer-logos .group-1 {
   cursor: pointer;
   margin-top: 5px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/remove-row.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/remove-row.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(1) .add-remove-icon.add,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(1) .add-remove-icon.add {
-  background-image: url(//nextra.pcluster.info/bsport10/images/add-row.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/add-row.png);
   margin-bottom: 5px;
 }
 
@@ -11604,13 +11552,13 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:hover ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:hover ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(96, 125, 139, 0.2);
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:checked ~ .checkmark {
-  border-color: #b5b5b5;
-  background-color: #b5b5b5;
+  border-color: #566f7c;
+  background-color: #566f7c;
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked ~ .checkmark:after,
@@ -11620,7 +11568,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked:hover ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:checked:hover ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.8);
+  background-color: rgba(96, 125, 139, 0.8);
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check.valid,
@@ -11630,7 +11578,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th input[type="text"],
 .logged-page .logged-table.cashdesk-table tr td input[type="text"] {
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   border-radius: 3px;
   font-weight: bold;
   font-size: 13px;
@@ -11769,7 +11717,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .cashdesk-content {
   width: 100%;
   display: inline-block;
-  border-bottom: 5px solid #0a497e;
+  border-bottom: 5px solid #95cd3b;
   background-color: #d4d4d4;
 }
 
@@ -11802,12 +11750,12 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:hover ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(96, 125, 139, 0.2);
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked ~ .checkmark {
-  border-color: #0a96f0;
-  background-color: #0a96f0;
+  border-color: #525b61;
+  background-color: #525b61;
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked ~ .checkmark:after {
@@ -11815,7 +11763,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked:hover ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.8);
+  background-color: rgba(96, 125, 139, 0.8);
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group > span {
@@ -11881,7 +11829,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .cashdesk-tabs .row .stake-holder input {
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   border-radius: 3px;
   font-weight: bold;
   font-size: 10px;
@@ -11906,7 +11854,7 @@ footer.center-footer .footer-logos .group-1 {
   padding-right: 8px;
   border-radius: 3px;
   cursor: pointer;
-  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -11928,7 +11876,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .cashdesk-content .cashdesk-tabs .row .buttons div.proceed {
   margin-right: 0;
-  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/proceed-button.png);
   background-color: #2e9c3d;
 }
 
@@ -12029,7 +11977,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table tr td:nth-child(2) .hour {
-  color: #042037;
+  color: #6b9526;
 }
 
 .logged-page .transactions-table tr td.fifteen i {
@@ -12068,14 +12016,14 @@ footer.center-footer .footer-logos .group-1 {
   height: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-image: url(//nextra.pcluster.info/bsport10/images/check-purple-transparent.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/check-purple-transparent.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .logged-page .transactions-table tr td.status-cell .status.not-checked {
-  background-image: url(//nextra.pcluster.info/bsport10/images/cross-red.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cross-red.png);
   background-size: auto;
   height: 17px;
   width: 21px;
@@ -12119,7 +12067,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table.coupon-details-table tr td {
-  color: #c2c2c2;
+  color: #607d8b;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.3;
@@ -12211,7 +12159,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table.coupon-details-table thead tr th {
-  background: #c2c2c2;
+  background: #607d8b;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -12378,7 +12326,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .message-details-table {
   width: 100%;
-  background: #c2c2c2;
+  background: #607d8b;
 }
 
 .logged-page .message-details-table tr {
@@ -12406,7 +12354,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .message-details-table tr td .time {
-  color: #005293;
+  color: #95cd3b;
 }
 
 .logged-page .message-details-table tr td .red {
@@ -12418,9 +12366,9 @@ footer.center-footer .footer-logos .group-1 {
   padding: 40px;
   background: #edeced;
   font-size: 12px;
-  color: #c2c2c2;
+  color: #607d8b;
   line-height: 18px;
-  border-bottom: 5px solid #0a497e;
+  border-bottom: 5px solid #95cd3b;
 }
 
 .logged-page .message-content .buttons {
@@ -12440,7 +12388,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -12455,7 +12403,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .message-content .buttons .single-button.delete-button {
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -12467,14 +12415,14 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .message-content .buttons .single-button.reply-button {
   margin-right: 0;
   float: right;
-  background-color: #0a96f0;
-  background-image: url(//nextra.pcluster.info/bsport10/images/reply-button.png);
-  -webkit-box-shadow: inset 0 1px #0981ce;
-          box-shadow: inset 0 1px #0981ce;
+  background-color: #525b61;
+  background-image: url(//nextra.pcluster.info/bbgame/images/reply-button.png);
+  -webkit-box-shadow: inset 0 1px #42494e;
+          box-shadow: inset 0 1px #42494e;
 }
 
 .logged-page .message-content .buttons .single-button.reply-button:hover {
-  background-color: #0981ce;
+  background-color: #42494e;
 }
 
 .logged-center {
@@ -12585,7 +12533,7 @@ footer.center-footer .footer-logos .group-1 {
   right: 0px;
   top: 3px;
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/bsport10/images/search-icon-gray.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/search-icon-gray.png);
   background-position: center;
   background-size: 50% auto;
   background-repeat: no-repeat;
@@ -12753,7 +12701,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .change-password-page .input-wrapper input[type="number"],
 .logged-center .change-password-page .input-wrapper input[type="date"] {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -12783,7 +12731,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .change-password-page .input-wrapper .ui-selectmenu-button,
 .logged-center .change-password-page .input-wrapper select {
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   background-color: var(--bg1);
   color: var(--col1);
   font-size: 12px;
@@ -12810,7 +12758,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .change-password-page .input-wrapper .ui-selectmenu-button .ui-icon,
 .logged-center .change-password-page .input-wrapper select .ui-icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -12848,7 +12796,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #005293;
+  border: 2px solid #95cd3b;
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -12857,7 +12805,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #95cd3b;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -12879,14 +12827,14 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #95cd3b;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(96, 125, 139, 0.2);
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio-label {
@@ -12913,7 +12861,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .change-password-page.edit-user-page {
   background-color: #f8f8f8;
-  color: #bababa;
+  color: #5a7582;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12953,7 +12901,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  background-color: #9c9c9c;
+  background-color: #41545e;
   display: inline-block;
 }
 
@@ -12974,7 +12922,7 @@ footer.center-footer .footer-logos .group-1 {
   float: right;
   margin-right: 30px;
   float: right;
-  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/proceed-button.png);
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: #2e9c3d;
@@ -12990,7 +12938,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   margin-left: 30px;
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -13080,7 +13028,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .transaction-filters .row .row-content .input-holder .ui-selectmenu-button .ui-icon,
 .logged-center .transaction-filters .row .row-content .input-holder select .ui-icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -13117,7 +13065,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-center .transaction-filters .row .row-content input[type="date"] {
-  background-image: url(//nextra.pcluster.info/bsport10/images/calendar-white.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/calendar-white.png);
   background-size: auto 60%;
   background-position: right 8px center;
   background-repeat: no-repeat;
@@ -13179,7 +13127,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -13195,7 +13143,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .transaction-filters .row .buttons-holder .single-button.cancel-button {
   margin-left: 30px;
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -13207,14 +13155,14 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button {
   margin-right: 30px;
   float: right;
-  background-color: #0a96f0;
-  background-image: url(//nextra.pcluster.info/bsport10/images/search-icon.png);
-  -webkit-box-shadow: inset 0 1px #0981ce;
-          box-shadow: inset 0 1px #0981ce;
+  background-color: #525b61;
+  background-image: url(//nextra.pcluster.info/bbgame/images/search-icon.png);
+  -webkit-box-shadow: inset 0 1px #42494e;
+          box-shadow: inset 0 1px #42494e;
 }
 
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button:hover {
-  background-color: #0981ce;
+  background-color: #42494e;
 }
 
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button.new {
@@ -13225,7 +13173,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .transaction-filters .row .buttons-holder .single-button.proceed-button {
   margin-right: 30px;
   float: right;
-  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/proceed-button.png);
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: #2e9c3d;
@@ -13255,7 +13203,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-content {
-  background: #c2c2c2;
+  background: #607d8b;
   padding: 5px;
   min-height: 800px;
   width: 100%;
@@ -13276,13 +13224,13 @@ footer.center-footer .footer-logos .group-1 {
   padding: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #9c9c9c;
+  background-color: #41545e;
 }
 
 .logged-content .info-text.big {
   font-weight: normal;
   font-size: 16px;
-  border-top: 1px solid #c2c2c2;
+  border-top: 1px solid #607d8b;
 }
 
 .logged-content.fund-transfer-content {
@@ -13484,7 +13432,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   font-size: 13px;
   border-radius: 3px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   width: calc(100% - 82px);
   padding: 0 0 0 6px;
 }
@@ -13542,11 +13490,11 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  border: 2px solid darkgray;
+  border: 2px solid #4b626d;
 }
 
 .logged-content .messages table tr td .status.read:after {
-  background-color: #005293;
+  background-color: #95cd3b;
 }
 
 .logged-content .messages .table-legend {
@@ -13569,8 +13517,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-content .messages .table-legend div .icon {
   position: absolute;
-  background: #005293;
-  border: 2px solid #005293;
+  background: #95cd3b;
+  border: 2px solid #95cd3b;
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -13583,7 +13531,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-content .messages .table-legend div.read .icon {
   background: transparent;
-  border: 2px solid #c2c2c2;
+  border: 2px solid #607d8b;
 }
 
 .logged-content .messages .table-legend a {
@@ -13611,14 +13559,14 @@ footer.center-footer .footer-logos .group-1 {
   height: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-image: url(//nextra.pcluster.info/bsport10/images/check-purple-transparent.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/check-purple-transparent.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .logged-content .transactions table tr td.status-cell .status.not-checked {
-  background-image: url(//nextra.pcluster.info/bsport10/images/cross-red.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cross-red.png);
   background-size: auto;
   height: 17px;
   width: 21px;
@@ -13650,7 +13598,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .event-list-legend-holder {
-  background: #9e9e9e;
+  background: #435761;
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13659,7 +13607,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .event-list-legend-holder .legend {
-  background: #c2c2c2;
+  background: #607d8b;
   border: none;
   width: calc(100%);
   line-height: 22px;
@@ -13868,7 +13816,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .reports-table .logged-table tbody tr.colored-row {
-  background-color: #e8e8e8;
+  background-color: #8aa2ae;
 }
 
 .reports-table .logged-table tbody tr.colored-row td {
@@ -13906,11 +13854,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .reports-table .logged-table tfoot tr {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(165, 184, 193, 0.3);
 }
 
 .reports-table .logged-table tfoot tr td {
-  color: #9c9c9c;
+  color: #41545e;
   font-weight: bold;
   background-color: transparent;
 }
@@ -13965,11 +13913,11 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   display: inline-block;
   width: 100%;
-  background: #0a497e;
+  background: #95cd3b;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: inset 0px 1px 0 #0a497e;
-          box-shadow: inset 0px 1px 0 #0a497e;
+  -webkit-box-shadow: inset 0px 1px 0 #95cd3b;
+          box-shadow: inset 0px 1px 0 #95cd3b;
 }
 
 .reports .calculations .single-calculation .holder {
@@ -14161,24 +14109,24 @@ footer.center-footer .footer-logos .group-1 {
   padding-left: 20px;
   font-size: 13px;
   font-weight: 500;
-  background-image: url(//nextra.pcluster.info/bsport10/images/cross-red.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cross-red.png);
   background-size: 14px;
   background-position: left 3px top 5px;
   background-repeat: no-repeat;
 }
 
 .transactions-legend-holder .legend .single-item.running {
-  background-image: url(//nextra.pcluster.info/bsport10/images/runnning-icon-white.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/runnning-icon-white.png);
   background-position: left 1px top 3px;
 }
 
 .transactions-legend-holder .legend .single-item.pending {
-  background-image: url(//nextra.pcluster.info/bsport10/images/pending-icon.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/pending-icon.png);
   background-position: left 1px top 3px;
 }
 
 .transactions-legend-holder .legend .single-item.complete {
-  background-image: url(//nextra.pcluster.info/bsport10/images/check-green.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/check-green.png);
   background-position: left 1px top 5px;
 }
 
@@ -14202,7 +14150,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .transactions-legend-holder .rows-per-page .ui-selectmenu-button .ui-icon,
 .transactions-legend-holder .rows-per-page select .ui-icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -14233,12 +14181,12 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-legend-holder .legend .single-item.complete {
-  background-image: url(//nextra.pcluster.info/bsport10/images/plus.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/plus.png);
   background-position: top 3px left;
 }
 
 .logged-page .transactions-legend-holder .legend .single-item.failed {
-  background-image: url(//nextra.pcluster.info/bsport10/images/minus.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/minus.png);
   background-position: top 4px left;
 }
 
@@ -14283,7 +14231,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #8f8f8f;
+  color: #36474f;
   padding: 10px;
   z-index: 99999;
 }
@@ -14469,7 +14417,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="number"],
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="date"] {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -14571,8 +14519,8 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #607d8b;
+  background-color: #607d8b;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -14617,7 +14565,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select:hover,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button:hover,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select:hover {
-  background-color: #cfcfcf;
+  background-color: #6b8a99;
 }
 
 .coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .ui-selectmenu-button .ui-icon,
@@ -14628,7 +14576,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select .ui-icon,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button .ui-icon,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select .ui-icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -14665,7 +14613,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #0a497e;
+  background: #95cd3b;
   text-transform: uppercase;
 }
 
@@ -14848,7 +14796,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table thead tr th,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table thead tr th,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table thead tr th {
-  background: #c2c2c2;
+  background: #607d8b;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -14888,7 +14836,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tbody tr td span.colored,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tbody tr td span.colored,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tbody tr td span.colored {
-  color: #e8e8e8;
+  color: #8aa2ae;
   font-weight: bold;
 }
 
@@ -14905,7 +14853,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-date-info,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info {
-  border-left: 1px solid gainsboro;
+  border-left: 1px solid #7b96a3;
   float: left;
   padding: 10px;
   -webkit-box-sizing: border-box;
@@ -14931,7 +14879,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-code,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-code,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-code {
-  border-left: 1px solid gainsboro;
+  border-left: 1px solid #7b96a3;
   line-height: 32px;
   padding: 10px;
   font-size: 16px;
@@ -14943,7 +14891,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details {
-  border-left: 1px solid gainsboro;
+  border-left: 1px solid #7b96a3;
   float: left;
   color: white;
   padding: 10px;
@@ -14981,7 +14929,7 @@ footer.center-footer .footer-logos .group-1 {
   margin: 7px 10px;
   padding: 4px;
   border-radius: 3px;
-  background-color: white;
+  background-color: #a5b8c1;
   display: inline-block;
 }
 
@@ -15115,7 +15063,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .message .message-title span,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .message .message-title span {
   display: inline-block;
-  color: #c2c2c2;
+  color: #607d8b;
   font-size: 16px;
   line-height: 44px;
   font-weight: bold;
@@ -15225,7 +15173,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 36px;
   font-size: 13px;
   font-weight: 500;
-  color: #c2c2c2;
+  color: #607d8b;
   border-bottom: 2px solid #d4d2d2;
 }
 
@@ -15307,7 +15255,7 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   font-size: 18px;
   font-weight: bold;
-  color: #c2c2c2;
+  color: #607d8b;
   line-height: 52px;
 }
 
@@ -15354,7 +15302,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details {
-  background: #c2c2c2;
+  background: #607d8b;
   padding-bottom: 30px;
 }
 
@@ -15391,7 +15339,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table tr td,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table tr td {
   font-size: 13px;
-  color: #c2c2c2;
+  color: #607d8b;
   font-weight: 500;
   height: 30px;
   padding: 5px 0 5px 10px;
@@ -15481,7 +15429,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td {
-  color: #c2c2c2;
+  color: #607d8b;
   font-size: 12px;
   font-weight: normal;
 }
@@ -15561,7 +15509,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table thead tr th,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table thead tr th,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table thead tr th {
-  background: #c2c2c2;
+  background: #607d8b;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -15586,7 +15534,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list.system-details {
   padding-bottom: 30px;
-  background: #c2c2c2;
+  background: #607d8b;
 }
 
 .coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details table tr td,
@@ -15657,7 +15605,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block p,
 .login-popup-wrapper .popup-content .first-blocks .block p {
   font-size: 13px;
-  color: #c2c2c2;
+  color: #607d8b;
   line-height: 15px;
 }
 
@@ -15723,7 +15671,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.print-button,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.print-button {
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/print-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/print-button.png);
   background-color: #2e9c3d;
 }
 
@@ -15735,15 +15683,15 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button {
   margin-right: 0;
-  background-color: #0a96f0;
-  background-image: url(//nextra.pcluster.info/bsport10/images/send-button.png);
-  -webkit-box-shadow: inset 0 1px #0981ce;
-          box-shadow: inset 0 1px #0981ce;
+  background-color: #525b61;
+  background-image: url(//nextra.pcluster.info/bbgame/images/send-button.png);
+  -webkit-box-shadow: inset 0 1px #42494e;
+          box-shadow: inset 0 1px #42494e;
 }
 
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover {
-  background-color: #0981ce;
+  background-color: #42494e;
 }
 
 .coupon-popup-wrapper .popup-content .first-blocks .block:first-child,
@@ -15805,7 +15753,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .betslip-info .big-title,
 .login-popup-wrapper .popup-content .betslip-info .big-title {
   font-weight: 900;
-  color: #c2c2c2;
+  color: #607d8b;
 }
 
 .coupon-popup-wrapper .popup-content .betslip-info .big-title span,
@@ -15816,7 +15764,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .coupon-popup-wrapper .popup-content .betslip-info .details,
 .login-popup-wrapper .popup-content .betslip-info .details {
-  color: #c2c2c2;
+  color: #607d8b;
   font-size: 12px;
   font-weight: bold;
 }
@@ -15844,13 +15792,13 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   text-align: center;
   line-height: 34px;
-  background: #c2c2c2;
+  background: #607d8b;
 }
 
 .coupon-popup-wrapper .popup-content .betslip-table tr td,
 .login-popup-wrapper .popup-content .betslip-table tr td {
   font-size: 13px;
-  color: #c2c2c2;
+  color: #607d8b;
   line-height: 34px;
   text-align: center;
 }
@@ -15967,8 +15915,8 @@ footer.center-footer .footer-logos .group-1 {
   color: #ebebeb;
   font-size: 14px;
   font-weight: bold;
-  background-color: #0a96f0;
-  background-image: url(//nextra.pcluster.info/bsport10/images/show-all-icon.png);
+  background-color: #525b61;
+  background-image: url(//nextra.pcluster.info/bbgame/images/show-all-icon.png);
 }
 
 .search-results-popup .search-results-content .inner-wrapper {
@@ -16012,10 +15960,10 @@ footer.center-footer .footer-logos .group-1 {
   border-bottom-left-radius: 3px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
-  background-color: #0a497e;
+  background-color: #95cd3b;
   color: #fff;
   font-size: 0;
-  background-image: url(//nextra.pcluster.info/bsport10/images/search-icon.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/search-icon.png);
   background-size: 45% auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -16024,16 +15972,16 @@ footer.center-footer .footer-logos .group-1 {
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form input[type="submit"]:hover,
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form input[type="button"]:hover,
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form .button:hover {
-  background-color: #0e64ad;
+  background-color: #abd764;
 }
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-title {
-  background: #c2c2c2;
+  background: #607d8b;
   height: 36px;
   display: inline-block;
   width: 100%;
-  -webkit-box-shadow: inset 0px 1px 0 #cfcfcf;
-          box-shadow: inset 0px 1px 0 #cfcfcf;
+  -webkit-box-shadow: inset 0px 1px 0 #6b8a99;
+          box-shadow: inset 0px 1px 0 #6b8a99;
   font-size: 14px;
   color: #ebebeb;
   line-height: 36px;
@@ -16094,7 +16042,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.date {
   width: 50px;
-  color: #c2c2c2;
+  color: #607d8b;
   font-size: 12px;
   font-weight: 500;
   line-height: 14px;
@@ -16104,7 +16052,7 @@ footer.center-footer .footer-logos .group-1 {
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.team-names {
   line-height: 28px;
   width: 540px;
-  color: #c2c2c2;
+  color: #607d8b;
   font-size: 13px;
   font-weight: bold;
 }
@@ -16157,11 +16105,11 @@ footer.center-footer .footer-logos .group-1 {
           flex: 1 0 19px;
   font-size: 9px;
   color: #ebebeb;
-  background: darkgray;
+  background: #4b626d;
 }
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.odds-holder .single-odd .quote {
-  color: darkgray;
+  color: #4b626d;
   font-size: 12px;
   font-weight: bold;
   -webkit-box-flex: 1;
@@ -16218,7 +16166,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #0a497e;
+  background: #95cd3b;
   text-transform: uppercase;
 }
 
@@ -16233,7 +16181,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
-  background-color: #9c9c9c;
+  background-color: #41545e;
   color: white;
   padding: 0 15px;
   font-size: 15px;
@@ -16278,7 +16226,7 @@ footer.center-footer .footer-logos .group-1 {
   max-width: 50%;
   display: inline-block;
   background-color: transparent;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 5px;
@@ -16312,7 +16260,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  background-color: #9c9c9c;
+  background-color: #41545e;
   display: inline-block;
 }
 
@@ -16332,17 +16280,17 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 33px;
   margin: 0 2px;
   margin-right: 0;
-  background-color: #0a96f0;
-  background-image: url(//nextra.pcluster.info/bsport10/images/send-button.png);
-  -webkit-box-shadow: inset 0 1px #0981ce;
-          box-shadow: inset 0 1px #0981ce;
+  background-color: #525b61;
+  background-image: url(//nextra.pcluster.info/bbgame/images/send-button.png);
+  -webkit-box-shadow: inset 0 1px #42494e;
+          box-shadow: inset 0 1px #42494e;
   float: left;
   border: none;
 }
 
 .login-popup .login-content form .button-holder div:hover,
 .login-popup .login-content form .button-holder input[type="submit"]:hover {
-  background-color: #0981ce;
+  background-color: #42494e;
 }
 
 .login-popup .login-content form .button-holder div.register-button,
@@ -16352,7 +16300,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-shadow: inset 0 1px #ee6704;
           box-shadow: inset 0 1px #ee6704;
   background-color: #fb6e06;
-  background-image: url(//nextra.pcluster.info/bsport10/images/register-white.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/register-white.png);
 }
 
 .login-popup .login-content form .button-holder div.register-button:hover,
@@ -16396,7 +16344,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #8f8f8f;
+  color: #36474f;
   padding: 10px;
   z-index: 99999;
 }
@@ -16423,7 +16371,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #005293;
+  color: #95cd3b;
 }
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16442,7 +16390,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -16457,7 +16405,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.confirm-button {
   float: right;
-  background-image: url(//nextra.pcluster.info/bsport10/images/confirm-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/confirm-button.png);
   background-color: #2e9c3d;
 }
 
@@ -16468,7 +16416,7 @@ footer.center-footer .footer-logos .group-1 {
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.cancel-button {
   float: left;
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -16525,7 +16473,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #8f8f8f;
+  color: #36474f;
   padding: 10px;
   z-index: 99999;
 }
@@ -16548,12 +16496,12 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 22px;
   width: calc(100% - 54px);
-  color: #c2c2c2;
+  color: #607d8b;
   font-size: 16px;
 }
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #005293;
+  color: #95cd3b;
 }
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16572,7 +16520,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -16587,7 +16535,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.confirm-button {
   float: right;
-  background-image: url(//nextra.pcluster.info/bsport10/images/confirm-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/confirm-button.png);
   background-color: #2e9c3d;
 }
 
@@ -16598,7 +16546,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.cancel-button {
   float: left;
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -16656,7 +16604,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #8f8f8f;
+  color: #36474f;
   padding: 10px;
   z-index: 99999;
 }
@@ -16679,12 +16627,12 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 22px;
   width: calc(100% - 54px);
-  color: #c2c2c2;
+  color: #607d8b;
   font-size: 16px;
 }
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #005293;
+  color: #95cd3b;
 }
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16703,7 +16651,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -16718,7 +16666,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.confirm-button {
   float: right;
-  background-image: url(//nextra.pcluster.info/bsport10/images/confirm-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/confirm-button.png);
   background-color: #2e9c3d;
 }
 
@@ -16729,7 +16677,7 @@ footer.center-footer .footer-logos .group-1 {
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.cancel-button {
   float: left;
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -16843,7 +16791,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .payment-method-table table tbody tr td:nth-child(3) .purple, .payment-method-table table tbody tr td:nth-child(4) .purple, .payment-method-table table tbody tr td:nth-child(5) .purple {
-  background: #0a96f0;
+  background: #525b61;
   color: #ebebeb;
   line-height: 50px;
   text-align: center;
@@ -16907,11 +16855,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .messages-page .message-content .buttons .single-button.back-button {
-  background-image: url(//nextra.pcluster.info/bsport10/images/search-icon-green.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/search-icon-green.png);
 }
 
 .messages-page .message-content .buttons .single-button.reply-button {
-  background-image: url(//nextra.pcluster.info/bsport10/images/send-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/send-button.png);
 }
 
 .messages-page .logged-table tr td {
@@ -16959,7 +16907,7 @@ footer.center-footer .footer-logos .group-1 {
   padding-right: 8px;
   border-radius: 3px;
   cursor: pointer;
-  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 4px;
   background-repeat: no-repeat;
@@ -17157,7 +17105,7 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   padding: 25px;
   border-bottom: 1px solid #d7d7d7;
-  color: #c2c2c2;
+  color: #607d8b;
 }
 
 .deposit-page .block .right-content .wrapper:last-child {
@@ -17187,7 +17135,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .input-group .label {
   width: calc(100% - 200px);
   float: left;
-  color: #c2c2c2;
+  color: #607d8b;
   font-size: 13px;
   font-weight: 500;
   line-height: 30px;
@@ -17196,7 +17144,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .input-group input {
   padding: 5px;
   height: 30px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   border-radius: 3px;
   background-color: transparent;
   float: left;
@@ -17216,8 +17164,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button,
 .deposit-page .block .right-content .wrapper .input-group select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #607d8b;
+  background-color: #607d8b;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -17243,12 +17191,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button:hover,
 .deposit-page .block .right-content .wrapper .input-group select:hover {
-  background-color: #cfcfcf;
+  background-color: #6b8a99;
 }
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button .ui-icon,
 .deposit-page .block .right-content .wrapper .input-group select .ui-icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -17279,7 +17227,7 @@ footer.center-footer .footer-logos .group-1 {
   height: 30px;
   display: inline-block;
   padding: 0 12px;
-  background: #c2c2c2;
+  background: #607d8b;
   margin-right: 5px;
   border-radius: 3px;
   color: white;
@@ -17290,7 +17238,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount.first-amount {
   width: 30px;
   text-align: center;
-  background-color: #c2c2c2;
+  background-color: #607d8b;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-right: 20px;
@@ -17303,11 +17251,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount:hover {
-  background-color: darkgray;
+  background-color: #4b626d;
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount.selected {
-  background-color: #005293;
+  background-color: #95cd3b;
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .amount-block {
@@ -17329,7 +17277,7 @@ footer.center-footer .footer-logos .group-1 {
   padding-right: 8px;
   border-radius: 3px;
   cursor: pointer;
-  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -17349,7 +17297,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .deposit-page .block .right-content .wrapper .buttons div.proceed-button {
-  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/proceed-button.png);
   background-color: #2e9c3d;
   float: right;
 }
@@ -17394,7 +17342,7 @@ footer.center-footer .footer-logos .group-1 {
   margin: 0 10px;
   width: calc(100% - 120px);
   float: left;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   padding: 0 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -17426,7 +17374,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page.bonus-page .block-holder .block .right-content .progress-content p {
   width: 100%;
-  color: #c2c2c2;
+  color: #607d8b;
   line-height: 1.1;
   font-size: 14px;
   text-align: center;
@@ -17438,8 +17386,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 45px;
-  background: #c2c2c2;
-  border: 1px solid #e8e8e8;
+  background: #607d8b;
+  border: 1px solid #8aa2ae;
   line-height: 36px;
   height: 36px;
   width: calc(100% - 90px);
@@ -17452,7 +17400,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 65px;
   text-align: center;
   font-size: 10px;
-  color: #c2c2c2;
+  color: #607d8b;
   line-height: 36px;
 }
 
@@ -17467,7 +17415,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 0;
   top: 0;
   left: 0;
-  background: #e8e8e8;
+  background: #8aa2ae;
 }
 
 .coupon-details-page-content {
@@ -17498,7 +17446,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 38px;
   font-size: 14px;
-  color: #c2c2c2;
+  color: #607d8b;
 }
 
 .coupon-details-page-content .row .content {
@@ -17509,8 +17457,8 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-details-page-content .row .content .status {
   float: right;
   line-height: 28px;
-  border: 1px solid #c2c2c2;
-  color: #c2c2c2;
+  border: 1px solid #607d8b;
+  color: #607d8b;
   font-size: 13px;
   border-radius: 3px;
   padding: 0 5px;
@@ -17539,7 +17487,7 @@ footer.center-footer .footer-logos .group-1 {
   padding: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #8f8f8f;
+  background: #36474f;
 }
 
 .coupon-details-buttons .button {
@@ -17613,19 +17561,19 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .coupon-details-buttons .button.explode {
-  background-color: gainsboro;
+  background-color: #7b96a3;
 }
 
 .coupon-details-buttons .button.explode i {
-  color: gainsboro;
+  color: #7b96a3;
 }
 
 .coupon-details-buttons .button.explode:hover {
-  background-color: #cfcfcf;
+  background-color: #6b8a99;
 }
 
 .coupon-details-buttons .button.explode:hover i {
-  color: #cfcfcf;
+  color: #6b8a99;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -17711,7 +17659,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 300px;
   margin: 20px;
   display: inline-block;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #8aa2ae;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .text-wrapper {
@@ -17757,8 +17705,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 45px;
-  background: #c2c2c2;
-  border: 1px solid #e8e8e8;
+  background: #607d8b;
+  border: 1px solid #8aa2ae;
   line-height: 20px;
   height: 20px;
   width: calc(100% - 90px);
@@ -17786,12 +17734,12 @@ footer.center-footer .footer-logos .group-1 {
   width: 0;
   top: 0;
   left: 0;
-  background: #e8e8e8;
+  background: #8aa2ae;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons {
   margin: 5px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #8aa2ae;
   display: inline-block;
   width: calc(100% - 10px);
 }
@@ -17802,17 +17750,17 @@ footer.center-footer .footer-logos .group-1 {
   color: white;
   line-height: 34px;
   padding: 0 10px;
-  background-color: #fafafa;
+  background-color: #9fb3bc;
   border-radius: 4px;
   margin: 5px 10px;
   font-size: 14px;
-  -webkit-box-shadow: inset 0 1px white;
-          box-shadow: inset 0 1px white;
+  -webkit-box-shadow: inset 0 1px #a8bac3;
+          box-shadow: inset 0 1px #a8bac3;
   cursor: pointer;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons .button:hover {
-  background-color: #e8e8e8;
+  background-color: #8aa2ae;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons .button:first-child {
@@ -17842,9 +17790,9 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 34px;
   padding: 0 8;
   border-radius: 4px;
-  background-color: #0a96f0;
-  -webkit-box-shadow: inset 0 1px #0981ce;
-          box-shadow: inset 0 1px #0981ce;
+  background-color: #525b61;
+  -webkit-box-shadow: inset 0 1px #42494e;
+          box-shadow: inset 0 1px #42494e;
   cursor: pointer;
   margin-bottom: 10px;
 }
@@ -17856,7 +17804,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .download-button:hover {
-  background-color: #0981ce;
+  background-color: #42494e;
 }
 
 .marketing-assets-holder {
@@ -17864,7 +17812,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .marketing-assets-holder .info-text {
-  background-color: #949494;
+  background-color: #3a4c55;
   color: #ebebeb;
   font-size: 14px;
   line-height: 1.4;
@@ -17876,7 +17824,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .marketing-assets-holder .text-box h4 {
-  color: gainsboro;
+  color: #7b96a3;
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 15px;
@@ -17940,7 +17888,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .hat-trick-holder .info-text {
-  background-color: darkgray;
+  background-color: #4b626d;
   color: #ebebeb;
   line-height: 1.4;
   padding: 20px 10px;
@@ -18066,7 +18014,7 @@ footer.center-footer .footer-logos .group-1 {
 .new-profile-page input[type="number"],
 .new-profile-page input[type="date"] {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   background: #e5e5e5 !important;
   border-radius: 3px;
   height: 24px;
@@ -18121,8 +18069,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .input-wrapper .ui-selectmenu-button,
 .new-profile-page .input-wrapper select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #607d8b;
+  background-color: #607d8b;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -18149,12 +18097,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .input-wrapper .ui-selectmenu-button:hover,
 .new-profile-page .input-wrapper select:hover {
-  background-color: #cfcfcf;
+  background-color: #6b8a99;
 }
 
 .new-profile-page .input-wrapper .ui-selectmenu-button .ui-icon,
 .new-profile-page .input-wrapper select .ui-icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -18174,7 +18122,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs {
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #607d8b;
   text-align: right;
   margin-top: 10px;
   padding-right: 10px;
@@ -18186,7 +18134,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
-  color: #c2c2c2;
+  color: #607d8b;
   padding: 0 10px;
   cursor: pointer;
 }
@@ -18205,16 +18153,16 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs .single-tab:hover {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(96, 125, 139, 0.2);
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs .single-tab.active {
-  background-color: #c2c2c2;
+  background-color: #607d8b;
   color: #ebebeb;
 }
 
 .new-profile-page.betlist-checkout .accordion-tabs .single-tab.active:hover {
-  background-color: #c2c2c2;
+  background-color: #607d8b;
 }
 
 .new-profile-page.betlist-checkout .accordion-content {
@@ -18405,7 +18353,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .limit-settings .bonus-outer .bonus-wrapper {
   position: relative;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   padding: 30px 10px 10px;
   margin-top: 30px;
   width: calc(100% - 20px);
@@ -18418,9 +18366,9 @@ footer.center-footer .footer-logos .group-1 {
 .new-profile-page .limit-settings .bonus-outer .bonus-wrapper .title {
   position: absolute;
   top: -14px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   background-color: #ebebeb;
-  color: #c2c2c2;
+  color: #607d8b;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   left: 15px;
@@ -18527,7 +18475,7 @@ footer.center-footer .footer-logos .group-1 {
   margin-right: 2px;
   float: left;
   width: 90px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   box-sizing: border-box;
   line-height: 22px;
   background: transparent !important;
@@ -18591,7 +18539,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content .bonus-wrapper {
   position: relative;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   padding: 30px 10px 10px;
   margin-top: 40px;
   width: 380px;
@@ -18601,11 +18549,11 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: -14px;
   left: 30px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   background-color: #ebebeb;
   width: 200px;
   line-height: 28px;
-  color: #c2c2c2;
+  color: #607d8b;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-left: 15px;
@@ -18655,8 +18603,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button,
 .new-profile-page .turn-over-content.provider select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #607d8b;
+  background-color: #607d8b;
   color: #ebebeb;
   font-size: 12px;
   width: 120px;
@@ -18683,12 +18631,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button:hover,
 .new-profile-page .turn-over-content.provider select:hover {
-  background-color: #cfcfcf;
+  background-color: #6b8a99;
 }
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button .ui-icon,
 .new-profile-page .turn-over-content.provider select .ui-icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -18734,7 +18682,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 13px;
   margin-bottom: 13px;
   line-height: 1;
-  color: #e1e1e1;
+  color: #819ba8;
 }
 
 .contact-us-form form .input-wrapper {
@@ -18775,7 +18723,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper textarea {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   background: #e5e5e5;
   width: 100%;
   padding: 5px;
@@ -18788,7 +18736,7 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .input-wrapper input[type="password"],
 .contact-us-form form .input-wrapper input[type="number"] {
   color: #333;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #607d8b;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -18799,8 +18747,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button,
 .contact-us-form form .input-wrapper select {
-  border: 1px solid #c2c2c2;
-  background-color: #c2c2c2;
+  border: 1px solid #607d8b;
+  background-color: #607d8b;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -18813,12 +18761,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button:hover,
 .contact-us-form form .input-wrapper select:hover {
-  background-color: #cfcfcf;
+  background-color: #6b8a99;
 }
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button .ui-icon,
 .contact-us-form form .input-wrapper select .ui-icon {
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -18829,12 +18777,12 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
-  border: 1px solid #e1e1e1;
-  background-color: #e1e1e1;
+  border: 1px solid #819ba8;
+  background-color: #819ba8;
   height: 24px;
   line-height: 22px;
   color: #ebebeb;
@@ -18855,11 +18803,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .contact-us-form form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: rgba(96, 125, 139, 0.2);
 }
 
 .contact-us-form form .input-wrapper .check-label {
-  color: #e1e1e1;
+  color: #819ba8;
   font-size: 12px;
   font-weight: 500;
   float: left;
@@ -18902,7 +18850,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #005293;
+  border: 2px solid #95cd3b;
 }
 
 .contact-us-form form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -18911,7 +18859,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #95cd3b;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -18933,7 +18881,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #005293;
+  background: #95cd3b;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -18956,7 +18904,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/bsport10/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -18971,7 +18919,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .buttons-holder .single-button.cancel-button {
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -18983,14 +18931,14 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .buttons-holder .single-button.search-button {
   margin-right: 30px;
   float: right;
-  background-color: #0a96f0;
-  background-image: url(//nextra.pcluster.info/bsport10/images/search-icon.png);
-  -webkit-box-shadow: inset 0 1px #0981ce;
-          box-shadow: inset 0 1px #0981ce;
+  background-color: #525b61;
+  background-image: url(//nextra.pcluster.info/bbgame/images/search-icon.png);
+  -webkit-box-shadow: inset 0 1px #42494e;
+          box-shadow: inset 0 1px #42494e;
 }
 
 .contact-us-form form .buttons-holder .single-button.search-button:hover {
-  background-color: #0981ce;
+  background-color: #42494e;
 }
 
 .contact-us-form form .buttons-holder .single-button.search-button.new {
@@ -19001,7 +18949,7 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .buttons-holder .single-button.proceed-button {
   margin-right: 30px;
   float: right;
-  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/proceed-button.png);
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: #2e9c3d;
@@ -19130,12 +19078,12 @@ a {
 }
 
 span.ui-icon.ui-icon-circle-triangle-w {
-  background-image: url(//nextra.pcluster.info/bsport10/images/angle-left-orange.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/angle-left-orange.png);
   background-position: center;
 }
 
 span.ui-icon.ui-icon-circle-triangle-e {
-  background-image: url(//nextra.pcluster.info/bsport10/images/angle-right-orange.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/angle-right-orange.png);
   background-position: center;
 }
 
@@ -19192,14 +19140,14 @@ span.ui-icon.ui-icon-circle-triangle-e {
     background: transparent;
   }
   60% {
-    background: gainsboro;
+    background: #7b96a3;
     color: white;
   }
   70% {
     background: transparent;
   }
   80% {
-    background: gainsboro;
+    background: #7b96a3;
     color: white;
   }
   90% {
@@ -19212,14 +19160,14 @@ span.ui-icon.ui-icon-circle-triangle-e {
     background: transparent;
   }
   60% {
-    background: gainsboro;
+    background: #7b96a3;
     color: white;
   }
   70% {
     background: transparent;
   }
   80% {
-    background: gainsboro;
+    background: #7b96a3;
     color: white;
   }
   90% {
@@ -19331,7 +19279,7 @@ select option {
   margin: -50px 0 0 -50px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #c2c2c2;
+  border-top-color: #607d8b;
   -webkit-animation: spin 4s linear infinite;
   animation: spin 4s linear infinite;
   z-index: 1001;
@@ -19347,7 +19295,7 @@ select option {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: white;
+  border-top-color: #a8bac3;
   -webkit-animation: spin 3s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 3s linear infinite;
@@ -19364,7 +19312,7 @@ select option {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #005293;
+  border-top-color: #95cd3b;
   -webkit-animation: spin 5s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 5s linear infinite;
@@ -19486,7 +19434,7 @@ select option {
   width: 100%;
   background-color: var(--mainBg);
   color: var(--mainBgCol);
-  background-image: url(//nextra.pcluster.info/bsport10/images/casino/casinoBg.jpeg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/casino/casinoBg.jpeg);
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -19658,7 +19606,7 @@ select option {
 }
 
 .casino-pro-down .casino-pro-list .casino-pro-item:hover {
-  background-color: #0a96f0;
+  background-color: #525b61;
 }
 
 .casino-pro-down .casino-pro-list .casino-pro-item-img {
@@ -19782,7 +19730,7 @@ select option {
 
 .game-grid-item .gg-item-details .gg-item-ico .gg-info:hover,
 .game-grid-item .gg-item-details .gg-item-ico .gg-star:hover {
-  color: #005293;
+  color: #95cd3b;
 }
 
 .game-grid-item:hover .game-overlay {
@@ -19851,9 +19799,9 @@ select option {
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn {
-  color: #c2c2c2;
-  background-color: #005293;
-  border: 2px solid #005293;
+  color: #607d8b;
+  background-color: #95cd3b;
+  border: 2px solid #95cd3b;
   text-decoration: none;
   border-radius: 3px;
   padding: 6px 30px;
@@ -19864,21 +19812,21 @@ select option {
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn-b {
-  background-color: #0a96f0;
+  background-color: #525b61;
   color: #ebebeb;
-  border: 2px solid #0a96f0;
+  border: 2px solid #525b61;
   padding: 6px 25px;
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn-b:hover {
   background-color: #ebebeb !important;
-  color: #c2c2c2 !important;
-  border: 2px solid #0a96f0;
+  color: #607d8b !important;
+  border: 2px solid #525b61;
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn:hover {
   background-color: #ebebeb;
-  color: #c2c2c2;
+  color: #607d8b;
 }
 
 .game-overlay-inner .game-pro-container {
@@ -19922,7 +19870,7 @@ select option {
 }
 
 .tour-container {
-  background-image: url(//nextra.pcluster.info/bsport10/images/poker/poker-bg1.jpg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/poker/poker-bg1.jpg);
   background-repeat: no-repeat;
   background-size: auto 114%;
   background-position: 0px -100px;
@@ -19991,7 +19939,7 @@ select option {
 }
 
 .reg-container {
-  background-image: url(//nextra.pcluster.info/bsport10/images/poker/blue-bg1.png);
+  background-image: url(//nextra.pcluster.info/bbgame/images/poker/blue-bg1.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
@@ -20026,7 +19974,7 @@ select option {
 }
 
 .ptext-container {
-  background-image: url(//nextra.pcluster.info/bsport10/images/poker/poker-bg2.jpg);
+  background-image: url(//nextra.pcluster.info/bbgame/images/poker/poker-bg2.jpg);
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: 0px center;
@@ -20782,7 +20730,7 @@ body .loader__ball {
   width: 180px;
   height: 70px;
   display: block;
-  background-image: url("http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg");
+  background-image: url("https://nextra.pcluster.info/bbgame/images/logo2.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -20871,7 +20819,7 @@ span.ui-slider-handle:before {
 
 .antepost-holder div span:first-child {
   width: calc(100% - 90px);
-  border-right: 1px solid #0a96f0;
+  border-right: 1px solid #525b61;
 }
 
 .antepost-holder div span:last-child {
@@ -20880,7 +20828,7 @@ span.ui-slider-handle:before {
 }
 
 .antepost-holder div.antepost-header {
-  background-color: #005293;
+  background-color: #95cd3b;
 }
 
 .antepost-holder div.antepost-header span {
@@ -20939,7 +20887,7 @@ span.ui-slider-handle:before {
 .antepost-name-wrap {
   display: inline-block;
   width: 100%;
-  background-color: #0a96f0;
+  background-color: #525b61;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 5px;
