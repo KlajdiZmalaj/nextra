@@ -1976,3 +1976,28 @@ body
   background: transparent !important;
   color: inherit !important;
 }
+.main-content.logged-page {
+  > .grid {
+    min-height: 100vh;
+  }
+}
+.center-content.live-center-content {
+  display: grid !important;
+  grid-template-columns: 1fr 460px;
+}
+.event-viewer-wrapper {
+  grid-column: 2/3;
+  grid-row: 1/6;
+  max-height: 740px;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+.live-center-view-container .live-center-content {
+  display: flex;
+  flex-flow: column;
+}
+.live-center-view-container.stats-active .lc-left-module,
+.live-center-view-container.stats-active .lc-right-module {
+  width: 100% !important;
+}
