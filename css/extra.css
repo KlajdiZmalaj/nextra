@@ -2180,4 +2180,14 @@ body
 .live-center-view-container.stats-active .lc-right-module {
   width: 100% !important;
 }
+
+div.landing-page .banner-content:before {
+  content: "" !important;
+  display: none;
+}
+
+.lc-scene > g:nth-child(3) {
+  -webkit-transform: scale(0.6) translateY(230.1px);
+          transform: scale(0.6) translateY(230.1px);
+}
 /*# sourceMappingURL=extra.css.map */

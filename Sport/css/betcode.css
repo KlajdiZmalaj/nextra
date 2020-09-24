@@ -1,35 +1,26 @@
 html:root {
-  --accent: #ffa403;
-  --accent-bg: #fd0;
+  --accent: #ffae00;
+  --accent-bg: #ffae00;
   --accent-txt: #000;
-  --primary-bg: #363636;
-  --primary-txt: #ffa403;
-  --secondary-bg: #000000;
+  --primary-bg: #ffffff;
+  --primary-txt: #707070;
+  --secondary-bg: #2b2a29;
   --secondary-txt: #fff;
-  --mainBg: #000000;
+  --mainBg: #232220;
   --mainBgCol: #fff;
-  --bg1: #2d2d2d;
+  --bg1: #292826;
   --col1: #fff;
-  --teableHeadersBg: #ffa403;
+  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #ff8e01);
   --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #171717;
+  --teableSubHeadersBg: #3c3b3b;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #484848;
+  --tableBorders: #3c3b3b;
   --casinoGradient1: #00000000;
   --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #fd0;
+  --casinoGradient2: #ffae00;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "jsport365";
-}
-
-footer {
-  background: var(--bg1);
-  border-top: 1px solid var(--mainBg);
-}
-
-footer .footer-copyright {
-  background: var(--mainBg);
+  --skin: "kobet24";
 }
 
 body.landing-page {

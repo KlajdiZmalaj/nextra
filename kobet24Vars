@@ -45,3 +45,7 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #444444;
+body.landing-page {
+    background-color: #121212 !important;
+    background-image: none;
+}
