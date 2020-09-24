@@ -10,7 +10,7 @@ $bodyCol: #000;
 $invet: 1;
 
 html:root {
-  --accent: #de3442;
+  --accent: #8ac5ed;
   --accent-bg: #fff;
   --accent-txt: #b30013;
   --primary-bg: #11151a;

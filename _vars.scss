@@ -1,136 +1,60 @@
-$skin: "masterbet";
+$skin: "jsport365";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/masterbet/images/logo2.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
+$logoUrl: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjIuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA1MTggNzIuNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTE4IDcyLjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRkZERDA0O30KCS5zdDF7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPHBhdGggY2xhc3M9InN0MCIgZD0iTTI5LjIsMTYuMUg3LjN2NDAuMmMwLDUuMy0yLjQsOC03LjMsOHY4aDE0LjZjOS43LDAsMTQuNi01LjQsMTQuNi0xNi4xVjE2LjF6Ii8+CjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0zMjguMyw0OC4zdjhoNTguNFYzMi4yYzAtMTAuNy00LjktMTYuMS0xNC42LTE2LjFoLTQzLjh2OGgyOS4yYzQuOSwwLDcuMywyLjcsNy4zLDhoLTE0LjZ2OGgxNC42djgKCUwzMjguMyw0OC4zeiIvPgo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNDIzLjIsMjQuMWgyOS4ydi04aC00My44Yy05LjcsMC0xNC42LDUuMy0xNC42LDE2djI0LjFoNDMuOGM5LjcsMCwxNC42LTQsMTQuNi0xMi4xcy00LjktMTIuMS0xNC42LTEyLjEKCWgtMjEuOUM0MTUuOSwyNi44LDQxOC4zLDI0LjEsNDIzLjIsMjQuMXogTTQyMy4yLDQwLjJjNC45LDAsNy4zLDEuMyw3LjMsNGMwLDIuNy0yLjQsNC03LjMsNGgtNy4zdi04SDQyMy4yeiIvPgo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNTE4LDE2LjFoLTU4LjR2MjQuMWgyOS4yYzQuOSwwLDcuMywxLjMsNy4zLDRzLTIuNCw0LTcuMyw0aC0yOS4ydjhoNDMuOGM5LjcsMCwxNC42LTQsMTQuNi0xMgoJcy00LjktMTIuMS0xNC42LTEyLjFoLTIxLjl2LThINTE4VjE2LjF6Ii8+CjxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0yOS4yLDcyLjRINTE4di04SDM1LjJDMzMuMiw2OS43LDMxLjIsNzIuNCwyOS4yLDcyLjR6Ii8+CjxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik05NC44LDQ4LjNjMC0xMC43LTQuOS0xNi4xLTE0LjYtMTYuMUg1OC40YzAtNS4zLDIuNC04LDcuMy04aDI5LjJ2LThINTEuMWMtOS43LDAtMTQuNiw1LjQtMTQuNiwxNi4xdjhoMjkuMgoJYzQuOSwwLDcuMywyLjcsNy4zLDhIMzYuNXY4aDU4LjRWNDguM3oiLz4KPHBhdGggY2xhc3M9InN0MSIgZD0iTTEwMi4xLDE2LjF2NDAuMkgxMjRWNDAuMmgyMS45YzkuNywwLDE0LjYtNCwxNC42LTEyLjFjMC04LTQuOC0xMi4xLTE0LjYtMTIuMUgxMDIuMXogTTEzMS4zLDMyLjJIMTI0di04aDcuMwoJYzQuOSwwLDcuMywxLjMsNy4zLDRTMTM2LjIsMzIuMiwxMzEuMywzMi4yeiIvPgo8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMTY3LjgsMzIuMnYyNC4xaDQzLjdjOS43LDAsMTQuNi01LjQsMTQuNi0xNlYxNi4xaC00My44QzE3Mi43LDE2LjEsMTY3LjgsMjEuNSwxNjcuOCwzMi4yeiBNMTg5LjcsMzIuMgoJYzAtNS4zLDIuNC04LDcuMy04aDcuM3YxNmMwLDUuMy0yLjQsOC03LjMsOGgtNy4zVjMyLjJ6Ii8+CjxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0yOTEuOCw1Ni4zYzAtMTAuNy00LjktMTYuMS0xNC42LTE2LjFoLTcuM2MxNC42LDAsMjEuOS00LDIxLjktMTIuMWMwLTgtNC45LTEyLTE0LjYtMTJoLTQzLjd2OGgyOS4xCgljNC45LDAsNy4zLDEuMyw3LjMsNHMtMi40LDQtNy4yLDRoLTI5LjJ2MjQuMmgyMS45VjQwLjJoNy4zYzQuOSwwLDcuMywyLjcsNy4zLDh2OEwyOTEuOCw1Ni4zeiIvPgo8cG9seWdvbiBjbGFzcz0ic3QxIiBwb2ludHM9IjcuNSwwIDUxOCwwIDUxOCw4IDMyMSw4IDMyMSw1Ni4zIDI5OS4yLDU2LjMgMjk5LjIsOCA3LjYsOCAiLz4KPC9zdmc+Cg==";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
+
 html:root {
-  --accent: #95cd3b;
-  --accent-bg: #95cd3b;
+  --accent: #ffa403;
+  --accent-bg: #fd0;
   --accent-txt: #000;
-  --primary-bg: #000;
-  --primary-txt: #fff;
-  --secondary-bg: #212931;
+  --primary-bg: #363636;
+  --primary-txt: #ffa403;
+  --secondary-bg: #000000;
   --secondary-txt: #fff;
-  --mainBg: #212931;
+  --mainBg: #000000;
   --mainBgCol: #fff;
-  --bg1: #29333b;
+  --bg1: #2d2d2d;
   --col1: #fff;
-  --teableHeadersBg: #384351;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #14191d;
+  --teableHeadersBg: #ffa403;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #171717;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #445461;
-  --casinoGradient1: linear-gradient(
-    to right,
-    #95cd3b00 3%,
-    #95cd3b 60%,
-    #95cd3b00 99%
-  );
-  --casinoGradient1-txt: #000;
-  --casinoGradient2: #636363;
+  --tableBorders: #484848;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --casinoGradient2: #fd0;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "masterbet";
+  --skin: "jsport365";
 }
 
-$secondary: #95cd3b;
+$secondary: #fd0;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #95cd3b;
-$secondaryDarkCol: #fff;
-$primary: #607d8b;
+$secondaryDark: #d1a813;
+$secondaryDarkCol: #222;
+$primary: #333949;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #525b61;
+$sb-2: #333844;
 
-body {
-  background-size: 2038px !important;
+footer {
+  background: var(--bg1);
+  border-top: 1px solid var(--mainBg);
 }
-
-.main-content.home-page
-  .left-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:nth-child(2)
-  .block-title
-  span {
-  color: var(--accent-bg);
-  font-weight: 500;
+footer .footer-copyright {
+  background: var(--mainBg);
 }
 
-.single-sport .states .state .championship.selected .anchor {
-  color: var(--accent);
-}
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark:after,
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark {
-  border-color: var(--accent) !important;
-}
-
-.odds-table .second-header td.day {
-  color: var(--accent);
-}
-
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
-  border: 1px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-
-.tabs-holder .tabs-row .single-tab {
-  border-bottom: 2px solid transparent !important;
-}
-
-.tabs-holder .tabs-row .single-tab:hover,
-.tabs-holder .tabs-row .single-tab.active {
-  border-bottom: 2px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-.odds-table .second-header {
-  opacity: 1 !important;
-}
-
-.side-bar
-  .single-block.betslip-holder
-  .betslip
-  .selections-wrapper
-  .single-event
-  .selected-bet
-  .bet
-  .quote {
-  color: var(--accent);
-}
-
-.header .top-header .top-header-content .primary-menu li a:after {
-  display: none !important;
+body.landing-page {
+  background-color: #121212 !important;
+  background-image: none;
 }

@@ -1,5 +1,5 @@
 html:root {
-  --accent: #075424;
+  --accent: #f4c100;
   --accent-bg: #075424;
   --accent-txt: #fff;
   --primary-bg: #d9d9d9;

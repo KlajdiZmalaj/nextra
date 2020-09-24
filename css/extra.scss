@@ -1653,7 +1653,9 @@ div.landing-page
 }
 .sports-container .matches .single-match .bottom-info {
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
+  align-items: center;
+  padding-top: 7px;
 }
 
 .sports-container #LVSPORT_1 .anchor {
@@ -1898,4 +1900,79 @@ body #oddsMenu tr {
 
 #indexLivechat {
   display: none !important;
+}
+
+.sports-container .matches .single-match.selected .match-info,
+.sports-container .matches .single-match.selected .match-odds {
+  background: transparent !important;
+  color: var(--accent-txt) !important;
+  position: relative;
+  z-index: 2;
+}
+
+.sports-container .sports .single-match.selected:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  /* background: var(--accent-bg); */
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  filter: hue-rotate(5deg);
+  background: linear-gradient(
+    to left,
+    var(--accent-bg) -20%,
+    var(--bg1) 180%,
+    var(--bg1) 150%
+  );
+  filter: brightness(1.4) hue-rotate(15deg);
+}
+.sports-container .matches .single-match.selected .match-odds {
+  filter: drop-shadow(9px 1px 4px var(--secondary-bg));
+  position: relative;
+  z-index: 3;
+}
+.live-sports-diary
+  .matches-wrapper
+  .single-match
+  .open-event-view-wrapper
+  .open-event-view {
+  margin: 7px 13px;
+  background: var(--mainBg);
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--mainBgCol);
+  padding: 0 5px;
+}
+.live-sports-diary
+  .matches-wrapper
+  .single-match
+  .open-event-view-wrapper
+  .open-event-view
+  .open-icon {
+  box-shadow: none !important;
+}
+body
+  .live-sports-diary
+  .matches-wrapper
+  .single-match
+  .match-details-wrapper
+  .match-details
+  .match-date {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+}
+.main-content.live-page {
+  min-height: 100vh;
+}
+.sports-container .matches .single-match {
+  margin: 5px;
+  border: 1px solid var(--tableBorders);
+}
+.sports-container .sports .single-match .team-names {
+  background: transparent !important;
+  color: inherit !important;
 }
