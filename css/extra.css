@@ -2327,14 +2327,18 @@ div.landing-page .banner-content:before {
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd .quote:after {
-  right: 5px;
-  top: 25%;
+  left: 5px;
+  top: 12px;
+}
+
+.live-odds-table table tr td.odd-holder .single-live-odd.odd-zero .quote:after {
+  left: 10px;
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd .quote {
   padding-right: 3px;
-  height: 34px;
-  line-height: 46px;
+  height: 24px;
+  line-height: 26px;
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd .label {
@@ -2342,6 +2346,9 @@ div.landing-page .banner-content:before {
   overflow: hidden;
   text-overflow: ellipsis;
   display: block;
+  padding-left: 11px;
+  font-size: 11px;
+  letter-spacing: -0.7px;
 }
 
 .sports-container .matches .single-match .bottom-info .result {
