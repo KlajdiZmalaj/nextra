@@ -2189,8 +2189,8 @@ body
 .center-content.live-center-content {
   display: -ms-grid !important;
   display: grid !important;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: 1fr 340px;
+      grid-template-columns: 1fr 340px;
   -ms-grid-rows: (35px)[auto-fill];
       grid-template-rows: repeat(auto-fill, 35px);
 }
@@ -2353,5 +2353,9 @@ div.landing-page .banner-content:before {
 
 .sports-container .matches .single-match .bottom-info .result {
   width: 10px;
+}
+
+body #oddsMenu tr:last-child {
+  margin-bottom: 100px;
 }
 /*# sourceMappingURL=extra.css.map */

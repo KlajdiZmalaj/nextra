@@ -2015,9 +2015,10 @@ body
     min-height: 100vh;
   }
 }
+
 .center-content.live-center-content {
   display: grid !important;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 340px;
   grid-template-rows: repeat(auto-fill, 35px);
   @media (max-width: 1500px) {
     display: inline-block !important;
@@ -2127,4 +2128,7 @@ div.landing-page .banner-content:before {
 
 .sports-container .matches .single-match .bottom-info .result {
   width: 10px;
+}
+body #oddsMenu tr:last-child {
+  margin-bottom: 100px;
 }
