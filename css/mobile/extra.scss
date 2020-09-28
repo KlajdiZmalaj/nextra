@@ -6198,8 +6198,11 @@
   background: var(--bg1);
   display: none;
   color: var(--col1);
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  width: 100%;
+  width: calc(100% - 40px);
+  margin: 20px;
+  box-sizing: border-box;
 }
 
 .single-block.betslip-holder .betslip.active {
@@ -8004,4 +8007,94 @@ span.gpicon.icon-112 {
 .legend span.item {
   padding: 0;
   height: 24px;
+}
+.breadcrumbs .bc_content .step {
+  box-shadow: none !important;
+  border: 0 !important;
+  border-bottom: 1px solid var(--tableBorders) !important;
+}
+.breadcrumbs .step:after,
+.breadcrumbs .step:before {
+  display: none;
+}
+
+.glyph.icon-menu-login {
+  font-family: "Font Awesome 5 Pro" !important;
+  color: inherit;
+  &:before {
+    content: "\f090";
+    color: inherit;
+  }
+}
+.main_submenu .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a.button.right.login {
+  display: flex !important;
+}
+.fast_menu {
+  display: flex;
+  flex-flow: column;
+  .fast_menu_option {
+    width: 100% !important;
+  }
+}
+
+.main_container_sport_item .sport_arrow {
+  display: none !important;
+}
+body .main_container_sport_item .sport_count {
+  top: -8px;
+  right: -1px;
+  font-size: 10px;
+}
+body .main_container_sport_item {
+  width: 70px;
+  height: 70px;
+  border-right: 1px solid var(--tableBorders);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.sports_list,
+.anteposts_list {
+  display: flex;
+  width: 100%;
+  overflow: auto;
+  order: 1;
+}
+.anteposts_list ,.fast_menu{
+  margin-top: 30px;
+}
+body .main_container_sport_item .gpicon {
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+}
+body .main_container_sport_item .sport_title {
+  width: 90%;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  overflow: visible;
+  text-transform: capitalize;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0;
+}
+.main_container > .main_content {
+  display: flex;
+  flex-flow: column;
+}
+.fast_menu {
+  order: 2;
+}
+.landing_sport .main_container_tile p {
+  padding: 0 !important;
+  margin: 0 !important;
 }
