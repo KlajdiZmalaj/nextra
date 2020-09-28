@@ -2110,7 +2110,10 @@ body #oddsMenu tr .odd-type {
 }
 
 #indexLivechat a:after {
-  content: "\e909";
+  content: "\f27b";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-family: FontAwesome !important;
+  font-size: 29px;
 }
 
 .header .top-header .top-header-content .primary-menu ul li {
@@ -2122,10 +2125,6 @@ body #oddsMenu tr .odd-type {
 .header .top-header .top-header-content .primary-menu ul li:hover:before,
 .header .top-header .top-header-content .primary-menu ul li.active:before {
   bottom: 5px !important;
-}
-
-#indexLivechat {
-  display: none !important;
 }
 
 .live-sports-diary
@@ -2357,5 +2356,9 @@ div.landing-page .banner-content:before {
 
 body #oddsMenu tr:last-child {
   margin-bottom: 100px;
+}
+
+.live-page #enable-scrollbars-button {
+  display: none !important;
 }
 /*# sourceMappingURL=extra.css.map */

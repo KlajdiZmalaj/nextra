@@ -1918,9 +1918,11 @@ body #oddsMenu tr {
 #indexPoker a:after {
   content: "\e908";
 }
-
 #indexLivechat a:after {
-  content: "\e909";
+  content: "\f27b";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-family: FontAwesome !important;
+  font-size: 29px;
 }
 .header .top-header .top-header-content .primary-menu ul li {
   position: relative;
@@ -1931,11 +1933,6 @@ body #oddsMenu tr {
 .header .top-header .top-header-content .primary-menu ul li.active:before {
   bottom: 5px !important;
 }
-
-#indexLivechat {
-  display: none !important;
-}
-
 // .sports-container .matches .single-match.selected .match-info,
 // .sports-container .matches .single-match.selected .match-odds {
 //   background: transparent !important;
@@ -2015,7 +2012,6 @@ body
     min-height: 100vh;
   }
 }
-
 .center-content.live-center-content {
   display: grid !important;
   grid-template-columns: 1fr 340px;
@@ -2120,7 +2116,6 @@ div.landing-page .banner-content:before {
   overflow: hidden;
   text-overflow: ellipsis;
   display: block;
-
   padding-left: 11px;
   font-size: 11px;
   letter-spacing: -0.7px;
@@ -2131,4 +2126,9 @@ div.landing-page .banner-content:before {
 }
 body #oddsMenu tr:last-child {
   margin-bottom: 100px;
+}
+.live-page {
+  #enable-scrollbars-button {
+    display: none !important;
+  }
 }
