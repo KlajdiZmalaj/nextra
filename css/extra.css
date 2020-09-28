@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* +++++++++++++++++++++++++++++++++++++ GLOBAL STYLES FOR SITESSSSSS +++++++++++++++++++++++++++++++++++++*/
+@import url("../fonts/fontAwesome/css/all.min.css");
 .casino-section {
   background-position: top center !important;
   height: calc(100vh - 120px);
@@ -1913,6 +1914,62 @@ div.proceed:hover {
   color: #222;
 }
 
+#LVSPORT_3 .anchor {
+  background: #ab8c61 !important;
+  color: #222 !important;
+}
+
+#LVSPORT_3 .single-match {
+  border-left: 3px solid #e0c092;
+}
+
+#LVSPORT_3 .single-match .match-info,
+#LVSPORT_3 .single-match .match-odds {
+  background: -webkit-gradient(linear, left top, right top, color-stop(-21%, #856842), color-stop(120%, #707070));
+  background: linear-gradient(to right, #856842 -21%, #707070 120%);
+  color: #222;
+}
+
+#LVSPORT_3 .single-match.selected {
+  border-right: 3px solid #eebe7c;
+  border-left: 1px solid var(--tableBorders);
+}
+
+#LVSPORT_3 .single-match.selected .match-info,
+#LVSPORT_3 .single-match.selected .match-odds {
+  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #a38252), color-stop(160%, #707070));
+  background: linear-gradient(to left, #a38252 11%, #707070 160%);
+  color: #222;
+}
+
+#LVSPORT_20 .anchor {
+  background: #c84b3b !important;
+  color: #fff !important;
+}
+
+#LVSPORT_20 .single-match {
+  border-left: 3px solid #f85151;
+}
+
+#LVSPORT_20 .single-match .match-info,
+#LVSPORT_20 .single-match .match-odds {
+  background: -webkit-gradient(linear, left top, right top, color-stop(-21%, #bd4636), color-stop(120%, #707070));
+  background: linear-gradient(to right, #bd4636 -21%, #707070 120%);
+  color: #fff;
+}
+
+#LVSPORT_20 .single-match.selected {
+  border-right: 3px solid #f85151;
+  border-left: 1px solid var(--tableBorders);
+}
+
+#LVSPORT_20 .single-match.selected .match-info,
+#LVSPORT_20 .single-match.selected .match-odds {
+  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #c84b3b), color-stop(160%, #707070));
+  background: linear-gradient(to left, #c84b3b 11%, #707070 160%);
+  color: #222;
+}
+
 #LVSPORT_4 .anchor {
   background: #006290 !important;
   color: #fff !important;
@@ -2381,5 +2438,32 @@ body #oddsMenu tr:last-child {
     display: -ms-flexbox !important;
     display: flex !important;
   }
+}
+
+.landing-bottom .single-block .title {
+  color: transparent !important;
+  position: relative;
+}
+
+.landing-bottom .single-block .title:before {
+  color: var(--accent-txt) !important;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.landing-bottom .single-block:nth-child(1) .title:before {
+  content: "SPORT";
+}
+
+.landing-bottom .single-block:nth-child(2) .title:before {
+  content: "Live Casino";
+}
+
+.landing-bottom .single-block:nth-child(3) .title:before {
+  content: "Virtual";
 }
 /*# sourceMappingURL=extra.css.map */

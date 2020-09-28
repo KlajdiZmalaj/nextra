@@ -1,4 +1,5 @@
 /* +++++++++++++++++++++++++++++++++++++ GLOBAL STYLES FOR SITESSSSSS +++++++++++++++++++++++++++++++++++++*/
+@import url("../fonts/fontAwesome/css/all.min.css");
 .casino-section {
   background-position: top center !important;
   height: calc(100vh - 120px);
@@ -1753,6 +1754,52 @@ div.landing-page
     }
   }
 }
+#LVSPORT_3 {
+  .anchor {
+    background: #ab8c61 !important;
+    color: #222 !important;
+  }
+  .single-match {
+    border-left: 3px solid #e0c092;
+    .match-info,
+    .match-odds {
+      background: linear-gradient(to right, #856842 -21%, #707070 120%);
+      color: #222;
+    }
+    &.selected {
+      border-right: 3px solid #eebe7c;
+      border-left: 1px solid var(--tableBorders);
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to left, #a38252 11%, #707070 160%);
+        color: #222;
+      }
+    }
+  }
+}
+#LVSPORT_20 {
+  .anchor {
+    background: #c84b3b !important;
+    color: #fff !important;
+  }
+  .single-match {
+    border-left: 3px solid #f85151;
+    .match-info,
+    .match-odds {
+      background: linear-gradient(to right, #bd4636 -21%, #707070 120%);
+      color: #fff;
+    }
+    &.selected {
+      border-right: 3px solid #f85151;
+      border-left: 1px solid var(--tableBorders);
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to left, #c84b3b 11%, #707070 160%);
+        color: #222;
+      }
+    }
+  }
+}
 
 #LVSPORT_4 {
   .anchor {
@@ -2143,5 +2190,34 @@ body #oddsMenu tr:last-child {
 @media only screen and (max-width: 1279px) {
   .left-side-bar.closed .single-block:first-child .block-title {
     display: flex !important;
+  }
+}
+.landing-bottom .single-block {
+  .title {
+    color: transparent !important;
+    position: relative;
+    &:before {
+      color: var(--accent-txt) !important;
+      text-align: center;
+      text-transform: uppercase;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  &:nth-child(1) {
+    .title:before {
+      content: "SPORT";
+    }
+  }
+  &:nth-child(2) {
+    .title:before {
+      content: "Live Casino";
+    }
+  }
+  &:nth-child(3) {
+    .title:before {
+      content: "Virtual";
+    }
   }
 }
