@@ -2132,3 +2132,16 @@ body #oddsMenu tr:last-child {
     display: none !important;
   }
 }
+.live-page .small-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--tableBorders);
+  position: relative;
+  z-index: 1;
+  line-height: initial;
+}
+@media only screen and (max-width: 1279px) {
+  .left-side-bar.closed .single-block:first-child .block-title {
+    display: flex !important;
+  }
+}

@@ -2361,4 +2361,25 @@ body #oddsMenu tr:last-child {
 .live-page #enable-scrollbars-button {
   display: none !important;
 }
+
+.live-page .small-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid var(--tableBorders);
+  position: relative;
+  z-index: 1;
+  line-height: initial;
+}
+
+@media only screen and (max-width: 1279px) {
+  .left-side-bar.closed .single-block:first-child .block-title {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
 /*# sourceMappingURL=extra.css.map */
