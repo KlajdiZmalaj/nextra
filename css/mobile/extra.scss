@@ -8275,9 +8275,13 @@ li.fast_menu_option a span:nth-child(2) {
   color: var(--mainBgCol);
   height: 100px;
 }
-.main_container > .main_content {
+.main_container > .main_content,
+.fields {
   padding-top: 100px;
 }
 .loader-overlay {
   display: none !important;
+}
+[data-logged="true"][data-state="close"] .main_submenu .button.saldo {
+  background-color: var(--accent);
 }

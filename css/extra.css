@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* +++++++++++++++++++++++++++++++++++++ GLOBAL STYLES FOR SITESSSSSS +++++++++++++++++++++++++++++++++++++*/
-@import url("../fonts/fontAwesome/css/all.min.css");
+@import url("./fonts/fontAwesome/css/all.min.css");
 .casino-section {
   background-position: top center !important;
   height: calc(100vh - 120px);
@@ -559,6 +559,19 @@ div.token-input-dropdown {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-left: 18px;
+  width: 100%;
+}
+
+.logged-page .logged-menu ul li .sub-menu li a i {
+  font-size: 17px;
+}
+
+.logged-page .left-side-bar.closed .logged-menu ul li ul li a i {
+  position: relative;
+  left: 1px;
+  top: -5px;
+  font-size: 15px;
 }
 
 .logged-page .logged-menu ul li .sub-menu li a:hover {
@@ -928,6 +941,7 @@ form[name="fastslip3"]
 .ui-selectmenu-button,
 .side-bar .single-block .block-content form[name="fastslip3"] select {
   color: var(--mainBgCol);
+  width: calc(100% - 185px);
 }
 
 .side-bar .single-block .block-content form input#entercode3[type="submit"],
@@ -1761,17 +1775,21 @@ div.proceed:hover {
   color: var(--col1) !important;
 }
 
-.right-side-bar .single-block:nth-child(4) .block-title {
+.right-side-bar .single-block:nth-child(3) .block-title img {
+  display: none;
+}
+
+.right-side-bar .single-block:nth-child(3) .block-title {
   background: var(--bg1);
   color: var(--accent);
 }
 
-.right-side-bar .single-block:nth-child(4) .block-title span {
+.right-side-bar .single-block:nth-child(3) .block-title span {
   text-align: center;
   width: 100%;
 }
 
-.right-side-bar .single-block:nth-child(4) .block-title:before {
+.right-side-bar .single-block:nth-child(3) .block-title:before {
   content: "";
   display: none;
 }
@@ -2473,5 +2491,57 @@ body .radio input:checked ~ .radiocircle:after {
   background: var(--accent-txt);
   border: 5px solid var(--accent-bg);
   border-radius: 50%;
+}
+
+.logged-center
+.transaction-filters
+.row
+.buttons-holder
+.single-button.search-button {
+  background-color: var(--accent-bg) !important;
+  color: var(--accent-txt) !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+
+.logged-center
+.transaction-filters
+.row
+.buttons-holder
+.single-button.search-button:hover {
+  opacity: 1;
+}
+
+.doc-button .fa.fa-file-pdf-o {
+  position: absolute;
+  top: 3px;
+  right: 14px;
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.side-bar .single-block .block-content form {
+  position: relative;
+}
+
+.doc-button:before {
+  content: "BETCODES";
+  position: absolute;
+  font-size: 12px;
+  right: 36px;
+  top: 6px;
+  cursor: pointer;
+}
+
+.fa,
+.fas {
+  font-family: "Font Awesome 5 Pro" !important;
+  font-weight: 300 !important;
+}
+
+.fa-id-card-o:before {
+  content: "\f2c2";
 }
 /*# sourceMappingURL=extra.css.map */
