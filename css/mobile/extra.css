@@ -6197,12 +6197,14 @@ span {
 }
 
 .single-block.betslip-holder .betslip .selections-wrapper .selections div {
-  width: calc(50% - 10px);
+  width: calc(50% - 20px);
   padding: 0 5px;
   float: left;
   font-size: 12px;
   font-weight: bold;
   line-height: 36px;
+  border: 1px solid var(--tableBorders);
+  margin: 4px;
 }
 
 .single-block.betslip-holder .betslip .selections-wrapper .selections div span {
@@ -7958,6 +7960,7 @@ a.sport_odds_button_more {
 .glyph.icon-menu:before {
   content: "\f0c9";
   color: inherit;
+  font-weight: 300;
 }
 
 .glyph.icon-home {
@@ -7978,6 +7981,7 @@ a.sport_odds_button_more {
 .glyph.icon-cart:before {
   content: "\f543";
   color: inherit;
+  font-weight: 300;
 }
 
 .glyph.icon-live {
@@ -8246,6 +8250,24 @@ span.gpicon.icon-111::before {
   display: none;
 }
 
+span.gpicon.icon-5 {
+  -webkit-mask-image: url(https://nextra.pcluster.info/css/fonts/tennis.svg);
+          mask-image: url(https://nextra.pcluster.info/css/fonts/tennis.svg);
+  background: var(--col1);
+  width: 30px;
+  height: 20px;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+
+span.gpicon.icon-5::before {
+  display: none;
+}
+
 span.gpicon.icon-1 {
   -webkit-mask-image: url(https://nextra.pcluster.info/css/fonts/soccer.svg);
           mask-image: url(https://nextra.pcluster.info/css/fonts/soccer.svg);
@@ -8417,7 +8439,7 @@ span.sport_search_button {
 
 .odd_type p {
   background: var(--teableHeadersBg);
-  color: var(--teableSubHeadersCol);
+  color: var(--teableHeadersCol);
 }
 
 [data-page="prematch-match"] .sport_single_quote {
@@ -8431,6 +8453,29 @@ span.sport_search_button {
 
 .sport_date_odds {
   padding: 0 !important;
+}
+
+[data-page="account"] a.button.right.logout,
+[data-page="login"] a.button.right.logout {
+  background-color: var(--accent-bg);
+  color: var(--accent-txt);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+[data-page="account"] a.button.right.logout::before,
+[data-page="login"] a.button.right.logout::before {
+  content: "\f08b";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 300;
+  font-size: 20px;
 }
 
 [data-page="account"] [onclick="_go_back(event, this);"],
@@ -8502,5 +8547,48 @@ span.sport_search_button {
 .coupon-popup-wrapper .popup-content .betslip-info > div,
 .login-popup-wrapper .popup-content .betslip-info > div {
   width: 100%;
+}
+
+.menu_items_container .single_menu_item {
+  width: calc(100% / 3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu_items_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+[data-logged="true"] a.button.right.login {
+  display: none !important;
+}
+
+[data-logged="false"] a.button.right.logout {
+  display: none !important;
+}
+
+div#chat-widget-container {
+  display: none;
+}
+
+[class^="icon-"], [class*=" icon-"], [class*="gpicon "], [class*="gicon "], [class*="glyph"] {
+  font-weight: 300 !important;
 }
 /*# sourceMappingURL=extra.css.map */
