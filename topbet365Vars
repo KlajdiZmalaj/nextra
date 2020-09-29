@@ -3,7 +3,7 @@ $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "https://nextra.pcluster.info/topbet365/images/logo2.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/green.jpg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/red.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
