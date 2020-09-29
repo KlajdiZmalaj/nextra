@@ -69,7 +69,6 @@
   position: absolute;
   top: 0;
   right: 0;
-  color: #321351;
   padding: 10px;
   z-index: 99999;
 }
@@ -311,7 +310,7 @@
   float: left;
   width: 100%;
   color: #fefefe !important;
-  background-color: #6427a3 !important;
+  background-color: #222 !important;
 }
 
 .coupon-popup-wrapper
@@ -430,7 +429,6 @@
   .row
   input[type="date"] {
   color: #333;
-  border: 1px solid #6427a3;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -784,9 +782,6 @@
   .row
   .ui-selectmenu-button,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select {
-  border: 1px solid #6427a3;
-  background-color: #6427a3;
-  color: #fefefe;
   border-radius: 3px;
   font-size: 12px;
   width: 100px;
@@ -881,29 +876,6 @@
 .coupon-popup-wrapper
   .coupon-details-popup.new-banner-popup
   .row
-  .ui-selectmenu-button:hover,
-.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row select:hover,
-.coupon-popup-wrapper
-  .deposit-iframe-popup.new-banner-popup
-  .row
-  .ui-selectmenu-button:hover,
-.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select:hover,
-.login-popup-wrapper
-  .coupon-details-popup.new-banner-popup
-  .row
-  .ui-selectmenu-button:hover,
-.login-popup-wrapper .coupon-details-popup.new-banner-popup .row select:hover,
-.login-popup-wrapper
-  .deposit-iframe-popup.new-banner-popup
-  .row
-  .ui-selectmenu-button:hover,
-.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select:hover {
-  background-color: #712cb8;
-}
-
-.coupon-popup-wrapper
-  .coupon-details-popup.new-banner-popup
-  .row
   .ui-selectmenu-button
   .ui-icon,
 .coupon-popup-wrapper
@@ -950,7 +922,6 @@
 .login-popup-wrapper .coupon-details-popup.match-odds-popup,
 .login-popup-wrapper .deposit-iframe-popup.match-odds-popup {
   height: 520px;
-  background-color: #231035;
 }
 
 .coupon-popup-wrapper .coupon-details-popup .close-coupon-popup,
@@ -1039,7 +1010,6 @@
   .search-events-head {
   width: 100%;
   display: inline-block;
-  background: #231035;
 }
 
 .coupon-popup-wrapper
@@ -1092,7 +1062,6 @@
   margin: 7px 10px;
   padding: 4px;
   border-radius: 3px;
-  background-color: #a169db;
   display: inline-block;
 }
 
@@ -1425,7 +1394,6 @@
   table
   tr
   td {
-  color: #6427a3;
   font-size: 12px;
   font-weight: normal;
 }
@@ -1538,7 +1506,7 @@
   thead
   tr
   th {
-  background: #6427a3;
+  background: #222;
   font-size: 12px;
   font-weight: bold;
   color: #fefefe;
@@ -1574,140 +1542,8 @@
   tbody
   tr {
   background: #edeced;
+  color: #222;
   cursor: pointer;
-}
-
-.coupon-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr:nth-child(even),
-.coupon-popup-wrapper
-  .deposit-iframe-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr:nth-child(even),
-.login-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr:nth-child(even),
-.login-popup-wrapper
-  .deposit-iframe-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr:nth-child(even) {
-  background: #d4d4d4;
-}
-
-.coupon-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr:hover,
-.coupon-popup-wrapper
-  .deposit-iframe-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr:hover,
-.login-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr:hover,
-.login-popup-wrapper
-  .deposit-iframe-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr:hover {
-  background: #e1dfe1;
-}
-
-.coupon-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr:hover:nth-child(even),
-.coupon-popup-wrapper
-  .deposit-iframe-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr:hover:nth-child(even),
-.login-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr:hover:nth-child(even),
-.login-popup-wrapper
-  .deposit-iframe-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr:hover:nth-child(even) {
-  background: #c7c7c7;
-}
-
-.coupon-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr
-  td
-  span.colored,
-.coupon-popup-wrapper
-  .deposit-iframe-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr
-  td
-  span.colored,
-.login-popup-wrapper
-  .coupon-details-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr
-  td
-  span.colored,
-.login-popup-wrapper
-  .deposit-iframe-popup
-  .coupon-details-content
-  .search-table
-  table
-  tbody
-  tr
-  td
-  span.colored {
-  color: #8a44d2;
-  font-weight: bold;
 }
 
 .coupon-popup-wrapper
@@ -1728,7 +1564,8 @@
   .match-offerings-header {
   width: 100%;
   display: inline-block;
-  background: #231035;
+  background: #222;
+  color: #fff;
 }
 
 .coupon-popup-wrapper
@@ -1751,7 +1588,6 @@
   .coupon-details-content
   .match-offerings-header
   .match-date-info {
-  border-left: 1px solid #7d31cc;
   float: left;
   padding: 10px;
   -webkit-box-sizing: border-box;
@@ -1833,7 +1669,6 @@
   .coupon-details-content
   .match-offerings-header
   .match-code {
-  border-left: 1px solid #7d31cc;
   line-height: 32px;
   padding: 10px;
   font-size: 16px;
@@ -1861,7 +1696,6 @@
   .coupon-details-content
   .match-offerings-header
   .match-details {
-  border-left: 1px solid #7d31cc;
   float: left;
   color: #fff;
   padding: 10px;
@@ -1975,7 +1809,6 @@
   margin: 7px 10px;
   padding: 4px;
   border-radius: 3px;
-  background-color: #a169db;
   display: inline-block;
 }
 
@@ -2485,7 +2318,6 @@
   .message-title
   span {
   display: inline-block;
-  color: #6427a3;
   font-size: 16px;
   line-height: 44px;
   font-weight: bold;
@@ -2613,7 +2445,6 @@
   width: 184px;
   display: inline-block;
   margin: 15px 0 18px;
-  border-bottom: 6px solid #842b9a;
   border-radius: 3px;
 }
 
@@ -2684,7 +2515,7 @@
   font-weight: bold;
   color: #f6f5f5;
   line-height: 32px;
-  background: #842b9a;
+  background: #222;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   text-align: left;
@@ -2729,7 +2560,7 @@
   font-size: 24px;
   line-height: 42px;
   font-weight: bold;
-  background: #2d0d35;
+  background: #222;
 }
 
 .coupon-popup-wrapper
@@ -2831,7 +2662,6 @@
   line-height: 36px;
   font-size: 13px;
   font-weight: 500;
-  color: #6427a3;
   border-bottom: 2px solid #d4d2d2;
 }
 
@@ -3157,7 +2987,6 @@
   display: inline-block;
   font-size: 18px;
   font-weight: bold;
-  color: #6427a3;
   line-height: 52px;
 }
 
@@ -3213,7 +3042,6 @@
   .details
   .cashout-block
   div.cashout-amount {
-  background: #521f86;
   color: #fff;
   padding: 0 15px;
   font-size: 24px;
@@ -3300,7 +3128,6 @@
   .deposit-iframe-popup
   .coupon-details-content
   .single-multiple-details {
-  background: #6427a3;
   padding-bottom: 30px;
 }
 
@@ -3413,7 +3240,6 @@
   tr
   td {
   font-size: 13px;
-  color: #6427a3;
   font-weight: 500;
   height: 30px;
   padding: 5px 0 5px 10px;
@@ -3767,7 +3593,6 @@
   table
   tr
   td {
-  color: #6427a3;
   font-size: 12px;
   font-weight: normal;
 }
@@ -4096,7 +3921,6 @@
   thead
   tr
   th {
-  background: #6427a3;
   font-size: 12px;
   font-weight: bold;
   color: #fefefe;
@@ -4181,7 +4005,6 @@
   .coupon-details-content
   .events-list.system-details {
   padding-bottom: 30px;
-  background: #6427a3;
 }
 
 .coupon-popup-wrapper
@@ -4823,7 +4646,6 @@
 .single-block .block-content form input[type="number"],
 .single-block .block-content form #code,
 .single-block .block-content form #code3 {
-  background: #fff;
   height: 26px;
   line-height: 26px;
   border: none;
@@ -4841,21 +4663,13 @@
 
 .single-block .block-content form[name="fastslip3"] .ui-selectmenu-button,
 .single-block .block-content form[name="fastslip3"] select {
-  border: 1px solid #ebebeb;
-  background-color: #5c2496;
   height: 24px;
   line-height: 24px;
-  color: #ebebeb;
   width: calc(100% - 105px);
   margin-top: 0;
   font-size: 13px;
   padding: 0 8px 0 13px;
   border-radius: 3px;
-}
-
-.single-block .block-content form[name="fastslip3"] .ui-selectmenu-button:hover,
-.single-block .block-content form[name="fastslip3"] select:hover {
-  background-color: #6929ab;
 }
 
 .single-block
@@ -5108,9 +4922,6 @@
   background-size: 45% auto;
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: #6016ad;
-  -webkit-box-shadow: inset 0px 1px 0 #791cda;
-  box-shadow: inset 0px 1px 0 #791cda;
 }
 
 .single-block .block-content.sports-menu .tabs .single-tab .tab-name {
@@ -5120,26 +4931,19 @@
   font-size: 12px;
   text-align: center;
   font-weight: 500;
-  color: #250e3c;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
-  background-color: #b398d1;
-  -webkit-box-shadow: inset 0px 1px 0 #cdbbe1;
-  box-shadow: inset 0px 1px 0 #cdbbe1;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
 
 .single-block .block-content.sports-menu .tabs .single-tab:hover .tab-name,
 .single-block .block-content.sports-menu .tabs .single-tab.active .tab-name {
-  background-color: #6016ad;
-  color: #ebebeb;
-  -webkit-box-shadow: inset 0px 1px 0 #791cda;
-  box-shadow: inset 0px 1px 0 #791cda;
+  background-color: var(--accent-bg);
+  color: var(--accent-txt);
 }
 
 .single-block .block-content.sports-menu .sports-menu-bottom {
-  background: #250e3c;
   width: calc(100% - 4px);
   padding: 10px 0;
   position: absolute;
@@ -5160,15 +4964,6 @@
   #sports-menu-slider {
   margin: 10px 30px;
   height: 2px;
-}
-
-.single-block
-  .block-content.sports-menu
-  .sports-menu-bottom
-  #sports-menu-slider.ui-widget.ui-widget-content.ui-slider-horizontal {
-  border: none;
-  background: #8d7d9e;
-  border-radius: 1px !important;
 }
 
 .single-block
@@ -5263,7 +5058,7 @@
   font-size: 13px;
   padding-left: 30px;
   position: relative;
-  border: 1px solid #5e2d91;
+  border: 1px solid;
   cursor: pointer;
   display: inline-block;
   width: calc(100% - 30px);
@@ -5274,13 +5069,6 @@
   .stats-toggle-holder
   .stats-title:first-child {
   margin-bottom: -1px;
-}
-
-.single-block
-  .block-content.stats-toggle-wrapper
-  .stats-toggle-holder
-  .stats-title:hover {
-  background-color: #311350;
 }
 
 .single-block
@@ -5950,7 +5738,7 @@
   .row
   .events-holder
   .single-event {
-  border-bottom: 1px solid #4a1a79;
+  border-bottom: 1px solid;
   width: 100%;
   display: inline-block;
   line-height: 26px;
@@ -6135,7 +5923,6 @@
   padding-right: 11px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  color: #fff;
   padding-left: 20px;
   font-size: 13px;
   font-weight: 500;
@@ -6404,15 +6191,6 @@
   align-items: center;
   float: left;
   cursor: pointer;
-}
-
-.single-block.betslip-holder
-  .betslip
-  .selections-wrapper
-  .single-event
-  .selected-bet
-  .remove-icon:hover {
-  background: rgba(0, 0, 0, 0.08);
 }
 
 .single-block.betslip-holder
@@ -8051,11 +7829,12 @@ a.button.right.login {
   width: 100%;
   overflow: auto;
   .fast_menu_option {
-    width: 70px !important;
+    width: 140px !important;
     display: flex;
     flex-flow: column;
     flex-shrink: 0;
     height: 70px;
+    position: relative;
     > a {
       display: flex;
       flex-flow: column;
@@ -8473,6 +8252,32 @@ span.sport_search_button {
 div#chat-widget-container {
   display: none;
 }
-[class^="icon-"], [class*=" icon-"], [class*="gpicon "], [class*="gicon "], [class*="glyph"] {
+[class^="icon-"],
+[class*=" icon-"],
+[class*="gpicon "],
+[class*="gicon "],
+[class*="glyph"] {
   font-weight: 300 !important;
+}
+li.fast_menu_option a span:nth-child(2) {
+  position: absolute;
+  bottom: 5px;
+  height: 21px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.main_header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+  height: 100px;
+}
+.main_container > .main_content {
+  padding-top: 100px;
+}
+.loader-overlay {
+  display: none !important;
 }

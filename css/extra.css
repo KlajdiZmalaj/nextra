@@ -2466,4 +2466,12 @@ body #oddsMenu tr:last-child {
 .landing-bottom .single-block:nth-child(3) .title:before {
   content: "Virtual";
 }
+
+body .radio input:checked ~ .radiocircle:after {
+  left: -3px;
+  top: -2px;
+  background: var(--accent-txt);
+  border: 5px solid var(--accent-bg);
+  border-radius: 50%;
+}
 /*# sourceMappingURL=extra.css.map */

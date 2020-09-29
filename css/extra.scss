@@ -2221,3 +2221,11 @@ body #oddsMenu tr:last-child {
     }
   }
 }
+
+body .radio input:checked ~ .radiocircle:after {
+  left: -3px;
+  top: -2px;
+  background: var(--accent-txt);
+  border: 5px solid var(--accent-bg);
+  border-radius: 50%;
+}
