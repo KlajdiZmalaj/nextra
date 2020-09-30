@@ -7960,6 +7960,102 @@ a.button.right.login {
   text-align: center;
 }
 
+.landing_sport span.gpicon {
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.landing_sport span.gpicon::before {
+  display: none !important;
+}
+
+.landing_sport span.gpicon.icon-1, .landing_sport span.gpicon.icon-29 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/soccer.svg);
+}
+
+.landing_sport span.gpicon.icon-2 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/basket.svg);
+}
+
+.landing_sport span.gpicon.icon-3 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/baseball.svg);
+}
+
+.landing_sport span.gpicon.icon-4 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/hokey.svg);
+}
+
+.landing_sport span.gpicon.icon-5 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/tennis.svg);
+}
+
+.landing_sport span.gpicon.icon-6 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/volley.svg);
+}
+
+.landing_sport span.gpicon.icon-7 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/handball.svg);
+}
+
+.landing_sport span.gpicon.icon-12 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/rugby.svg);
+}
+
+.landing_sport span.gpicon.icon-13 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/aus.svg);
+}
+
+.landing_sport span.gpicon.icon-16 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/american.svg);
+}
+
+.landing_sport span.gpicon.icon-17 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/bike.svg);
+}
+
+.landing_sport span.gpicon.icon-19 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/snooker.svg);
+}
+
+.landing_sport span.gpicon.icon-20 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/pong.svg);
+}
+
+.landing_sport span.gpicon.icon-21 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/cricket.svg);
+}
+
+.landing_sport span.gpicon.icon-22 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/frecette.svg);
+}
+
+.landing_sport span.gpicon.icon-23 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/volley.svg);
+}
+
+.landing_sport span.gpicon.icon-109 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/cs.png);
+}
+
+.landing_sport span.gpicon.icon-110 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/lol.png);
+}
+
+.landing_sport span.gpicon.icon-112 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/star.svg);
+}
+
+.landing_sport span.gpicon.icon-117 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/box.svg);
+}
+
+.landing_sport span.gpicon.icon-125 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/rainbow.jpg);
+}
+
 span.gpicon.icon-121 {
   -webkit-mask-image: url(https://nextra.pcluster.info/css/fonts/overwatch.svg);
           mask-image: url(https://nextra.pcluster.info/css/fonts/overwatch.svg);
@@ -7972,43 +8068,6 @@ span.gpicon.icon-121 {
   -webkit-mask-repeat: no-repeat;
   mask-position: center;
   -webkit-mask-position: center;
-}
-
-span.gpicon.icon-109 {
-  -webkit-mask-image: url(https://nextra.pcluster.info/css/fonts/cs.svg);
-          mask-image: url(https://nextra.pcluster.info/css/fonts/cs.svg);
-  background: var(--col1);
-  width: 60px;
-  height: 20px;
-  margin-left: 7px;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-position: center;
-  -webkit-mask-position: center;
-}
-
-span.gpicon.icon-109::before {
-  display: none;
-}
-
-span.gpicon.icon-110 {
-  -webkit-mask-image: url(https://nextra.pcluster.info/css/fonts/lol.svg);
-          mask-image: url(https://nextra.pcluster.info/css/fonts/lol.svg);
-  background: var(--col1);
-  width: 30px;
-  height: 20px;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-position: center;
-  -webkit-mask-position: center;
-}
-
-span.gpicon.icon-110::before {
-  display: none;
 }
 
 span.gpicon.icon-111 {
@@ -8026,42 +8085,6 @@ span.gpicon.icon-111 {
 }
 
 span.gpicon.icon-111::before {
-  display: none;
-}
-
-span.gpicon.icon-5 {
-  -webkit-mask-image: url(https://nextra.pcluster.info/css/fonts/tennis.svg);
-          mask-image: url(https://nextra.pcluster.info/css/fonts/tennis.svg);
-  background: var(--col1);
-  width: 30px;
-  height: 20px;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-position: center;
-  -webkit-mask-position: center;
-}
-
-span.gpicon.icon-5::before {
-  display: none;
-}
-
-span.gpicon.icon-1 {
-  -webkit-mask-image: url(https://nextra.pcluster.info/css/fonts/soccer.svg);
-          mask-image: url(https://nextra.pcluster.info/css/fonts/soccer.svg);
-  background: var(--col1);
-  width: 30px;
-  height: 20px;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-position: center;
-  -webkit-mask-position: center;
-}
-
-span.gpicon.icon-1::before {
   display: none;
 }
 
@@ -8303,9 +8326,9 @@ span.sport_search_button {
   font-weight: 300;
 }
 
-.gpicon {
+.landing_sport .gpicon {
   font-size: 25px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .main_container_group_item {
