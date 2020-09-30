@@ -54,6 +54,11 @@ body {
   background-size: 2038px !important;
 }
 
+body.landing-page {
+  background-color: #31343d !important;
+  background-image: none;
+}
+
 .main-content.home-page
   .left-side-bar
   .single-block:first-child

@@ -1,50 +1,137 @@
-$skin: "topbet365";
+$skin: "masterbet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/topbet365/images/logo2.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/red.jpg";
+$logoUrl: "https://nextra.pcluster.info/masterbet/images/logo2.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #c8151e;
-  --accent-bg: #c8151e;
-  --accent-txt: #ffffff;
-  --primary-bg: #444444;
+  --accent: #95cd3b;
+  --accent-bg: #95cd3b;
+  --accent-txt: #000;
+  --primary-bg: #000;
   --primary-txt: #fff;
-  --secondary-bg: #161616;
+  --secondary-bg: #212931;
   --secondary-txt: #fff;
-  --mainBg: #1e1e1e;
+  --mainBg: #212931;
   --mainBgCol: #fff;
-  --bg1: #3e3e3e;
+  --bg1: #29333b;
   --col1: #fff;
-  --teableHeadersBg: linear-gradient(to bottom, #373838, #2d2e2d);
+  --teableHeadersBg: #384351;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #666666;
-  --teableSubHeadersCol: #cccccc;
-  --tableBorders: #666666;
-  --casinoGradient1: #00000000;
-  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --teableSubHeadersBg: #14191d;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #445461;
+  --casinoGradient1: linear-gradient(
+    to right,
+    #95cd3b00 3%,
+    #95cd3b 60%,
+    #95cd3b00 99%
+  );
+  --casinoGradient1-txt: #000;
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "topbet365";
+  --skin: "masterbet";
 }
 
-$secondary: #c8151e;
+$secondary: #95cd3b;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #c8151e;
+$secondaryDark: #95cd3b;
 $secondaryDarkCol: #fff;
-$primary: #323232;
+$primary: #607d8b;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #444444;
+$sb-2: #525b61;
+
+body {
+  background-size: 2038px !important;
+}
+
 body.landing-page {
-  background-color: #0e0e0e !important;
+  background-color: #31343d !important;
   background-image: none;
+}
+
+.main-content.home-page
+  .left-side-bar
+  .single-block:first-child
+  .block-title
+  span,
+.main-content.home-page
+  .right-side-bar
+  .single-block:first-child
+  .block-title
+  span,
+.main-content.home-page
+  .right-side-bar
+  .single-block:nth-child(2)
+  .block-title
+  span {
+  color: var(--accent-bg);
+  font-weight: 500;
+}
+
+.single-sport .states .state .championship.selected .anchor {
+  color: var(--accent);
+}
+.single-sport
+  .states
+  .state
+  .championship
+  .anchor
+  .check
+  input:checked
+  ~ .checkmark:after,
+.single-sport
+  .states
+  .state
+  .championship
+  .anchor
+  .check
+  input:checked
+  ~ .checkmark {
+  border-color: var(--accent) !important;
+}
+
+.odds-table .second-header td.day {
+  color: var(--accent);
+}
+
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
+  border: 1px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+
+.tabs-holder .tabs-row .single-tab {
+  border-bottom: 2px solid transparent !important;
+}
+
+.tabs-holder .tabs-row .single-tab:hover,
+.tabs-holder .tabs-row .single-tab.active {
+  border-bottom: 2px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+.odds-table .second-header {
+  opacity: 1 !important;
+}
+
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .selections-wrapper
+  .single-event
+  .selected-bet
+  .bet
+  .quote {
+  color: var(--accent);
 }
