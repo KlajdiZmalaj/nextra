@@ -8434,4 +8434,36 @@ li.fast_menu_option a span:nth-child(2) {
 [data-logged="true"][data-state="close"] .main_submenu .button.saldo {
   background-color: var(--accent);
 }
+
+.lista_movimenti .row.msg.total .description {
+  background: var(--teableHeadersBg);
+  color: var(--teableHeadersCol);
+}
+
+.lista_messagi .msg_list .msg {
+  color: var(--col1);
+  border-top-color: var(--tableBorders);
+  background: var(--bg1);
+}
+
+.lista_messagi .msg_list .msg > span.tipo {
+  left: 5px;
+  background: var(--col1);
+}
+
+.lista_messagi .msg_list .msg .center {
+  padding-bottom: 10px;
+}
+
+.lista_movimenti .row.pagination {
+  border-color: var(--tableBorders);
+  background: transparent;
+}
+
+.lista_messagi .button {
+  color: var(--accent-txt);
+  background: var(--accent-bg);
+  width: calc(100% - 20px);
+  font-weight: 600;
+}
 /*# sourceMappingURL=extra.css.map */
