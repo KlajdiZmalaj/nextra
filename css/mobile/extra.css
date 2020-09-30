@@ -8547,4 +8547,8 @@ span.gpicon.icon-web + span::before {
           justify-content: space-between;
   border: 0;
 }
+
+body .main_container_group_item .sport_count {
+  padding-top: 7px;
+}
 /*# sourceMappingURL=extra.css.map */
