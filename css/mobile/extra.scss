@@ -8301,8 +8301,15 @@ li.fast_menu_option a span:nth-child(2) {
 }
 
 body .fast_menu_option .gpicon.icon-web:before {
-  background-position: -405px 5px;
   background-image: url(https://nextra.pcluster.info/css/fonts/desktop.svg);
+  background-position: center;
+  background-size: contain;
+  /* background-position-y: 9px; */
+  position: relative;
+  top: 5px;
+}
+body .fast_menu_option .gpicon.icon-poker-casino:before {
+  background-image: url(https://nextra.pcluster.info/css/fonts/casino.svg);
   background-position: center;
   background-size: contain;
   /* background-position-y: 9px; */
@@ -8313,7 +8320,7 @@ span.gpicon.icon-web + span {
   color: transparent !important;
   position: relative;
   &::before {
-    content: 'Desktop';
+    content: "Desktop";
     color: var(--col1) !important;
     position: absolute;
     left: 50%;
