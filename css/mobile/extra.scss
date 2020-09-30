@@ -8376,3 +8376,8 @@ span.gpicon.icon-web + span {
     font-weight: 600;
   }
 }
+.fields .button.register,
+.fast_menu_option.register,
+.single_menu_item.register {
+  display: none;
+}

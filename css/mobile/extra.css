@@ -8524,4 +8524,10 @@ span.gpicon.icon-web + span::before {
   width: calc(100% - 20px);
   font-weight: 600;
 }
+
+.fields .button.register,
+.fast_menu_option.register,
+.single_menu_item.register {
+  display: none;
+}
 /*# sourceMappingURL=extra.css.map */
