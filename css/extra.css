@@ -2544,4 +2544,8 @@ body .radio input:checked ~ .radiocircle:after {
 .fa-id-card-o:before {
   content: "\f2c2";
 }
+
+.fa-folder-o:before {
+  content: "\f07b";
+}
 /*# sourceMappingURL=extra.css.map */
