@@ -2173,7 +2173,7 @@ body #oddsMenu tr .odd-type {
 }
 
 #indexCasino a:after {
-  content: "\e906";
+  content: "\e908";
 }
 
 #indexCasinoLive a:after {
@@ -2181,7 +2181,7 @@ body #oddsMenu tr .odd-type {
 }
 
 #indexPoker a:after {
-  content: "\e908";
+  content: "\e906";
 }
 
 #indexLivechat a:after {
