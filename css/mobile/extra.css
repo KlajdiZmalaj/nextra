@@ -8545,5 +8545,6 @@ span.gpicon.icon-web + span::before {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border: 0;
 }
 /*# sourceMappingURL=extra.css.map */
