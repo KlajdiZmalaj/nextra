@@ -8066,13 +8066,30 @@ span.gpicon.icon-111 {
 }
 
 [data-page="prematch-event"] {
+  .sport_line_title {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sport_odds_name {
+    padding: 0;
+    line-height: 16px;
+    position: relative;
+    margin: 0;
+    height: auto;
+  }
+  .sport_odds_date {
+    margin: 0;
+    padding: 0;
+    color: var(--accent);
+  }
   .sport_odds_main {
     display: flex !important;
     align-items: center;
     justify-content: center;
     margin: 0;
     border-bottom: 1px solid var(--tableBorders);
-    height: 56px;
+    height: 43px;
   }
   .sport_odds_main .sport_line_title,
   .sport_odds_main .sport_quote_view {
