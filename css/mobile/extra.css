@@ -7712,6 +7712,8 @@ a.sport_odds_button_more {
           flex-flow: row-reverse;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background: var(--bg1);
+  color: var(--col1);
 }
 
 .main_header .main_header_right .glyph {
@@ -8550,5 +8552,9 @@ span.gpicon.icon-web + span::before {
 
 body .main_container_group_item .sport_count {
   padding-top: 7px;
+}
+
+.main_header .main_header_right .glyph {
+  color: var(--col1) !important;
 }
 /*# sourceMappingURL=extra.css.map */
