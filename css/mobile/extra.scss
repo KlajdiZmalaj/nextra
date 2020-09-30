@@ -8299,3 +8299,24 @@ li.fast_menu_option a span:nth-child(2) {
 [data-logged="true"][data-state="close"] .main_submenu .button.saldo {
   background-color: var(--accent);
 }
+
+body .fast_menu_option .gpicon.icon-web:before {
+  background-position: -405px 5px;
+  background-image: url(https://nextra.pcluster.info/css/fonts/desktop.svg);
+  background-position: center;
+  background-size: contain;
+  /* background-position-y: 9px; */
+  position: relative;
+  top: 5px;
+}
+span.gpicon.icon-web + span {
+  color: transparent !important;
+  position: relative;
+  &::before {
+    content: 'Desktop';
+    color: var(--col1) !important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
