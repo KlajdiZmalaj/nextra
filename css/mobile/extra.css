@@ -8435,9 +8435,38 @@ li.fast_menu_option a span:nth-child(2) {
   background-color: var(--accent);
 }
 
+body .fast_menu_option .gpicon.icon-web:before {
+  background-position: -405px 5px;
+  background-image: url(https://nextra.pcluster.info/css/fonts/desktop.svg);
+  background-position: center;
+  background-size: contain;
+  /* background-position-y: 9px; */
+  position: relative;
+  top: 5px;
+}
+
+span.gpicon.icon-web + span {
+  color: transparent !important;
+  position: relative;
+}
+
+span.gpicon.icon-web + span::before {
+  content: "Desktop";
+  color: var(--col1) !important;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
 .lista_movimenti .row.msg.total .description {
   background: var(--teableHeadersBg);
   color: var(--teableHeadersCol);
+}
+
+.lista_movimenti .row.pagination {
+  border-color: var(--tableBorders);
+  background: transparent;
 }
 
 .lista_messagi .msg_list .msg {
@@ -8446,18 +8475,13 @@ li.fast_menu_option a span:nth-child(2) {
   background: var(--bg1);
 }
 
-.lista_messagi .msg_list .msg > span.tipo {
-  left: 5px;
-  background: var(--col1);
-}
-
 .lista_messagi .msg_list .msg .center {
   padding-bottom: 10px;
 }
 
-.lista_movimenti .row.pagination {
-  border-color: var(--tableBorders);
-  background: transparent;
+.lista_messagi .msg_list .msg > span.tipo {
+  left: 5px;
+  background: var(--col1);
 }
 
 .lista_messagi .button {
