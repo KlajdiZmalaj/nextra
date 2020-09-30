@@ -8143,7 +8143,7 @@ span.gpicon.icon-111::before {
 [data-page="prematch-event"] a.sport_odds_button_more {
   margin: 0 !important;
   right: 10px;
-  top: 15px;
+  top: 9px;
 }
 
 [data-page="prematch-event"] .sport_odds_main .sport_quote_view {
@@ -8523,5 +8523,11 @@ span.gpicon.icon-web + span::before {
   background: var(--accent-bg);
   width: calc(100% - 20px);
   font-weight: 600;
+}
+
+.fields .button.register,
+.fast_menu_option.register,
+.single_menu_item.register {
+  display: none !important;
 }
 /*# sourceMappingURL=extra.css.map */
