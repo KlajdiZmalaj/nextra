@@ -8385,3 +8385,11 @@ span.gpicon.icon-web + span {
 .single_menu_item.register {
   display: none !important;
 }
+
+#tableMultiple {
+  td.amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
