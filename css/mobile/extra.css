@@ -8535,7 +8535,7 @@ span.gpicon.icon-web + span::before {
   display: none !important;
 }
 
-#tableMultiple td.amount {
+#coupon td.amount {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
