@@ -8327,3 +8327,35 @@ span.gpicon.icon-web + span {
     transform: translateX(-50%);
   }
 }
+
+.lista_movimenti {
+  .row.msg.total .description {
+    background: var(--teableHeadersBg);
+    color: var(--teableHeadersCol);
+  }
+  .row.pagination {
+    border-color: var(--tableBorders);
+    background: transparent;
+  }
+}
+
+.lista_messagi {
+  .msg_list .msg {
+    color: var(--col1);
+    border-top-color: var(--tableBorders);
+    background: var(--bg1);
+    .center {
+      padding-bottom: 10px;
+    }
+  }
+  .msg_list .msg > span.tipo {
+    left: 5px;
+    background: var(--col1);
+  }
+  .button {
+    color: var(--accent-txt);
+    background: var(--accent-bg);
+    width: calc(100% - 20px);
+    font-weight: 600;
+  }
+}
