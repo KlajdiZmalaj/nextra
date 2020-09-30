@@ -8109,7 +8109,6 @@ span.gpicon.icon-111 {
     display: flex;
     flex-flow: row;
   }
-
   .quote-count {
     display: flex;
     align-items: stretch;
@@ -8280,9 +8279,11 @@ span.sport_search_button {
     display: none !important;
   }
 }
+
 div#chat-widget-container {
   display: none;
 }
+
 [class^="icon-"],
 [class*=" icon-"],
 [class*="gpicon "],
