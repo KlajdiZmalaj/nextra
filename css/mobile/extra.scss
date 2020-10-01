@@ -8396,3 +8396,8 @@ body .main_container_group_item .sport_count {
 .main_header .main_header_right .glyph {
   color: var(--secondary-txt) !important;
 }
+
+.sport_odds_main.live .live_odds_button_more {
+  background-color: var(--accent-bg);
+  color: var(--accent-txt);
+}
