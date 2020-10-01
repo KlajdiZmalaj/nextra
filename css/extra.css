@@ -2569,13 +2569,18 @@ body .radio input:checked ~ .radiocircle:after {
   color: #fff !important;
 }
 
+.live-content-wrapper .live-sports-overview .sport-container .single-panel#sp_3 .panel-title {
+  background: #ab8c61;
+  color: #222 !important;
+}
+
 .live-content-wrapper .live-sports-overview .sport-container .single-panel#sp_5 .panel-title {
   background: #bf9a17;
   color: #222 !important;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel#sp_20 .panel-title {
-  background: #bf9a17;
+  background: #c84b3b;
   color: #222 !important;
 }
 
