@@ -8399,5 +8399,8 @@ body .main_container_group_item .sport_count {
 
 .sport_odds_main.live .live_odds_button_more {
   background-color: var(--accent-bg);
-  color: var(--accent-txt);
+
+  span {
+    color: var(--accent-txt);
+  }
 }
