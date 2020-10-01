@@ -2574,6 +2574,11 @@ body .radio input:checked ~ .radiocircle:after {
   color: #222 !important;
 }
 
+.live-content-wrapper .live-sports-overview .sport-container .single-panel#sp_4 .panel-title {
+  background: #006290;
+  color: #fff !important;
+}
+
 .live-content-wrapper .live-sports-overview .sport-container .single-panel#sp_5 .panel-title {
   background: #bf9a17;
   color: #222 !important;
