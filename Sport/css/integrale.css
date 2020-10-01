@@ -91,7 +91,7 @@ body {
   box-sizing: border-box;
 }
 table {
-  width: calc(100% - 80px);
+  width: 95%;
   border-spacing: 0;
   border-collapse: collapse;
   margin: 20px auto;

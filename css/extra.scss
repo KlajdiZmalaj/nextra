@@ -2290,3 +2290,34 @@ body .radio input:checked ~ .radiocircle:after {
 .fa-folder-o:before {
   content: "\f07b";
 }
+.coupon-details-buttons .button.explode {
+  background-color: #009688 !important;
+  color: #fff !important;
+  i {
+    background: transparent !important;
+    color: inherit;
+  }
+}
+
+.live-content-wrapper .live-sports-overview .sport-container .single-panel {
+  &#sp_1 .panel-title {
+    background: #1b7700;
+    color: #fff !important;
+  }
+  &#sp_2 .panel-title {
+    background: #91311d;
+    color: #fff !important;
+  }
+  &#sp_5 .panel-title {
+    background: #bf9a17;
+    color: #222 !important;
+  }
+  &#sp_20 .panel-title {
+    background: #bf9a17;
+    color: #222 !important;
+  }
+  &#sp_23 .panel-title {
+    background: #e6a260;
+    color: #222 !important;
+  }
+}
