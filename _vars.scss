@@ -1,5 +1,5 @@
 html:root {
-  --accent: #075424;
+  --accent: #1bc059;
   --accent-bg: #075424;
   --accent-txt: #fff;
   --primary-bg: #d9d9d9;
@@ -59,7 +59,7 @@ html body {
 .header .top-header {
   background: var(--accent-bg) !important;
   color: var(--accent-txt) !important;
-  border-bottom: 4px solid #var(--casinoGradient2) !important;
+  border-bottom: 4px solid var(--casinoGradient2) !important;
 }
 
 .header .top-bar {
