@@ -71,14 +71,7 @@
   right: 0;
   padding: 10px;
   z-index: 99999;
-}
-
-.coupon-popup-wrapper .coupon-popup .close-coupon-popup:before,
-.login-popup-wrapper .coupon-popup .close-coupon-popup:before {
-  content: "x";
-  font-weight: bold;
   font-size: 20px;
-  line-height: 0.5;
 }
 
 .coupon-popup-wrapper .coupon-details-popup,
