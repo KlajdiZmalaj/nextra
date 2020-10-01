@@ -2329,3 +2329,15 @@ body .radio input:checked ~ .radiocircle:after {
     color: #222 !important;
   }
 }
+
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-title
+  .odd-types {
+  width: calc(70% - 94px);
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}

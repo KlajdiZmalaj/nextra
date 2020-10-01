@@ -2593,4 +2593,20 @@ body .radio input:checked ~ .radiocircle:after {
   background: #e6a260;
   color: #222 !important;
 }
+
+.live-content-wrapper
+.live-sports-overview
+.sport-container
+.single-panel
+.panel-title
+.odd-types {
+  width: calc(70% - 94px);
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=extra.css.map */
