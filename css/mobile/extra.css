@@ -8597,4 +8597,9 @@ body .main_container_group_item .sport_count {
   background: var(--accent-bg);
   color: var(--accent-txt);
 }
+
+div[data-source="in_play"][data-sport-id="1"] p.sport_icon span.glyph:before,
+div[data-source="upcoming"][data-sport-id="1"] p.sport_icon span.glyph:before {
+  color: var(--mainBgCol);
+}
 /*# sourceMappingURL=extra.css.map */
