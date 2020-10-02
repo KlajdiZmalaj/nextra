@@ -8639,4 +8639,22 @@ div[data-source="upcoming"][data-sport-id="1"] p.sport_icon span.glyph:before {
 .main_container_tile p.sport_icon span {
   color: var(--mainBgCol);
 }
+
+.sport_line_title .sport_odds_home {
+  text-transform: lowercase;
+  display: inline-block;
+}
+
+.sport_line_title .sport_odds_away {
+  text-transform: lowercase;
+  display: inline-block;
+}
+
+.sport_line_title .sport_odds_home::first-letter {
+  text-transform: uppercase;
+}
+
+.sport_line_title .sport_odds_away::first-letter {
+  text-transform: uppercase;
+}
 /*# sourceMappingURL=extra.css.map */
