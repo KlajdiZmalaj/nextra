@@ -5124,11 +5124,20 @@
   top: 4px;
   font-size: 11px;
   font-weight: 500;
-  color: #000;
-  background: #b60a2e;
+  color: var(--accent-txt);
+  background: var(--accent-bg);
   line-height: 1.2;
   padding: 2px 5px;
   border-radius: 8px;
+  border: 1px solid var(--accent-txt);
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
 }
 
 .single-block.betslip-holder .betslip-controllers {
