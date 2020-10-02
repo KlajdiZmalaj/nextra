@@ -5983,6 +5983,16 @@
   width: calc(100% - 40px);
   margin: 20px;
   box-sizing: border-box;
+
+  #tableMultiple {
+    color: var(--col1);
+  }
+  #couponWinningSimple {
+    color: var(--col1);
+  }
+  .allow-changes {
+    color: var(--col1);
+  }
 }
 
 .single-block.betslip-holder .betslip.active {
@@ -8430,4 +8440,9 @@ body .main_container_group_item .sport_count {
       color: var(--accent-txt);
     }
   }
+}
+
+div[data-source="in_play"][data-sport-id="1"] p.sport_icon span.glyph:before,
+div[data-source="upcoming"][data-sport-id="1"] p.sport_icon span.glyph:before {
+  color: var(--mainBgCol);
 }
