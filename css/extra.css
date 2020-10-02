@@ -2610,6 +2610,10 @@ body .radio input:checked ~ .radiocircle:after {
           justify-content: center;
 }
 
+html div.landing-page .banner-content .bottom-text-holder .quarter:before {
+  background-image: none !important;
+}
+
 html div.landing-page .banner-content .bottom-text-holder .quarter .inner {
   color: transparent;
   position: relative;

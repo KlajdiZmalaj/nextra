@@ -2343,6 +2343,9 @@ body .radio input:checked ~ .radiocircle:after {
 }
 
 html div.landing-page .banner-content .bottom-text-holder .quarter {
+  &:before {
+    background-image: none !important;
+  }
   .inner {
     color: transparent;
     position: relative;
