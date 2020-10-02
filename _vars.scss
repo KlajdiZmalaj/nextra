@@ -1,7 +1,7 @@
 html:root {
-  --accent: #1bc059;
-  --accent-bg: #075424;
-  --accent-txt: #fff;
+  --accent: #0a96f0;
+  --accent-bg: #ff9800;
+  --accent-txt: #000000;
   --primary-bg: #d9d9d9;
   --primary-txt: #000000;
   --secondary-bg: #ffffff;
@@ -10,7 +10,7 @@ html:root {
   --mainBgCol: #000;
   --bg1: #e7e7e7;
   --col1: #000;
-  --teableHeadersBg: #075424;
+  --teableHeadersBg: #0a96f0;
   --teableHeadersCol: #ffffff;
   --teableSubHeadersBg: #cccccc;
   --teableSubHeadersCol: #000000;
@@ -20,66 +20,184 @@ html:root {
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "fourbet";
 }
 
-$skin: "fourbet";
+$skin: "icesport";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "http://static.pcluster.info/skins/fourbet/img/logo/newlogo.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/60/image/01aee99446d084908851397ec18505c8.jpeg";
-$bodyCol: #0d1528;
+$logoUrl: "http://static.pcluster.info/skins/icesport/img/logo/logo.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/blue.jpg";
+$bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 
-$secondary: #075424;
+$secondary: #0a96f0;
 $secondaryCol: #fff;
 
-$secondaryDark: #075424;
+$secondaryDark: #128edb;
 $secondaryDarkCol: #fff;
 $black: #000000;
-$primary: #848484;
-$white: #848484;
+$primary: #c2c2c2;
+$white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #162444;
+$sb-2: #0a96f0;
 
+//icesport styles
+.header .top-header .top-header-content .logo-holder a:before {
+  transform: scale(2);
+}
 //black filter li logos
 #favouriteTournaments li:before {
   filter: brightness(0.1);
 }
-
-html body {
-  background-position-y: 80px !important;
-  background-attachment: initial;
+body {
+  background-size: 2038px !important;
 }
 
-.header .top-header {
-  background: var(--accent-bg) !important;
-  color: var(--accent-txt) !important;
-  border-bottom: 4px solid var(--casinoGradient2) !important;
+.casino-section {
+  background-color: #d0d5cf;
 }
 
-.header .top-bar {
-  background: #0e1428 !important;
-  color: var(--accent-txt) !important;
+.side-bar .single-block:first-child .block-title,
+.side-bar .single-block:nth-child(2) .block-title {
+  background-color: var(--accent-bg);
+  color: var(--accent-txt);
 }
 
-footer {
-  background: var(--accent-bg) !important;
+.side-bar .single-block:first-child .block-title img,
+.side-bar .single-block:nth-child(2) .block-title img {
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+  filter: grayscale(1) brightness(0) invert(0);
 }
 
-.live-content-wrapper
-  .live-sports-overview
-  .sport-container
-  .single-panel
-  .panel-content
-  .single-match
-  .odds-wrapper
-  .label,
-body #oddsMenu tr .odd-type {
-  background: #2f332f !important;
-  color: #fff !important;
+html {
+  #LVSPORT_1 {
+    .anchor {
+      background: #1b7700 !important;
+      color: #fff !important;
+    }
+    .single-match {
+      border-left: 3px solid #45dc2d;
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to right, #1b7700 -37%, #6ea683 110%);
+        color: #fff;
+      }
+      &.selected {
+        border-right: 3px solid #45dc2d;
+        border-left: 1px solid var(--tableBorders);
+        .match-info,
+        .match-odds {
+          background: linear-gradient(to left, #7d9e73 11%, #ffffff 160%);
+          color: #000;
+        }
+      }
+    }
+  }
+
+  #LVSPORT_5 {
+    .anchor {
+      background: #bf9a17 !important;
+      color: #000 !important;
+    }
+    .single-match {
+      border-left: 3px solid #deb826;
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to right, #bf9a17 -21%, #f0f0f0 120%);
+        color: #000;
+      }
+      &.selected {
+        border-right: 3px solid #deb826;
+        border-left: 1px solid var(--tableBorders);
+        .match-info,
+        .match-odds {
+          background: linear-gradient(to left, #f7c924 11%, #f0f0f0 160%);
+          color: #222;
+        }
+      }
+    }
+  }
+
+  #LVSPORT_2 {
+    .anchor {
+      background: #91311d !important;
+      color: #fff !important;
+    }
+    .single-match {
+      border-left: 3px solid #c74227;
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to right, #91311d -21%, #db7965 120%);
+        color: #fff;
+      }
+      &.selected {
+        border-right: 3px solid #e44f31;
+        border-left: 1px solid var(--tableBorders);
+        .match-info,
+        .match-odds {
+          background: linear-gradient(to left, #e74d2e 11%, #fff 160%);
+          color: #222;
+        }
+      }
+    }
+  }
+
+  #LVSPORT_23 {
+    .anchor {
+      background: #e6a260 !important;
+      color: #222 !important;
+    }
+    .single-match {
+      border-left: 3px solid #f1c394;
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to right, #e6a260 -21%, #fff 120%);
+        color: #222;
+      }
+      &.selected {
+        border-right: 3px solid #ffeddb;
+        border-left: 1px solid var(--tableBorders);
+        .match-info,
+        .match-odds {
+          background: linear-gradient(to left, #ffbb76 11%, #fff 160%);
+          color: #222;
+        }
+      }
+    }
+  }
+
+  #LVSPORT_4 {
+    .anchor {
+      background: #006290 !important;
+      color: #fff !important;
+    }
+    .single-match {
+      border-left: 3px solid #1d8bbe;
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to right, #006290 -21%, #40b9f2 120%);
+        color: #fff;
+      }
+      &.selected {
+        border-right: 3px solid #1b8fc5;
+        border-left: 1px solid var(--tableBorders);
+        .match-info,
+        .match-odds {
+          background: linear-gradient(to left, #1291cc 11%, #fff 160%);
+          color: #222;
+        }
+      }
+    }
+  }
+}
+
+body .main_header .main_header_left {
+  width: 270px !important;
+}
+body .main_header .main_header_left:after {
+  height: 103px !important;
 }

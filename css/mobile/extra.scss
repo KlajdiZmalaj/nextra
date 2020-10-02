@@ -8064,16 +8064,18 @@ span.gpicon.icon-121 {
 }
 
 span.gpicon.icon-111 {
+  -webkit-mask-image: url(https://nextra.pcluster.info/css/fonts/dota.svg);
   mask-image: url(https://nextra.pcluster.info/css/fonts/dota.svg);
   background: var(--col1);
-  width: 30px;
-  height: 20px;
+  height: 24px;
   mask-size: contain;
   -webkit-mask-size: contain;
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
   mask-position: center;
   -webkit-mask-position: center;
+  padding: 0;
+  font-size: 20px;
   &::before {
     display: none;
   }
