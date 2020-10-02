@@ -2399,3 +2399,11 @@ div.landing-page .banner-content .bottom-text-holder .quarter:hover {
     transform: rotate(0deg) translateY(0) scaleX(1) scaleY(1);
   }
 }
+
+.reports-table .logged-table tbody tr.colored-row td {
+  color: inherit !important;
+}
+.reports-table .logged-table tbody tr.colored-row {
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+}
