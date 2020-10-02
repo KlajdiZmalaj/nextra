@@ -8448,3 +8448,17 @@ div[data-source="in_play"][data-sport-id="1"] p.sport_icon span.glyph:before,
 div[data-source="upcoming"][data-sport-id="1"] p.sport_icon span.glyph:before {
   color: var(--mainBgCol);
 }
+
+#coupon-widget .block-title:before {
+  content: "\f543";
+  font-family: "Font Awesome 5 Pro";
+  display: inline-block;
+  float: left;
+  /* width: 40px; */
+  padding: 0 10px;
+  padding-left: 22px;
+  font-size: 21px;
+}
+#coupon-widget .block-title img {
+  display: none;
+}
