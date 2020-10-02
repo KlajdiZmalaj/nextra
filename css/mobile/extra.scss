@@ -5983,6 +5983,16 @@
   width: calc(100% - 40px);
   margin: 20px;
   box-sizing: border-box;
+
+  #tableMultiple {
+    color: var(--col1);
+  }
+  #couponWinningSimple {
+    color: var(--col1);
+  }
+  .allow-changes {
+    color: var(--col1);
+  }
 }
 
 .single-block.betslip-holder .betslip.active {

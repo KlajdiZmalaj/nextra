@@ -5963,6 +5963,18 @@ span {
   box-sizing: border-box;
 }
 
+.single-block.betslip-holder .betslip #tableMultiple {
+  color: var(--col1);
+}
+
+.single-block.betslip-holder .betslip #couponWinningSimple {
+  color: var(--col1);
+}
+
+.single-block.betslip-holder .betslip .allow-changes {
+  color: var(--col1);
+}
+
 .single-block.betslip-holder .betslip.active {
   display: inline-block;
 }
