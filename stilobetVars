@@ -223,3 +223,24 @@ body.landing-page {
     }
   }
 }
+
+body {
+  .championship-page .title,
+  .total-goals-page .title,
+  .soccer-fixtures-page .title {
+    color: #fff;
+    background: #7f7f7f;
+  }
+}
+
+body .odds-table {
+  background: #cac9c9;
+  color: #222;
+}
+
+body {
+  .odds-table th,
+  .odds-table td {
+    border: 1px solid #ededed;
+  }
+}

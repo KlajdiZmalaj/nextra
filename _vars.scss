@@ -195,9 +195,14 @@ html {
   }
 }
 
-body .main_header .main_header_left {
-  width: 270px !important;
+body .odds-table {
+  background: #cac9c9;
+  color: #222;
 }
-body .main_header .main_header_left:after {
-  height: 103px !important;
+
+body {
+  .odds-table th,
+  .odds-table td {
+    border: 1px solid #ededed;
+  }
 }

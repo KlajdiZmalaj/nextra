@@ -1,6 +1,6 @@
 html:root {
   --accent: #0a96f0;
-  --accent-bg: #FF9800;
+  --accent-bg: #ff9800;
   --accent-txt: #000000;
   --primary-bg: #d9d9d9;
   --primary-txt: #000000;
@@ -58,7 +58,7 @@ body {
 }
 
 .casino-section {
-    background-color: #d0d5cf;
+  background-color: #d0d5cf;
 }
 
 .side-bar .single-block:first-child .block-title,
@@ -72,7 +72,6 @@ body {
   -webkit-filter: grayscale(1) brightness(0) invert(0);
   filter: grayscale(1) brightness(0) invert(0);
 }
-
 
 html {
   #LVSPORT_1 {
@@ -193,5 +192,17 @@ html {
         }
       }
     }
+  }
+}
+
+body .odds-table {
+  background: #cac9c9;
+  color: #222;
+}
+
+body {
+  .odds-table th,
+  .odds-table td {
+    border: 1px solid #ededed;
   }
 }

@@ -196,12 +196,14 @@ html #LVSPORT_4 .single-match.selected .match-odds {
   color: #222;
 }
 
-body .main_header .main_header_left {
-  width: 270px !important;
+body .odds-table {
+  background: #cac9c9;
+  color: #222;
 }
 
-body .main_header .main_header_left:after {
-  height: 103px !important;
+body .odds-table th,
+body .odds-table td {
+  border: 1px solid #ededed;
 }
 
 @media (max-width: 1008px) {
