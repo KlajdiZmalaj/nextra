@@ -7997,7 +7997,8 @@ a.button.right.login {
 }
 
 .landing_sport span.gpicon.icon-12 {
-  background-image: url(https://nextra.pcluster.info/css/fonts/rugby.svg);
+  background-image: url(https://nextra.pcluster.info/css/fonts/rugby-helmet.svg);
+  background-size: 80%;
 }
 
 .landing_sport span.gpicon.icon-13 {
