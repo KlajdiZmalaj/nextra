@@ -2609,4 +2609,29 @@ body .radio input:checked ~ .radiocircle:after {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+html div.landing-page .banner-content .bottom-text-holder .quarter .inner {
+  color: transparent;
+}
+
+html div.landing-page .banner-content .bottom-text-holder .quarter .inner:before {
+  content: "Football";
+  color: var(--accent);
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+html div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(2) .inner:before {
+  content: "Basketball";
+}
+
+html div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(3) .inner:before {
+  content: "Tennis";
+}
+
+html div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(4) .inner:before {
+  content: "E-Sports";
+}
 /*# sourceMappingURL=extra.css.map */

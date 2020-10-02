@@ -2341,3 +2341,31 @@ body .radio input:checked ~ .radiocircle:after {
   display: flex;
   justify-content: center;
 }
+
+html div.landing-page .banner-content .bottom-text-holder .quarter {
+  .inner {
+    color: transparent;
+    &:before {
+      content: "Football";
+      color: var(--accent);
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  &:nth-child(2) {
+    .inner:before {
+      content: "Basketball";
+    }
+  }
+  &:nth-child(3) {
+    .inner:before {
+      content: "Tennis";
+    }
+  }
+  &:nth-child(4) {
+    .inner:before {
+      content: "E-Sports";
+    }
+  }
+}
