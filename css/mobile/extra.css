@@ -8558,4 +8558,27 @@ body .main_container_group_item .sport_count {
 .sport_odds_main.live .live_odds_button_more span {
   color: var(--accent-txt);
 }
+
+[data-page="prematch-event"] .sport_odds_name {
+  color: var(--mainBgCol);
+}
+
+[data-page="prematch-event"] .sport_odds_main .sport_line_title {
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+}
+
+[data-page="prematch-event"] .sport_quote_view .quota {
+  background: var(--bg1);
+  color: var(--col1);
+}
+
+[data-page="prematch-event"] .sport_single_quote div.quota[data-selected*="true"] {
+  background: var(--accent-bg);
+}
+
+[data-page="prematch-event"] .sport_single_quote div.quota[data-selected*="true"] .quota {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+}
 /*# sourceMappingURL=extra.css.map */

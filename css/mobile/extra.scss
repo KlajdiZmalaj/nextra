@@ -8403,3 +8403,24 @@ body .main_container_group_item .sport_count {
     color: var(--accent-txt);
   }
 }
+
+[data-page="prematch-event"] {
+  .sport_odds_name {
+    color: var(--mainBgCol);
+  }
+  .sport_odds_main .sport_line_title {
+    background: var(--mainBg);
+    color: var(--mainBgCol);
+  }
+  .sport_quote_view .quota {
+    background: var(--bg1);
+    color: var(--col1);
+  }
+  .sport_single_quote div.quota[data-selected*="true"] {
+    background: var(--accent-bg);
+    .quota {
+      background: var(--accent-bg);
+      color: var(--accent-txt);
+    }
+  }
+}
