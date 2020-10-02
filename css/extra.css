@@ -2812,4 +2812,10 @@ i.fa.fa-file-text-o:before {
           justify-content: flex-end;
   color: var(--col1);
 }
+
+.live-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=extra.css.map */
