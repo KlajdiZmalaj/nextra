@@ -2609,4 +2609,111 @@ body .radio input:checked ~ .radiocircle:after {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+html div.landing-page .banner-content .bottom-text-holder .quarter:before {
+  background-image: none !important;
+}
+
+html div.landing-page .banner-content .bottom-text-holder .quarter .inner {
+  color: transparent;
+  position: relative;
+}
+
+html div.landing-page .banner-content .bottom-text-holder .quarter .inner:before {
+  content: "Football";
+  color: var(--accent);
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+html div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(2) .inner:before {
+  content: "Basketball";
+}
+
+html div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(3) .inner:before {
+  content: "Tennis";
+}
+
+html div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(4) .inner:before {
+  content: "E-Sports";
+}
+
+div.landing-page .banner-content .bottom-text-holder .quarter:hover:before {
+  -webkit-animation: bounceico 1s forwards;
+          animation: bounceico 1s forwards;
+}
+
+@-webkit-keyframes bounceico {
+  0% {
+    -webkit-transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+  }
+  34% {
+    -webkit-transform: rotate(0deg) translateY(-50px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(-50px) scaleX(1) scaleY(1);
+  }
+  53% {
+    -webkit-transform: rotate(0deg) translateY(0px) scaleX(1.5) scaleY(0.9);
+            transform: rotate(0deg) translateY(0px) scaleX(1.5) scaleY(0.9);
+  }
+  66% {
+    -webkit-transform: rotate(0deg) translateY(-30px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(-30px) scaleX(1) scaleY(1);
+  }
+  71% {
+    -webkit-transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+  }
+  82% {
+    -webkit-transform: rotate(0deg) translateY(-10px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(-10px) scaleX(1) scaleY(1);
+  }
+  100% {
+    -webkit-transform: rotate(0deg) translateY(0) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(0) scaleX(1) scaleY(1);
+  }
+}
+
+@keyframes bounceico {
+  0% {
+    -webkit-transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+  }
+  34% {
+    -webkit-transform: rotate(0deg) translateY(-50px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(-50px) scaleX(1) scaleY(1);
+  }
+  53% {
+    -webkit-transform: rotate(0deg) translateY(0px) scaleX(1.5) scaleY(0.9);
+            transform: rotate(0deg) translateY(0px) scaleX(1.5) scaleY(0.9);
+  }
+  66% {
+    -webkit-transform: rotate(0deg) translateY(-30px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(-30px) scaleX(1) scaleY(1);
+  }
+  71% {
+    -webkit-transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+  }
+  82% {
+    -webkit-transform: rotate(0deg) translateY(-10px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(-10px) scaleX(1) scaleY(1);
+  }
+  100% {
+    -webkit-transform: rotate(0deg) translateY(0) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(0) scaleX(1) scaleY(1);
+  }
+}
+
+.reports-table .logged-table tbody tr.colored-row td {
+  color: inherit !important;
+}
+
+.reports-table .logged-table tbody tr.colored-row {
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+}
 /*# sourceMappingURL=extra.css.map */
