@@ -2368,6 +2368,16 @@ div.landing-page .banner-content:before {
   display: flex;
 }
 
+.sports-container .matches .single-match .match-odds {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
 .sports-container .matches .single-match .match-odds .single-odd-type {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2379,6 +2389,7 @@ div.landing-page .banner-content:before {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 32px !important;
+  width: calc(100% / 3 - 26px);
 }
 
 .sports-container .matches .single-match .match-info div,
@@ -2785,5 +2796,20 @@ div.landing-page .banner-content .bottom-text-holder .quarter:hover:before {
 .total {
   background: #ff6a00 !important;
   color: #000 !important;
+}
+
+i.fa.fa-file-text-o:before {
+  content: "\f15c" !important;
+}
+
+.logged-center .change-password-page .button-holder {
+  background: var(--bg1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: var(--col1);
 }
 /*# sourceMappingURL=extra.css.map */

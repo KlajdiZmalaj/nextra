@@ -2140,11 +2140,16 @@ div.landing-page .banner-content:before {
 .main-content.live-page > .grid {
   display: flex;
 }
+.sports-container .matches .single-match .match-odds {
+  display: flex;
+  flex-flow: row wrap;
+}
 .sports-container .matches .single-match .match-odds .single-odd-type {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 32px !important;
+  width: calc(100% / 3 - 26px);
 }
 .sports-container .matches .single-match .match-info div,
 .sports-container .matches .single-match .bottom-info div {
@@ -2478,4 +2483,13 @@ div.landing-page .banner-content .bottom-text-holder .quarter:hover {
   .total {
   background: #ff6a00 !important;
   color: #000 !important;
+}
+i.fa.fa-file-text-o:before {
+  content: "\f15c" !important;
+}
+.logged-center .change-password-page .button-holder {
+  background: var(--bg1);
+  display: flex;
+  justify-content: flex-end;
+  color: var(--col1);
 }
