@@ -2416,6 +2416,74 @@ div.landing-page .banner-content .bottom-text-holder .quarter:hover {
   background: var(--mainBg);
   color: var(--mainBgCol);
 }
+
+.coupon-details-content .block.amounts-btn .box.amount-b {
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: calc(50% - 20px);
+  text-transform: capitalize;
+  margin: 5px auto;
+}
+.coupon-details-content .block.amounts-btn .box.amount-a {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: calc(50% - 20px);
+  text-transform: capitalize;
+  margin: 5px auto;
+}
+
+.coupon-popup-wrapper
+  .coupon-details-popup
+  .coupon-details-content
+  .details
+  .blocks
+  .block.amounts
+  .box
+  .label {
+  text-align: center;
+  background: #ffeb3b !important;
+  color: #000 !important;
+}
+
+.coupon-popup-wrapper
+  .coupon-details-popup
+  .coupon-details-content
+  .details
+  .blocks
+  .block.amounts
+  .box
+  .total,
+.coupon-popup-wrapper
+  .deposit-iframe-popup
+  .coupon-details-content
+  .details
+  .blocks
+  .block.amounts
+  .box
+  .total,
+.login-popup-wrapper
+  .coupon-details-popup
+  .coupon-details-content
+  .details
+  .blocks
+  .block.amounts
+  .box
+  .total,
+.login-popup-wrapper
+  .deposit-iframe-popup
+  .coupon-details-content
+  .details
+  .blocks
+  .block.amounts
+  .box
+  .total {
+  background: #ff6a00 !important;
+  color: #000 !important;
+}
 i.fa.fa-file-text-o:before {
   content: "\f15c" !important;
 }
