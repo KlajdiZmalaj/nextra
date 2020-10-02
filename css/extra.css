@@ -2636,4 +2636,71 @@ html div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(3) 
 html div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(4) .inner:before {
   content: "E-Sports";
 }
+
+div.landing-page .banner-content .bottom-text-holder .quarter:hover:before {
+  -webkit-animation: bounceico 1s forwards;
+          animation: bounceico 1s forwards;
+}
+
+@-webkit-keyframes bounceico {
+  0% {
+    -webkit-transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+  }
+  34% {
+    -webkit-transform: rotate(0deg) translateY(-50px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(-50px) scaleX(1) scaleY(1);
+  }
+  53% {
+    -webkit-transform: rotate(0deg) translateY(0px) scaleX(1.5) scaleY(0.9);
+            transform: rotate(0deg) translateY(0px) scaleX(1.5) scaleY(0.9);
+  }
+  66% {
+    -webkit-transform: rotate(0deg) translateY(-30px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(-30px) scaleX(1) scaleY(1);
+  }
+  71% {
+    -webkit-transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+  }
+  82% {
+    -webkit-transform: rotate(0deg) translateY(-10px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(-10px) scaleX(1) scaleY(1);
+  }
+  100% {
+    -webkit-transform: rotate(0deg) translateY(0) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(0) scaleX(1) scaleY(1);
+  }
+}
+
+@keyframes bounceico {
+  0% {
+    -webkit-transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+  }
+  34% {
+    -webkit-transform: rotate(0deg) translateY(-50px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(-50px) scaleX(1) scaleY(1);
+  }
+  53% {
+    -webkit-transform: rotate(0deg) translateY(0px) scaleX(1.5) scaleY(0.9);
+            transform: rotate(0deg) translateY(0px) scaleX(1.5) scaleY(0.9);
+  }
+  66% {
+    -webkit-transform: rotate(0deg) translateY(-30px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(-30px) scaleX(1) scaleY(1);
+  }
+  71% {
+    -webkit-transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(0px) scaleX(1) scaleY(1);
+  }
+  82% {
+    -webkit-transform: rotate(0deg) translateY(-10px) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(-10px) scaleX(1) scaleY(1);
+  }
+  100% {
+    -webkit-transform: rotate(0deg) translateY(0) scaleX(1) scaleY(1);
+            transform: rotate(0deg) translateY(0) scaleX(1) scaleY(1);
+  }
+}
 /*# sourceMappingURL=extra.css.map */
