@@ -8079,7 +8079,8 @@ span.gpicon.icon-111 {
   .sport_odds_date {
     margin: 0;
     padding: 0;
-    color: var(--accent);
+    // color: var(--accent);
+    color: var(--mainBgCol);
   }
   .sport_odds_main {
     display: flex !important;

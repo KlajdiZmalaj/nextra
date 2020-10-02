@@ -8110,7 +8110,7 @@ span.gpicon.icon-111::before {
 [data-page="prematch-event"] .sport_odds_date {
   margin: 0;
   padding: 0;
-  color: var(--accent);
+  color: var(--mainBgCol);
 }
 
 [data-page="prematch-event"] .sport_odds_main {
