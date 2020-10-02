@@ -8471,3 +8471,7 @@ div[data-source="upcoming"][data-sport-id="1"] p.sport_icon span.glyph:before {
 #coupon-widget .block-title img {
   display: none;
 }
+
+.main_container_tile p.sport_icon span {
+  color: var(--mainBgCol);
+}
