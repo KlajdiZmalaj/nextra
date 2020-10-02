@@ -2612,6 +2612,7 @@ body .radio input:checked ~ .radiocircle:after {
 
 html div.landing-page .banner-content .bottom-text-holder .quarter .inner {
   color: transparent;
+  position: relative;
 }
 
 html div.landing-page .banner-content .bottom-text-holder .quarter .inner:before {
@@ -2621,6 +2622,7 @@ html div.landing-page .banner-content .bottom-text-holder .quarter .inner:before
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  white-space: nowrap;
 }
 
 html div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(2) .inner:before {

@@ -2345,12 +2345,14 @@ body .radio input:checked ~ .radiocircle:after {
 html div.landing-page .banner-content .bottom-text-holder .quarter {
   .inner {
     color: transparent;
+    position: relative;
     &:before {
       content: "Football";
       color: var(--accent);
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
+      white-space: nowrap;
     }
   }
   &:nth-child(2) {
