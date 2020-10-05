@@ -8068,6 +8068,10 @@ a.button.right.login {
   background-image: url(https://nextra.pcluster.info/css/fonts/shuttle.svg);
 }
 
+.landing_sport span.gpicon.icon-32 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/bowling.svg);
+}
+
 .landing_sport span.gpicon.icon-109 {
   background-image: url(https://nextra.pcluster.info/css/fonts/cs.svg);
 }
