@@ -2862,6 +2862,7 @@ input#resultDate {
   width: calc(100% - 15px);
   border: 0;
   background: var(--bg1);
+  color: var(--col1);
   height: 27px;
   border-radius: 5px;
   padding: 8px;
