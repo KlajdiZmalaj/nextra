@@ -2836,6 +2836,8 @@ i.fa.fa-file-text-o:before {
           flex-flow: row wrap;
   border: 0;
   color: inherit;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 .results-page .results-filter {

@@ -2510,6 +2510,8 @@ i.fa.fa-file-text-o:before {
   flex-flow: row wrap;
   border: 0;
   color: inherit;
+  filter: grayscale(1);
+
 }
 .results-page .results-filter {
   background-color: var(--mainBg);
