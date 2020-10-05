@@ -2562,3 +2562,22 @@ input#resultDate {
   /* filter: grayscale(1); */
   mix-blend-mode: multiply;
 }
+
+.results-page .results .single-result .result-top-bar {
+  background: var(--teableSubHeadersBg);
+  box-shadow: none;
+  color: var(--teableSubHeadersCol);
+}
+.results-page .results .single-result .result-top-bar .championship-name,
+.results-page .results .single-result .result-top-bar .result div,
+.results-page .results .single-result .result-match .match-teams .home-team,
+.results-page .results .single-result .result-match .match-teams .away-team,
+.results-page .results .single-result .result-match .time,
+.results-page .results .single-result .result-match .result div {
+  color: inherit;
+}
+.results-page .results .single-result .result-match {
+  background: var(--bg1);
+  color: var(--col1);
+  text-shadow: none;
+}
