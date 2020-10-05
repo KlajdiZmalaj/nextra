@@ -8607,6 +8607,7 @@ body .main_container_group_item .sport_count {
   background: var(--mainBg);
   color: var(--mainBgCol);
   padding-right: 0px;
+  padding-left: 2px;
 }
 
 [data-page="prematch-event"] .sport_quote_view .quota {
