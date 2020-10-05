@@ -2867,4 +2867,17 @@ input#resultDate {
 .results-page .results-filter .single-filter .label {
   color: inherit;
 }
+
+.results-page .title.light,
+.results-page .title.dark {
+  background: var(--teableSubHeadersBg);
+  color: var(--teableSubHeadersCol);
+  padding: 0 15px;
+  text-shadow: none;
+  font-size: 13px;
+}
+
+.results-page .title img {
+  display: none;
+}
 /*# sourceMappingURL=extra.css.map */
