@@ -2551,3 +2551,14 @@ input#resultDate {
 .results-page .title img {
   display: none;
 }
+
+.center-content
+  .odds-less-wrapper
+  .sports
+  .sports-holder
+  .single-sport-button
+  img {
+  opacity: 0.4;
+  /* filter: grayscale(1); */
+  mix-blend-mode: multiply;
+}
