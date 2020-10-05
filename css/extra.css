@@ -2917,4 +2917,9 @@ img {
   color: var(--col1);
   text-shadow: none;
 }
+
+.results-page .results .single-result .result-match .result div.status {
+  color: var(--accent);
+  font-weight: 300;
+}
 /*# sourceMappingURL=extra.css.map */
