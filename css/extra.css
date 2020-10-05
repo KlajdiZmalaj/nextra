@@ -2814,4 +2814,44 @@ i.fa.fa-file-text-o:before {
   display: -ms-flexbox;
   display: flex;
 }
+
+.results-page .results-filter .single-filter select {
+  background-color: var(--bg1);
+  color: var(--col1);
+}
+
+.results-page .results-filter .single-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  border: 0;
+  color: inherit;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.results-page .results-filter {
+  background-color: var(--mainBg);
+  color: var(--mainBgCol);
+}
+
+#resultsPage .select-holder {
+  width: 100%;
+}
+
+#resultsPage img.ui-datepicker-trigger {
+  position: relative;
+  bottom: 2px;
+  left: 3px;
+}
 /*# sourceMappingURL=extra.css.map */

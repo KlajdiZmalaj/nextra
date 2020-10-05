@@ -2497,3 +2497,32 @@ i.fa.fa-file-text-o:before {
 .live-tabs {
   display: flex;
 }
+
+.results-page .results-filter .single-filter select {
+  background-color: var(--bg1);
+  color: var(--col1);
+}
+
+.results-page .results-filter .single-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  border: 0;
+  color: inherit;
+  filter: grayscale(1);
+
+}
+.results-page .results-filter {
+  background-color: var(--mainBg);
+  color: var(--mainBgCol);
+}
+
+#resultsPage .select-holder {
+  width: 100%;
+}
+#resultsPage img.ui-datepicker-trigger {
+  position: relative;
+  bottom: 2px;
+  left: 3px;
+}
