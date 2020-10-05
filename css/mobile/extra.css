@@ -8599,11 +8599,14 @@ body .main_container_group_item .sport_count {
 
 [data-page="prematch-event"] .sport_odds_name {
   color: var(--mainBgCol);
+  line-height: 12px;
+  width: calc(100% - 40px);
 }
 
 [data-page="prematch-event"] .sport_odds_main .sport_line_title {
   background: var(--mainBg);
   color: var(--mainBgCol);
+  padding-right: 0px;
 }
 
 [data-page="prematch-event"] .sport_quote_view .quota {
