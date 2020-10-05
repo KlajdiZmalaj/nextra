@@ -8438,10 +8438,13 @@ body .main_container_group_item .sport_count {
 [data-page="prematch-event"] {
   .sport_odds_name {
     color: var(--mainBgCol);
+    line-height: 12px;
+    width: calc(100% - 40px);
   }
   .sport_odds_main .sport_line_title {
     background: var(--mainBg);
     color: var(--mainBgCol);
+    padding-right: 0px;
   }
   .sport_quote_view .quota {
     background: var(--bg1);
