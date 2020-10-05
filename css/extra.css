@@ -2853,6 +2853,9 @@ i.fa.fa-file-text-o:before {
   position: relative;
   bottom: 2px;
   left: 3px;
+  -webkit-filter: grayscale(1) brightness(0.6);
+          filter: grayscale(1) brightness(0.6);
+  cursor: pointer;
 }
 
 input#resultDate {
