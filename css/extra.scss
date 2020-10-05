@@ -2511,7 +2511,6 @@ i.fa.fa-file-text-o:before {
   border: 0;
   color: inherit;
   filter: grayscale(1);
-
 }
 .results-page .results-filter {
   background-color: var(--mainBg);
@@ -2525,4 +2524,15 @@ i.fa.fa-file-text-o:before {
   position: relative;
   bottom: 2px;
   left: 3px;
+}
+input#resultDate {
+  width: calc(100% - 15px);
+  border: 0;
+  background: var(--bg1);
+  height: 27px;
+  border-radius: 5px;
+  padding: 8px;
+}
+.results-page .results-filter .single-filter .label {
+  color: inherit;
 }
