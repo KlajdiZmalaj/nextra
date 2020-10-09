@@ -2586,3 +2586,10 @@ input#resultDate {
   color: var(--accent);
   font-weight: 300;
 }
+
+.logged-table.transactions-table.betlist-table #betlist td a .remove:before {
+  content: "x";
+  color: red;
+  font-size: 15px;
+  font-weight: 900;
+}
