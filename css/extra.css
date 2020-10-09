@@ -916,6 +916,10 @@ td
 }
 
 /* end coupon details on lista scomessa */
+.single-sport .states .state .championship.selected .anchor {
+  color: var(--accent) !important;
+}
+
 .single-sport .states .state .championship:hover,
 .single-sport .states .state > .anchor.special:hover,
 .single-sport > .anchor:hover {
@@ -2928,5 +2932,34 @@ img {
   color: red;
   font-size: 15px;
   font-weight: 900;
+}
+
+.coupon-popup-wrapper.match-odds-popup
+.live-odds-table
+#sportsGrid
+tr
+td.odd-type {
+  width: auto;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.coupon-popup-wrapper
+.coupon-details-popup
+.coupon-details-content
+.match-offerings-header,
+.coupon-popup-wrapper
+.deposit-iframe-popup
+.coupon-details-content
+.match-offerings-header,
+.login-popup-wrapper
+.coupon-details-popup
+.coupon-details-content
+.match-offerings-header,
+.login-popup-wrapper
+.deposit-iframe-popup
+.coupon-details-content
+.match-offerings-header {
+  background: #102135;
 }
 /*# sourceMappingURL=extra.css.map */
