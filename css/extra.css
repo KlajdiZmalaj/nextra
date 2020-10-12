@@ -3001,4 +3001,14 @@ input:checked
 ~ .checkmark:after {
   border-color: inherit !important;
 }
+
+.odds-table
+.single-match-odds
+.single-match-odds-table
+.odd-holder
+.single-odd
+.label {
+  color: var(--accent);
+  font-size: 13px;
+}
 /*# sourceMappingURL=extra.css.map */
