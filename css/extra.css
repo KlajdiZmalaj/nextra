@@ -3011,4 +3011,9 @@ input:checked
   color: var(--accent);
   font-size: 13px;
 }
+
+.odds-table .single-match-row.match-odds-open {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+}
 /*# sourceMappingURL=extra.css.map */
