@@ -2982,4 +2982,23 @@ td.odd-type {
 .match-offerings-header {
   background: #102135;
 }
+
+.single-sport
+.states
+.state
+.championship
+.anchor
+.check
+input:checked
+~ .checkmark,
+.single-sport
+.states
+.state
+.championship
+.anchor
+.check
+input:checked
+~ .checkmark:after {
+  border-color: inherit !important;
+}
 /*# sourceMappingURL=extra.css.map */

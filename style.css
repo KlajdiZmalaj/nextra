@@ -210,6 +210,25 @@ body .single-sport .states .state .championship.selected .anchor {
   color: #fff !important;
 }
 
+body .single-sport
+.states
+.state
+.championship
+.anchor
+.check
+input:checked
+~ .checkmark,
+body .single-sport
+.states
+.state
+.championship
+.anchor
+.check
+input:checked
+~ .checkmark:after {
+  border-color: #fff !important;
+}
+
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;
