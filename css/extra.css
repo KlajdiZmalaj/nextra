@@ -3016,4 +3016,14 @@ input:checked
   background: var(--accent-bg);
   color: var(--accent-txt);
 }
+
+.odds-table
+.single-match-odds
+.single-match-odds-table
+.odd-holder
+.single-odd
+.quote,
+.single-sport .states .state > .anchor.special {
+  font-weight: 300;
+}
 /*# sourceMappingURL=extra.css.map */
