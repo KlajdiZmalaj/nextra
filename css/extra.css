@@ -916,10 +916,6 @@ td
 }
 
 /* end coupon details on lista scomessa */
-.single-sport .states .state .championship.selected .anchor {
-  color: var(--accent) !important;
-}
-
 .single-sport .states .state .championship:hover,
 .single-sport .states .state > .anchor.special:hover,
 .single-sport > .anchor:hover {
