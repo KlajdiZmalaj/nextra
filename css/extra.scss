@@ -2586,3 +2586,16 @@ input#resultDate {
   color: var(--accent);
   font-weight: 300;
 }
+.odds-table .match-name .team-names div {
+  width: 190px;
+  white-space: break-spaces;
+}
+.odds-table .single-match-row td .goal-odd .label {
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+.odds-table .single-match-row td.match-name {
+  min-width: 234px;
+}
