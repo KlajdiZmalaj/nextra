@@ -206,3 +206,7 @@ body {
     border: 1px solid #ededed;
   }
 }
+
+body .single-sport .states .state .championship.selected .anchor {
+  color: #fff !important;
+}
