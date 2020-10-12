@@ -206,6 +206,10 @@ body .odds-table td {
   border: 1px solid #ededed;
 }
 
+body .single-sport .states .state .championship.selected .anchor {
+  color: #fff !important;
+}
+
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;

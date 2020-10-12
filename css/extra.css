@@ -916,6 +916,10 @@ td
 }
 
 /* end coupon details on lista scomessa */
+.single-sport .states .state .championship.selected .anchor {
+  color: var(--accent) !important;
+}
+
 .single-sport .states .state .championship:hover,
 .single-sport .states .state > .anchor.special:hover,
 .single-sport > .anchor:hover {
@@ -1573,6 +1577,10 @@ td {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+.single-sport .states .state .championship.selected .anchor {
+  color: var(--accent) !important;
 }
 
 .odds-table .match-name .team-names {

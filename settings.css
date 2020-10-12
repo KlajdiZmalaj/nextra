@@ -202,6 +202,10 @@ body .odds-table td {
   border: 1px solid #ededed;
 }
 
+body .single-sport .states .state .championship.selected .anchor {
+  color: #fff !important;
+}
+
 button,
 hr,
 input {
