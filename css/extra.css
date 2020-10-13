@@ -3135,7 +3135,7 @@ img.ui-datepicker-trigger {
           box-sizing: border-box;
 }
 
-.ui-widget.ui-widget-content {
+#ui-datepicker-div .ui-widget.ui-widget-content {
   width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
