@@ -8536,6 +8536,13 @@ div[data-source="in_play"] .sport_odds_main {
   }
   .sport_line_title {
     margin: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    .sport_odds_name {
+      width: 100%;
+    }
   }
   .sport_quote_view {
     margin: 0;

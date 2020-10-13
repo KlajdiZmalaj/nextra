@@ -8711,6 +8711,23 @@ div[data-source="in_play"] .sport_odds_main a.live_odds_button_more {
 
 div[data-source="in_play"] .sport_odds_main .sport_line_title {
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div[data-source="in_play"] .sport_odds_main .sport_line_title .sport_odds_name {
+  width: 100%;
 }
 
 div[data-source="in_play"] .sport_odds_main .sport_quote_view {
