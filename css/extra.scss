@@ -2755,3 +2755,24 @@ img.ui-datepicker-trigger {
     display: none !important;
   }
 }
+.ui-slider .ui-slider-handle {
+  background-color: var(--accent) !important;
+  border: 0 !important;
+  cursor: grab;
+}
+.ui-timepicker-div {
+  padding: 13px 7px;
+    width: 50%;
+    box-sizing: border-box;
+}
+.ui-widget.ui-widget-content {
+  width: 40%;
+  display: flex !important;
+  flex-flow: row wrap;
+}
+.ui-datepicker .ui-datepicker-header {
+  width: 100%;
+}
+.ui-datepicker .ui-datepicker-calendar {
+  width: 50%;
+}

@@ -3116,4 +3116,37 @@ img.ui-datepicker-trigger {
 #ui-datepicker-div span.ui-slider-handle:before {
   display: none !important;
 }
+
+.ui-slider .ui-slider-handle {
+  background-color: var(--accent) !important;
+  border: 0 !important;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.ui-timepicker-div {
+  padding: 13px 7px;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.ui-widget.ui-widget-content {
+  width: 40%;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.ui-datepicker .ui-datepicker-header {
+  width: 100%;
+}
+
+.ui-datepicker .ui-datepicker-calendar {
+  width: 50%;
+}
 /*# sourceMappingURL=extra.css.map */
