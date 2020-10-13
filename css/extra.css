@@ -3122,6 +3122,11 @@ img.ui-datepicker-trigger {
   border: 0 !important;
   cursor: -webkit-grab;
   cursor: grab;
+  border-radius: 50px;
+  height: 12px;
+  width: 12px;
+  position: relative;
+  top: 0px;
 }
 
 .ui-timepicker-div {

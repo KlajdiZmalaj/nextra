@@ -2759,11 +2759,16 @@ img.ui-datepicker-trigger {
   background-color: var(--accent) !important;
   border: 0 !important;
   cursor: grab;
+  border-radius: 50px;
+  height: 12px;
+  width: 12px;
+  position: relative;
+  top: 0px;
 }
 .ui-timepicker-div {
   padding: 13px 7px;
-    width: 50%;
-    box-sizing: border-box;
+  width: 50%;
+  box-sizing: border-box;
 }
 .ui-widget.ui-widget-content {
   width: 40%;
