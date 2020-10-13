@@ -8023,6 +8023,10 @@ a.button.right.login {
   background-image: url(https://nextra.pcluster.info/css/fonts/handball.svg);
 }
 
+.landing_sport span.gpicon.icon-9 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/golf.svg);
+}
+
 .landing_sport span.gpicon.icon-12 {
   background-image: url(https://nextra.pcluster.info/css/fonts/rugby-helmet.svg);
   background-size: 80%;
@@ -8038,6 +8042,10 @@ a.button.right.login {
 
 .landing_sport span.gpicon.icon-17 {
   background-image: url(https://nextra.pcluster.info/css/fonts/bike.svg);
+}
+
+.landing_sport span.gpicon.icon-18 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/star.svg);
 }
 
 .landing_sport span.gpicon.icon-19 {
@@ -8070,6 +8078,10 @@ a.button.right.login {
 
 .landing_sport span.gpicon.icon-32 {
   background-image: url(https://nextra.pcluster.info/css/fonts/bowling.svg);
+}
+
+.landing_sport span.gpicon.icon-37 {
+  background-image: url(https://nextra.pcluster.info/css/fonts/squosh.svg);
 }
 
 .landing_sport span.gpicon.icon-109 {
