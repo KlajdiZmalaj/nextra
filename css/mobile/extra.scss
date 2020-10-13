@@ -8522,3 +8522,25 @@ div[data-source="upcoming"][data-sport-id="1"] p.sport_icon span.glyph:before {
   background: var(--teableHeadersBg);
   color: var(--teableHeadersCol);
 }
+// .main_container_tile {
+//   display: flex;
+//   align-items: center;
+//   border-top: 0;
+// }
+
+div[data-source="in_play"] .sport_odds_main {
+  display: flex;
+  align-items: center;
+  a.live_odds_button_more {
+    margin: 0 !important;
+  }
+  .sport_line_title {
+    margin: 0;
+  }
+  .sport_quote_view {
+    margin: 0;
+  }
+  .sport_single_quote {
+    margin: 0;
+  }
+}

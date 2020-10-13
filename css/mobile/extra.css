@@ -8695,4 +8695,29 @@ div[data-source="upcoming"][data-sport-id="1"] p.sport_icon span.glyph:before {
   background: var(--teableHeadersBg);
   color: var(--teableHeadersCol);
 }
+
+div[data-source="in_play"] .sport_odds_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div[data-source="in_play"] .sport_odds_main a.live_odds_button_more {
+  margin: 0 !important;
+}
+
+div[data-source="in_play"] .sport_odds_main .sport_line_title {
+  margin: 0;
+}
+
+div[data-source="in_play"] .sport_odds_main .sport_quote_view {
+  margin: 0;
+}
+
+div[data-source="in_play"] .sport_odds_main .sport_single_quote {
+  margin: 0;
+}
 /*# sourceMappingURL=extra.css.map */
