@@ -3138,9 +3138,9 @@ img.ui-datepicker-trigger {
 
 .ui-widget.ui-widget-content {
   width: 40%;
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;

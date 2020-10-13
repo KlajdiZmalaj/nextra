@@ -2772,7 +2772,7 @@ img.ui-datepicker-trigger {
 }
 .ui-widget.ui-widget-content {
   width: 40%;
-  display: flex !important;
+  display: flex;
   flex-flow: row wrap;
 }
 .ui-datepicker .ui-datepicker-header {
