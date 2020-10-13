@@ -8706,7 +8706,7 @@ div[data-source="in_play"] .sport_odds_main {
 }
 
 div[data-source="in_play"] .sport_odds_main a.live_odds_button_more {
-  margin: 0 !important;
+  margin: 10px !important;
 }
 
 div[data-source="in_play"] .sport_odds_main .sport_line_title {
