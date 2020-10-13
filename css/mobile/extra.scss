@@ -8510,3 +8510,15 @@ div[data-source="upcoming"][data-sport-id="1"] p.sport_icon span.glyph:before {
 .sport_line_title .sport_odds_away::first-letter {
   text-transform: uppercase;
 }
+
+[data-sport-id] [data-parts] .details-teams {
+  color: #fff;
+}
+.sport_content_odds.live .odds_class {
+  background: var(--bg1);
+  color: var(--col1);
+}
+.sport_content_odds.live .odds_class:after {
+  background: var(--teableHeadersBg);
+  color: var(--teableHeadersCol);
+}
