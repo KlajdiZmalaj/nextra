@@ -8720,4 +8720,8 @@ div[data-source="in_play"] .sport_odds_main .sport_quote_view {
 div[data-source="in_play"] .sport_odds_main .sport_single_quote {
   margin: 0;
 }
+
+.minutes:after {
+  content: "'";
+}
 /*# sourceMappingURL=extra.css.map */
