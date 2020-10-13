@@ -3109,7 +3109,6 @@ input:checked
 img.ui-datepicker-trigger {
   -webkit-filter: brightness(0);
           filter: brightness(0);
-  padding: 0 14px;
   cursor: pointer;
 }
 
