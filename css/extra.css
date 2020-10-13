@@ -3162,4 +3162,29 @@ img.ui-datepicker-trigger {
 .fa-check-circle-o:before {
   content: "\f058";
 }
+
+.side-bar
+.single-block.betslip-holder
+.betslip
+.selections-wrapper
+.single-event
+.match-info
+.id {
+  text-align: center;
+  margin: 0;
+  padding: 2px 7px;
+  background: #e41717;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0;
+  margin-left: 5px;
+}
 /*# sourceMappingURL=extra.css.map */
