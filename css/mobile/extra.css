@@ -8499,6 +8499,7 @@ body .main_container_group_item .sport_count {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 0;
 }
 
 [data-page="prematch-event"] .sport_odds_main .sport_line_title .sport_odds_date {

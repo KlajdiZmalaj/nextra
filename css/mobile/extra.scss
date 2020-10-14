@@ -8367,6 +8367,7 @@ body .main_container_group_item .sport_count {
     padding-left: 2px;
     display: flex;
     align-items: center;
+    margin-bottom: 0;
     .sport_odds_date {
       order: 2;
       color: inherit;
@@ -8509,4 +8510,3 @@ div[data-source="in_play"] .sport_odds_main {
 .btnQuota.select a {
   white-space: nowrap;
 }
-
