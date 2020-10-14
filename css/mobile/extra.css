@@ -8141,159 +8141,6 @@ span.gpicon.icon-111::before {
   display: none;
 }
 
-[data-page="prematch-event"] .sport_line_title {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-[data-page="prematch-event"] .sport_odds_name {
-  padding: 0;
-  line-height: 16px;
-  position: relative;
-  margin: 0;
-  height: auto;
-}
-
-[data-page="prematch-event"] .sport_odds_date {
-  margin: 0;
-  padding: 0;
-  color: var(--mainBgCol);
-}
-
-[data-page="prematch-event"] .sport_odds_main {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 0;
-  border-bottom: 1px solid var(--tableBorders);
-  height: 43px;
-}
-
-[data-page="prematch-event"] .sport_odds_main .sport_line_title,
-[data-page="prematch-event"] .sport_odds_main .sport_quote_view {
-  width: 50%;
-  margin: 0;
-  height: 100%;
-}
-
-[data-page="prematch-event"] .sport_odds_main .sport_quote_view {
-  margin-right: 40px;
-}
-
-[data-page="prematch-event"] a.sport_odds_button_more {
-  margin: 0 !important;
-  right: 10px;
-  top: 9px;
-}
-
-[data-page="prematch-event"] .sport_odds_main .sport_quote_view {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-}
-
-[data-page="prematch-event"] .quote-count {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  width: 100%;
-}
-
-[data-page="prematch-event"] .sport_single_quote {
-  margin: 0 !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border-left: 1px solid var(--tableBorders);
-  border-radius: 0;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-[data-page="prematch-event"] .sport_quote_view .quota {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-[data-page="prematch-event"] .sport_single_quote div span.tipoquota {
-  display: none;
-}
-
-[data-page="prematch-event"] .sport_content_odds:first-child span.tipoquota {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  position: absolute;
-  top: -25px;
-  left: 0;
-  height: 20px;
-  background: #fff;
-  background: var(--bg1);
-  color: var(--col1);
-  text-align: center;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-[data-page="prematch-event"] .sport_single_quote div.quota,
-[data-page="prematch-event"] .sport_single_quote,
-[data-page="prematch-event"] .quote-count {
-  overflow: visible !important;
-  position: relative;
-}
-
-[data-page="prematch-event"] .sport_single_quote:last-child {
-  border-right: 1px solid var(--tableBorders);
-}
-
-[data-page="prematch-event"] .sport_date_odds p {
-  border-bottom: 1px solid var(--tableBorders);
-  z-index: 1;
-  position: relative;
-}
-
-[data-page="prematch-event"] .sport_date_odds {
-  padding-left: 0;
-}
-
-[data-page="prematch-event"] .sport_single_quote,
-[data-page="prematch-event"] .sport_single_quote {
-  min-width: auto !important;
-}
-
 input.sport_search_controller {
   width: 100%;
   text-align: center;
@@ -8321,10 +8168,6 @@ span.sport_search_button {
 .odd_type p {
   background: var(--teableHeadersBg);
   color: var(--teableHeadersCol);
-}
-
-[data-page="prematch-match"] .sport_single_quote {
-  border: 1px solid var(--tableBorders);
 }
 
 .main_container_footer {
@@ -8613,20 +8456,53 @@ body .main_container_group_item .sport_count {
   color: var(--accent-txt);
 }
 
+[data-page="prematch-event"] .quote-count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
 [data-page="prematch-event"] .sport_odds_name {
-  color: var(--mainBgCol);
+  color: inherit;
   line-height: 12px;
   width: calc(100% - 40px);
 }
 
-[data-page="prematch-event"] .sport_odds_main .sport_line_title {
-  background: var(--mainBg);
-  color: var(--mainBgCol);
-  padding-right: 0px;
-  padding-left: 2px;
+[data-page="prematch-event"] .sport_single_quote {
+  border-radius: 0;
+  width: calc(100% / 3 - 10px) !important;
+  margin: 5px !important;
+  border: 1px solid var(--tableBorders);
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
-[data-page="prematch-event"] .sport_quote_view .quota {
+[data-page="prematch-event"] .sport_odds_main .sport_line_title {
+  background: var(--teableHeadersBg);
+  color: var(--teableHeadersCol);
+  padding-right: 0px;
+  padding-left: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+[data-page="prematch-event"] .sport_odds_main .sport_line_title .sport_odds_date {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  color: inherit;
+}
+
+[data-page="prematch-event"] .sport_quote_view .quota .quota {
   background: var(--bg1);
   color: var(--col1);
 }
@@ -8638,6 +8514,11 @@ body .main_container_group_item .sport_count {
 [data-page="prematch-event"] .sport_single_quote div.quota[data-selected*="true"] .quota {
   background: var(--accent-bg);
   color: var(--accent-txt);
+}
+
+[data-page="prematch-event"] .sport_odds_main {
+  background: var(--mainBg);
+  color: var(--mainBgCol);
 }
 
 div[data-source="in_play"][data-sport-id="1"] p.sport_icon span.glyph:before,
@@ -8741,5 +8622,44 @@ div[data-source="in_play"] .sport_odds_main .sport_single_quote {
 
 .minutes:after {
   content: "'";
+}
+
+.sport_quota_class[data-active*="true"] {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.sport_quota_class[data-active*="true"] .odds-class-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.sport_quota_class[data-active*="true"] .odds-class-list .btnQuota.select {
+  width: calc(100% / 3 - 3px);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 42px;
+  position: relative !important;
+}
+
+.odds-class-list [data-selected*="false"].btnQuota.select:first-child {
+  margin-left: 0;
 }
 /*# sourceMappingURL=extra.css.map */
