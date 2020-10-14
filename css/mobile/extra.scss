@@ -8470,6 +8470,8 @@ div[data-source="in_play"] .sport_odds_main {
     position: relative;
     .sport_odds_live_result {
       background: transparent !important;
+      line-height: normal;
+      box-shadow: none;
       &::-webkit-input-placeholder {
         color: var(--secondary-txt);
       }

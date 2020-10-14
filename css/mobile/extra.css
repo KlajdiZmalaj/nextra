@@ -8631,6 +8631,9 @@ div[data-source="in_play"] .sport_odds_main .sport_line_title {
 
 div[data-source="in_play"] .sport_odds_main .sport_line_title .sport_odds_live_result {
   background: transparent !important;
+  line-height: normal;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 div[data-source="in_play"] .sport_odds_main .sport_line_title .sport_odds_live_result::-webkit-input-placeholder {
