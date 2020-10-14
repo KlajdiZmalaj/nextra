@@ -7953,6 +7953,7 @@ a.button.right.login {
   border-bottom: none;
   &:last-child {
     border-bottom: 1px solid;
+    border-bottom-color: var(--tableBorders);
   }
 }
 .main_container_sport_item .gpicon,
