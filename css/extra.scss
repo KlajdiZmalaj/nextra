@@ -2766,8 +2766,8 @@ img.ui-datepicker-trigger {
   top: 1px;
   &:after {
     content: " ";
-    width: 500px;
-    height: 13px;
+    width: 140px;
+    height: 14px;
     position: absolute;
     right: 7px;
     top: -1px;
@@ -2798,6 +2798,7 @@ img.ui-datepicker-trigger {
   overflow: hidden;
   padding: 0 8px;
   padding-right: 0;
+  height: 14px;
 }
 .fa-check-circle-o:before {
   content: "\f058";
