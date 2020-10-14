@@ -8467,12 +8467,22 @@ div[data-source="in_play"] .sport_odds_main {
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    position: relative;
     .sport_odds_name {
       width: 100%;
       text-align: center;
       text-transform: capitalize;
       padding: 5px 0px;
       line-height: normal;
+    }
+    .info {
+      position: absolute;
+      right: 11px;
+      top: 8px;
+      margin: 0;
+      .minutes {
+        min-width: auto;
+      }
     }
   }
   .sport_quote_view {
