@@ -7950,6 +7950,11 @@ a.button.right.login {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: none;
+}
+
+.main_container_sport_item:last-child {
+  border-bottom: 1px solid;
 }
 
 .main_container_sport_item .gpicon,

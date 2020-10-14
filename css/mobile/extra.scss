@@ -7950,6 +7950,10 @@ a.button.right.login {
 .main_container_sport_item {
   display: flex;
   align-items: center;
+  border-bottom: none;
+  &:last-child {
+    border-bottom: 1px solid;
+  }
 }
 .main_container_sport_item .gpicon,
 .main_container_sport_item .sport_title,
