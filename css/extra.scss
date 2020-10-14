@@ -2839,6 +2839,10 @@ img[src*="main-banner2.jpg"] {
   background: var(--accent-bg);
   background-image: none;
   color: var(--accent-txt);
+  &:hover {
+    background: var(--accent-bg);
+    color: var(--accent-txt);
+  }
 }
 .registration-page .registration-successful .content {
   background-color: var(--mainBg);

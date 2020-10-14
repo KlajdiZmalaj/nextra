@@ -3227,6 +3227,18 @@ input[type="submit"].register-button {
   color: var(--accent-txt);
 }
 
+.login-popup .login-content form .button-holder div:hover,
+.login-popup .login-content form .button-holder input[type="submit"]:hover,
+.login-popup .login-content form .button-holder div.register-button:hover,
+.login-popup
+.login-content
+form
+.button-holder
+input[type="submit"].register-button:hover {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+}
+
 .registration-page .registration-successful .content {
   background-color: var(--mainBg);
   color: var(--mainBgCol);
