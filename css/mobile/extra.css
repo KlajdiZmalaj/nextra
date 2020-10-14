@@ -8717,4 +8717,32 @@ body {
 .sport_content_odds.live .sport_single_quote div span.tipoquota {
   color: var(--accent);
 }
+
+.sport_single_quote[data-locked="true"] {
+  pointer-events: none;
+  position: relative;
+}
+
+.sport_single_quote[data-locked="true"]:after {
+  content: '\f30d';
+  font-family: 'Font Awesome 5 Pro';
+  width: 100%;
+  height: 100%;
+  background: var(--bg1);
+  color: var(--col1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-size: 13px;
+}
 /*# sourceMappingURL=extra.css.map */
