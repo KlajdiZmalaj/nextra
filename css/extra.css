@@ -3225,6 +3225,8 @@ input[type="submit"].register-button {
   background: var(--accent-bg);
   background-image: none;
   color: var(--accent-txt);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .login-popup .login-content form .button-holder div:hover,

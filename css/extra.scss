@@ -2839,6 +2839,8 @@ img[src*="main-banner2.jpg"] {
   background: var(--accent-bg);
   background-image: none;
   color: var(--accent-txt);
+  box-shadow: none;
+
   &:hover {
     background: var(--accent-bg);
     color: var(--accent-txt);
