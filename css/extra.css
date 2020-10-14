@@ -3116,7 +3116,7 @@ img.ui-datepicker-trigger {
   display: none !important;
 }
 
-div#ui-datepicker-div {
+div#ui-datepicker-div[style*="display: block"] {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
@@ -3127,7 +3127,7 @@ div#ui-datepicker-div {
   width: 430px !important;
 }
 
-div#ui-datepicker-div .ui-datepicker .ui-datepicker-buttonpane {
+div#ui-datepicker-div[style*="display: block"] .ui-datepicker .ui-datepicker-buttonpane {
   width: 100%;
 }
 

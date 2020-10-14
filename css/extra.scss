@@ -2755,7 +2755,7 @@ img.ui-datepicker-trigger {
     display: none !important;
   }
 }
-div#ui-datepicker-div {
+div#ui-datepicker-div[style*="display: block"] {
   display: flex !important;
   flex-flow: row wrap;
   width: 430px !important;
