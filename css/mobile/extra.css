@@ -8593,6 +8593,12 @@ div[data-source="in_play"] .sport_odds_main {
           align-items: center;
 }
 
+div[data-source="in_play"] .sport_odds_main .odds_class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 div[data-source="in_play"] .sport_odds_main a.live_odds_button_more {
   margin: 10px !important;
 }
@@ -8626,6 +8632,9 @@ div[data-source="in_play"] .sport_odds_main .sport_quote_view {
 
 div[data-source="in_play"] .sport_odds_main .sport_single_quote {
   margin: 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .minutes:after {
