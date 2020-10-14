@@ -3203,4 +3203,27 @@ img[src*="main-banner3.jpg"],
 img[src*="main-banner2.jpg"] {
   display: none !important;
 }
+
+.login-popup .login-content form {
+  background-color: var(--bg1);
+  color: var(--col1);
+}
+
+.login-popup .login-content form .row {
+  border-bottom: 1px solid var(--tableBorders);
+}
+
+.login-popup .login-content form .button-holder div,
+.login-popup .login-content form .button-holder input[type="submit"],
+.login-popup .login-content form .button-holder div.register-button,
+.login-popup
+.login-content
+form
+.button-holder
+input[type="submit"].register-button {
+  padding: 2px 10px;
+  background: var(--accent-bg);
+  background-image: none;
+  color: var(--accent-txt);
+}
 /*# sourceMappingURL=extra.css.map */
