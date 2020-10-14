@@ -8491,6 +8491,13 @@ div[data-source="in_play"] .sport_odds_main {
       position: relative !important;
     }
   }
+  .btnQuotaArrow {
+    margin: 9px auto;
+    width: calc(100% / 3 - 3px);
+    flex-shrink: 0;
+    max-width: initial;
+    border-radius: 0;
+  }
 }
 .odds-class-list [data-selected*="false"].btnQuota.select:first-child {
   margin-left: 0;
@@ -8502,10 +8509,4 @@ div[data-source="in_play"] .sport_odds_main {
 .btnQuota.select a {
   white-space: nowrap;
 }
-.btnQuotaArrow {
-  margin: 9px auto;
-  width: calc(100% / 3 - 3px);
-  flex-shrink: 0;
-  max-width: initial;
-  border-radius: 0;
-}
+
