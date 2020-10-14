@@ -3194,6 +3194,13 @@ img.ui-datepicker-trigger {
 }
 
 .center-content .main-slider .slick-dots {
-  display: none;
+  display: none !important;
+}
+
+img[src*="main-banner5.jpg"],
+img[src*="main-banner4.jpg"],
+img[src*="main-banner3.jpg"],
+img[src*="main-banner2.jpg"] {
+  display: none !important;
 }
 /*# sourceMappingURL=extra.css.map */
