@@ -2759,9 +2759,9 @@ div#ui-datepicker-div[style*="display: block"] {
   display: flex !important;
   flex-flow: row wrap;
   width: 430px !important;
-  .ui-datepicker .ui-datepicker-buttonpane {
-    width: 100%;
-  }
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+  width: 100%;
 }
 #ui-datepicker-div .ui-slider .ui-slider-handle {
   background-color: var(--accent) !important;

@@ -3127,7 +3127,7 @@ div#ui-datepicker-div[style*="display: block"] {
   width: 430px !important;
 }
 
-div#ui-datepicker-div[style*="display: block"] .ui-datepicker .ui-datepicker-buttonpane {
+.ui-datepicker .ui-datepicker-buttonpane {
   width: 100%;
 }
 
