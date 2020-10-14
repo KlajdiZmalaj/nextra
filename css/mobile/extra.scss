@@ -8547,7 +8547,7 @@ body {
   display: inline-block;
   top: auto;
   width: auto;
-  right: 5px;
+  right: 4px;
   -webkit-animation: pulse 1s infinite;
   animation: pulse 1s infinite;
   font-size: 14px;
@@ -8555,5 +8555,7 @@ body {
 
 .sport_single_quote[data-state="d"] span.quota:after,
 .sport_single_quote[data-state="u"] span.quota:after {
-  right: 5px;
+  right: 4px;
+  -webkit-animation: pulse 1s infinite;
+  animation: pulse 1s infinite;
 }
