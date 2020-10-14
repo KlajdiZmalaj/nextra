@@ -2840,3 +2840,22 @@ img[src*="main-banner2.jpg"] {
   background-image: none;
   color: var(--accent-txt);
 }
+.registration-page .registration-successful .content {
+  background-color: var(--mainBg);
+  color: var(--mainBgCol);
+  padding: 120px;
+}
+.registration-page
+  .registration-successful
+  .content
+  .button-holder
+  .proceed-button {
+  margin: 0 auto;
+  float: unset;
+  display: block;
+  width: 110px;
+}
+.login-popup .login-content form .row .forgot-text a,
+.login-popup .login-content form .row .forgot-text a:hover {
+  color: var(--accent);
+}
