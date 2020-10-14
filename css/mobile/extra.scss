@@ -8468,6 +8468,12 @@ div[data-source="in_play"] .sport_odds_main {
     justify-content: center;
     align-items: center;
     position: relative;
+    .sport_odds_live_result {
+      background: transparent !important;
+      &::-webkit-input-placeholder {
+        color: var(--secondary-txt);
+      }
+    }
     .sport_odds_name {
       width: 100%;
       text-align: center;
@@ -8482,6 +8488,7 @@ div[data-source="in_play"] .sport_odds_main {
       margin: 0;
       .minutes {
         min-width: auto;
+        font-size: 14px;
       }
     }
   }
