@@ -3145,7 +3145,7 @@ div#ui-datepicker-div .ui-datepicker .ui-datepicker-buttonpane {
 
 #ui-datepicker-div .ui-slider .ui-slider-handle:after {
   content: " ";
-  width: 140px;
+  width: 320px;
   height: 14px;
   position: absolute;
   right: 7px;
