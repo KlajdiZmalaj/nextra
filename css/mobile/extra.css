@@ -8662,7 +8662,7 @@ div[data-source="in_play"] .sport_odds_main .sport_single_quote {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  height: 42px;
+  height: 32px;
   position: relative !important;
 }
 
