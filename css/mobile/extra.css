@@ -8540,6 +8540,10 @@ body .main_container_group_item .sport_count {
   color: var(--mainBgCol);
 }
 
+[data-page="prematch-event"] .legend {
+  border: none;
+}
+
 div[data-source="in_play"][data-sport-id="1"] p.sport_icon span.glyph:before,
 div[data-source="upcoming"][data-sport-id="1"] p.sport_icon span.glyph:before {
   color: var(--mainBgCol);

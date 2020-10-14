@@ -8396,6 +8396,9 @@ body .main_container_group_item .sport_count {
     background: var(--mainBg);
     color: var(--mainBgCol);
   }
+  .legend {
+    border: none;
+  }
 }
 
 div[data-source="in_play"][data-sport-id="1"] p.sport_icon span.glyph:before,
