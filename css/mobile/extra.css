@@ -8617,6 +8617,7 @@ div[data-source="in_play"] .sport_odds_main .sport_line_title {
 div[data-source="in_play"] .sport_odds_main .sport_line_title .sport_odds_name {
   width: 100%;
   text-align: center;
+  text-transform: capitalize;
 }
 
 div[data-source="in_play"] .sport_odds_main .sport_quote_view {
