@@ -8713,4 +8713,8 @@ div[data-source="in_play"] .sport_odds_main .sport_single_quote {
 body {
   overflow-x: hidden;
 }
+
+.sport_content_odds.live .sport_single_quote div span.tipoquota {
+  color: var(--accent);
+}
 /*# sourceMappingURL=extra.css.map */
