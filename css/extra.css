@@ -3116,6 +3116,21 @@ img.ui-datepicker-trigger {
   display: none !important;
 }
 
+div#ui-datepicker-div {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 430px !important;
+}
+
+div#ui-datepicker-div .ui-datepicker .ui-datepicker-buttonpane {
+  width: 100%;
+}
+
 #ui-datepicker-div .ui-slider .ui-slider-handle {
   background-color: var(--accent) !important;
   border: 0 !important;

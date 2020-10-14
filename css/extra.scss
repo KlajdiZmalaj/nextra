@@ -2755,6 +2755,14 @@ img.ui-datepicker-trigger {
     display: none !important;
   }
 }
+div#ui-datepicker-div {
+  display: flex !important;
+  flex-flow: row wrap;
+  width: 430px !important;
+  .ui-datepicker .ui-datepicker-buttonpane {
+    width: 100%;
+  }
+}
 #ui-datepicker-div .ui-slider .ui-slider-handle {
   background-color: var(--accent) !important;
   border: 0 !important;
