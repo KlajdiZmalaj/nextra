@@ -1,4 +1,9 @@
 @import url("../../css/fonts/fontAwesome/css/all.min.css");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 [data-logged="true"] ul#login_data li {
   float: left;
   width: 100%;
@@ -8591,6 +8596,7 @@ div[data-source="in_play"] .sport_odds_main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
 }
 
 div[data-source="in_play"] .sport_odds_main .odds_class {
@@ -8698,5 +8704,9 @@ div[data-source="in_play"] .sport_odds_main .sport_single_quote {
 
 .btnQuota.select a {
   white-space: nowrap;
+}
+
+body {
+  overflow-x: hidden;
 }
 /*# sourceMappingURL=extra.css.map */

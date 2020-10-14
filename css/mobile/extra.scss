@@ -1,5 +1,7 @@
 @import url("../../css/fonts/fontAwesome/css/all.min.css");
-
+* {
+  box-sizing: border-box;
+}
 [data-logged="true"] ul#login_data li {
   float: left;
   width: 100%;
@@ -8440,6 +8442,7 @@ div[data-source="upcoming"][data-sport-id="1"] p.sport_icon span.glyph:before {
   background: var(--teableHeadersBg);
   color: var(--teableHeadersCol);
 }
+
 // .main_container_tile {
 //   display: flex;
 //   align-items: center;
@@ -8449,6 +8452,7 @@ div[data-source="upcoming"][data-sport-id="1"] p.sport_icon span.glyph:before {
 div[data-source="in_play"] .sport_odds_main {
   display: flex;
   align-items: center;
+  overflow: hidden;
   .odds_class {
     display: flex;
   }
@@ -8514,4 +8518,7 @@ div[data-source="in_play"] .sport_odds_main {
 }
 .btnQuota.select a {
   white-space: nowrap;
+}
+body {
+  overflow-x: hidden;
 }
