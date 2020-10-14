@@ -3187,4 +3187,9 @@ img.ui-datepicker-trigger {
   border-radius: 0;
   margin-left: 5px;
 }
+
+.slick-track {
+  -webkit-transform: translate3d(-818px, 0px, 0px) !important;
+          transform: translate3d(-818px, 0px, 0px) !important;
+}
 /*# sourceMappingURL=extra.css.map */
