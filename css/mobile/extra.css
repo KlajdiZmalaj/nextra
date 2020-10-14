@@ -7950,6 +7950,12 @@ a.button.right.login {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: none;
+}
+
+.main_container_sport_item:last-child {
+  border-bottom: 1px solid;
+  border-bottom-color: var(--tableBorders);
 }
 
 .main_container_sport_item .gpicon,
@@ -8535,6 +8541,10 @@ body .main_container_group_item .sport_count {
   color: var(--mainBgCol);
 }
 
+[data-page="prematch-event"] .legend {
+  border: none;
+}
+
 div[data-source="in_play"][data-sport-id="1"] p.sport_icon span.glyph:before,
 div[data-source="upcoming"][data-sport-id="1"] p.sport_icon span.glyph:before {
   color: var(--mainBgCol);
@@ -8626,6 +8636,18 @@ div[data-source="in_play"] .sport_odds_main .sport_line_title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+}
+
+div[data-source="in_play"] .sport_odds_main .sport_line_title .sport_odds_live_result {
+  background: transparent !important;
+  line-height: normal;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+div[data-source="in_play"] .sport_odds_main .sport_line_title .sport_odds_live_result::-webkit-input-placeholder {
+  color: var(--secondary-txt);
 }
 
 div[data-source="in_play"] .sport_odds_main .sport_line_title .sport_odds_name {
@@ -8634,6 +8656,18 @@ div[data-source="in_play"] .sport_odds_main .sport_line_title .sport_odds_name {
   text-transform: capitalize;
   padding: 5px 0px;
   line-height: normal;
+}
+
+div[data-source="in_play"] .sport_odds_main .sport_line_title .info {
+  position: absolute;
+  right: 11px;
+  top: 8px;
+  margin: 0;
+}
+
+div[data-source="in_play"] .sport_odds_main .sport_line_title .info .minutes {
+  min-width: auto;
+  font-size: 14px;
 }
 
 div[data-source="in_play"] .sport_odds_main .sport_quote_view {
@@ -8724,8 +8758,8 @@ body {
 }
 
 .sport_single_quote[data-locked="true"]:after {
-  content: '\f30d';
-  font-family: 'Font Awesome 5 Pro';
+  content: "\f30d";
+  font-family: "Font Awesome 5 Pro";
   width: 100%;
   height: 100%;
   background: var(--bg1);
@@ -8744,5 +8778,42 @@ body {
   top: 0;
   text-align: center;
   font-size: 13px;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.sport_single_quote[data-state="n"] span.quota:after {
+  content: "=";
+  color: #0095ff;
+  display: inline-block;
+  top: auto;
+  width: auto;
+  right: 4px;
+  -webkit-animation: pulse 1s infinite;
+  animation: pulse 1s infinite;
+  font-size: 14px;
+}
+
+.sport_single_quote[data-state="d"] span.quota:after,
+.sport_single_quote[data-state="u"] span.quota:after {
+  right: 4px;
+  -webkit-animation: pulse 1s infinite;
+  animation: pulse 1s infinite;
 }
 /*# sourceMappingURL=extra.css.map */
