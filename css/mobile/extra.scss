@@ -8531,3 +8531,29 @@ body {
     color: var(--accent);
   }
 }
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.sport_single_quote[data-state="n"] span.quota:after {
+  content: "=";
+  color: #0095ff;
+  display: inline-block;
+  top: auto;
+  width: auto;
+  right: 5px;
+  -webkit-animation: pulse 1s infinite;
+  animation: pulse 1s infinite;
+  font-size: 14px;
+}
+
+.sport_single_quote[data-state="d"] span.quota:after,
+.sport_single_quote[data-state="u"] span.quota:after {
+  right: 5px;
+}
