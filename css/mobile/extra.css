@@ -8274,7 +8274,7 @@ span.sport_search_button {
 }
 
 .menu_items_container .single_menu_item {
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 6px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8288,6 +8288,8 @@ span.sport_search_button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: var(--bg1);
+  margin: 3px;
 }
 
 .menu_items_container {
@@ -8624,6 +8626,8 @@ div[data-source="in_play"] .sport_odds_main .sport_line_title .sport_odds_name {
   width: 100%;
   text-align: center;
   text-transform: capitalize;
+  padding: 5px 0px;
+  line-height: normal;
 }
 
 div[data-source="in_play"] .sport_odds_main .sport_quote_view {

@@ -8193,11 +8193,13 @@ span.sport_search_button {
   width: 100%;
 }
 .menu_items_container .single_menu_item {
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 6px);
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  background: var(--bg1);
+  margin: 3px;
 }
 .menu_items_container {
   display: flex;
@@ -8465,6 +8467,8 @@ div[data-source="in_play"] .sport_odds_main {
       width: 100%;
       text-align: center;
       text-transform: capitalize;
+      padding: 5px 0px;
+      line-height: normal;
     }
   }
   .sport_quote_view {
