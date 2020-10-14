@@ -8341,6 +8341,9 @@ body .main_container_group_item .sport_count {
 }
 
 [data-page="prematch-event"] {
+  .btnQuota.select {
+    order: 2;
+  }
   .quote-count {
     display: flex;
     flex-flow: row wrap;
@@ -8353,7 +8356,7 @@ body .main_container_group_item .sport_count {
   .sport_single_quote {
     border-radius: 0;
     width: calc(100% / 3 - 10px) !important;
-    margin: 5px !important;
+    margin: 1px !important;
     border: 1px solid var(--tableBorders);
     flex-grow: 1;
   }
@@ -8469,13 +8472,15 @@ div[data-source="in_play"] .sport_odds_main {
 .minutes:after {
   content: "'";
 }
+.odds-class-list {
+  display: flex;
+  flex-flow: row wrap;
+}
 .sport_quota_class[data-active*="true"] {
   height: auto;
   display: flex;
   flex-flow: column;
   .odds-class-list {
-    display: flex;
-    flex-flow: row wrap;
     .btnQuota.select {
       width: calc(100% / 3 - 3px);
       box-sizing: border-box;
@@ -8489,4 +8494,18 @@ div[data-source="in_play"] .sport_odds_main {
 }
 .odds-class-list [data-selected*="false"].btnQuota.select:first-child {
   margin-left: 0;
+}
+.odds-class-list [data-selected*="true"].btnQuota.select {
+  position: relative;
+  order: 1;
+}
+.btnQuota.select a {
+  white-space: nowrap;
+}
+.btnQuotaArrow {
+  margin: 9px auto;
+  width: calc(100% / 3 - 3px);
+  flex-shrink: 0;
+  max-width: initial;
+  border-radius: 0;
 }

@@ -8456,6 +8456,12 @@ body .main_container_group_item .sport_count {
   color: var(--accent-txt);
 }
 
+[data-page="prematch-event"] .btnQuota.select {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
 [data-page="prematch-event"] .quote-count {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8475,7 +8481,7 @@ body .main_container_group_item .sport_count {
 [data-page="prematch-event"] .sport_single_quote {
   border-radius: 0;
   width: calc(100% / 3 - 10px) !important;
-  margin: 5px !important;
+  margin: 1px !important;
   border: 1px solid var(--tableBorders);
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -8624,6 +8630,16 @@ div[data-source="in_play"] .sport_odds_main .sport_single_quote {
   content: "'";
 }
 
+.odds-class-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
 .sport_quota_class[data-active*="true"] {
   height: auto;
   display: -webkit-box;
@@ -8633,16 +8649,6 @@ div[data-source="in_play"] .sport_odds_main .sport_single_quote {
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
-}
-
-.sport_quota_class[data-active*="true"] .odds-class-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
 }
 
 .sport_quota_class[data-active*="true"] .odds-class-list .btnQuota.select {
@@ -8661,5 +8667,25 @@ div[data-source="in_play"] .sport_odds_main .sport_single_quote {
 
 .odds-class-list [data-selected*="false"].btnQuota.select:first-child {
   margin-left: 0;
+}
+
+.odds-class-list [data-selected*="true"].btnQuota.select {
+  position: relative;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.btnQuota.select a {
+  white-space: nowrap;
+}
+
+.btnQuotaArrow {
+  margin: 9px auto;
+  width: calc(100% / 3 - 3px);
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  max-width: initial;
+  border-radius: 0;
 }
 /*# sourceMappingURL=extra.css.map */
