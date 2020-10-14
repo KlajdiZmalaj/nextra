@@ -3192,4 +3192,8 @@ img.ui-datepicker-trigger {
   -webkit-transform: translate3d(-818px, 0px, 0px) !important;
           transform: translate3d(-818px, 0px, 0px) !important;
 }
+
+.center-content .main-slider .slick-dots {
+  display: none;
+}
 /*# sourceMappingURL=extra.css.map */
