@@ -8967,10 +8967,15 @@ body {
           align-items: center;
   position: relative;
   z-index: 1;
+  padding-left: 15px;
 }
 
 div[data-source="in_play"] .sport_odds_main,
 div[data-source="upcoming"] .sport_odds_main {
   border-bottom: 1px solid var(--tableBorders);
+}
+
+.main_container_tile {
+  border-top: 0;
 }
 /*# sourceMappingURL=extra.css.map */
