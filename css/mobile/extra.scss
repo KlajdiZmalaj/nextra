@@ -8645,3 +8645,7 @@ body {
 .sport_single_quote div span.tipoquota {
   color: var(--accent);
 }
+.sport_single_quote[data-selected*="true"] .quota {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+}
