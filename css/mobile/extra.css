@@ -8968,4 +8968,9 @@ body {
   position: relative;
   z-index: 1;
 }
+
+div[data-source="in_play"] .sport_odds_main,
+div[data-source="upcoming"] .sport_odds_main {
+  border-bottom: 1px solid var(--tableBorders);
+}
 /*# sourceMappingURL=extra.css.map */
