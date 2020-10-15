@@ -8713,3 +8713,13 @@ body {
   background: var(--accent-bg);
   color: var(--accent-txt);
 }
+
+.main_container_tile p:nth-child(2) {
+  box-shadow: 3px 2px 20px -4px #000;
+  margin: 0;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}

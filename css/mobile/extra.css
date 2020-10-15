@@ -8953,4 +8953,19 @@ body {
   background: var(--accent-bg);
   color: var(--accent-txt);
 }
+
+.main_container_tile p:nth-child(2) {
+  -webkit-box-shadow: 3px 2px 20px -4px #000;
+          box-shadow: 3px 2px 20px -4px #000;
+  margin: 0;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: 1;
+}
 /*# sourceMappingURL=extra.css.map */
