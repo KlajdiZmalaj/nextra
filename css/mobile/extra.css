@@ -8119,6 +8119,39 @@ a.button.right.login {
   background-image: url(https://nextra.pcluster.info/css/fonts/rainbow.jpg);
 }
 
+.main_container_tile p.sport_icon span {
+  width: 25px;
+  height: 25px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.main_container_tile p.sport_icon span:before {
+  display: none;
+}
+
+[data-sport-id="1"] .main_container_tile p.sport_icon span {
+  background-image: url(https://nextra.pcluster.info/css/fonts/soccer.svg);
+}
+
+[data-sport-id="4"] .main_container_tile p.sport_icon span {
+  background-image: url(https://nextra.pcluster.info/css/fonts/hokey.svg);
+}
+
+[data-sport-id="5"] .main_container_tile p.sport_icon span {
+  background-image: url(https://nextra.pcluster.info/css/fonts/tennis.svg);
+}
+
+[data-sport-id="20"] .main_container_tile p.sport_icon span {
+  background-image: url(https://nextra.pcluster.info/css/fonts/pong.svg);
+}
+
+[data-sport-id="23"] .main_container_tile p.sport_icon span {
+  background-image: url(https://nextra.pcluster.info/css/fonts/volley.svg);
+}
+
 span.gpicon.icon-121 {
   -webkit-mask-image: url(https://nextra.pcluster.info/css/fonts/overwatch.svg);
           mask-image: url(https://nextra.pcluster.info/css/fonts/overwatch.svg);
