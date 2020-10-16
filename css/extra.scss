@@ -2498,6 +2498,16 @@ i.fa.fa-file-text-o:before {
 
 .live-tabs {
   display: flex;
+  height: 36px;
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+    height: 0px;
+  }
+  &:hover {
+    &::-webkit-scrollbar {
+      height: 5px;
+    }
+  }
 }
 
 .results-page .results-filter .single-filter select {
@@ -2891,4 +2901,5 @@ img[src*="main-banner2.jpg"] {
 }
 .live-tabs .single-live-tab {
   white-space: nowrap;
+  flex-shrink: 0;
 }

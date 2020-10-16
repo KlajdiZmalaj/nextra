@@ -2821,6 +2821,16 @@ i.fa.fa-file-text-o:before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 36px;
+  overflow-x: auto;
+}
+
+.live-tabs::-webkit-scrollbar {
+  height: 0px;
+}
+
+.live-tabs:hover::-webkit-scrollbar {
+  height: 5px;
 }
 
 .results-page .results-filter .single-filter select {
@@ -3297,5 +3307,7 @@ input[type="submit"].register-button:hover {
 
 .live-tabs .single-live-tab {
   white-space: nowrap;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 /*# sourceMappingURL=extra.css.map */
