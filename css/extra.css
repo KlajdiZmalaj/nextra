@@ -3294,4 +3294,8 @@ input[type="submit"].register-button:hover {
 .login-popup .login-content form .row .forgot-text a:hover {
   color: var(--accent);
 }
+
+.live-tabs .single-live-tab {
+  white-space: nowrap;
+}
 /*# sourceMappingURL=extra.css.map */
