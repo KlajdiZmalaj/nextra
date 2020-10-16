@@ -2829,6 +2829,10 @@ i.fa.fa-file-text-o:before {
   height: 0px;
 }
 
+.live-tabs ::-webkit-scrollbar-thumb {
+  background: var(--accent);
+}
+
 .live-tabs:hover::-webkit-scrollbar {
   height: 5px;
 }

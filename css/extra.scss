@@ -2503,6 +2503,9 @@ i.fa.fa-file-text-o:before {
   &::-webkit-scrollbar {
     height: 0px;
   }
+  ::-webkit-scrollbar-thumb {
+    background: var(--accent);
+  }
   &:hover {
     &::-webkit-scrollbar {
       height: 5px;
