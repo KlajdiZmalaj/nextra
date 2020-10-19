@@ -8731,3 +8731,49 @@ div[data-source="upcoming"] .sport_odds_main {
 .main_container_tile {
   border-top: 0;
 }
+.live iframe {
+  width: 100%;
+  border: none;
+  margin-bottom: 0;
+  float: left;
+  min-height: 450px;
+  background: #00000085;
+}
+
+.live_result {
+  p.info {
+    display: flex;
+    background-color: #000;
+    color: #fff;
+  }
+  .teams_container {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 0;
+  }
+  .match-details {
+    width: 100%;
+    display: flex;
+  }
+  .details-teams {
+    margin: 0 !important;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 11px;
+  }
+  .details-score {
+    display: flex !important;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    .label {
+      border: 0 !important;
+    }
+  }
+}
