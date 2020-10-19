@@ -9051,6 +9051,7 @@ div[data-source="upcoming"] .sport_odds_main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #fff;
 }
 
 .live_result .details-score .label {
