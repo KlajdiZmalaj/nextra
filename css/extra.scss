@@ -2906,3 +2906,7 @@ img[src*="main-banner2.jpg"] {
   white-space: nowrap;
   flex-shrink: 0;
 }
+.live-tabs .single-live-tab {
+  border-bottom: 1px solid var(--accent);
+  border-right: 1px solid var(--accent);
+}

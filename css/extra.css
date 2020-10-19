@@ -3314,4 +3314,9 @@ input[type="submit"].register-button:hover {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
+
+.live-tabs .single-live-tab {
+  border-bottom: 1px solid var(--accent);
+  border-right: 1px solid var(--accent);
+}
 /*# sourceMappingURL=extra.css.map */
