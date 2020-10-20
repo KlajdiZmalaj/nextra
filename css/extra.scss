@@ -2498,8 +2498,9 @@ i.fa.fa-file-text-o:before {
 
 .live-tabs {
   display: flex;
-  height: 36px;
-  overflow-x: auto;
+  flex-flow: row wrap;
+  height: auto;
+  grid-row: 2 span;
   &::-webkit-scrollbar {
     height: 0px;
   }
@@ -2905,6 +2906,12 @@ img[src*="main-banner2.jpg"] {
 .live-tabs .single-live-tab {
   white-space: nowrap;
   flex-shrink: 0;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding: 0 10px;
 }
 .live-tabs .single-live-tab {
   border-bottom: 1px solid var(--accent);

@@ -2821,8 +2821,12 @@ i.fa.fa-file-text-o:before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 36px;
-  overflow-x: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  height: auto;
+  grid-row: 2 span;
 }
 
 .live-tabs::-webkit-scrollbar {
@@ -3313,6 +3317,18 @@ input[type="submit"].register-button:hover {
   white-space: nowrap;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  height: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
+  padding: 0 10px;
 }
 
 .live-tabs .single-live-tab {
