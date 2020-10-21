@@ -8460,11 +8460,11 @@ body .main_container_group_item .sport_count {
   .sport_odds_name {
     color: inherit;
     line-height: 12px;
-    width: calc(100% - 40px);
+    width: auto;
   }
   .sport_single_quote {
     border-radius: 0;
-    width: calc(100% / 3 - 10px) !important;
+    width: calc(100% / 2 - 10px) !important;
     margin: 1px !important;
     border: 1px solid var(--tableBorders);
     flex-grow: 1;
@@ -8480,6 +8480,7 @@ body .main_container_group_item .sport_count {
     .sport_odds_date {
       order: 2;
       color: inherit;
+      margin: 0;
     }
   }
   .sport_quote_view .quota .quota {
@@ -8496,6 +8497,17 @@ body .main_container_group_item .sport_count {
   .sport_odds_main {
     background: var(--mainBg);
     color: var(--mainBgCol);
+    position: relative;
+    a.sport_odds_button_more  {
+      background: transparent;
+      color: var(--teableHeadersCol);
+      span {
+        color: var(--teableHeadersCol);
+      }
+     }
+    .sport_quote_view {
+      width: 100%;
+    }
   }
   .legend {
     border: none;
@@ -8778,4 +8790,8 @@ div[data-source="upcoming"] .sport_odds_main {
       border: 0 !important;
     }
   }
+}
+.icon-plus2:before {
+  content: "\f054";
+  font-family: "Font Awesome 5 Pro";
 }
