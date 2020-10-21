@@ -8456,6 +8456,7 @@ body .main_container_group_item .sport_count {
   .quote-count {
     display: flex;
     flex-flow: row wrap;
+    padding: 5px;
   }
   .sport_odds_name {
     color: inherit;
@@ -8468,6 +8469,9 @@ body .main_container_group_item .sport_count {
     margin: 1px !important;
     border: 1px solid var(--tableBorders);
     flex-grow: 1;
+    border-top-left-radius: 5px;
+    overflow: hidden;
+    border-top-right-radius: 5px;
   }
   .sport_odds_main .sport_line_title {
     background: var(--teableHeadersBg);
