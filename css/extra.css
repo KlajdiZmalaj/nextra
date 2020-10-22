@@ -3,8 +3,7 @@
 @import url("./fonts/fontAwesome/css/all.min.css");
 .casino-section {
   background-position: top center !important;
-  height: calc(100vh - 120px);
-  overflow: hidden;
+  height: calc(100vh - 133px);
 }
 
 .header .top-bar .top-bar-content .login-bar .logout-button,
