@@ -659,6 +659,26 @@ td
   background-color: #8da1ad;
 }
 
+.casino-section .casino-container {
+  position: relative;
+}
+
+.casino-section .casino-container::before {
+  content: "";
+  background-image: url("//nextra.pcluster.info/css/images/kido.png");
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-position: center;
+  background-size: contain;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  left: -93px;
+  top: 50px;
+}
+
 @media (max-device-width: 500px) {
   body .casino-section {
     width: 1007px;
@@ -701,9 +721,12 @@ td
 
 body .casino-section .casino-container .casino-inner {
   width: 100%;
+  padding: 15px;
   padding-top: 310px;
   height: calc(100% - 312px) !important;
   overflow: scroll;
+  -webkit-box-shadow: inset 0 0 110px -24px black;
+          box-shadow: inset 0 0 110px -24px black;
 }
 
 @media (max-device-width: 500px) {
@@ -711,6 +734,12 @@ body .casino-section .casino-container .casino-inner {
     overflow: visible;
     height: auto !important;
   }
+}
+
+.game-grid-container {
+  background: transparent;
+  -webkit-backdrop-filter: blur(31px);
+          backdrop-filter: blur(31px);
 }
 
 .betlist-legend-holder .legend .single-item:after {

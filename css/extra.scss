@@ -626,6 +626,23 @@ footer .footer-copyright {
   .result-holder.evaluation:after {
   background-color: #8da1ad;
 }
+.casino-section .casino-container {
+  position: relative;
+  &::before {
+    content: "";
+    background-image: url("//nextra.pcluster.info/css/images/kido.png");
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-position: center;
+    background-size: contain;
+    transform: rotate(-90deg);
+    left: -93px;
+    top: 50px;
+  }
+}
 body .casino-section {
   @media (max-device-width: 500px) {
     width: 1007px;
@@ -656,15 +673,20 @@ body .casino-section .game-grid {
 }
 body .casino-section .casino-container .casino-inner {
   width: 100%;
+  padding: 15px;
   padding-top: 310px;
   height: calc(100% - 312px) !important;
   overflow: scroll;
+  box-shadow: inset 0 0 110px -24px black;
   @media (max-device-width: 500px) {
     overflow: visible;
     height: auto !important;
   }
 }
-
+.game-grid-container {
+  background: transparent;
+  backdrop-filter: blur(31px);
+}
 .betlist-legend-holder .legend .single-item:after {
   content: "";
   position: absolute;
