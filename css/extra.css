@@ -4,7 +4,6 @@
 .casino-section {
   background-position: top center !important;
   height: calc(100vh - 120px);
-  overflow: hidden;
 }
 
 .header .top-bar .top-bar-content .login-bar .logout-button,
