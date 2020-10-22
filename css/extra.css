@@ -659,11 +659,58 @@ td
   background-color: #8da1ad;
 }
 
+@media (max-device-width: 500px) {
+  body .casino-section {
+    width: 1007px;
+    margin: 0 auto;
+    background-size: 90%;
+    background-position-y: 68px !important;
+  }
+}
+
+@media (max-device-width: 500px) {
+  body .casino-section .game-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  body .casino-section .game-grid .game-grid-item {
+    width: calc(100% / 4 - 30px);
+  }
+  body .casino-section .game-grid .game-grid-item-b,
+  body .casino-section .game-grid .game-grid-item-a {
+    width: calc(100% / 2 - 50px);
+  }
+}
+
+@media (max-device-width: 500px) {
+  .casino-section .casino-container {
+    width: 100% !important;
+  }
+}
+
 body .casino-section .casino-container .casino-inner {
   width: 100%;
   padding-top: 310px;
   height: calc(100% - 312px) !important;
   overflow: scroll;
+}
+
+@media (max-device-width: 500px) {
+  body .casino-section .casino-container .casino-inner {
+    overflow: visible;
+    height: auto !important;
+  }
 }
 
 .betlist-legend-holder .legend .single-item:after {
