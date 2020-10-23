@@ -3432,7 +3432,7 @@ input[type="submit"].register-button:hover {
 }
 
 .live-menu-wrapper .has-dropdown-menu {
-  height: calc(100vh - 210px);
+  height: calc(100vh - 234px);
   overflow-y: scroll;
   position: relative;
 }
@@ -3584,6 +3584,12 @@ span {
   font-size: 11px;
   font-weight: 300;
   padding-left: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #couponEvents .selected-bet .bet .quote {
