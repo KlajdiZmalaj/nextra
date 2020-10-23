@@ -3521,6 +3521,17 @@ input[type="submit"].register-button:hover {
   opacity: 0.9;
 }
 
+.side-bar
+.single-block.betslip-holder
+.betslip
+.selections-wrapper
+.single-event
+.selected-bet
+.bet
+span {
+  font-weight: 300;
+}
+
 #couponEvents .quote-holder {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3536,12 +3547,43 @@ input[type="submit"].register-button:hover {
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: auto;
+  width: 40px;
+  text-align: center;
+}
+
+#couponEvents .selected-bet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-bottom: 1px solid var(--tableBorders);
+  height: 20px;
+}
+
+#couponEvents .selected-bet .remove-icon {
+  width: 36px;
+  text-align: center;
 }
 
 #couponEvents .selected-bet .bet {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  font-size: 11px;
+}
+
+#couponEvents .selected-bet .bet > span {
+  font-size: 11px;
+  font-weight: 300;
+  padding-left: 8px;
 }
 
 #couponEvents .selected-bet .bet .quote {
@@ -3555,6 +3597,7 @@ input[type="submit"].register-button:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0;
 }
 
 #couponEvents .selected-bet .bet .quote.old {
