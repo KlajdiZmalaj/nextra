@@ -3511,4 +3511,44 @@ input[type="submit"].register-button:hover {
   z-index: 1;
   opacity: 0.9;
 }
+
+#couponEvents .quote-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+}
+
+#couponEvents .selected-bet .bet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#couponEvents .selected-bet .bet .quote {
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#couponEvents .selected-bet .bet .quote.old {
+  text-decoration: line-through;
+}
 /*# sourceMappingURL=extra.css.map */

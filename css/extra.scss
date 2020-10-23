@@ -2336,7 +2336,6 @@ body .radio input:checked ~ .radiocircle:after {
 }
 .side-bar .single-block .block-content form {
   position: relative;
-
 }
 .live-side-bar {
   .single-block .block-content form {
@@ -3052,4 +3051,25 @@ img[src*="main-banner2.jpg"] {
   top: 16px;
   z-index: 1;
   opacity: 0.9;
+}
+#couponEvents {
+  .quote-holder {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+  }
+  .selected-bet .bet {
+    display: flex;
+    .quote {
+      line-height: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &.old {
+        text-decoration: line-through;
+      }
+    }
+  }
 }
