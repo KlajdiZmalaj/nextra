@@ -2115,15 +2115,16 @@ body
   background: var(--accent-bg);
   color: var(--accent-txt);
 }
-.main-content.live-page {
-  min-height: 100vh;
-}
 .sports-container .matches .single-match {
   margin: 5px;
   border: 1px solid var(--tableBorders);
   margin-right: 0;
   margin-left: 0;
 }
+.main-content.live-page {
+  min-height: 100vh;
+}
+
 .sports-container .sports .single-match .team-names {
   background: transparent !important;
   color: inherit !important;
