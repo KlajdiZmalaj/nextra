@@ -3177,12 +3177,19 @@ g.ct-series.ct-series-a {
   color: #3defea;
 }
 .events-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
   >div {
     padding: 0 10px !important;
     margin-right: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 19px;
+    width: auto;
+    cursor: default;
   }
   > div:nth-child(1) {
     background: #009688;
