@@ -3146,3 +3146,21 @@ td.odd-cell .odd {
     opacity: 1 !important;
   }
 }
+g.ct-series.ct-series-c {
+  text.ct-label {
+    stroke: 0 !important;
+    fill: #e15d33 !important;
+  }
+}
+g.ct-series.ct-series-b {
+  text.ct-label {
+    stroke: 0 !important;
+    fill: var(--accent) !important;
+  }
+}
+g.ct-series.ct-series-a {
+  text.ct-label {
+    stroke: 0 !important;
+    fill: var(--accent) !important;
+  }
+}
