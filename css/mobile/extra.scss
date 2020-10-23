@@ -8046,7 +8046,8 @@ a.button.right.login {
   &.icon-22 {
     background-image: url(https://nextra.pcluster.info/css/fonts/frecette.svg);
   }
-  &.icon-23 {
+  &.icon-23,
+  &.icon-34 {
     background-image: url(https://nextra.pcluster.info/css/fonts/volley.svg);
   }
   &.icon-26 {
@@ -8148,7 +8149,9 @@ a.button.right.login {
 [data-sport-id="22"] .main_container_tile p.sport_icon span {
   background-image: url(https://nextra.pcluster.info/css/fonts/frecette.svg);
 }
-[data-sport-id="23"] .main_container_tile p.sport_icon span {
+
+[data-sport-id="23"] .main_container_tile p.sport_icon span,
+[data-sport-id="34"] .main_container_tile p.sport_icon span {
   background-image: url(https://nextra.pcluster.info/css/fonts/volley.svg);
 }
 [data-sport-id="26"] .main_container_tile p.sport_icon span {
@@ -8348,10 +8351,14 @@ li.fast_menu_option a span:nth-child(2) {
   width: 100%;
   background: var(--mainBg);
   color: var(--mainBgCol);
-  height: 100px;
+  height: auto;
 }
+
 .main_container > .main_content,
 .fields {
+  padding-top: 127px;
+}
+.main_container[data-page="landing"] > .main_content {
   padding-top: 100px;
 }
 .loader-overlay {

@@ -1,5 +1,6 @@
 /* +++++++++++++++++++++++++++++++++++++ GLOBAL STYLES FOR SITESSSSSS +++++++++++++++++++++++++++++++++++++*/
 @import url("./fonts/fontAwesome/css/all.min.css");
+
 .casino-section {
   background-position: top center !important;
   height: calc(100vh - 120px);
@@ -2335,8 +2336,14 @@ body .radio input:checked ~ .radiocircle:after {
 }
 .side-bar .single-block .block-content form {
   position: relative;
-}
 
+}
+.live-side-bar {
+  .single-block .block-content form {
+    padding: 12px;
+    box-sizing: border-box;
+  }
+}
 .doc-button:before {
   content: "BETCODES";
   position: absolute;
@@ -2662,8 +2669,11 @@ input#resultDate {
   font-weight: 300;
 }
 .odds-table .match-name .team-names div {
-  width: 190px;
+  width: 100%;
   white-space: break-spaces;
+  max-width: 280px;
+  overflow: hidden;
+  height: 25px;
 }
 .odds-table .single-match-row td .goal-odd .label {
   font-size: 11px;
@@ -3010,4 +3020,36 @@ img[src*="main-banner2.jpg"] {
   background-color: var(--accent);
   border-left: 2px solid var(--mainBg);
   border-right: 2px solid var(--mainBg);
+}
+.sports-container .anchor .trigger {
+  background-image: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: none !important;
+  position: absolute;
+  left: 8px;
+  top: 6px;
+  color: inherit;
+  &:before {
+    content: "\f078";
+    font-family: "Font Awesome 5 Pro";
+  }
+}
+
+.side-bar .single-block .block-content.sports-menu form input[type="submit"] {
+  background-color: var(--mainBg);
+  font-size: 0;
+  color: var(--mainBgCol);
+  opacity: 0.5;
+}
+.side-bar .single-block .block-content.sports-menu form input[type="text"] {
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+}
+.side-bar .single-block .block-content.sports-menu form:before {
+  left: 22px;
+  top: 16px;
+  z-index: 1;
+  opacity: 0.9;
 }
