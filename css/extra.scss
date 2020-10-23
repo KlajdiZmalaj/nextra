@@ -3212,13 +3212,14 @@ g.ct-series.ct-series-a {
 .center-content .sports-book .right-content .events-info div:after {
   display: none;
 }
-.right-side-bar {
-  float: right;
-  overflow: visible;
-}
-.single-block.betslip-holder.active {
-  position: sticky;
-  top: 0;
-  overflow: visible;
-  z-index: 1;
-}
+// .right-side-bar {
+//   float: right;
+//   overflow: visible;
+// }
+// .single-block.betslip-holder.active {
+//   position: sticky;
+//   top: 0;
+//   overflow: visible;
+//   z-index: 1;
+//   background: var(--mainBg);
+// }

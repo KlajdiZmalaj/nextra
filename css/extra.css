@@ -3679,17 +3679,4 @@ span:nth-child(3) {
 .center-content .sports-book .right-content .events-info div:after {
   display: none;
 }
-
-.right-side-bar {
-  float: right;
-  overflow: visible;
-}
-
-.single-block.betslip-holder.active {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  overflow: visible;
-  z-index: 1;
-}
 /*# sourceMappingURL=extra.css.map */
