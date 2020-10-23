@@ -3662,7 +3662,55 @@ g.ct-series.ct-series-a text.ct-label {
   fill: #3defea !important;
 }
 
-.center-content .odds-graph-holder .section-odds .starting-odds .the-odds .first-row span:nth-child(3) {
+.center-content .odds-graph-holder .match-odds-chart .ct-series-a * {
+  stroke: #3defea;
+}
+
+.center-content
+.odds-graph-holder
+.section-odds
+.starting-odds
+.the-odds
+.first-row
+span:nth-child(3) {
   color: #3defea;
+}
+
+.events-info > div {
+  padding: 0 10px !important;
+  margin-right: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.events-info > div:nth-child(1) {
+  background: #009688;
+  color: #fff;
+}
+
+.events-info > div:nth-child(2) {
+  background: #8bc34a;
+  color: #000;
+}
+
+.events-info > div:nth-child(3) {
+  background: #3f51b5;
+  color: #fff;
+}
+
+.events-info > div:nth-child(4) {
+  background: #b5473f;
+  color: #fff;
+}
+
+.center-content .sports-book .right-content .events-info div:after {
+  display: none;
 }
 /*# sourceMappingURL=extra.css.map */
