@@ -3562,7 +3562,7 @@ span {
       -ms-flex-pack: start;
           justify-content: flex-start;
   border-bottom: 1px solid var(--tableBorders);
-  height: 20px;
+  height: 26px;
 }
 
 #couponEvents .selected-bet .remove-icon {
@@ -3601,6 +3601,41 @@ span {
 }
 
 #couponEvents .selected-bet .bet .quote.old {
-  text-decoration: line-through;
+  position: relative;
+}
+
+#couponEvents .selected-bet .bet .quote.old:before {
+  content: "";
+  height: 1px;
+  width: 90%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #da1e1e;
+}
+
+.single-match-row {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.single-match-row:hover {
+  background: var(--bg1);
+  color: var(--col1);
+}
+
+.single-match-row:hover td .odd {
+  background: var(--accent-bg) !important;
+  color: var(--accent-txt);
+  opacity: 0.7;
+}
+
+td.odd-cell .odd {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+td.odd-cell .odd:hover {
+  opacity: 1 !important;
 }
 /*# sourceMappingURL=extra.css.map */

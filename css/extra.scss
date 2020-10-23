@@ -3084,7 +3084,7 @@ img[src*="main-banner2.jpg"] {
     align-items: center;
     justify-content: flex-start;
     border-bottom: 1px solid var(--tableBorders);
-    height: 20px;
+    height: 26px;
     .remove-icon {
       width: 36px;
       text-align: center;
@@ -3107,9 +3107,35 @@ img[src*="main-banner2.jpg"] {
         padding: 0;
 
         &.old {
-          text-decoration: line-through;
+          position: relative;
+          &:before {
+            content: "";
+            height: 1px;
+            width: 90%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgb(218, 30, 30);
+          }
         }
       }
     }
+  }
+}
+.single-match-row {
+  transition: 0.1s;
+  &:hover {
+    background: var(--bg1);
+    color: var(--col1);
+    td .odd {
+      background: var(--accent-bg) !important;
+      color: var(--accent-txt);
+      opacity: 0.7;
+    }
+  }
+}
+td.odd-cell .odd {
+  transition: 0.1s;
+  &:hover {
+    opacity: 1 !important;
   }
 }
