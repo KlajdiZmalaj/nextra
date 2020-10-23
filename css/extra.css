@@ -3659,6 +3659,10 @@ g.ct-series.ct-series-b text.ct-label {
 
 g.ct-series.ct-series-a text.ct-label {
   stroke: none !important;
-  fill: var(--accent) !important;
+  fill: #3defea !important;
+}
+
+.center-content .odds-graph-holder .section-odds .starting-odds .the-odds .first-row span:nth-child(3) {
+  color: #3defea;
 }
 /*# sourceMappingURL=extra.css.map */
