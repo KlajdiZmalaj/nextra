@@ -3176,39 +3176,49 @@ g.ct-series.ct-series-a {
   span:nth-child(3) {
   color: #3defea;
 }
-.events-info {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  height: 100%;
-  >div {
-    padding: 0 10px !important;
-    margin-right: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 19px;
-    width: auto;
-    cursor: default;
-  }
-  > div:nth-child(1) {
-    background: #009688;
+// .events-info {
+//   display: flex;
+//   align-items: center;
+//   justify-content: flex-end;
+//   height: 100%;
+//   >div {
+//     padding: 0 10px !important;
+//     margin-right: 2px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     height: 19px;
+//     width: auto;
+//     cursor: default;
+//   }
+//   > div:nth-child(1) {
+//     background: #009688;
 
-    color: #fff;
-  }
-  > div:nth-child(2) {
-    background: #8bc34a;
-    color: #000;
-  }
-  > div:nth-child(3) {
-    background: #3f51b5;
-    color: #fff;
-  }
-  > div:nth-child(4) {
-    background: #b5473f;
-    color: #fff;
-  }
-}
+//     color: #fff;
+//   }
+//   > div:nth-child(2) {
+//     background: #8bc34a;
+//     color: #000;
+//   }
+//   > div:nth-child(3) {
+//     background: #3f51b5;
+//     color: #fff;
+//   }
+//   > div:nth-child(4) {
+//     background: #b5473f;
+//     color: #fff;
+//   }
+// }
 .center-content .sports-book .right-content .events-info div:after {
   display: none;
+}
+.right-side-bar {
+  float: right;
+  overflow: visible;
+}
+.single-block.betslip-holder.active {
+  position: sticky;
+  top: 0;
+  overflow: visible;
+  z-index: 1;
 }
