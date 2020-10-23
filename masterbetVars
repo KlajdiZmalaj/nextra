@@ -16,7 +16,7 @@ html:root {
   --primary-txt: #fff;
   --secondary-bg: #212931;
   --secondary-txt: #fff;
-  --mainBg: #212931;
+  --mainBg: #171d24;
   --mainBgCol: #fff;
   --bg1: #29333b;
   --col1: #fff;

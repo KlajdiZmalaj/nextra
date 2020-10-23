@@ -3514,7 +3514,7 @@ input[type="submit"].register-button:hover {
   color: var(--mainBgCol);
 }
 
-.side-bar .single-block .block-content.sports-menu form:before {
+.live-page .side-bar .single-block .block-content.sports-menu form:before {
   left: 22px;
   top: 16px;
   z-index: 1;

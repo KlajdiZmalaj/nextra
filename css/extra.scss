@@ -3053,12 +3053,15 @@ img[src*="main-banner2.jpg"] {
   background: var(--mainBg);
   color: var(--mainBgCol);
 }
-.side-bar .single-block .block-content.sports-menu form:before {
-  left: 22px;
-  top: 16px;
-  z-index: 1;
-  opacity: 0.9;
+.live-page {
+  .side-bar .single-block .block-content.sports-menu form:before {
+    left: 22px;
+    top: 16px;
+    z-index: 1;
+    opacity: 0.9;
+  }
 }
+
 .side-bar
   .single-block.betslip-holder
   .betslip
