@@ -2104,6 +2104,7 @@ body #oddsMenu tr {
   padding: 2px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  padding-left: 0;
 }
 
 body #oddsMenu tr .odd-type {
@@ -2338,6 +2339,10 @@ body
 
 .main-content.logged-page > .grid {
   min-height: 100vh;
+}
+
+.live-center-content {
+  border-left: 0;
 }
 
 .center-content.live-center-content {
@@ -3413,5 +3418,43 @@ input[type="submit"].register-button:hover {
 
 .main-slider {
   pointer-events: none;
+}
+
+.live-menu-wrapper .has-dropdown-menu {
+  height: calc(100vh - 210px);
+  overflow-y: scroll;
+  position: relative;
+}
+
+.live-menu-wrapper .has-dropdown-menu:after {
+  content: "";
+  width: 100%;
+  height: 80px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  /* background: #222; */
+  display: block;
+  -webkit-box-shadow: inset 0px -28px 16px -10px var(--bg1);
+          box-shadow: inset 0px -28px 16px -10px var(--bg1);
+}
+
+::-webkit-scrollbar {
+  background-color: var(--mainBg);
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--bg1);
+  border-left: 2px solid var(--mainBg);
+  border-right: 2px solid var(--mainBg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--accent);
+  border-left: 2px solid var(--mainBg);
+  border-right: 2px solid var(--mainBg);
 }
 /*# sourceMappingURL=extra.css.map */
