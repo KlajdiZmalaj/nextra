@@ -3004,6 +3004,13 @@ img[src*="main-banner2.jpg"] {
     display: block;
     box-shadow: inset 0px -28px 16px -10px var(--bg1);
   }
+  .anchor.active {
+    background-color: var(--accent-bg);
+    color: var(--accent-txt);
+    .trigger {
+      background: transparent !important;
+    }
+  }
 }
 ::-webkit-scrollbar {
   background-color: var(--mainBg);

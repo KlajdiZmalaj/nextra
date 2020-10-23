@@ -3450,6 +3450,15 @@ input[type="submit"].register-button:hover {
           box-shadow: inset 0px -28px 16px -10px var(--bg1);
 }
 
+.live-menu-wrapper .has-dropdown-menu .anchor.active {
+  background-color: var(--accent-bg);
+  color: var(--accent-txt);
+}
+
+.live-menu-wrapper .has-dropdown-menu .anchor.active .trigger {
+  background: transparent !important;
+}
+
 ::-webkit-scrollbar {
   background-color: var(--mainBg);
   width: 10px;
