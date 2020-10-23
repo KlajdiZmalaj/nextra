@@ -3108,13 +3108,15 @@ img[src*="main-banner2.jpg"] {
 
         &.old {
           position: relative;
-          &:before {
+          &:after {
             content: "";
             height: 1px;
-            width: 90%;
+            width: 110%;
             left: 50%;
             transform: translateX(-50%);
-            background-color: rgb(218, 30, 30);
+            background-color: #e41717;
+            display: block;
+            position: absolute;
           }
         }
       }

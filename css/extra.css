@@ -3604,14 +3604,16 @@ span {
   position: relative;
 }
 
-#couponEvents .selected-bet .bet .quote.old:before {
+#couponEvents .selected-bet .bet .quote.old:after {
   content: "";
   height: 1px;
-  width: 90%;
+  width: 110%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  background-color: #da1e1e;
+  background-color: #e41717;
+  display: block;
+  position: absolute;
 }
 
 .single-match-row {
