@@ -33,8 +33,7 @@ body.landing-page {
 }
 
 body {
-  background-size: 2390px;
-  background-position-y: 100px;
+  background-size: 2340px !important;
 }
 
 @media (max-width: 1008px) {
