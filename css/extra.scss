@@ -3223,3 +3223,9 @@ g.ct-series.ct-series-a {
 //   z-index: 1;
 //   background: var(--mainBg);
 // }
+@media screen and (max-device-width: 500px) {
+  .live-menu-wrapper .has-dropdown-menu {
+    height: auto !important;
+    overflow: visible !important;
+  }
+}
