@@ -3689,4 +3689,15 @@ span:nth-child(3) {
     min-width: 1467px;
   }
 }
+
+.live-content-wrapper
+.live-sports-overview
+.sport-container
+.single-panel
+.panel-content
+.single-match
+.time-info
+.open-event-view {
+  display: none;
+}
 /*# sourceMappingURL=extra.css.map */

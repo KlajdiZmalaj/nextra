@@ -3232,3 +3232,14 @@ g.ct-series.ct-series-a {
     min-width: 1467px;
   }
 }
+
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .time-info
+  .open-event-view {
+  display: none;
+}
