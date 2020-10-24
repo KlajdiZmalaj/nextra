@@ -3685,5 +3685,8 @@ span:nth-child(3) {
     height: auto !important;
     overflow: visible !important;
   }
+  body {
+    min-width: 1467px;
+  }
 }
 /*# sourceMappingURL=extra.css.map */
