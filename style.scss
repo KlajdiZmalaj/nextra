@@ -4648,7 +4648,18 @@ footer {
     text-align: center;
     padding: 6px;
     background: var(--mainBg);
-    color: var(--mainBgCol);
+    color: rgba(255, 255, 255, 0) !important;
+    &:before {
+      content: "#{$skin} @2020 All rights reserved.";
+      color: var(--mainBgCol);
+      text-align: center;
+      display: flex;
+      justify-self: center;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+    }
   }
   &.center-footer {
     display: none;
@@ -10885,13 +10896,12 @@ footer {
       }
     }
     &.edit-user-page {
-      background-color: lighten($white, 5%);
       display: flex;
       flex-flow: row wrap;
       .row {
         width: calc(100% / 2);
         .cell {
-          border-bottom: 1px solid darken($white, 3%);
+          border-bottom: 1px solid var(--tableBorders);
           text-align: center;
         }
       }
@@ -14986,7 +14996,7 @@ footer {
   }
   &.betlist-checkout {
     .accordion-tabs {
-      border-bottom: 1px solid $primary;
+      border-bottom: 1px solid var(--tableBorders);
       text-align: right;
       margin-top: 10px;
       padding-right: 10px;
@@ -14996,8 +15006,9 @@ footer {
         font-weight: bold;
         font-size: 12px;
         text-transform: uppercase;
-        color: $primary;
         padding: 0 10px;
+        background: var(--bg1);
+        color: var(--col1);
         cursor: pointer;
         &:first-child {
           border-top-left-radius: 5px;
@@ -15010,14 +15021,12 @@ footer {
           margin-left: -4px;
         }
         &:hover {
-          background-color: rgba($primary, 0.2);
+          background: var(--accent-bg);
+          color: var(--accent-txt);
         }
         &.active {
-          background-color: $primary;
-          color: $white;
-          &:hover {
-            background-color: $primary;
-          }
+          background: var(--accent-bg);
+          color: var(--accent-txt);
         }
       }
     }
