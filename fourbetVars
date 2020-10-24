@@ -20,15 +20,16 @@ html:root {
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "fourbet";
 }
 
 $skin: "fourbet";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/fourbet/img/logo/newlogo.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/60/image/01aee99446d084908851397ec18505c8.jpeg";
-$bodyCol: #0d1528;
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/green.jpg";
+$bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 
@@ -58,14 +59,14 @@ html body {
 .header .top-header {
   background: var(--accent-bg) !important;
   color: var(--accent-txt) !important;
-  border-bottom: 4px solid #var(--casinoGradient2)!important;
+  border-bottom: 4px solid #var(--casinoGradient2) !important;
 }
 
 .header .top-bar {
   background: #0e1428 !important;
-  color: var(--accent-txt)!important;
+  color: var(--accent-txt) !important;
 }
 
 footer {
-    background: var(--accent-bg)!important;
+  background: var(--accent-bg) !important;
 }

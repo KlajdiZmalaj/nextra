@@ -1,46 +1,58 @@
-$skin: "biwinner";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+$skin: "getbet";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: 'https://gradm-api.pcluster.info/api/skin/49/image/131d162d7dd48e35ba4d9b69202e331a.png';
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/49/image/874404f8fef779a0bdae0931ba9eabfd.jpeg";
+$logoUrl: "https://gradm-api.pcluster.info/api/skin/49/image/131d162d7dd48e35ba4d9b69202e331a.png";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/red.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 0;
+$invet: 1;
 
 html:root {
-  --accent: #DE3442;
-  --accent-bg: #B30013;
-  --accent-txt: #fff;
-  --primary-bg: #11151A;
+  --accent: #8ac5ed;
+  --accent-bg: #fff;
+  --accent-txt: #b30013;
+  --primary-bg: #11151a;
   --primary-txt: #fff;
-  --secondary-bg: #8B000F;
+  --secondary-bg: #8b000f;
   --secondary-txt: #fff;
-  --mainBg: #24323B;
+  --mainBg: #24323b;
   --mainBgCol: #fff;
-  --bg1: #2E3E49;
+  --bg1: #2e3e49;
   --col1: #fff;
-  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
-  --teableHeadersCol: #000000;
+  --teableHeadersBg: #b30013;
+  --teableHeadersCol: #fff;
   --teableSubHeadersBg: #414755;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #161d2f;
-  --casinoGradient1: #000000;
+  --casinoGradient1: #0c1429b5;
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "getbet";
 }
 
-$secondary: #B30013;
+$secondary: #b30013;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #B30013;
+$secondaryDark: #b30013;
 $secondaryDarkCol: #fff;
-$primary: #2E3E49;
+$primary: #2e3e49;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #2E3E49;
+$sb-2: #2e3e49;
+body {
+  background-size: 2038px !important;
+}
+.odds-table .second-header td {
+  color: #ffffff !important;
+}
+
+body.landing-page {
+  background-color: #0c1429 !important;
+  background-image: none;
+}

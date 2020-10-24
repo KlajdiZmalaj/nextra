@@ -1,6 +1,6 @@
 $skin: "biwinner";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/betclass24/img/logo/logo.svg";
 $bodyBg: "https://gradm-api.pcluster.info/api/skin/31/image/856aa46a0d619e56f10bc1558c8b3f77.jpeg";

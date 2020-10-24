@@ -1,0 +1,160 @@
+html:root {
+  --accent-bg: #212931;
+  --accent-txt: #95cd3b;
+}
+
+body {
+  background: #fff;
+  color: #222;
+  font-family: arial, helvetica, sans-serif;
+}
+
+table {
+  font-size: 12px;
+}
+
+.ClickPageStyle {
+  width: 100%;
+  padding: 0;
+  font-size: 11px;
+  position: relative;
+  border-radius: 5px;
+  border-spacing: 0;
+  border: 1px solid #ccc;
+}
+
+.ClickPageStyle2 {
+  width: 100%;
+  padding: 0;
+  font-size: 11px;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  border-spacing: 0;
+}
+
+.ClickDescStyle {
+  font-size: 14px;
+  font-weight: 700;
+  width: 30%;
+  text-align: center;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.ClickDescStyle .Dati {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.FastCodes {
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.FastCodes:hover {
+  cursor: default;
+}
+
+.clickCQ {
+  text-align: left;
+  text-align: center;
+  font-weight: 700;
+  padding: 1px 0 0 5px;
+}
+
+.clickCQ_shortcut {
+  text-align: left;
+  text-align: center;
+  font-weight: 700;
+  padding: 1px 0 0 5px;
+  height: 20px;
+  width: 50%;
+}
+
+.clickCQ_selection {
+  text-align: left;
+  text-align: center;
+  font-weight: 700;
+  padding: 1px 0 0 5px;
+  width: 50%;
+}
+
+.clickCQ_group {
+  text-align: left;
+  text-align: center;
+  font-weight: 700;
+  padding: 1px 0 0 5px;
+  text-transform: uppercase;
+}
+
+.clickCodCQ {
+  text-align: right;
+  width: 50%;
+  padding: 1px 10px 1px 0;
+  font-weight: 700;
+}
+
+.clickTQ {
+  text-align: left;
+  width: 50%;
+  padding: 1px 0 1px 10px;
+}
+tr.ClickSectionStyle {
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+.ClickSectionStyle .ClickDescStyle:nth-child(2) {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.ClickSectionStyle .ClickDescStyle {
+  text-align: right;
+  padding-right: 50px;
+  width: 50%;
+}
+
+.ClickDescStyle[colspan="3"] {
+  text-align: center;
+  padding: 5px 0;
+}
+
+.clickCQ_shortcut {
+  text-align: right;
+  padding: 1px 63px 0 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.clickCQ_selection {
+  text-align: left;
+  padding: 1px 0 0 63px;
+  border-bottom: 1px solid #ccc;
+}
+
+td.market {
+  text-align: left;
+  color: #000;
+  padding: 5px 0;
+  font-weight: bold;
+  font-size: 14px;
+  background: #cccccc;
+  padding-left: 20px;
+}
+
+td.market span {
+  padding-right: 116px;
+  width: 46%;
+  display: inline-block;
+  float: left;
+  text-align: right;
+}
+td.clickCQ_shortcut:first-child {
+  border-right: 1px solid #ccc;
+  margin: 0;
+  border-spacing: unset;
+}

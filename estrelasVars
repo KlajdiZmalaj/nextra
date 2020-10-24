@@ -1,10 +1,10 @@
-$skin: "biwinner";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+$skin: "estrelasbet";
+$cdnPath: "/nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/estrelasbet/img/logo/es.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/67/image/5e5ebfb41cfd85c9906bbe28d9ed6b2d.jpeg";
-$bodyCol: #313131;
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/60/image/01aee99446d084908851397ec18505c8.jpeg";
+$bodyCol: #0D1528;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
@@ -25,11 +25,12 @@ html:root {
   --teableSubHeadersBg: #636363;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #535353;
-  --casinoGradient1: #000000;
+  --casinoGradient1: linear-gradient(-90deg, rgba(239,32,138,1) 0%, rgba(35,116,222,1) 50%, rgba(11,138,61,1) 100%);
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin : 'estrelas'
 }
 
 $secondary: #14805e;
@@ -44,6 +45,8 @@ $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #323232;
 
-body {
-  background-size: 1800px !important;
+
+html body {
+  background-position-y: 80px !important;
+  background-attachment: initial;
 }

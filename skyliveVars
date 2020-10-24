@@ -23,12 +23,12 @@ html:root {
 }
 
 $skin: "skylive";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/skylive/img/logo/newlogo.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/62/image/b52d9bbab8774707bdfac5505e2ff196.jpeg";
-$bodyCol: #10151b;
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/red.jpg";
+$bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 
@@ -48,7 +48,7 @@ $sb-2: #0a96f0;
 //icesport styles
 
 body {
-  background-attachment: initial !important;
+  background-size: 2038px !important;
 }
 .casino-section {
   background-color: #1b0142 !important;

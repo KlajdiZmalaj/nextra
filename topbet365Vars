@@ -1,41 +1,42 @@
 $skin: "topbet365";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3ODcuNzEgMTY0LjIxIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6IzMwYTU3Yjt9LmNscy0ye2ZpbGw6I2ZlZGYwMDt9LmNscy0ze2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmxvZ288L3RpdGxlPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDE3Ljc1LDgyLjJhNTEsNTEsMCwwLDAtODEuNTctNDAuNzlWMTkuNjRBMTguNTIsMTguNTIsMCwwLDAsMzE3LjY2LDEuMTJoLTEuODhWODMuOGgwYTUxLDUxLDAsMCwwLDEwMS45My0xLjZabS0yMC4zOSwwYTMwLjU5LDMwLjU5LDAsMSwxLTMwLjU5LTMwLjU5QTMwLjYsMzAuNiwwLDAsMSwzOTcuMzYsODIuMloiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xNDMuODYsMzEuMjJhNTEsNTEsMCwxLDAsNTEsNTFBNTEsNTEsMCwwLDAsMTQzLjg2LDMxLjIyWm0wLDgxLjU4YTMwLjYsMzAuNiwwLDEsMSwzMC41OS0zMC42QTMwLjYsMzAuNiwwLDAsMSwxNDMuODYsMTEyLjhaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMCwzMS4yMkEyMC4zOSwyMC4zOSwwLDAsMCwyMC4zOSw1MS42MUg0MC45M3Y2My4wNmExOC41MiwxOC41MiwwLDAsMCwxOC41MiwxOC41MmgxLjg3VjUxLjYxSDgxLjg1YTIwLjM5LDIwLjM5LDAsMCwwLDIwLjQtMjAuMzlaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNTE5LjI4LDMxLjIyYTIwLjM5LDIwLjM5LDAsMCwwLDIwLjM5LDIwLjM5SDU2MC4ydjYzLjA2YTE4LjUyLDE4LjUyLDAsMCwwLDE4LjUyLDE4LjUyaDEuODhWNTEuNjFoMjAuNTNhMjAuMzksMjAuMzksMCwwLDAsMjAuMzktMjAuMzlaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNTE5LjU0LDU0LjA5YTUwLjg3LDUwLjg3LDAsMCwwLTE0LjQyLTE0LjQyQTUxLDUxLDAsMCwwLDQ0MSwxMTguMjYsNTAuOTQsNTAuOTQsMCwwLDAsNTI3LjQzLDc1bC0yOC43OSwyOC44YTMwLjUyLDMwLjUyLDAsMCwxLTM0LjczLDUuODhsNDAuNjEtNDAuNjFabS02NC4xNyw2LjQ4YTMwLjUsMzAuNSwwLDAsMSwzNC43My01Ljg4TDQ0OS40OSw5NS4zQTMwLjUsMzAuNSwwLDAsMSw0NTUuMzcsNjAuNTdaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjU1LjMyLDMxLjIyYTUxLDUxLDAsMCwwLTUwLjk1LDQ5LjM5aDB2ODIuNjhoMS44N2ExOC41MiwxOC41MiwwLDAsMCwxOC41Mi0xOC41MlYxMjNhNTEsNTEsMCwxLDAsMzAuNi05MS43N1ptMCw4MS41OGEzMC42LDMwLjYsMCwxLDEsMzAuNTktMzAuNkEzMC42LDMwLjYsMCwwLDEsMjU1LjMyLDExMi44WiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTczOC4zNywxMjhhODAuMDYsODAuMDYsMCwwLDEtMzAuNTMsMTkuNzcsODEuODYsODEuODYsMCwwLDEtMzEuMDYtMjAuNTgsMzIuMjEsMzIuMjEsMCwwLDEtMTUuMjEsNi41OGMyMC4yMSwyMy40MSw0My44OCwyOS44NSw0NC4yOSwzMGwxLjk1LjQ5LDEuOTQtLjQ5Yy40Mi0uMTEsMjMuOTQtNi41MSw0NC4xMi0yOS43NEEzNS4xNSwzNS4xNSwwLDAsMSw3MzguMzcsMTI4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTY2NC41Nyw4MC42M2gtLjFsMjAuMTgtMjYuOEg2MzMuMjJWNjloMjQuM0w2MzguODYsOTQuMDhhNTAuNjgsNTAuNjgsMCwwLDEsMTMuNTYtMS40MUM2NjIsOTIuNjcsNjY3LjUsOTcsNjY3LjUsMTA0cy01LjY0LDExLjM5LTEzLjM1LDExLjM5Yy02LjgzLDAtMTEuNzEtMi42LTE0LjY0LTcuOTJsLTEzLjEzLDguMTRjNS4xLDkuMTEsMTUuNTIsMTUsMjguMSwxNSwxLjQ0LDAsMi44Mi0uMDksNC4xNy0uMjJhMjkuMzUsMjkuMzUsMCwwLDAsMTUuNTctNS45MWMuNjQtLjUsMS4yNi0xLDEuODUtMS41N2EyNS40NywyNS40NywwLDAsMCw4LjE0LTE5LjMxQTIzLDIzLDAsMCwwLDY3OC41Niw4OCwyMC4yOSwyMC4yOSwwLDAsMCw2NjQuNTcsODAuNjNaIi8+PHBhdGggY2xhc3M9ImNscy0zIiBkPSJNNzc5Ljc5LDg1LjgzYTI1LjkyLDI1LjkyLDAsMCwwLTE4Ljg3LTcuNTksMTcuNzEsMTcuNzEsMCwwLDAtNS43Ni43NmwxLjYzLTEwSDc4Mi41VjUzLjgzSDc0NC40MmwtMywxOC4xNUEzMy4zNSwzMy4zNSwwLDAsMSw3NTAsOTIuOTFhNTkuODksNTkuODksMCwwLDEsNi4yOC0uMzVDNzY0LjkzLDkyLjU2LDc3MSw5Ni45LDc3MSwxMDRjMCw2LjUxLTUuNTQsMTEuMzktMTIuMTYsMTEuMzlhMTUuMTUsMTUuMTUsMCwwLDEtMTEuNjItNS4xNywzNy41NywzNy41NywwLDAsMS05LDEyLjc4bC0uMDcuMDZhMzEsMzEsMCwwLDAsMTguNzYsNy40Yy42NSwwLDEuMjkuMTIsMiwuMTJhMjkuMDYsMjkuMDYsMCwwLDAsMjAuNC03LjgxQTI0LjcxLDI0LjcxLDAsMCwwLDc4Ny43MSwxMDQsMjMuOTQsMjMuOTQsMCwwLDAsNzc5Ljc5LDg1LjgzWiIvPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTc0Ni4yMiw5My40MWEzMCwzMCwwLDAsMC01LjY1LTE2LjQ5QTMxLjIzLDMxLjIzLDAsMCwwLDczNiw3MmMtNi43NC02LjE5LTEzLjg4LTkuMjEtMjEuNDUtOS4yMWExMS4xOSwxMS4xOSwwLDAsMC0zLjcxLjQxbDE5LjgtMjkuNDJINzA3LjRMNjg4LjI5LDYyLjg4Yy0zLjU4LDUuMzctNi4xOSw5LjQ5LTcuNywxMi4xYTY3LjY4LDY3LjY4LDAsMCwwLTQuNTQsOS43NywzMC4zLDMwLjMsMCwwLDAtMi4yLDExLjE0LDMyLjU2LDMyLjU2LDAsMCwwLDEwLjU5LDI0LjMzLDM1LjM5LDM1LjM5LDAsMCwwLDI1LjQ0LDEwYzEwLDAsMTguNTgtMy4yNiwyNS41Ny05LjkybC4xNC0uMTJhMzIuOTUsMzIuOTUsMCwwLDAsMTAuNzItMjQuNjFDNzQ2LjMxLDk0Ljg2LDc0Ni4yNiw5NC4xNCw3NDYuMjIsOTMuNDFabS0yNS42MiwxMy4yYTE0LjYxLDE0LjYxLDAsMCwxLTEwLjcyLDQuNCwxNS4wNiwxNS4wNiwwLDAsMSwwLTMwLjExLDE0LjY2LDE0LjY2LDAsMCwxLDEwLjcyLDQuNTMsMTQuMDcsMTQuMDcsMCwwLDEsNC41NCwxMC40NkExNC42NCwxNC42NCwwLDAsMSw3MjAuNiwxMDYuNjFaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNNjQ5LDQ2LjY4VjM4LjgybDU4Ljc4LTIyLjE0LDU4Ljc4LDIyLjE0djcuODZjMCwuNjEsMCwxLjE4LDAsMS43OWgxNS44NGMwLS42MSwwLTEuMTgsMC0xLjc5VjI3LjM3TDcwNy44MSwwLDYzMy4xOSwyNy4zN1Y0Ni42OGMwLC42MSwwLDEuMTgsMCwxLjc5aDE1Ljg0QzY0OS4wNiw0Ny44Niw2NDksNDcuMjksNjQ5LDQ2LjY4WiIvPjwvZz48L2c+PC9zdmc+";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/41/image/ff936f12ca8b8e7532ce21816318ca6c.jpeg";
-$bodyCol: #1b1b1b;
+$logoUrl: "https://nextra.pcluster.info/topbet365/images/logo2.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/red.jpg";
+$bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #fedf00;
-  --accent-bg: #fedf00;
-  --accent-txt: #26755b;
+  --accent: #c8151e;
+  --accent-bg: #c8151e;
+  --accent-txt: #ffffff;
   --primary-bg: #444444;
   --primary-txt: #fff;
   --secondary-bg: #161616;
   --secondary-txt: #fff;
-  --mainBg: #333333;
+  --mainBg: #1e1e1e;
   --mainBgCol: #fff;
-  --bg1: #444444;
+  --bg1: #3e3e3e;
   --col1: #fff;
-  --teableHeadersBg: #26755b;
-  --teableHeadersCol: #fedf00;
+  --teableHeadersBg: linear-gradient(to bottom, #373838, #2d2e2d);
+  --teableHeadersCol: #ffffff;
   --teableSubHeadersBg: #666666;
-  --teableSubHeadersCol: #fedf00;
+  --teableSubHeadersCol: #cccccc;
   --tableBorders: #666666;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "topbet365";
 }
 
-$secondary: #26755b;
+$secondary: #c8151e;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #26755b;
+$secondaryDark: #c8151e;
 $secondaryDarkCol: #fff;
 $primary: #323232;
 $white: #ebebeb;
@@ -43,3 +44,7 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #444444;
+body.landing-page {
+  background-color: #0e0e0e !important;
+  background-image: none;
+}

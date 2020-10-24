@@ -3852,30 +3852,30 @@ div[data-source="upcoming"] .sport_odds_main {
   text-overflow: ellipsis;
   display: table;
   border-top: 1px solid;
-}
 
-.main_submenu .button {
-  line-height: normal;
-  text-align: center;
-  width: 60px;
-  text-transform: uppercase;
-  font-weight: bold;
-  box-sizing: border-box;
-  display: inline-block;
-  height: 40px;
-  float: left;
-  text-decoration: none;
-  border: none;
-  padding-top: 0;
-  svg {
-    width: 100%;
-    height: 100%;
-    display: block;
-    background: var(--accent-bg);
-    color: var(--accent-txt);
-    fill: var(--accent-txt);
-    padding: 8px;
+  .button {
+    line-height: normal;
+    text-align: center;
+    width: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
     box-sizing: border-box;
+    display: inline-block;
+    height: 40px;
+    float: left;
+    text-decoration: none;
+    border: none;
+    padding-top: 0;
+    svg {
+      width: 100%;
+      height: 26px;
+      display: block;
+      background: var(--accent-bg);
+      color: var(--accent-txt);
+      fill: var(--accent-txt);
+      padding: 0px;
+      box-sizing: border-box;
+    }
   }
 }
 
@@ -3900,6 +3900,11 @@ div[data-source="upcoming"] .sport_odds_main {
   display: inline-block;
   float: left;
   width: 100%;
+  .main_container_tile {
+    p {
+      padding: 10px 0;
+    }
+  }
 }
 
 .main_container {
@@ -10278,12 +10283,12 @@ body {
 .main_submenu {
   background: var(--teableHeadersBg);
   color: var(--teableHeadersCol);
-}
 
-.main_submenu .button {
-  background: var(--secondary-bg);
-  color: var(--secondary-txt);
-  border-color: rgba(255, 255, 255, 0.3);
+  .button {
+    background: var(--secondary-bg);
+    color: var(--secondary-txt);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
 }
 
 [data-logged="true"][data-state="open"] .main_submenu .button.saldo {

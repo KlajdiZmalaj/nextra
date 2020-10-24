@@ -1,10 +1,10 @@
-$skin: "biwinner";
-$cdnPath: "//nextra.nextra.bet/#{$skin}";
-$imagesPath: "//nextra.nextra.bet/#{$skin}/images";
+$skin: "gigabet";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/gigabet/img/logo/logo.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/37/image/2899c847b055806dec73a4b765e7fa26.jpeg";
-$bodyCol: #0b0000;
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/red.jpg";
+$bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
@@ -30,6 +30,7 @@ html:root {
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "gigabet";
 }
 
 $secondary: #ea2125;
@@ -43,3 +44,7 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #323232;
+body.landing-page {
+    background-color: #1e1e1e !important;
+    background-image: none;
+}
