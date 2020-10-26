@@ -8491,11 +8491,6 @@ li.fast_menu_option a span:nth-child(2) {
   padding-top: 127px;
 }
 
-[data-logged="true"] .main_container > .main_content,
-[data-logged="true"] .fields {
-  padding-top: 155px;
-}
-
 .main_container[data-page="landing"] > .main_content {
   padding-top: 100px;
 }
@@ -9100,5 +9095,10 @@ div[data-source="upcoming"] .sport_odds_main {
 .icon-plus2:before {
   content: "\f054";
   font-family: "Font Awesome 5 Pro";
+}
+
+[data-logged="true"] .main_content,
+[data-logged="true"] .fields {
+  padding-top: 155px;
 }
 /*# sourceMappingURL=extra.css.map */
