@@ -4254,7 +4254,7 @@ body .main_container_group_item .sport_count {
 
   .sport_odds_main .sport_line_title {
     background: var(--teableHeadersBg);
-    color: var(--teableHeadersCol);
+    color: var(--accent);
     padding-right: 0px;
     padding-left: 2px;
     display: flex;
@@ -4387,7 +4387,7 @@ div[data-source="in_play"] .sport_odds_main {
     .sport_odds_name {
       width: 100%;
       text-align: center;
-      text-transform: capitalize;
+      text-transform: uppercase;
       padding: 5px 0px;
       line-height: normal;
     }
