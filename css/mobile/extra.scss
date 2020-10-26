@@ -8358,6 +8358,13 @@ li.fast_menu_option a span:nth-child(2) {
 .fields {
   padding-top: 127px;
 }
+[data-logged="true"] {
+  .main_container > .main_content,
+  .fields {
+    padding-top: 155px;
+  }
+}
+
 .main_container[data-page="landing"] > .main_content {
   padding-top: 100px;
 }
