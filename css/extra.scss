@@ -1595,6 +1595,10 @@ div.landing-page
   .single-bar-holder {
   background-color: var(--mainBg) !important;
   color: var(--mainBgCol) !important;
+  &:nth-child(2) {
+    border-left: 1px solid var(--tableBorders);
+    border-right: 1px solid var(--tableBorders);
+  }
 }
 .odds-table
   .match-name
@@ -3262,8 +3266,8 @@ footer.footer.main-footer {
 
 //hover row 1x2 remove
 
-.odds-table .match-name .team-names.has-info:hover .info-box,
-.odds-table .match-name .team-names.has-info:hover:before,
-.odds-table .match-name .team-names.has-info:hover:after {
-  display: none !important;
+.team-names.has-info:hover .info-box {
+  display: flex;
+  flex-flow: column;
+  height: auto;
 }

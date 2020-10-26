@@ -1752,6 +1752,16 @@ div.proceed:hover {
 .match-name
 .team-names.has-info
 .info-box
+.bars-holder
+.single-bar-holder:nth-child(2) {
+  border-left: 1px solid var(--tableBorders);
+  border-right: 1px solid var(--tableBorders);
+}
+
+.odds-table
+.match-name
+.team-names.has-info
+.info-box
 .odd-types
 .single-type:nth-child(2) {
   color: #c52e2e !important;
@@ -3716,9 +3726,14 @@ footer.footer.main-footer {
   position: relative;
 }
 
-.odds-table .match-name .team-names.has-info:hover .info-box,
-.odds-table .match-name .team-names.has-info:hover:before,
-.odds-table .match-name .team-names.has-info:hover:after {
-  display: none !important;
+.team-names.has-info:hover .info-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  height: auto;
 }
 /*# sourceMappingURL=extra.css.map */
