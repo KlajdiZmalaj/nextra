@@ -8793,7 +8793,11 @@ body {
 }
 
 [data-page="prematch-sport"].main_container[data-logged="true"] > .main_content,
-[data-page="prematch-group"].main_container[data-logged="true"] > .main_content {
+[data-page="prematch-group"].main_container[data-logged="true"] > .main_content,
+[data-page="prematch-event"].main_container[data-logged="true"] > .main_content,
+[data-page="prematch-match"].main_container[data-logged="true"] > .main_content,
+[data-page="live-sport-in_play"].main_container[data-logged="true"] > .main_content,
+[data-page="live-match-in_play"].main_container[data-logged="true"] > .main_content {
   padding-top: 150px !important;
 }
 /*# sourceMappingURL=extra.css.map */

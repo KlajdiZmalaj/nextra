@@ -8723,7 +8723,11 @@ body {
   animation: pulse 1s infinite;
 }
 [data-page="prematch-sport"],
-[data-page="prematch-group"] {
+[data-page="prematch-group"],
+[data-page="prematch-event"],
+[data-page="prematch-match"],
+[data-page="live-sport-in_play"],
+[data-page="live-match-in_play"]{
   &.main_container[data-logged="true"] > .main_content {
     padding-top: 150px !important;
   }
