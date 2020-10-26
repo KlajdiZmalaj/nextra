@@ -3716,7 +3716,7 @@ footer.footer.main-footer {
   position: relative;
 }
 
-.odds-table .match-name .team-names div.team.info-box,
+.odds-table .match-name .team-names.has-info:hover .info-box,
 .odds-table .match-name .team-names.has-info:hover:before,
 .odds-table .match-name .team-names.has-info:hover:after {
   display: none !important;
