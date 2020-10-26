@@ -4152,11 +4152,6 @@ li.fast_menu_option a span:nth-child(2) {
   padding-top: 74px;
 }
 
-.main_container[data-page="scommesse"] > .main_content,
-.main_container[data-page="movimenti"] > .main_content {
-  padding-top: 20px;
-}
-
 .loader-overlay {
   display: none !important;
 }
