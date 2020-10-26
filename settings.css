@@ -24,7 +24,7 @@ html:root {
 }
 
 body.landing-page {
-  background-color: #000;
+  background-color: #0e0c0d !important;
   background-image: none;
 }
 
