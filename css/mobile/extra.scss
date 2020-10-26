@@ -2742,8 +2742,9 @@
   height: 12px;
   width: 12px;
   border-radius: 2px;
-  background: #0073b9;
+  background: #fec82e;
 }
+
 
 .single-block.betslip-holder .my-bets .legend .single-item:nth-child(5) {
   width: 45%;
@@ -2768,7 +2769,7 @@
 }
 
 .single-block.betslip-holder .my-bets .legend .single-item.void:after {
-  background-color: #fec82e;
+  background-color: #0073b9;
 }
 
 .single-block.betslip-holder .my-bets .legend .single-item.won-void:after {
