@@ -8722,8 +8722,9 @@ body {
   -webkit-animation: pulse 1s infinite;
   animation: pulse 1s infinite;
 }
-[data-page="prematch-sport"][data-logged="true"] {
-  &.main_container > .main_content {
+[data-page="prematch-sport"],
+[data-page="prematch-group"] {
+  &.main_container[data-logged="true"] > .main_content {
     padding-top: 150px !important;
   }
 }
