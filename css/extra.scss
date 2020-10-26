@@ -3243,3 +3243,11 @@ g.ct-series.ct-series-a {
   .open-event-view {
   display: none;
 }
+
+.single-odd {
+  .odd:hover,
+  .single-odd .quote:hover {
+    background: transparent !important;
+    color: transparent !important;
+  }
+}

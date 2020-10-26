@@ -3700,4 +3700,10 @@ span:nth-child(3) {
 .open-event-view {
   display: none;
 }
+
+.single-odd .odd:hover,
+.single-odd .single-odd .quote:hover {
+  background: transparent !important;
+  color: transparent !important;
+}
 /*# sourceMappingURL=extra.css.map */
