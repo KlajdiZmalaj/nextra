@@ -3259,3 +3259,11 @@ footer.footer.main-footer {
   overflow: hidden;
   position: relative;
 }
+
+//hover row 1x2 remove
+
+.odds-table .match-name .team-names div.team,
+.odds-table .match-name .team-names.has-info:hover:before,
+.odds-table .match-name .team-names.has-info:hover:after {
+  display: none !important;
+}

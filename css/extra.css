@@ -3715,4 +3715,10 @@ footer.footer.main-footer {
   overflow: hidden;
   position: relative;
 }
+
+.odds-table .match-name .team-names div.team,
+.odds-table .match-name .team-names.has-info:hover:before,
+.odds-table .match-name .team-names.has-info:hover:after {
+  display: none !important;
+}
 /*# sourceMappingURL=extra.css.map */
