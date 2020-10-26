@@ -8800,4 +8800,9 @@ body {
 [data-page="live-match-in_play"].main_container[data-logged="true"] > .main_content {
   padding-top: 150px !important;
 }
+
+.sport_single_quote[data-selected*="true"] .quota {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+}
 /*# sourceMappingURL=extra.css.map */
