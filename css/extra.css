@@ -3710,4 +3710,9 @@ span:nth-child(3) {
 .single-sport .anchor.sport-9 .icon {
   background-image: url(//nextra.pcluster.info/css/fonts/golf.svg);
 }
+
+footer.footer.main-footer {
+  overflow: hidden;
+  position: relative;
+}
 /*# sourceMappingURL=extra.css.map */
