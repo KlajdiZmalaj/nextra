@@ -8722,3 +8722,8 @@ body {
   -webkit-animation: pulse 1s infinite;
   animation: pulse 1s infinite;
 }
+[data-page="prematch-sport"][data-logged="true"] {
+  .main_container > .main_content {
+    padding-top: 150px !important;
+  }
+}
