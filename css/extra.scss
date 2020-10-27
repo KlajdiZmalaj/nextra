@@ -3137,11 +3137,6 @@ img[src*="main-banner2.jpg"] {
   &:hover {
     background: var(--bg1);
     color: var(--col1);
-    td .odd {
-      background: var(--accent-bg) !important;
-      color: var(--accent-txt);
-      opacity: 0.7;
-    }
   }
 }
 td.odd-cell .odd {

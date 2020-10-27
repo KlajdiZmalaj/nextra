@@ -3643,12 +3643,6 @@ span {
   color: var(--col1);
 }
 
-.single-match-row:hover td .odd {
-  background: var(--accent-bg) !important;
-  color: var(--accent-txt);
-  opacity: 0.7;
-}
-
 td.odd-cell .odd {
   -webkit-transition: 0.1s;
   transition: 0.1s;
