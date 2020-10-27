@@ -3268,3 +3268,9 @@ footer.footer.main-footer {
 .side-bar .single-block.betslip-holder .betslip-controllers .single-controller {
   white-space: nowrap;
 }
+table#tableMultiple {
+  border: 4px solid var(--accent-bg);
+}
+span.odd-type {
+  color: var(--accent-bg);
+}

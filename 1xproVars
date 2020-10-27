@@ -10,22 +10,22 @@ $bodyCol: var(--secondary-bg);
 $invet: 0;
 
 html:root {
-  --accent: #f0c808;
-  --accent-bg: #f0c808;
-  --accent-txt: #000;
-  --primary-bg: #f0c808;
-  --primary-txt: #000000;
-  --secondary-bg: #053546;
+  --accent: #ffcc00;
+  --accent-bg: #086bbb;
+  --accent-txt: #fff;
+  --primary-bg: #061131;
+  --primary-txt: #fff;
+  --secondary-bg: #0a1b4e;
   --secondary-txt: #fff;
-  --mainBg: #05516b;
-  --mainBgCol: #fff;
-  --bg1: #086788;
-  --col1: #fff;
-  --teableHeadersBg: #00aeef;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #edf0f3;
+  --col1: #000;
+  --teableHeadersBg: #ffcc00;
   --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #053546;
+  --teableSubHeadersBg: #01428c;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #2d7d98;
+  --tableBorders: #c0c0c0;
   --casinoGradient1: rgba(0, 0, 0, 0);
   --casinoGradient1-txt: rgba(255, 255, 255, 0);
   --casinoGradient2: #f0c808;
@@ -51,4 +51,42 @@ body {
 body.landing-page {
   background-color: #001020 !important;
   background-image: none;
+}
+.odds-table .second-header td {
+  color: #086bbb !important;
+}
+footer .footer-logo a {
+  filter: grayscale(1) invert(1);
+}
+.header .top-bar {
+  border-image: linear-gradient(to right, red, #fff) 11px 100%;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-bottom: 3px solid;
+  border-image-source: linear-gradient(
+    to right,
+    #ba0000,
+    #bc0706 35%,
+    #ffffff 35%,
+    #ececeb 55%,
+    #4caf50 55%
+  );
+}
+html {
+  .odds-table
+    .single-match-odds
+    .single-match-odds-table
+    .odd-holder
+    .single-odd
+    .label {
+    color: var(--accent-bg);
+  }
+  .live-odds-table table tr td.odd-holder .single-live-odd .label {
+    color: var(--accent-bg);
+  }
+  .single-sport {
+    border-top: 1px solid #1787e3;
+    background: #0160ae;
+    color: #fff;
+  }
 }
