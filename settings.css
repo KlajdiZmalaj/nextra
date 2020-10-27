@@ -1,42 +1,189 @@
 html:root {
-  --accent: #c8151e;
-  --accent-bg: #c8151e;
-  --accent-txt: #ffffff;
-  --primary-bg: #444444;
+  --accent: #ffcc00;
+  --accent-bg: #086bbb;
+  --accent-txt: #fff;
+  --primary-bg: #061131;
   --primary-txt: #fff;
-  --secondary-bg: #161616;
+  --secondary-bg: #0a1b4e;
   --secondary-txt: #fff;
-  --mainBg: #1e1e1e;
-  --mainBgCol: #fff;
-  --bg1: #3e3e3e;
-  --col1: #fff;
-  --teableHeadersBg: linear-gradient(to bottom, #373838, #2d2e2d);
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #666666;
-  --teableSubHeadersCol: #cccccc;
-  --tableBorders: #666666;
-  --casinoGradient1: #00000000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #edf0f3;
+  --col1: #000;
+  --teableHeadersBg: #ffcc00;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #01428c;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #c0c0c0;
+  --casinoGradient1: rgba(0, 0, 0, 0);
   --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #636363;
+  --casinoGradient2: #f0c808;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "topbet365";
+  --skin: "1xpro";
+}
+
+body {
+  background-size: 2038px !important;
 }
 
 body.landing-page {
-  background-color: #0e0e0e !important;
+  background-color: #001020 !important;
   background-image: none;
 }
 
-.live-content-wrapper
-.live-sports-overview
-.sport-container
-.single-panel
-.panel-content
-.single-match
-.odds-wrapper
+.odds-table .second-header td {
+  color: #086bbb !important;
+}
+
+footer .footer-logo a {
+  -webkit-filter: grayscale(1) invert(1);
+          filter: grayscale(1) invert(1);
+}
+
+.header .top-bar {
+  -o-border-image: linear-gradient(to right, red, #fff) 11px 100%;
+     border-image: -webkit-gradient(linear, left top, right top, from(red), to(#fff)) 11px 100%;
+     border-image: linear-gradient(to right, red, #fff) 11px 100%;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-bottom: 3px solid;
+  border-image-source: linear-gradient(to right, #ba0000, #bc0706 35%, #ffffff 35%, #ececeb 55%, #4caf50 55%);
+}
+
+html .odds-table
+.single-match-odds
+.single-match-odds-table
+.odd-holder
+.single-odd
 .label {
-  background: #161616 !important;
+  color: var(--accent-bg);
+}
+
+html .live-odds-table table tr td.odd-holder .single-live-odd .label {
+  color: var(--accent-bg);
+}
+
+html .single-sport {
+  border-top: 1px solid #1787e3;
+  background: #0160ae;
+  color: #fff;
+}
+
+.tabs-holder .tabs-row .single-tab {
+  line-height: 15px;
+  width: calc(20% - 1px);
+  border-right: 1px solid #b9b8b8;
+  border-bottom: 1px solid #b9b8b8;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  color: #031134;
+  font-size: 13px;
+  font-weight: 500;
+  background: #dddddd;
+  -webkit-box-shadow: inset 0 1px 0 #f1f1f1;
+  box-shadow: inset 0 1px 0 #f1f1f1;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.tabs-holder .tabs-row .inner-tabs {
+  margin: 0 !important;
+}
+
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab {
+  margin: 1px;
+  line-height: 36px;
+  width: calc(20% - 1px);
+  border-right: 1px solid #b9b8b8;
+  border-bottom: 1px solid #b9b8b8;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  color: #ebebeb;
+  font-size: 11px;
+  font-weight: 500;
+  background: #3558bd;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+html .championship {
+  background: #f6f6f6;
+  color: #01428c;
+}
+
+html .single-sport .states .state .championship.selected .anchor {
+  background: #01428c;
+}
+
+html .table-wrapper {
+  background: #fff;
+}
+
+html #sportsGrid tr:nth-child(odd) {
+  background: #dbdbdb;
+}
+
+html .sports-book-page
+.championship-table
+tr
+td
+.single-tournament
+.check
+.checkmark,
+html .sports-book-page
+.championship-table
+tr
+td
+.single-tournament
+.check
+input:checked
+~ .checkmark {
+  border: 1px solid #0160ae;
+}
+
+html .sports-book-page
+.championship-table
+tr
+td
+.single-tournament
+.check
+input:checked
+~ .checkmark:after {
+  border: solid #0160ae;
+}
+
+html .sports-book-page .filters-holder .search-form input[type="text"] {
+  background: #dbdbdb;
+}
+
+html .sports-book-page .filters-holder span .filters-icon:before {
+  top: 4px;
+  background: #ffcc00;
+  width: 20px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html .buttons-holder .single-button:nth-child(1):before {
+  content: "\f762";
+  font-family: "Font Awesome 5 Pro";
+}
+
+html .buttons-holder .single-button:nth-child(2):before {
+  content: "\f08e";
+  font-family: "Font Awesome 5 Pro";
 }
 
 button,
@@ -3822,7 +3969,7 @@ div[data-source="upcoming"] .sport_odds_main {
   display: block;
   width: 200px;
   height: 53px;
-  background-image: url("https://nextra.pcluster.info/topbet365/images/logo2.svg");
+  background-image: url("https://nextra.pcluster.info/1xpro/images/logo2.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

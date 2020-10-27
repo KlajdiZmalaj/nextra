@@ -3,44 +3,191 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
 html:root {
-  --accent: #c8151e;
-  --accent-bg: #c8151e;
-  --accent-txt: #ffffff;
-  --primary-bg: #444444;
+  --accent: #ffcc00;
+  --accent-bg: #086bbb;
+  --accent-txt: #fff;
+  --primary-bg: #061131;
   --primary-txt: #fff;
-  --secondary-bg: #161616;
+  --secondary-bg: #0a1b4e;
   --secondary-txt: #fff;
-  --mainBg: #1e1e1e;
-  --mainBgCol: #fff;
-  --bg1: #3e3e3e;
-  --col1: #fff;
-  --teableHeadersBg: linear-gradient(to bottom, #373838, #2d2e2d);
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #666666;
-  --teableSubHeadersCol: #cccccc;
-  --tableBorders: #666666;
-  --casinoGradient1: #00000000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #edf0f3;
+  --col1: #000;
+  --teableHeadersBg: #ffcc00;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #01428c;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #c0c0c0;
+  --casinoGradient1: rgba(0, 0, 0, 0);
   --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #636363;
+  --casinoGradient2: #f0c808;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "topbet365";
+  --skin: "1xpro";
+}
+
+body {
+  background-size: 2038px !important;
 }
 
 body.landing-page {
-  background-color: #0e0e0e !important;
+  background-color: #001020 !important;
   background-image: none;
 }
 
-.live-content-wrapper
-.live-sports-overview
-.sport-container
-.single-panel
-.panel-content
-.single-match
-.odds-wrapper
+.odds-table .second-header td {
+  color: #086bbb !important;
+}
+
+footer .footer-logo a {
+  -webkit-filter: grayscale(1) invert(1);
+          filter: grayscale(1) invert(1);
+}
+
+.header .top-bar {
+  -o-border-image: linear-gradient(to right, red, #fff) 11px 100%;
+     border-image: -webkit-gradient(linear, left top, right top, from(red), to(#fff)) 11px 100%;
+     border-image: linear-gradient(to right, red, #fff) 11px 100%;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-bottom: 3px solid;
+  border-image-source: linear-gradient(to right, #ba0000, #bc0706 35%, #ffffff 35%, #ececeb 55%, #4caf50 55%);
+}
+
+html .odds-table
+.single-match-odds
+.single-match-odds-table
+.odd-holder
+.single-odd
 .label {
-  background: #161616 !important;
+  color: var(--accent-bg);
+}
+
+html .live-odds-table table tr td.odd-holder .single-live-odd .label {
+  color: var(--accent-bg);
+}
+
+html .single-sport {
+  border-top: 1px solid #1787e3;
+  background: #0160ae;
+  color: #fff;
+}
+
+.tabs-holder .tabs-row .single-tab {
+  line-height: 15px;
+  width: calc(20% - 1px);
+  border-right: 1px solid #b9b8b8;
+  border-bottom: 1px solid #b9b8b8;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  color: #031134;
+  font-size: 13px;
+  font-weight: 500;
+  background: #dddddd;
+  -webkit-box-shadow: inset 0 1px 0 #f1f1f1;
+  box-shadow: inset 0 1px 0 #f1f1f1;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.tabs-holder .tabs-row .inner-tabs {
+  margin: 0 !important;
+}
+
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab {
+  margin: 1px;
+  line-height: 36px;
+  width: calc(20% - 1px);
+  border-right: 1px solid #b9b8b8;
+  border-bottom: 1px solid #b9b8b8;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  color: #ebebeb;
+  font-size: 11px;
+  font-weight: 500;
+  background: #3558bd;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+html .championship {
+  background: #f6f6f6;
+  color: #01428c;
+}
+
+html .single-sport .states .state .championship.selected .anchor {
+  background: #01428c;
+}
+
+html .table-wrapper {
+  background: #fff;
+}
+
+html #sportsGrid tr:nth-child(odd) {
+  background: #dbdbdb;
+}
+
+html .sports-book-page
+.championship-table
+tr
+td
+.single-tournament
+.check
+.checkmark,
+html .sports-book-page
+.championship-table
+tr
+td
+.single-tournament
+.check
+input:checked
+~ .checkmark {
+  border: 1px solid #0160ae;
+}
+
+html .sports-book-page
+.championship-table
+tr
+td
+.single-tournament
+.check
+input:checked
+~ .checkmark:after {
+  border: solid #0160ae;
+}
+
+html .sports-book-page .filters-holder .search-form input[type="text"] {
+  background: #dbdbdb;
+}
+
+html .sports-book-page .filters-holder span .filters-icon:before {
+  top: 4px;
+  background: #ffcc00;
+  width: 20px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html .buttons-holder .single-button:nth-child(1):before {
+  content: "\f762";
+  font-family: "Font Awesome 5 Pro";
+}
+
+html .buttons-holder .single-button:nth-child(2):before {
+  content: "\f08e";
+  font-family: "Font Awesome 5 Pro";
 }
 
 @media (max-width: 1008px) {
@@ -192,7 +339,7 @@ th {
 
 body {
   margin: 0;
-  background-image: url("https://nextra.pcluster.info/nextra/images/bg/red.jpg");
+  background-image: url("https://nextra.pcluster.info/nextra/images/bg/blue.jpg");
   background-size: 100% 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -204,7 +351,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   font-family: "Ubuntu", sans-serif;
-  background-color: #000;
+  background-color: var(--secondary-bg);
   min-width: 1007px;
 }
 
@@ -375,7 +522,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid #4c4c4c;
+  border: 1px solid #7ecde8;
   border-radius: 3px;
 }
 
@@ -387,14 +534,14 @@ input[type="submit"] {
   top: 1px;
   width: 3px;
   height: 7px;
-  border: solid #c8151e;
+  border: solid #f0c808;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .check:hover input ~ .checkmark {
-  background: #3f3f3f;
+  background: #69c4e4;
 }
 
 .radio {
@@ -430,7 +577,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #c8151e;
+  border: 2px solid #f0c808;
 }
 
 .radio input:checked ~ .radiocircle:after {
@@ -439,7 +586,7 @@ input[type="submit"] {
   width: 9px;
   height: 9px;
   border: none;
-  background: #c8151e;
+  background: #f0c808;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -456,7 +603,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid #4c4c4c;
+  border: 1px solid #7ecde8;
   border-radius: 3px;
   border-radius: 50%;
   border-width: 2px;
@@ -471,14 +618,14 @@ input[type="submit"] {
   top: 1px;
   width: 3px;
   height: 7px;
-  border: solid #c8151e;
+  border: solid #f0c808;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .radio:hover input ~ .radiocircle {
-  background: rgba(50, 50, 50, 0.5);
+  background: rgba(83, 188, 224, 0.5);
 }
 
 .lang-open {
@@ -766,7 +913,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .help:before {
   display: none;
   content: "";
-  border-bottom: 9px solid #c8151e;
+  border-bottom: 9px solid #f0c808;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -821,7 +968,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .settings .controls-menu .option-block .title {
   padding-top: 8px;
   padding-left: 5px;
-  border-bottom: 1px solid #c8151e;
+  border-bottom: 1px solid #f0c808;
   cursor: default;
   pointer-events: none;
 }
@@ -832,7 +979,7 @@ input[type="submit"] {
   line-height: 25px;
   padding-left: 25px;
   position: relative;
-  border-bottom: 1px solid #c8151e;
+  border-bottom: 1px solid #f0c808;
   cursor: pointer;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
@@ -847,7 +994,7 @@ input[type="submit"] {
           transform: translateY(-50%);
   width: 12px;
   height: 12px;
-  border: 1px solid #c8151e;
+  border: 1px solid #f0c808;
   border-radius: 50%;
 }
 
@@ -862,7 +1009,7 @@ input[type="submit"] {
   width: 10px;
   height: 10px;
   border: none;
-  background: #eb3f47;
+  background: #f9db4b;
   border-radius: 50%;
 }
 
@@ -946,30 +1093,30 @@ input[type="submit"] {
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"],
 .header .top-bar .top-bar-content .login-bar form input[type="password"] {
-  color: #323232;
-  border: 1px solid #323232;
+  color: #53bce0;
+  border: 1px solid #53bce0;
   width: 100px;
   padding: 0 0 0 6px;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::-webkit-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::-webkit-input-placeholder {
-  color: #323232;
+  color: #53bce0;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]:-ms-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]:-ms-input-placeholder {
-  color: #323232;
+  color: #53bce0;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::-ms-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::-ms-input-placeholder {
-  color: #323232;
+  color: #53bce0;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::placeholder {
-  color: #323232;
+  color: #53bce0;
 }
 
 .header .top-bar .top-bar-content .login-bar form i {
@@ -1020,7 +1167,7 @@ input[type="submit"] {
   height: 70px;
   display: block;
   position: relative;
-  background-image: url("https://nextra.pcluster.info/topbet365/images/logo2.svg");
+  background-image: url("https://nextra.pcluster.info/1xpro/images/logo2.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1237,8 +1384,8 @@ input[type="submit"] {
   -ms-flex-item-align: center;
       align-self: center;
   padding: 0 5px;
-  -webkit-filter: grayscale(1) brightness(0) invert(1);
-          filter: grayscale(1) brightness(0) invert(1);
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+          filter: grayscale(1) brightness(0) invert(0);
 }
 
 .side-bar .single-block .block-title span {
@@ -1371,7 +1518,7 @@ input[type="submit"] {
 
 .side-bar .single-block .block-content form[name="fastslip3"] .ui-selectmenu-button .ui-icon,
 .side-bar .single-block .block-content form[name="fastslip3"] select .ui-icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -1402,7 +1549,7 @@ input[type="submit"] {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
@@ -1641,7 +1788,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block .block-content.sports-menu form input[type="submit"]:hover {
-  background-color: #e82831;
+  background-color: #f8d633;
 }
 
 .side-bar .single-block .block-content.sports-menu .tabs {
@@ -1916,8 +2063,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .my-bets .my-coupons .buttons .single-button {
   width: 30px;
   height: 30px;
-  background: #252525;
-  border: 3px solid #585858;
+  background: #3db4dc;
+  border: 3px solid #94d5ec;
   border-radius: 5px;
   line-height: 30px;
   text-align: center;
@@ -1932,7 +2079,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .my-coupons .buttons .single-button:hover {
-  background-color: #585858;
+  background-color: #94d5ec;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form {
@@ -1951,7 +2098,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .my-bets form div input[type="text"] {
   line-height: 30px;
   width: 100%;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   border-radius: 3px;
   font-weight: bold;
   padding: 0 10px 0 50px;
@@ -1960,7 +2107,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"] {
-  background-image: url(//nextra.pcluster.info/topbet365/images/search-icon.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/search-icon.png);
   background-size: 50%;
   background-position: center left 12px;
   background-repeat: no-repeat;
@@ -1986,24 +2133,24 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::-webkit-input-placeholder {
-  color: #323232;
+  color: #53bce0;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]:-ms-input-placeholder {
-  color: #323232;
+  color: #53bce0;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::-ms-input-placeholder {
-  color: #323232;
+  color: #53bce0;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::placeholder {
-  color: #323232;
+  color: #53bce0;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper {
-  background-color: #323232;
-  border: 4px solid #323232;
+  background-color: #53bce0;
+  border: 4px solid #53bce0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2044,7 +2191,7 @@ input[type="submit"] {
   height: 18px;
   background-color: rgba(0, 0, 0, 0.24);
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
 }
@@ -2098,7 +2245,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting {
-  background-color: #c8151e;
+  background-color: #f0c808;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting .single-betslip-title {
@@ -2200,7 +2347,7 @@ input[type="submit"] {
   line-height: 28px;
   font-size: 12px;
   font-weight: 500;
-  color: #323232;
+  color: #53bce0;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div span {
@@ -2230,12 +2377,12 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div.half .refresh-button:hover i {
-  color: #191919;
+  color: #28abd8;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder {
   width: 100%;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
@@ -2244,7 +2391,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event {
-  border-bottom: 1px solid #323232;
+  border-bottom: 1px solid #53bce0;
   width: 100%;
   display: inline-block;
   line-height: 26px;
@@ -2319,7 +2466,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .legend {
-  background: #323232;
+  background: #53bce0;
   border: none;
   width: calc(100%);
   line-height: 22px;
@@ -2603,8 +2750,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select {
-  border: 1px solid #323232;
-  background-color: #323232;
+  border: 1px solid #53bce0;
+  background-color: #53bce0;
   color: #ebebeb;
   font-size: 12px;
   line-height: 24px;
@@ -2639,14 +2786,14 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select:hover {
-  background-color: #3f3f3f;
+  background-color: #69c4e4;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group .ui-selectmenu-button .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select .ui-icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -2682,7 +2829,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th input,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td input {
   max-width: 30px;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   border-radius: 3px;
   font-weight: bold;
   color: #000000;
@@ -2875,7 +3022,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group table td .check:hover input ~ .checkmark,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .check:hover input ~ .checkmark,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .check:hover input ~ .checkmark {
-  background-color: rgba(50, 50, 50, 0.1);
+  background-color: rgba(83, 188, 224, 0.1);
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group table th,
@@ -2947,7 +3094,7 @@ input[type="submit"] {
   line-height: 20px;
   height: 20px;
   margin-top: 3px;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   border-radius: 3px;
 }
 
@@ -2955,8 +3102,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select {
-  border: 1px solid #323232;
-  background-color: #323232;
+  border: 1px solid #53bce0;
+  background-color: #53bce0;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -2972,14 +3119,14 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select:hover {
-  background-color: #3f3f3f;
+  background-color: #69c4e4;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .ui-selectmenu-button .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select .ui-icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -3023,7 +3170,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table tr:last-child {
-  border-bottom: 3px solid #323232;
+  border-bottom: 3px solid #53bce0;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .totals {
@@ -3399,7 +3546,7 @@ input[type="submit"] {
   background-color: var(--bg1);
   color: var(--col1);
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
 }
@@ -3464,7 +3611,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid #4c4c4c;
+  border: 1px solid #7ecde8;
   border-radius: 3px;
 }
 
@@ -3483,7 +3630,7 @@ input[type="submit"] {
 }
 
 .single-sport .anchor .check:hover input ~ .checkmark {
-  background: #3f3f3f;
+  background: #69c4e4;
 }
 
 .single-sport .anchor .icon {
@@ -3496,7 +3643,7 @@ input[type="submit"] {
   width: 18px;
   height: 18px;
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -3514,7 +3661,7 @@ input[type="submit"] {
   width: 18px;
   height: 18px;
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/star.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/star.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 12px auto;
@@ -3531,7 +3678,7 @@ input[type="submit"] {
 }
 
 .single-sport .anchor.favourite .fav.off {
-  background-image: url(//nextra.pcluster.info/topbet365/images/star-off.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/star-off.png);
 }
 
 .single-sport .anchor.favourite .fav.off:hover {
@@ -3540,195 +3687,195 @@ input[type="submit"] {
 }
 
 .single-sport .anchor.sport-1 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-1.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-1.svg);
 }
 
 .single-sport .anchor.sport-2 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-2.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-2.svg);
 }
 
 .single-sport .anchor.sport-3 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-3.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-3.svg);
 }
 
 .single-sport .anchor.sport-4 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-4.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-4.svg);
 }
 
 .single-sport .anchor.sport-5 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-5.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-5.svg);
 }
 
 .single-sport .anchor.sport-6 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-6.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-6.svg);
 }
 
 .single-sport .anchor.sport-7 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-7.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-7.svg);
 }
 
 .single-sport .anchor.sport-8 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-8.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-8.svg);
 }
 
 .single-sport .anchor.sport-9 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-9.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-9.svg);
 }
 
 .single-sport .anchor.sport-10 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-10.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-10.svg);
 }
 
 .single-sport .anchor.sport-11 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-11.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-11.svg);
 }
 
 .single-sport .anchor.sport-12 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-12.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-12.svg);
 }
 
 .single-sport .anchor.sport-13 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-13.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-13.svg);
 }
 
 .single-sport .anchor.sport-14 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-14.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-14.svg);
 }
 
 .single-sport .anchor.sport-15 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-15.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-15.svg);
 }
 
 .single-sport .anchor.sport-16 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-16.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-16.svg);
 }
 
 .single-sport .anchor.sport-17 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-17.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-17.svg);
 }
 
 .single-sport .anchor.sport-18 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-18.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-18.svg);
 }
 
 .single-sport .anchor.sport-19 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-19.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-19.svg);
 }
 
 .single-sport .anchor.sport-20 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-20.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-20.svg);
 }
 
 .single-sport .anchor.sport-21 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-21.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-21.svg);
 }
 
 .single-sport .anchor.sport-22 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-22.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-22.svg);
 }
 
 .single-sport .anchor.sport-23 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-23.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-23.svg);
 }
 
 .single-sport .anchor.sport-24 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-24.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-24.svg);
 }
 
 .single-sport .anchor.sport-25 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-25.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-25.svg);
 }
 
 .single-sport .anchor.sport-26 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-26.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-26.svg);
 }
 
 .single-sport .anchor.sport-27 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-27.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-27.svg);
 }
 
 .single-sport .anchor.sport-28 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-28.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-28.svg);
 }
 
 .single-sport .anchor.sport-29 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-29.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-29.svg);
 }
 
 .single-sport .anchor.sport-30 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-30.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-30.svg);
 }
 
 .single-sport .anchor.sport-31 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-31.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-31.svg);
 }
 
 .single-sport .anchor.sport-32 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-32.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-32.svg);
 }
 
 .single-sport .anchor.sport-33 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-33.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-33.svg);
 }
 
 .single-sport .anchor.sport-34 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-34.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-34.svg);
 }
 
 .single-sport .anchor.sport-35 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-35.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-35.svg);
 }
 
 .single-sport .anchor.sport-36 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-36.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-36.svg);
 }
 
 .single-sport .anchor.sport-37 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-37.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-37.svg);
 }
 
 .single-sport .anchor.sport-38 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-38.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-38.svg);
 }
 
 .single-sport .anchor.sport-39 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-39.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-39.svg);
 }
 
 .single-sport .anchor.sport-60 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-60.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-60.svg);
 }
 
 .single-sport .anchor.sport-61 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-61.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-61.png);
 }
 
 .single-sport .anchor.sport-109 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-109.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-109.svg);
 }
 
 .single-sport .anchor.sport-110 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-110.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-110.png);
 }
 
 .single-sport .anchor.sport-111 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-111.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-111.png);
 }
 
 .single-sport .anchor.sport-117 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-117.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-117.svg);
 }
 
 .single-sport .anchor.sport-118 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-118.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-118.png);
 }
 
 .single-sport .anchor.sport-121 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-121.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-121.png);
 }
 
 .single-sport .anchor.sport-125 .icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-125.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-125.png);
 }
 
 .single-sport .states {
@@ -3811,7 +3958,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state > .anchor .check:hover input ~ .checkmark {
-  background: rgba(50, 50, 50, 0.2);
+  background: rgba(83, 188, 224, 0.2);
 }
 
 .single-sport .states .state i {
@@ -3861,7 +4008,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state .championship .anchor .check:hover input ~ .checkmark {
-  background: rgba(50, 50, 50, 0.2);
+  background: rgba(83, 188, 224, 0.2);
 }
 
 .single-sport .states .state .championship.active {
@@ -3873,7 +4020,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state .championship.selected .anchor {
-  background: #444444;
+  background: #333844;
   color: #ebebeb;
   font-weight: 500;
 }
@@ -4047,7 +4194,7 @@ input[type="submit"] {
 
 .center-content .main-slider .single-slide .odds-holder .single-odd div {
   float: left;
-  color: #c8151e;
+  color: #f0c808;
   position: absolute;
   left: 5px;
   top: 50%;
@@ -4090,14 +4237,14 @@ input[type="submit"] {
   border-radius: 50%;
   padding: 0;
   display: inline-block;
-  border: 2px solid #c8151e;
+  border: 2px solid #f0c808;
   cursor: pointer;
   margin: 0 3px;
   background: transparent;
 }
 
 .center-content .main-slider .slick-dots li.slick-active button, .center-content .main-slider .slick-dots li:hover button {
-  background-color: #c8151e;
+  background-color: #f0c808;
 }
 
 .center-content .center-block {
@@ -5113,7 +5260,7 @@ div.landing-page .banner-content {
   margin: 0 auto;
   max-width: 1920px;
   height: 555px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/landing-images/homeBanner.jpg) !important;
+  background-image: url(//nextra.pcluster.info/1xpro/images/landing-images/homeBanner.jpg) !important;
   background-size: initial;
   background-repeat: no-repeat;
   background-position: top center;
@@ -5237,7 +5384,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:first-child:before
   content: "";
   width: 45px;
   height: 45px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/landing-images/fIcon.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/landing-images/fIcon.svg);
   display: block;
   background-repeat: no-repeat;
   background-position: center;
@@ -5249,7 +5396,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(2):befor
   content: "";
   width: 45px;
   height: 45px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/landing-images/Icon2.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/landing-images/Icon2.svg);
   display: block;
   background-repeat: no-repeat;
   background-position: center;
@@ -5261,7 +5408,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(3):befor
   content: "";
   width: 45px;
   height: 45px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/landing-images/Icon3.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/landing-images/Icon3.svg);
   display: block;
   background-repeat: no-repeat;
   background-position: center;
@@ -5273,7 +5420,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:last-child:before 
   content: "";
   width: 45px;
   height: 45px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/landing-images/Icon4.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/landing-images/Icon4.svg);
   display: block;
   background-repeat: no-repeat;
   background-position: center;
@@ -5294,19 +5441,19 @@ div.landing-page .banner-content .grid a {
 
 div.landing-page .banner-content .grid a.become-agent {
   float: right;
-  background: #c8151e;
+  background: #f0c808;
 }
 
 div.landing-page .banner-content .grid a.become-agent:hover {
-  background: #9a1017;
+  background: #bf9f06;
 }
 
 div.landing-page .banner-content .grid a.register-online {
-  background: #444444;
+  background: #333844;
 }
 
 div.landing-page .banner-content .grid a.register-online:hover {
-  background: #2b2b2b;
+  background: #1d2027;
 }
 
 .landing-bottom-holder {
@@ -5527,7 +5674,7 @@ footer .footer-logo a:before {
   height: 70px;
   display: block;
   position: relative;
-  background-image: url("https://nextra.pcluster.info/topbet365/images/logo2.svg");
+  background-image: url("https://nextra.pcluster.info/1xpro/images/logo2.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -5583,7 +5730,7 @@ footer .footer-copyright {
 }
 
 footer .footer-copyright:before {
-  content: "topbet365 @2020 All rights reserved.";
+  content: "1xpro @2020 All rights reserved.";
   color: var(--mainBgCol);
   text-align: center;
   display: -webkit-box;
@@ -5741,7 +5888,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: black;
   border-radius: 50%;
   padding: 2px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/cross.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cross.png);
   background-size: 8px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -5866,7 +6013,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .single-match-row td .goal-odd {
   width: calc((100% / 6) - 1px);
   display: inline-block;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   margin-right: -1px;
   margin-bottom: -1px;
   text-align: center;
@@ -6004,7 +6151,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .match-name .team-names.has-info:before {
   display: none;
   content: "";
-  border-bottom: 9px solid #323232;
+  border-bottom: 9px solid #53bce0;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -6024,7 +6171,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .match-name .team-names.has-info .info-box {
   position: absolute;
   width: 166px;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   border-radius: 5px;
   background: var(--bg1);
   color: var(--col1);
@@ -6088,14 +6235,14 @@ footer.center-footer .footer-logos .group-1 {
 
 .odds-table .match-name .team-names.has-info .info-box .odd-types .single-type {
   width: 33%;
-  background: #323232;
-  color: #c8151e;
+  background: #53bce0;
+  color: #f0c808;
   font-size: 12px;
   text-align: center;
   font-weight: bold;
   line-height: 28px;
-  -webkit-box-shadow: inset 0 1px 0 #3f3f3f;
-          box-shadow: inset 0 1px 0 #3f3f3f;
+  -webkit-box-shadow: inset 0 1px 0 #69c4e4;
+          box-shadow: inset 0 1px 0 #69c4e4;
   float: left;
 }
 
@@ -6125,7 +6272,7 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   height: 15px;
   width: 34px;
-  background: #323232;
+  background: #53bce0;
   border-radius: 3px;
   position: relative;
   overflow: hidden;
@@ -6137,7 +6284,7 @@ footer.center-footer .footer-logos .group-1 {
   left: 0;
   top: 0;
   width: 50%;
-  background: #c8151e;
+  background: #f0c808;
 }
 
 .odds-table .match-name .team-names.has-info .info-box .bars-holder .single-bar-holder:nth-child(2) {
@@ -6216,7 +6363,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: black;
   border-radius: 50%;
   padding: 2px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/cross.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cross.png);
   background-size: 8px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -6315,15 +6462,15 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.odd-up .quote:after {
-  background-image: url(//nextra.pcluster.info/topbet365/images/odd-up.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/odd-up.png);
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.odd-equal .quote:after {
-  background-image: url(//nextra.pcluster.info/topbet365/images/odd-equal.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/odd-equal.png);
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.odd-down .quote:after {
-  background-image: url(//nextra.pcluster.info/topbet365/images/odd-down.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/odd-down.png);
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.selected {
@@ -6360,20 +6507,20 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .title.light {
-  background: #585858;
+  background: #94d5ec;
 }
 
 .results-page .results-filter {
   width: 100%;
   display: inline-block;
-  background: #191919;
+  background: #28abd8;
 }
 
 .results-page .results-filter .single-filter {
   float: left;
   padding: 10px 20px 25px 10px;
-  border-right: 1px solid #323232;
-  color: #191919;
+  border-right: 1px solid #53bce0;
+  color: #28abd8;
   width: 130px;
 }
 
@@ -6386,9 +6533,9 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results-filter .single-filter input[type="date"] {
-  color: #191919;
+  color: #28abd8;
   background-color: #b398d1;
-  background-image: url(//nextra.pcluster.info/topbet365/images/colored-calendar.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/colored-calendar.png);
   background-size: auto 100%;
   background-position: right top;
   background-repeat: no-repeat;
@@ -6406,7 +6553,7 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: #b398d1;
-  background-image: url(//nextra.pcluster.info/topbet365/images/colored-triangle-down.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/colored-triangle-down.png);
   background-size: auto 100%;
   background-position: right top;
   background-repeat: no-repeat;
@@ -6414,7 +6561,7 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 3px;
   height: 26px;
   padding-left: 8px;
-  color: #191919;
+  color: #28abd8;
 }
 
 .results-page .results-filter .single-filter select::-ms-expand {
@@ -6446,7 +6593,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results .single-result .result-top-bar .championship-name {
-  color: #191919;
+  color: #28abd8;
   font-size: 12px;
   font-weight: bold;
   float: left;
@@ -6460,7 +6607,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results .single-result .result-top-bar .result div {
-  color: #191919;
+  color: #28abd8;
   font-size: 12px;
   font-weight: 500;
   width: 50px;
@@ -6476,14 +6623,14 @@ footer.center-footer .footer-logos .group-1 {
 .results-page .results .single-result .result-match {
   width: 100%;
   background: #f1f1f2;
-  border-bottom: 3px solid #191919;
+  border-bottom: 3px solid #28abd8;
 }
 
 .results-page .results .single-result .result-match .time {
   line-height: 76px;
   font-size: 12px;
   font-weight: 500;
-  color: #191919;
+  color: #28abd8;
   padding: 0 10px;
   text-align: center;
   display: inline-block;
@@ -6502,7 +6649,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 30px;
   font-size: 12px;
   font-weight: 500;
-  color: #191919;
+  color: #28abd8;
 }
 
 .results-page .results .single-result .result-match .match-teams .home-team.winner,
@@ -6530,7 +6677,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .results-page .results .single-result .result-match .result div {
   padding: 8px 0;
-  color: #191919;
+  color: #28abd8;
   font-size: 12px;
   font-weight: 500;
   width: 50px;
@@ -6551,7 +6698,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .results-page .results .single-result .result-match .result div.status {
   line-height: 60px;
-  color: #c8151e;
+  color: #f0c808;
   font-weight: bold;
 }
 
@@ -6582,8 +6729,8 @@ footer.center-footer .footer-logos .group-1 {
   width: 21px;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
-  -webkit-filter: grayscale(1) brightness(0) invert(1);
-          filter: grayscale(1) brightness(0) invert(1);
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+          filter: grayscale(1) brightness(0) invert(0);
 }
 
 .championship-page .title img.icon:before,
@@ -6804,7 +6951,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .explore-matches-page .title {
-  border-bottom: 1px solid #323232;
+  border-bottom: 1px solid #53bce0;
   line-height: 36px;
   width: calc(100% - 70px);
   padding: 0 35px;
@@ -6940,12 +7087,12 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   width: 37px;
   height: 26px;
-  background: #444444;
+  background: #333844;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   border: none;
   font-size: 0;
-  background-image: url(//nextra.pcluster.info/topbet365/images/search-icon.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/search-icon.png);
   background-size: 50%;
   background-position: center left 9px;
   background-repeat: no-repeat;
@@ -6954,7 +7101,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .sports-book-page .filters-holder .search-form input[type="text"] {
   border: none;
-  border-left: 1px solid #444444;
+  border-left: 1px solid #333844;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   line-height: 24px;
@@ -7022,8 +7169,8 @@ footer.center-footer .footer-logos .group-1 {
   cursor: pointer;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
-  -webkit-filter: grayscale(1) brightness(0) invert(1);
-          filter: grayscale(1) brightness(0) invert(1);
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+          filter: grayscale(1) brightness(0) invert(0);
 }
 
 .sports-book-page .title .title-icon.closed {
@@ -7357,7 +7504,7 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   padding: 25px 15px;
   display: inline-block;
-  background: #323232;
+  background: #53bce0;
 }
 
 .sports-book-page .button-holder .button-next {
@@ -7406,7 +7553,7 @@ footer.center-footer .footer-logos .group-1 {
 .become-an-agent-page .agent-buttons {
   text-align: center;
   padding: 30px 0;
-  background-color: #252525;
+  background-color: #3db4dc;
 }
 
 .become-an-agent-page .agent-buttons .single-button {
@@ -7484,11 +7631,11 @@ footer.center-footer .footer-logos .group-1 {
 
 .become-an-agent-page .page-content .inner-content .content-block.last-block p .colored {
   font-weight: bold;
-  color: #444444;
+  color: #333844;
 }
 
 .become-an-agent-page .page-content .inner-content .content-block .title {
-  color: #444444;
+  color: #333844;
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
@@ -7501,15 +7648,15 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   margin: 0 10px;
   padding: 0 20px;
-  border: 2px solid #444444;
+  border: 2px solid #333844;
   border-radius: 3px;
-  color: #444444;
+  color: #333844;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
 
 .become-an-agent-page .page-content .inner-content .content-block .title a:hover {
-  background: #444444;
+  background: #333844;
   color: #ebebeb;
 }
 
@@ -7540,7 +7687,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: #444444;
+  background: #333844;
 }
 
 .dark-overlay {
@@ -7736,7 +7883,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: var(--bg1);
   color: var(--col1);
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
   -webkit-transition: 0.3s all;
@@ -7762,7 +7909,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .sports-container .sports .sport .anchor.special {
   background: #ececed;
-  color: #323232;
+  color: #53bce0;
   font-weight: bold;
   font-size: 12px;
   border-top: 1px solid #feffff;
@@ -7772,7 +7919,7 @@ footer.center-footer .footer-logos .group-1 {
   background-position: center;
   background-size: cover;
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-right.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-right.png);
   -webkit-transform: translateY(-50%) rotate(0deg);
           transform: translateY(-50%) rotate(0deg);
 }
@@ -7922,7 +8069,7 @@ footer.center-footer .footer-logos .group-1 {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-image: url(//nextra.pcluster.info/topbet365/images/locked.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/locked.svg);
   background-size: 60%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -7946,7 +8093,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type:hover .odd-type:empty {
-  background-image: url(//nextra.pcluster.info/topbet365/images/locked-white.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/locked-white.svg);
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-zero {
@@ -8002,21 +8149,21 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-up .odd-type:after {
-  background-image: url(//nextra.pcluster.info/topbet365/images/odd-up.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/odd-up.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-down .odd-type:after {
-  background-image: url(//nextra.pcluster.info/topbet365/images/odd-down.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/odd-down.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-equal .odd-type:after {
-  background-image: url(//nextra.pcluster.info/topbet365/images/odd-equal.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/odd-equal.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
@@ -8133,15 +8280,15 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-up .quote:after {
-  background-image: url(//nextra.pcluster.info/topbet365/images/odd-up.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/odd-up.png);
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-equal .quote:after {
-  background-image: url(//nextra.pcluster.info/topbet365/images/odd-equal.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/odd-equal.png);
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-down .quote:after {
-  background-image: url(//nextra.pcluster.info/topbet365/images/odd-down.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/odd-down.png);
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-zero {
@@ -8204,7 +8351,7 @@ footer.center-footer .footer-logos .group-1 {
   border: none;
   margin-top: 26px;
   height: 2px;
-  background: #444444;
+  background: #333844;
   border-radius: 1px !important;
 }
 
@@ -8215,13 +8362,13 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 50% !important;
   top: -4px;
   border: none;
-  background: #9a1017;
+  background: #bf9f06;
   cursor: pointer;
 }
 
 .live-odds-table table tr td.odd-holder .match-live-sliders .home-team .live-slider-holder .ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle:hover,
 .live-odds-table table tr td.odd-holder .match-live-sliders .away-team .live-slider-holder .ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle:hover {
-  color: #6c0b10;
+  color: #8d7605;
 }
 
 .live-odds-table table tr td.odd-holder .match-live-sliders .home-team .live-slider-holder .slider-controls,
@@ -8391,8 +8538,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
   cursor: pointer;
-  -webkit-filter: grayscale(1) brightness(0) invert(1);
-          filter: grayscale(1) brightness(0) invert(1);
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+          filter: grayscale(1) brightness(0) invert(0);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-title img.active {
@@ -8592,24 +8739,24 @@ footer.center-footer .footer-logos .group-1 {
   margin: 5px 6px 4px;
   width: 36px;
   height: 25px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/soccer-field.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/soccer-field.svg);
   background-size: 100% 100%;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-5 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/tennis-field.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/tennis-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-2 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/basketball-field.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/basketball-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-4 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/hockey-field.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/hockey-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-23 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/volleyball-field.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/volleyball-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper {
@@ -8647,7 +8794,7 @@ footer.center-footer .footer-logos .group-1 {
   top: calc(50% - 15px);
   -webkit-animation: rotate 2s ease-in-out infinite;
           animation: rotate 2s ease-in-out infinite;
-  background-image: url(//nextra.pcluster.info/topbet365/images/refresh-purple.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/refresh-purple.svg);
   background-size: cover;
   background-position: center;
 }
@@ -8732,21 +8879,21 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.odd-up .odd-type:after {
-  background-image: url(//nextra.pcluster.info/topbet365/images/odd-up.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/odd-up.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.odd-down .odd-type:after {
-  background-image: url(//nextra.pcluster.info/topbet365/images/odd-down.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/odd-down.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.odd-equal .odd-type:after {
-  background-image: url(//nextra.pcluster.info/topbet365/images/odd-equal.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/odd-equal.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
@@ -8995,172 +9142,172 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-1 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-1.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-1.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-2 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-2.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-2.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-3 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-3.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-3.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-4 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-4.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-4.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-5 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-5.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-5.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-6 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-6.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-6.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-7 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-7.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-7.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-8 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-8.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-8.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-9 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-9.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-9.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-10 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-10.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-10.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-11 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-11.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-11.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-12 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-12.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-12.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-13 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-13.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-13.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-14 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-14.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-14.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-15 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-15.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-15.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-16 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-16.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-16.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-17 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-17.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-17.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-18 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-18.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-18.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-19 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-19.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-19.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-20 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-20.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-20.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-21 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-21.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-21.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-22 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-22.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-22.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-23 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-23.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-23.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-24 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-24.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-24.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-25 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-25.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-25.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-26 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-26.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-26.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-27 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-27.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-27.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-28 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-28.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-28.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-29 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-29.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-29.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-30 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-30.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-30.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-31 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-31.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-31.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-32 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-32.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-32.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-33 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-33.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-33.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-34 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-34.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-34.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-35 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-35.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-35.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-36 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-36.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-36.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-37 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-37.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-37.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-38 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-38.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-38.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-39 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-39.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-39.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-60 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-60.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-60.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-117 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-117.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-117.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view {
   margin: 7px 13px;
-  background: #323232;
+  background: #53bce0;
   border-radius: 3px;
   cursor: pointer;
   display: inline-block;
@@ -9180,34 +9327,34 @@ footer.center-footer .footer-logos .group-1 {
   margin: 5px 6px 4px;
   width: 36px;
   height: 25px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/soccer-field.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/soccer-field.svg);
   background-size: 100% 100%;
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.basketball {
-  background-image: url(//nextra.pcluster.info/topbet365/images/basketball-field.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/basketball-field.png);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-5 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/tennis-field.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/tennis-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-2 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/basketball-field.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/basketball-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-4 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/hockey-field.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/hockey-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-23 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/volleyball-field.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/volleyball-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-details-wrapper .match-details {
   height: 28px;
   background-color: #ebebeb;
-  border: 1px solid #444444;
+  border: 1px solid #333844;
   border-radius: 3px;
   width: 40px;
   margin: 9px 12px;
@@ -9219,12 +9366,12 @@ footer.center-footer .footer-logos .group-1 {
   width: 100%;
   text-align: center;
   font-size: 9px;
-  color: #444444;
+  color: #333844;
   font-weight: 700;
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-details-wrapper .match-details .match-date {
-  background: #444444;
+  background: #333844;
   color: #ebebeb;
 }
 
@@ -9314,9 +9461,9 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .top-part .score {
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/live-result-background.jpg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/live-result-background.jpg);
   background-size: 100% 100%;
-  border: 1px solid #c8151e;
+  border: 1px solid #f0c808;
   width: 35px;
   float: left;
   display: inline-block;
@@ -9329,7 +9476,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 19px;
   font-size: 13px;
   font-weight: bold;
-  color: #c8151e;
+  color: #f0c808;
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .top-part .team-names {
@@ -9372,167 +9519,167 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-1 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-1.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-1.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-2 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-2.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-2.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-3 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-3.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-3.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-4 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-4.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-4.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-5 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-5.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-5.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-6 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-6.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-6.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-7 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-7.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-7.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-8 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-8.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-8.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-9 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-9.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-9.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-10 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-10.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-10.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-11 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-11.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-11.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-12 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-12.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-12.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-13 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-13.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-13.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-14 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-14.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-14.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-15 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-15.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-15.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-16 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-16.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-16.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-17 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-17.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-17.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-18 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-18.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-18.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-19 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-19.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-19.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-20 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-20.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-20.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-21 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-21.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-21.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-22 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-22.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-22.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-23 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-23.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-23.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-24 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-24.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-24.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-25 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-25.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-25.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-26 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-26.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-26.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-27 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-27.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-27.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-28 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-28.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-28.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-29 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-29.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-29.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-30 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-30.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-30.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-31 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-31.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-31.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-32 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-32.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-32.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-33 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-33.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-33.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-34 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-34.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-34.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-35 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-35.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-35.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-36 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-36.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-36.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-37 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-37.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-37.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-38 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-38.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-38.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-39 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-39.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-39.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-117 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/sport-icons/sport-icon-117.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/sport-icons/sport-icon-117.svg);
 }
 
 .live-multiview .multiview-matches {
-  background: #444444;
+  background: #333844;
   padding: 20px 25px;
 }
 
@@ -9553,9 +9700,9 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #c8151e;
+  background: #f0c808;
   text-transform: uppercase;
-  color: #fff;
+  color: #222;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-title img {
@@ -9582,11 +9729,11 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-multiview .multiview-matches .single-multiview .multiview-content {
   display: none;
-  border-bottom: 5px solid #c8151e;
+  border-bottom: 5px solid #f0c808;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper {
-  background: #323232;
+  background: #53bce0;
   border-bottom: 1px solid #977fb1;
   display: inline-block;
   width: 100%;
@@ -9631,9 +9778,9 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .match-info .score {
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/live-result-background.jpg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/live-result-background.jpg);
   background-size: 100% 100%;
-  border: 1px solid #c8151e;
+  border: 1px solid #f0c808;
   width: 35px;
   float: left;
   display: inline-block;
@@ -9646,7 +9793,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 19px;
   font-size: 13px;
   font-weight: bold;
-  color: #c8151e;
+  color: #f0c808;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .match-info .team-names {
@@ -9670,7 +9817,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view {
-  background: #323232;
+  background: #53bce0;
   border-radius: 3px;
   cursor: pointer;
   border: 1px solid #977fb1;
@@ -9691,28 +9838,28 @@ footer.center-footer .footer-logos .group-1 {
   margin: 5px 6px 4px;
   width: 36px;
   height: 25px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/soccer-field.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/soccer-field.svg);
   background-size: 100% 100%;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.basketball {
-  background-image: url(//nextra.pcluster.info/topbet365/images/basketball-field.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/basketball-field.png);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-5 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/tennis-field.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/tennis-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-2 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/basketball-field.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/basketball-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-4 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/hockey-field.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/hockey-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-23 {
-  background-image: url(//nextra.pcluster.info/topbet365/images/volleyball-field.svg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/volleyball-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .expand-wrapper {
@@ -9744,7 +9891,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: 500;
   padding-left: 10px;
   line-height: 24px;
-  background: #323232;
+  background: #53bce0;
   border-top: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -9793,7 +9940,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .odds-wrapper .odds-holder .single-odd:hover {
-  background: #4c4c4c;
+  background: #7ecde8;
   color: white;
 }
 
@@ -9951,7 +10098,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button .ui-icon,
 .logged-page .registration-holder .form-holder form .input-wrapper select .ui-icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -9962,7 +10109,7 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
@@ -9988,7 +10135,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(50, 50, 50, 0.2);
+  background-color: rgba(83, 188, 224, 0.2);
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .check-label {
@@ -10033,7 +10180,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #c8151e;
+  border: 2px solid #f0c808;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -10042,7 +10189,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #c8151e;
+  background: #f0c808;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10064,14 +10211,14 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #c8151e;
+  background: #f0c808;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(50, 50, 50, 0.2);
+  background-color: rgba(83, 188, 224, 0.2);
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio-label {
@@ -10108,7 +10255,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .note {
   font-size: 11px;
-  color: #c8151e;
+  color: #f0c808;
   line-height: 18px;
   padding-right: 30px;
 }
@@ -10139,7 +10286,7 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 3px;
   cursor: pointer;
   float: none;
-  background-image: url(//nextra.pcluster.info/topbet365/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -10160,7 +10307,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .registration-holder .form-holder form .buttons .single-button.proceed {
-  background-image: url(//nextra.pcluster.info/topbet365/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/proceed-button.png);
   background-color: #3a8c43;
 }
 
@@ -10292,7 +10439,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper textarea {
   color: #333;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   background: #e5e5e5;
   width: 100%;
   padding: 5px;
@@ -10304,7 +10451,7 @@ footer.center-footer .footer-logos .group-1 {
 .registration-page .registration-holder .form-holder form .input-wrapper input[type="password"],
 .registration-page .registration-holder .form-holder form .input-wrapper input[type="number"] {
   color: #333;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -10315,8 +10462,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button,
 .registration-page .registration-holder .form-holder form .input-wrapper select {
-  border: 1px solid #323232;
-  background-color: #323232;
+  border: 1px solid #53bce0;
+  background-color: #53bce0;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -10329,12 +10476,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button:hover,
 .registration-page .registration-holder .form-holder form .input-wrapper select:hover {
-  background-color: #3f3f3f;
+  background-color: #69c4e4;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button .ui-icon,
 .registration-page .registration-holder .form-holder form .input-wrapper select .ui-icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -10345,12 +10492,12 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
-  border: 1px solid #323232;
-  background-color: #323232;
+  border: 1px solid #53bce0;
+  background-color: #53bce0;
   height: 24px;
   line-height: 22px;
   color: #ebebeb;
@@ -10371,7 +10518,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(50, 50, 50, 0.2);
+  background-color: rgba(83, 188, 224, 0.2);
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .check-label {
@@ -10416,7 +10563,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #c8151e;
+  border: 2px solid #f0c808;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -10425,7 +10572,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #c8151e;
+  background: #f0c808;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10447,14 +10594,14 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #c8151e;
+  background: #f0c808;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(50, 50, 50, 0.2);
+  background-color: rgba(83, 188, 224, 0.2);
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio-label {
@@ -10491,7 +10638,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .note {
   font-size: 11px;
-  color: #9a1017;
+  color: #bf9f06;
   line-height: 18px;
   padding-right: 30px;
 }
@@ -10523,7 +10670,7 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 3px;
   cursor: pointer;
   float: none;
-  background-image: url(//nextra.pcluster.info/topbet365/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -10544,7 +10691,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .registration-page .registration-holder .form-holder form .buttons .single-button.proceed {
-  background-image: url(//nextra.pcluster.info/topbet365/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/proceed-button.png);
   background-color: #3a8c43;
 }
 
@@ -10610,7 +10757,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   line-height: 30px;
   margin: 0 2px 0 290px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/proceed-button.png);
   background-color: #2e9c3d;
 }
 
@@ -10630,7 +10777,7 @@ footer.center-footer .footer-logos .group-1 {
 .registration-page.agent-registration .agent-buttons {
   text-align: center;
   padding: 30px 0;
-  background-color: #252525;
+  background-color: #3db4dc;
 }
 
 .registration-page.agent-registration .agent-buttons .single-button {
@@ -10760,7 +10907,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .help-page {
-  border-top: 4px solid #323232;
+  border-top: 4px solid #53bce0;
 }
 
 .help-page .center-content.default-page-content {
@@ -10771,7 +10918,7 @@ footer.center-footer .footer-logos .group-1 {
   border: 2px solid #d5cccc;
   display: inline-block;
   width: 100%;
-  background: #323232;
+  background: #53bce0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -10787,7 +10934,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .help-page .help-menu ul li:hover, .help-page .help-menu ul li.open {
-  background-color: #4c4c4c;
+  background-color: #7ecde8;
 }
 
 .help-page .help-menu ul li a,
@@ -10803,7 +10950,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .help-page .help-menu ul li.selected a {
   font-weight: 500;
-  color: #c8151e;
+  color: #f0c808;
 }
 
 .help-page .help-menu ul li span {
@@ -10838,16 +10985,16 @@ footer.center-footer .footer-logos .group-1 {
 
 .help-page .help-menu ul li .sub-menu li a {
   font-size: 12px;
-  color: #323232;
+  color: #53bce0;
 }
 
 .help-page .help-menu ul li .sub-menu li a:hover {
-  color: #c8151e;
+  color: #f0c808;
 }
 
 .help-page .help-menu ul li .sub-menu li.selected a {
   font-weight: 500;
-  color: #c8151e;
+  color: #f0c808;
 }
 
 .help-page .help-menu ul li.has-sub-menu span {
@@ -10866,7 +11013,7 @@ footer.center-footer .footer-logos .group-1 {
   height: 18px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
   -webkit-transition: 0.3s all;
@@ -11025,7 +11172,7 @@ footer.center-footer .footer-logos .group-1 {
 .forgot-password-page .forgot-password-holder .forgot-password-content .form-holder input[type="text"] {
   display: inline-block;
   color: #333;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -11049,7 +11196,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   line-height: 30px;
   margin: 0 2px 0 290px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/proceed-button.png);
   background-color: #2e9c3d;
 }
 
@@ -11127,7 +11274,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper {
-  background-color: #323232;
+  background-color: #53bce0;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -11141,8 +11288,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper.ui-state-active, .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper:hover {
   background: #ebebeb;
-  color: #323232;
-  border-color: #323232;
+  color: #53bce0;
+  border-color: #53bce0;
 }
 
 .logged-page .logged-menu {
@@ -11235,7 +11382,7 @@ footer.center-footer .footer-logos .group-1 {
   height: 18px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
   -webkit-transition: 0.3s all;
@@ -11378,14 +11525,14 @@ footer.center-footer .footer-logos .group-1 {
   cursor: pointer;
   margin-top: 5px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/remove-row.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/remove-row.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(1) .add-remove-icon.add,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(1) .add-remove-icon.add {
-  background-image: url(//nextra.pcluster.info/topbet365/images/add-row.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/add-row.png);
   margin-bottom: 5px;
 }
 
@@ -11484,13 +11631,13 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:hover ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:hover ~ .checkmark {
-  background-color: rgba(50, 50, 50, 0.2);
+  background-color: rgba(83, 188, 224, 0.2);
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:checked ~ .checkmark {
-  border-color: #252525;
-  background-color: #252525;
+  border-color: #3db4dc;
+  background-color: #3db4dc;
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked ~ .checkmark:after,
@@ -11500,7 +11647,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked:hover ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:checked:hover ~ .checkmark {
-  background-color: rgba(50, 50, 50, 0.8);
+  background-color: rgba(83, 188, 224, 0.8);
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check.valid,
@@ -11510,7 +11657,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th input[type="text"],
 .logged-page .logged-table.cashdesk-table tr td input[type="text"] {
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   border-radius: 3px;
   font-weight: bold;
   font-size: 13px;
@@ -11649,7 +11796,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .cashdesk-content {
   width: 100%;
   display: inline-block;
-  border-bottom: 5px solid #c8151e;
+  border-bottom: 5px solid #f0c808;
   background-color: #d4d4d4;
 }
 
@@ -11682,12 +11829,12 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:hover ~ .checkmark {
-  background-color: rgba(50, 50, 50, 0.2);
+  background-color: rgba(83, 188, 224, 0.2);
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked ~ .checkmark {
-  border-color: #444444;
-  background-color: #444444;
+  border-color: #333844;
+  background-color: #333844;
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked ~ .checkmark:after {
@@ -11695,7 +11842,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked:hover ~ .checkmark {
-  background-color: rgba(50, 50, 50, 0.8);
+  background-color: rgba(83, 188, 224, 0.8);
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group > span {
@@ -11761,7 +11908,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .cashdesk-tabs .row .stake-holder input {
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   border-radius: 3px;
   font-weight: bold;
   font-size: 10px;
@@ -11786,7 +11933,7 @@ footer.center-footer .footer-logos .group-1 {
   padding-right: 8px;
   border-radius: 3px;
   cursor: pointer;
-  background-image: url(//nextra.pcluster.info/topbet365/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -11808,7 +11955,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .cashdesk-content .cashdesk-tabs .row .buttons div.proceed {
   margin-right: 0;
-  background-image: url(//nextra.pcluster.info/topbet365/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/proceed-button.png);
   background-color: #2e9c3d;
 }
 
@@ -11909,7 +12056,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table tr td:nth-child(2) .hour {
-  color: #830e14;
+  color: #a68a06;
 }
 
 .logged-page .transactions-table tr td.fifteen i {
@@ -11948,14 +12095,14 @@ footer.center-footer .footer-logos .group-1 {
   height: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-image: url(//nextra.pcluster.info/topbet365/images/check-purple-transparent.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/check-purple-transparent.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .logged-page .transactions-table tr td.status-cell .status.not-checked {
-  background-image: url(//nextra.pcluster.info/topbet365/images/cross-red.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cross-red.png);
   background-size: auto;
   height: 17px;
   width: 21px;
@@ -11999,7 +12146,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table.coupon-details-table tr td {
-  color: #323232;
+  color: #53bce0;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.3;
@@ -12091,7 +12238,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table.coupon-details-table thead tr th {
-  background: #323232;
+  background: #53bce0;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -12258,7 +12405,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .message-details-table {
   width: 100%;
-  background: #323232;
+  background: #53bce0;
 }
 
 .logged-page .message-details-table tr {
@@ -12286,7 +12433,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .message-details-table tr td .time {
-  color: #c8151e;
+  color: #f0c808;
 }
 
 .logged-page .message-details-table tr td .red {
@@ -12298,9 +12445,9 @@ footer.center-footer .footer-logos .group-1 {
   padding: 40px;
   background: #edeced;
   font-size: 12px;
-  color: #323232;
+  color: #53bce0;
   line-height: 18px;
-  border-bottom: 5px solid #c8151e;
+  border-bottom: 5px solid #f0c808;
 }
 
 .logged-page .message-content .buttons {
@@ -12320,7 +12467,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -12335,7 +12482,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .message-content .buttons .single-button.delete-button {
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/topbet365/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -12347,14 +12494,14 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .message-content .buttons .single-button.reply-button {
   margin-right: 0;
   float: right;
-  background-color: #444444;
-  background-image: url(//nextra.pcluster.info/topbet365/images/reply-button.png);
-  -webkit-box-shadow: inset 0 1px #323232;
-          box-shadow: inset 0 1px #323232;
+  background-color: #333844;
+  background-image: url(//nextra.pcluster.info/1xpro/images/reply-button.png);
+  -webkit-box-shadow: inset 0 1px #242730;
+          box-shadow: inset 0 1px #242730;
 }
 
 .logged-page .message-content .buttons .single-button.reply-button:hover {
-  background-color: #323232;
+  background-color: #242730;
 }
 
 .logged-center {
@@ -12465,7 +12612,7 @@ footer.center-footer .footer-logos .group-1 {
   right: 0px;
   top: 3px;
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/topbet365/images/search-icon-gray.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/search-icon-gray.png);
   background-position: center;
   background-size: 50% auto;
   background-repeat: no-repeat;
@@ -12633,7 +12780,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .change-password-page .input-wrapper input[type="number"],
 .logged-center .change-password-page .input-wrapper input[type="date"] {
   color: #333;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -12663,7 +12810,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .change-password-page .input-wrapper .ui-selectmenu-button,
 .logged-center .change-password-page .input-wrapper select {
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   background-color: var(--bg1);
   color: var(--col1);
   font-size: 12px;
@@ -12690,7 +12837,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .change-password-page .input-wrapper .ui-selectmenu-button .ui-icon,
 .logged-center .change-password-page .input-wrapper select .ui-icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -12728,7 +12875,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #c8151e;
+  border: 2px solid #f0c808;
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -12737,7 +12884,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #c8151e;
+  background: #f0c808;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -12759,14 +12906,14 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #c8151e;
+  background: #f0c808;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(50, 50, 50, 0.2);
+  background-color: rgba(83, 188, 224, 0.2);
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio-label {
@@ -12793,7 +12940,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .change-password-page.edit-user-page {
   background-color: #f8f8f8;
-  color: #2a2a2a;
+  color: #46b7de;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12833,7 +12980,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  background-color: #0c0c0c;
+  background-color: #239ac3;
   display: inline-block;
 }
 
@@ -12854,7 +13001,7 @@ footer.center-footer .footer-logos .group-1 {
   float: right;
   margin-right: 30px;
   float: right;
-  background-image: url(//nextra.pcluster.info/topbet365/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/proceed-button.png);
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: #2e9c3d;
@@ -12870,7 +13017,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   margin-left: 30px;
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/topbet365/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -12960,7 +13107,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .transaction-filters .row .row-content .input-holder .ui-selectmenu-button .ui-icon,
 .logged-center .transaction-filters .row .row-content .input-holder select .ui-icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -12997,7 +13144,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-center .transaction-filters .row .row-content input[type="date"] {
-  background-image: url(//nextra.pcluster.info/topbet365/images/calendar-white.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/calendar-white.png);
   background-size: auto 60%;
   background-position: right 8px center;
   background-repeat: no-repeat;
@@ -13059,7 +13206,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -13075,7 +13222,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .transaction-filters .row .buttons-holder .single-button.cancel-button {
   margin-left: 30px;
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/topbet365/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -13087,14 +13234,14 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button {
   margin-right: 30px;
   float: right;
-  background-color: #444444;
-  background-image: url(//nextra.pcluster.info/topbet365/images/search-icon.png);
-  -webkit-box-shadow: inset 0 1px #323232;
-          box-shadow: inset 0 1px #323232;
+  background-color: #333844;
+  background-image: url(//nextra.pcluster.info/1xpro/images/search-icon.png);
+  -webkit-box-shadow: inset 0 1px #242730;
+          box-shadow: inset 0 1px #242730;
 }
 
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button:hover {
-  background-color: #323232;
+  background-color: #242730;
 }
 
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button.new {
@@ -13105,7 +13252,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .transaction-filters .row .buttons-holder .single-button.proceed-button {
   margin-right: 30px;
   float: right;
-  background-image: url(//nextra.pcluster.info/topbet365/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/proceed-button.png);
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: #2e9c3d;
@@ -13135,7 +13282,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-content {
-  background: #323232;
+  background: #53bce0;
   padding: 5px;
   min-height: 800px;
   width: 100%;
@@ -13156,13 +13303,13 @@ footer.center-footer .footer-logos .group-1 {
   padding: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #0c0c0c;
+  background-color: #239ac3;
 }
 
 .logged-content .info-text.big {
   font-weight: normal;
   font-size: 16px;
-  border-top: 1px solid #323232;
+  border-top: 1px solid #53bce0;
 }
 
 .logged-content.fund-transfer-content {
@@ -13364,7 +13511,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   font-size: 13px;
   border-radius: 3px;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   width: calc(100% - 82px);
   padding: 0 0 0 6px;
 }
@@ -13422,11 +13569,11 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  border: 2px solid #191919;
+  border: 2px solid #28abd8;
 }
 
 .logged-content .messages table tr td .status.read:after {
-  background-color: #c8151e;
+  background-color: #f0c808;
 }
 
 .logged-content .messages .table-legend {
@@ -13449,8 +13596,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-content .messages .table-legend div .icon {
   position: absolute;
-  background: #c8151e;
-  border: 2px solid #c8151e;
+  background: #f0c808;
+  border: 2px solid #f0c808;
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -13463,7 +13610,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-content .messages .table-legend div.read .icon {
   background: transparent;
-  border: 2px solid #323232;
+  border: 2px solid #53bce0;
 }
 
 .logged-content .messages .table-legend a {
@@ -13491,14 +13638,14 @@ footer.center-footer .footer-logos .group-1 {
   height: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-image: url(//nextra.pcluster.info/topbet365/images/check-purple-transparent.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/check-purple-transparent.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .logged-content .transactions table tr td.status-cell .status.not-checked {
-  background-image: url(//nextra.pcluster.info/topbet365/images/cross-red.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cross-red.png);
   background-size: auto;
   height: 17px;
   width: 21px;
@@ -13530,7 +13677,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .event-list-legend-holder {
-  background: #0e0e0e;
+  background: #249ec8;
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13539,7 +13686,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .event-list-legend-holder .legend {
-  background: #323232;
+  background: #53bce0;
   border: none;
   width: calc(100%);
   line-height: 22px;
@@ -13748,7 +13895,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .reports-table .logged-table tbody tr.colored-row {
-  background-color: #585858;
+  background-color: #94d5ec;
 }
 
 .reports-table .logged-table tbody tr.colored-row td {
@@ -13786,11 +13933,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .reports-table .logged-table tfoot tr {
-  background: rgba(111, 111, 111, 0.3);
+  background: rgba(187, 228, 243, 0.3);
 }
 
 .reports-table .logged-table tfoot tr td {
-  color: #0c0c0c;
+  color: #239ac3;
   font-weight: bold;
   background-color: transparent;
 }
@@ -13845,11 +13992,11 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   display: inline-block;
   width: 100%;
-  background: #c8151e;
+  background: #f0c808;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: inset 0px 1px 0 #c8151e;
-          box-shadow: inset 0px 1px 0 #c8151e;
+  -webkit-box-shadow: inset 0px 1px 0 #f0c808;
+          box-shadow: inset 0px 1px 0 #f0c808;
 }
 
 .reports .calculations .single-calculation .holder {
@@ -14041,24 +14188,24 @@ footer.center-footer .footer-logos .group-1 {
   padding-left: 20px;
   font-size: 13px;
   font-weight: 500;
-  background-image: url(//nextra.pcluster.info/topbet365/images/cross-red.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cross-red.png);
   background-size: 14px;
   background-position: left 3px top 5px;
   background-repeat: no-repeat;
 }
 
 .transactions-legend-holder .legend .single-item.running {
-  background-image: url(//nextra.pcluster.info/topbet365/images/runnning-icon-white.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/runnning-icon-white.png);
   background-position: left 1px top 3px;
 }
 
 .transactions-legend-holder .legend .single-item.pending {
-  background-image: url(//nextra.pcluster.info/topbet365/images/pending-icon.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/pending-icon.png);
   background-position: left 1px top 3px;
 }
 
 .transactions-legend-holder .legend .single-item.complete {
-  background-image: url(//nextra.pcluster.info/topbet365/images/check-green.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/check-green.png);
   background-position: left 1px top 5px;
 }
 
@@ -14082,7 +14229,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .transactions-legend-holder .rows-per-page .ui-selectmenu-button .ui-icon,
 .transactions-legend-holder .rows-per-page select .ui-icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -14113,12 +14260,12 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-legend-holder .legend .single-item.complete {
-  background-image: url(//nextra.pcluster.info/topbet365/images/plus.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/plus.png);
   background-position: top 3px left;
 }
 
 .logged-page .transactions-legend-holder .legend .single-item.failed {
-  background-image: url(//nextra.pcluster.info/topbet365/images/minus.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/minus.png);
   background-position: top 4px left;
 }
 
@@ -14163,7 +14310,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: black;
+  color: #1f89ae;
   padding: 10px;
   z-index: 99999;
 }
@@ -14349,7 +14496,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="number"],
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="date"] {
   color: #333;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -14451,8 +14598,8 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select {
-  border: 1px solid #323232;
-  background-color: #323232;
+  border: 1px solid #53bce0;
+  background-color: #53bce0;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -14497,7 +14644,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select:hover,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button:hover,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select:hover {
-  background-color: #3f3f3f;
+  background-color: #69c4e4;
 }
 
 .coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .ui-selectmenu-button .ui-icon,
@@ -14508,7 +14655,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select .ui-icon,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button .ui-icon,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select .ui-icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -14539,13 +14686,13 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .title,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .title {
   position: relative;
-  color: #fff;
+  color: #222;
   line-height: 36px;
   height: 36px;
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #c8151e;
+  background: #f0c808;
   text-transform: uppercase;
 }
 
@@ -14728,7 +14875,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table thead tr th,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table thead tr th,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table thead tr th {
-  background: #323232;
+  background: #53bce0;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -14768,7 +14915,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tbody tr td span.colored,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tbody tr td span.colored,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tbody tr td span.colored {
-  color: #585858;
+  color: #94d5ec;
   font-weight: bold;
 }
 
@@ -14785,7 +14932,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-date-info,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info {
-  border-left: 1px solid #4c4c4c;
+  border-left: 1px solid #7ecde8;
   float: left;
   padding: 10px;
   -webkit-box-sizing: border-box;
@@ -14811,7 +14958,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-code,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-code,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-code {
-  border-left: 1px solid #4c4c4c;
+  border-left: 1px solid #7ecde8;
   line-height: 32px;
   padding: 10px;
   font-size: 16px;
@@ -14823,7 +14970,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details {
-  border-left: 1px solid #4c4c4c;
+  border-left: 1px solid #7ecde8;
   float: left;
   color: white;
   padding: 10px;
@@ -14861,7 +15008,7 @@ footer.center-footer .footer-logos .group-1 {
   margin: 7px 10px;
   padding: 4px;
   border-radius: 3px;
-  background-color: #6f6f6f;
+  background-color: #bbe4f3;
   display: inline-block;
 }
 
@@ -14995,7 +15142,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .message .message-title span,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .message .message-title span {
   display: inline-block;
-  color: #323232;
+  color: #53bce0;
   font-size: 16px;
   line-height: 44px;
   font-weight: bold;
@@ -15105,7 +15252,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 36px;
   font-size: 13px;
   font-weight: 500;
-  color: #323232;
+  color: #53bce0;
   border-bottom: 2px solid #d4d2d2;
 }
 
@@ -15187,7 +15334,7 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   font-size: 18px;
   font-weight: bold;
-  color: #323232;
+  color: #53bce0;
   line-height: 52px;
 }
 
@@ -15234,7 +15381,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details {
-  background: #323232;
+  background: #53bce0;
   padding-bottom: 30px;
 }
 
@@ -15271,7 +15418,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table tr td,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table tr td {
   font-size: 13px;
-  color: #323232;
+  color: #53bce0;
   font-weight: 500;
   height: 30px;
   padding: 5px 0 5px 10px;
@@ -15361,7 +15508,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td {
-  color: #323232;
+  color: #53bce0;
   font-size: 12px;
   font-weight: normal;
 }
@@ -15441,7 +15588,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table thead tr th,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table thead tr th,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table thead tr th {
-  background: #323232;
+  background: #53bce0;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -15466,7 +15613,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list.system-details {
   padding-bottom: 30px;
-  background: #323232;
+  background: #53bce0;
 }
 
 .coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details table tr td,
@@ -15537,7 +15684,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block p,
 .login-popup-wrapper .popup-content .first-blocks .block p {
   font-size: 13px;
-  color: #323232;
+  color: #53bce0;
   line-height: 15px;
 }
 
@@ -15603,7 +15750,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.print-button,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.print-button {
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/print-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/print-button.png);
   background-color: #2e9c3d;
 }
 
@@ -15615,15 +15762,15 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button {
   margin-right: 0;
-  background-color: #444444;
-  background-image: url(//nextra.pcluster.info/topbet365/images/send-button.png);
-  -webkit-box-shadow: inset 0 1px #323232;
-          box-shadow: inset 0 1px #323232;
+  background-color: #333844;
+  background-image: url(//nextra.pcluster.info/1xpro/images/send-button.png);
+  -webkit-box-shadow: inset 0 1px #242730;
+          box-shadow: inset 0 1px #242730;
 }
 
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover {
-  background-color: #323232;
+  background-color: #242730;
 }
 
 .coupon-popup-wrapper .popup-content .first-blocks .block:first-child,
@@ -15685,7 +15832,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .betslip-info .big-title,
 .login-popup-wrapper .popup-content .betslip-info .big-title {
   font-weight: 900;
-  color: #323232;
+  color: #53bce0;
 }
 
 .coupon-popup-wrapper .popup-content .betslip-info .big-title span,
@@ -15696,7 +15843,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .coupon-popup-wrapper .popup-content .betslip-info .details,
 .login-popup-wrapper .popup-content .betslip-info .details {
-  color: #323232;
+  color: #53bce0;
   font-size: 12px;
   font-weight: bold;
 }
@@ -15724,13 +15871,13 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   text-align: center;
   line-height: 34px;
-  background: #323232;
+  background: #53bce0;
 }
 
 .coupon-popup-wrapper .popup-content .betslip-table tr td,
 .login-popup-wrapper .popup-content .betslip-table tr td {
   font-size: 13px;
-  color: #323232;
+  color: #53bce0;
   line-height: 34px;
   text-align: center;
 }
@@ -15847,8 +15994,8 @@ footer.center-footer .footer-logos .group-1 {
   color: #ebebeb;
   font-size: 14px;
   font-weight: bold;
-  background-color: #444444;
-  background-image: url(//nextra.pcluster.info/topbet365/images/show-all-icon.png);
+  background-color: #333844;
+  background-image: url(//nextra.pcluster.info/1xpro/images/show-all-icon.png);
 }
 
 .search-results-popup .search-results-content .inner-wrapper {
@@ -15892,10 +16039,10 @@ footer.center-footer .footer-logos .group-1 {
   border-bottom-left-radius: 3px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
-  background-color: #c8151e;
-  color: #fff;
+  background-color: #f0c808;
+  color: #222;
   font-size: 0;
-  background-image: url(//nextra.pcluster.info/topbet365/images/search-icon.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/search-icon.png);
   background-size: 45% auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -15904,16 +16051,16 @@ footer.center-footer .footer-logos .group-1 {
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form input[type="submit"]:hover,
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form input[type="button"]:hover,
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form .button:hover {
-  background-color: #e82831;
+  background-color: #f8d633;
 }
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-title {
-  background: #323232;
+  background: #53bce0;
   height: 36px;
   display: inline-block;
   width: 100%;
-  -webkit-box-shadow: inset 0px 1px 0 #3f3f3f;
-          box-shadow: inset 0px 1px 0 #3f3f3f;
+  -webkit-box-shadow: inset 0px 1px 0 #69c4e4;
+          box-shadow: inset 0px 1px 0 #69c4e4;
   font-size: 14px;
   color: #ebebeb;
   line-height: 36px;
@@ -15974,7 +16121,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.date {
   width: 50px;
-  color: #323232;
+  color: #53bce0;
   font-size: 12px;
   font-weight: 500;
   line-height: 14px;
@@ -15984,7 +16131,7 @@ footer.center-footer .footer-logos .group-1 {
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.team-names {
   line-height: 28px;
   width: 540px;
-  color: #323232;
+  color: #53bce0;
   font-size: 13px;
   font-weight: bold;
 }
@@ -16037,11 +16184,11 @@ footer.center-footer .footer-logos .group-1 {
           flex: 1 0 19px;
   font-size: 9px;
   color: #ebebeb;
-  background: #191919;
+  background: #28abd8;
 }
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.odds-holder .single-odd .quote {
-  color: #191919;
+  color: #28abd8;
   font-size: 12px;
   font-weight: bold;
   -webkit-box-flex: 1;
@@ -16092,13 +16239,13 @@ footer.center-footer .footer-logos .group-1 {
 
 .login-popup .login-content .title {
   position: relative;
-  color: #fff;
+  color: #222;
   line-height: 36px;
   height: 36px;
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #c8151e;
+  background: #f0c808;
   text-transform: uppercase;
 }
 
@@ -16113,7 +16260,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
-  background-color: #0c0c0c;
+  background-color: #239ac3;
   color: white;
   padding: 0 15px;
   font-size: 15px;
@@ -16158,7 +16305,7 @@ footer.center-footer .footer-logos .group-1 {
   max-width: 50%;
   display: inline-block;
   background-color: transparent;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 5px;
@@ -16192,7 +16339,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  background-color: #0c0c0c;
+  background-color: #239ac3;
   display: inline-block;
 }
 
@@ -16212,17 +16359,17 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 33px;
   margin: 0 2px;
   margin-right: 0;
-  background-color: #444444;
-  background-image: url(//nextra.pcluster.info/topbet365/images/send-button.png);
-  -webkit-box-shadow: inset 0 1px #323232;
-          box-shadow: inset 0 1px #323232;
+  background-color: #333844;
+  background-image: url(//nextra.pcluster.info/1xpro/images/send-button.png);
+  -webkit-box-shadow: inset 0 1px #242730;
+          box-shadow: inset 0 1px #242730;
   float: left;
   border: none;
 }
 
 .login-popup .login-content form .button-holder div:hover,
 .login-popup .login-content form .button-holder input[type="submit"]:hover {
-  background-color: #323232;
+  background-color: #242730;
 }
 
 .login-popup .login-content form .button-holder div.register-button,
@@ -16232,7 +16379,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-shadow: inset 0 1px #ee6704;
           box-shadow: inset 0 1px #ee6704;
   background-color: #fb6e06;
-  background-image: url(//nextra.pcluster.info/topbet365/images/register-white.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/register-white.png);
 }
 
 .login-popup .login-content form .button-holder div.register-button:hover,
@@ -16276,7 +16423,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: black;
+  color: #1f89ae;
   padding: 10px;
   z-index: 99999;
 }
@@ -16303,7 +16450,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #c8151e;
+  color: #f0c808;
 }
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16322,7 +16469,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -16337,7 +16484,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.confirm-button {
   float: right;
-  background-image: url(//nextra.pcluster.info/topbet365/images/confirm-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/confirm-button.png);
   background-color: #2e9c3d;
 }
 
@@ -16348,7 +16495,7 @@ footer.center-footer .footer-logos .group-1 {
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.cancel-button {
   float: left;
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/topbet365/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -16405,7 +16552,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: black;
+  color: #1f89ae;
   padding: 10px;
   z-index: 99999;
 }
@@ -16428,12 +16575,12 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 22px;
   width: calc(100% - 54px);
-  color: #323232;
+  color: #53bce0;
   font-size: 16px;
 }
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #c8151e;
+  color: #f0c808;
 }
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16452,7 +16599,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -16467,7 +16614,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.confirm-button {
   float: right;
-  background-image: url(//nextra.pcluster.info/topbet365/images/confirm-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/confirm-button.png);
   background-color: #2e9c3d;
 }
 
@@ -16478,7 +16625,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.cancel-button {
   float: left;
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/topbet365/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -16536,7 +16683,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: black;
+  color: #1f89ae;
   padding: 10px;
   z-index: 99999;
 }
@@ -16559,12 +16706,12 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 22px;
   width: calc(100% - 54px);
-  color: #323232;
+  color: #53bce0;
   font-size: 16px;
 }
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #c8151e;
+  color: #f0c808;
 }
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16583,7 +16730,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -16598,7 +16745,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.confirm-button {
   float: right;
-  background-image: url(//nextra.pcluster.info/topbet365/images/confirm-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/confirm-button.png);
   background-color: #2e9c3d;
 }
 
@@ -16609,7 +16756,7 @@ footer.center-footer .footer-logos .group-1 {
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.cancel-button {
   float: left;
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/topbet365/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -16723,7 +16870,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .payment-method-table table tbody tr td:nth-child(3) .purple, .payment-method-table table tbody tr td:nth-child(4) .purple, .payment-method-table table tbody tr td:nth-child(5) .purple {
-  background: #444444;
+  background: #333844;
   color: #ebebeb;
   line-height: 50px;
   text-align: center;
@@ -16787,11 +16934,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .messages-page .message-content .buttons .single-button.back-button {
-  background-image: url(//nextra.pcluster.info/topbet365/images/search-icon-green.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/search-icon-green.png);
 }
 
 .messages-page .message-content .buttons .single-button.reply-button {
-  background-image: url(//nextra.pcluster.info/topbet365/images/send-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/send-button.png);
 }
 
 .messages-page .logged-table tr td {
@@ -16839,7 +16986,7 @@ footer.center-footer .footer-logos .group-1 {
   padding-right: 8px;
   border-radius: 3px;
   cursor: pointer;
-  background-image: url(//nextra.pcluster.info/topbet365/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 4px;
   background-repeat: no-repeat;
@@ -17037,7 +17184,7 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   padding: 25px;
   border-bottom: 1px solid #d7d7d7;
-  color: #323232;
+  color: #53bce0;
 }
 
 .deposit-page .block .right-content .wrapper:last-child {
@@ -17067,7 +17214,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .input-group .label {
   width: calc(100% - 200px);
   float: left;
-  color: #323232;
+  color: #53bce0;
   font-size: 13px;
   font-weight: 500;
   line-height: 30px;
@@ -17076,7 +17223,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .input-group input {
   padding: 5px;
   height: 30px;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   border-radius: 3px;
   background-color: transparent;
   float: left;
@@ -17096,8 +17243,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button,
 .deposit-page .block .right-content .wrapper .input-group select {
-  border: 1px solid #323232;
-  background-color: #323232;
+  border: 1px solid #53bce0;
+  background-color: #53bce0;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -17123,12 +17270,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button:hover,
 .deposit-page .block .right-content .wrapper .input-group select:hover {
-  background-color: #3f3f3f;
+  background-color: #69c4e4;
 }
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button .ui-icon,
 .deposit-page .block .right-content .wrapper .input-group select .ui-icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -17159,7 +17306,7 @@ footer.center-footer .footer-logos .group-1 {
   height: 30px;
   display: inline-block;
   padding: 0 12px;
-  background: #323232;
+  background: #53bce0;
   margin-right: 5px;
   border-radius: 3px;
   color: white;
@@ -17170,7 +17317,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount.first-amount {
   width: 30px;
   text-align: center;
-  background-color: #323232;
+  background-color: #53bce0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-right: 20px;
@@ -17183,11 +17330,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount:hover {
-  background-color: #191919;
+  background-color: #28abd8;
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount.selected {
-  background-color: #c8151e;
+  background-color: #f0c808;
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .amount-block {
@@ -17209,7 +17356,7 @@ footer.center-footer .footer-logos .group-1 {
   padding-right: 8px;
   border-radius: 3px;
   cursor: pointer;
-  background-image: url(//nextra.pcluster.info/topbet365/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -17229,7 +17376,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .deposit-page .block .right-content .wrapper .buttons div.proceed-button {
-  background-image: url(//nextra.pcluster.info/topbet365/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/proceed-button.png);
   background-color: #2e9c3d;
   float: right;
 }
@@ -17274,7 +17421,7 @@ footer.center-footer .footer-logos .group-1 {
   margin: 0 10px;
   width: calc(100% - 120px);
   float: left;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   padding: 0 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -17306,7 +17453,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page.bonus-page .block-holder .block .right-content .progress-content p {
   width: 100%;
-  color: #323232;
+  color: #53bce0;
   line-height: 1.1;
   font-size: 14px;
   text-align: center;
@@ -17318,8 +17465,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 45px;
-  background: #323232;
-  border: 1px solid #585858;
+  background: #53bce0;
+  border: 1px solid #94d5ec;
   line-height: 36px;
   height: 36px;
   width: calc(100% - 90px);
@@ -17332,7 +17479,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 65px;
   text-align: center;
   font-size: 10px;
-  color: #323232;
+  color: #53bce0;
   line-height: 36px;
 }
 
@@ -17347,7 +17494,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 0;
   top: 0;
   left: 0;
-  background: #585858;
+  background: #94d5ec;
 }
 
 .coupon-details-page-content {
@@ -17378,7 +17525,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 38px;
   font-size: 14px;
-  color: #323232;
+  color: #53bce0;
 }
 
 .coupon-details-page-content .row .content {
@@ -17389,8 +17536,8 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-details-page-content .row .content .status {
   float: right;
   line-height: 28px;
-  border: 1px solid #323232;
-  color: #323232;
+  border: 1px solid #53bce0;
+  color: #53bce0;
   font-size: 13px;
   border-radius: 3px;
   padding: 0 5px;
@@ -17419,7 +17566,7 @@ footer.center-footer .footer-logos .group-1 {
   padding: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: black;
+  background: #1f89ae;
 }
 
 .coupon-details-buttons .button {
@@ -17493,19 +17640,19 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .coupon-details-buttons .button.explode {
-  background-color: #4c4c4c;
+  background-color: #7ecde8;
 }
 
 .coupon-details-buttons .button.explode i {
-  color: #4c4c4c;
+  color: #7ecde8;
 }
 
 .coupon-details-buttons .button.explode:hover {
-  background-color: #3f3f3f;
+  background-color: #69c4e4;
 }
 
 .coupon-details-buttons .button.explode:hover i {
-  color: #3f3f3f;
+  color: #69c4e4;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -17591,7 +17738,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 300px;
   margin: 20px;
   display: inline-block;
-  border: 1px solid #585858;
+  border: 1px solid #94d5ec;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .text-wrapper {
@@ -17637,8 +17784,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 45px;
-  background: #323232;
-  border: 1px solid #585858;
+  background: #53bce0;
+  border: 1px solid #94d5ec;
   line-height: 20px;
   height: 20px;
   width: calc(100% - 90px);
@@ -17666,12 +17813,12 @@ footer.center-footer .footer-logos .group-1 {
   width: 0;
   top: 0;
   left: 0;
-  background: #585858;
+  background: #94d5ec;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons {
   margin: 5px;
-  border: 1px solid #585858;
+  border: 1px solid #94d5ec;
   display: inline-block;
   width: calc(100% - 10px);
 }
@@ -17682,17 +17829,17 @@ footer.center-footer .footer-logos .group-1 {
   color: white;
   line-height: 34px;
   padding: 0 10px;
-  background-color: #6a6a6a;
+  background-color: #b2e1f1;
   border-radius: 4px;
   margin: 5px 10px;
   font-size: 14px;
-  -webkit-box-shadow: inset 0 1px #727272;
-          box-shadow: inset 0 1px #727272;
+  -webkit-box-shadow: inset 0 1px #bfe6f3;
+          box-shadow: inset 0 1px #bfe6f3;
   cursor: pointer;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons .button:hover {
-  background-color: #585858;
+  background-color: #94d5ec;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons .button:first-child {
@@ -17722,9 +17869,9 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 34px;
   padding: 0 8;
   border-radius: 4px;
-  background-color: #444444;
-  -webkit-box-shadow: inset 0 1px #323232;
-          box-shadow: inset 0 1px #323232;
+  background-color: #333844;
+  -webkit-box-shadow: inset 0 1px #242730;
+          box-shadow: inset 0 1px #242730;
   cursor: pointer;
   margin-bottom: 10px;
 }
@@ -17736,7 +17883,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .download-button:hover {
-  background-color: #323232;
+  background-color: #242730;
 }
 
 .marketing-assets-holder {
@@ -17744,7 +17891,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .marketing-assets-holder .info-text {
-  background-color: #040404;
+  background-color: #2190b6;
   color: #ebebeb;
   font-size: 14px;
   line-height: 1.4;
@@ -17756,7 +17903,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .marketing-assets-holder .text-box h4 {
-  color: #4c4c4c;
+  color: #7ecde8;
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 15px;
@@ -17820,7 +17967,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .hat-trick-holder .info-text {
-  background-color: #191919;
+  background-color: #28abd8;
   color: #ebebeb;
   line-height: 1.4;
   padding: 20px 10px;
@@ -17946,7 +18093,7 @@ footer.center-footer .footer-logos .group-1 {
 .new-profile-page input[type="number"],
 .new-profile-page input[type="date"] {
   color: #333;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   background: #e5e5e5 !important;
   border-radius: 3px;
   height: 24px;
@@ -18001,8 +18148,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .input-wrapper .ui-selectmenu-button,
 .new-profile-page .input-wrapper select {
-  border: 1px solid #323232;
-  background-color: #323232;
+  border: 1px solid #53bce0;
+  background-color: #53bce0;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -18029,12 +18176,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .input-wrapper .ui-selectmenu-button:hover,
 .new-profile-page .input-wrapper select:hover {
-  background-color: #3f3f3f;
+  background-color: #69c4e4;
 }
 
 .new-profile-page .input-wrapper .ui-selectmenu-button .ui-icon,
 .new-profile-page .input-wrapper select .ui-icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -18283,7 +18430,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .limit-settings .bonus-outer .bonus-wrapper {
   position: relative;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   padding: 30px 10px 10px;
   margin-top: 30px;
   width: calc(100% - 20px);
@@ -18296,9 +18443,9 @@ footer.center-footer .footer-logos .group-1 {
 .new-profile-page .limit-settings .bonus-outer .bonus-wrapper .title {
   position: absolute;
   top: -14px;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   background-color: #ebebeb;
-  color: #323232;
+  color: #53bce0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   left: 15px;
@@ -18405,7 +18552,7 @@ footer.center-footer .footer-logos .group-1 {
   margin-right: 2px;
   float: left;
   width: 90px;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   box-sizing: border-box;
   line-height: 22px;
   background: transparent !important;
@@ -18469,7 +18616,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content .bonus-wrapper {
   position: relative;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   padding: 30px 10px 10px;
   margin-top: 40px;
   width: 380px;
@@ -18479,11 +18626,11 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: -14px;
   left: 30px;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   background-color: #ebebeb;
   width: 200px;
   line-height: 28px;
-  color: #323232;
+  color: #53bce0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-left: 15px;
@@ -18533,8 +18680,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button,
 .new-profile-page .turn-over-content.provider select {
-  border: 1px solid #323232;
-  background-color: #323232;
+  border: 1px solid #53bce0;
+  background-color: #53bce0;
   color: #ebebeb;
   font-size: 12px;
   width: 120px;
@@ -18561,12 +18708,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button:hover,
 .new-profile-page .turn-over-content.provider select:hover {
-  background-color: #3f3f3f;
+  background-color: #69c4e4;
 }
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button .ui-icon,
 .new-profile-page .turn-over-content.provider select .ui-icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -18612,7 +18759,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 13px;
   margin-bottom: 13px;
   line-height: 1;
-  color: #515151;
+  color: #87d0e9;
 }
 
 .contact-us-form form .input-wrapper {
@@ -18653,7 +18800,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper textarea {
   color: #333;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   background: #e5e5e5;
   width: 100%;
   padding: 5px;
@@ -18666,7 +18813,7 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .input-wrapper input[type="password"],
 .contact-us-form form .input-wrapper input[type="number"] {
   color: #333;
-  border: 1px solid #323232;
+  border: 1px solid #53bce0;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -18677,8 +18824,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button,
 .contact-us-form form .input-wrapper select {
-  border: 1px solid #323232;
-  background-color: #323232;
+  border: 1px solid #53bce0;
+  background-color: #53bce0;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -18691,12 +18838,12 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button:hover,
 .contact-us-form form .input-wrapper select:hover {
-  background-color: #3f3f3f;
+  background-color: #69c4e4;
 }
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button .ui-icon,
 .contact-us-form form .input-wrapper select .ui-icon {
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -18707,12 +18854,12 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/topbet365/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
-  border: 1px solid #515151;
-  background-color: #515151;
+  border: 1px solid #87d0e9;
+  background-color: #87d0e9;
   height: 24px;
   line-height: 22px;
   color: #ebebeb;
@@ -18733,11 +18880,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .contact-us-form form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(50, 50, 50, 0.2);
+  background-color: rgba(83, 188, 224, 0.2);
 }
 
 .contact-us-form form .input-wrapper .check-label {
-  color: #515151;
+  color: #87d0e9;
   font-size: 12px;
   font-weight: 500;
   float: left;
@@ -18780,7 +18927,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #c8151e;
+  border: 2px solid #f0c808;
 }
 
 .contact-us-form form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -18789,7 +18936,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #c8151e;
+  background: #f0c808;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -18811,7 +18958,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #c8151e;
+  background: #f0c808;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -18834,7 +18981,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/topbet365/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -18849,7 +18996,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .buttons-holder .single-button.cancel-button {
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/topbet365/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -18861,14 +19008,14 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .buttons-holder .single-button.search-button {
   margin-right: 30px;
   float: right;
-  background-color: #444444;
-  background-image: url(//nextra.pcluster.info/topbet365/images/search-icon.png);
-  -webkit-box-shadow: inset 0 1px #323232;
-          box-shadow: inset 0 1px #323232;
+  background-color: #333844;
+  background-image: url(//nextra.pcluster.info/1xpro/images/search-icon.png);
+  -webkit-box-shadow: inset 0 1px #242730;
+          box-shadow: inset 0 1px #242730;
 }
 
 .contact-us-form form .buttons-holder .single-button.search-button:hover {
-  background-color: #323232;
+  background-color: #242730;
 }
 
 .contact-us-form form .buttons-holder .single-button.search-button.new {
@@ -18879,7 +19026,7 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .buttons-holder .single-button.proceed-button {
   margin-right: 30px;
   float: right;
-  background-image: url(//nextra.pcluster.info/topbet365/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/proceed-button.png);
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: #2e9c3d;
@@ -19008,12 +19155,12 @@ a {
 }
 
 span.ui-icon.ui-icon-circle-triangle-w {
-  background-image: url(//nextra.pcluster.info/topbet365/images/angle-left-orange.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/angle-left-orange.png);
   background-position: center;
 }
 
 span.ui-icon.ui-icon-circle-triangle-e {
-  background-image: url(//nextra.pcluster.info/topbet365/images/angle-right-orange.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/angle-right-orange.png);
   background-position: center;
 }
 
@@ -19070,14 +19217,14 @@ span.ui-icon.ui-icon-circle-triangle-e {
     background: transparent;
   }
   60% {
-    background: #4c4c4c;
+    background: #7ecde8;
     color: white;
   }
   70% {
     background: transparent;
   }
   80% {
-    background: #4c4c4c;
+    background: #7ecde8;
     color: white;
   }
   90% {
@@ -19090,14 +19237,14 @@ span.ui-icon.ui-icon-circle-triangle-e {
     background: transparent;
   }
   60% {
-    background: #4c4c4c;
+    background: #7ecde8;
     color: white;
   }
   70% {
     background: transparent;
   }
   80% {
-    background: #4c4c4c;
+    background: #7ecde8;
     color: white;
   }
   90% {
@@ -19209,7 +19356,7 @@ select option {
   margin: -50px 0 0 -50px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #323232;
+  border-top-color: #53bce0;
   -webkit-animation: spin 4s linear infinite;
   animation: spin 4s linear infinite;
   z-index: 1001;
@@ -19225,7 +19372,7 @@ select option {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #727272;
+  border-top-color: #bfe6f3;
   -webkit-animation: spin 3s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 3s linear infinite;
@@ -19242,7 +19389,7 @@ select option {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #c8151e;
+  border-top-color: #f0c808;
   -webkit-animation: spin 5s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 5s linear infinite;
@@ -19364,7 +19511,7 @@ select option {
   width: 100%;
   background-color: var(--mainBg);
   color: var(--mainBgCol);
-  background-image: url(//nextra.pcluster.info/topbet365/images/casino/casinoBg.jpeg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/casino/casinoBg.jpeg);
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -19536,7 +19683,7 @@ select option {
 }
 
 .casino-pro-down .casino-pro-list .casino-pro-item:hover {
-  background-color: #444444;
+  background-color: #333844;
 }
 
 .casino-pro-down .casino-pro-list .casino-pro-item-img {
@@ -19660,7 +19807,7 @@ select option {
 
 .game-grid-item .gg-item-details .gg-item-ico .gg-info:hover,
 .game-grid-item .gg-item-details .gg-item-ico .gg-star:hover {
-  color: #c8151e;
+  color: #f0c808;
 }
 
 .game-grid-item:hover .game-overlay {
@@ -19729,9 +19876,9 @@ select option {
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn {
-  color: #323232;
-  background-color: #c8151e;
-  border: 2px solid #c8151e;
+  color: #53bce0;
+  background-color: #f0c808;
+  border: 2px solid #f0c808;
   text-decoration: none;
   border-radius: 3px;
   padding: 6px 30px;
@@ -19742,21 +19889,21 @@ select option {
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn-b {
-  background-color: #444444;
+  background-color: #333844;
   color: #ebebeb;
-  border: 2px solid #444444;
+  border: 2px solid #333844;
   padding: 6px 25px;
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn-b:hover {
   background-color: #ebebeb !important;
-  color: #323232 !important;
-  border: 2px solid #444444;
+  color: #53bce0 !important;
+  border: 2px solid #333844;
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn:hover {
   background-color: #ebebeb;
-  color: #323232;
+  color: #53bce0;
 }
 
 .game-overlay-inner .game-pro-container {
@@ -19800,7 +19947,7 @@ select option {
 }
 
 .tour-container {
-  background-image: url(//nextra.pcluster.info/topbet365/images/poker/poker-bg1.jpg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/poker/poker-bg1.jpg);
   background-repeat: no-repeat;
   background-size: auto 114%;
   background-position: 0px -100px;
@@ -19869,7 +20016,7 @@ select option {
 }
 
 .reg-container {
-  background-image: url(//nextra.pcluster.info/topbet365/images/poker/blue-bg1.png);
+  background-image: url(//nextra.pcluster.info/1xpro/images/poker/blue-bg1.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
@@ -19904,7 +20051,7 @@ select option {
 }
 
 .ptext-container {
-  background-image: url(//nextra.pcluster.info/topbet365/images/poker/poker-bg2.jpg);
+  background-image: url(//nextra.pcluster.info/1xpro/images/poker/poker-bg2.jpg);
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: 0px center;
@@ -20660,7 +20807,7 @@ body .loader__ball {
   width: 180px;
   height: 70px;
   display: block;
-  background-image: url("https://nextra.pcluster.info/topbet365/images/logo2.svg");
+  background-image: url("https://nextra.pcluster.info/1xpro/images/logo2.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -20749,7 +20896,7 @@ span.ui-slider-handle:before {
 
 .antepost-holder div span:first-child {
   width: calc(100% - 90px);
-  border-right: 1px solid #444444;
+  border-right: 1px solid #333844;
 }
 
 .antepost-holder div span:last-child {
@@ -20758,7 +20905,7 @@ span.ui-slider-handle:before {
 }
 
 .antepost-holder div.antepost-header {
-  background-color: #c8151e;
+  background-color: #f0c808;
 }
 
 .antepost-holder div.antepost-header span {
@@ -20817,7 +20964,7 @@ span.ui-slider-handle:before {
 .antepost-name-wrap {
   display: inline-block;
   width: 100%;
-  background-color: #444444;
+  background-color: #333844;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 5px;
