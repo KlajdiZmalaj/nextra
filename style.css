@@ -194,6 +194,12 @@ html .buttons-holder .single-button:nth-child(2):before {
   margin: 0 5px;
 }
 
+html .sports-book-page .filters-holder .buttons-holder .single-button {
+  border: 1px solid #d0d4d9;
+  -webkit-box-shadow: 15px 11px 10px -16px #0160ae;
+          box-shadow: 15px 11px 10px -16px #0160ae;
+}
+
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;
