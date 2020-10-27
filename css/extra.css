@@ -3731,4 +3731,8 @@ footer.footer.main-footer {
           flex-flow: column;
   height: auto;
 }
+
+.side-bar .single-block.betslip-holder .betslip-controllers .single-controller {
+  white-space: nowrap;
+}
 /*# sourceMappingURL=extra.css.map */
