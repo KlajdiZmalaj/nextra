@@ -187,10 +187,14 @@ html {
       &:nth-child(1):before {
         content: "\f762";
         font-family: "Font Awesome 5 Pro";
+        font-size: 20px;
+        margin: 0 5px;
       }
       &:nth-child(2):before {
         content: "\f08e";
         font-family: "Font Awesome 5 Pro";
+        font-size: 20px;
+        margin: 0 5px;
       }
     }
   }
