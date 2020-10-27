@@ -157,7 +157,7 @@ td
 .check
 input:checked
 ~ .checkmark:after {
-  border: solid #0160ae;
+  border-color: #0160ae;
 }
 
 html .sports-book-page .filters-holder .search-form input[type="text"] {

@@ -168,7 +168,7 @@ html {
     .check
     input:checked
     ~ .checkmark:after {
-    border: solid #0160ae;
+    border-color: #0160ae;
   }
   .sports-book-page .filters-holder .search-form input[type="text"] {
     background: #dbdbdb;
