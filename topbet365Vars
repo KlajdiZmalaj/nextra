@@ -48,3 +48,14 @@ body.landing-page {
   background-color: #0e0e0e !important;
   background-image: none;
 }
+
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .label {
+  background: #161616 !important;
+}
