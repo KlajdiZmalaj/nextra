@@ -3588,6 +3588,7 @@ span {
       -ms-flex-positive: 1;
           flex-grow: 1;
   font-size: 11px;
+  white-space: nowrap;
 }
 
 #couponEvents .selected-bet .bet > span {
