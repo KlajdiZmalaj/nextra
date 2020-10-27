@@ -39,7 +39,7 @@ $secondaryCol: #fff;
 $black: #000000;
 $secondaryDark: #f0c808;
 $secondaryDarkCol: #222;
-$primary: #53bce0;
+$primary: #839aae;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
@@ -88,5 +88,26 @@ html {
     border-top: 1px solid #1787e3;
     background: #0160ae;
     color: #fff;
+  }
+  .side-bar
+    .single-block.betslip-holder
+    .betslip
+    .combination-wrapper
+    .combination-group
+    table
+    th,
+  .side-bar
+    .single-block.betslip-holder
+    .betslip
+    .combination-wrapper
+    .totals-section
+    table
+    th {
+    background: #dbd9d9;
+    color: #000000;
+  }
+  .right-side-bar .single-block:nth-child(3) .block-title span {
+    background: #cacdcf;
+    color: #222;
   }
 }

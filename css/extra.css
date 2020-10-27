@@ -3743,4 +3743,27 @@ table#tableMultiple {
 span.odd-type {
   color: var(--accent-bg);
 }
+
+html .live-content-wrapper
+.live-sports-overview
+.sport-container
+.single-panel
+.panel-title
+.odd-types
+.single-odd-type:hover
+span,
+html .live-content-wrapper
+.live-sports-overview
+.sport-container
+.single-panel
+.panel-title
+.odd-types
+.single-odd-type.selected
+span {
+  background: transparent;
+  color: inherit;
+  border-bottom: 10px solid var(--accent);
+  /* box-sizing: border-box; */
+  border-radius: 0;
+}
 /*# sourceMappingURL=extra.css.map */

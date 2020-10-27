@@ -74,6 +74,29 @@ html .single-sport {
   color: #fff;
 }
 
+html .side-bar
+.single-block.betslip-holder
+.betslip
+.combination-wrapper
+.combination-group
+table
+th,
+html .side-bar
+.single-block.betslip-holder
+.betslip
+.combination-wrapper
+.totals-section
+table
+th {
+  background: #dbd9d9;
+  color: #000000;
+}
+
+html .right-side-bar .single-block:nth-child(3) .block-title span {
+  background: #cacdcf;
+  color: #222;
+}
+
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;
@@ -406,7 +429,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid #7ecde8;
+  border: 1px solid #a2b3c2;
   border-radius: 3px;
 }
 
@@ -425,7 +448,7 @@ input[type="submit"] {
 }
 
 .check:hover input ~ .checkmark {
-  background: #69c4e4;
+  background: #92a7b8;
 }
 
 .radio {
@@ -487,7 +510,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid #7ecde8;
+  border: 1px solid #a2b3c2;
   border-radius: 3px;
   border-radius: 50%;
   border-width: 2px;
@@ -509,7 +532,7 @@ input[type="submit"] {
 }
 
 .radio:hover input ~ .radiocircle {
-  background: rgba(83, 188, 224, 0.5);
+  background: rgba(131, 154, 174, 0.5);
 }
 
 .lang-open {
@@ -977,30 +1000,30 @@ input[type="submit"] {
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"],
 .header .top-bar .top-bar-content .login-bar form input[type="password"] {
-  color: #53bce0;
-  border: 1px solid #53bce0;
+  color: #839aae;
+  border: 1px solid #839aae;
   width: 100px;
   padding: 0 0 0 6px;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::-webkit-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::-webkit-input-placeholder {
-  color: #53bce0;
+  color: #839aae;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]:-ms-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]:-ms-input-placeholder {
-  color: #53bce0;
+  color: #839aae;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::-ms-input-placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::-ms-input-placeholder {
-  color: #53bce0;
+  color: #839aae;
 }
 
 .header .top-bar .top-bar-content .login-bar form input[type="text"]::placeholder,
 .header .top-bar .top-bar-content .login-bar form input[type="password"]::placeholder {
-  color: #53bce0;
+  color: #839aae;
 }
 
 .header .top-bar .top-bar-content .login-bar form i {
@@ -1947,8 +1970,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .my-bets .my-coupons .buttons .single-button {
   width: 30px;
   height: 30px;
-  background: #3db4dc;
-  border: 3px solid #94d5ec;
+  background: #748da4;
+  border: 3px solid #b1c0cc;
   border-radius: 5px;
   line-height: 30px;
   text-align: center;
@@ -1963,7 +1986,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .my-coupons .buttons .single-button:hover {
-  background-color: #94d5ec;
+  background-color: #b1c0cc;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form {
@@ -1982,7 +2005,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .my-bets form div input[type="text"] {
   line-height: 30px;
   width: 100%;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   border-radius: 3px;
   font-weight: bold;
   padding: 0 10px 0 50px;
@@ -2017,24 +2040,24 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::-webkit-input-placeholder {
-  color: #53bce0;
+  color: #839aae;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]:-ms-input-placeholder {
-  color: #53bce0;
+  color: #839aae;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::-ms-input-placeholder {
-  color: #53bce0;
+  color: #839aae;
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"]::placeholder {
-  color: #53bce0;
+  color: #839aae;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper {
-  background-color: #53bce0;
-  border: 4px solid #53bce0;
+  background-color: #839aae;
+  border: 4px solid #839aae;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2231,7 +2254,7 @@ input[type="submit"] {
   line-height: 28px;
   font-size: 12px;
   font-weight: 500;
-  color: #53bce0;
+  color: #839aae;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div span {
@@ -2261,12 +2284,12 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div.half .refresh-button:hover i {
-  color: #28abd8;
+  color: #64819a;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder {
   width: 100%;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
@@ -2275,7 +2298,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event {
-  border-bottom: 1px solid #53bce0;
+  border-bottom: 1px solid #839aae;
   width: 100%;
   display: inline-block;
   line-height: 26px;
@@ -2350,7 +2373,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .legend {
-  background: #53bce0;
+  background: #839aae;
   border: none;
   width: calc(100%);
   line-height: 22px;
@@ -2634,8 +2657,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select {
-  border: 1px solid #53bce0;
-  background-color: #53bce0;
+  border: 1px solid #839aae;
+  background-color: #839aae;
   color: #ebebeb;
   font-size: 12px;
   line-height: 24px;
@@ -2670,7 +2693,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select:hover {
-  background-color: #69c4e4;
+  background-color: #92a7b8;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group .ui-selectmenu-button .ui-icon,
@@ -2713,7 +2736,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th input,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td input {
   max-width: 30px;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   border-radius: 3px;
   font-weight: bold;
   color: #000000;
@@ -2906,7 +2929,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group table td .check:hover input ~ .checkmark,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .check:hover input ~ .checkmark,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .check:hover input ~ .checkmark {
-  background-color: rgba(83, 188, 224, 0.1);
+  background-color: rgba(131, 154, 174, 0.1);
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group table th,
@@ -2978,7 +3001,7 @@ input[type="submit"] {
   line-height: 20px;
   height: 20px;
   margin-top: 3px;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   border-radius: 3px;
 }
 
@@ -2986,8 +3009,8 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select {
-  border: 1px solid #53bce0;
-  background-color: #53bce0;
+  border: 1px solid #839aae;
+  background-color: #839aae;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -3003,7 +3026,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button:hover,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select:hover {
-  background-color: #69c4e4;
+  background-color: #92a7b8;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .ui-selectmenu-button .ui-icon,
@@ -3054,7 +3077,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table tr:last-child {
-  border-bottom: 3px solid #53bce0;
+  border-bottom: 3px solid #839aae;
 }
 
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .totals {
@@ -3495,7 +3518,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 1px solid #7ecde8;
+  border: 1px solid #a2b3c2;
   border-radius: 3px;
 }
 
@@ -3514,7 +3537,7 @@ input[type="submit"] {
 }
 
 .single-sport .anchor .check:hover input ~ .checkmark {
-  background: #69c4e4;
+  background: #92a7b8;
 }
 
 .single-sport .anchor .icon {
@@ -3842,7 +3865,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state > .anchor .check:hover input ~ .checkmark {
-  background: rgba(83, 188, 224, 0.2);
+  background: rgba(131, 154, 174, 0.2);
 }
 
 .single-sport .states .state i {
@@ -3892,7 +3915,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state .championship .anchor .check:hover input ~ .checkmark {
-  background: rgba(83, 188, 224, 0.2);
+  background: rgba(131, 154, 174, 0.2);
 }
 
 .single-sport .states .state .championship.active {
@@ -5897,7 +5920,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .single-match-row td .goal-odd {
   width: calc((100% / 6) - 1px);
   display: inline-block;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   margin-right: -1px;
   margin-bottom: -1px;
   text-align: center;
@@ -6035,7 +6058,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .match-name .team-names.has-info:before {
   display: none;
   content: "";
-  border-bottom: 9px solid #53bce0;
+  border-bottom: 9px solid #839aae;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -6055,7 +6078,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .match-name .team-names.has-info .info-box {
   position: absolute;
   width: 166px;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   border-radius: 5px;
   background: var(--bg1);
   color: var(--col1);
@@ -6119,14 +6142,14 @@ footer.center-footer .footer-logos .group-1 {
 
 .odds-table .match-name .team-names.has-info .info-box .odd-types .single-type {
   width: 33%;
-  background: #53bce0;
+  background: #839aae;
   color: #f0c808;
   font-size: 12px;
   text-align: center;
   font-weight: bold;
   line-height: 28px;
-  -webkit-box-shadow: inset 0 1px 0 #69c4e4;
-          box-shadow: inset 0 1px 0 #69c4e4;
+  -webkit-box-shadow: inset 0 1px 0 #92a7b8;
+          box-shadow: inset 0 1px 0 #92a7b8;
   float: left;
 }
 
@@ -6156,7 +6179,7 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   height: 15px;
   width: 34px;
-  background: #53bce0;
+  background: #839aae;
   border-radius: 3px;
   position: relative;
   overflow: hidden;
@@ -6391,20 +6414,20 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .title.light {
-  background: #94d5ec;
+  background: #b1c0cc;
 }
 
 .results-page .results-filter {
   width: 100%;
   display: inline-block;
-  background: #28abd8;
+  background: #64819a;
 }
 
 .results-page .results-filter .single-filter {
   float: left;
   padding: 10px 20px 25px 10px;
-  border-right: 1px solid #53bce0;
-  color: #28abd8;
+  border-right: 1px solid #839aae;
+  color: #64819a;
   width: 130px;
 }
 
@@ -6417,7 +6440,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results-filter .single-filter input[type="date"] {
-  color: #28abd8;
+  color: #64819a;
   background-color: #b398d1;
   background-image: url(//nextra.pcluster.info/1xpro/images/colored-calendar.png);
   background-size: auto 100%;
@@ -6445,7 +6468,7 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 3px;
   height: 26px;
   padding-left: 8px;
-  color: #28abd8;
+  color: #64819a;
 }
 
 .results-page .results-filter .single-filter select::-ms-expand {
@@ -6477,7 +6500,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results .single-result .result-top-bar .championship-name {
-  color: #28abd8;
+  color: #64819a;
   font-size: 12px;
   font-weight: bold;
   float: left;
@@ -6491,7 +6514,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .results-page .results .single-result .result-top-bar .result div {
-  color: #28abd8;
+  color: #64819a;
   font-size: 12px;
   font-weight: 500;
   width: 50px;
@@ -6507,14 +6530,14 @@ footer.center-footer .footer-logos .group-1 {
 .results-page .results .single-result .result-match {
   width: 100%;
   background: #f1f1f2;
-  border-bottom: 3px solid #28abd8;
+  border-bottom: 3px solid #64819a;
 }
 
 .results-page .results .single-result .result-match .time {
   line-height: 76px;
   font-size: 12px;
   font-weight: 500;
-  color: #28abd8;
+  color: #64819a;
   padding: 0 10px;
   text-align: center;
   display: inline-block;
@@ -6533,7 +6556,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 30px;
   font-size: 12px;
   font-weight: 500;
-  color: #28abd8;
+  color: #64819a;
 }
 
 .results-page .results .single-result .result-match .match-teams .home-team.winner,
@@ -6561,7 +6584,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .results-page .results .single-result .result-match .result div {
   padding: 8px 0;
-  color: #28abd8;
+  color: #64819a;
   font-size: 12px;
   font-weight: 500;
   width: 50px;
@@ -6835,7 +6858,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .explore-matches-page .title {
-  border-bottom: 1px solid #53bce0;
+  border-bottom: 1px solid #839aae;
   line-height: 36px;
   width: calc(100% - 70px);
   padding: 0 35px;
@@ -7388,7 +7411,7 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   padding: 25px 15px;
   display: inline-block;
-  background: #53bce0;
+  background: #839aae;
 }
 
 .sports-book-page .button-holder .button-next {
@@ -7437,7 +7460,7 @@ footer.center-footer .footer-logos .group-1 {
 .become-an-agent-page .agent-buttons {
   text-align: center;
   padding: 30px 0;
-  background-color: #3db4dc;
+  background-color: #748da4;
 }
 
 .become-an-agent-page .agent-buttons .single-button {
@@ -7793,7 +7816,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .sports-container .sports .sport .anchor.special {
   background: #ececed;
-  color: #53bce0;
+  color: #839aae;
   font-weight: bold;
   font-size: 12px;
   border-top: 1px solid #feffff;
@@ -9191,7 +9214,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view {
   margin: 7px 13px;
-  background: #53bce0;
+  background: #839aae;
   border-radius: 3px;
   cursor: pointer;
   display: inline-block;
@@ -9617,7 +9640,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper {
-  background: #53bce0;
+  background: #839aae;
   border-bottom: 1px solid #977fb1;
   display: inline-block;
   width: 100%;
@@ -9701,7 +9724,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view {
-  background: #53bce0;
+  background: #839aae;
   border-radius: 3px;
   cursor: pointer;
   border: 1px solid #977fb1;
@@ -9775,7 +9798,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: 500;
   padding-left: 10px;
   line-height: 24px;
-  background: #53bce0;
+  background: #839aae;
   border-top: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -9824,7 +9847,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .odds-wrapper .odds-holder .single-odd:hover {
-  background: #7ecde8;
+  background: #a2b3c2;
   color: white;
 }
 
@@ -10019,7 +10042,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(83, 188, 224, 0.2);
+  background-color: rgba(131, 154, 174, 0.2);
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .check-label {
@@ -10102,7 +10125,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(83, 188, 224, 0.2);
+  background-color: rgba(131, 154, 174, 0.2);
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio-label {
@@ -10323,7 +10346,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper textarea {
   color: #333;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   background: #e5e5e5;
   width: 100%;
   padding: 5px;
@@ -10335,7 +10358,7 @@ footer.center-footer .footer-logos .group-1 {
 .registration-page .registration-holder .form-holder form .input-wrapper input[type="password"],
 .registration-page .registration-holder .form-holder form .input-wrapper input[type="number"] {
   color: #333;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -10346,8 +10369,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button,
 .registration-page .registration-holder .form-holder form .input-wrapper select {
-  border: 1px solid #53bce0;
-  background-color: #53bce0;
+  border: 1px solid #839aae;
+  background-color: #839aae;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -10360,7 +10383,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button:hover,
 .registration-page .registration-holder .form-holder form .input-wrapper select:hover {
-  background-color: #69c4e4;
+  background-color: #92a7b8;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button .ui-icon,
@@ -10380,8 +10403,8 @@ footer.center-footer .footer-logos .group-1 {
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
-  border: 1px solid #53bce0;
-  background-color: #53bce0;
+  border: 1px solid #839aae;
+  background-color: #839aae;
   height: 24px;
   line-height: 22px;
   color: #ebebeb;
@@ -10402,7 +10425,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(83, 188, 224, 0.2);
+  background-color: rgba(131, 154, 174, 0.2);
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .check-label {
@@ -10485,7 +10508,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(83, 188, 224, 0.2);
+  background-color: rgba(131, 154, 174, 0.2);
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio-label {
@@ -10661,7 +10684,7 @@ footer.center-footer .footer-logos .group-1 {
 .registration-page.agent-registration .agent-buttons {
   text-align: center;
   padding: 30px 0;
-  background-color: #3db4dc;
+  background-color: #748da4;
 }
 
 .registration-page.agent-registration .agent-buttons .single-button {
@@ -10791,7 +10814,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .help-page {
-  border-top: 4px solid #53bce0;
+  border-top: 4px solid #839aae;
 }
 
 .help-page .center-content.default-page-content {
@@ -10802,7 +10825,7 @@ footer.center-footer .footer-logos .group-1 {
   border: 2px solid #d5cccc;
   display: inline-block;
   width: 100%;
-  background: #53bce0;
+  background: #839aae;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -10818,7 +10841,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .help-page .help-menu ul li:hover, .help-page .help-menu ul li.open {
-  background-color: #7ecde8;
+  background-color: #a2b3c2;
 }
 
 .help-page .help-menu ul li a,
@@ -10869,7 +10892,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .help-page .help-menu ul li .sub-menu li a {
   font-size: 12px;
-  color: #53bce0;
+  color: #839aae;
 }
 
 .help-page .help-menu ul li .sub-menu li a:hover {
@@ -11056,7 +11079,7 @@ footer.center-footer .footer-logos .group-1 {
 .forgot-password-page .forgot-password-holder .forgot-password-content .form-holder input[type="text"] {
   display: inline-block;
   color: #333;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -11158,7 +11181,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper {
-  background-color: #53bce0;
+  background-color: #839aae;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -11172,8 +11195,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper.ui-state-active, .ui-selectmenu-menu .ui-menu .ui-menu-item .ui-menu-item-wrapper:hover {
   background: #ebebeb;
-  color: #53bce0;
-  border-color: #53bce0;
+  color: #839aae;
+  border-color: #839aae;
 }
 
 .logged-page .logged-menu {
@@ -11515,13 +11538,13 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:hover ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:hover ~ .checkmark {
-  background-color: rgba(83, 188, 224, 0.2);
+  background-color: rgba(131, 154, 174, 0.2);
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:checked ~ .checkmark {
-  border-color: #3db4dc;
-  background-color: #3db4dc;
+  border-color: #748da4;
+  background-color: #748da4;
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked ~ .checkmark:after,
@@ -11531,7 +11554,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check input:checked:hover ~ .checkmark,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(7) .check input:checked:hover ~ .checkmark {
-  background-color: rgba(83, 188, 224, 0.8);
+  background-color: rgba(131, 154, 174, 0.8);
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(7) .check.valid,
@@ -11541,7 +11564,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .logged-table.cashdesk-table tr th input[type="text"],
 .logged-page .logged-table.cashdesk-table tr td input[type="text"] {
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   border-radius: 3px;
   font-weight: bold;
   font-size: 13px;
@@ -11713,7 +11736,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:hover ~ .checkmark {
-  background-color: rgba(83, 188, 224, 0.2);
+  background-color: rgba(131, 154, 174, 0.2);
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked ~ .checkmark {
@@ -11726,7 +11749,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked:hover ~ .checkmark {
-  background-color: rgba(83, 188, 224, 0.8);
+  background-color: rgba(131, 154, 174, 0.8);
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group > span {
@@ -11792,7 +11815,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .cashdesk-tabs .row .stake-holder input {
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   border-radius: 3px;
   font-weight: bold;
   font-size: 10px;
@@ -12030,7 +12053,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table.coupon-details-table tr td {
-  color: #53bce0;
+  color: #839aae;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.3;
@@ -12122,7 +12145,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table.coupon-details-table thead tr th {
-  background: #53bce0;
+  background: #839aae;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -12289,7 +12312,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .message-details-table {
   width: 100%;
-  background: #53bce0;
+  background: #839aae;
 }
 
 .logged-page .message-details-table tr {
@@ -12329,7 +12352,7 @@ footer.center-footer .footer-logos .group-1 {
   padding: 40px;
   background: #edeced;
   font-size: 12px;
-  color: #53bce0;
+  color: #839aae;
   line-height: 18px;
   border-bottom: 5px solid #f0c808;
 }
@@ -12664,7 +12687,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .change-password-page .input-wrapper input[type="number"],
 .logged-center .change-password-page .input-wrapper input[type="date"] {
   color: #333;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -12694,7 +12717,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .change-password-page .input-wrapper .ui-selectmenu-button,
 .logged-center .change-password-page .input-wrapper select {
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   background-color: var(--bg1);
   color: var(--col1);
   font-size: 12px;
@@ -12797,7 +12820,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio:hover input ~ .radiocircle {
-  background-color: rgba(83, 188, 224, 0.2);
+  background-color: rgba(131, 154, 174, 0.2);
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio-label {
@@ -12824,7 +12847,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .change-password-page.edit-user-page {
   background-color: #f8f8f8;
-  color: #46b7de;
+  color: #7a92a8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12864,7 +12887,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  background-color: #239ac3;
+  background-color: #5a748a;
   display: inline-block;
 }
 
@@ -13166,7 +13189,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-content {
-  background: #53bce0;
+  background: #839aae;
   padding: 5px;
   min-height: 800px;
   width: 100%;
@@ -13187,13 +13210,13 @@ footer.center-footer .footer-logos .group-1 {
   padding: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #239ac3;
+  background-color: #5a748a;
 }
 
 .logged-content .info-text.big {
   font-weight: normal;
   font-size: 16px;
-  border-top: 1px solid #53bce0;
+  border-top: 1px solid #839aae;
 }
 
 .logged-content.fund-transfer-content {
@@ -13395,7 +13418,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   font-size: 13px;
   border-radius: 3px;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   width: calc(100% - 82px);
   padding: 0 0 0 6px;
 }
@@ -13453,7 +13476,7 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  border: 2px solid #28abd8;
+  border: 2px solid #64819a;
 }
 
 .logged-content .messages table tr td .status.read:after {
@@ -13494,7 +13517,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-content .messages .table-legend div.read .icon {
   background: transparent;
-  border: 2px solid #53bce0;
+  border: 2px solid #839aae;
 }
 
 .logged-content .messages .table-legend a {
@@ -13561,7 +13584,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .event-list-legend-holder {
-  background: #249ec8;
+  background: #5c778d;
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13570,7 +13593,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .event-list-legend-holder .legend {
-  background: #53bce0;
+  background: #839aae;
   border: none;
   width: calc(100%);
   line-height: 22px;
@@ -13779,7 +13802,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .reports-table .logged-table tbody tr.colored-row {
-  background-color: #94d5ec;
+  background-color: #b1c0cc;
 }
 
 .reports-table .logged-table tbody tr.colored-row td {
@@ -13817,11 +13840,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .reports-table .logged-table tfoot tr {
-  background: rgba(187, 228, 243, 0.3);
+  background: rgba(205, 214, 222, 0.3);
 }
 
 .reports-table .logged-table tfoot tr td {
-  color: #239ac3;
+  color: #5a748a;
   font-weight: bold;
   background-color: transparent;
 }
@@ -14194,7 +14217,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #1f89ae;
+  color: #50677b;
   padding: 10px;
   z-index: 99999;
 }
@@ -14380,7 +14403,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="number"],
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="date"] {
   color: #333;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -14482,8 +14505,8 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select {
-  border: 1px solid #53bce0;
-  background-color: #53bce0;
+  border: 1px solid #839aae;
+  background-color: #839aae;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -14528,7 +14551,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select:hover,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button:hover,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select:hover {
-  background-color: #69c4e4;
+  background-color: #92a7b8;
 }
 
 .coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .ui-selectmenu-button .ui-icon,
@@ -14759,7 +14782,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table thead tr th,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table thead tr th,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table thead tr th {
-  background: #53bce0;
+  background: #839aae;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -14799,7 +14822,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tbody tr td span.colored,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tbody tr td span.colored,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tbody tr td span.colored {
-  color: #94d5ec;
+  color: #b1c0cc;
   font-weight: bold;
 }
 
@@ -14816,7 +14839,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-date-info,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info {
-  border-left: 1px solid #7ecde8;
+  border-left: 1px solid #a2b3c2;
   float: left;
   padding: 10px;
   -webkit-box-sizing: border-box;
@@ -14842,7 +14865,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-code,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-code,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-code {
-  border-left: 1px solid #7ecde8;
+  border-left: 1px solid #a2b3c2;
   line-height: 32px;
   padding: 10px;
   font-size: 16px;
@@ -14854,7 +14877,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details {
-  border-left: 1px solid #7ecde8;
+  border-left: 1px solid #a2b3c2;
   float: left;
   color: white;
   padding: 10px;
@@ -14892,7 +14915,7 @@ footer.center-footer .footer-logos .group-1 {
   margin: 7px 10px;
   padding: 4px;
   border-radius: 3px;
-  background-color: #bbe4f3;
+  background-color: #cdd6de;
   display: inline-block;
 }
 
@@ -15026,7 +15049,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .message .message-title span,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .message .message-title span {
   display: inline-block;
-  color: #53bce0;
+  color: #839aae;
   font-size: 16px;
   line-height: 44px;
   font-weight: bold;
@@ -15136,7 +15159,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 36px;
   font-size: 13px;
   font-weight: 500;
-  color: #53bce0;
+  color: #839aae;
   border-bottom: 2px solid #d4d2d2;
 }
 
@@ -15218,7 +15241,7 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   font-size: 18px;
   font-weight: bold;
-  color: #53bce0;
+  color: #839aae;
   line-height: 52px;
 }
 
@@ -15265,7 +15288,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details {
-  background: #53bce0;
+  background: #839aae;
   padding-bottom: 30px;
 }
 
@@ -15302,7 +15325,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table tr td,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table tr td {
   font-size: 13px;
-  color: #53bce0;
+  color: #839aae;
   font-weight: 500;
   height: 30px;
   padding: 5px 0 5px 10px;
@@ -15392,7 +15415,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td {
-  color: #53bce0;
+  color: #839aae;
   font-size: 12px;
   font-weight: normal;
 }
@@ -15472,7 +15495,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table thead tr th,
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table thead tr th,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table thead tr th {
-  background: #53bce0;
+  background: #839aae;
   font-size: 12px;
   font-weight: bold;
   color: #ebebeb;
@@ -15497,7 +15520,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list.system-details {
   padding-bottom: 30px;
-  background: #53bce0;
+  background: #839aae;
 }
 
 .coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details table tr td,
@@ -15568,7 +15591,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block p,
 .login-popup-wrapper .popup-content .first-blocks .block p {
   font-size: 13px;
-  color: #53bce0;
+  color: #839aae;
   line-height: 15px;
 }
 
@@ -15716,7 +15739,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .betslip-info .big-title,
 .login-popup-wrapper .popup-content .betslip-info .big-title {
   font-weight: 900;
-  color: #53bce0;
+  color: #839aae;
 }
 
 .coupon-popup-wrapper .popup-content .betslip-info .big-title span,
@@ -15727,7 +15750,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .coupon-popup-wrapper .popup-content .betslip-info .details,
 .login-popup-wrapper .popup-content .betslip-info .details {
-  color: #53bce0;
+  color: #839aae;
   font-size: 12px;
   font-weight: bold;
 }
@@ -15755,13 +15778,13 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   text-align: center;
   line-height: 34px;
-  background: #53bce0;
+  background: #839aae;
 }
 
 .coupon-popup-wrapper .popup-content .betslip-table tr td,
 .login-popup-wrapper .popup-content .betslip-table tr td {
   font-size: 13px;
-  color: #53bce0;
+  color: #839aae;
   line-height: 34px;
   text-align: center;
 }
@@ -15939,12 +15962,12 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-title {
-  background: #53bce0;
+  background: #839aae;
   height: 36px;
   display: inline-block;
   width: 100%;
-  -webkit-box-shadow: inset 0px 1px 0 #69c4e4;
-          box-shadow: inset 0px 1px 0 #69c4e4;
+  -webkit-box-shadow: inset 0px 1px 0 #92a7b8;
+          box-shadow: inset 0px 1px 0 #92a7b8;
   font-size: 14px;
   color: #ebebeb;
   line-height: 36px;
@@ -16005,7 +16028,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.date {
   width: 50px;
-  color: #53bce0;
+  color: #839aae;
   font-size: 12px;
   font-weight: 500;
   line-height: 14px;
@@ -16015,7 +16038,7 @@ footer.center-footer .footer-logos .group-1 {
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.team-names {
   line-height: 28px;
   width: 540px;
-  color: #53bce0;
+  color: #839aae;
   font-size: 13px;
   font-weight: bold;
 }
@@ -16068,11 +16091,11 @@ footer.center-footer .footer-logos .group-1 {
           flex: 1 0 19px;
   font-size: 9px;
   color: #ebebeb;
-  background: #28abd8;
+  background: #64819a;
 }
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-content table tr td.odds-holder .single-odd .quote {
-  color: #28abd8;
+  color: #64819a;
   font-size: 12px;
   font-weight: bold;
   -webkit-box-flex: 1;
@@ -16144,7 +16167,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
-  background-color: #239ac3;
+  background-color: #5a748a;
   color: white;
   padding: 0 15px;
   font-size: 15px;
@@ -16189,7 +16212,7 @@ footer.center-footer .footer-logos .group-1 {
   max-width: 50%;
   display: inline-block;
   background-color: transparent;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 5px;
@@ -16223,7 +16246,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  background-color: #239ac3;
+  background-color: #5a748a;
   display: inline-block;
 }
 
@@ -16307,7 +16330,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #1f89ae;
+  color: #50677b;
   padding: 10px;
   z-index: 99999;
 }
@@ -16436,7 +16459,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #1f89ae;
+  color: #50677b;
   padding: 10px;
   z-index: 99999;
 }
@@ -16459,7 +16482,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 22px;
   width: calc(100% - 54px);
-  color: #53bce0;
+  color: #839aae;
   font-size: 16px;
 }
 
@@ -16567,7 +16590,7 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: 0;
   right: 0;
-  color: #1f89ae;
+  color: #50677b;
   padding: 10px;
   z-index: 99999;
 }
@@ -16590,7 +16613,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 22px;
   width: calc(100% - 54px);
-  color: #53bce0;
+  color: #839aae;
   font-size: 16px;
 }
 
@@ -17068,7 +17091,7 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   padding: 25px;
   border-bottom: 1px solid #d7d7d7;
-  color: #53bce0;
+  color: #839aae;
 }
 
 .deposit-page .block .right-content .wrapper:last-child {
@@ -17098,7 +17121,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .input-group .label {
   width: calc(100% - 200px);
   float: left;
-  color: #53bce0;
+  color: #839aae;
   font-size: 13px;
   font-weight: 500;
   line-height: 30px;
@@ -17107,7 +17130,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .input-group input {
   padding: 5px;
   height: 30px;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   border-radius: 3px;
   background-color: transparent;
   float: left;
@@ -17127,8 +17150,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button,
 .deposit-page .block .right-content .wrapper .input-group select {
-  border: 1px solid #53bce0;
-  background-color: #53bce0;
+  border: 1px solid #839aae;
+  background-color: #839aae;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -17154,7 +17177,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button:hover,
 .deposit-page .block .right-content .wrapper .input-group select:hover {
-  background-color: #69c4e4;
+  background-color: #92a7b8;
 }
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button .ui-icon,
@@ -17190,7 +17213,7 @@ footer.center-footer .footer-logos .group-1 {
   height: 30px;
   display: inline-block;
   padding: 0 12px;
-  background: #53bce0;
+  background: #839aae;
   margin-right: 5px;
   border-radius: 3px;
   color: white;
@@ -17201,7 +17224,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount.first-amount {
   width: 30px;
   text-align: center;
-  background-color: #53bce0;
+  background-color: #839aae;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-right: 20px;
@@ -17214,7 +17237,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount:hover {
-  background-color: #28abd8;
+  background-color: #64819a;
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount.selected {
@@ -17305,7 +17328,7 @@ footer.center-footer .footer-logos .group-1 {
   margin: 0 10px;
   width: calc(100% - 120px);
   float: left;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   padding: 0 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -17337,7 +17360,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page.bonus-page .block-holder .block .right-content .progress-content p {
   width: 100%;
-  color: #53bce0;
+  color: #839aae;
   line-height: 1.1;
   font-size: 14px;
   text-align: center;
@@ -17349,8 +17372,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 45px;
-  background: #53bce0;
-  border: 1px solid #94d5ec;
+  background: #839aae;
+  border: 1px solid #b1c0cc;
   line-height: 36px;
   height: 36px;
   width: calc(100% - 90px);
@@ -17363,7 +17386,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 65px;
   text-align: center;
   font-size: 10px;
-  color: #53bce0;
+  color: #839aae;
   line-height: 36px;
 }
 
@@ -17378,7 +17401,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 0;
   top: 0;
   left: 0;
-  background: #94d5ec;
+  background: #b1c0cc;
 }
 
 .coupon-details-page-content {
@@ -17409,7 +17432,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   line-height: 38px;
   font-size: 14px;
-  color: #53bce0;
+  color: #839aae;
 }
 
 .coupon-details-page-content .row .content {
@@ -17420,8 +17443,8 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-details-page-content .row .content .status {
   float: right;
   line-height: 28px;
-  border: 1px solid #53bce0;
-  color: #53bce0;
+  border: 1px solid #839aae;
+  color: #839aae;
   font-size: 13px;
   border-radius: 3px;
   padding: 0 5px;
@@ -17450,7 +17473,7 @@ footer.center-footer .footer-logos .group-1 {
   padding: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #1f89ae;
+  background: #50677b;
 }
 
 .coupon-details-buttons .button {
@@ -17524,19 +17547,19 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .coupon-details-buttons .button.explode {
-  background-color: #7ecde8;
+  background-color: #a2b3c2;
 }
 
 .coupon-details-buttons .button.explode i {
-  color: #7ecde8;
+  color: #a2b3c2;
 }
 
 .coupon-details-buttons .button.explode:hover {
-  background-color: #69c4e4;
+  background-color: #92a7b8;
 }
 
 .coupon-details-buttons .button.explode:hover i {
-  color: #69c4e4;
+  color: #92a7b8;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -17622,7 +17645,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 300px;
   margin: 20px;
   display: inline-block;
-  border: 1px solid #94d5ec;
+  border: 1px solid #b1c0cc;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .text-wrapper {
@@ -17668,8 +17691,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 45px;
-  background: #53bce0;
-  border: 1px solid #94d5ec;
+  background: #839aae;
+  border: 1px solid #b1c0cc;
   line-height: 20px;
   height: 20px;
   width: calc(100% - 90px);
@@ -17697,12 +17720,12 @@ footer.center-footer .footer-logos .group-1 {
   width: 0;
   top: 0;
   left: 0;
-  background: #94d5ec;
+  background: #b1c0cc;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons {
   margin: 5px;
-  border: 1px solid #94d5ec;
+  border: 1px solid #b1c0cc;
   display: inline-block;
   width: calc(100% - 10px);
 }
@@ -17713,17 +17736,17 @@ footer.center-footer .footer-logos .group-1 {
   color: white;
   line-height: 34px;
   padding: 0 10px;
-  background-color: #b2e1f1;
+  background-color: #c7d1da;
   border-radius: 4px;
   margin: 5px 10px;
   font-size: 14px;
-  -webkit-box-shadow: inset 0 1px #bfe6f3;
-          box-shadow: inset 0 1px #bfe6f3;
+  -webkit-box-shadow: inset 0 1px #d0d9e0;
+          box-shadow: inset 0 1px #d0d9e0;
   cursor: pointer;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons .button:hover {
-  background-color: #94d5ec;
+  background-color: #b1c0cc;
 }
 
 .bonuses-holder .single-block .block-content .single-bonus .buttons .button:first-child {
@@ -17775,7 +17798,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .marketing-assets-holder .info-text {
-  background-color: #2190b6;
+  background-color: #546c81;
   color: #ebebeb;
   font-size: 14px;
   line-height: 1.4;
@@ -17787,7 +17810,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .marketing-assets-holder .text-box h4 {
-  color: #7ecde8;
+  color: #a2b3c2;
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 15px;
@@ -17851,7 +17874,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .hat-trick-holder .info-text {
-  background-color: #28abd8;
+  background-color: #64819a;
   color: #ebebeb;
   line-height: 1.4;
   padding: 20px 10px;
@@ -17977,7 +18000,7 @@ footer.center-footer .footer-logos .group-1 {
 .new-profile-page input[type="number"],
 .new-profile-page input[type="date"] {
   color: #333;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   background: #e5e5e5 !important;
   border-radius: 3px;
   height: 24px;
@@ -18032,8 +18055,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .input-wrapper .ui-selectmenu-button,
 .new-profile-page .input-wrapper select {
-  border: 1px solid #53bce0;
-  background-color: #53bce0;
+  border: 1px solid #839aae;
+  background-color: #839aae;
   color: #ebebeb;
   border-radius: 3px;
   font-size: 12px;
@@ -18060,7 +18083,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .input-wrapper .ui-selectmenu-button:hover,
 .new-profile-page .input-wrapper select:hover {
-  background-color: #69c4e4;
+  background-color: #92a7b8;
 }
 
 .new-profile-page .input-wrapper .ui-selectmenu-button .ui-icon,
@@ -18314,7 +18337,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .limit-settings .bonus-outer .bonus-wrapper {
   position: relative;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   padding: 30px 10px 10px;
   margin-top: 30px;
   width: calc(100% - 20px);
@@ -18327,9 +18350,9 @@ footer.center-footer .footer-logos .group-1 {
 .new-profile-page .limit-settings .bonus-outer .bonus-wrapper .title {
   position: absolute;
   top: -14px;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   background-color: #ebebeb;
-  color: #53bce0;
+  color: #839aae;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   left: 15px;
@@ -18436,7 +18459,7 @@ footer.center-footer .footer-logos .group-1 {
   margin-right: 2px;
   float: left;
   width: 90px;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   box-sizing: border-box;
   line-height: 22px;
   background: transparent !important;
@@ -18500,7 +18523,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content .bonus-wrapper {
   position: relative;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   padding: 30px 10px 10px;
   margin-top: 40px;
   width: 380px;
@@ -18510,11 +18533,11 @@ footer.center-footer .footer-logos .group-1 {
   position: absolute;
   top: -14px;
   left: 30px;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   background-color: #ebebeb;
   width: 200px;
   line-height: 28px;
-  color: #53bce0;
+  color: #839aae;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-left: 15px;
@@ -18564,8 +18587,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button,
 .new-profile-page .turn-over-content.provider select {
-  border: 1px solid #53bce0;
-  background-color: #53bce0;
+  border: 1px solid #839aae;
+  background-color: #839aae;
   color: #ebebeb;
   font-size: 12px;
   width: 120px;
@@ -18592,7 +18615,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button:hover,
 .new-profile-page .turn-over-content.provider select:hover {
-  background-color: #69c4e4;
+  background-color: #92a7b8;
 }
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button .ui-icon,
@@ -18643,7 +18666,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 13px;
   margin-bottom: 13px;
   line-height: 1;
-  color: #87d0e9;
+  color: #a8b8c6;
 }
 
 .contact-us-form form .input-wrapper {
@@ -18684,7 +18707,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper textarea {
   color: #333;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   background: #e5e5e5;
   width: 100%;
   padding: 5px;
@@ -18697,7 +18720,7 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .input-wrapper input[type="password"],
 .contact-us-form form .input-wrapper input[type="number"] {
   color: #333;
-  border: 1px solid #53bce0;
+  border: 1px solid #839aae;
   background: #e5e5e5;
   border-radius: 3px;
   height: 24px;
@@ -18708,8 +18731,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button,
 .contact-us-form form .input-wrapper select {
-  border: 1px solid #53bce0;
-  background-color: #53bce0;
+  border: 1px solid #839aae;
+  background-color: #839aae;
   height: 22px;
   line-height: 22px;
   color: #ebebeb;
@@ -18722,7 +18745,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button:hover,
 .contact-us-form form .input-wrapper select:hover {
-  background-color: #69c4e4;
+  background-color: #92a7b8;
 }
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button .ui-icon,
@@ -18742,8 +18765,8 @@ footer.center-footer .footer-logos .group-1 {
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
-  border: 1px solid #87d0e9;
-  background-color: #87d0e9;
+  border: 1px solid #a8b8c6;
+  background-color: #a8b8c6;
   height: 24px;
   line-height: 22px;
   color: #ebebeb;
@@ -18764,11 +18787,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .contact-us-form form .input-wrapper .check:hover input ~ .checkmark {
-  background-color: rgba(83, 188, 224, 0.2);
+  background-color: rgba(131, 154, 174, 0.2);
 }
 
 .contact-us-form form .input-wrapper .check-label {
-  color: #87d0e9;
+  color: #a8b8c6;
   font-size: 12px;
   font-weight: 500;
   float: left;
@@ -19101,14 +19124,14 @@ span.ui-icon.ui-icon-circle-triangle-e {
     background: transparent;
   }
   60% {
-    background: #7ecde8;
+    background: #a2b3c2;
     color: white;
   }
   70% {
     background: transparent;
   }
   80% {
-    background: #7ecde8;
+    background: #a2b3c2;
     color: white;
   }
   90% {
@@ -19121,14 +19144,14 @@ span.ui-icon.ui-icon-circle-triangle-e {
     background: transparent;
   }
   60% {
-    background: #7ecde8;
+    background: #a2b3c2;
     color: white;
   }
   70% {
     background: transparent;
   }
   80% {
-    background: #7ecde8;
+    background: #a2b3c2;
     color: white;
   }
   90% {
@@ -19240,7 +19263,7 @@ select option {
   margin: -50px 0 0 -50px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #53bce0;
+  border-top-color: #839aae;
   -webkit-animation: spin 4s linear infinite;
   animation: spin 4s linear infinite;
   z-index: 1001;
@@ -19256,7 +19279,7 @@ select option {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #bfe6f3;
+  border-top-color: #d0d9e0;
   -webkit-animation: spin 3s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 3s linear infinite;
@@ -19760,7 +19783,7 @@ select option {
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn {
-  color: #53bce0;
+  color: #839aae;
   background-color: #f0c808;
   border: 2px solid #f0c808;
   text-decoration: none;
@@ -19781,13 +19804,13 @@ select option {
 
 .game-overlay-inner .game-play-contianer .game-play-btn-b:hover {
   background-color: #ebebeb !important;
-  color: #53bce0 !important;
+  color: #839aae !important;
   border: 2px solid #333844;
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn:hover {
   background-color: #ebebeb;
-  color: #53bce0;
+  color: #839aae;
 }
 
 .game-overlay-inner .game-pro-container {
