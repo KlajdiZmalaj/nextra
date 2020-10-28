@@ -74,6 +74,16 @@ html .single-sport {
   color: #fff;
 }
 
+body .main_content {
+  color: #000;
+  background: #ffffff;
+}
+
+body {
+  color: #000 !important;
+  background: #ffffff !important;
+}
+
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;
@@ -235,7 +245,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   font-family: "Ubuntu", sans-serif;
-  background-color: var(--secondary-bg);
+  background-color: #000000;
   min-width: 1007px;
 }
 

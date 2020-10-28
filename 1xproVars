@@ -4,7 +4,7 @@ $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "https://nextra.pcluster.info/1xpro/images/logo2.svg";
 $bodyBg: "https://nextra.pcluster.info/nextra/images/bg/blue.jpg";
-$bodyCol: var(--secondary-bg);
+$bodyCol: #000000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 0;
@@ -89,4 +89,13 @@ html {
     background: #0160ae;
     color: #fff;
   }
+}
+body .main_content {
+  color: #000;
+  background: #ffffff;
+}
+
+body {
+  color: #000 !important;
+  background: #ffffff !important;
 }

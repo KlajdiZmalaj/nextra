@@ -70,6 +70,16 @@ html .single-sport {
   color: #fff;
 }
 
+body .main_content {
+  color: #000;
+  background: #ffffff;
+}
+
+body {
+  color: #000 !important;
+  background: #ffffff !important;
+}
+
 button,
 hr,
 input {
