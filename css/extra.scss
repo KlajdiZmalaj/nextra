@@ -132,40 +132,14 @@
   font-size: 16px;
 }
 
-.usrlist-inner tbody tr td .lev-arrow-1 {
+.usrlist-inner tbody tr td #icon {
   padding: 0 5px;
   font-size: 16px;
-  color: #00aeef;
+  color: inherit;
 }
 
 .usrlist-inner tbody tr td .lev-arrow-1.fa-circle-o {
   font-size: 8px;
-}
-
-.usrlist-inner tbody tr td .lev-arrow-2 {
-  padding: 0 5px;
-  font-size: 16px;
-  color: #ec008c;
-}
-
-.usrlist-inner tbody tr td .lev-arrow-2.fa-circle-o {
-  font-size: 8px;
-}
-
-.usrlist-inner tbody tr td .lev-arrow-3 {
-  padding: 0 5px;
-  font-size: 16px;
-  color: #00a651;
-}
-
-.usrlist-inner tbody tr td .lev-arrow-3.fa-circle-o {
-  font-size: 8px;
-}
-
-.usrlist-inner tbody tr td .lev-arrow-4 {
-  padding: 0 5px;
-  font-size: 11px;
-  color: #fec900;
 }
 
 .usrlist-inner tbody tr td .lev-arrow-4.fa-circle-o {
