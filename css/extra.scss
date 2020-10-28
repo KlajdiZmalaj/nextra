@@ -3311,3 +3311,23 @@ html body .block-title[onclick*="toggleNext"] {
 .side-bar.right-side-bar {
   min-width: 276px;
 }
+body .odds-table .single-match-row td.match-name {
+  .match-id,
+  .match-details,
+  .team-names {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 1;
+    height: 25px;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 10px !important;
+   
+  }
+  .team {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
