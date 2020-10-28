@@ -8923,6 +8923,13 @@ body {
 
 .fields.lista_messagi.giroconto {
   padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
 }
 
 .fields .row.buttons .buttons_container {
@@ -8935,5 +8942,31 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.selected-user .single_user {
+  background: var(--bg1);
+  color: var(--col1);
+  padding: 4px;
+  font-size: 12px;
+  margin: 2px 0;
+  border: 1px solid var(--tableBorders);
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.selected-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
 }
 /*# sourceMappingURL=extra.css.map */
