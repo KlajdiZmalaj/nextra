@@ -127,45 +127,20 @@
   padding: 5px 0;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.button-holder,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.button-holder,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .button-holder,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .button-holder,
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row .button-holder,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.button-holder {
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .button-holder {
   width: 100%;
   display: inline-block;
   text-align: center;
   padding: 10px 0;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.button-holder
-.button,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.button-holder
-.button,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.button-holder
-.button,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.button-holder
-.button {
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .button-holder .button,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .button-holder .button,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row .button-holder .button,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .button-holder .button {
   margin-top: 24px;
   line-height: 28px;
   font-size: 16px;
@@ -177,46 +152,21 @@
   display: inline-block;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.button-holder
-.button:hover,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.button-holder
-.button:hover,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.button-holder
-.button:hover,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.button-holder
-.button:hover {
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .button-holder .button:hover,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .button-holder .button:hover,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row .button-holder .button:hover,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .button-holder .button:hover {
   background-color: #006700;
 }
 
 .coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .label,
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.input-wrapper,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .input-wrapper,
 .coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .label,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.input-wrapper,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .input-wrapper,
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row .label,
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row .input-wrapper,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .label,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.input-wrapper {
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .input-wrapper {
   float: left;
   width: 50%;
   -webkit-box-sizing: border-box;
@@ -257,173 +207,57 @@
   width: 100px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.input-holder
-.ui-datepicker-trigger,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.input-holder
-.ui-datepicker-trigger,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.input-holder
-.ui-datepicker-trigger,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.input-holder
-.ui-datepicker-trigger {
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .input-holder .ui-datepicker-trigger,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .input-holder .ui-datepicker-trigger,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row .input-holder .ui-datepicker-trigger,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .input-holder .ui-datepicker-trigger {
   position: absolute;
   right: 2;
   left: auto;
   top: 4px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.input-holder
-input[type="text"].hasDatepicker,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.input-holder
-input[type="text"].hasDatepicker,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.input-holder
-input[type="text"].hasDatepicker,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.input-holder
-input[type="text"].hasDatepicker {
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .input-holder input[type="text"].hasDatepicker,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .input-holder input[type="text"].hasDatepicker,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row .input-holder input[type="text"].hasDatepicker,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .input-holder input[type="text"].hasDatepicker {
   float: left;
   width: 100%;
   color: #fefefe !important;
   background-color: #222 !important;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="file"],
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="file"],
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="file"],
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="file"] {
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="file"],
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="file"],
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="file"],
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="file"] {
   margin-top: 2px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="text"],
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="time"],
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="email"],
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="password"],
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="number"],
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="date"],
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="text"],
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="time"],
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="email"],
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="password"],
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="number"],
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="date"],
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="text"],
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="time"],
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="email"],
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="password"],
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="number"],
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="date"],
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="text"],
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="time"],
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="email"],
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="password"],
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="number"],
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="date"] {
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="text"],
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="time"],
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="email"],
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="password"],
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="number"],
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="date"],
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="text"],
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="time"],
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="email"],
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="password"],
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="number"],
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="date"],
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="text"],
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="time"],
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="email"],
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="password"],
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="number"],
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="date"],
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="text"],
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="time"],
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="email"],
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="password"],
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="number"],
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="date"] {
   color: #333;
   background: #e5e5e5;
   border-radius: 3px;
@@ -435,222 +269,54 @@ input[type="date"] {
   float: left;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="text"].disabled,
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="text"]
-[disabled],
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="time"].disabled,
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="time"]
-[disabled],
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="email"].disabled,
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="email"]
-[disabled],
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="password"].disabled,
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="password"]
-[disabled],
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="number"].disabled,
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="number"]
-[disabled],
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="date"].disabled,
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="date"]
-[disabled],
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="text"].disabled,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="text"]
-[disabled],
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="time"].disabled,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="time"]
-[disabled],
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="email"].disabled,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="email"]
-[disabled],
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="password"].disabled,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="password"]
-[disabled],
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="number"].disabled,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="number"]
-[disabled],
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="date"].disabled,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="date"]
-[disabled],
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="text"].disabled,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="text"]
-[disabled],
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="time"].disabled,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="time"]
-[disabled],
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="email"].disabled,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="email"]
-[disabled],
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="password"].disabled,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="password"]
-[disabled],
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="number"].disabled,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="number"]
-[disabled],
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="date"].disabled,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="date"]
-[disabled],
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="text"].disabled,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="text"]
-[disabled],
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="time"].disabled,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="time"]
-[disabled],
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="email"].disabled,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="email"]
-[disabled],
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="password"].disabled,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="password"]
-[disabled],
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="number"].disabled,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="number"]
-[disabled],
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="date"].disabled,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="date"]
-[disabled] {
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="text"].disabled,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="text"] [disabled],
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="time"].disabled,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="time"] [disabled],
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="email"].disabled,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="email"] [disabled],
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="password"].disabled,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="password"] [disabled],
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="number"].disabled,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="number"] [disabled],
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="date"].disabled,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="date"] [disabled],
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="text"].disabled,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="text"] [disabled],
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="time"].disabled,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="time"] [disabled],
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="email"].disabled,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="email"] [disabled],
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="password"].disabled,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="password"] [disabled],
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="number"].disabled,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="number"] [disabled],
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="date"].disabled,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="date"] [disabled],
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="text"].disabled,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="text"] [disabled],
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="time"].disabled,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="time"] [disabled],
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="email"].disabled,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="email"] [disabled],
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="password"].disabled,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="password"] [disabled],
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="number"].disabled,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="number"] [disabled],
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="date"].disabled,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="date"] [disabled],
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="text"].disabled,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="text"] [disabled],
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="time"].disabled,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="time"] [disabled],
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="email"].disabled,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="email"] [disabled],
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="password"].disabled,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="password"] [disabled],
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="number"].disabled,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="number"] [disabled],
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="date"].disabled,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="date"] [disabled] {
   opacity: 0.5;
   cursor: not-allowed;
   -webkit-user-select: none;
@@ -659,124 +325,40 @@ input[type="date"]
   user-select: none;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="text"].time,
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="time"].time,
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="email"].time,
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="password"].time,
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="number"].time,
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="date"].time,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="text"].time,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="time"].time,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="email"].time,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="password"].time,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="number"].time,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="date"].time,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="text"].time,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="time"].time,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="email"].time,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="password"].time,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="number"].time,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-input[type="date"].time,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="text"].time,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="time"].time,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="email"].time,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="password"].time,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="number"].time,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-input[type="date"].time {
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="text"].time,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="time"].time,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="email"].time,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="password"].time,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="number"].time,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="date"].time,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="text"].time,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="time"].time,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="email"].time,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="password"].time,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="number"].time,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="date"].time,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="text"].time,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="time"].time,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="email"].time,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="password"].time,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="number"].time,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row input[type="date"].time,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="text"].time,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="time"].time,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="email"].time,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="password"].time,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="number"].time,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row input[type="date"].time {
   margin-left: 5px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.ui-selectmenu-button,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .ui-selectmenu-button,
 .coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row select,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.ui-selectmenu-button,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button,
 .coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.ui-selectmenu-button,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row .ui-selectmenu-button,
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.ui-selectmenu-button,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select {
   border-radius: 3px;
   font-size: 12px;
@@ -789,78 +371,22 @@ input[type="date"].time {
   float: left;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.ui-selectmenu-button.disabled,
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.ui-selectmenu-button
-[disabled],
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-select.disabled,
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-select
-[disabled],
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.ui-selectmenu-button.disabled,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.ui-selectmenu-button
-[disabled],
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-select.disabled,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-select
-[disabled],
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.ui-selectmenu-button.disabled,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.ui-selectmenu-button
-[disabled],
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-select.disabled,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-select
-[disabled],
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.ui-selectmenu-button.disabled,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.ui-selectmenu-button
-[disabled],
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-select.disabled,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-select
-[disabled] {
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .ui-selectmenu-button.disabled,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .ui-selectmenu-button [disabled],
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row select.disabled,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row select [disabled],
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button.disabled,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button [disabled],
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select.disabled,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select [disabled],
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row .ui-selectmenu-button.disabled,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row .ui-selectmenu-button [disabled],
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row select.disabled,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row select [disabled],
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button.disabled,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button [disabled],
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select.disabled,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select [disabled] {
   opacity: 0.5;
   cursor: not-allowed;
   -webkit-user-select: none;
@@ -869,46 +395,14 @@ select
   user-select: none;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.ui-selectmenu-button
-.ui-icon,
-.coupon-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-select
-.ui-icon,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.ui-selectmenu-button
-.ui-icon,
-.coupon-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-select
-.ui-icon,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-.ui-selectmenu-button
-.ui-icon,
-.login-popup-wrapper
-.coupon-details-popup.new-banner-popup
-.row
-select
-.ui-icon,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-.ui-selectmenu-button
-.ui-icon,
-.login-popup-wrapper
-.deposit-iframe-popup.new-banner-popup
-.row
-select
-.ui-icon {
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row .ui-selectmenu-button .ui-icon,
+.coupon-popup-wrapper .coupon-details-popup.new-banner-popup .row select .ui-icon,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button .ui-icon,
+.coupon-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select .ui-icon,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row .ui-selectmenu-button .ui-icon,
+.login-popup-wrapper .coupon-details-popup.new-banner-popup .row select .ui-icon,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button .ui-icon,
+.login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select .ui-icon {
   background-size: auto;
   background-position: center top 8px;
 }
@@ -968,127 +462,43 @@ select
   float: left;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.inner-wrapper,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.inner-wrapper,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.inner-wrapper,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.inner-wrapper {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .inner-wrapper,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .inner-wrapper,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .inner-wrapper,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .inner-wrapper {
   height: calc(520px - 36px);
   overflow-y: scroll;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-events-head,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-events-head,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-events-head,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-events-head {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-events-head,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-events-head,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-events-head,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-events-head {
   width: 100%;
   display: inline-block;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-events-head
-.search-form,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-events-head
-.search-form,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-events-head
-.search-form,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-events-head
-.search-form {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-events-head .search-form,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-events-head .search-form,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-events-head .search-form,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-events-head .search-form {
   float: left;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-events-head .search-form > div,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-events-head .search-form > div,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-events-head .search-form > div,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-events-head .search-form > div {
   margin: 7px 10px;
   padding: 4px;
   border-radius: 3px;
   display: inline-block;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div
-.icon,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div
-.icon,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div
-.icon,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div
-.icon {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-events-head .search-form > div .icon,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-events-head .search-form > div .icon,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-events-head .search-form > div .icon,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-events-head .search-form > div .icon {
   float: left;
   width: 30px;
   height: 30px;
@@ -1098,71 +508,19 @@ select
   border-radius: 3px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div
-.icon
-i,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div
-.icon
-i,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div
-.icon
-i,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div
-.icon
-i {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-events-head .search-form > div .icon i,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-events-head .search-form > div .icon i,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-events-head .search-form > div .icon i,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-events-head .search-form > div .icon i {
   line-height: 30px;
   color: #fff;
   font-size: 19px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div
-input,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div
-input,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div
-input,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-events-head
-.search-form
-> div
-input {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-events-head .search-form > div input,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-events-head .search-form > div input,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-events-head .search-form > div input,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-events-head .search-form > div input {
   float: left;
   line-height: 20px;
   padding: 5px;
@@ -1170,338 +528,82 @@ input {
   border-radius: 3px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-table,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table {
   max-height: 436px;
   overflow-y: scroll;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table {
   border: 1px solid #c2c1c1;
   width: 100%;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr {
   border-bottom: 1px solid #c2c1c1;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr
-th,
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr
-td,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr
-th,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr
-td,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr
-th,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr
-td,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr
-th,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr
-td {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr th,
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr td,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr th,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr td,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr th,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr td,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr th,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr td {
   border-right: 1px solid #c2c1c1;
   line-height: 30px;
   text-align: left;
   padding: 0 10px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr
-th:last-child,
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr
-td:last-child,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr
-th:last-child,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr
-td:last-child,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr
-th:last-child,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr
-td:last-child,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr
-th:last-child,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr
-td:last-child {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr th:last-child,
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr td:last-child,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr th:last-child,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr td:last-child,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr th:last-child,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr td:last-child,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr th:last-child,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr td:last-child {
   border-right: none;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr
-td,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr
-td,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr
-td,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr
-td {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr td,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr td,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr td,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr td {
   font-size: 12px;
   font-weight: normal;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr
-td
-.pdf-icon,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr
-td
-.pdf-icon,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr
-td
-.pdf-icon,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr
-td
-.pdf-icon {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr td .pdf-icon,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr td .pdf-icon,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr td .pdf-icon,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr td .pdf-icon {
   float: right;
   display: inline-block;
   font-size: 15px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr
-td
-.pdf-icon
-i,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr
-td
-.pdf-icon
-i,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tr
-td
-.pdf-icon
-i,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tr
-td
-.pdf-icon
-i {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr td .pdf-icon i,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr td .pdf-icon i,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tr td .pdf-icon i,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tr td .pdf-icon i {
   line-height: 30px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-thead
-tr
-th,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-thead
-tr
-th,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-thead
-tr
-th,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-thead
-tr
-th {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table thead tr th,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table thead tr th,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table thead tr th,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table thead tr th {
   background: #222;
   font-size: 12px;
   font-weight: bold;
@@ -1509,135 +611,43 @@ th {
   text-align: center;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tbody
-tr,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tbody
-tr,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.search-table
-table
-tbody
-tr,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.search-table
-table
-tbody
-tr {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tbody tr,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tbody tr,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .search-table table tbody tr,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .search-table table tbody tr {
   background: #edeced;
   color: #222;
   cursor: pointer;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header {
   width: 100%;
   display: inline-block;
   background: #222;
   color: #fff;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.match-date-info,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.match-date-info,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.match-date-info,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.match-date-info {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-date-info,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-date-info,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info {
   float: left;
   padding: 10px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.match-date-info
-.match-date,
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.match-date-info
-.match-time,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.match-date-info
-.match-date,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.match-date-info
-.match-time,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.match-date-info
-.match-date,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.match-date-info
-.match-time,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.match-date-info
-.match-date,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.match-date-info
-.match-time {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-date-info .match-date,
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-date-info .match-time,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info .match-date,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info .match-time,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-date-info .match-date,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-date-info .match-time,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info .match-date,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-date-info .match-time {
   width: 100%;
   text-align: center;
   font-size: 12px;
@@ -1645,26 +655,10 @@ tr {
   line-height: 16px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.match-code,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.match-code,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.match-code,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.match-code {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-code,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-code,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-code,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-code {
   line-height: 32px;
   padding: 10px;
   font-size: 16px;
@@ -1672,170 +666,54 @@ tr {
   float: left;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.match-details,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.match-details,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.match-details,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.match-details {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-details,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-details,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details {
   float: left;
   color: #fff;
   padding: 10px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.match-details
-.league,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.match-details
-.league,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.match-details
-.league,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.match-details
-.league {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-details .league,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details .league,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-details .league,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details .league {
   font-size: 12px;
   width: 100%;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.match-details
-.team-names,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.match-details
-.team-names,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.match-details
-.team-names,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.match-details
-.team-names {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-details .team-names,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details .team-names,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .match-details .team-names,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .match-details .team-names {
   font-size: 16px;
   text-transform: uppercase;
   line-height: 16px;
   padding-top: 4px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .filter-form,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .filter-form,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .filter-form,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .filter-form {
   float: right;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .filter-form > div,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .filter-form > div,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .filter-form > div,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .filter-form > div {
   margin: 7px 10px;
   padding: 4px;
   border-radius: 3px;
   display: inline-block;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div
-.icon,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div
-.icon,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div
-.icon,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div
-.icon {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .filter-form > div .icon,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .filter-form > div .icon,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .filter-form > div .icon,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .filter-form > div .icon {
   float: left;
   width: 30px;
   height: 30px;
@@ -1845,71 +723,19 @@ tr {
   border-radius: 3px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div
-.icon
-i,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div
-.icon
-i,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div
-.icon
-i,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div
-.icon
-i {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .filter-form > div .icon i,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .filter-form > div .icon i,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .filter-form > div .icon i,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .filter-form > div .icon i {
   line-height: 30px;
   color: #fff;
   font-size: 19px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div
-input,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div
-input,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div
-input,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.match-offerings-header
-.filter-form
-> div
-input {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .filter-form > div input,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .filter-form > div input,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .match-offerings-header .filter-form > div input,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .match-offerings-header .filter-form > div input {
   float: left;
   line-height: 20px;
   padding: 5px;
@@ -1917,259 +743,51 @@ input {
   border-radius: 3px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table {
   max-height: 500px;
   overflow-y: scroll;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-6
-.single-live-odd,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-6
-.single-live-odd,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-6
-.single-live-odd,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-6
-.single-live-odd {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-6 .single-live-odd,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-6 .single-live-odd,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-6 .single-live-odd,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-6 .single-live-odd {
   border-bottom: 1px solid #eaeaea;
   border-right: 1px solid #eaeaea;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-1
-.single-live-odd,
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-2
-.single-live-odd,
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-3
-.single-live-odd,
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-4
-.single-live-odd,
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-6
-.single-live-odd,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-1
-.single-live-odd,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-2
-.single-live-odd,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-3
-.single-live-odd,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-4
-.single-live-odd,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-6
-.single-live-odd,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-1
-.single-live-odd,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-2
-.single-live-odd,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-3
-.single-live-odd,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-4
-.single-live-odd,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-6
-.single-live-odd,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-1
-.single-live-odd,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-2
-.single-live-odd,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-3
-.single-live-odd,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-4
-.single-live-odd,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder.odd-count-6
-.single-live-odd {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-1 .single-live-odd,
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-2 .single-live-odd,
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-3 .single-live-odd,
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-4 .single-live-odd,
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-6 .single-live-odd,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-1 .single-live-odd,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-2 .single-live-odd,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-3 .single-live-odd,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-4 .single-live-odd,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-6 .single-live-odd,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-1 .single-live-odd,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-2 .single-live-odd,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-3 .single-live-odd,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-4 .single-live-odd,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-6 .single-live-odd,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-1 .single-live-odd,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-2 .single-live-odd,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-3 .single-live-odd,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-4 .single-live-odd,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder.odd-count-6 .single-live-odd {
   width: auto;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder
-> div,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder
-> div,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder
-> div,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder
-> div {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder > div,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder > div,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder > div,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2177,42 +795,10 @@ td.odd-holder
   flex-wrap: wrap;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder
-> div
-div,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder
-> div
-div,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder
-> div
-div,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.live-odds-table
-table
-tr
-td.odd-holder
-> div
-div {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder > div div,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder > div div,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .live-odds-table table tr td.odd-holder > div div,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .live-odds-table table tr td.odd-holder > div div {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -2232,56 +818,20 @@ div {
   align-items: center;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.message
-.message-title,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.message
-.message-title,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.message
-.message-title,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.message
-.message-title {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .message .message-title,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .message .message-title,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .message .message-title,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .message .message-title {
   width: 100%;
   display: inline-block;
   margin: 20px 0;
   text-align: center;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.message
-.message-title
-img,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.message
-.message-title
-img,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.message
-.message-title
-img,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.message
-.message-title
-img {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .message .message-title img,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .message .message-title img,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .message .message-title img,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .message .message-title img {
   width: 44px;
   height: 44px;
   margin-right: 10px;
@@ -2289,30 +839,10 @@ img {
   margin-bottom: -18px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.message
-.message-title
-span,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.message
-.message-title
-span,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.message
-.message-title
-span,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.message
-.message-title
-span {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .message .message-title span,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .message .message-title span,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .message .message-title span,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .message .message-title span {
   display: inline-block;
   font-size: 16px;
   line-height: 44px;
@@ -2327,186 +857,54 @@ span {
   display: inline-block;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks {
   display: inline-block;
   width: 100%;
   border-bottom: 2px solid #d4d2d2;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block {
   width: 100%;
   float: left;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block.amounts,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block.amounts {
   border-right: 2px solid #d4d2d2;
   text-align: center;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts .box,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block.amounts .box,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts .box,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block.amounts .box {
   width: 184px;
   display: inline-block;
   margin: 15px 0 18px;
   border-radius: 3px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box:first-child,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box:first-child,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box:first-child,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box:first-child {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts .box:first-child,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block.amounts .box:first-child,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts .box:first-child,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block.amounts .box:first-child {
   margin-right: 20px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box
-.label,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box
-.label,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box
-.label,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box
-.label {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts .box .label,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block.amounts .box .label,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts .box .label,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block.amounts .box .label {
   font-size: 13px;
   font-weight: bold;
   color: #f6f5f5;
@@ -2518,38 +916,10 @@ span {
   padding-left: 8px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box
-.total,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box
-.total,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box
-.total,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box
-.total {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts .box .total,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block.amounts .box .total,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts .box .total,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block.amounts .box .total {
   width: 100%;
   text-align: center;
   color: #f6f5f5;
@@ -2559,100 +929,24 @@ span {
   background: #222;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box.winning,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box.winning,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box.winning,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box.winning {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts .box.winning,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block.amounts .box.winning,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts .box.winning,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block.amounts .box.winning {
   border-bottom-color: #29a237;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box.winning
-.label,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box.winning
-.label,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box.winning
-.label,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block.amounts
-.box.winning
-.label {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts .box.winning .label,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block.amounts .box.winning .label,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block.amounts .box.winning .label,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block.amounts .box.winning .label {
   background-color: #29a237;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row {
   width: 100%;
   display: inline-block;
   line-height: 36px;
@@ -2661,181 +955,41 @@ span {
   border-bottom: 2px solid #d4d2d2;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row:last-child,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row:last-child,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row:last-child,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row:last-child {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row:last-child,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row:last-child,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row:last-child,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row:last-child {
   border-bottom: none;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row div,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row div,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row div,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row div {
   float: left;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.info,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.info,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.info,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.info {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row div.info,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row div.info,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row div.info,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row div.info {
   padding-left: 12px;
   width: 110px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row div.detail,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row div.detail,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row div.detail,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row div.detail {
   width: calc(100% - 110px);
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail
-.rebet,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail
-.rebet,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail
-.rebet,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail
-.rebet {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row div.detail .rebet,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row div.detail .rebet,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row div.detail .rebet,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row div.detail .rebet {
   float: right;
   margin-right: 30px;
   line-height: 20px;
@@ -2849,195 +1003,51 @@ div.detail
   cursor: pointer;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail
-.rebet:hover,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail
-.rebet:hover,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail
-.rebet:hover,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail
-.rebet:hover {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row div.detail .rebet:hover,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row div.detail .rebet:hover,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row div.detail .rebet:hover,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row div.detail .rebet:hover {
   background-color: #dddbdb;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail
-.rebet
-i,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail
-.rebet
-i,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail
-.rebet
-i,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.blocks
-.block
-.row
-div.detail
-.rebet
-i {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row div.detail .rebet i,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row div.detail .rebet i,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .blocks .block .row div.detail .rebet i,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .blocks .block .row div.detail .rebet i {
   padding-right: 10px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.cashout-block,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.cashout-block,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.cashout-block,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.cashout-block {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .cashout-block,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .cashout-block,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .cashout-block,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .cashout-block {
   padding: 30px 0;
   background: #e9e8e8;
   text-align: center;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.cashout-block
-span,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.cashout-block
-span,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.cashout-block
-span,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.cashout-block
-span {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .cashout-block span,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .cashout-block span,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .cashout-block span,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .cashout-block span {
   display: inline-block;
   font-size: 18px;
   font-weight: bold;
   line-height: 52px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.cashout-block
-div,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.cashout-block
-div,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.cashout-block
-div,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.cashout-block
-div {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .cashout-block div,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .cashout-block div,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .cashout-block div,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .cashout-block div {
   display: inline-block;
   line-height: 52px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.cashout-block
-div.cashout-amount,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.cashout-block
-div.cashout-amount,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.cashout-block
-div.cashout-amount,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.cashout-block
-div.cashout-amount {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .cashout-block div.cashout-amount,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .cashout-block div.cashout-amount,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .cashout-block div.cashout-amount,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .cashout-block div.cashout-amount {
   color: #fff;
   padding: 0 15px;
   font-size: 24px;
@@ -3046,107 +1056,35 @@ div.cashout-amount {
   border-radius: 3px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.cashout-block
-div.refresh-icon,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.cashout-block
-div.refresh-icon,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.cashout-block
-div.refresh-icon,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.cashout-block
-div.refresh-icon {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .cashout-block div.refresh-icon,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .cashout-block div.refresh-icon,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .cashout-block div.refresh-icon,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .cashout-block div.refresh-icon {
   line-height: 52px;
   width: 20px;
   cursor: pointer;
   margin-right: 140px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.cashout-block
-div.refresh-icon
-img,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.cashout-block
-div.refresh-icon
-img,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.details
-.cashout-block
-div.refresh-icon
-img,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.details
-.cashout-block
-div.refresh-icon
-img {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .details .cashout-block div.refresh-icon img,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .cashout-block div.refresh-icon img,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .details .cashout-block div.refresh-icon img,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .details .cashout-block div.refresh-icon img {
   display: block;
   margin: 0 auto;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.single-multiple-details,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.single-multiple-details,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.single-multiple-details,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.single-multiple-details {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details {
   padding-bottom: 30px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.single-multiple-details
-.details-title,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.single-multiple-details
-.details-title,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.single-multiple-details
-.details-title,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.single-multiple-details
-.details-title {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details .details-title,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details .details-title,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details .details-title,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details .details-title {
   font-size: 14px;
   font-weight: bold;
   color: #fefefe;
@@ -3156,170 +1094,50 @@ img {
   padding-left: 15px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.single-multiple-details
-table,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.single-multiple-details
-table,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.single-multiple-details
-table,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.single-multiple-details
-table {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table {
   width: 100%;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table tr,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table tr,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table tr,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table tr {
   background: #f6f5f5;
   border-bottom: 2px solid #d4d2d2;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr
-td,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr
-td,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr
-td,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr
-td {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table tr td,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table tr td,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table tr td,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table tr td {
   font-size: 13px;
   font-weight: 500;
   height: 30px;
   padding: 5px 0 5px 10px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr
-td:first-child,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr
-td:first-child,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr
-td:first-child,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr
-td:first-child {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table tr td:first-child,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table tr td:first-child,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table tr td:first-child,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table tr td:first-child {
   width: 170px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr.totals,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr.totals,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr.totals,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.single-multiple-details
-table
-tr.totals {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table tr.totals,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table tr.totals,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .single-multiple-details table tr.totals,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .single-multiple-details table tr.totals {
   background: #29a237;
   border-bottom: none;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-.events-title,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-.events-title,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-.events-title,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-.events-title {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list .events-title,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list .events-title,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list .events-title,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list .events-title {
   font-size: 14px;
   font-weight: bold;
   color: #333;
@@ -3330,333 +1148,77 @@ tr.totals {
   padding-left: 15px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table {
   border: 1px solid #c2c1c1;
   width: 100%;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr {
   border-bottom: 1px solid #c2c1c1;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-th,
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-th,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-th,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-th,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr th,
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr th,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr th,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr th,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td {
   border-right: 1px solid #c2c1c1;
   line-height: 30px;
   text-align: left;
   padding: 0 10px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-th:last-child,
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td:last-child,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-th:last-child,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td:last-child,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-th:last-child,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td:last-child,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-th:last-child,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td:last-child {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr th:last-child,
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td:last-child,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr th:last-child,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td:last-child,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr th:last-child,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td:last-child,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr th:last-child,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td:last-child {
   border-right: none;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-th:first-child,
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td:first-child,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-th:first-child,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td:first-child,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-th:first-child,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td:first-child,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-th:first-child,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td:first-child {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr th:first-child,
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td:first-child,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr th:first-child,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td:first-child,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr th:first-child,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td:first-child,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr th:first-child,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td:first-child {
   width: 40px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td {
   font-size: 12px;
   font-weight: normal;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result {
   height: 30px;
   position: relative;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result
-span,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result
-span,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result
-span,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result
-span {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result span,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result span,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result span,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result span {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -3668,396 +1230,92 @@ span {
   height: 14px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.won
-span,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.won
-span,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.won
-span,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.won
-span {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result.won span,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result.won span,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result.won span,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result.won span {
   background-color: #2da050;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.lost
-span,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.lost
-span,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.lost
-span,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.lost
-span {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result.lost span,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result.lost span,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result.lost span,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result.lost span {
   background-color: #ff423d;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.cashout
-span,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.cashout
-span,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.cashout
-span,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.cashout
-span {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result.cashout span,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result.cashout span,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result.cashout span,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result.cashout span {
   background-color: #bdb289;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.void
-span,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.void
-span,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.void
-span,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.void
-span {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result.void span,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result.void span,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result.void span,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result.void span {
   background-color: #fec82e;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.won-void
-span,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.won-void
-span,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.won-void
-span,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.won-void
-span {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result.won-void span,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result.won-void span,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result.won-void span,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result.won-void span {
   height: 0;
   background: transparent;
   border-top: 7px solid #2da050;
   border-bottom: 7px solid #fec82e;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.lost-void
-span,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.lost-void
-span,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.lost-void
-span,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tr
-td.result.lost-void
-span {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result.lost-void span,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result.lost-void span,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result.lost-void span,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tr td.result.lost-void span {
   height: 0;
   background: transparent;
   border-top: 7px solid #ff423d;
   border-bottom: 7px solid #fec82e;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-thead
-tr
-th,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-thead
-tr
-th,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-thead
-tr
-th,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-thead
-tr
-th {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table thead tr th,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table thead tr th,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table thead tr th,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table thead tr th {
   font-size: 12px;
   font-weight: bold;
   color: #fefefe;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tbody
-tr,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tbody
-tr,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tbody
-tr,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tbody
-tr {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tbody tr,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tbody tr,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tbody tr,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tbody tr {
   background: #edeced;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tbody
-tr:nth-child(even),
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tbody
-tr:nth-child(even),
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list
-table
-tbody
-tr:nth-child(even),
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list
-table
-tbody
-tr:nth-child(even) {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tbody tr:nth-child(even),
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tbody tr:nth-child(even),
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tbody tr:nth-child(even),
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list table tbody tr:nth-child(even) {
   background: #d4d4d4;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list.system-details,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list.system-details,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list.system-details,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list.system-details {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list.system-details,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list.system-details {
   padding-bottom: 30px;
 }
 
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list.system-details
-table
-tr
-td,
-.coupon-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list.system-details
-table
-tr
-th,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list.system-details
-table
-tr
-td,
-.coupon-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list.system-details
-table
-tr
-th,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list.system-details
-table
-tr
-td,
-.login-popup-wrapper
-.coupon-details-popup
-.coupon-details-content
-.events-list.system-details
-table
-tr
-th,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list.system-details
-table
-tr
-td,
-.login-popup-wrapper
-.deposit-iframe-popup
-.coupon-details-content
-.events-list.system-details
-table
-tr
-th {
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details table tr td,
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details table tr th,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list.system-details table tr td,
+.coupon-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list.system-details table tr th,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details table tr td,
+.login-popup-wrapper .coupon-details-popup .coupon-details-content .events-list.system-details table tr th,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list.system-details table tr td,
+.login-popup-wrapper .deposit-iframe-popup .coupon-details-content .events-list.system-details table tr th {
   text-align: center;
   line-height: 16px;
   height: 30px;
@@ -4152,128 +1410,48 @@ th {
   margin: 0 2px;
 }
 
-.coupon-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.register-button,
-.login-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.register-button {
+.coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.register-button,
+.login-popup-wrapper .popup-content .first-blocks .block .buttons .button.register-button {
   padding: 0 10px;
   background-color: #fb6e06;
 }
 
-.coupon-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.register-button:hover,
-.login-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.register-button:hover {
+.coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.register-button:hover,
+.login-popup-wrapper .popup-content .first-blocks .block .buttons .button.register-button:hover {
   background-color: #e46304;
 }
 
-.coupon-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.register-button.login-button,
-.login-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.register-button.login-button {
+.coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.register-button.login-button,
+.login-popup-wrapper .popup-content .first-blocks .block .buttons .button.register-button.login-button {
   background-color: green;
 }
 
-.coupon-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.register-button.login-button:hover,
-.login-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.register-button.login-button:hover {
+.coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.register-button.login-button:hover,
+.login-popup-wrapper .popup-content .first-blocks .block .buttons .button.register-button.login-button:hover {
   background-color: #006700;
 }
 
-.coupon-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.print-button,
-.login-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.print-button {
+.coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.print-button,
+.login-popup-wrapper .popup-content .first-blocks .block .buttons .button.print-button {
   margin-right: 10px;
   background-color: green;
 }
 
-.coupon-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.print-button:hover,
-.login-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.print-button:hover {
+.coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.print-button:hover,
+.login-popup-wrapper .popup-content .first-blocks .block .buttons .button.print-button:hover {
   background-color: #006700;
 }
 
-.coupon-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.send-button,
-.login-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.send-button {
+.coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button,
+.login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button {
   margin-right: 0;
   background-color: #3558bd;
   -webkit-box-shadow: inset 0 1px #2d4ba1;
   box-shadow: inset 0 1px #2d4ba1;
 }
 
-.coupon-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.send-button:hover,
-.login-popup-wrapper
-.popup-content
-.first-blocks
-.block
-.buttons
-.button.send-button:hover {
+.coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover,
+.login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover {
   background-color: #2d4ba1;
 }
 
@@ -4474,12 +1652,7 @@ th {
   font-size: 16px;
 }
 
-.bet-confirm-popup-wrapper
-.bet-confirm-popup
-.bet-confirm-content
-.title
-span
-a {
+.bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
   color: var(--accent);
 }
 
@@ -4488,11 +1661,7 @@ a {
   display: inline-block;
 }
 
-.bet-confirm-popup-wrapper
-.bet-confirm-popup
-.bet-confirm-content
-.buttons
-.button {
+.bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button {
   float: left;
   font-size: 17px;
   font-weight: bold;
@@ -4511,28 +1680,16 @@ a {
   cursor: pointer;
 }
 
-.bet-confirm-popup-wrapper
-.bet-confirm-popup
-.bet-confirm-content
-.buttons
-.button:hover {
+.bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button:hover {
   background-color: #307337;
 }
 
-.bet-confirm-popup-wrapper
-.bet-confirm-popup
-.bet-confirm-content
-.buttons
-.button.confirm-button {
+.bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.confirm-button {
   float: right;
   background-color: green;
 }
 
-.bet-confirm-popup-wrapper
-.bet-confirm-popup
-.bet-confirm-content
-.buttons
-.button.cancel-button {
+.bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.cancel-button {
   float: left;
   background-color: #ce3131;
   -webkit-box-shadow: inset 0 1px #b12a2a;
@@ -4666,11 +1823,7 @@ a {
   border-radius: 3px;
 }
 
-.single-block
-.block-content
-form[name="fastslip3"]
-.ui-selectmenu-button
-.ui-icon,
+.single-block .block-content form[name="fastslip3"] .ui-selectmenu-button .ui-icon,
 .single-block .block-content form[name="fastslip3"] select .ui-icon {
   background-size: auto;
   background-position: center top 8px;
@@ -4951,19 +2104,12 @@ form[name="fastslip3"]
   text-align: center;
 }
 
-.single-block
-.block-content.sports-menu
-.sports-menu-bottom
-#sports-menu-slider {
+.single-block .block-content.sports-menu .sports-menu-bottom #sports-menu-slider {
   margin: 10px 30px;
   height: 2px;
 }
 
-.single-block
-.block-content.sports-menu
-.sports-menu-bottom
-#sports-menu-slider.ui-widget.ui-widget-content.ui-slider-horizontal
-.ui-slider-handle {
+.single-block .block-content.sports-menu .sports-menu-bottom #sports-menu-slider.ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle {
   width: 14px;
   height: 14px;
   border-radius: 50% !important;
@@ -4973,11 +2119,7 @@ form[name="fastslip3"]
   cursor: pointer;
 }
 
-.single-block
-.block-content.sports-menu
-.sports-menu-bottom
-#sports-menu-slider.ui-widget.ui-widget-content.ui-slider-horizontal
-.ui-slider-handle:hover {
+.single-block .block-content.sports-menu .sports-menu-bottom #sports-menu-slider.ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle:hover {
   color: #ea6a0c;
 }
 
@@ -4985,11 +2127,7 @@ form[name="fastslip3"]
   margin: 0 30px;
 }
 
-.single-block
-.block-content.sports-menu
-.sports-menu-bottom
-.slider-controls
-.single-control {
+.single-block .block-content.sports-menu .sports-menu-bottom .slider-controls .single-control {
   width: 25%;
   text-align: center;
   font-size: 11px;
@@ -4998,38 +2136,22 @@ form[name="fastslip3"]
   float: left;
 }
 
-.single-block
-.block-content.sports-menu
-.sports-menu-bottom
-.slider-controls
-.single-control:first-child {
+.single-block .block-content.sports-menu .sports-menu-bottom .slider-controls .single-control:first-child {
   -webkit-transform: translateX(-30px);
   transform: translateX(-30px);
 }
 
-.single-block
-.block-content.sports-menu
-.sports-menu-bottom
-.slider-controls
-.single-control:nth-child(2) {
+.single-block .block-content.sports-menu .sports-menu-bottom .slider-controls .single-control:nth-child(2) {
   -webkit-transform: translateX(-10px);
   transform: translateX(-10px);
 }
 
-.single-block
-.block-content.sports-menu
-.sports-menu-bottom
-.slider-controls
-.single-control:nth-child(3) {
+.single-block .block-content.sports-menu .sports-menu-bottom .slider-controls .single-control:nth-child(3) {
   -webkit-transform: translateX(7px);
   transform: translateX(7px);
 }
 
-.single-block
-.block-content.sports-menu
-.sports-menu-bottom
-.slider-controls
-.single-control:last-child {
+.single-block .block-content.sports-menu .sports-menu-bottom .slider-controls .single-control:last-child {
   -webkit-transform: translateX(25px);
   transform: translateX(25px);
 }
@@ -5038,10 +2160,7 @@ form[name="fastslip3"]
   padding: 0px;
 }
 
-.single-block
-.block-content.stats-toggle-wrapper
-.stats-toggle-holder
-.stats-title {
+.single-block .block-content.stats-toggle-wrapper .stats-toggle-holder .stats-title {
   line-height: 34px;
   color: #ebebeb;
   font-size: 13px;
@@ -5053,17 +2172,11 @@ form[name="fastslip3"]
   width: calc(100% - 30px);
 }
 
-.single-block
-.block-content.stats-toggle-wrapper
-.stats-toggle-holder
-.stats-title:first-child {
+.single-block .block-content.stats-toggle-wrapper .stats-toggle-holder .stats-title:first-child {
   margin-bottom: -1px;
 }
 
-.single-block
-.block-content.stats-toggle-wrapper
-.stats-toggle-holder
-.stats-title:before {
+.single-block .block-content.stats-toggle-wrapper .stats-toggle-holder .stats-title:before {
   content: "";
   position: absolute;
   left: 10px;
@@ -5075,11 +2188,7 @@ form[name="fastslip3"]
   background-size: cover;
 }
 
-.single-block
-.block-content.stats-toggle-wrapper
-.stats-toggle-holder
-.stats-title
-.stats-content {
+.single-block .block-content.stats-toggle-wrapper .stats-toggle-holder .stats-title .stats-content {
   width: calc(100% - 20px);
   max-height: 0;
   overflow: hidden;
@@ -5088,11 +2197,7 @@ form[name="fastslip3"]
   padding: 0;
 }
 
-.single-block
-.block-content.stats-toggle-wrapper
-.stats-toggle-holder
-.stats-title.open
-.stats-content {
+.single-block .block-content.stats-toggle-wrapper .stats-toggle-holder .stats-title.open .stats-content {
   max-height: 1300px;
 }
 
@@ -5169,11 +2274,7 @@ form[name="fastslip3"]
   position: relative;
 }
 
-.single-block.betslip-holder
-.betslip-controllers
-.single-controller
-span
-.count {
+.single-block.betslip-holder .betslip-controllers .single-controller span .count {
   position: absolute;
   left: calc(100% - 2px);
   top: -5px;
@@ -5231,11 +2332,7 @@ span
   transition: 0.3s all;
 }
 
-.single-block.betslip-holder
-.my-bets
-.my-coupons
-.buttons
-.single-button:hover {
+.single-block.betslip-holder .my-bets .my-coupons .buttons .single-button:hover {
   background-color: #222;
 }
 
@@ -5288,35 +2385,19 @@ span
   transform: scale(1.16);
 }
 
-.single-block.betslip-holder
-.my-bets
-form
-div
-input[type="submit"]::-webkit-input-placeholder {
+.single-block.betslip-holder .my-bets form div input[type="submit"]::-webkit-input-placeholder {
   color: #222;
 }
 
-.single-block.betslip-holder
-.my-bets
-form
-div
-input[type="submit"]:-ms-input-placeholder {
+.single-block.betslip-holder .my-bets form div input[type="submit"]:-ms-input-placeholder {
   color: #222;
 }
 
-.single-block.betslip-holder
-.my-bets
-form
-div
-input[type="submit"]::-ms-input-placeholder {
+.single-block.betslip-holder .my-bets form div input[type="submit"]::-ms-input-placeholder {
   color: #222;
 }
 
-.single-block.betslip-holder
-.my-bets
-form
-div
-input[type="submit"]::placeholder {
+.single-block.betslip-holder .my-bets form div input[type="submit"]::placeholder {
   color: #222;
 }
 
@@ -5343,11 +2424,7 @@ input[type="submit"]::placeholder {
   margin-bottom: 4px;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-title {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-title {
   background-color: rgba(255, 255, 255, 0.28);
   display: inline-block;
   width: 100%;
@@ -5357,12 +2434,7 @@ input[type="submit"]::placeholder {
   padding-left: 30px;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-title
-.trigger {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-title .trigger {
   position: absolute;
   top: 50%;
   left: 5px;
@@ -5377,22 +2449,12 @@ input[type="submit"]::placeholder {
   background-repeat: no-repeat;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-title
-.trigger.active {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-title .trigger.active {
   -webkit-transform: translateY(-50%) rotate(0deg);
   transform: translateY(-50%) rotate(0deg);
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-title
-span {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-title span {
   float: left;
   line-height: 28px;
   font-size: 12px;
@@ -5400,22 +2462,11 @@ span {
   color: #ebebeb;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-title
-.buttons {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-title .buttons {
   float: right;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-title
-.buttons
-div {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-title .buttons div {
   float: left;
   padding: 0 2px;
   margin: 0 2px;
@@ -5424,33 +2475,15 @@ div {
   cursor: pointer;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-title
-.buttons
-div
-i {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-title .buttons div i {
   line-height: 28px;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-title
-.buttons
-div:hover {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-title .buttons div:hover {
   color: #d2d2d2;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-title
-.status-icon {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-title .status-icon {
   float: left;
   width: 28px;
   height: 28px;
@@ -5460,13 +2493,7 @@ div:hover {
   color: #ebebeb;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-title
-.status-icon
-i {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-title .status-icon i {
   line-height: 28px;
 }
 
@@ -5474,41 +2501,21 @@ i {
   background-color: yellow;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip.waiting
-.single-betslip-title {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting .single-betslip-title {
   background: rgba(0, 0, 0, 0.28);
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip.waiting
-.single-betslip-title
-.buttons {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting .single-betslip-title .buttons {
   display: none;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip.waiting
-.single-betslip-title
-.status-icon {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting .single-betslip-title .status-icon {
   float: right;
   margin-left: 0;
   margin-right: 5px;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip.waiting
-.single-betslip-title
-.status-icon
-i {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting .single-betslip-title .status-icon i {
   -webkit-animation: rotate 3s ease-in-out infinite;
   animation: rotate 3s ease-in-out infinite;
   font-size: 14px;
@@ -5518,23 +2525,13 @@ i {
   background: #ad0000;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip.refused
-.single-betslip-title
-.status-icon {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.refused .single-betslip-title .status-icon {
   float: right;
   margin-left: 0;
   margin-right: 5px;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip.refused
-.single-betslip-title
-.buttons {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.refused .single-betslip-title .buttons {
   display: none;
 }
 
@@ -5542,75 +2539,39 @@ i {
   background: green;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip.validate
-.single-betslip-title
-.status-icon {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.validate .single-betslip-title .status-icon {
   float: right;
   margin-left: 0;
   margin-right: 5px;
   cursor: pointer;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip.validate
-.single-betslip-title
-.status-icon
-img {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.validate .single-betslip-title .status-icon img {
   cursor: pointer;
   height: 15px;
   width: auto;
   margin-top: 7px;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip.live
-.single-betslip-title
-.buttons {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.live .single-betslip-title .buttons {
   display: none;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip.live
-.single-betslip-title
-.status-icon {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.live .single-betslip-title .status-icon {
   float: right;
   margin-left: 0;
   margin-right: 5px;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip.live
-.single-betslip-title
-.status-icon
-img {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.live .single-betslip-title .status-icon img {
   height: 24px;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content {
   background-color: #ebebeb;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row {
   width: 100%;
   display: inline-block;
   -webkit-box-sizing: border-box;
@@ -5619,100 +2580,43 @@ img {
   border-bottom: 1px solid #b1b0b9;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row:last-child {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row:last-child {
   border-bottom: none;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-div {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div {
   line-height: 28px;
   font-size: 12px;
   font-weight: 500;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-div
-span {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div span {
   font-weight: bold;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-div.events-title {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div.events-title {
   font-size: 13px;
   font-weight: bold;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-div.half:first-child {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div.half:first-child {
   float: left;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-div.half:last-child {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div.half:last-child {
   float: right;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-div.half
-.refresh-button {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div.half .refresh-button {
   cursor: pointer;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-div.half
-.refresh-button
-i {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row div.half .refresh-button i {
   line-height: 28px;
   font-size: 14px;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-.events-holder {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder {
   width: 100%;
   border: 1px solid var(--tableBorders);
   -webkit-box-sizing: border-box;
@@ -5722,54 +2626,24 @@ i {
   margin-bottom: 10px;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-.events-holder
-.single-event {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event {
   border-bottom: 1px solid;
   width: 100%;
   display: inline-block;
   line-height: 26px;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-.events-holder
-.single-event:last-child {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event:last-child {
   border-bottom: none;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-.events-holder
-.single-event
-img {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event img {
   float: left;
   width: 16px;
   margin: 5px 5px;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-.events-holder
-.single-event
-.event {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event .event {
   line-height: 26px;
   float: left;
   width: calc(100% - 60px);
@@ -5778,31 +2652,14 @@ img {
   text-overflow: ellipsis;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-.events-holder
-.single-event
-.status {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event .status {
   float: right;
   width: 30px;
   position: relative;
   height: 26px;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-.events-holder
-.single-event
-.status
-span {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event .status span {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -5814,84 +2671,30 @@ span {
   height: 14px;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-.events-holder
-.single-event
-.status.won
-span {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event .status.won span {
   background-color: #2da050;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-.events-holder
-.single-event
-.status.lost
-span {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event .status.lost span {
   background-color: #ff423d;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-.events-holder
-.single-event
-.status.cashout
-span {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event .status.cashout span {
   background-color: #bdb289;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-.events-holder
-.single-event
-.status.void
-span {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event .status.void span {
   background-color: #fec82e;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-.events-holder
-.single-event
-.status.won-void
-span {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event .status.won-void span {
   height: 0;
   background: transparent;
   border-top: 7px solid #2da050;
   border-bottom: 7px solid #fec82e;
 }
 
-.single-block.betslip-holder
-.my-bets
-.bets-wrapper
-.single-betslip
-.single-betslip-content
-.row
-.events-holder
-.single-event
-.status.lost-void
-span {
+.single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-content .row .events-holder .single-event .status.lost-void span {
   height: 0;
   background: transparent;
   border-top: 7px solid #ff423d;
@@ -6042,18 +2845,11 @@ span {
   border-right: 2px solid var(--tableBorders);
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event:last-child {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event:last-child {
   border-bottom: 2px solid var(--tableBorders);
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.match-info {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .match-info {
   width: calc(100% - 16px);
   display: inline-block;
   padding: 10px 8px;
@@ -6063,12 +2859,7 @@ span {
   color: var(--col1);
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.match-info
-.id {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .match-info .id {
   float: left;
   color: var(--accent-txt);
   font-size: 10px;
@@ -6082,12 +2873,7 @@ span {
   text-align: center;
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.match-info
-.team-names {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .match-info .team-names {
   font-size: 12px;
   line-height: 15px;
   padding-left: 5px;
@@ -6099,45 +2885,22 @@ span {
   text-overflow: ellipsis;
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.match-info
-.team-names
-.home-team {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .match-info .team-names .home-team {
   padding-right: 10px;
   position: relative;
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.match-info
-.team-names
-.home-team:after {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .match-info .team-names .home-team:after {
   content: "-";
   position: absolute;
   right: 3px;
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.match-info
-.team-names
-div {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .match-info .team-names div {
   display: inline;
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.match-info
-.bonus {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .match-info .bonus {
   float: right;
   font-size: 13px;
   font-weight: bold;
@@ -6150,27 +2913,13 @@ div {
   cursor: pointer;
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.match-info
-.bonus:hover,
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.match-info
-.bonus.selected {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .match-info .bonus:hover,
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .match-info .bonus.selected {
   background: var(--accent-bg);
   color: var(--accent-txt);
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.selected-bet {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .selected-bet {
   background: var(--mainBg);
   border-bottom: 1px solid var(--tableBorders);
   display: inline-block;
@@ -6178,12 +2927,7 @@ div {
   color: var(--mainBgCol);
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.selected-bet
-.remove-icon {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .selected-bet .remove-icon {
   height: 26px;
   width: 36px;
   text-align: center;
@@ -6197,45 +2941,21 @@ div {
   cursor: pointer;
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.selected-bet
-.remove-icon
-.icon-holder {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .selected-bet .remove-icon .icon-holder {
   width: 100%;
   text-align: center;
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.selected-bet
-.remove-icon
-.icon-holder
-img {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .selected-bet .remove-icon .icon-holder img {
   display: inline-block;
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.selected-bet
-.bet {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .selected-bet .bet {
   width: calc(100% - 37px);
   float: left;
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.selected-bet
-.bet
-span {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .selected-bet .bet span {
   line-height: 26px;
   padding-left: 8px;
   font-size: 11px;
@@ -6243,13 +2963,7 @@ span {
   float: left;
 }
 
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.selected-bet
-.bet
-.quote {
+.single-block.betslip-holder .betslip .selections-wrapper .single-event .selected-bet .bet .quote {
   float: right;
   padding-right: 8px;
   font-size: 11px;
@@ -6262,11 +2976,7 @@ span {
   width: 100%;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.select-wrapper
-.combination-type {
+.single-block.betslip-holder .betslip .combination-wrapper .select-wrapper .combination-type {
   width: calc(50%);
   float: left;
   line-height: 28px;
@@ -6278,11 +2988,7 @@ span {
   cursor: pointer;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.select-wrapper
-.combination-type.active {
+.single-block.betslip-holder .betslip .combination-wrapper .select-wrapper .combination-type.active {
   background: var(--accent-bg);
   color: var(--accent-txt);
   border-color: var(--accent);
@@ -6298,26 +3004,10 @@ span {
           box-sizing: border-box;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-.ui-selectmenu-button,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-select,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-.ui-selectmenu-button,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-select {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group .ui-selectmenu-button,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group select,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section select {
   background-color: var(--accent-bg);
   color: var(--accent-txt);
   font-size: 12px;
@@ -6333,50 +3023,14 @@ select {
   margin-top: 5px;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-.ui-selectmenu-button.disabled,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-.ui-selectmenu-button
-[disabled],
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-select.disabled,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-select
-[disabled],
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-.ui-selectmenu-button.disabled,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-.ui-selectmenu-button
-[disabled],
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-select.disabled,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-select
-[disabled] {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group .ui-selectmenu-button.disabled,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group .ui-selectmenu-button [disabled],
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group select.disabled,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group select [disabled],
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button.disabled,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button [disabled],
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section select.disabled,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section select [disabled] {
   opacity: 0.5;
   cursor: not-allowed;
   -webkit-user-select: none;
@@ -6385,111 +3039,37 @@ select
   user-select: none;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-.ui-selectmenu-button:hover,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-select:hover,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-.ui-selectmenu-button:hover,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-select:hover {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group .ui-selectmenu-button:hover,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group select:hover,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button:hover,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section select:hover {
   background-color: var(--accent-bg);
   color: var(--accent-txt);
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-.ui-selectmenu-button
-.ui-icon,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-select
-.ui-icon,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-.ui-selectmenu-button
-.ui-icon,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-select
-.ui-icon {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group .ui-selectmenu-button .ui-icon,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group select .ui-icon,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button .ui-icon,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section select .ui-icon {
   background-size: auto;
   background-position: center top 8px;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table {
   width: 100%;
   vertical-align: middle;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th {
   text-align: center;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td {
   border: 1px solid var(--tableBorders);
   font-size: 12px;
   font-weight: bold;
@@ -6499,34 +3079,10 @@ td {
   vertical-align: middle;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td
-input {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th input,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td input,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th input,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td input {
   max-width: 30px;
   border: 1px solid var(--tableBorders);
   border-radius: 3px;
@@ -6534,415 +3090,99 @@ input {
   font-size: 10px;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.group,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.group,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.group,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.group {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.group,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.group,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.group,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.group {
   width: 40px;
   text-align: center;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.group
-.check,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.group
-.check,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.group
-.check,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.group
-.check {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.group .check,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.group .check,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.group .check,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.group .check {
   float: right;
   margin-left: 0;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.combination,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.combination,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.combination,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.combination {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.combination,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.combination,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.combination,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.combination {
   max-width: 48px;
   text-align: center;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.allow-changes,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.allow-changes,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.allow-changes,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.allow-changes {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.allow-changes,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.allow-changes,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.allow-changes,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.allow-changes {
   font-size: 11px;
   line-height: 26px;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.allow-changes
-.check,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.allow-changes
-.check,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.allow-changes
-.check,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.allow-changes
-.check {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.allow-changes .check,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.allow-changes .check,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.allow-changes .check,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.allow-changes .check {
   margin-top: 5px;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.allow-changes
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.allow-changes
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.allow-changes
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.allow-changes
-input {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.allow-changes input,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.allow-changes input,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.allow-changes input,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.allow-changes input {
   width: 150px;
   left: 0;
   max-width: none;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.selections,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.amount,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.selections,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.amount,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.selections,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.amount,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.selections,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.amount {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.selections,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.amount,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.selections,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.amount,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.selections,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.amount,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.selections,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.amount {
   max-width: 50%;
   width: auto;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.selections
-span,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.amount
-span,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.selections
-span,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.amount
-span,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.selections
-span,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.amount
-span,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.selections
-span,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.amount
-span {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.selections span,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.amount span,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.selections span,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.amount span,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.selections span,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.amount span,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.selections span,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.amount span {
   float: left;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.selections
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.amount
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.selections
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.amount
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.selections
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.amount
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.selections
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.amount
-input {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.selections input,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.amount input,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.selections input,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.amount input,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.selections input,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.amount input,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.selections input,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.amount input {
   float: left;
   margin: 8px 2px;
   max-width: 44px;
   text-align: center;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.selections
-div,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.amount
-div,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.selections
-div,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.amount
-div,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.selections
-div,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.amount
-div,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.selections
-div,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.amount
-div {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.selections div,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.amount div,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.selections div,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.amount div,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.selections div,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.amount div,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.selections div,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.amount div {
   float: left;
   margin: 0px 1px;
   background: var(--accent-bg);
@@ -6956,280 +3196,72 @@ div {
   opacity: 0.9;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.selections
-div:hover,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.amount
-div:hover,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.selections
-div:hover,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.amount
-div:hover,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.selections
-div:hover,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.amount
-div:hover,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.selections
-div:hover,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.amount
-div:hover {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.selections div:hover,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.amount div:hover,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.selections div:hover,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.amount div:hover,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.selections div:hover,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.amount div:hover,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.selections div:hover,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.amount div:hover {
   opacity: 1;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.amount,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.amount,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.amount,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.amount {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.amount,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.amount,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.amount,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.amount {
   padding: 0 5px;
   min-width: 88px;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.stake,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.stake,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.stake,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.stake {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.stake,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.stake,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.stake,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.stake {
   max-width: 80px;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.stake
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.stake
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.stake
-input,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.stake
-input {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.stake input,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.stake input,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.stake input,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.stake input {
   max-width: 69px;
   margin: 0 auto;
   display: block;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.winnings,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.winnings,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.winnings,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.winnings {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.winnings,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.winnings,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.winnings,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.winnings {
   max-width: 70px;
   font-size: 10px;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th.winnings
-span,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td.winnings
-span,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.winnings
-span,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.winnings
-span {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th.winnings span,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td.winnings span,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.winnings span,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.winnings span {
   width: 100%;
   display: inline-block;
   line-height: 14px;
   text-align: right;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th
-.default-bets,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td
-.default-bets,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th
-.default-bets,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td
-.default-bets {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th .default-bets,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td .default-bets,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .default-bets,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .default-bets {
   width: 100%;
   padding: 0 7px;
   display: inline-block;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th
-.default-bets
-.single-bet,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td
-.default-bets
-.single-bet,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th
-.default-bets
-.single-bet,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td
-.default-bets
-.single-bet {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th .default-bets .single-bet,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td .default-bets .single-bet,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .default-bets .single-bet,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .default-bets .single-bet {
   float: left;
   margin: 0px 1px;
   background: var(--accent-bg);
@@ -7246,52 +3278,18 @@ td
   text-align: center;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th
-.check,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-td
-.check,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th
-.check,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td
-.check {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th .check,
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table td .check,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .check,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .check {
   float: left;
   margin-right: 10px;
   margin-left: 7px;
   margin-top: 9px;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.combination-group
-table
-th,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th {
+.single-block.betslip-holder .betslip .combination-wrapper .combination-group table th,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th {
   font-size: 12px;
   line-height: 26px;
 }
@@ -7303,37 +3301,18 @@ th {
   border: none;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table {
   width: 100%;
   vertical-align: middle;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th {
   background: #ddd;
   text-align: center;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td {
   border: 1px solid var(--tableBorders);
   font-size: 11px;
   font-weight: bold;
@@ -7344,69 +3323,23 @@ td {
   text-align: left;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th
-span,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td
-span {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th span,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td span {
   float: right;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th
-span.checkmark,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td
-span.checkmark {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th span.checkmark,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td span.checkmark {
   float: none;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.allow-changes
-span,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.allow-changes
-span {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.allow-changes span,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.allow-changes span {
   float: none;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th.colored,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td.colored {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th.colored,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td.colored {
   padding: 0 8px;
   font-size: 11px;
   font-weight: 500;
@@ -7415,20 +3348,8 @@ td.colored {
   text-align: left;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th
-select,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td
-select {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select {
   float: right;
   width: 50%;
   line-height: 20px;
@@ -7438,34 +3359,10 @@ select {
   border-radius: 3px;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th
-.ui-selectmenu-button,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th
-select,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td
-.ui-selectmenu-button,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td
-select {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .ui-selectmenu-button,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select {
   border: 1px solid var(--tableBorders);
   background-color: var(--mainBg);
   height: 22px;
@@ -7479,104 +3376,34 @@ select {
   padding: 0 5px 0 5px;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th
-.ui-selectmenu-button
-.ui-icon,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th
-select
-.ui-icon,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td
-.ui-selectmenu-button
-.ui-icon,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td
-select
-.ui-icon {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .ui-selectmenu-button .ui-icon,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select .ui-icon,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button .ui-icon,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select .ui-icon {
   background-size: auto;
   background-position: center top 8px;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th
-.ui-selectmenu-button
-span.ui-selectmenu-text,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-th
-select
-span.ui-selectmenu-text,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td
-.ui-selectmenu-button
-span.ui-selectmenu-text,
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-td
-select
-span.ui-selectmenu-text {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th .ui-selectmenu-button span.ui-selectmenu-text,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select span.ui-selectmenu-text,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button span.ui-selectmenu-text,
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select span.ui-selectmenu-text {
   float: none;
   color: #fff;
   margin-right: 0;
   width: calc(100% - 16px);
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-table
-tr:last-child {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section table tr:last-child {
   border-bottom: 3px solid var(--accent);
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-.totals {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section .totals {
   display: inline-block;
   width: 100%;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-.totals
-.winning {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section .totals .winning {
   background-size: 100% 100%;
   line-height: 56px;
   font-size: 25px;
@@ -7594,12 +3421,7 @@ tr:last-child {
   box-sizing: border-box;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-.totals
-.buttons {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section .totals .buttons {
   float: left;
   width: 100%;
   padding: 0 4px 15px;
@@ -7607,13 +3429,7 @@ tr:last-child {
   box-sizing: border-box;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-.totals
-.buttons
-div {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section .totals .buttons div {
   display: inline-block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -7632,57 +3448,27 @@ div {
   text-align: center;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-.totals
-.buttons
-div.cancel {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section .totals .buttons div.cancel {
   background-color: #e1042e;
   color: #fff;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-.totals
-.buttons
-div.proceed {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section .totals .buttons div.proceed {
   background-color: #2e9c3d;
   color: #fff;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-.totals
-.buttons
-div.book {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section .totals .buttons div.book {
   background-color: #f58634;
   color: #222;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-.totals
-.buttons.logged
-div {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section .totals .buttons.logged div {
   width: calc(50% - 48px);
   padding-left: 33px;
 }
 
-.single-block.betslip-holder
-.betslip
-.combination-wrapper
-.totals-section
-.totals
-.buttons.logged
-div.book {
+.single-block.betslip-holder .betslip .combination-wrapper .totals-section .totals .buttons.logged div.book {
   display: none;
 }
 
@@ -8858,14 +4644,9 @@ body {
 .menu_items_container .single_menu_item.cashout,
 .menu_items_container .single_menu_item.movimenti[href="/mobile/depositi"],
 .menu_items_container .single_menu_item.movimenti[href="/mobile/withdrawals"],
-.menu_items_container
-.single_menu_item.movimenti[href="/mobile/movimenti_bonus"],
-.main_container[data-access="7"]
-.menu_items_container
-.single_menu_item.coupon_book,
-.main_container[data-access="3"]
-.menu_items_container
-.single_menu_item.coupon_book {
+.menu_items_container .single_menu_item.movimenti[href="/mobile/movimenti_bonus"],
+.main_container[data-access="7"] .menu_items_container .single_menu_item.coupon_book,
+.main_container[data-access="3"] .menu_items_container .single_menu_item.coupon_book {
   display: none !important;
 }
 /*# sourceMappingURL=extra.css.map */
