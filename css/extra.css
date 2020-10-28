@@ -3807,4 +3807,8 @@ html body .block-title[onclick*="toggleNext"]:before {
   border: 0 !important;
   height: 25px;
 }
+
+.side-bar.right-side-bar {
+  min-width: 276px;
+}
 /*# sourceMappingURL=extra.css.map */
