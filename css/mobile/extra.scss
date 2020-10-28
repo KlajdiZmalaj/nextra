@@ -8830,3 +8830,8 @@ body {
 .fields.lista_messagi.giroconto {
   padding-top: 10px;
 }
+.fields .row.buttons .buttons_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
