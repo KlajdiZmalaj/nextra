@@ -172,34 +172,36 @@
   font-size: 8px;
 }
 
-.usrlist-inner tbody tr td .lev-num-0 {
-  background-color: #fff;
+.usrlist-inner tbody tr td .lev-num- {
   padding: 2px 5px;
-  color: #222;
-}
-
-.usrlist-inner tbody tr td .lev-num-1 {
-  background-color: #00aeef;
-  padding: 2px 5px;
-  color: #fff;
-}
-
-.usrlist-inner tbody tr td .lev-num-2 {
-  background-color: #ec008c;
-  padding: 2px 5px;
-  color: #ebebeb;
-}
-
-.usrlist-inner tbody tr td .lev-num-3 {
-  background-color: #00a651;
-  padding: 2px 5px;
-  color: #ebebeb;
-}
-
-.usrlist-inner tbody tr td .lev-num-4 {
-  background-color: var(--accent-bg);
-  padding: 2px 5px;
-  color: var(--accent-txt);
+  &0 {
+    color: #222;
+    background-color: #fff;
+  }
+  &1 {
+    background-color: #00aeef;
+    color: #fff;
+  }
+  &2 {
+    background-color: #ec008c;
+    color: #ebebeb;
+  }
+  &3 {
+    background-color: #00a651;
+    color: #ebebeb;
+  }
+  &4 {
+    background-color: rgb(85, 18, 148);
+    color: #fff;
+  }
+  &5 {
+    background-color: rgb(243, 215, 55);
+    color: #222;
+  }
+  &6 {
+    background-color: rgb(211, 13, 13);
+    color: #fff;
+  }
 }
 
 .usrlist-inner tbody tr td .usr-nm {

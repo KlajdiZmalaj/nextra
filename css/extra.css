@@ -187,34 +187,43 @@ input[type="submit"] {
   font-size: 8px;
 }
 
-.usrlist-inner tbody tr td .lev-num-0 {
-  background-color: #fff;
+.usrlist-inner tbody tr td .lev-num- {
   padding: 2px 5px;
+}
+
+.usrlist-inner tbody tr td .lev-num-0 {
   color: #222;
+  background-color: #fff;
 }
 
 .usrlist-inner tbody tr td .lev-num-1 {
   background-color: #00aeef;
-  padding: 2px 5px;
   color: #fff;
 }
 
 .usrlist-inner tbody tr td .lev-num-2 {
   background-color: #ec008c;
-  padding: 2px 5px;
   color: #ebebeb;
 }
 
 .usrlist-inner tbody tr td .lev-num-3 {
   background-color: #00a651;
-  padding: 2px 5px;
   color: #ebebeb;
 }
 
 .usrlist-inner tbody tr td .lev-num-4 {
-  background-color: var(--accent-bg);
-  padding: 2px 5px;
-  color: var(--accent-txt);
+  background-color: #551294;
+  color: #fff;
+}
+
+.usrlist-inner tbody tr td .lev-num-5 {
+  background-color: #f3d737;
+  color: #222;
+}
+
+.usrlist-inner tbody tr td .lev-num-6 {
+  background-color: #d30d0d;
+  color: #fff;
 }
 
 .usrlist-inner tbody tr td .usr-nm {
