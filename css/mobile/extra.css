@@ -7909,6 +7909,7 @@ a.button.right.login {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
+  display: none;
 }
 
 .fast_menu .fast_menu_option:nth-child(2) {
