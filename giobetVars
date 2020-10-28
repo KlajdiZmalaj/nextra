@@ -65,3 +65,6 @@ body.landing-page {
 .logged-center .block-title img {
   filter: brightness(55) grayscale(1) !important;
 }
+.center-content .popular-bets .title img {
+  filter: grayscale(1) brightness(14.5);
+}
