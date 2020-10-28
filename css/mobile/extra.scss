@@ -8052,7 +8052,8 @@ a.button.right.login {
   }
 
   &.icon-1,
-  &.icon-29 {
+  &.icon-29,
+  &.icon-135 {
     background-image: url(https://nextra.pcluster.info/css/fonts/soccer.svg);
   }
 
@@ -8777,4 +8778,8 @@ body {
   .menu_items_container
   .single_menu_item.coupon_book {
   display: none !important;
+}
+.default-bets .single-bet {
+  white-space: nowrap;
+  width: auto !important;
 }
