@@ -8793,3 +8793,40 @@ body {
   white-space: nowrap;
   width: auto !important;
 }
+.lista_messagi .row.tippo.utente .utente_list {
+  background: transparent;
+}
+.utente_list .single_user {
+  padding: 10px;
+  background: var(--bg1);
+  color: var(--col1);
+  margin: 5px 0;
+  border: 1px solid var(--tableBorders);
+}
+.lista_messagi .row.tippo.utente input.input {
+  margin-bottom: 0;
+}
+.tippo label.title {
+  background: var(--bg1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.lista_messagi .row.tippo.utente input.input {
+  background: var(--bg1);
+  color: var(--col1);
+  box-shadow: inset 0 0 16px -8px black;
+  padding-left: 10px;
+}
+.giroconto.fields .button {
+  color: var(--accent-txt);
+  background: var(--accent-bg);
+  width: auto;
+  margin: 12px 0;
+  box-sizing: border-box;
+}
+.fields.lista_messagi.giroconto {
+  padding-top: 10px;
+}
