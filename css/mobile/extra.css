@@ -4596,7 +4596,9 @@ body {
 .menu_items_container .single_menu_item.cashout,
 .menu_items_container .single_menu_item.movimenti[href="/mobile/depositi"],
 .menu_items_container .single_menu_item.movimenti[href="/mobile/withdrawals"],
-.menu_items_container .single_menu_item.movimenti[href="/mobile/movimenti_bonus"] {
+.menu_items_container .single_menu_item.movimenti[href="/mobile/movimenti_bonus"],
+.main_container[data-access="7"] .menu_items_container .single_menu_item.coupon_book,
+.main_container[data-access="3"] .menu_items_container .single_menu_item.coupon_book {
   display: none !important;
 }
 /*# sourceMappingURL=extra.css.map */
