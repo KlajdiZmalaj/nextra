@@ -51,6 +51,7 @@ body {
 
 footer .footer-logo a:before {
   opacity: 0.9;
+  filter: grayscale(1) brightness(2.5) !important;
 }
 
 footer {

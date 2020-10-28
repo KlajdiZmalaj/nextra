@@ -29,6 +29,8 @@ body {
 
 footer .footer-logo a:before {
   opacity: 0.9;
+  -webkit-filter: grayscale(1) brightness(2.5) !important;
+          filter: grayscale(1) brightness(2.5) !important;
 }
 
 footer {
