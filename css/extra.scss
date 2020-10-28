@@ -3302,6 +3302,7 @@ html {
 html body .block-title[onclick*="toggleNext"] {
   display: flex;
   cursor: pointer;
+  border-bottom: 1px solid var(--tableBorders);
   img {
     display: none;
   }

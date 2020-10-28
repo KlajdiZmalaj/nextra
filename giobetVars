@@ -61,3 +61,6 @@ body.landing-page {
   background-color: #31343d !important;
   background-image: none;
 }
+.logged-center .block-title img {
+  filter: brightness(55) grayscale(1) !important;
+}

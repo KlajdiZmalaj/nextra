@@ -1,235 +1,66 @@
-$skin: "1xpro";
+$skin: "giokibet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/1xpro/images/logo2.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/blue.jpg";
-$bodyCol: var(--secondary-bg);
+$logoUrl: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDAuNjcgNTMuNzUiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZjJmMmYyO30uY2xzLTJ7ZmlsbDojZTUwMDIxO30uY2xzLTN7ZmlsbDojMzMzO30uY2xzLTR7ZmlsbDojY2MwMzE4O308L3N0eWxlPjwvZGVmcz48dGl0bGU+bG9nbzwvdGl0bGU+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0zNjQuODUuMDdINDc5LjY5YTIxLDIxLDAsMCwxLDIxLDIxVjMyYTIxLDIxLDAsMCwxLTIxLDIxSDM2MmEuNzEuNzEsMCwwLDEtLjcxLS43MVYzLjY1QTMuNTgsMy41OCwwLDAsMSwzNjQuODUuMDdaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4wNCAwLjY0KSByb3RhdGUoLTAuMDkpIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjguMzUsNTMuNzVBMjguMywyOC4zLDAsMCwxLDguMzEsNDYsMjQuNjUsMjQuNjUsMCwwLDEsMCwyNy4zNywyNC42NSwyNC42NSwwLDAsMSw4LjI1LDguNjcsMjguMjgsMjguMjgsMCwwLDEsMjguMjcuOWwyMi42NSwwYTEuNjcsMS42NywwLDAsMSwxLjg5LDEuODlsMCwxMS4zMkExLjY2LDEuNjYsMCwwLDEsNTEsMTZMMjguMywxNkExMy44MiwxMy44MiwwLDAsMCwxOSwxOS4zNGExMC4yLDEwLjIsMCwwLDAsMCwxNiwxMy44OSwxMy44OSwwLDAsMCw5LjM1LDMuMzFsOS40NCwwLDAtMTMuMjFhMS42NiwxLjY2LDAsMCwxLDEuODgtMS44OWwxMS4zMywwYTEuNjcsMS42NywwLDAsMSwxLjg5LDEuODlsMCwyNi40MkExLjY4LDEuNjgsMCwwLDEsNTEsNTMuNzJaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNNTkuNDIuODVsMTEuMzIsMGExLjY3LDEuNjcsMCwwLDEsMS44OSwxLjg5bC4wOCw0OS4wOGExLjY4LDEuNjgsMCwwLDEtMS44OSwxLjg5SDU5LjVhMS42NiwxLjY2LDAsMCwxLTEuODktMS44OEw1Ny41MywyLjc0QTEuNjcsMS42NywwLDAsMSw1OS40Mi44NVoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xMjIuNDcsOC41YTI1LjQzLDI1LjQzLDAsMCwxLDcuNzcsMTguNjcsMjUuNDgsMjUuNDgsMCwwLDEtNy43MSwxOC43LDI2LjQyLDI2LjQyLDAsMCwxLTM3LjM3LjA2LDI1LjQ3LDI1LjQ3LDAsMCwxLTcuNzctMTguNjhBMjUuNDgsMjUuNDgsMCwwLDEsODUuMSw4LjU1YTI2LjQ0LDI2LjQ0LDAsMCwxLDM3LjM3LS4wNVpNMTAzLjgsMTUuODlhMTAuOSwxMC45LDAsMCwwLTgsMy4zMywxMSwxMSwwLDAsMC0zLjMxLDgsMTEuMzMsMTEuMzMsMCwwLDAsMjIuNjUsMCwxMC45LDEwLjksMCwwLDAtMy4zNC04QTEwLjksMTAuOSwwLDAsMCwxMDMuOCwxNS44OVoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xMzYuODEuNzRsMTEuMzIsMEExLjY3LDEuNjcsMCwwLDEsMTUwLDIuNmwuMDgsNDkuMDhhMS42NywxLjY3LDAsMCwxLTEuODksMS44OWwtMTEuMzIsMEExLjY3LDEuNjcsMCwwLDEsMTM1LDUxLjdsLS4wOC00OS4wN0ExLjY3LDEuNjcsMCwwLDEsMTM2LjgxLjc0Wm0xNywzMy45NSwwLTE1LjFMMTc0LjU2LjY4bDExLjMyLDBhMS42NywxLjY3LDAsMCwxLDEuODksMS44OVY2LjMybC0yMi42MiwyMC44LDIyLjY4LDIwLjczdjMuNzdBMS42NywxLjY3LDAsMCwxLDE4Niw1My41MWwtOS40MywwWiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTE5NC4zOC42NWwxMS4zMiwwYTEuNjcsMS42NywwLDAsMSwxLjg5LDEuODlsLjA4LDQ5LjA3YTEuNjgsMS42OCwwLDAsMS0xLjg5LDEuOUgxOTQuNDZhMS42NiwxLjY2LDAsMCwxLTEuODktMS44OGwtLjA4LTQ5LjA4QTEuNjcsMS42NywwLDAsMSwxOTQuMzguNjVaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjYxLjQxLDEzLjc2djEuODlsLTQ5LjA4LjA3LDAtMTMuMjFBMS42NywxLjY3LDAsMCwxLDIxNC4yLjYybDM0LS4wNWExMi43NCwxMi43NCwwLDAsMSw5LjM1LDMuODZBMTIuNywxMi43LDAsMCwxLDI2MS40MSwxMy43NlpNMjUyLDE5LjQ0YTEzLjIxLDEzLjIxLDAsMCwxLDEzLjIzLDEzLjE5djcuNTVBMTMuMjMsMTMuMjMsMCwwLDEsMjUyLDUzLjQybC0zNy43NSwwYTEuNjYsMS42NiwwLDAsMS0xLjg5LTEuODhsMC0xMy4yMiwzNS44NiwwYTEuNjYsMS42NiwwLDAsMCwxLjg4LTEuODksMS42NiwxLjY2LDAsMCwwLTEuODktMS44OGwtMzUuODYuMDUsMC0xNS4xWiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTMyMC44NC40NmExLjY3LDEuNjcsMCwwLDEsMS44OSwxLjg5bDAsMTEuMzJhMS42NywxLjY3LDAsMCwxLTEuODgsMS44OWwtNTEsLjA4VjEzLjc1YTEyLjcxLDEyLjcxLDAsMCwxLDMuODYtOS4zNUExMi42OSwxMi42OSwwLDAsMSwyODMuMDkuNTJabS01MC45LDM5LjcyLDAtMjAuNzdoMzUuODZhMS42NCwxLjY0LDAsMCwxLDEuODksMS44M2wwLDExLjMzYTEuNjcsMS42NywwLDAsMS0xLjg5LDEuODlsLTIwLjc2LDB2MS44OWExLjY3LDEuNjcsMCwwLDAsMS44OSwxLjg4bDM0LDBhMS42NywxLjY3LDAsMCwxLDEuODksMS44OWwwLDExLjMyYTEuNjcsMS42NywwLDAsMS0xLjg5LDEuODlsLTM3Ljc1LjA2YTEzLjIxLDEzLjIxLDAsMCwxLTEzLjIzLTEzLjE5WiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTM0NC40NC40M2wwLDE1LjEtMTUuMSwwYTEuNjcsMS42NywwLDAsMS0xLjg5LTEuODhsMC0xMS4zM0ExLjcsMS43LDAsMCwxLDMyOS4zNC40NVptMzQsMGExLjY2LDEuNjYsMCwwLDEsMS44OSwxLjg4bDAsMTEuMzNhMS42NywxLjY3LDAsMCwxLTEuODgsMS44OWwtMTMuMjIsMHEtMy43NywwLTMuNzcsMy43OGwuMDUsMzIuMDlhMS42OCwxLjY4LDAsMCwxLTEuODgsMS44OUgzNDguMjlhMS42NiwxLjY2LDAsMCwxLTEuODktMS44OGwwLTM3Ljc1YTEyLjY5LDEyLjY5LDAsMCwxLDMuODUtOS4zNUExMi43OCwxMi43OCwwLDAsMSwzNTkuNTQuNFoiLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0zOTMuNzQsMTMuMmMuNjMsMCwuOTQuMy45NC45MWwwLDE2Ljg3YS44My44MywwLDAsMCwuOTQuOTNsMTYuODYsMGEuODMuODMsMCwwLDEsLjk0LjkzdjUuNjNhLjg0Ljg0LDAsMCwxLS45NC45NGwtMTcuOCwwcS03LjUsMC03LjUxLTYuNTVsMC0xOC43NGEuODMuODMsMCwwLDEsLjkzLS45NFoiLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik00MTYuNywxMy4xNGg1LjYyYS44My44MywwLDAsMSwuOTQuOTRsMCwyNC4zNmEuODMuODMsMCwwLDEtLjk0Ljk0aC01LjYyYS44My44MywwLDAsMS0uOTQtLjk0bDAtMjQuMzZBLjgzLjgzLDAsMCwxLDQxNi43LDEzLjE0WiIvPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTQzNC4wNywzNy40OGwtOC40Ni0xNi44NlYxNC4wN2EuODMuODMsMCwwLDEsLjk0LS45NGgzLjc1TDQzOC43NSwyOWw4LjQtMTUuOTRoMy43NWEuODMuODMsMCwwLDEsLjk0Ljk0djYuNTZsLTguNDEsMTYuODdjLS42MiwxLjI2LTEuMjQsMS44OC0xLjg3LDEuODhINDM2QzQzNS4zMiwzOS4zNSw0MzQuNywzOC43Myw0MzQuMDcsMzcuNDhaIi8+PHBhdGggY2xhc3M9ImNscy0zIiBkPSJNNDc5LjQ4LDEzLjA1YS44My44MywwLDAsMSwuOTQuOTN2NS42M2EuODMuODMsMCwwLDEtLjk0LjkzbC0yNS4zLDB2LS45M2E2LjU2LDYuNTYsMCwwLDEsNi41NS02LjU3Wk00NTQuMjEsMzIuNzZWMjIuNDZINDcyYS44Mi44MiwwLDAsMSwuOTQuOTJWMjlhLjgzLjgzLDAsMCwxLS45NC45NEg0NjEuN3YuOTRhLjgyLjgyLDAsMCwwLC45My45M2wxNi44NywwYS44My44MywwLDAsMSwuOTQuOTN2NS42M2EuODQuODQsMCwwLDEtLjk0Ljk0bC0xOC43NCwwYTYuMjgsNi4yOCwwLDAsMS00LjY0LTEuOTFBNi4zNiw2LjM2LDAsMCwxLDQ1NC4yMSwzMi43NloiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjM3NC41NiIgY3k9IjMwLjA1IiByPSI0Ljg3Ii8+PC9nPjwvZz48L3N2Zz4=";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/red.jpg";
+$bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 0;
-
+$invet: 1;
 html:root {
-  --accent: #ffcc00;
-  --accent-bg: #086bbb;
-  --accent-txt: #fff;
-  --primary-bg: #061131;
+  --accent: #ea2125;
+  --accent-bg: #ea2125;
+  --accent-txt: #000;
+  --primary-bg: #1c1c1c;
   --primary-txt: #fff;
-  --secondary-bg: #0a1b4e;
+  --secondary-bg: #2e2e2e;
   --secondary-txt: #fff;
-  --mainBg: #ffffff;
-  --mainBgCol: #000;
-  --bg1: #edf0f3;
-  --col1: #000;
-  --teableHeadersBg: #ffcc00;
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #01428c;
+  --mainBg: #2a2a2a;
+  --mainBgCol: #fff;
+  --bg1: #323232;
+  --col1: #fff;
+  --teableHeadersBg: #000;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #191919;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #c0c0c0;
-  --casinoGradient1: rgba(0, 0, 0, 0);
+  --tableBorders: #535353;
+  --casinoGradient1: #00000000;
   --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #f0c808;
+  --casinoGradient2: #63636300;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "1xpro";
+  --skin: "giokibet";
 }
 
-$secondary: #f0c808;
+$secondary: #ea2125;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #f0c808;
-$secondaryDarkCol: #222;
-$primary: #53bce0;
+$secondaryDark: #ea2125;
+$secondaryDarkCol: #fff;
+$primary: #323232;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #333844;
+$sb-2: #323232;
+
 body {
   background-size: 2038px !important;
 }
+
+footer .footer-logo a:before {
+  opacity: 0.9;
+}
+
+footer {
+  background: var(--tableBorders);
+  margin-top: 0;
+}
 body.landing-page {
-  background-color: #001020 !important;
+  background-color: #31343d !important;
   background-image: none;
 }
-.odds-table .second-header td {
-  color: #086bbb !important;
-}
-footer .footer-logo a {
-  filter: grayscale(1) invert(1);
-}
-.header .top-bar {
-  border-image: linear-gradient(to right, red, #fff) 11px 100%;
-  border-image-slice: 1;
-  border-width: 2px;
-  border-bottom: 3px solid;
-  border-image-source: linear-gradient(
-    to right,
-    #ba0000,
-    #bc0706 35%,
-    #ffffff 35%,
-    #ececeb 55%,
-    #4caf50 55%
-  );
-}
-html {
-  .odds-table
-    .single-match-odds
-    .single-match-odds-table
-    .odd-holder
-    .single-odd
-    .label {
-    color: var(--accent-bg);
-  }
-  .live-odds-table table tr td.odd-holder .single-live-odd .label {
-    color: var(--accent-bg);
-  }
-  .single-sport {
-    border-top: 1px solid #1787e3;
-    background: #0160ae;
-    color: #fff;
-  }
-}
-html {
-  .side-bar .single-block .block-content.sports-menu .tabs {
-    display: flex;
-  }
-  .side-bar .single-block .block-content.sports-menu .tabs .single-tab {
-    background: #01428c;
-    color: #fff;
-    border: 1px solid #0160ae;
-  }
-  .tabs-holder .tabs-row {
-    display: flex;
-    flex-flow: row wrap;
-  }
-  .tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
-  .tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
-    background: #ffcc00;
-    color: #01428c;
-  }
-  .tabs-holder .tabs-row .single-tab {
-    line-height: 15px;
-    width: calc(20% - 1px);
-    border-right: 1px solid #b9b8b8;
-    border-bottom: 1px solid #b9b8b8;
-    float: left;
-    text-align: center;
-    cursor: pointer;
-    color: #031134;
-    font-size: 13px;
-    font-weight: 500;
-    background: #dddddd;
-    -webkit-box-shadow: inset 0 1px 0 #f1f1f1;
-    box-shadow: inset 0 1px 0 #f1f1f1;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-    margin: 0;
-  }
-
-  .tabs-holder .tabs-row .inner-tabs {
-    margin: 0 !important;
-  }
-
-  .tabs-holder .tabs-row .inner-tabs .single-inner-tab {
-    margin: 1px;
-    line-height: 36px;
-    width: calc(20% - 1px);
-    border-right: 1px solid #b9b8b8;
-    border-bottom: 1px solid #b9b8b8;
-    float: left;
-    text-align: center;
-    cursor: pointer;
-    color: #ebebeb;
-    font-size: 11px;
-    font-weight: 500;
-    background: #3558bd;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  .championship {
-    background: #f6f6f6;
-    color: #01428c;
-  }
-  .single-sport .states .state .championship.selected .anchor {
-    background: #01428c;
-  }
-  .table-wrapper {
-    background: #fff;
-  }
-  #sportsGrid tr:nth-child(odd) {
-    background: #dbdbdb;
-  }
-  .sports-book-page
-    .championship-table
-    tr
-    td
-    .single-tournament
-    .check
-    .checkmark,
-  .sports-book-page
-    .championship-table
-    tr
-    td
-    .single-tournament
-    .check
-    input:checked
-    ~ .checkmark {
-    border: 1px solid #0160ae;
-  }
-  .sports-book-page
-    .championship-table
-    tr
-    td
-    .single-tournament
-    .check
-    input:checked
-    ~ .checkmark:after {
-    border-color: #0160ae;
-  }
-  .sports-book-page .filters-holder .search-form input[type="text"] {
-    background: #dbdbdb;
-  }
-  .sports-book-page .filters-holder span .filters-icon:before {
-    top: 4px;
-    background: #ffcc00;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #sportBookDiv .buttons-holder {
-    .single-button {
-      &:nth-child(1):before {
-        content: "\f762";
-        font-family: "Font Awesome 5 Pro";
-        font-size: 20px;
-        margin: 0 5px;
-      }
-      &:nth-child(2):before {
-        content: "\f08e";
-        font-family: "Font Awesome 5 Pro";
-        font-size: 20px;
-        margin: 0 5px;
-      }
-    }
-  }
-  .sports-book-page .filters-holder .buttons-holder .single-button {
-    border: 1px solid #d0d4d9;
-    box-shadow: 15px 11px 10px -16px #0160ae;
-  }
-  .logged-page .logged-menu ul li .sub-menu li:nth-child(odd) {
-    background: #e6e6e6;
-  }
-  .logged-page .logged-menu ul li .sub-menu li {
-    background: #ffffff;
-    color: #006e97;
-  }
-  .logged-page .logged-menu ul li .sub-menu li a:hover {
-    background-color: #0a1b4e;
-    color: #fc0;
-    opacity: 0.9;
-  }
+.logged-center .block-title img {
+  filter: brightness(55) grayscale(1) !important;
 }
