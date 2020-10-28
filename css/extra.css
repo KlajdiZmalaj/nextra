@@ -3767,11 +3767,19 @@ span {
   border-radius: 0;
 }
 
+html body .block-title[onclick*="toggleNext"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
 html body .block-title[onclick*="toggleNext"] img {
   display: none;
 }
 
 html body .block-title[onclick*="toggleNext"]:before {
+  padding: 0 10px;
   content: "\f078";
   font-family: "Font Awesome 5 Pro";
 }

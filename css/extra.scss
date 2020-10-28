@@ -3300,10 +3300,13 @@ html {
   }
 }
 html body .block-title[onclick*="toggleNext"] {
+  display: flex;
+  cursor: pointer;
   img {
     display: none;
   }
   &:before {
+    padding: 0 10px;
     content: "\f078";
     font-family: "Font Awesome 5 Pro";
   }
