@@ -3299,3 +3299,12 @@ html {
     border-radius: 0;
   }
 }
+html body .block-title[onclick*="toggleNext"] {
+  img {
+    display: none;
+  }
+  &:before {
+    content: "\f078";
+    font-family: "Font Awesome 5 Pro";
+  }
+}

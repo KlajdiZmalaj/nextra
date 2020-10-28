@@ -3766,4 +3766,13 @@ span {
   /* box-sizing: border-box; */
   border-radius: 0;
 }
+
+html body .block-title[onclick*="toggleNext"] img {
+  display: none;
+}
+
+html body .block-title[onclick*="toggleNext"]:before {
+  content: "\f078";
+  font-family: "Font Awesome 5 Pro";
+}
 /*# sourceMappingURL=extra.css.map */
