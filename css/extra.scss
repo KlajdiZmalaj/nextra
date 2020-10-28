@@ -3332,3 +3332,7 @@ body .odds-table .single-match-row td.match-name {
     justify-content: flex-start;
   }
 }
+.single-match-row .match-details {
+  display: flex;
+  flex-flow: column;
+}
