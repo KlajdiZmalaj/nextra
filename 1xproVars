@@ -4,7 +4,7 @@ $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "https://nextra.pcluster.info/1xpro/images/logo2.svg";
 $bodyBg: "https://nextra.pcluster.info/nextra/images/bg/blue.jpg";
-$bodyCol: #000000;
+$bodyCol: var(--secondary-bg);
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 0;
@@ -90,12 +90,141 @@ html {
     color: #fff;
   }
 }
-body .main_content {
-  color: #000;
-  background: #ffffff;
-}
+html {
+  .side-bar .single-block .block-content.sports-menu .tabs {
+    display: flex;
+  }
+  .side-bar .single-block .block-content.sports-menu .tabs .single-tab {
+    background: #01428c;
+    color: #fff;
+    border: 1px solid #0160ae;
+  }
+  .tabs-holder .tabs-row {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
+  .tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
+    background: #ffcc00;
+    color: #01428c;
+  }
+  .tabs-holder .tabs-row .single-tab {
+    line-height: 15px;
+    width: calc(20% - 1px);
+    border-right: 1px solid #b9b8b8;
+    border-bottom: 1px solid #b9b8b8;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    color: #031134;
+    font-size: 13px;
+    font-weight: 500;
+    background: #dddddd;
+    -webkit-box-shadow: inset 0 1px 0 #f1f1f1;
+    box-shadow: inset 0 1px 0 #f1f1f1;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    margin: 0;
+  }
 
-body {
-  color: #000 !important;
-  background: #ffffff !important;
+  .tabs-holder .tabs-row .inner-tabs {
+    margin: 0 !important;
+  }
+
+  .tabs-holder .tabs-row .inner-tabs .single-inner-tab {
+    margin: 1px;
+    line-height: 36px;
+    width: calc(20% - 1px);
+    border-right: 1px solid #b9b8b8;
+    border-bottom: 1px solid #b9b8b8;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    color: #ebebeb;
+    font-size: 11px;
+    font-weight: 500;
+    background: #3558bd;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .championship {
+    background: #f6f6f6;
+    color: #01428c;
+  }
+  .single-sport .states .state .championship.selected .anchor {
+    background: #01428c;
+  }
+  .table-wrapper {
+    background: #fff;
+  }
+  #sportsGrid tr:nth-child(odd) {
+    background: #dbdbdb;
+  }
+  .sports-book-page
+    .championship-table
+    tr
+    td
+    .single-tournament
+    .check
+    .checkmark,
+  .sports-book-page
+    .championship-table
+    tr
+    td
+    .single-tournament
+    .check
+    input:checked
+    ~ .checkmark {
+    border: 1px solid #0160ae;
+  }
+  .sports-book-page
+    .championship-table
+    tr
+    td
+    .single-tournament
+    .check
+    input:checked
+    ~ .checkmark:after {
+    border-color: #0160ae;
+  }
+  .sports-book-page .filters-holder .search-form input[type="text"] {
+    background: #dbdbdb;
+  }
+  .sports-book-page .filters-holder span .filters-icon:before {
+    top: 4px;
+    background: #ffcc00;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #sportBookDiv .buttons-holder {
+    .single-button {
+      &:nth-child(1):before {
+        content: "\f762";
+        font-family: "Font Awesome 5 Pro";
+        font-size: 20px;
+        margin: 0 5px;
+      }
+      &:nth-child(2):before {
+        content: "\f08e";
+        font-family: "Font Awesome 5 Pro";
+        font-size: 20px;
+        margin: 0 5px;
+      }
+    }
+  }
+  .sports-book-page .filters-holder .buttons-holder .single-button {
+    border: 1px solid #d0d4d9;
+    box-shadow: 15px 11px 10px -16px #0160ae;
+  }
+  .logged-page .logged-menu ul li .sub-menu li:nth-child(odd) {
+    background: #e6e6e6;
+  }
+  .logged-page .logged-menu ul li .sub-menu li {
+    background: #ffffff;
+    color: #006e97;
+  }
 }
