@@ -3300,11 +3300,18 @@ html {
   }
 }
 html body .block-title[onclick*="toggleNext"] {
+  display: flex;
+  cursor: pointer;
+  border-bottom: 1px solid var(--tableBorders);
   img {
     display: none;
   }
   &:before {
+    padding: 0 10px;
     content: "\f078";
     font-family: "Font Awesome 5 Pro";
   }
+}
+.logged-center .change-password-page.edit-user-page .label {
+  white-space: nowrap;
 }

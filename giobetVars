@@ -51,6 +51,7 @@ body {
 
 footer .footer-logo a:before {
   opacity: 0.9;
+  filter: grayscale(1) brightness(2.5) !important;
 }
 
 footer {
@@ -60,4 +61,7 @@ footer {
 body.landing-page {
   background-color: #31343d !important;
   background-image: none;
+}
+.logged-center .block-title img {
+  filter: brightness(55) grayscale(1) !important;
 }
