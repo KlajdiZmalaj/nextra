@@ -3784,4 +3784,8 @@ html body .block-title[onclick*="toggleNext"]:before {
   content: "\f078";
   font-family: "Font Awesome 5 Pro";
 }
+
+.logged-center .change-password-page.edit-user-page .label {
+  white-space: nowrap;
+}
 /*# sourceMappingURL=extra.css.map */
