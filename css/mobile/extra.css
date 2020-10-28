@@ -8086,7 +8086,7 @@ a.button.right.login {
   background-image: url(https://nextra.pcluster.info/css/fonts/golf.svg);
 }
 
-.landing_sport span.gpicon.icon-12 {
+.landing_sport span.gpicon.icon-12, .landing_sport span.gpicon.icon-136 {
   background-image: url(https://nextra.pcluster.info/css/fonts/rugby-helmet.svg);
   background-size: 80%;
 }
