@@ -187,41 +187,41 @@ input[type="submit"] {
   font-size: 8px;
 }
 
-.usrlist-inner tbody tr td .lev-num- {
+.usrlist-inner tbody tr td #level {
   padding: 2px 5px;
 }
 
-.usrlist-inner tbody tr td .lev-num-0 {
+.usrlist-inner tbody tr td #level.lev-num-0 {
   color: #222;
   background-color: #fff;
 }
 
-.usrlist-inner tbody tr td .lev-num-1 {
+.usrlist-inner tbody tr td #level.lev-num-1 {
   background-color: #00aeef;
   color: #fff;
 }
 
-.usrlist-inner tbody tr td .lev-num-2 {
+.usrlist-inner tbody tr td #level.lev-num-2 {
   background-color: #ec008c;
   color: #ebebeb;
 }
 
-.usrlist-inner tbody tr td .lev-num-3 {
+.usrlist-inner tbody tr td #level.lev-num-3 {
   background-color: #00a651;
   color: #ebebeb;
 }
 
-.usrlist-inner tbody tr td .lev-num-4 {
+.usrlist-inner tbody tr td #level.lev-num-4 {
   background-color: #551294;
   color: #fff;
 }
 
-.usrlist-inner tbody tr td .lev-num-5 {
+.usrlist-inner tbody tr td #level.lev-num-5 {
   background-color: #f3d737;
   color: #222;
 }
 
-.usrlist-inner tbody tr td .lev-num-6 {
+.usrlist-inner tbody tr td #level.lev-num-6 {
   background-color: #d30d0d;
   color: #fff;
 }

@@ -172,33 +172,33 @@
   font-size: 8px;
 }
 
-.usrlist-inner tbody tr td .lev-num- {
+.usrlist-inner tbody tr td #level {
   padding: 2px 5px;
-  &0 {
+  &.lev-num-0 {
     color: #222;
     background-color: #fff;
   }
-  &1 {
+  &.lev-num-1 {
     background-color: #00aeef;
     color: #fff;
   }
-  &2 {
+  &.lev-num-2 {
     background-color: #ec008c;
     color: #ebebeb;
   }
-  &3 {
+  &.lev-num-3 {
     background-color: #00a651;
     color: #ebebeb;
   }
-  &4 {
+  &.lev-num-4 {
     background-color: rgb(85, 18, 148);
     color: #fff;
   }
-  &5 {
+  &.lev-num-5 {
     background-color: rgb(243, 215, 55);
     color: #222;
   }
-  &6 {
+  &.lev-num-6 {
     background-color: rgb(211, 13, 13);
     color: #fff;
   }
