@@ -3323,11 +3323,12 @@ body .odds-table .single-match-row td.match-name {
     margin: 0 !important;
     padding: 0 !important;
     margin-left: 10px !important;
-   
   }
   .team {
     display: flex;
     align-items: center;
+    position: relative;
+    bottom: 1px;
     justify-content: flex-start;
   }
 }

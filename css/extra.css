@@ -3838,6 +3838,8 @@ body .odds-table .single-match-row td.match-name .team {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+  bottom: 1px;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
