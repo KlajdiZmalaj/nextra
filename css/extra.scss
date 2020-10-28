@@ -3291,3 +3291,20 @@ html body .block-title[onclick*="toggleNext"] {
 .logged-center .change-password-page.edit-user-page .label {
   white-space: nowrap;
 }
+.center-content
+  .odds-graph-holder
+  .section-odds
+  .current-odds
+  .the-odds
+  .second-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0 !important;
+    height: 25px;
+  }
+}

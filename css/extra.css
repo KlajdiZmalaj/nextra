@@ -3771,4 +3771,40 @@ html body .block-title[onclick*="toggleNext"]:before {
 .logged-center .change-password-page.edit-user-page .label {
   white-space: nowrap;
 }
+
+.center-content
+.odds-graph-holder
+.section-odds
+.current-odds
+.the-odds
+.second-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.center-content
+.odds-graph-holder
+.section-odds
+.current-odds
+.the-odds
+.second-row span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 0 !important;
+  height: 25px;
+}
 /*# sourceMappingURL=extra.css.map */
