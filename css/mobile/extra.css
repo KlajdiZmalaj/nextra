@@ -8555,7 +8555,7 @@ body .main_container_group_item .sport_count {
 
 [data-page="prematch-event"] .sport_odds_main .sport_line_title {
   background: var(--teableHeadersBg);
-  color: var(--accent);
+  color: var(--teableHeadersCol);
   padding-right: 0px;
   padding-left: 2px;
   display: -webkit-box;
