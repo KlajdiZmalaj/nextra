@@ -37,10 +37,6 @@ html body {
   background-attachment: initial;
 }
 
-.coupon-details-buttons .button.cashout {
-  display: none !important;
-}
-
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;

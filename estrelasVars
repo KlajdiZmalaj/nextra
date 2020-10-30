@@ -54,6 +54,6 @@ html body {
   background-position-y: 80px !important;
   background-attachment: initial;
 }
-.coupon-details-buttons .button.cashout {
-  display: none !important;
-}
+// .coupon-details-buttons .button.cashout {
+//   display: none !important;
+// }

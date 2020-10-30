@@ -33,10 +33,6 @@ html body {
   background-attachment: initial;
 }
 
-.coupon-details-buttons .button.cashout {
-  display: none !important;
-}
-
 button,
 hr,
 input {
