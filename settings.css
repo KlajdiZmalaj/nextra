@@ -1,146 +1,40 @@
 html:root {
-  --accent: #95cd3b;
-  --accent-bg: #95cd3b;
+  --accent: #ffeb3b;
+  --accent-bg: #ffeb3b;
   --accent-txt: #000;
-  --primary-bg: #000;
+  --primary-bg: #1c1c1c;
   --primary-txt: #fff;
-  --secondary-bg: #212931;
+  --secondary-bg: #2e2e2e;
   --secondary-txt: #fff;
-  --mainBg: #171d24;
+  --mainBg: #282828;
   --mainBgCol: #fff;
-  --bg1: #29333b;
+  --bg1: #323232;
   --col1: #fff;
-  --teableHeadersBg: #384351;
+  --teableHeadersBg: #14805e;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #14191d;
+  --teableSubHeadersBg: #636363;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #445461;
+  --tableBorders: #535353;
   --casinoGradient1: linear-gradient(
-    to right,
-    #95cd3b00 3%,
-    #95cd3b 60%,
-    #95cd3b00 99%
+    -90deg,
+    rgba(239, 32, 138, 1) 0%,
+    rgba(35, 116, 222, 1) 50%,
+    rgba(11, 138, 61, 1) 100%
   );
-  --casinoGradient1-txt: #000;
-  --casinoGradient2: #636363;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "masterbet";
+  --skin: "estrelas";
 }
 
-body {
-  background-size: 2038px !important;
+html body {
+  background-position-y: 80px !important;
+  background-attachment: initial;
 }
 
-body.landing-page {
-  background-color: #31343d !important;
-  background-image: none;
-}
-
-.main-content.home-page
-.left-side-bar
-.single-block:first-child
-.block-title
-span,
-.main-content.home-page
-.right-side-bar
-.single-block:first-child
-.block-title
-span,
-.main-content.home-page
-.right-side-bar
-.single-block:nth-child(2)
-.block-title
-span {
-  color: var(--accent-bg);
-  font-weight: 500;
-}
-
-.single-sport .states .state .championship.selected .anchor {
-  color: var(--accent);
-}
-
-.single-sport
-.states
-.state
-.championship
-.anchor
-.check
-input:checked
-~ .checkmark:after,
-.single-sport
-.states
-.state
-.championship
-.anchor
-.check
-input:checked
-~ .checkmark {
-  border-color: var(--accent) !important;
-}
-
-.odds-table .second-header td.day {
-  color: var(--accent);
-}
-
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
-  border: 1px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-
-.tabs-holder .tabs-row .single-tab {
-  border-bottom: 2px solid transparent !important;
-}
-
-.tabs-holder .tabs-row .single-tab:hover,
-.tabs-holder .tabs-row .single-tab.active {
-  border-bottom: 2px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-
-.odds-table .second-header {
-  opacity: 1 !important;
-}
-
-.side-bar
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.selected-bet
-.bet
-.quote {
-  color: var(--accent);
-}
-
-body
-.side-bar
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.match-info
-.id {
-  background: #14191d !important;
-  color: #fff !important;
-}
-
-body .sports-container .matches .single-match .match-odds .single-odd-type {
-  background: #29333b;
-}
-
-body #LVSPORT_1 .single-match .match-info,
-body #LVSPORT_1 .single-match .match-odds {
-  background: #171d24;
-}
-
-body #LVSPORT_1 .single-match.selected .match-info,
-body #LVSPORT_1 .single-match.selected .match-odds {
-  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #1c7700), color-stop(160%, #707070));
-  background: linear-gradient(to left, #1c7700 11%, #707070 160%);
+.coupon-details-buttons .button.cashout {
+  display: none !important;
 }
 
 button,
@@ -3926,7 +3820,7 @@ div[data-source="upcoming"] .sport_odds_main {
   display: block;
   width: 200px;
   height: 53px;
-  background-image: url("https://nextra.pcluster.info/masterbet/images/logo2.svg");
+  background-image: url("http://static.pcluster.info/skins/estrelasbet/img/logo/es.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
