@@ -1,26 +1,31 @@
 html:root {
-  --accent: #ffcc00;
-  --accent-bg: #086bbb;
-  --accent-txt: #fff;
-  --primary-bg: #061131;
+  --accent: #95cd3b;
+  --accent-bg: #95cd3b;
+  --accent-txt: #000;
+  --primary-bg: #000;
   --primary-txt: #fff;
-  --secondary-bg: #0a1b4e;
+  --secondary-bg: #212931;
   --secondary-txt: #fff;
-  --mainBg: #ffffff;
-  --mainBgCol: #000;
-  --bg1: #edf0f3;
-  --col1: #000;
-  --teableHeadersBg: #ffcc00;
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #01428c;
+  --mainBg: #171d24;
+  --mainBgCol: #fff;
+  --bg1: #29333b;
+  --col1: #fff;
+  --teableHeadersBg: #384351;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #14191d;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #c0c0c0;
-  --casinoGradient1: rgba(0, 0, 0, 0);
-  --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #f0c808;
+  --tableBorders: #445461;
+  --casinoGradient1: linear-gradient(
+    to right,
+    #95cd3b00 3%,
+    #95cd3b 60%,
+    #95cd3b00 99%
+  );
+  --casinoGradient1-txt: #000;
+  --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "1xpro";
+  --skin: "masterbet";
 }
 
 body {
@@ -28,210 +33,108 @@ body {
 }
 
 body.landing-page {
-  background-color: #001020 !important;
+  background-color: #31343d !important;
   background-image: none;
 }
 
-.odds-table .second-header td {
-  color: #086bbb !important;
-}
-
-footer .footer-logo a {
-  -webkit-filter: grayscale(1) invert(1);
-          filter: grayscale(1) invert(1);
-}
-
-.header .top-bar {
-  -o-border-image: linear-gradient(to right, red, #fff) 11px 100%;
-     border-image: -webkit-gradient(linear, left top, right top, from(red), to(#fff)) 11px 100%;
-     border-image: linear-gradient(to right, red, #fff) 11px 100%;
-  border-image-slice: 1;
-  border-width: 2px;
-  border-bottom: 3px solid;
-  border-image-source: linear-gradient(to right, #ba0000, #bc0706 35%, #ffffff 35%, #ececeb 55%, #4caf50 55%);
-}
-
-html .odds-table
-.single-match-odds
-.single-match-odds-table
-.odd-holder
-.single-odd
-.label {
+.main-content.home-page
+.left-side-bar
+.single-block:first-child
+.block-title
+span,
+.main-content.home-page
+.right-side-bar
+.single-block:first-child
+.block-title
+span,
+.main-content.home-page
+.right-side-bar
+.single-block:nth-child(2)
+.block-title
+span {
   color: var(--accent-bg);
-}
-
-html .live-odds-table table tr td.odd-holder .single-live-odd .label {
-  color: var(--accent-bg);
-}
-
-html .single-sport {
-  border-top: 1px solid #1787e3;
-  background: #0160ae;
-  color: #fff;
-}
-
-html .side-bar .single-block .block-content.sports-menu .tabs {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-html .side-bar .single-block .block-content.sports-menu .tabs .single-tab {
-  background: #01428c;
-  color: #fff;
-  border: 1px solid #0160ae;
-}
-
-html .tabs-holder .tabs-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-}
-
-html .tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
-html .tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
-  background: #ffcc00;
-  color: #01428c;
-}
-
-html .tabs-holder .tabs-row .single-tab {
-  line-height: 15px;
-  width: calc(20% - 1px);
-  border-right: 1px solid #b9b8b8;
-  border-bottom: 1px solid #b9b8b8;
-  float: left;
-  text-align: center;
-  cursor: pointer;
-  color: #031134;
-  font-size: 13px;
   font-weight: 500;
-  background: #dddddd;
-  -webkit-box-shadow: inset 0 1px 0 #f1f1f1;
-  box-shadow: inset 0 1px 0 #f1f1f1;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  margin: 0;
 }
 
-html .tabs-holder .tabs-row .inner-tabs {
-  margin: 0 !important;
+.single-sport .states .state .championship.selected .anchor {
+  color: var(--accent);
 }
 
-html .tabs-holder .tabs-row .inner-tabs .single-inner-tab {
-  margin: 1px;
-  line-height: 36px;
-  width: calc(20% - 1px);
-  border-right: 1px solid #b9b8b8;
-  border-bottom: 1px solid #b9b8b8;
-  float: left;
-  text-align: center;
-  cursor: pointer;
-  color: #ebebeb;
-  font-size: 11px;
-  font-weight: 500;
-  background: #3558bd;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-html .championship {
-  background: #f6f6f6;
-  color: #01428c;
-}
-
-html .single-sport .states .state .championship.selected .anchor {
-  background: #01428c;
-}
-
-html .table-wrapper {
-  background: #fff;
-}
-
-html #sportsGrid tr:nth-child(odd) {
-  background: #dbdbdb;
-}
-
-html .sports-book-page
-.championship-table
-tr
-td
-.single-tournament
+.single-sport
+.states
+.state
+.championship
+.anchor
 .check
-.checkmark,
-html .sports-book-page
-.championship-table
-tr
-td
-.single-tournament
+input:checked
+~ .checkmark:after,
+.single-sport
+.states
+.state
+.championship
+.anchor
 .check
 input:checked
 ~ .checkmark {
-  border: 1px solid #0160ae;
+  border-color: var(--accent) !important;
 }
 
-html .sports-book-page
-.championship-table
-tr
-td
-.single-tournament
-.check
-input:checked
-~ .checkmark:after {
-  border-color: #0160ae;
+.odds-table .second-header td.day {
+  color: var(--accent);
 }
 
-html .sports-book-page .filters-holder .search-form input[type="text"] {
-  background: #dbdbdb;
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
+  border: 1px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
 }
 
-html .sports-book-page .filters-holder span .filters-icon:before {
-  top: 4px;
-  background: #ffcc00;
-  width: 20px;
-  height: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.tabs-holder .tabs-row .single-tab {
+  border-bottom: 2px solid transparent !important;
 }
 
-html #sportBookDiv .buttons-holder .single-button:nth-child(1):before {
-  content: "\f762";
-  font-family: "Font Awesome 5 Pro";
-  font-size: 20px;
-  margin: 0 5px;
+.tabs-holder .tabs-row .single-tab:hover,
+.tabs-holder .tabs-row .single-tab.active {
+  border-bottom: 2px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
 }
 
-html #sportBookDiv .buttons-holder .single-button:nth-child(2):before {
-  content: "\f08e";
-  font-family: "Font Awesome 5 Pro";
-  font-size: 20px;
-  margin: 0 5px;
+.odds-table .second-header {
+  opacity: 1 !important;
 }
 
-html .sports-book-page .filters-holder .buttons-holder .single-button {
-  border: 1px solid #d0d4d9;
-  -webkit-box-shadow: 15px 11px 10px -16px #0160ae;
-          box-shadow: 15px 11px 10px -16px #0160ae;
+.side-bar
+.single-block.betslip-holder
+.betslip
+.selections-wrapper
+.single-event
+.selected-bet
+.bet
+.quote {
+  color: var(--accent);
 }
 
-html .logged-page .logged-menu ul li .sub-menu li:nth-child(odd) {
-  background: #e6e6e6;
+body
+.side-bar
+.single-block.betslip-holder
+.betslip
+.selections-wrapper
+.single-event
+.match-info
+.id {
+  background: #14191d !important;
+  color: #fff !important;
 }
 
-html .logged-page .logged-menu ul li .sub-menu li {
-  background: #ffffff;
-  color: #006e97;
+body .sports-container .matches .single-match .match-odds .single-odd-type {
+  background: #29333b;
+}
+
+body #LVSPORT_1 .single-match .match-info,
+body #LVSPORT_1 .single-match .match-odds {
+  background: #171d24;
 }
 
 button,
@@ -4017,7 +3920,7 @@ div[data-source="upcoming"] .sport_odds_main {
   display: block;
   width: 200px;
   height: 53px;
-  background-image: url("https://nextra.pcluster.info/1xpro/images/logo2.svg");
+  background-image: url("https://nextra.pcluster.info/masterbet/images/logo2.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
