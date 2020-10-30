@@ -137,6 +137,12 @@ body #LVSPORT_1 .single-match .match-odds {
   background: #171d24;
 }
 
+body #LVSPORT_1 .single-match.selected .match-info,
+body #LVSPORT_1 .single-match.selected .match-odds {
+  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #1c7700), color-stop(160%, #707070));
+  background: linear-gradient(to left, #1c7700 11%, #707070 160%);
+}
+
 button,
 hr,
 input {
