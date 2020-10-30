@@ -3854,4 +3854,14 @@ body .odds-table .single-match-row td.match-name .team {
       -ms-flex-flow: column;
           flex-flow: column;
 }
+
+.live-content-wrapper
+.live-sports-overview
+.sport-container
+.single-panel
+.panel-content
+.single-match
+.match-info {
+  width: 23%;
+}
 /*# sourceMappingURL=extra.css.map */
