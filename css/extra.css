@@ -4250,8 +4250,8 @@ body .odds-table .single-match-row td.match-name .team {
 }
 
 .ovlive-a {
-  background-color: #062164;
-  color: #fff;
+  background-color: var(--mainBg);
+  color: var(--mainBgCol);
   margin-bottom: 3px;
 }
 
@@ -4273,7 +4273,7 @@ body .odds-table .single-match-row td.match-name .team {
 }
 
 .ovlive-item.active {
-  border-bottom: 5px solid #fec900;
+  border-bottom: 5px solid var(--accent);
 }
 
 .ovlive-item.active .ovlive-item-ico,
@@ -4304,7 +4304,7 @@ body .odds-table .single-match-row td.match-name .team {
 }
 
 .ovlive-item.sport-1 .ovlive-item-ico {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-1.svg);
+  background-image: url(https://nextra.pcluster.info/css/fonts/soccer.svg);
 }
 
 .ovlive-item.sport-2 .ovlive-item-ico {
@@ -4312,15 +4312,15 @@ body .odds-table .single-match-row td.match-name .team {
 }
 
 .ovlive-item.sport-3 .ovlive-item-ico {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-3.svg);
+  background-image: url(https://nextra.pcluster.info/css/fonts/baseball.svg);
 }
 
 .ovlive-item.sport-4 .ovlive-item-ico {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-4.svg);
+  background-image: url(https://nextra.pcluster.info/css/fonts/hokey.svg);
 }
 
 .ovlive-item.sport-5 .ovlive-item-ico {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-5.svg);
+  background-image: url(https://nextra.pcluster.info/css/fonts/tennis.svg);
 }
 
 .ovlive-item.sport-6 .ovlive-item-ico {
@@ -4392,7 +4392,7 @@ body .odds-table .single-match-row td.match-name .team {
 }
 
 .ovlive-item.sport-23 .ovlive-item-ico {
-  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-23.svg);
+  background-image: url(https://nextra.pcluster.info/css/fonts/volley.svg);
 }
 
 .ovlive-item.sport-24 .ovlive-item-ico {
@@ -4472,8 +4472,8 @@ body .odds-table .single-match-row td.match-name .team {
 }
 
 .ovlive-b {
-  background-color: #3558bd;
-  color: #fff;
+  background-color: var(--bg1);
+  color: var(--col1);
   margin-bottom: 3px;
 }
 
