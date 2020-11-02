@@ -4145,4 +4145,10 @@ body .odds-table .single-match-row td.match-name .team {
   background: var(--teableSubHeadersBg);
   color: var(--teableSubHeadersCol);
 }
+
+.side-bar .single-block.betslip-holder .my-bets .legend,
+.side-bar .single-block.betslip-holder .my-bets .bets-wrapper {
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+}
 /*# sourceMappingURL=extra.css.map */
