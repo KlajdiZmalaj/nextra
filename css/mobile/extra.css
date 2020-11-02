@@ -8993,4 +8993,8 @@ div[data-source="in_play"]
 .sport_content_odds.live[data-sport-id="3"] .live_result iframe {
   min-height: 340px;
 }
+
+.live_result {
+  background: #333 !important;
+}
 /*# sourceMappingURL=extra.css.map */
