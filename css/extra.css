@@ -4151,4 +4151,393 @@ body .odds-table .single-match-row td.match-name .team {
   background: var(--mainBg);
   color: var(--mainBgCol);
 }
+
+.op-ifo {
+  margin-bottom: 50px;
+  text-decoration: none;
+  background-color: #093194;
+  color: #fff;
+  padding: 5px 15px 5px 5px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.op-ifo-ico {
+  padding: 5px;
+  margin-right: 15px;
+  color: #062164;
+  background-color: #fff;
+}
+
+.op-ifo:hover {
+  opacity: 0.9;
+}
+
+.ifo-container {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+.ifo-inner {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+  background-color: lightgray;
+  width: 800px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.ifo-head {
+  background-color: #062164;
+}
+
+.ifo-head-inner {
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.ifo-head-inner .ph-a {
+  color: #fff;
+}
+
+.ifo-head-inner .ph-a-ico {
+  margin-right: 10px;
+}
+
+.ifo-head-inner .ph-b {
+  color: #fff;
+  background-color: red;
+  width: 15px;
+  height: 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.ifo-head-inner .ph-b-ico {
+  position: absolute;
+  top: -2px;
+}
+
+.ifo-content .ifo-iframe-container .ifo-iframe {
+  width: 100%;
+  height: 600px;
+}
+
+.ifo-content .ifo-info-content {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.ifo-content .ifo-provider-inner {
+  text-align: center;
+}
+
+.ovlive-a {
+  background-color: #062164;
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+.ovlive-a .ovlive-aa-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 10px 20px 0px 20px;
+}
+
+.ovlive-item {
+  margin-top: 5px;
+  margin-right: 1%;
+  padding-bottom: 5px;
+  border-bottom: 5px solid transparent;
+  cursor: pointer;
+}
+
+.ovlive-item.active {
+  border-bottom: 5px solid #fec900;
+}
+
+.ovlive-item.active .ovlive-item-ico,
+.ovlive-item.active .ovlive-item-txt {
+  opacity: 1;
+}
+
+.ovlive-item:hover .ovlive-item-ico,
+.ovlive-item:hover .ovlive-item-txt {
+  opacity: 1;
+}
+
+.ovlive-item-ico {
+  opacity: 0.8;
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+  background-image: url(//nextra.nextra.bet/nextra/images/icon-placeholder.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.ovlive-item-txt {
+  opacity: 0.8;
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.ovlive-item.sport-1 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-1.svg);
+}
+
+.ovlive-item.sport-2 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-2.svg);
+}
+
+.ovlive-item.sport-3 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-3.svg);
+}
+
+.ovlive-item.sport-4 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-4.svg);
+}
+
+.ovlive-item.sport-5 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-5.svg);
+}
+
+.ovlive-item.sport-6 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-6.svg);
+}
+
+.ovlive-item.sport-7 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-7.svg);
+}
+
+.ovlive-item.sport-8 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-8.svg);
+}
+
+.ovlive-item.sport-9 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-9.svg);
+}
+
+.ovlive-item.sport-10 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-10.svg);
+}
+
+.ovlive-item.sport-11 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-11.svg);
+}
+
+.ovlive-item.sport-12 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-12.svg);
+}
+
+.ovlive-item.sport-13 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-13.svg);
+}
+
+.ovlive-item.sport-14 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-14.svg);
+}
+
+.ovlive-item.sport-15 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-15.svg);
+}
+
+.ovlive-item.sport-16 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-16.svg);
+}
+
+.ovlive-item.sport-17 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-17.svg);
+}
+
+.ovlive-item.sport-18 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-18.svg);
+}
+
+.ovlive-item.sport-19 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-19.svg);
+}
+
+.ovlive-item.sport-20 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-20.svg);
+}
+
+.ovlive-item.sport-21 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-21.svg);
+}
+
+.ovlive-item.sport-22 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-22.svg);
+}
+
+.ovlive-item.sport-23 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-23.svg);
+}
+
+.ovlive-item.sport-24 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-24.svg);
+}
+
+.ovlive-item.sport-25 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-25.svg);
+}
+
+.ovlive-item.sport-26 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-26.svg);
+}
+
+.ovlive-item.sport-27 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-27.svg);
+}
+
+.ovlive-item.sport-28 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-28.svg);
+}
+
+.ovlive-item.sport-29 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-29.svg);
+}
+
+.ovlive-item.sport-30 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-30.svg);
+}
+
+.ovlive-item.sport-31 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-31.svg);
+}
+
+.ovlive-item.sport-32 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-32.svg);
+}
+
+.ovlive-item.sport-33 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-33.svg);
+}
+
+.ovlive-item.sport-34 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-34.svg);
+}
+
+.ovlive-item.sport-35 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-35.svg);
+}
+
+.ovlive-item.sport-36 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-36.svg);
+}
+
+.ovlive-item.sport-37 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-37.svg);
+}
+
+.ovlive-item.sport-38 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-38.svg);
+}
+
+.ovlive-item.sport-39 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-39.svg);
+}
+
+.ovlive-item.sport-60 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-60.svg);
+}
+
+.ovlive-item.sport-81 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-26.svg);
+}
+
+.ovlive-item.sport-117 .ovlive-item-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-117.svg);
+}
+
+.ovlive-b {
+  background-color: #3558bd;
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+.ovlive-b .ovlive-bb-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 10px 20px 5px 20px;
+}
+
+.ovlive-eve {
+  margin-top: 5px;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  border-bottom: 5px solid transparent;
+  cursor: pointer;
+}
+
+.ovlive-eve.active {
+  border-bottom: 5px solid #fec900;
+}
+
+.ovlive-eve.active .ovlive-eve-ico,
+.ovlive-eve.active .ovlive-eve-txt {
+  opacity: 1;
+}
+
+.ovlive-eve:hover .ovlive-eve-ico,
+.ovlive-eve:hover .ovlive-eve-txt {
+  opacity: 1;
+}
+
+.ovlive-eve-ico {
+  opacity: 0.8;
+  margin: 0 auto;
+  width: 18px;
+  height: 18px;
+  background-image: url(//nextra.nextra.bet/nextra/images/icon-placeholder.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.ovlive-eve-txt {
+  opacity: 0.8;
+  margin-top: 3px;
+  font-size: 11px;
+}
+
+.ovlive-eve.sport-1 .ovlive-eve-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/13.png);
+}
+
+.ovlive-eve.sport-2 .ovlive-eve-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/17.png);
+}
+
+.ovlive-eve.sport-3 .ovlive-eve-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/296.png);
+}
+
+.ovlive-eve.sport-4 .ovlive-eve-ico {
+  background-image: url(//nextra.nextra.bet/nextra/images/48.png);
+}
 /*# sourceMappingURL=extra.css.map */
