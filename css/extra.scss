@@ -3752,6 +3752,26 @@ body .odds-table .single-match-row td.match-name {
   padding-bottom: 5px;
   border-bottom: 5px solid transparent;
   cursor: pointer;
+  &.sport- {
+    &1 {
+      order: 1;
+    }
+    &2 {
+      order: 3;
+    }
+    &4 {
+      order: 6;
+    }
+    &5 {
+      order: 2;
+    }
+    &20 {
+      order: 5;
+    }
+    &23 {
+      order: 4;
+    }
+  }
 }
 
 .ovlive-item.active {
