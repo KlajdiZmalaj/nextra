@@ -8855,3 +8855,10 @@ body {
   display: flex;
   flex-flow: column;
 }
+
+div[data-source="in_play"]
+  .sport_odds_main
+  .sport_line_title
+  .sport_odds_live_result {
+  margin-right: auto !important;
+}
