@@ -3622,3 +3622,8 @@ body .odds-table .single-match-row td.match-name {
   .match-info {
   width: 23%;
 }
+
+.odds-table .single-match-row td .goal-odd .label {
+  background: var(--teableSubHeadersBg);
+  color: var(--teableSubHeadersCol);
+}
