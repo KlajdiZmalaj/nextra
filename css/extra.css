@@ -4130,4 +4130,14 @@ body .odds-table .single-match-row td.match-name .team {
 .ifo-content .ifo-provider-inner {
   text-align: center;
 }
+
+.live-content-wrapper
+.live-sports-overview
+.sport-container
+.single-panel
+.panel-content
+.single-match
+.match-info {
+  width: 23%;
+}
 /*# sourceMappingURL=extra.css.map */
