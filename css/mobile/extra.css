@@ -8983,7 +8983,7 @@ div[data-source="in_play"]
 }
 
 .sport_content_odds.live[data-sport-id="1"] .live_result iframe {
-  min-height: 520px;
+  min-height: 485px;
 }
 
 .sport_content_odds.live[data-sport-id="2"] .live_result iframe {
@@ -8996,5 +8996,11 @@ div[data-source="in_play"]
 
 .live_result {
   background: #333 !important;
+}
+
+.live_result p.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=extra.css.map */
