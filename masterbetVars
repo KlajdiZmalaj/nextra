@@ -136,3 +136,8 @@ body.landing-page {
   color: var(--accent);
 }
 
+.header .top-header .top-header-content .primary-menu .header-buttons > button,
+.header .top-header .top-header-content .primary-menu .header-buttons > a {
+  background: #000 !important;
+  color: #fff !important;
+}
