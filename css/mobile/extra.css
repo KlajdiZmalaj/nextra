@@ -9031,6 +9031,8 @@ div[data-source="in_play"]
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: 1px solid var(--tableBorders);
+  padding-bottom: 7px;
 }
 
 .lista_movimenti.lista_scommesse > .row:not(.scommesse).info {

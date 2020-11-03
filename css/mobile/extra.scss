@@ -8891,6 +8891,8 @@ div[data-source="in_play"]
     margin-bottom: 5px;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid var(--tableBorders);
+    padding-bottom: 7px;
     &.info {
       flex-flow: column;
     }
