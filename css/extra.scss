@@ -3743,13 +3743,15 @@ body .odds-table .single-match-row td.match-name {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding: 10px 20px 0px 20px;
+  padding: 0;
+  padding-bottom: 2px;
+  padding-left: 15px;
 }
 
 .ovlive-item {
   margin-top: 5px;
   margin-right: 1%;
-  padding-bottom: 5px;
+  padding-bottom: 0;
   border-bottom: 5px solid transparent;
   cursor: pointer;
   order: 99;
@@ -3776,7 +3778,8 @@ body .odds-table .single-match-row td.match-name {
 }
 
 .ovlive-item.active {
-  border-bottom: 5px solid var(--accent);
+  border-bottom: 2px solid var(--accent);
+  box-shadow: 0px 6px 6px -6px var(--accent);
 }
 
 .ovlive-item.active .ovlive-item-ico,
@@ -3986,19 +3989,22 @@ body .odds-table .single-match-row td.match-name {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding: 10px 20px 5px 20px;
+  padding: 0;
+  padding-bottom: 3px;
+  padding-left: 15px;
 }
 
 .ovlive-eve {
   margin-top: 5px;
   margin-right: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   border-bottom: 5px solid transparent;
   cursor: pointer;
 }
 
 .ovlive-eve.active {
-  border-bottom: 5px solid #fec900;
+  border-bottom: 2px solid var(--accent);
+  box-shadow: 0px 6px 6px -6px var(--accent);
 }
 
 .ovlive-eve.active .ovlive-eve-ico,
@@ -4016,7 +4022,6 @@ body .odds-table .single-match-row td.match-name {
   margin: 0 auto;
   width: 18px;
   height: 18px;
-  background-image: url(//nextra.nextra.bet/nextra/images/icon-placeholder.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -4048,7 +4053,7 @@ body .odds-table .single-match-row td.match-name {
   background: var(--teableHeadersBg);
   color: var(--teableHeadersCol);
   /* padding: 6px; */
-  height: 30px;
+  height: 22px;
   align-items: center;
   justify-content: flex-start;
   font-size: 13px;
@@ -4059,4 +4064,28 @@ body .odds-table .single-match-row td.match-name {
 }
 .live-sports-overview .odd-types {
   overflow: hidden;
+}
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .label {
+  line-height: 22px;
+}
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
