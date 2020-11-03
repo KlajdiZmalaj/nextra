@@ -8881,3 +8881,62 @@ div[data-source="in_play"]
     display: flex;
   }
 }
+.lista_movimenti.lista_scommesse {
+  padding-top: 20px;
+  > .row:not(.scommesse) {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    &.info {
+      flex-flow: column;
+    }
+    label {
+      width: 25%;
+      flex-shrink: 0;
+    }
+    > div:nth-child(2) {
+      width: 75%;
+      flex-shrink: 0;
+    }
+    input,
+    select {
+      height: 30px;
+      width: 100%;
+    }
+  }
+  .button-holder {
+    width: 100%;
+  }
+}
+span {
+  &[data-op="1"] {
+    background: #fedb31 !important;
+  }
+  &[data-op="2"] {
+    background: #38e9a4 !important;
+  }
+  &[data-op="3"] {
+    background: #ff0000 !important;
+  }
+  &[data-op="4"] {
+    background: #dcb630 !important;
+  }
+  &[data-op="9"] {
+    background: #769a2f !important;
+  }
+  &[data-op="co"] {
+    background: #f4c685 !important;
+  }
+  &[data-op="pr"] {
+    background: #c929ad !important;
+  }
+  &[data-op="p"] {
+    background: #934add !important;
+  }
+}
+.menu_items_container span.menu-language-container {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-evenly;
+  height: auto;
+}

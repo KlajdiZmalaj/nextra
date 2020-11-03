@@ -9003,4 +9003,92 @@ div[data-source="in_play"]
   display: -ms-flexbox;
   display: flex;
 }
+
+.lista_movimenti.lista_scommesse {
+  padding-top: 20px;
+}
+
+.lista_movimenti.lista_scommesse > .row:not(.scommesse) {
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lista_movimenti.lista_scommesse > .row:not(.scommesse).info {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.lista_movimenti.lista_scommesse > .row:not(.scommesse) label {
+  width: 25%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.lista_movimenti.lista_scommesse > .row:not(.scommesse) > div:nth-child(2) {
+  width: 75%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.lista_movimenti.lista_scommesse > .row:not(.scommesse) input,
+.lista_movimenti.lista_scommesse > .row:not(.scommesse) select {
+  height: 30px;
+  width: 100%;
+}
+
+.lista_movimenti.lista_scommesse .button-holder {
+  width: 100%;
+}
+
+span[data-op="1"] {
+  background: #fedb31 !important;
+}
+
+span[data-op="2"] {
+  background: #38e9a4 !important;
+}
+
+span[data-op="3"] {
+  background: #ff0000 !important;
+}
+
+span[data-op="4"] {
+  background: #dcb630 !important;
+}
+
+span[data-op="9"] {
+  background: #769a2f !important;
+}
+
+span[data-op="co"] {
+  background: #f4c685 !important;
+}
+
+span[data-op="pr"] {
+  background: #c929ad !important;
+}
+
+span[data-op="p"] {
+  background: #934add !important;
+}
+
+.menu_items_container span.menu-language-container {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: auto;
+}
 /*# sourceMappingURL=extra.css.map */
