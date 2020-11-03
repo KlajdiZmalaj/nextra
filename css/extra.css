@@ -4270,6 +4270,9 @@ body .odds-table .single-match-row td.match-name .team {
   padding-bottom: 5px;
   border-bottom: 5px solid transparent;
   cursor: pointer;
+  -webkit-box-ordinal-group: 100;
+      -ms-flex-order: 99;
+          order: 99;
 }
 
 .ovlive-item.sport-1 {

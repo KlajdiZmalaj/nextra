@@ -3752,6 +3752,7 @@ body .odds-table .single-match-row td.match-name {
   padding-bottom: 5px;
   border-bottom: 5px solid transparent;
   cursor: pointer;
+  order: 99;
   &.sport- {
     &1 {
       order: 1;
