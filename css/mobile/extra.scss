@@ -8247,6 +8247,8 @@ span.sport_search_button {
 }
 
 [data-page="account"],
+[data-page="movimenti"],
+[data-page="scommesse"],
 [data-page="login"] {
   a.button.right.logout {
     background-color: var(--accent-bg);
@@ -8371,6 +8373,9 @@ li.fast_menu_option a span:nth-child(2) {
 }
 
 .main_container > .main_content {
+  padding-top: 130px;
+}
+[data-logged="false"] > .fields {
   padding-top: 130px;
 }
 

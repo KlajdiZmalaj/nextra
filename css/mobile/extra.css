@@ -8240,6 +8240,8 @@ span.sport_search_button {
 }
 
 [data-page="account"] a.button.right.logout,
+[data-page="movimenti"] a.button.right.logout,
+[data-page="scommesse"] a.button.right.logout,
 [data-page="login"] a.button.right.logout {
   background-color: var(--accent-bg);
   color: var(--accent-txt);
@@ -8255,6 +8257,8 @@ span.sport_search_button {
 }
 
 [data-page="account"] a.button.right.logout::before,
+[data-page="movimenti"] a.button.right.logout::before,
+[data-page="scommesse"] a.button.right.logout::before,
 [data-page="login"] a.button.right.logout::before {
   content: "\f08b";
   font-family: "Font Awesome 5 Pro";
@@ -8263,6 +8267,8 @@ span.sport_search_button {
 }
 
 [data-page="account"] [onclick="_go_back(event, this);"],
+[data-page="movimenti"] [onclick="_go_back(event, this);"],
+[data-page="scommesse"] [onclick="_go_back(event, this);"],
 [data-page="login"] [onclick="_go_back(event, this);"] {
   background: var(--accent-bg);
   color: var(--accent-txt);
@@ -8278,6 +8284,8 @@ span.sport_search_button {
 }
 
 [data-page="account"] [onclick="_go_back(event, this);"]:before,
+[data-page="movimenti"] [onclick="_go_back(event, this);"]:before,
+[data-page="scommesse"] [onclick="_go_back(event, this);"]:before,
 [data-page="login"] [onclick="_go_back(event, this);"]:before {
   font-family: "Font Awesome 5 Pro";
   content: "\f053";
@@ -8286,6 +8294,8 @@ span.sport_search_button {
 }
 
 [data-page="account"] a.button.right.login,
+[data-page="movimenti"] a.button.right.login,
+[data-page="scommesse"] a.button.right.login,
 [data-page="login"] a.button.right.login {
   background: var(--accent-bg);
   color: var(--accent-txt);
@@ -8301,6 +8311,8 @@ span.sport_search_button {
 }
 
 [data-page="account"] a.button.right.login:before,
+[data-page="movimenti"] a.button.right.login:before,
+[data-page="scommesse"] a.button.right.login:before,
 [data-page="login"] a.button.right.login:before {
   font-family: "Font Awesome 5 Pro";
   content: "\f090";
@@ -8406,6 +8418,10 @@ li.fast_menu_option a span:nth-child(2) {
 }
 
 .main_container > .main_content {
+  padding-top: 130px;
+}
+
+[data-logged="false"] > .fields {
   padding-top: 130px;
 }
 
