@@ -4000,6 +4000,11 @@ body .odds-table .single-match-row td.match-name {
   padding-bottom: 0px;
   border-bottom: 5px solid transparent;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
 }
 
 .ovlive-eve.active {
@@ -4025,6 +4030,9 @@ body .odds-table .single-match-row td.match-name {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
 }
 
 .ovlive-eve-txt {

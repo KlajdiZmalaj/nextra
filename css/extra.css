@@ -4537,6 +4537,17 @@ body .odds-table .single-match-row td.match-name .team {
   padding-bottom: 0px;
   border-bottom: 5px solid transparent;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
 }
 
 .ovlive-eve.active {
@@ -4563,6 +4574,13 @@ body .odds-table .single-match-row td.match-name .team {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 4px;
 }
 
 .ovlive-eve-txt {
