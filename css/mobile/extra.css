@@ -8405,8 +8405,7 @@ li.fast_menu_option a span:nth-child(2) {
   color: var(--mainBgCol);
 }
 
-.main_container > .main_content,
-.fields {
+.main_container > .main_content {
   padding-top: 130px;
 }
 
