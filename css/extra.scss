@@ -4043,3 +4043,20 @@ body .odds-table .single-match-row td.match-name {
 .ovlive-eve.sport-4 .ovlive-eve-ico {
   background-image: url(//nextra.nextra.bet/nextra/images/48.png);
 }
+.torn-a {
+  display: flex;
+  background: var(--teableHeadersBg);
+  color: var(--teableHeadersCol);
+  /* padding: 6px; */
+  height: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 13px;
+  padding-left: 17px;
+}
+.torn-a-ico {
+  margin-right: 9px;
+}
+.live-sports-overview .odd-types {
+  overflow: hidden;
+}

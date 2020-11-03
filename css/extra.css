@@ -4579,4 +4579,30 @@ body .odds-table .single-match-row td.match-name .team {
 .ovlive-eve.sport-4 .ovlive-eve-ico {
   background-image: url(//nextra.nextra.bet/nextra/images/48.png);
 }
+
+.torn-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: var(--teableHeadersBg);
+  color: var(--teableHeadersCol);
+  /* padding: 6px; */
+  height: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 13px;
+  padding-left: 17px;
+}
+
+.torn-a-ico {
+  margin-right: 9px;
+}
+
+.live-sports-overview .odd-types {
+  overflow: hidden;
+}
 /*# sourceMappingURL=extra.css.map */
