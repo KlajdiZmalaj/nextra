@@ -4644,4 +4644,8 @@ body .odds-table .single-match-row td.match-name .team {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.torn-inner .flag-icon {
+  height: 16px;
+}
 /*# sourceMappingURL=extra.css.map */
