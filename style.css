@@ -73,6 +73,10 @@ html .torn-a {
   color: #000000;
 }
 
+.single-sport .states .state .championship.selected .anchor {
+  background: #e7e7e7 !important;
+}
+
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;
