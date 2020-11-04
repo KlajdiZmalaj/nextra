@@ -4925,4 +4925,40 @@ span.ui-selectmenu-text {
 .logged-center .transaction-filters .row {
   width: 100%;
 }
+
+.logged-center .transaction-filters .row .row-content .label {
+  line-height: 23px;
+}
+
+.logged-center .transaction-filters .row .row-content .radio-holder {
+  padding: 0;
+  height: 21px;
+}
+
+.fa-folder-open-o {
+  font-family: FontAwesome !important;
+}
+
+.side-bar .single-block.betslip-holder .my-bets .legend .single-item:after {
+  background: #fec82e;
+}
+
+.side-bar
+.single-block.betslip-holder
+.my-bets
+.legend
+.single-item.void:after {
+  background-color: #0073b9;
+}
+
+.coupon-popup-wrapper
+.coupon-details-popup
+.coupon-details-content
+.events-list
+table
+tr
+td.result
+span {
+  background: #fec82e;
+}
 /*# sourceMappingURL=extra.css.map */
