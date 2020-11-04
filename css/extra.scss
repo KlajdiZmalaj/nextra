@@ -4178,3 +4178,44 @@ body .odds-table .single-match-row td.match-name {
 .game-overlay-inner .game-pro-container .game-pro-ico {
   display: none;
 }
+
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .combination-wrapper
+  .totals-section
+  table
+  th
+  .ui-selectmenu-button,
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .combination-wrapper
+  .totals-section
+  table
+  th
+  select,
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .combination-wrapper
+  .totals-section
+  table
+  td
+  .ui-selectmenu-button,
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .combination-wrapper
+  .totals-section
+  table
+  td
+  select {
+  background: #fff;
+  color: #222;
+  &:hover,
+  &:focus {
+    background: #fff;
+    color: #222;
+  }
+}
