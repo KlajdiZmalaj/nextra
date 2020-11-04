@@ -4983,7 +4983,7 @@ span {
   background: #fec82e;
 }
 
-.register-button {
+[class="register-button"] {
   display: none !important;
 }
 
