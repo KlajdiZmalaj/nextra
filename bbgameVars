@@ -140,6 +140,18 @@ body.landing-page {
   background-image: none;
 }
 .center-content.live-center-content {
-      grid-template-columns: 1fr 340px !important;
+  grid-template-columns: 1fr 340px !important;
+}
 
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd
+  .odd-type:after {
+  display: none !important;
 }

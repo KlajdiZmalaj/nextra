@@ -1,8 +1,8 @@
-$skin: "masterbet";
+$skin: "bbgame";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/masterbet/images/logo2.svg";
+$logoUrl: "https://nextra.pcluster.info/bbgame/images/logo2.svg";
 $bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
 $bodyCol: #000;
 
@@ -16,7 +16,7 @@ html:root {
   --primary-txt: #fff;
   --secondary-bg: #212931;
   --secondary-txt: #fff;
-  --mainBg: #171d24;
+  --mainBg: #212931;
   --mainBgCol: #fff;
   --bg1: #29333b;
   --col1: #fff;
@@ -35,7 +35,7 @@ html:root {
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "masterbet";
+  --skin: "bbgame";
 }
 
 $secondary: #95cd3b;
@@ -52,11 +52,6 @@ $sb-2: #525b61;
 
 body {
   background-size: 2038px !important;
-}
-
-body.landing-page {
-  background-color: #31343d !important;
-  background-image: none;
 }
 
 .main-content.home-page
@@ -136,16 +131,27 @@ body.landing-page {
   color: var(--accent);
 }
 
-.header .top-header .top-header-content .primary-menu .header-buttons > button,
-.header .top-header .top-header-content .primary-menu .header-buttons > a {
-  background: #000 !important;
-  color: #fff !important;
+.odds-table .second-header td {
+  color: var(--accent);
 }
-body
-  .side-bar
-  .single-block.betslip-holder
-  .betslip-controllers
-  .single-controller.active {
-  background: #14191d;
-  color: #e9e9e9;
+
+body.landing-page {
+  background-color: #31343d !important;
+  background-image: none;
+}
+.center-content.live-center-content {
+  grid-template-columns: 1fr 340px !important;
+}
+
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd
+  .odd-type:after {
+  display: none !important;
 }
