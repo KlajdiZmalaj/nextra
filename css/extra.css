@@ -4910,7 +4910,19 @@ span.ui-selectmenu-text {
 .odds-holder
 .single-odd
 .odd-type:after,
-.single-odd-type .odd-type:after {
+.single-odd-type .odd-type:after,
+.single-live-odd .quote:after {
   display: none !important;
+}
+
+.logged-center .transaction-filters {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.logged-center .transaction-filters .row {
+  width: 100%;
 }
 /*# sourceMappingURL=extra.css.map */

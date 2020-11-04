@@ -4280,6 +4280,14 @@ body .odds-table .single-match-row td.match-name {
   .odds-holder
   .single-odd
   .odd-type:after,
-.single-odd-type .odd-type:after {
+.single-odd-type .odd-type:after,
+.single-live-odd .quote:after {
   display: none !important;
+}
+.logged-center .transaction-filters {
+  flex-flow: column;
+  .row {
+    width: 100%;
+
+  }
 }
