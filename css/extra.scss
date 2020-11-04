@@ -4265,3 +4265,7 @@ body .odds-table .single-match-row td.match-name {
 .logged-header + .home-page {
   padding-top: 0;
 }
+.header.logged-header + .live-page {
+  position: relative;
+  top: -28px;
+}

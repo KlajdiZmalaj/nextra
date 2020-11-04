@@ -4894,4 +4894,9 @@ span.ui-selectmenu-text {
 .logged-header + .home-page {
   padding-top: 0;
 }
+
+.header.logged-header + .live-page {
+  position: relative;
+  top: -28px;
+}
 /*# sourceMappingURL=extra.css.map */
