@@ -182,3 +182,7 @@ html {
     }
   }
 }
+.torn-a {
+  background: #e7e7e7 !important;
+}
+//

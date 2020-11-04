@@ -1,154 +1,188 @@
-$skin: "masterbet";
+html:root {
+  --accent: #005293;
+  --accent-bg: #005293;
+  --accent-txt: #ffcc00;
+  --primary-bg: #005293;
+  --primary-txt: #ffffff;
+  --secondary-bg: #ffffff;
+  --secondary-txt: #000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #e7e7e7;
+  --col1: #000;
+  --teableHeadersBg: #ffcc00;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #005293;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #a3a3a3;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --casinoGradient2: #f4c100;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+  --skin: "bsport10";
+}
+
+$skin: "bsport10";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/masterbet/images/logo2.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
+$logoUrl: "http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/blue.jpg";
 $bodyCol: #000;
-
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
-html:root {
-  --accent: #95cd3b;
-  --accent-bg: #95cd3b;
-  --accent-txt: #000;
-  --primary-bg: #000;
-  --primary-txt: #fff;
-  --secondary-bg: #212931;
-  --secondary-txt: #fff;
-  --mainBg: #171d24;
-  --mainBgCol: #fff;
-  --bg1: #29333b;
-  --col1: #fff;
-  --teableHeadersBg: #384351;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #14191d;
-  --teableSubHeadersCol: #ffffff;
-  --tableBorders: #445461;
-  --casinoGradient1: linear-gradient(
-    to right,
-    #95cd3b00 3%,
-    #95cd3b 60%,
-    #95cd3b00 99%
-  );
-  --casinoGradient1-txt: #000;
-  --casinoGradient2: #636363;
-  --casinoGradient2-txt: #000;
-  --backDrops: #000000cf;
-  --skin: "masterbet";
-}
+$invet: 0;
 
-$secondary: #95cd3b;
+$secondary: #005293;
 $secondaryCol: #fff;
-$black: #000000;
-$secondaryDark: #95cd3b;
+
+$secondaryDark: #0a497e;
 $secondaryDarkCol: #fff;
-$primary: #607d8b;
+$black: #000000;
+$primary: #c2c2c2;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #525b61;
+$sb-2: #0a96f0;
 
-body {
-  background-size: 2038px !important;
+//icesport styles
+
+//black filter li logos
+#favouriteTournaments li:before {
+  filter: brightness(0.1);
+}
+
+.side-bar .single-block .block-content form input[type="submit"] {
+  background-color: var(--accent-txt);
 }
 
 body.landing-page {
-  background-color: #31343d !important;
+  background-color: #181e2c !important;
   background-image: none;
 }
+html {
+  #LVSPORT_1 {
+    .anchor {
+      background: #1b7700 !important;
+      color: #fff !important;
+    }
+    .single-match {
+      border-left: 3px solid #45dc2d;
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to right, #1b7700 -37%, #6ea683 110%);
+        color: #fff;
+      }
+      &.selected {
+        border-right: 3px solid #45dc2d;
+        border-left: 1px solid var(--tableBorders);
+        .match-info,
+        .match-odds {
+          background: linear-gradient(to left, #7d9e73 11%, #ffffff 160%);
+          color: #000;
+        }
+      }
+    }
+  }
 
-.main-content.home-page
-  .left-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:nth-child(2)
-  .block-title
-  span {
-  color: var(--accent-bg);
-  font-weight: 500;
-}
+  #LVSPORT_5 {
+    .anchor {
+      background: #bf9a17 !important;
+      color: #000 !important;
+    }
+    .single-match {
+      border-left: 3px solid #deb826;
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to right, #bf9a17 -21%, #f0f0f0 120%);
+        color: #000;
+      }
+      &.selected {
+        border-right: 3px solid #deb826;
+        border-left: 1px solid var(--tableBorders);
+        .match-info,
+        .match-odds {
+          background: linear-gradient(to left, #f7c924 11%, #f0f0f0 160%);
+          color: #222;
+        }
+      }
+    }
+  }
 
-.single-sport .states .state .championship.selected .anchor {
-  color: var(--accent);
-}
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark:after,
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark {
-  border-color: var(--accent) !important;
-}
+  #LVSPORT_2 {
+    .anchor {
+      background: #91311d !important;
+      color: #fff !important;
+    }
+    .single-match {
+      border-left: 3px solid #c74227;
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to right, #91311d -21%, #db7965 120%);
+        color: #fff;
+      }
+      &.selected {
+        border-right: 3px solid #e44f31;
+        border-left: 1px solid var(--tableBorders);
+        .match-info,
+        .match-odds {
+          background: linear-gradient(to left, #e74d2e 11%, #fff 160%);
+          color: #222;
+        }
+      }
+    }
+  }
 
-.odds-table .second-header td.day {
-  color: var(--accent);
-}
+  #LVSPORT_23 {
+    .anchor {
+      background: #e6a260 !important;
+      color: #222 !important;
+    }
+    .single-match {
+      border-left: 3px solid #f1c394;
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to right, #e6a260 -21%, #fff 120%);
+        color: #222;
+      }
+      &.selected {
+        border-right: 3px solid #ffeddb;
+        border-left: 1px solid var(--tableBorders);
+        .match-info,
+        .match-odds {
+          background: linear-gradient(to left, #ffbb76 11%, #fff 160%);
+          color: #222;
+        }
+      }
+    }
+  }
 
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
-  border: 1px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
+  #LVSPORT_4 {
+    .anchor {
+      background: #006290 !important;
+      color: #fff !important;
+    }
+    .single-match {
+      border-left: 3px solid #1d8bbe;
+      .match-info,
+      .match-odds {
+        background: linear-gradient(to right, #006290 -21%, #40b9f2 120%);
+        color: #fff;
+      }
+      &.selected {
+        border-right: 3px solid #1b8fc5;
+        border-left: 1px solid var(--tableBorders);
+        .match-info,
+        .match-odds {
+          background: linear-gradient(to left, #1291cc 11%, #fff 160%);
+          color: #222;
+        }
+      }
+    }
+  }
 }
-
-.tabs-holder .tabs-row .single-tab {
-  border-bottom: 2px solid transparent !important;
+.torn-a {
+  background: #e7e7e7 !important;
 }
-
-.tabs-holder .tabs-row .single-tab:hover,
-.tabs-holder .tabs-row .single-tab.active {
-  border-bottom: 2px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-.odds-table .second-header {
-  opacity: 1 !important;
-}
-
-.side-bar
-  .single-block.betslip-holder
-  .betslip
-  .selections-wrapper
-  .single-event
-  .selected-bet
-  .bet
-  .quote {
-  color: var(--accent);
-}
-
-.header .top-header .top-header-content .primary-menu .header-buttons > button,
-.header .top-header .top-header-content .primary-menu .header-buttons > a {
-  background: #000 !important;
-  color: #fff !important;
-}
-body
-  .side-bar
-  .single-block.betslip-holder
-  .betslip-controllers
-  .single-controller.active {
-  background: #14191d;
-  color: #e9e9e9;
-}
-.header .top-header .top-header-content .logo-holder a:before {
-  width: 230px !important;
-}
+//
