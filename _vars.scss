@@ -63,7 +63,7 @@ html body {
 }
 
 .header .top-bar {
-  background: #0e1428 !important;
+  background: #000 !important;
   color: var(--accent-txt) !important;
 }
 
@@ -75,4 +75,10 @@ footer {
 }
 .header .top-header .top-header-content .primary-menu li a:after {
   color: inherit !important;
+}
+html {
+  .header .top-header .top-header-content .primary-menu ul li:hover:before,
+  .header .top-header .top-header-content .primary-menu ul li.active:before {
+    border-bottom: 10px solid #fdd402 !important;
+  }
 }
