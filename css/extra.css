@@ -3307,7 +3307,7 @@ div#ui-datepicker-div[style*="display: block"] {
   text-align: center;
   margin: 0;
   padding: 2px 7px;
-  background: #e41717;
+  background: #14191d;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4846,5 +4846,44 @@ td
 select:focus {
   background: #fff;
   color: #222;
+}
+
+.side-bar
+.single-block.betslip-holder
+.betslip
+.combination-wrapper
+.totals-section
+table
+th
+.ui-selectmenu-button
+span.ui-selectmenu-text,
+.side-bar
+.single-block.betslip-holder
+.betslip
+.combination-wrapper
+.totals-section
+table
+th
+select
+span.ui-selectmenu-text,
+.side-bar
+.single-block.betslip-holder
+.betslip
+.combination-wrapper
+.totals-section
+table
+td
+.ui-selectmenu-button
+span.ui-selectmenu-text,
+.side-bar
+.single-block.betslip-holder
+.betslip
+.combination-wrapper
+.totals-section
+table
+td
+select
+span.ui-selectmenu-text {
+  color: inherit;
 }
 /*# sourceMappingURL=extra.css.map */
