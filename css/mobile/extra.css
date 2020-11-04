@@ -9135,5 +9135,7 @@ span[data-op="p"] {
   font-size: 12px;
   background: var(--bg1);
   color: var(--col1);
+  z-index: 1;
+  font-weight: 300;
 }
 /*# sourceMappingURL=extra.css.map */
