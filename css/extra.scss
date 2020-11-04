@@ -4338,3 +4338,6 @@ body .odds-table .single-match-row td.match-name {
 .register-button {
   display: none !important;
 }
+.live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info span {
+  word-break: break-all;
+}

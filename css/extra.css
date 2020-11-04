@@ -4986,4 +4986,8 @@ span {
 .register-button {
   display: none !important;
 }
+
+.live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info span {
+  word-break: break-all;
+}
 /*# sourceMappingURL=extra.css.map */
