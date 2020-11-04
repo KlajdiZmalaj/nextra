@@ -70,3 +70,9 @@ html body {
 footer {
   background: var(--accent-bg) !important;
 }
+.header .top-header .top-header-content .primary-menu ul li.active {
+  color: #ffeb3b !important;
+}
+.header .top-header .top-header-content .primary-menu li a:after {
+  color: inherit !important;
+}
