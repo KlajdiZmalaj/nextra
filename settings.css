@@ -59,6 +59,16 @@ html .header .top-header .top-header-content .primary-menu ul li.active:before {
   border-bottom: 10px solid #fdd402 !important;
 }
 
+html footer {
+  background: #075424 !important;
+  color: #fff !important;
+}
+
+html .torn-a {
+  background: #e9e9e9;
+  color: #000000;
+}
+
 button,
 hr,
 input {
