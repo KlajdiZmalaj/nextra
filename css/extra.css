@@ -4930,6 +4930,10 @@ span.ui-selectmenu-text {
   line-height: 23px;
 }
 
+.logged-center .transaction-filters .row .row-content .input-holder {
+  padding: 1px;
+}
+
 .logged-center .transaction-filters .row .row-content .radio-holder {
   padding: 0;
   height: 21px;
