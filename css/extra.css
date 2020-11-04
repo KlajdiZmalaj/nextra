@@ -4987,7 +4987,14 @@ span {
   display: none !important;
 }
 
-.live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info span {
+.live-content-wrapper
+.live-sports-overview
+.sport-container
+.single-panel
+.panel-content
+.single-match
+.time-info
+span {
   word-break: break-all;
   width: 52px;
   padding: 0 !important;
@@ -5003,5 +5010,10 @@ span {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-align: center;
+}
+
+.left-side-bar.closed {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 /*# sourceMappingURL=extra.css.map */
