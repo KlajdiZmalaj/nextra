@@ -4283,3 +4283,14 @@ body .odds-table .single-match-row td.match-name {
 .single-odd-type .odd-type:after {
   display: none !important;
 }
+
+.fa-folder-open-o {font-family: FontAwesome!important;}
+.side-bar .single-block.betslip-holder .my-bets .legend .single-item:after {
+  background:  #fec82e;
+}
+.side-bar .single-block.betslip-holder .my-bets .legend .single-item.void:after {
+  background-color:#0073b9;
+}
+.coupon-popup-wrapper .coupon-details-popup .coupon-details-content .events-list table tr td.result span {
+  background:#fec82e;
+}
