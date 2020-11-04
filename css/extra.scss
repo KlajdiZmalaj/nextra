@@ -4340,4 +4340,11 @@ body .odds-table .single-match-row td.match-name {
 }
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info span {
   word-break: break-all;
+  width: 52px;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
 }
