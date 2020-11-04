@@ -4939,7 +4939,12 @@ span.ui-selectmenu-text {
   height: 21px;
 }
 
-.logged-center .transaction-filters .row .row-content .radio-holder .radio-label {
+.logged-center
+.transaction-filters
+.row
+.row-content
+.radio-holder
+.radio-label {
   line-height: 10px;
   font-size: 12px;
   display: -webkit-box;
@@ -4976,5 +4981,9 @@ tr
 td.result
 span {
   background: #fec82e;
+}
+
+.register-button {
+  display: none !important;
 }
 /*# sourceMappingURL=extra.css.map */

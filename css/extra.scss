@@ -4300,13 +4300,17 @@ body .odds-table .single-match-row td.match-name {
   padding: 0;
   height: 21px;
 }
-.logged-center .transaction-filters .row .row-content .radio-holder .radio-label {
+.logged-center
+  .transaction-filters
+  .row
+  .row-content
+  .radio-holder
+  .radio-label {
   line-height: 10px;
   font-size: 12px;
   display: flex;
   align-items: center;
   padding-left: 0px;
-
 }
 .fa-folder-open-o {
   font-family: FontAwesome !important;
@@ -4330,4 +4334,7 @@ body .odds-table .single-match-row td.match-name {
   td.result
   span {
   background: #fec82e;
+}
+.register-button {
+  display: none !important;
 }
