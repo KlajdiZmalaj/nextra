@@ -3307,8 +3307,8 @@ div#ui-datepicker-div[style*="display: block"] {
   text-align: center;
   margin: 0;
   padding: 2px 7px;
-  background: #14191d;
-  color: #fff;
+  background: var(--mainBg);
+  color: var(--mainBgCol);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4885,5 +4885,13 @@ td
 select
 span.ui-selectmenu-text {
   color: inherit;
+}
+
+.header.logged-header .bottom-header {
+  top: 0;
+}
+
+.logged-header + .home-page {
+  padding-top: 0;
 }
 /*# sourceMappingURL=extra.css.map */

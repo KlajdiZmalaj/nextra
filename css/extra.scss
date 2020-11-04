@@ -2885,8 +2885,8 @@ div#ui-datepicker-div[style*="display: block"] {
   text-align: center;
   margin: 0;
   padding: 2px 7px;
-  background: #14191d;
-  color: #fff;
+  background: var(--mainBg);
+  color: var(--mainBgCol);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4257,4 +4257,11 @@ body .odds-table .single-match-row td.match-name {
   select
   span.ui-selectmenu-text {
   color: inherit;
+}
+
+.header.logged-header .bottom-header {
+  top: 0;
+}
+.logged-header + .home-page {
+  padding-top: 0;
 }
