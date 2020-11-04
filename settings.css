@@ -1,6 +1,6 @@
 html:root {
   --accent: #075424;
-  --accent-bg: #ffeb3b;
+  --accent-bg: #fdd402;
   --accent-txt: #222;
   --primary-bg: #d9d9d9;
   --primary-txt: #000000;
@@ -17,7 +17,7 @@ html:root {
   --tableBorders: #a3a3a3;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --casinoGradient2: #fdd402;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
   --skin: "fourbet";
@@ -39,7 +39,7 @@ html body {
 
 .header .top-bar {
   background: #000 !important;
-  color: var(--accent-txt) !important;
+  color: #fff !important;
 }
 
 footer {
