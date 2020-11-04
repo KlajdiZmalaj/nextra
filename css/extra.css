@@ -4939,6 +4939,18 @@ span.ui-selectmenu-text {
   height: 21px;
 }
 
+.logged-center .transaction-filters .row .row-content .radio-holder .radio-label {
+  line-height: 10px;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 0px;
+}
+
 .fa-folder-open-o {
   font-family: FontAwesome !important;
 }
