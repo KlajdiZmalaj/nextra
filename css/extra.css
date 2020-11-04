@@ -4899,4 +4899,18 @@ span.ui-selectmenu-text {
   position: relative;
   top: -28px;
 }
+
+.live-content-wrapper
+.live-sports-overview
+.sport-container
+.single-panel
+.panel-content
+.single-match
+.odds-wrapper
+.odds-holder
+.single-odd
+.odd-type:after,
+.single-odd-type .odd-type:after {
+  display: none !important;
+}
 /*# sourceMappingURL=extra.css.map */
