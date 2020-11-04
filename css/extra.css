@@ -5016,4 +5016,18 @@ span {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
+
+.casino-pro-down .casino-pro-list .casino-pro-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  padding: 2px 5px;
+}
 /*# sourceMappingURL=extra.css.map */

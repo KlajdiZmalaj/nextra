@@ -4358,3 +4358,11 @@ body .odds-table .single-match-row td.match-name {
 .left-side-bar.closed {
   flex-shrink: 0;
 }
+
+.casino-pro-down .casino-pro-list .casino-pro-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding: 2px 5px;
+}
