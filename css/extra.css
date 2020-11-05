@@ -4705,9 +4705,13 @@ body .odds-table .single-match-row td.match-name .team {
   margin-top: 50px;
 }
 
+.casino-search-container .casino-search-inner .cs-c {
+  position: relative;
+}
+
 .game-grid .game-grid-item-a .game-overlay .game-play-contianer .game-play-btn {
-  padding: 10px 50px;
-  font-size: 30px;
+  padding: 10px 30px;
+  font-size: 20px;
 }
 
 .game-grid
@@ -4715,7 +4719,8 @@ body .odds-table .single-match-row td.match-name .team {
 .game-overlay
 .game-play-contianer
 .game-play-btn-b {
-  padding: 10px 40px;
+  padding: 10px 20px;
+  font-size: 20px;
 }
 
 .game-grid .game-grid-item-a .game-overlay .game-pro-container .game-pro-ico {
@@ -4739,10 +4744,6 @@ body .odds-table .single-match-row td.match-name .team {
   display: block;
   width: 210px;
   height: 148.583px;
-}
-
-.game-overlay-inner .game-pro-container .game-pro-ico {
-  display: none;
 }
 
 .side-bar
