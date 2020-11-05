@@ -8968,11 +8968,23 @@ span {
     font-weight: 300;
   }
 }
-.ctg_g_icon img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+.ctg_g_icon {
+  height: 100px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: bottom;
+  }
 }
 .casino_container {
   padding-top: 123px;
+}
+.casino_container
+  .casino_type
+  .ct_games_container
+  .ctg_games
+  .ctg_game_item
+  .ctg_g_icon {
+  background: transparent !important;
 }
