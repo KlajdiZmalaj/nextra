@@ -9138,4 +9138,8 @@ span[data-op="p"] {
   z-index: 1;
   font-weight: 300;
 }
+
+.ctg_g_icon img {
+  width: 100%;
+}
 /*# sourceMappingURL=extra.css.map */
