@@ -9145,4 +9145,8 @@ span[data-op="p"] {
   -o-object-fit: contain;
      object-fit: contain;
 }
+
+.casino_container {
+  padding-top: 123px;
+}
 /*# sourceMappingURL=extra.css.map */
