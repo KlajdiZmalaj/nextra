@@ -2018,6 +2018,9 @@ body #oddsMenu tr {
 #indexPoker a:after {
   content: "\e906";
 }
+#indexVirtual a:after {
+  content: "\e909";
+}
 #indexLivechat a:after {
   content: "\f27b";
   font: normal normal normal 14px/1 FontAwesome;
@@ -4179,7 +4182,6 @@ body .odds-table .single-match-row td.match-name {
   width: 210px;
   height: 148.583px;
 }
-
 
 .side-bar
   .single-block.betslip-holder

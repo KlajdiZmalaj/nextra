@@ -2258,6 +2258,10 @@ body #oddsMenu tr .odd-type {
   content: "\e906";
 }
 
+#indexVirtual a:after {
+  content: "\e909";
+}
+
 #indexLivechat a:after {
   content: "\f27b";
   font: normal normal normal 14px/1 FontAwesome;
