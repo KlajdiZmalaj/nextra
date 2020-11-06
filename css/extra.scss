@@ -4379,5 +4379,10 @@ body .odds-table .single-match-row td.match-name {
     .game-grid-minus {
       display: none;
     }
+    h2 {
+      font-weight: 600;
+      color: var(--accent);
+    }
   }
+
 }

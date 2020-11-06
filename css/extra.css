@@ -5043,4 +5043,9 @@ span {
 .casino-section .game-grid-head .game-grid-minus {
   display: none;
 }
+
+.casino-section .game-grid-head h2 {
+  font-weight: 600;
+  color: var(--accent);
+}
 /*# sourceMappingURL=extra.css.map */
