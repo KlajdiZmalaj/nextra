@@ -4370,3 +4370,14 @@ body .odds-table .single-match-row td.match-name {
   height: 40px;
   padding: 2px 5px;
 }
+
+.more-container .more-btn {
+  cursor: pointer;
+}
+.casino-section {
+  .game-grid-head {
+    .game-grid-minus {
+      display: none;
+    }
+  }
+}
