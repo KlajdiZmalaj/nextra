@@ -1301,9 +1301,9 @@ div.landing-page
   .quarter:last-child:before {
   content: "\e900";
 }
-.odds-table .second-header td {
-  color: var(--accent);
-}
+// .odds-table .second-header td {
+//   color: var(--accent);
+// }
 .grid .cell.quarter {
   overflow: hidden;
 }

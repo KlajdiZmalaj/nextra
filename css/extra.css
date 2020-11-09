@@ -1408,10 +1408,6 @@ div.landing-page
   content: "\e900";
 }
 
-.odds-table .second-header td {
-  color: var(--accent);
-}
-
 .grid .cell.quarter {
   overflow: hidden;
 }
