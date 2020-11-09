@@ -149,3 +149,6 @@ html body .sport.active[id*="LVSPORT"] {
     color: var(--col1) !important;
   }
 }
+.sport.active .single-match {
+  border-left: 0 !important;
+}

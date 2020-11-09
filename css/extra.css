@@ -4905,6 +4905,7 @@ span.ui-selectmenu-text {
 .header.logged-header + .live-page {
   position: relative;
   top: -28px;
+  margin-bottom: -28px;
 }
 
 .live-content-wrapper
@@ -5052,6 +5053,7 @@ span {
   white-space: nowrap;
   background: var(--teableHeadersBg);
   color: var(--teableHeadersCol);
+  overflow: hidden;
 }
 
 .live-page .allmatches-head {

@@ -4274,6 +4274,7 @@ body .odds-table .single-match-row td.match-name {
 .header.logged-header + .live-page {
   position: relative;
   top: -28px;
+  margin-bottom: -28px;
 }
 
 .live-content-wrapper
@@ -4380,6 +4381,7 @@ body .odds-table .single-match-row td.match-name {
   white-space: nowrap;
   background: var(--teableHeadersBg);
   color: var(--teableHeadersCol);
+  overflow: hidden;
 }
 
 .live-page {

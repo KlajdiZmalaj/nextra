@@ -135,6 +135,10 @@ html body .sport.active[id*="LVSPORT"] .single-match .match-odds {
   color: var(--col1) !important;
 }
 
+.sport.active .single-match {
+  border-left: 0 !important;
+}
+
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;
