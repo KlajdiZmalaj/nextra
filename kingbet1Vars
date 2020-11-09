@@ -67,3 +67,7 @@ body.landing-page {
   background-color: #31343d !important;
   background-image: none;
 }
+.torn-a {
+    background: var(--secondary-bg)!important;
+    color: var(--secondary-txt)!important;
+}

@@ -1,93 +1,52 @@
-html:root {
-  --accent: #075424;
-  --accent-bg: #fdd402;
-  --accent-txt: #222;
-  --primary-bg: #d9d9d9;
-  --primary-txt: #000000;
-  --secondary-bg: #075424;
-  --secondary-txt: #fff;
-  --mainBg: #ffffff;
-  --mainBgCol: #000;
-  --bg1: #e7e7e7;
-  --col1: #000;
-  --teableHeadersBg: #075424;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #cccccc;
-  --teableSubHeadersCol: #000000;
-  --tableBorders: #a3a3a3;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
-  --casinoGradient2: #fdd402;
-  --casinoGradient2-txt: #000;
-  --backDrops: #000000cf;
-  --skin: "fourbet";
-}
-
-$skin: "fourbet";
+$skin: "daybet24";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "http://static.pcluster.info/skins/fourbet/img/logo/newlogo.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/green.jpg";
+$logoUrl: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNjk1LjcyIDExMC4zMiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50KTt9LmNscy0ye2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQtMik7fS5jbHMtM3tmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTMpO308L3N0eWxlPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iNTk5Ljk4IiB4Mj0iNTk5Ljk4IiB5Mj0iMTEwLjMyIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmZjZTAwIi8+PHN0b3Agb2Zmc2V0PSIwLjMxIiBzdG9wLWNvbG9yPSIjZmNjYjAwIi8+PHN0b3Agb2Zmc2V0PSIwLjU3IiBzdG9wLWNvbG9yPSIjZjJjMzAwIi8+PHN0b3Agb2Zmc2V0PSIwLjgiIHN0b3AtY29sb3I9IiNlMGI1MDAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNjY2E1MDAiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTIiIHgxPSIxMzkuMTkiIHkxPSI4Ljc0IiB4Mj0iMTM5LjE5IiB5Mj0iOTUuMzYiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQiLz48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC0zIiB4MT0iMzkyLjE4IiB5MT0iOC42OCIgeDI9IjM5Mi4xOCIgeTI9Ijk1LjMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM2ZTZlNmUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48dGl0bGU+bG9nbzwvdGl0bGU+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48cG9seWdvbiBjbGFzcz0iY2xzLTEiIHBvaW50cz0iNjcwLjQ2IDExMC4zMiA1MDQuMjMgMTEwLjMyIDUyOS40OSAwIDY5NS43MiAwIDY3MC40NiAxMTAuMzIiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0zMy41Niw5NS4zNkgwTDIxLjY1LDguODVINTUuMjJhMzQuMTgsMzQuMTgsMCwwLDEsMTUuNDgsMy40LDI5Ljg2LDI5Ljg2LDAsMCwxLDExLDkuMjUsMzIuNDMsMzIuNDMsMCwwLDEsNS41NywxMy43M0E0MC40MSw0MC40MSwwLDAsMSw4Ni40LDUyLjFhNTIuODYsNTIuODYsMCwwLDEtNy41OCwxNi44MkE2NC4yNCw2NC4yNCwwLDAsMSw2Ni4zNyw4Mi42NSw1OC44NSw1OC44NSwwLDAsMSw1MC43Myw5Miw0NS44NSw0NS44NSwwLDAsMSwzMy41Niw5NS4zNlptMTUuNi02NS41MUgzOC4zM0wyNy4xOCw3NC4zNUgzOC4xMWEyMS4zOSwyMS4zOSwwLDAsMCw4LjQ1LTEuNzksMzAuODQsMzAuODQsMCwwLDAsNy43OS00Ljc3LDMxLjM1LDMxLjM1LDAsMCwwLDYuMjMtNy4wNiwyOS4wOCwyOS4wOCwwLDAsMCwzLjg0LTguNjMsMjEuOTEsMjEuOTEsMCwwLDAsLjQ0LTguNTcsMTcuNTEsMTcuNTEsMCwwLDAtMi43MS03LjA2LDE1LDE1LDAsMCwwLTUuNDEtNC44M0ExNS45MiwxNS45MiwwLDAsMCw0OS4xNiwyOS44NVpNMTYwLjU3LDguNzRIMTQzLjQ2TDgzLjU5LDk1LjM2SDEwNy4zTDExOC41Myw3OC45bDE1LjEyLTIyLjQxaDBsMTAuMTgtMTUuMDUsMi44MSwxNS4wNWgtOS4zOEwxMjMuNDEsNzdoMjYuNzdsMy4yNCwxOC40MWgyMy44MlpNMjMwLjMsNTcuODksMjIxLDk1LjM2SDE5OWw5LjMxLTM3LjQ3TDE4NC43MSw4Ljc0aDI1Ljc3TDIyNC4yMywzOC4zLDI1Mi43MSw4Ljc0aDI1LjY2WiIvPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTMxMSw5NS4zSDI2Ni44NUwyODguNTEsOC43OWg0MC42YTIzLjU4LDIzLjU4LDAsMCwxLDkuMzcsMS43OCwxNi44NiwxNi44NiwwLDAsMSw2Ljc2LDUuMDYsMTcuMjksMTcuMjksMCwwLDEsMy40MSw3LjkzLDI0LjksMjQuOSwwLDAsMS0uNTksMTAuMzQsMTUuNywxNS43LDAsMCwxLTEuNjIsNC4xLDMxLjU2LDMxLjU2LDAsMCwxLTIuODIsNC4yMUEzMC40MiwzMC40MiwwLDAsMSwzNDAsNDYsMjcuNjMsMjcuNjMsMCwwLDEsMzM2LDQ5YTE0LjcsMTQuNywwLDAsMSw0LjE3LDMuNDEsMTcuNzksMTcuNzksMCwwLDEsNC4xNywxMC4zMSwxOS4yNiwxOS4yNiwwLDAsMS0uNTQsNiwzMi41OSwzMi41OSwwLDAsMS00LjY2LDEwLjU3LDM3Ljg0LDM3Ljg0LDAsMCwxLTcuNjksOC40MSwzNS4zOSwzNS4zOSwwLDAsMS05Ljc0LDUuNThBMzAuMDYsMzAuMDYsMCwwLDEsMzExLDk1LjNabTUuNTItMzMuNjhIMjk3LjE3TDI5NCw3NC4yOWgxOS40OWE4LjU5LDguNTksMCwwLDAsNS43NC0xLjkxQTcuOTMsNy45MywwLDAsMCwzMjIuMDcsNjhhNS4xOCw1LjE4LDAsMCwwLS42NS00LjQzQzMyMC41Niw2Mi4yNiwzMTguOTMsNjEuNjIsMzE2LjU1LDYxLjYyWm00LjY2LTMxLjgzaC0xNmwtMi44MSwxMC44M2gxNkE3LjQ5LDcuNDksMCwwLDAsMzIzLjQ4LDM5YTcuMjcsNy4yNywwLDAsMCwyLjM4LTMuODYsNC43Myw0LjczLDAsMCwwLS40My0zLjc1QzMyNC43OCwzMC4zMywzMjMuMzcsMjkuNzksMzIxLjIxLDI5Ljc5Wm0yNSw2NS41MUwzNjcuODUsOC42OGg2Ni40OGwtNS4xOSwyMWgtNDQuNWwtMi45MywxMS40OGgzOS40MWwtNS4xOSwyMUgzNzYuNTJsLTMsMTIuMTNINDE4bC01LjE5LDIxWk00ODYuODYsMjkuNjgsNDcwLjUyLDk1LjNoLTIybDE2LjM1LTY1LjYySDQzOS41NWw1LjItMjFoNzIuNzZsLTUuMzEsMjFaIi8+PHBhdGggZD0iTTU4Mi44OSwzNy44M2EzLjU3LDMuNTcsMCwwLDAsMC0xLjcxLDMuODEsMy44MSwwLDAsMC0xLjMzLTIsOS42MSw5LjYxLDAsMCwwLTMuMTItMS42NiwxNy40OSwxNy40OSwwLDAsMC01LjU0LS43MUEzNiwzNiwwLDAsMCw1NjMuMzksMzNhMzQuMTQsMzQuMTQsMCwwLDAtOS41Nyw0LjZsLTkuNjYtMTMuMjZhODQuNzUsODQuNzUsMCwwLDEsOS4xNC01LjIxLDYyLjYsNjIuNiwwLDAsMSw4LjMzLTMuMzYsNDYuMjQsNDYuMjQsMCwwLDEsNy45MS0xLjgsNTguNjMsNTguNjMsMCwwLDEsNy44Ni0uNTIsNDYuOSw0Ni45LDAsMCwxLDExLjc5LDEuMzcsMjEuMzYsMjEuMzYsMCwwLDEsOC42Nyw0LjMxLDE0Ljc0LDE0Ljc0LDAsMCwxLDQuNjQsNy40MywyMS42MywyMS42MywwLDAsMS0uMjksMTAuNzUsMjcuMTIsMjcuMTIsMCwwLDEtMy42OSw4LjYyLDQxLjQzLDQxLjQzLDAsMCwxLTYsNy4xNSw2Mi45MSw2Mi45MSwwLDAsMS03LjI5LDZxLTMuODgsMi43NC03LjU3LDUuMTJsLTEyLjMyLDhoMjguODlsLTQuNTUsMTguMzdINTI3Ljc4TDUzMS42Niw3NWw0MS0yNi44OWMxLjctMS4yLDMuNDEtMi41Myw1LjExLTRzMi45NC0yLjU2LDMuNjktMy4zMWE5LjM4LDkuMzgsMCwwLDAsLjc2LTEuMTRBNy4zLDcuMywwLDAsMCw1ODIuODksMzcuODNabTcwLjU5LDM2Ljc0LTQuMDcsMTZINjMwLjI4bDQtMTZINjAyLjczbC04LjgxLTExLjkzLDU4LjgxLTQ3LjgyaDE1LjYyTDY1OCw1Ni4yaDkuODVsLTQuNTUsMTguMzdaTTY0MS45Myw0NCw2MjYuNzgsNTYuMmgxMloiLz48L2c+PC9nPjwvc3ZnPg==";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
 $bodyCol: #000;
+
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
 
-$secondary: #075424;
+html:root {
+    --accent: #fec900;
+    --accent-bg: #fec900;
+    --accent-txt: #000;
+    --primary-bg: #ffffff;
+    --primary-txt: #707070;
+    --secondary-bg: #23211d;
+    --secondary-txt: #fff;
+    --mainBg: #1b1a17;
+    --mainBgCol: #fff;
+    --bg1: #23221e;
+    --col1: #fff;
+    --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
+    --teableHeadersCol: #000000;
+    --teableSubHeadersBg: #353532;
+    --teableSubHeadersCol: #ffffff;
+    --tableBorders: #3c3b37;
+    --casinoGradient1: #000000;
+    --casinoGradient1-txt: #fff;
+    --casinoGradient2: #f4c100;
+    --casinoGradient2-txt: #000;
+    --backDrops: #000000cf;
+}
+
+$secondary: #f4c100;
 $secondaryCol: #fff;
-
-$secondaryDark: #075424;
-$secondaryDarkCol: #fff;
 $black: #000000;
-$primary: #848484;
-$white: #848484;
+$secondaryDark: #d1a813;
+$secondaryDarkCol: #222;
+$primary: #6d6d6d;
+$white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #162444;
+$sb-2: #444444;
 
-//black filter li logos
-#favouriteTournaments li:before {
-  filter: brightness(0.1);
-}
 
-html body {
-  background-position-y: 80px !important;
-  background-attachment: initial;
-}
-
-.header .top-header {
-  border-bottom: 4px solid var(--casinoGradient2) !important;
-}
-
-.header .top-bar {
-  background: #000 !important;
-  color: #fff !important;
-}
-
-footer {
-  background: var(--accent-bg) !important;
-}
-.header .top-header .top-header-content .primary-menu ul li.active {
-  color: #ffeb3b !important;
-}
-.header .top-header .top-header-content .primary-menu li a:after {
-  color: inherit !important;
-}
-html {
-  .header .top-header .top-header-content .primary-menu ul li:hover:before,
-  .header .top-header .top-header-content .primary-menu ul li.active:before {
-    border-bottom: 10px solid #fdd402 !important;
-  }
-}
-html footer {
-  background: #075424 !important;
-  color: #fff !important;
-}
-html .torn-a {
-  background: #e9e9e9;
-  color: #000000;
-}
-.single-sport .states .state .championship.selected .anchor {
-  background: #e7e7e7 !important;
+.torn-a {
+    background: var(--secondary-bg)!important;
+    color: var(--secondary-txt)!important;
 }

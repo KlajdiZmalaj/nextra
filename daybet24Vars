@@ -44,3 +44,9 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #444444;
+
+
+.torn-a {
+    background: var(--secondary-bg)!important;
+    color: var(--secondary-txt)!important;
+}
