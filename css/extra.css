@@ -5092,4 +5092,8 @@ span {
      object-fit: contain;
   margin: 5px;
 }
+
+.center-content.wide {
+  width: calc(100% - 546px);
+}
 /*# sourceMappingURL=extra.css.map */
