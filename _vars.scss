@@ -142,10 +142,10 @@ body.landing-page {
 .center-content.live-center-content {
   grid-template-columns: 1fr 340px !important;
 }
-html body .sport.active {
+html body .sport.active[id*="LVSPORT"] {
   .single-match .match-info,
   .single-match .match-odds {
-    background: var(--bg1);
-    color: var(--col1);
+    background: var(--bg1) !important;
+    color: var(--col1) !important;
   }
 }

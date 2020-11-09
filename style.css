@@ -129,10 +129,10 @@ body.landing-page {
       grid-template-columns: 1fr 340px !important;
 }
 
-html body .sport.active .single-match .match-info,
-html body .sport.active .single-match .match-odds {
-  background: var(--bg1);
-  color: var(--col1);
+html body .sport.active[id*="LVSPORT"] .single-match .match-info,
+html body .sport.active[id*="LVSPORT"] .single-match .match-odds {
+  background: var(--bg1) !important;
+  color: var(--col1) !important;
 }
 
 @media (max-width: 1008px) {

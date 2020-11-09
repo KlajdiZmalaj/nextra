@@ -1916,9 +1916,9 @@ div.proceed:hover {
 
 #LVSPORT_1 .single-match.selected .match-info,
 #LVSPORT_1 .single-match.selected .match-odds {
-  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #7d9e73), color-stop(160%, #707070));
-  background: linear-gradient(to left, #7d9e73 11%, #707070 160%);
-  color: #fff;
+  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #7d9e73), color-stop(160%, #707070)) !important;
+  background: linear-gradient(to left, #7d9e73 11%, #707070 160%) !important;
+  color: #fff !important;
 }
 
 #LVSPORT_5 .anchor {
@@ -1944,9 +1944,9 @@ div.proceed:hover {
 
 #LVSPORT_5 .single-match.selected .match-info,
 #LVSPORT_5 .single-match.selected .match-odds {
-  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #f7c924), color-stop(160%, #707070));
-  background: linear-gradient(to left, #f7c924 11%, #707070 160%);
-  color: #222;
+  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #f7c924), color-stop(160%, #707070)) !important;
+  background: linear-gradient(to left, #f7c924 11%, #707070 160%) !important;
+  color: #222 !important;
 }
 
 #LVSPORT_2 .anchor {
@@ -1972,9 +1972,9 @@ div.proceed:hover {
 
 #LVSPORT_2 .single-match.selected .match-info,
 #LVSPORT_2 .single-match.selected .match-odds {
-  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #e74d2e), color-stop(160%, #707070));
-  background: linear-gradient(to left, #e74d2e 11%, #707070 160%);
-  color: #fff;
+  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #e74d2e), color-stop(160%, #707070)) !important;
+  background: linear-gradient(to left, #e74d2e 11%, #707070 160%) !important;
+  color: #fff !important;
 }
 
 #LVSPORT_23 .anchor {
@@ -2000,9 +2000,9 @@ div.proceed:hover {
 
 #LVSPORT_23 .single-match.selected .match-info,
 #LVSPORT_23 .single-match.selected .match-odds {
-  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #ffbb76), color-stop(160%, #707070));
-  background: linear-gradient(to left, #ffbb76 11%, #707070 160%);
-  color: #222;
+  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #ffbb76), color-stop(160%, #707070)) !important;
+  background: linear-gradient(to left, #ffbb76 11%, #707070 160%) !important;
+  color: #222 !important;
 }
 
 #LVSPORT_3 .anchor {
@@ -2028,9 +2028,9 @@ div.proceed:hover {
 
 #LVSPORT_3 .single-match.selected .match-info,
 #LVSPORT_3 .single-match.selected .match-odds {
-  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #a38252), color-stop(160%, #707070));
-  background: linear-gradient(to left, #a38252 11%, #707070 160%);
-  color: #222;
+  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #a38252), color-stop(160%, #707070)) !important;
+  background: linear-gradient(to left, #a38252 11%, #707070 160%) !important;
+  color: #222 !important;
 }
 
 #LVSPORT_20 .anchor {
@@ -2056,9 +2056,9 @@ div.proceed:hover {
 
 #LVSPORT_20 .single-match.selected .match-info,
 #LVSPORT_20 .single-match.selected .match-odds {
-  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #c84b3b), color-stop(160%, #707070));
-  background: linear-gradient(to left, #c84b3b 11%, #707070 160%);
-  color: #222;
+  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #c84b3b), color-stop(160%, #707070)) !important;
+  background: linear-gradient(to left, #c84b3b 11%, #707070 160%) !important;
+  color: #222 !important;
 }
 
 #LVSPORT_4 .anchor {
@@ -2084,9 +2084,9 @@ div.proceed:hover {
 
 #LVSPORT_4 .single-match.selected .match-info,
 #LVSPORT_4 .single-match.selected .match-odds {
-  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #1291cc), color-stop(160%, #707070));
-  background: linear-gradient(to left, #1291cc 11%, #707070 160%);
-  color: #fff;
+  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #1291cc), color-stop(160%, #707070)) !important;
+  background: linear-gradient(to left, #1291cc 11%, #707070 160%) !important;
+  color: #fff !important;
 }
 
 .sports-container .sports .single-match .team-names {
