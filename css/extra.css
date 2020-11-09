@@ -1910,14 +1910,14 @@ div.proceed:hover {
 }
 
 #LVSPORT_1 .single-match.selected {
-  border-right: 3px solid #fff;
+  border-right: 3px solid #45dc2d;
   border-left: 1px solid var(--tableBorders);
 }
 
 #LVSPORT_1 .single-match.selected .match-info,
 #LVSPORT_1 .single-match.selected .match-odds {
-  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #7d9e73), color-stop(160%, #707070)) !important;
-  background: linear-gradient(to left, #7d9e73 11%, #707070 160%) !important;
+  background: -webkit-gradient(linear, right top, left top, color-stop(11%, #004807), color-stop(160%, #8aa981)) !important;
+  background: linear-gradient(to left, #004807 11%, #8aa981 160%) !important;
   color: #fff !important;
 }
 

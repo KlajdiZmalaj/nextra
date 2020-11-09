@@ -1724,12 +1724,16 @@ div.landing-page
       color: #fff;
     }
     &.selected {
-      border-right: 3px solid #fff;
+      border-right: 3px solid #45dc2d;
       border-left: 1px solid var(--tableBorders);
       .match-info,
       .match-odds {
-        background: linear-gradient(to left, #7d9e73 11%, #707070 160%)!important;
-        color: #fff!important;
+        background: linear-gradient(
+          to left,
+          #004807 11%,
+          #8aa981 160%
+        ) !important;
+        color: #fff !important;
       }
     }
   }
@@ -1752,8 +1756,12 @@ div.landing-page
       border-left: 1px solid var(--tableBorders);
       .match-info,
       .match-odds {
-        background: linear-gradient(to left, #f7c924 11%, #707070 160%)!important;
-        color: #222!important;
+        background: linear-gradient(
+          to left,
+          #f7c924 11%,
+          #707070 160%
+        ) !important;
+        color: #222 !important;
       }
     }
   }
@@ -1776,8 +1784,12 @@ div.landing-page
       border-left: 1px solid var(--tableBorders);
       .match-info,
       .match-odds {
-        background: linear-gradient(to left, #e74d2e 11%, #707070 160%)!important;
-        color: #fff!important;
+        background: linear-gradient(
+          to left,
+          #e74d2e 11%,
+          #707070 160%
+        ) !important;
+        color: #fff !important;
       }
     }
   }
@@ -1800,8 +1812,12 @@ div.landing-page
       border-left: 1px solid var(--tableBorders);
       .match-info,
       .match-odds {
-        background: linear-gradient(to left, #ffbb76 11%, #707070 160%)!important;
-        color: #222!important;
+        background: linear-gradient(
+          to left,
+          #ffbb76 11%,
+          #707070 160%
+        ) !important;
+        color: #222 !important;
       }
     }
   }
@@ -1823,8 +1839,12 @@ div.landing-page
       border-left: 1px solid var(--tableBorders);
       .match-info,
       .match-odds {
-        background: linear-gradient(to left, #a38252 11%, #707070 160%)!important;
-        color: #222!important;
+        background: linear-gradient(
+          to left,
+          #a38252 11%,
+          #707070 160%
+        ) !important;
+        color: #222 !important;
       }
     }
   }
@@ -1846,8 +1866,12 @@ div.landing-page
       border-left: 1px solid var(--tableBorders);
       .match-info,
       .match-odds {
-        background: linear-gradient(to left, #c84b3b 11%, #707070 160%)!important;
-        color: #222!important;
+        background: linear-gradient(
+          to left,
+          #c84b3b 11%,
+          #707070 160%
+        ) !important;
+        color: #222 !important;
       }
     }
   }
@@ -1870,8 +1894,12 @@ div.landing-page
       border-left: 1px solid var(--tableBorders);
       .match-info,
       .match-odds {
-        background: linear-gradient(to left, #1291cc 11%, #707070 160%)!important;
-        color: #fff!important;
+        background: linear-gradient(
+          to left,
+          #1291cc 11%,
+          #707070 160%
+        ) !important;
+        color: #fff !important;
       }
     }
   }
