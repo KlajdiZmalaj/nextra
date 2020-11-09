@@ -1421,7 +1421,6 @@ div.landing-page
   filter: unset;
   top: -10px;
   font-family: "ikonaSvg" !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2161,7 +2160,6 @@ body #oddsMenu tr .odd-type {
 [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "ikonaSvg" !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2225,7 +2223,6 @@ body #oddsMenu tr .odd-type {
   filter: unset;
   top: 11px;
   font-family: "ikonaSvg" !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -5098,5 +5095,9 @@ span {
 
 .center-content.wide {
   width: calc(100% - 546px);
+}
+
+.more-container {
+  cursor: pointer;
 }
 /*# sourceMappingURL=extra.css.map */
