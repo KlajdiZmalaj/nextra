@@ -4379,6 +4379,24 @@ body .odds-table .single-match-row td.match-name {
   background: var(--teableHeadersBg);
   color: var(--teableHeadersCol);
 }
+
+.live-page {
+  .allmatches-head {
+    align-items: center;
+    display: flex;
+    padding: 2px 0px;
+
+    .amh-ico {
+      display: inline-block;
+      padding-left: 5px;
+    }
+    .amh-txt {
+      display: inline-block;
+      padding-left: 5px;
+      width: calc(100% - 35px);
+      font-size: 14px;
+    }
+  }
 .allmatches-container {
   display: flex;
   flex-flow: column;
@@ -4387,4 +4405,5 @@ img.amh-ico-img {
   width: 20px;
   object-fit: contain;
   margin: 5px;
+}
 }

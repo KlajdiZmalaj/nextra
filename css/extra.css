@@ -5052,7 +5052,29 @@ span {
   color: var(--teableHeadersCol);
 }
 
-.allmatches-container {
+.live-page .allmatches-head {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2px 0px;
+}
+
+.live-page .allmatches-head .amh-ico {
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.live-page .allmatches-head .amh-txt {
+  display: inline-block;
+  padding-left: 5px;
+  width: calc(100% - 35px);
+  font-size: 14px;
+}
+
+.live-page .allmatches-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5062,7 +5084,7 @@ span {
           flex-flow: column;
 }
 
-img.amh-ico-img {
+.live-page img.amh-ico-img {
   width: 20px;
   -o-object-fit: contain;
      object-fit: contain;
