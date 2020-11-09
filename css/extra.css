@@ -5054,6 +5054,7 @@ span {
   background: var(--teableHeadersBg);
   color: var(--teableHeadersCol);
   overflow: hidden;
+  cursor: pointer;
 }
 
 .live-page .allmatches-head {

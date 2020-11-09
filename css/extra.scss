@@ -4410,6 +4410,7 @@ body .odds-table .single-match-row td.match-name {
   background: var(--teableHeadersBg);
   color: var(--teableHeadersCol);
   overflow: hidden;
+  cursor: pointer;
 }
 
 .live-page {
