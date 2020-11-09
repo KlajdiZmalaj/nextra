@@ -4408,3 +4408,10 @@ body .odds-table .single-match-row td.match-name {
   }
 }
 //
+body:after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 1px;
+  width: 1800px;
+}
