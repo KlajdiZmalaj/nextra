@@ -142,10 +142,19 @@ body.landing-page {
 .center-content.live-center-content {
   grid-template-columns: 1fr 340px !important;
 }
-html body {
+html body .sport.active[id*="LVSPORT"] {
   .single-match .match-info,
   .single-match .match-odds {
     background: var(--bg1) !important;
     color: var(--col1) !important;
+  }
+}
+.sport.active .single-match {
+  border-left: 0 !important;
+}
+body {
+  .allmatches-head,
+  .sports-container .matches .single-match .match-odds .single-odd-type {
+    background: #14191d;
   }
 }
