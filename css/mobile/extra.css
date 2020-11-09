@@ -9163,5 +9163,6 @@ span[data-op="p"] {
 .ctg_game_item
 .ctg_g_icon {
   background: transparent !important;
+  padding: 0 !important;
 }
 /*# sourceMappingURL=extra.css.map */
