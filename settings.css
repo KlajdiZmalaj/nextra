@@ -135,6 +135,11 @@ html body .sport.active[id*="LVSPORT"] .single-match .match-odds {
   border-left: 0 !important;
 }
 
+body .allmatches-head,
+body .sports-container .matches .single-match .match-odds .single-odd-type {
+  background: #14191d;
+}
+
 button,
 hr,
 input {
