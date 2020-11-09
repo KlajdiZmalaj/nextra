@@ -3632,7 +3632,9 @@ body .odds-table .single-match-row td.match-name {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .legend,
-.side-bar .single-block.betslip-holder .my-bets .bets-wrapper {
+.side-bar .single-block.betslip-holder .my-bets .bets-wrapper,
+.side-bar .single-block.betslip-holder .my-bets .legend .single-item,
+.side-bar .single-block.betslip-holder .my-bets .bets-wrapper .title {
   background: var(--mainBg);
   color: var(--mainBgCol);
 }
