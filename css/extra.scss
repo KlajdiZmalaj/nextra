@@ -2100,7 +2100,7 @@ body
   color: var(--accent-txt);
 }
 .sports-container .matches .single-match {
-  margin: 5px;
+  margin: 0;
   border: 1px solid var(--tableBorders);
   margin-right: 0;
   margin-left: 0;
@@ -4369,4 +4369,22 @@ body .odds-table .single-match-row td.match-name {
   align-items: center;
   height: 40px;
   padding: 2px 5px;
+}
+.allmatches-head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 12px;
+  white-space: nowrap;
+  background: var(--teableHeadersBg);
+  color: var(--teableHeadersCol);
+}
+.allmatches-container {
+  display: flex;
+  flex-flow: column;
+}
+img.amh-ico-img {
+  width: 20px;
+  object-fit: contain;
+  margin: 5px;
 }
