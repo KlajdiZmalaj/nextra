@@ -4389,6 +4389,10 @@ body .odds-table .single-match-row td.match-name {
 
 .live-page {
   .allmatches-head {
+    align-items: center;
+    display: flex;
+    padding: 2px 0px;
+}
     .amh-ico {
       display: inline-block;
       padding-left: 5px;
@@ -4396,6 +4400,8 @@ body .odds-table .single-match-row td.match-name {
     .amh-txt {
       display: inline-block;
       padding-left: 5px;
+      width: calc(100% - 35px);
+      font-size: 14px;
     }
   }
 }
