@@ -4397,13 +4397,14 @@ body .odds-table .single-match-row td.match-name {
       font-size: 14px;
     }
   }
-.allmatches-container {
-  display: flex;
-  flex-flow: column;
+  .allmatches-container {
+    display: flex;
+    flex-flow: column;
+  }
+  img.amh-ico-img {
+    width: 20px;
+    object-fit: contain;
+    margin: 5px;
+  }
 }
-img.amh-ico-img {
-  width: 20px;
-  object-fit: contain;
-  margin: 5px;
-}
-}
+//
