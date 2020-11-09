@@ -5049,6 +5049,16 @@ span {
   color: var(--accent);
 }
 
+.live-page .allmatches-head {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2px 0px;
+}
+
 .live-page .allmatches-head .amh-ico {
   display: inline-block;
   padding-left: 5px;
