@@ -4456,3 +4456,7 @@ body .odds-table .single-match-row td.match-name {
     display: none;
   }
 }
+
+[onclick="bettingHelp();"] {
+  display: none !important;
+}

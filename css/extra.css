@@ -5108,4 +5108,8 @@ span {
 .game-grid-head .fa-minus {
   display: none;
 }
+
+[onclick="bettingHelp();"] {
+  display: none !important;
+}
 /*# sourceMappingURL=extra.css.map */
