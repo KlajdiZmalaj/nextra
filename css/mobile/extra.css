@@ -9169,7 +9169,7 @@ span[data-op="p"] {
   width: 80%;
 }
 
-#verifica_b {
+.coupon_widget #verifica_b {
   width: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9184,13 +9184,13 @@ span[data-op="p"] {
   color: var(--accent-txt);
 }
 
-#verifica_b:before {
+.coupon_widget #verifica_b:before {
   content: "\f00c";
   font-family: "Font Awesome 5 Pro";
   font-size: 25px;
 }
 
-#verifica_b img {
+.coupon_widget #verifica_b img {
   display: none;
 }
 
