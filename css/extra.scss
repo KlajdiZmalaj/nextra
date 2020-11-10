@@ -4466,20 +4466,23 @@ body .odds-table .single-match-row td.match-name {
 
 .clive-container {
   padding-top: 20px;
-  .clgames-container, .clive-header, .clive-strip, .clive-games-container {
-    display:none
+  .clgames-container,
+  .clive-header,
+  .clive-strip,
+  .clive-games-container {
+    display: none;
   }
-  
+
   .clive-inner .clive-games-container:last-child {
-      display:block;
+    display: block;
   }
-  
+
   .clive-inner .clive-games-container .clive-item {
-    display:none;
+    display: none;
   }
-  
+
   .clive-inner .clive-games-container .clive-item.clive-item-big {
-    display:block;
+    display: block;
     width: 100%;
     text-align: center;
   }
@@ -4492,5 +4495,13 @@ body .odds-table .single-match-row td.match-name {
     display: inline-block;
     max-width: 700px;
     padding: 20px;
+  }
 }
+.live-sports-diary .matches-wrapper {
+  height: calc(100vh - 227px);
+  overflow-y: scroll;
+  & + .side-bar.right-side-bar {
+    height: calc(100vh - 150px);
+    overflow-y: scroll;
+  }
 }

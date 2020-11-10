@@ -150,7 +150,9 @@ body {
     background: #14191d;
   }
 }
-.live-odds-table table tr td.odd-holder .single-live-odd .label,
-.odds-table .second-header td {
-  color: var(--accent !important);
+html {
+  .live-odds-table table tr td.odd-holder .single-live-odd .label,
+  .odds-table .second-header td {
+    color: var(--accent);
+  }
 }
