@@ -4460,3 +4460,6 @@ body .odds-table .single-match-row td.match-name {
 [onclick="bettingHelp();"] {
   display: none !important;
 }
+.live-odds-table table tr td.odd-holder .single-live-odd .label {
+  color: inherit;
+}
