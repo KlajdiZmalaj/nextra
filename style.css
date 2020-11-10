@@ -141,7 +141,7 @@ body
 
 .live-odds-table table tr td.odd-holder .single-live-odd .label,
 .odds-table .second-header td {
-  color: var(--accent !important);
+  color: var(--accent) !important;
 }
 
 @media (max-width: 1008px) {
