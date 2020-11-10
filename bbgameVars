@@ -95,10 +95,6 @@ body {
   border-color: var(--accent) !important;
 }
 
-.odds-table .second-header td.day {
-  color: var(--accent);
-}
-
 .tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
 .tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
   border: 1px solid var(--accent-bg) !important;
@@ -131,10 +127,6 @@ body {
   color: var(--accent);
 }
 
-.odds-table .second-header td {
-  color: var(--accent);
-}
-
 body.landing-page {
   background-color: #31343d !important;
   background-image: none;
@@ -157,4 +149,8 @@ body {
   .sports-container .matches .single-match .match-odds .single-odd-type {
     background: #14191d;
   }
+}
+.live-odds-table table tr td.odd-holder .single-live-odd .label,
+.odds-table .second-header td {
+  color: var(--accent !important);
 }
