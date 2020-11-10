@@ -4453,3 +4453,23 @@ body .odds-table .single-match-row td.match-name {
   display: none;
 }
 }
+
+.clgames-container {
+  display:none
+}
+
+.clive-games-container {
+   display:none;
+}
+
+.clive-inner .clive-games-container:last-child {
+    display:block;
+}
+
+.clive-inner .clive-games-container .clive-item {
+  display:none;
+}
+
+.clive-inner .clive-games-container .clive-item.clive-item-big {
+  display:block;
+}

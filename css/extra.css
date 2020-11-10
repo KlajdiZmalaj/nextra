@@ -5104,4 +5104,24 @@ span {
 .game-grid-head .fa-minus {
   display: none;
 }
+
+.clgames-container {
+  display: none;
+}
+
+.clive-games-container {
+  display: none;
+}
+
+.clive-inner .clive-games-container:last-child {
+  display: block;
+}
+
+.clive-inner .clive-games-container .clive-item {
+  display: none;
+}
+
+.clive-inner .clive-games-container .clive-item.clive-item-big {
+  display: block;
+}
 /*# sourceMappingURL=extra.css.map */
