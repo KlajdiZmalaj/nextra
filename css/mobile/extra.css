@@ -9193,4 +9193,12 @@ span[data-op="p"] {
 #verifica_b img {
   display: none;
 }
+
+[data-mode="coupon_check"].main_container > .main_content {
+  padding-top: 0;
+}
+
+[data-mode="coupon_check"] .submenu_header.nouvo_utente {
+  margin-top: 100px;
+}
 /*# sourceMappingURL=extra.css.map */

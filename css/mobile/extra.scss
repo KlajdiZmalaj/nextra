@@ -9008,3 +9008,11 @@ span {
     display: none;
   }
 }
+[data-mode="coupon_check"] {
+  &.main_container > .main_content {
+    padding-top: 0;
+  }
+  .submenu_header.nouvo_utente {
+    margin-top: 100px;
+  }
+}
