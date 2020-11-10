@@ -4463,3 +4463,33 @@ body .odds-table .single-match-row td.match-name {
 .live-odds-table table tr td.odd-holder .single-live-odd .label {
   color: inherit;
 }
+
+.clive-container {
+  padding-top: 20px;
+  .clgames-container, .clive-header, .clive-strip, .clive-games-container {
+    display:none
+  }
+  
+  .clive-inner .clive-games-container:last-child {
+      display:block;
+  }
+  
+  .clive-inner .clive-games-container .clive-item {
+    display:none;
+  }
+  
+  .clive-inner .clive-games-container .clive-item.clive-item-big {
+    display:block;
+    width: 100%;
+    text-align: center;
+  }
+  .clive-games-container .clive-games-inner {
+    display: block;
+    background: var(--bg1);
+  }
+  .clive-item-img-a {
+    width: 100%;
+    display: inline-block;
+    max-width: 700px;
+}
+}

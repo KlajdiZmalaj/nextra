@@ -5035,4 +5035,37 @@ span {
 .live-odds-table table tr td.odd-holder .single-live-odd .label {
   color: inherit;
 }
+
+.clive-container {
+  padding-top: 20px;
+}
+
+.clive-container .clgames-container, .clive-container .clive-header, .clive-container .clive-strip, .clive-container .clive-games-container {
+  display: none;
+}
+
+.clive-container .clive-inner .clive-games-container:last-child {
+  display: block;
+}
+
+.clive-container .clive-inner .clive-games-container .clive-item {
+  display: none;
+}
+
+.clive-container .clive-inner .clive-games-container .clive-item.clive-item-big {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.clive-container .clive-games-container .clive-games-inner {
+  display: block;
+  background: var(--bg1);
+}
+
+.clive-container .clive-item-img-a {
+  width: 100%;
+  display: inline-block;
+  max-width: 700px;
+}
 /*# sourceMappingURL=extra.css.map */
