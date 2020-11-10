@@ -45,3 +45,10 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #333844;
+
+html {
+  .live-odds-table table tr td.odd-holder .single-live-odd .label,
+  .odds-table .second-header td {
+    color: var(--accent);
+  }
+}
