@@ -1897,17 +1897,6 @@ div.proceed:hover {
   color: #fff !important;
 }
 
-#LVSPORT_1 .single-match {
-  border-left: 3px solid #45dc2d;
-}
-
-#LVSPORT_1 .single-match .match-info,
-#LVSPORT_1 .single-match .match-odds {
-  background: -webkit-gradient(linear, left top, right top, color-stop(-37%, #1b7700), color-stop(110%, #707070));
-  background: linear-gradient(to right, #1b7700 -37%, #707070 110%);
-  color: #fff;
-}
-
 #LVSPORT_1 .single-match.selected {
   border-right: 3px solid #45dc2d;
   border-left: 1px solid var(--tableBorders);
@@ -1923,17 +1912,6 @@ div.proceed:hover {
 #LVSPORT_5 .anchor {
   background: #bf9a17 !important;
   color: #000 !important;
-}
-
-#LVSPORT_5 .single-match {
-  border-left: 3px solid #deb826;
-}
-
-#LVSPORT_5 .single-match .match-info,
-#LVSPORT_5 .single-match .match-odds {
-  background: -webkit-gradient(linear, left top, right top, color-stop(-21%, #bf9a17), color-stop(120%, #707070));
-  background: linear-gradient(to right, #bf9a17 -21%, #707070 120%);
-  color: #000;
 }
 
 #LVSPORT_5 .single-match.selected {
@@ -1953,17 +1931,6 @@ div.proceed:hover {
   color: #fff !important;
 }
 
-#LVSPORT_2 .single-match {
-  border-left: 3px solid #c74227;
-}
-
-#LVSPORT_2 .single-match .match-info,
-#LVSPORT_2 .single-match .match-odds {
-  background: -webkit-gradient(linear, left top, right top, color-stop(-21%, #91311d), color-stop(120%, #707070));
-  background: linear-gradient(to right, #91311d -21%, #707070 120%);
-  color: #fff;
-}
-
 #LVSPORT_2 .single-match.selected {
   border-right: 3px solid #e44f31;
   border-left: 1px solid var(--tableBorders);
@@ -1979,17 +1946,6 @@ div.proceed:hover {
 #LVSPORT_23 .anchor {
   background: #e6a260 !important;
   color: #222 !important;
-}
-
-#LVSPORT_23 .single-match {
-  border-left: 3px solid #f1c394;
-}
-
-#LVSPORT_23 .single-match .match-info,
-#LVSPORT_23 .single-match .match-odds {
-  background: -webkit-gradient(linear, left top, right top, color-stop(-21%, #e6a260), color-stop(120%, #707070));
-  background: linear-gradient(to right, #e6a260 -21%, #707070 120%);
-  color: #222;
 }
 
 #LVSPORT_23 .single-match.selected {
@@ -2009,17 +1965,6 @@ div.proceed:hover {
   color: #222 !important;
 }
 
-#LVSPORT_3 .single-match {
-  border-left: 3px solid #e0c092;
-}
-
-#LVSPORT_3 .single-match .match-info,
-#LVSPORT_3 .single-match .match-odds {
-  background: -webkit-gradient(linear, left top, right top, color-stop(-21%, #856842), color-stop(120%, #707070));
-  background: linear-gradient(to right, #856842 -21%, #707070 120%);
-  color: #222;
-}
-
 #LVSPORT_3 .single-match.selected {
   border-right: 3px solid #eebe7c;
   border-left: 1px solid var(--tableBorders);
@@ -2037,17 +1982,6 @@ div.proceed:hover {
   color: #fff !important;
 }
 
-#LVSPORT_20 .single-match {
-  border-left: 3px solid #f85151;
-}
-
-#LVSPORT_20 .single-match .match-info,
-#LVSPORT_20 .single-match .match-odds {
-  background: -webkit-gradient(linear, left top, right top, color-stop(-21%, #bd4636), color-stop(120%, #707070));
-  background: linear-gradient(to right, #bd4636 -21%, #707070 120%);
-  color: #fff;
-}
-
 #LVSPORT_20 .single-match.selected {
   border-right: 3px solid #f85151;
   border-left: 1px solid var(--tableBorders);
@@ -2063,17 +1997,6 @@ div.proceed:hover {
 #LVSPORT_4 .anchor {
   background: #006290 !important;
   color: #fff !important;
-}
-
-#LVSPORT_4 .single-match {
-  border-left: 3px solid #1d8bbe;
-}
-
-#LVSPORT_4 .single-match .match-info,
-#LVSPORT_4 .single-match .match-odds {
-  background: -webkit-gradient(linear, left top, right top, color-stop(-21%, #006290), color-stop(120%, #707070));
-  background: linear-gradient(to right, #006290 -21%, #707070 120%);
-  color: #fff;
 }
 
 #LVSPORT_4 .single-match.selected {
