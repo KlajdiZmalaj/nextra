@@ -712,6 +712,10 @@ body .casino-section .casino-container .casino-inner {
           box-shadow: inset 0 0 110px -24px black;
 }
 
+body .casino-section .casino-container .casino-inner::-webkit-scrollbar {
+  width: 10px;
+}
+
 @media (max-device-width: 500px) {
   body .casino-section .casino-container .casino-inner {
     overflow: visible;
