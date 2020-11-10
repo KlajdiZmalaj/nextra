@@ -3724,10 +3724,6 @@ table#tableMultiple {
   border-top: 4px solid var(--accent-bg);
 }
 
-span.odd-type {
-  color: var(--accent-bg);
-}
-
 html .live-content-wrapper
 .live-sports-overview
 .sport-container
