@@ -5054,12 +5054,14 @@ span {
 
 .clive-container .clive-inner .clive-games-container .clive-item {
   display: none;
+  margin-bottom: 0;
 }
 
 .clive-container .clive-inner .clive-games-container .clive-item.clive-item-big {
   display: block;
   width: 100%;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .clive-container .clive-games-container .clive-games-inner {

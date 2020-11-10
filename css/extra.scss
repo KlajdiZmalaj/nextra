@@ -4480,12 +4480,14 @@ body .odds-table .single-match-row td.match-name {
 
   .clive-inner .clive-games-container .clive-item {
     display: none;
+    margin-bottom: 0;
   }
 
   .clive-inner .clive-games-container .clive-item.clive-item-big {
     display: block;
     width: 100%;
     text-align: center;
+    padding-bottom: 20px;
   }
   .clive-games-container .clive-games-inner {
     display: block;
