@@ -27,6 +27,7 @@ html:root {
 }
 
 html .live-odds-table table tr td.odd-holder .single-live-odd .label,
+html span.odd-type,
 html .odds-table .second-header td {
   color: var(--accent);
 }
