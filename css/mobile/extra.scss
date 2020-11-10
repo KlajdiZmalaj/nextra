@@ -8989,3 +8989,22 @@ span {
   background: transparent !important;
   padding: 0 !important;
 }
+.coupon_widget #id_coupon_verifica {
+  width: 80%;
+}
+#verifica_b {
+  width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent-bg);
+    color: var(--accent-txt);
+  &:before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 25px;
+  }
+  img {
+    display: none;
+  }
+}

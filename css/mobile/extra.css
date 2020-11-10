@@ -9164,4 +9164,33 @@ span[data-op="p"] {
   background: transparent !important;
   padding: 0 !important;
 }
+
+.coupon_widget #id_coupon_verifica {
+  width: 80%;
+}
+
+#verifica_b {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+}
+
+#verifica_b:before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Pro";
+  font-size: 25px;
+}
+
+#verifica_b img {
+  display: none;
+}
 /*# sourceMappingURL=extra.css.map */
