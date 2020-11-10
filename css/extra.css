@@ -5049,6 +5049,7 @@ span {
 
 .clive-container .clive-inner .clive-games-container:last-child {
   display: block;
+  margin-top: -100px;
 }
 
 .clive-container .clive-inner .clive-games-container .clive-item {
@@ -5067,10 +5068,11 @@ span {
 }
 
 .clive-container .clive-item-img-a {
-  width: 100%;
-  display: inline-block;
-  max-width: 700px;
-  padding: 20px;
+  display: none;
+}
+
+.clive-container .clive-item-img::after {
+  content: url(https://nextra.pcluster.info/bbgame/images/casinolive/clive-game-d.jpg);
 }
 
 .live-sports-diary .matches-wrapper {
