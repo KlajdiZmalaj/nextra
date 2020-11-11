@@ -4487,7 +4487,7 @@ body .odds-table .single-match-row td.match-name {
 
 .clive-container {
   padding-top: 20px;
-  background: #090601;
+
   .clgames-container,
   .clive-header,
   .clive-strip,
@@ -4497,14 +4497,24 @@ body .odds-table .single-match-row td.match-name {
 
   .clive-inner .clive-games-container:last-child {
     display: block;
-    margin-top: -100px;
+    position: absolute;
+    bottom: 40%;
+    width: 314px;
+    left: calc(50% - 300px);
   }
-
+  .clive-item .clive-overlay .cl-btns-a {
+    padding: 10px 50px;
+  }
   .clive-inner .clive-games-container .clive-item {
     display: none;
     margin-bottom: 0;
   }
-
+  .clive-item .clive-overlay {
+    opacity: 1;
+    .fa.fa-heart {
+      display: none;
+    }
+  }
   .clive-inner .clive-games-container .clive-item.clive-item-big {
     display: block;
     width: 100%;
@@ -4513,7 +4523,6 @@ body .odds-table .single-match-row td.match-name {
   }
   .clive-games-container .clive-games-inner {
     display: block;
-    background: #090601;
   }
   .clive-item-img-a {
     display: none;
@@ -4521,6 +4530,7 @@ body .odds-table .single-match-row td.match-name {
 
   .clive-item-img::after {
     content: url(https://nextra.pcluster.info/bbgame/images/casinolive/clive-game-d.jpg);
+    content: "";
   }
 }
 .live-sports-diary .matches-wrapper {
