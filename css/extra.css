@@ -5100,4 +5100,31 @@ span {
     height: 100vh;
   }
 }
+
+span.ui-slider-handle:before {
+  pointer-events: none;
+  height: 8px;
+  right: 4px;
+  position: absolute;
+  top: 3px;
+}
+
+.side-bar
+.single-block
+.block-content.sports-menu
+.sports-menu-bottom
+#sports-menu-slider {
+  margin: 10px 30px;
+  height: 2px;
+  padding: 3px 0;
+}
+
+.side-bar
+.single-block
+.block-content.sports-menu
+.sports-menu-bottom
+#sports-menu-slider.ui-widget.ui-widget-content.ui-slider-horizontal
+.ui-slider-handle {
+  top: -2px;
+}
 /*# sourceMappingURL=extra.css.map */
