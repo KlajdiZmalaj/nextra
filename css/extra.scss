@@ -4552,6 +4552,11 @@ body .odds-table .single-match-row td.match-name {
     min-height: 2000px;
     height: 100vh;
   }
+  .game-grid-container {
+    backdrop-filter: blur(0px);
+    background: var(--mainBg);
+    color: var(--mainBgCol);
+  }
 }
 span.ui-slider-handle:before {
   pointer-events: none;
