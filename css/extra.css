@@ -664,7 +664,8 @@ td
 
 @media (max-device-width: 500px) {
   body .casino-section {
-    width: 1360px;
+    width: 100%;
+    max-width: 1360px;
     margin: 0 auto;
     background-size: 90%;
     background-position-y: 68px !important;
@@ -5082,5 +5083,12 @@ span {
 .live-sports-diary .matches-wrapper + .side-bar.right-side-bar {
   height: calc(100vh - 150px);
   overflow-y: scroll;
+}
+
+@media (max-device-width: 500px) {
+  .logged-page .grid {
+    width: 100%;
+    max-width: 1360px;
+  }
 }
 /*# sourceMappingURL=extra.css.map */
