@@ -5083,15 +5083,4 @@ span {
   height: calc(100vh - 150px);
   overflow-y: scroll;
 }
-
-@media (max-device-width: 500px) {
-  .center-content:after,
-  .live-sports-overview:after {
-    content: "";
-    height: 1000px;
-    width: 1px;
-    position: relative;
-    display: block;
-  }
-}
 /*# sourceMappingURL=extra.css.map */
