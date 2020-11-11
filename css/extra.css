@@ -4939,6 +4939,27 @@ span {
       flex-shrink: 0;
 }
 
+.live-content-wrapper
+.live-sports-overview
+.sport-container
+.single-panel
+.panel-content
+.single-match
+.time-info {
+  width: auto;
+}
+
+.live-content-wrapper
+.live-sports-overview
+.sport-container
+.single-panel
+.panel-content
+.single-match
+.match-info
+.team-names {
+  cursor: pointer;
+}
+
 .casino-pro-down .casino-pro-list .casino-pro-item {
   display: -webkit-box;
   display: -ms-flexbox;
