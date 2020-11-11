@@ -4509,11 +4509,14 @@ body .odds-table .single-match-row td.match-name {
     overflow-y: scroll;
   }
 }
-.center-content:after,
-.live-sports-overview:after {
-  content: "";
-  height: 2000px;
-  width: 1px;
-  position: relative;
-  display: block;
+
+@media (max-device-width: 500px) {
+  .center-content:after,
+  .live-sports-overview:after {
+    content: "";
+    height: 2000px;
+    width: 1px;
+    position: relative;
+    display: block;
+  }
 }
