@@ -5082,4 +5082,13 @@ span {
   height: calc(100vh - 150px);
   overflow-y: scroll;
 }
+
+.center-content:after,
+.live-sports-overview:after {
+  content: "";
+  height: 2000px;
+  width: 1px;
+  position: relative;
+  display: block;
+}
 /*# sourceMappingURL=extra.css.map */
