@@ -4475,26 +4475,30 @@ body .odds-table .single-match-row td.match-name {
 
   .clive-inner .clive-games-container:last-child {
     display: block;
+    margin-top: -100px;
   }
 
   .clive-inner .clive-games-container .clive-item {
     display: none;
+    margin-bottom: 0;
   }
 
   .clive-inner .clive-games-container .clive-item.clive-item-big {
     display: block;
     width: 100%;
     text-align: center;
+    padding-bottom: 20px;
   }
   .clive-games-container .clive-games-inner {
     display: block;
     background: var(--bg1);
   }
   .clive-item-img-a {
-    width: 100%;
-    display: inline-block;
-    max-width: 700px;
-    padding: 20px;
+    display: none;
+  }
+
+  .clive-item-img::after {
+    content: url(https://nextra.pcluster.info/bbgame/images/casinolive/clive-game-d.jpg);
   }
 }
 .live-sports-diary .matches-wrapper {
