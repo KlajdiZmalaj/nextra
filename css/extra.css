@@ -5036,6 +5036,7 @@ span {
 
 .clive-container {
   padding-top: 20px;
+  background: #090601;
 }
 
 .clive-container .clgames-container,
@@ -5064,7 +5065,7 @@ span {
 
 .clive-container .clive-games-container .clive-games-inner {
   display: block;
-  background: var(--bg1);
+  background: #090601;
 }
 
 .clive-container .clive-item-img-a {
