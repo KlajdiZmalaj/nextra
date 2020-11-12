@@ -2278,6 +2278,7 @@ body
   .center-content.live-center-content {
     display: inline-block !important;
   }
+
 }
 
 .event-viewer-wrapper {
@@ -2325,10 +2326,24 @@ body
   font-size: 15px;
 }
 
+
+@media (max-width: 1500px) {
+  {
+    width: device-width;
+      zoom: 1;
+      min-zoom: 0.5;
+      max-zoom: 3;
+      user-zoom: fixed;
+  }
+
+  }
+
+
 @media (max-width: 1500px) {
   .event-viewer-wrapper {
     max-height: 680px;
     overflow: auto;
+    position: relative;
   }
 }
 
@@ -5058,7 +5073,6 @@ span {
 
 .clive-container {
   padding-top: 20px;
-  background: #090601;
 }
 
 .clive-container .clgames-container,
@@ -5070,12 +5084,27 @@ span {
 
 .clive-container .clive-inner .clive-games-container:last-child {
   display: block;
-  margin-top: -100px;
+  position: absolute;
+  bottom: 40%;
+  width: 314px;
+  left: calc(50% - 300px);
+}
+
+.clive-container .clive-item .clive-overlay .cl-btns-a {
+  padding: 10px 50px;
 }
 
 .clive-container .clive-inner .clive-games-container .clive-item {
   display: none;
   margin-bottom: 0;
+}
+
+.clive-container .clive-item .clive-overlay {
+  opacity: 1;
+}
+
+.clive-container .clive-item .clive-overlay .fa.fa-heart {
+  display: none;
 }
 
 .clive-container .clive-inner .clive-games-container .clive-item.clive-item-big {
@@ -5087,7 +5116,6 @@ span {
 
 .clive-container .clive-games-container .clive-games-inner {
   display: block;
-  background: #090601;
 }
 
 .clive-container .clive-item-img-a {
@@ -5096,6 +5124,7 @@ span {
 
 .clive-container .clive-item-img::after {
   content: url(https://nextra.pcluster.info/bbgame/images/casinolive/clive-game-d.jpg);
+  content: "";
 }
 
 .live-sports-diary .matches-wrapper {
