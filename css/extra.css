@@ -5213,4 +5213,12 @@ span.ui-slider-handle:before {
 .ui-slider-handle {
   top: -2px;
 }
+
+.casino-section .game-grid-container #p1 .game-play-btn {
+  display: none;
+}
+
+.casino-section .game-grid-container #p1 .game-play-btn.game-play-btn-b {
+  display: block;
+}
 /*# sourceMappingURL=extra.css.map */
