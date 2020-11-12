@@ -3734,7 +3734,7 @@ html body .block-title[onclick*="toggleNext"]:before {
 }
 
 .side-bar.right-side-bar {
-  min-width: 266px;
+  min-width: 286px;
 }
 
 body .odds-table .single-match-row td.match-name .match-id,
