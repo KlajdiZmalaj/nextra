@@ -5056,8 +5056,17 @@ span {
   color: inherit;
 }
 
+.clive-games-container
+.clive-games-inner
+.clive-item-big
+.clive-overlay
+.cl-like {
+  margin-bottom: 0;
+}
+
 .clive-container {
-  padding-top: 20px;
+  background-color: #000;
+  padding: 20px;
 }
 
 .clive-container .clgames-container,
@@ -5069,13 +5078,24 @@ span {
 
 .clive-container .clive-inner .clive-games-container:last-child {
   display: block;
-  position: absolute;
-  top: 40%;
-  left: calc(50% - 70px);
 }
 
 .clive-container .clive-item .clive-overlay .cl-btns-a {
   padding: 10px 50px;
+  background-color: var(--accent-bg);
+  color: var(--accent-txt);
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.clive-container .clive-item .clive-overlay .cl-btns-b {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  background-color: #fff !important;
+  margin-left: -1px;
+  color: #000 !important;
 }
 
 .clive-container .clive-inner .clive-games-container .clive-item {
@@ -5085,17 +5105,27 @@ span {
 
 .clive-container .clive-item .clive-overlay {
   opacity: 1;
+  position: relative;
 }
 
-.clive-container .clive-item .clive-overlay .fa.fa-heart {
+.clive-container .clive-item .clive-overlay .cl-like {
   display: none;
+}
+
+.clive-container .clive-item .clive-overlay .cl-btns {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .clive-container .clive-inner .clive-games-container .clive-item.clive-item-big {
   display: block;
-  width: 100%;
-  text-align: center;
-  padding-bottom: 20px;
+  border: 1px solid gray;
+  padding: 20px;
+  width: 300px;
+  border-radius: 12px;
+  margin-left: calc(50% - 150px);
 }
 
 .clive-container .clive-games-container .clive-games-inner {
@@ -5104,11 +5134,6 @@ span {
 
 .clive-container .clive-item-img-a {
   display: none;
-}
-
-.clive-container .clive-item-img::after {
-  content: url(https://nextra.pcluster.info/bbgame/images/casinolive/clive-game-d.jpg);
-  content: "";
 }
 
 .live-sports-diary .matches-wrapper {

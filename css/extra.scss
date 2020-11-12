@@ -4485,9 +4485,17 @@ body .odds-table .single-match-row td.match-name {
   color: inherit;
 }
 
-.clive-container {
-  padding-top: 20px;
+.clive-games-container
+  .clive-games-inner
+  .clive-item-big
+  .clive-overlay
+  .cl-like {
+  margin-bottom: 0;
+}
 
+.clive-container {
+  background-color: #000;
+  padding: 20px;
   .clgames-container,
   .clive-header,
   .clive-strip,
@@ -4497,12 +4505,22 @@ body .odds-table .single-match-row td.match-name {
 
   .clive-inner .clive-games-container:last-child {
     display: block;
-    position: absolute;
-    top: 40%;
-    left: calc(50% - 70px);
   }
   .clive-item .clive-overlay .cl-btns-a {
     padding: 10px 50px;
+    background-color: var(--accent-bg);
+    color: var(--accent-txt);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+  .clive-item .clive-overlay .cl-btns-b {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    background-color: #fff !important;
+    margin-left: -1px;
+    color: #000 !important;
   }
   .clive-inner .clive-games-container .clive-item {
     display: none;
@@ -4510,15 +4528,22 @@ body .odds-table .single-match-row td.match-name {
   }
   .clive-item .clive-overlay {
     opacity: 1;
-    .fa.fa-heart {
+    position: relative;
+
+    .cl-like {
       display: none;
+    }
+    .cl-btns {
+      flex-direction: row;
     }
   }
   .clive-inner .clive-games-container .clive-item.clive-item-big {
     display: block;
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
+    border: 1px solid gray;
+    padding: 20px;
+    width: 300px;
+    border-radius: 12px;
+    margin-left: calc(50% - 150px);
   }
   .clive-games-container .clive-games-inner {
     display: block;
@@ -4527,10 +4552,9 @@ body .odds-table .single-match-row td.match-name {
     display: none;
   }
 
-  .clive-item-img::after {
-    content: url(https://nextra.pcluster.info/bbgame/images/casinolive/clive-game-d.jpg);
-    content: "";
-  }
+  // .clive-item-img::after {
+  //   content: url(https://nextra.pcluster.info/icesport/images/casinolive/vivoLogo.png);
+  // }
 }
 .live-sports-diary .matches-wrapper {
   height: calc(100vh - 227px);
