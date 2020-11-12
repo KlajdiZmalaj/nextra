@@ -104,7 +104,6 @@ body.landing-page {
   background-image: none;
 }
 
-
 body {
   .championship-page .title,
   .total-goals-page .title,
@@ -123,5 +122,14 @@ body {
   .odds-table th,
   .odds-table td {
     border: 1px solid #ededed;
+  }
+}
+
+html {
+  .torn-a,
+  body #oddsMenu tr .odd-type {
+    border-bottom: 3px solid var(--accent-bg);
+    background: #12421c;
+    color: #fff;
   }
 }

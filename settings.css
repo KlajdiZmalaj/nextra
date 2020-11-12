@@ -100,6 +100,13 @@ body .odds-table td {
   border: 1px solid #ededed;
 }
 
+html .torn-a,
+html body #oddsMenu tr .odd-type {
+  border-bottom: 3px solid var(--accent-bg);
+  background: #12421c;
+  color: #fff;
+}
+
 button,
 hr,
 input {
