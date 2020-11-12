@@ -4558,9 +4558,16 @@ body .odds-table .single-match-row td.match-name {
     display: none;
   }
 
-  // .clive-item-img::after {
-  //   content: url(https://nextra.pcluster.info/icesport/images/casinolive/vivoLogo.png);
-  // }
+  .clive-item-img::after {
+    background-image: url(https://nextra.pcluster.info/icesport/images/casinolive/vivoLogo.png);
+    content: "";
+    display: block;
+    background-size: 235px;
+    height: 67px;
+    background-repeat: no-repeat;
+    left: 24px;
+    position: relative;
+  }
 }
 .live-sports-diary .matches-wrapper {
   height: calc(100vh - 227px);
