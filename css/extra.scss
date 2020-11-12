@@ -2926,10 +2926,15 @@ div#ui-datepicker-div[style*="display: block"] {
   margin-left: 5px;
 }
 .slick-track {
-  transform: translate3d(-818px, 0px, 0px) !important;
+  // transform: translate3d(-818px, 0px, 0px) !important;
+  transform: translate3d(0px, 0px, 0px) !important;
 }
-.center-content .main-slider .slick-dots {
+.center-content .main-slider .slick-dots,
+.center-content .main-slider .single-slide {
   display: none !important;
+}
+.center-content .main-slider .single-slide#slick-slide00 {
+  display: flex !important;
 }
 img[src*="main-banner5.jpg"],
 img[src*="main-banner4.jpg"],
