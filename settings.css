@@ -1,141 +1,44 @@
 html:root {
-  --accent: #95cd3b;
-  --accent-bg: #95cd3b;
-  --accent-txt: #000;
-  --primary-bg: #000;
-  --primary-txt: #fff;
-  --secondary-bg: #212931;
-  --secondary-txt: #fff;
-  --mainBg: #212931;
-  --mainBgCol: #fff;
-  --bg1: #29333b;
-  --col1: #fff;
-  --teableHeadersBg: #384351;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #14191d;
+  --accent: #005293;
+  --accent-bg: #005293;
+  --accent-txt: #ffcc00;
+  --primary-bg: #005293;
+  --primary-txt: #ffffff;
+  --secondary-bg: #ffffff;
+  --secondary-txt: #000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #e7e7e7;
+  --col1: #000;
+  --teableHeadersBg: #ffcc00;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #005293;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #445461;
-  --casinoGradient1: linear-gradient(
-    to right,
-    #95cd3b00 3%,
-    #95cd3b 60%,
-    #95cd3b00 99%
-  );
-  --casinoGradient1-txt: #000;
-  --casinoGradient2: #636363;
+  --tableBorders: #a3a3a3;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "bbgame";
+  --skin: "bsport10";
 }
 
-body {
-  background-size: 2038px !important;
+#favouriteTournaments li:before {
+  -webkit-filter: brightness(0.1);
+          filter: brightness(0.1);
 }
 
-.main-content.home-page
-.left-side-bar
-.single-block:first-child
-.block-title
-span,
-.main-content.home-page
-.right-side-bar
-.single-block:first-child
-.block-title
-span,
-.main-content.home-page
-.right-side-bar
-.single-block:nth-child(2)
-.block-title
-span {
-  color: var(--accent-bg);
-  font-weight: 500;
-}
-
-.single-sport .states .state .championship.selected .anchor {
-  color: var(--accent);
-}
-
-.single-sport
-.states
-.state
-.championship
-.anchor
-.check
-input:checked
-~ .checkmark:after,
-.single-sport
-.states
-.state
-.championship
-.anchor
-.check
-input:checked
-~ .checkmark {
-  border-color: var(--accent) !important;
-}
-
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
-  border: 1px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-
-.tabs-holder .tabs-row .single-tab {
-  border-bottom: 2px solid transparent !important;
-}
-
-.tabs-holder .tabs-row .single-tab:hover,
-.tabs-holder .tabs-row .single-tab.active {
-  border-bottom: 2px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-
-.odds-table .second-header {
-  opacity: 1 !important;
-}
-
-.side-bar
-.single-block.betslip-holder
-.betslip
-.selections-wrapper
-.single-event
-.selected-bet
-.bet
-.quote {
-  color: var(--accent);
+.side-bar .single-block .block-content form input[type="submit"] {
+  background-color: var(--accent-txt);
 }
 
 body.landing-page {
-  background-color: #31343d !important;
+  background-color: #181e2c !important;
   background-image: none;
 }
 
-.center-content.live-center-content {
-  -ms-grid-columns: 1fr 340px !important;
-      grid-template-columns: 1fr 340px !important;
-}
-
-html body .sport.active[id*="LVSPORT"] .single-match .match-info,
-html body .sport.active[id*="LVSPORT"] .single-match .match-odds {
-  background: var(--bg1) !important;
-  color: var(--col1) !important;
-}
-
-.sport.active .single-match {
-  border-left: 0 !important;
-}
-
-body .allmatches-head,
-body .sports-container .matches .single-match .match-odds .single-odd-type {
-  background: #14191d;
-}
-
-html .live-odds-table table tr td.odd-holder .single-live-odd .label,
-html span.odd-type,
-html .odds-table .second-header td {
-  color: var(--accent);
+.torn-a {
+  background: #e7e7e7 !important;
 }
 
 button,
@@ -3921,7 +3824,7 @@ div[data-source="upcoming"] .sport_odds_main {
   display: block;
   width: 200px;
   height: 53px;
-  background-image: url("https://nextra.pcluster.info/bbgame/images/logo2.svg");
+  background-image: url("http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

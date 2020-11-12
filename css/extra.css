@@ -2278,7 +2278,6 @@ body
   .center-content.live-center-content {
     display: inline-block !important;
   }
-
 }
 
 .event-viewer-wrapper {
@@ -2326,24 +2325,10 @@ body
   font-size: 15px;
 }
 
-
-@media (max-width: 1500px) {
-  {
-    width: device-width;
-      zoom: 1;
-      min-zoom: 0.5;
-      max-zoom: 3;
-      user-zoom: fixed;
-  }
-
-  }
-
-
 @media (max-width: 1500px) {
   .event-viewer-wrapper {
     max-height: 680px;
     overflow: auto;
-    position: relative;
   }
 }
 
@@ -4962,6 +4947,7 @@ span {
 .single-match
 .time-info {
   width: auto;
+  padding-right: 0;
 }
 
 .live-content-wrapper

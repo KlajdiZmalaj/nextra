@@ -1,41 +1,42 @@
 html:root {
-  --accent: #0a96f0;
-  --accent-bg: #ff9800;
-  --accent-txt: #000000;
-  --primary-bg: #d9d9d9;
-  --primary-txt: #000000;
+  --accent: #005293;
+  --accent-bg: #005293;
+  --accent-txt: #ffcc00;
+  --primary-bg: #005293;
+  --primary-txt: #ffffff;
   --secondary-bg: #ffffff;
   --secondary-txt: #000;
   --mainBg: #ffffff;
   --mainBgCol: #000;
   --bg1: #e7e7e7;
   --col1: #000;
-  --teableHeadersBg: #0a96f0;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #cccccc;
-  --teableSubHeadersCol: #000000;
+  --teableHeadersBg: #ffcc00;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #005293;
+  --teableSubHeadersCol: #ffffff;
   --tableBorders: #a3a3a3;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "bsport10";
 }
 
-$skin: "icesport";
+$skin: "bsport10";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "http://static.pcluster.info/skins/icesport/img/logo/logo.svg";
+$logoUrl: "http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg";
 $bodyBg: "https://nextra.pcluster.info/nextra/images/bg/blue.jpg";
 $bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
 
-$secondary: #0a96f0;
+$secondary: #005293;
 $secondaryCol: #fff;
 
-$secondaryDark: #128edb;
+$secondaryDark: #0a497e;
 $secondaryDarkCol: #fff;
 $black: #000000;
 $primary: #c2c2c2;
@@ -46,66 +47,22 @@ $red: #e1042e;
 $sb-2: #0a96f0;
 
 //icesport styles
-.header .top-header .top-header-content .logo-holder a:before {
-  transform: scale(2);
-}
+
 //black filter li logos
 #favouriteTournaments li:before {
   filter: brightness(0.1);
 }
-body {
-  background-size: 2038px !important;
+
+.side-bar .single-block .block-content form input[type="submit"] {
+  background-color: var(--accent-txt);
 }
 
-.casino-section {
-  background-color: #d0d5cf;
+body.landing-page {
+  background-color: #181e2c !important;
+  background-image: none;
 }
 
-.side-bar .single-block:first-child .block-title,
-.side-bar .single-block:nth-child(2) .block-title {
-  background-color: var(--accent-bg);
-  color: var(--accent-txt);
+.torn-a {
+  background: #e7e7e7 !important;
 }
-
-.side-bar .single-block:first-child .block-title img,
-.side-bar .single-block:nth-child(2) .block-title img {
-  -webkit-filter: grayscale(1) brightness(0) invert(0);
-  filter: grayscale(1) brightness(0) invert(0);
-}
-
-body .odds-table {
-  background: #cac9c9;
-  color: #222;
-}
-
-body {
-  .odds-table th,
-  .odds-table td {
-    border: 1px solid #ededed;
-  }
-}
-
-body .single-sport .states .state .championship.selected .anchor {
-  color: #fff !important;
-}
-
-body {
-  .single-sport
-    .states
-    .state
-    .championship
-    .anchor
-    .check
-    input:checked
-    ~ .checkmark,
-  .single-sport
-    .states
-    .state
-    .championship
-    .anchor
-    .check
-    input:checked
-    ~ .checkmark:after {
-    border-color: #fff !important;
-  }
-}
+//
