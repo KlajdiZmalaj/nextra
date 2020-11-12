@@ -1,26 +1,26 @@
 html:root {
-  --accent: #005293;
-  --accent-bg: #005293;
-  --accent-txt: #ffcc00;
-  --primary-bg: #005293;
-  --primary-txt: #ffffff;
-  --secondary-bg: #ffffff;
-  --secondary-txt: #000;
-  --mainBg: #ffffff;
-  --mainBgCol: #000;
-  --bg1: #e7e7e7;
-  --col1: #000;
-  --teableHeadersBg: #ffcc00;
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #005293;
-  --teableSubHeadersCol: #ffffff;
+  --accent: #12421c;
+  --accent-bg: #ffcc00;
+  --accent-txt: #000000;
+  --primary-bg: #12421c;
+  --primary-txt: #fff;
+  --secondary-bg: #2b883d;
+  --secondary-txt: #fff;
+  --mainBg: #ededed;
+  --mainBgCol: #222;
+  --bg1: #fff;
+  --col1: #222;
+  --teableHeadersBg: #2b883d;
+  --teableHeadersCol: #fff;
+  --teableSubHeadersBg: #dedede;
+  --teableSubHeadersCol: #222;
   --tableBorders: #a3a3a3;
-  --casinoGradient1: #00000000;
-  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "bsport10";
+  --skin: "stilobet365";
 }
 
 #favouriteTournaments li:before {
@@ -28,17 +28,76 @@ html:root {
           filter: brightness(0.1);
 }
 
-.side-bar .single-block .block-content form input[type="submit"] {
-  background-color: var(--accent-txt);
+html footer {
+  background: #222;
+  color: #fff;
+}
+
+body {
+  background-size: 2038px !important;
+}
+
+.main-content.home-page
+.left-side-bar
+.single-block:first-child
+.block-title
+span,
+.main-content.home-page
+.right-side-bar
+.single-block:first-child
+.block-title
+span,
+.main-content.home-page
+.right-side-bar
+.single-block:nth-child(2)
+.block-title
+span {
+  color: var(--accent-bg);
+}
+
+.side-bar .single-block:first-child .block-title img,
+.side-bar .single-block:nth-child(2) .block-title img {
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+  filter: grayscale(1) brightness(0) invert(0);
+}
+
+.header .top-bar .top-bar-content .login-bar form input[type="text"],
+.header .top-bar .top-bar-content .login-bar form input[type="password"] {
+  color: var(--accent-txt) !important;
+}
+
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab {
+  border-color: #222 !important;
+}
+
+.header .top-header .top-header-content .primary-menu ul li.active {
+  color: #ffcc00 !important;
+}
+
+.header .top-header {
+  border-bottom: 4px solid #42d15d !important;
 }
 
 body.landing-page {
-  background-color: #181e2c !important;
+  background-color: #000 !important;
   background-image: none;
 }
 
-.torn-a {
-  background: #e7e7e7 !important;
+body .championship-page .title,
+body .total-goals-page .title,
+body .soccer-fixtures-page .title {
+  color: #fff;
+  background: #7f7f7f;
+}
+
+body .odds-table {
+  background: #cac9c9;
+  color: #222;
+}
+
+body .odds-table th,
+body .odds-table td {
+  border: 1px solid #ededed;
 }
 
 button,
@@ -3824,7 +3883,7 @@ div[data-source="upcoming"] .sport_odds_main {
   display: block;
   width: 200px;
   height: 53px;
-  background-image: url("http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg");
+  background-image: url("https://nextra.pcluster.info/stilobet365/images/logo2.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
