@@ -5129,11 +5129,12 @@ span {
 
 .clive-container .clive-inner .clive-games-container .clive-item.clive-item-big {
   display: block;
-  border: 1px solid gray;
+  border: 1px solid #424242;
   padding: 20px;
-  width: 300px;
+  width: 400px;
   border-radius: 12px;
-  margin-left: calc(50% - 150px);
+  margin-left: calc(50% - 223px);
+  text-align: center;
 }
 
 .clive-container .clive-games-container .clive-games-inner {
@@ -5149,9 +5150,9 @@ span {
   content: "";
   display: block;
   background-size: 235px;
-  height: 67px;
+  height: 70px;
   background-repeat: no-repeat;
-  left: 24px;
+  left: calc(50% - 130px);
   position: relative;
 }
 
