@@ -10,27 +10,27 @@ $bodyCol: #000;
 $invet: 0;
 
 html:root {
-    --accent: #ffdb00;
-    --accent-bg: #ffffff;
-    --accent-txt: #000;
-    --primary-bg: #ffffff;
-    --primary-txt: #000000;
-    --secondary-bg: #182f38;
-    --secondary-txt: #fff;
-    --mainBg: #1d3842;
-    --mainBgCol: #fff;
-    --bg1: #264653;
-    --col1: #fff;
-    --teableHeadersBg: #ffdb00;
-    --teableHeadersCol: #000000;
-    --teableSubHeadersBg: #264653;
-    --teableSubHeadersCol: #ffffff;
-    --tableBorders: #42626f;
-    --casinoGradient1: #000000;
-    --casinoGradient1-txt: #fff;
-    --casinoGradient2: #ffdb00;
-    --casinoGradient2-txt: #000;
-    --backDrops: #000000cf;
+  --accent: #ffdb00;
+  --accent-bg: #ffffff;
+  --accent-txt: #000;
+  --primary-bg: #ffffff;
+  --primary-txt: #000000;
+  --secondary-bg: #182f38;
+  --secondary-txt: #fff;
+  --mainBg: #1d3842;
+  --mainBgCol: #fff;
+  --bg1: #264653;
+  --col1: #fff;
+  --teableHeadersBg: #ffdb00;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #264653;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #42626f;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #ffdb00;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
 }
 
 $secondary: #ffdb00;
@@ -44,3 +44,16 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #333844;
+
+//casino live
+.clive-container > .clive-inner > .clgames-container:nth-child(2) {
+  display: block;
+  margin-bottom: 0;
+}
+
+.clive-container .clive-inner {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  align-items: center;
+}
