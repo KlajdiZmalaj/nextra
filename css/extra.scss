@@ -4681,3 +4681,92 @@ span.ui-slider-handle:before {
 }
 //
 //
+
+//casino live
+
+.clive-container > .clive-inner > .clgames-container .clgames-item {
+  display: none;
+}
+.clive-container
+  > .clive-inner
+  > .clgames-container
+  .clgames-item.clgames-item-big {
+  display: block;
+  border: 1px solid #424242;
+  padding: 20px;
+  width: 400px;
+  border-radius: 12px;
+  margin-left: calc(50% - 223px);
+  text-align: center;
+}
+.clive-container
+  > .clive-inner
+  > .clgames-container
+  .clgames-item
+  .clgames-overlay {
+  opacity: 1;
+  position: relative;
+}
+
+.clive-container
+  > .clive-inner
+  > .clgames-container
+  .clgames-item
+  .clgames-overlay
+  .clg-btns-b {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  background-color: #fff !important;
+  margin-left: -1px;
+  color: #000 !important;
+  padding: 10px 42px;
+}
+
+.clive-container
+  > .clive-inner
+  > .clgames-container
+  .clgames-item
+  .clgames-overlay
+  .clg-btns {
+  flex-direction: row;
+}
+
+.clive-container
+  > .clive-inner
+  > .clgames-container
+  .clgames-item
+  .clgames-overlay
+  .clg-btns-a {
+  padding: 10px 50px;
+  background-color: var(--accent-bg);
+  color: var(--accent-txt);
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.clgames-item .clgames-overlay .clg-like {
+  display: none;
+}
+
+.clgames-container .clgames-inner .clgames-item-big .clgames-item-img-a {
+  display: none;
+}
+
+.clgames-container .clgames-item-img::after {
+  background-image: url(https://nextra.pcluster.info/icesport/images/casinolive/evolutionLogo.png);
+  content: "";
+  display: block;
+  background-size: 235px;
+  height: 70px;
+  background-repeat: no-repeat;
+  left: calc(50% - 126px);
+  position: relative;
+}
+.clgames-container .clgames-item-img {
+  background-color: transparent;
+  padding: 0;
+}

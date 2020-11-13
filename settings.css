@@ -1,110 +1,45 @@
 html:root {
-  --accent: #12421c;
-  --accent-bg: #ffcc00;
-  --accent-txt: #000000;
-  --primary-bg: #12421c;
-  --primary-txt: #fff;
-  --secondary-bg: #2b883d;
+  --accent: #ffdb00;
+  --accent-bg: #ffffff;
+  --accent-txt: #000;
+  --primary-bg: #ffffff;
+  --primary-txt: #000000;
+  --secondary-bg: #182f38;
   --secondary-txt: #fff;
-  --mainBg: #ededed;
-  --mainBgCol: #222;
-  --bg1: #fff;
-  --col1: #222;
-  --teableHeadersBg: #2b883d;
-  --teableHeadersCol: #fff;
-  --teableSubHeadersBg: #dedede;
-  --teableSubHeadersCol: #222;
-  --tableBorders: #a3a3a3;
+  --mainBg: #1d3842;
+  --mainBgCol: #fff;
+  --bg1: #264653;
+  --col1: #fff;
+  --teableHeadersBg: #ffdb00;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #264653;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #42626f;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --casinoGradient2: #ffdb00;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "stilobet365";
 }
 
-#favouriteTournaments li:before {
-  -webkit-filter: brightness(0.1);
-          filter: brightness(0.1);
+.clive-container > .clive-inner > .clgames-container:nth-child(2) {
+  display: block;
+  margin-bottom: 0;
 }
 
-html footer {
-  background: #222;
-  color: #fff;
-}
-
-body {
-  background-size: 2038px !important;
-}
-
-.main-content.home-page
-.left-side-bar
-.single-block:first-child
-.block-title
-span,
-.main-content.home-page
-.right-side-bar
-.single-block:first-child
-.block-title
-span,
-.main-content.home-page
-.right-side-bar
-.single-block:nth-child(2)
-.block-title
-span {
-  color: var(--accent-bg);
-}
-
-.side-bar .single-block:first-child .block-title img,
-.side-bar .single-block:nth-child(2) .block-title img {
-  -webkit-filter: grayscale(1) brightness(0) invert(0);
-  filter: grayscale(1) brightness(0) invert(0);
-}
-
-.header .top-bar .top-bar-content .login-bar form input[type="text"],
-.header .top-bar .top-bar-content .login-bar form input[type="password"] {
-  color: var(--accent-txt) !important;
-}
-
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab {
-  border-color: #222 !important;
-}
-
-.header .top-header .top-header-content .primary-menu ul li.active {
-  color: #ffcc00 !important;
-}
-
-.header .top-header {
-  border-bottom: 4px solid #42d15d !important;
-}
-
-body.landing-page {
-  background-color: #000 !important;
-  background-image: none;
-}
-
-body .championship-page .title,
-body .total-goals-page .title,
-body .soccer-fixtures-page .title {
-  color: #fff;
-  background: #7f7f7f;
-}
-
-body .odds-table {
-  background: #cac9c9;
-  color: #222;
-}
-
-body .odds-table th,
-body .odds-table td {
-  border: 1px solid #ededed;
-}
-
-html .torn-a,
-html body #oddsMenu tr .odd-type {
-  border-bottom: 3px solid var(--accent-bg);
-  background: #12421c;
-  color: #fff;
+.clive-container .clive-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 button,
@@ -3890,7 +3825,7 @@ div[data-source="upcoming"] .sport_odds_main {
   display: block;
   width: 200px;
   height: 53px;
-  background-image: url("https://nextra.pcluster.info/stilobet365/images/logo2.svg");
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NjkuNTUgOTMuNDYiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZmZkYjAwO30uY2xzLTJ7ZmlsbDojZmZmO308L3N0eWxlPjwvZGVmcz48ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTM2MS44Myw1Mi41NWExMCwxMCwwLDAsMC0zLjE4LTIuMTMsOS44Miw5LjgyLDAsMCwwLTMuOTEtLjc4SDMzOC4zOXYxOS45aDE2LjM1YTkuODIsOS44MiwwLDAsMCwzLjkxLS43OCwxMCwxMCwwLDAsMCwzLjE4LTIuMTNBMTAuMjUsMTAuMjUsMCwwLDAsMzY0LDYzLjVhOS40LDkuNCwwLDAsMCwuNzktMy44Nyw5LjY5LDkuNjksMCwwLDAtLjc5LTMuOTFBMTAuMTksMTAuMTksMCwwLDAsMzYxLjgzLDUyLjU1WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQ2NS4zOSwwSDIwLjc4QTIwLjgsMjAuOCwwLDAsMCwwLDIwLjc4VjkzLjQ2SDQ0OC43N2EyMC44MSwyMC44MSwwLDAsMCwyMC43OC0yMC43OVYwWk0yMC43OCw4OS4zQTE2LjYzLDE2LjYzLDAsMCwxLDQuMTYsNzIuNjdWMjAuNzhBMTYuNTYsMTYuNTYsMCwwLDEsOC45Myw5LjEzTDksOUExNi41NiwxNi41NiwwLDAsMSwyMC43OCw0LjE2SDI4MUwzMTYuNzgsODkuM1pNMzcyLjMsNjdhMTkuMjYsMTkuMjYsMCwwLDEtNC4wOSw2LDE5LDE5LDAsMCwxLTEzLjQ3LDUuNTZIMzI5LjM1VjQwLjY0aDI0LjE4YTguMzYsOC4zNiwwLDAsMCw4LjM0LTguMzgsOC4zMSw4LjMxLDAsMCwwLTguMzQtOC4zNWgtNS4zMXYwSDMyOS4zNVYxNC44N2gyNC4xOGExNi41MywxNi41MywwLDAsMSw2LjczLDEuNEExNy42OSwxNy42OSwwLDAsMSwzNjUuNzgsMjBhMTguMTMsMTguMTMsMCwwLDEsMy43NCw1LjUyLDE3LDE3LDAsMCwxLC4wOCwxMy4yNkExNy41OSwxNy41OSwwLDAsMSwzNjYsNDQuMzQsMTguODksMTguODksMCwwLDEsMzcyLjMsNjdabTc3LjM5LTQzLjA3SDQzNi45MlY3OC41OGgtOVYyMy45MUgzODkuMjlWNDAuNmgxMS42NHY5SDM4OS4yOXYxOS45SDQxNXY5SDM4MC4yNVYxNC44N2g2OS40NFoiLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iNDIuNzIgMTQuODggMTUuOTEgNzguNTggMjQuODIgNzguNTggNDIuNzIgMzYgNjAuNyA3OC41OCA2OS41MyA3OC41OCA0Mi43MiAxNC44OCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxNTguNjcgMTQuODggMTMxLjg3IDc4LjU4IDE0MC43OCA3OC41OCAxNTguNjcgMzYgMTc2LjY2IDc4LjU4IDE4NS40OCA3OC41OCAxNTguNjcgMTQuODgiLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMjY4LjQ5IDE0Ljg4IDI0MS42OCA3OC41OCAyNTAuNTkgNzguNTggMjY4LjQ5IDM2IDI4Ni40NyA3OC41OCAyOTUuMjkgNzguNTggMjY4LjQ5IDE0Ljg4Ii8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTA5Ljg1LDQ3LjZhMTcuMzcsMTcuMzcsMCwwLDAsOC4wNS0yMi4xNSwxNy4yOSwxNy4yOSwwLDAsMC0zLjcxLTUuNTMsMTcuNDgsMTcuNDgsMCwwLDAtNS41NC0zLjcsMTcuMTgsMTcuMTgsMCwwLDAtNi43Ni0xLjM1SDc4LjQ5djkuMDZoMjMuMzZhOC4zMSw4LjMxLDAsMCwxLDguMzUsOC4zNSw4LjMzLDguMzMsMCwwLDEtNSw3LjY2LDguNTEsOC41MSwwLDAsMS0zLjMuN0g3OC40OVY3OC41OGg5LjA1VjQ5LjUxaDEzLjg3bDEyLjI3LDI5LjA3aDkuMjNaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjM2LjksNTFhMTguNzEsMTguNzEsMCwwLDAtNS43OC02LjY1LDE3Ljk0LDE3Ljk0LDAsMCwwLDMuNjUtNS41NiwxNi43OSwxNi43OSwwLDAsMCwxLjMtNi41MiwxNi41NywxNi41NywwLDAsMC0xLjM5LTYuNzRBMTgsMTgsMCwwLDAsMjMwLjk0LDIwYTE3LjY5LDE3LjY5LDAsMCwwLTUuNTItMy43MywxNi41MywxNi41MywwLDAsMC02LjczLTEuNEgxOTQuNTJ2OS4wNmgxOC44N3YwaDUuM0E4LjMxLDguMzEsMCwwLDEsMjI3LDMyLjI2YTguMzYsOC4zNiwwLDAsMS04LjM0LDguMzhIMTk0LjUyVjc4LjU4aDI1LjM5YTE4LjYsMTguNiwwLDAsMCw3LjM4LTEuNDhBMTksMTksMCwwLDAsMjMzLjM4LDczYTE5LjIzLDE5LjIzLDAsMCwwLDQuMDgtNiwxOC4zMiwxOC4zMiwwLDAsMCwxLjQ4LTcuMzVBMTguNTYsMTguNTYsMCwwLDAsMjM2LjksNTFaTTIyOS4xMiw2My41YTEwLDEwLDAsMCwxLTUuMyw1LjI2LDkuODYsOS44NiwwLDAsMS0zLjkxLjc4SDIwMy41NlY0OS42NGgxNi4zNWE5Ljg2LDkuODYsMCwwLDEsMy45MS43OCw5LjkyLDkuOTIsMCwwLDEsNS4zLDUuMyw5Ljg2LDkuODYsMCwwLDEsLjc4LDMuOTFBOS41Niw5LjU2LDAsMCwxLDIyOS4xMiw2My41WiIvPjwvZz48L2c+PC9zdmc+");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
