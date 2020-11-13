@@ -4661,5 +4661,23 @@ span.ui-slider-handle:before {
     }
   }
 }
+
+.header .top-bar .top-bar-content .login-bar form input[type="text"],
+.header .top-bar .top-bar-content .login-bar form input[type="password"],
+.header
+  .top-bar
+  .top-bar-content
+  .login-bar
+  form
+  input[type="text"]::placeholder,
+.header
+  .top-bar
+  .top-bar-content
+  .login-bar
+  form
+  input[type="password"]::placeholder {
+  background: var(--secondary-bg);
+  color: var(--secondary-txt);
+}
 //
 //

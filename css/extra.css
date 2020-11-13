@@ -5241,4 +5241,76 @@ span.ui-slider-handle:before {
   text-align: center;
   font-size: 14px;
 }
+
+.header .top-bar .top-bar-content .login-bar form input[type="text"],
+.header .top-bar .top-bar-content .login-bar form input[type="password"],
+.header
+.top-bar
+.top-bar-content
+.login-bar
+form
+input[type="text"]::-webkit-input-placeholder,
+.header
+.top-bar
+.top-bar-content
+.login-bar
+form
+input[type="password"]::-webkit-input-placeholder {
+  background: var(--secondary-bg);
+  color: var(--secondary-txt);
+}
+
+.header .top-bar .top-bar-content .login-bar form input[type="text"],
+.header .top-bar .top-bar-content .login-bar form input[type="password"],
+.header
+.top-bar
+.top-bar-content
+.login-bar
+form
+input[type="text"]:-ms-input-placeholder,
+.header
+.top-bar
+.top-bar-content
+.login-bar
+form
+input[type="password"]:-ms-input-placeholder {
+  background: var(--secondary-bg);
+  color: var(--secondary-txt);
+}
+
+.header .top-bar .top-bar-content .login-bar form input[type="text"],
+.header .top-bar .top-bar-content .login-bar form input[type="password"],
+.header
+.top-bar
+.top-bar-content
+.login-bar
+form
+input[type="text"]::-ms-input-placeholder,
+.header
+.top-bar
+.top-bar-content
+.login-bar
+form
+input[type="password"]::-ms-input-placeholder {
+  background: var(--secondary-bg);
+  color: var(--secondary-txt);
+}
+
+.header .top-bar .top-bar-content .login-bar form input[type="text"],
+.header .top-bar .top-bar-content .login-bar form input[type="password"],
+.header
+.top-bar
+.top-bar-content
+.login-bar
+form
+input[type="text"]::placeholder,
+.header
+.top-bar
+.top-bar-content
+.login-bar
+form
+input[type="password"]::placeholder {
+  background: var(--secondary-bg);
+  color: var(--secondary-txt);
+}
 /*# sourceMappingURL=extra.css.map */
