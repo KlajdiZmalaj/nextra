@@ -4518,6 +4518,7 @@ body .odds-table .single-match-row td.match-name {
     color: var(--accent-txt);
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
+    text-transform: uppercase;
   }
   .clive-item .clive-overlay .cl-btns-b {
     border-top-right-radius: 12px;
@@ -4527,6 +4528,7 @@ body .odds-table .single-match-row td.match-name {
     background-color: #fff !important;
     margin-left: -1px;
     color: #000 !important;
+    padding: 10px 42px;
   }
   .clive-inner .clive-games-container .clive-item {
     display: none;
@@ -4639,3 +4641,18 @@ span.ui-slider-handle:before {
     display: flex !important;
   }
 }
+
+.casino-section {
+  .game-grid-container {
+    #p1 {
+      .game-play-btn {
+        display: none;
+      }
+      .game-play-btn.game-play-btn-b {
+        display: block;
+      }
+    }
+  }
+}
+//
+//

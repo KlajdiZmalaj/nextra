@@ -5094,6 +5094,7 @@ span {
   color: var(--accent-txt);
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
+  text-transform: uppercase;
 }
 
 .clive-container .clive-item .clive-overlay .cl-btns-b {
@@ -5104,6 +5105,7 @@ span {
   background-color: #fff !important;
   margin-left: -1px;
   color: #000 !important;
+  padding: 10px 42px;
 }
 
 .clive-container .clive-inner .clive-games-container .clive-item {
@@ -5222,5 +5224,13 @@ span.ui-slider-handle:before {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
+}
+
+.casino-section .game-grid-container #p1 .game-play-btn {
+  display: none;
+}
+
+.casino-section .game-grid-container #p1 .game-play-btn.game-play-btn-b {
+  display: block;
 }
 /*# sourceMappingURL=extra.css.map */
