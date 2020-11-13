@@ -5232,5 +5232,13 @@ span.ui-slider-handle:before {
 
 .casino-section .game-grid-container #p1 .game-play-btn.game-play-btn-b {
   display: block;
+  font-size: 0;
+  margin-top: 15px;
+}
+
+.casino-section .game-grid-container #p1 .game-play-btn.game-play-btn-b:after {
+  content: "Gioca";
+  text-align: center;
+  font-size: 14px;
 }
 /*# sourceMappingURL=extra.css.map */

@@ -4650,6 +4650,13 @@ span.ui-slider-handle:before {
       }
       .game-play-btn.game-play-btn-b {
         display: block;
+        font-size: 0;
+        margin-top: 15px;
+      }
+      .game-play-btn.game-play-btn-b:after {
+        content: "Gioca";
+        text-align: center;
+        font-size: 14px;
       }
     }
   }
