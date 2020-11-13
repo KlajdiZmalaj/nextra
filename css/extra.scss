@@ -4630,5 +4630,12 @@ span.ui-slider-handle:before {
   .ui-slider-handle {
   top: -2px;
 }
-//
-//
+#indexLivechat {
+  display: none !important;
+}
+
+.logged-header {
+  #indexLivechat {
+    display: flex !important;
+  }
+}
