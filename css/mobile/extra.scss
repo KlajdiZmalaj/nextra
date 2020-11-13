@@ -8915,24 +8915,39 @@ div[data-source="in_play"]
     width: 100%;
   }
 }
+
+.lista_messagi .legenda_scommesse .tipo span.vincente,
+.lista_messagi .legenda_scommesse .tipo span.tipo.vincente {
+  background-color: #2da050;
+}
+
+.lista_messagi .legenda_scommesse .tipo span.perdente,
+.lista_messagi .legenda_scommesse .tipo span.tipo.perdente {
+  background-color: #ff423d;
+}
+.lista_messagi .legenda_scommesse .tipo span.annullata_dal_cliente,
+.lista_messagi .legenda_scommesse .tipo span.tipo.annullata_dal_cliente {
+  background-color: #0073b9;
+}
+
 span {
   &[data-op="1"] {
-    background: #fedb31 !important;
+    background: #dcb630 !important; //running
   }
   &[data-op="2"] {
-    background: #38e9a4 !important;
+    background: #2da050 !important; //vincente
   }
   &[data-op="3"] {
-    background: #ff0000 !important;
+    background: #ff423d !important; //perdente
   }
   &[data-op="4"] {
-    background: #dcb630 !important;
+    background: #0073b9 !important; //rifiutata
   }
   &[data-op="9"] {
-    background: #769a2f !important;
+    background: #8da1ad !important; //valutazione
   }
   &[data-op="co"] {
-    background: #f4c685 !important;
+    background: #f4c685 !important; //cashout
   }
   &[data-op="pr"] {
     background: #c929ad !important;
