@@ -5507,11 +5507,11 @@ input[type="password"]::placeholder {
   cursor: pointer;
 }
 
-.poker-banner-container .tour-container .tour-inner {
+.poker-container .tour-container .tour-inner {
   display: none;
 }
 
-.poker-banner-container .ptext-container {
+.poker-container .ptext-container {
   display: none;
 }
 /*# sourceMappingURL=extra.css.map */
