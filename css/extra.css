@@ -5506,4 +5506,12 @@ input[type="password"]::placeholder {
   padding: 10px;
   cursor: pointer;
 }
+
+.poker-banner-container .tour-container .tour-inner {
+  display: none;
+}
+
+.poker-banner-container .ptext-container {
+  display: none;
+}
 /*# sourceMappingURL=extra.css.map */
