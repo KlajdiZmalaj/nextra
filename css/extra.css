@@ -2630,6 +2630,16 @@ body .radio input:checked ~ .radiocircle:after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  opacity: 0.5;
+}
+
+.live-content-wrapper
+.live-sports-overview
+.sport-container
+.single-panel
+.panel-title
+.odd-types.selected {
+  opacity: 1;
 }
 
 html div.landing-page .banner-content .bottom-text-holder .quarter:before {

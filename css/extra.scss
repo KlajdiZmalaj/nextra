@@ -2425,6 +2425,10 @@ body .radio input:checked ~ .radiocircle:after {
   padding: 0;
   display: flex;
   justify-content: center;
+  opacity: .5;
+  &.selected {
+    opacity: 1;
+  }
 }
 
 html div.landing-page .banner-content .bottom-text-holder .quarter {
