@@ -2630,6 +2630,14 @@ body .radio input:checked ~ .radiocircle:after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.live-content-wrapper
+.live-sports-overview
+.sport-container
+.single-panel
+.panel-title
+.odd-types .single-odd-type {
   opacity: 0.5;
 }
 
@@ -2638,7 +2646,7 @@ body .radio input:checked ~ .radiocircle:after {
 .sport-container
 .single-panel
 .panel-title
-.odd-types.selected {
+.odd-types .single-odd-type.selected {
   opacity: 1;
 }
 

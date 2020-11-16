@@ -2425,9 +2425,12 @@ body .radio input:checked ~ .radiocircle:after {
   padding: 0;
   display: flex;
   justify-content: center;
-  opacity: 0.5;
-  &.selected {
-    opacity: 1;
+
+  .single-odd-type {
+    opacity: 0.5;
+    &.selected {
+      opacity: 1;
+    }
   }
 }
 
