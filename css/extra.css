@@ -5517,11 +5517,40 @@ input[type="password"]::placeholder {
   font-weight: 600;
 }
 
+.poker-banner-container {
+  max-width: 1360px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.poker-banner-container .poker-banner-img {
+  display: none;
+}
+
+.poker-banner-container:after {
+  background-image: url(https://nextra.pcluster.info/bbgame/images/poker/poker-banner1.png);
+  background-size: 100%;
+  width: 100%;
+  height: 364px;
+  content: "";
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.poker-container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
 .poker-container .tour-container .tour-inner {
   display: none;
 }
 
 .poker-container .ptext-container {
   display: none;
+}
+
+.poker-container .poker-strip {
+  padding: 140px 0px;
 }
 /*# sourceMappingURL=extra.css.map */
