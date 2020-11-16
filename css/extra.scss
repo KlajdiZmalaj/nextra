@@ -2421,7 +2421,7 @@ body .radio input:checked ~ .radiocircle:after {
   .single-panel
   .panel-title
   .odd-types {
-  width: calc(70% - 94px);
+  width: calc(70% + 20px);
   padding: 0;
   display: flex;
   justify-content: center;
