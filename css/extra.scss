@@ -4810,11 +4810,16 @@ span.ui-slider-handle:before {
   align-items: center;
   padding-left: 20px;
   position: relative;
-  bottom: 2px;
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  bottom: 0;
+  width: 200px;
+  margin-left: auto;
+  cursor: pointer;
   i.fa.fa-info-circle {
     position: relative;
     top: 1px;
-    margin-right: 2px;
+    margin-right: 9px;
   }
 }
 /* virtual */
