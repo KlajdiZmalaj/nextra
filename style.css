@@ -53,6 +53,28 @@ body.landing-page {
 .torn-a {
   background: var(--secondary-bg) !important;
   color: var(--secondary-txt) !important;
+  background: var(--secondary-bg) !important;
+  color: var(--secondary-txt) !important;
+}
+
+.clive-container > .clive-inner > .clgames-container:nth-child(2) {
+  display: block;
+  margin-bottom: 0;
+}
+
+.clive-container .clive-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (max-width: 1008px) {

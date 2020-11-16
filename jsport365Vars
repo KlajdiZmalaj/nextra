@@ -58,3 +58,17 @@ body.landing-page {
   background-color: #121212 !important;
   background-image: none;
 }
+
+
+//casino live
+.clive-container > .clive-inner > .clgames-container:nth-child(2) {
+  display: block;
+  margin-bottom: 0;
+}
+
+.clive-container .clive-inner {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  align-items: center;
+}
