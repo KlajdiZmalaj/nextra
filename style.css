@@ -49,6 +49,10 @@ html .logged-center .usrlist #client_list td {
   border: 1px solid #b1adad !important;
 }
 
+[data-page="prematch-event"] .sport_odds_main .sport_line_title {
+  background: #f2f2f2 !important;
+}
+
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;
