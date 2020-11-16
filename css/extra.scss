@@ -4829,7 +4829,7 @@ span.ui-slider-handle:before {
   background-size: 100%;
   .virtu-btn {
     position: absolute;
-    bottom: 100px;
+    bottom: 48px;
     left: calc(50% - 70px);
     width: auto;
     background-color: var(--accent-bg);
@@ -4837,6 +4837,14 @@ span.ui-slider-handle:before {
     text-transform: uppercase;
     padding: 10px;
     cursor: pointer;
+    .virtu-txt {
+      font-size: 0;
+      &:after {
+        content: "gioca ora";
+        font-size: 15px;
+        font-weight: 600;
+      }
+    }
   }
 }
 

@@ -5497,7 +5497,7 @@ input[type="password"]::placeholder {
 
 .virtu-box .virtu-btn {
   position: absolute;
-  bottom: 100px;
+  bottom: 48px;
   left: calc(50% - 70px);
   width: auto;
   background-color: var(--accent-bg);
@@ -5505,6 +5505,16 @@ input[type="password"]::placeholder {
   text-transform: uppercase;
   padding: 10px;
   cursor: pointer;
+}
+
+.virtu-box .virtu-btn .virtu-txt {
+  font-size: 0;
+}
+
+.virtu-box .virtu-btn .virtu-txt:after {
+  content: "gioca ora";
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .poker-container .tour-container .tour-inner {
