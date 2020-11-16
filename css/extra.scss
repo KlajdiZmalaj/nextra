@@ -4770,3 +4770,26 @@ span.ui-slider-handle:before {
   background-color: transparent;
   padding: 0;
 }
+
+/* virtual */
+.virtu-box {
+  min-height: calc(100vh - 245px);
+  background-image: url(https://gradm-api.pcluster.info/api/skin/6/image/3446404….jpeg);
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  background-size: 100%;
+  .virtu-btn {
+    position: absolute;
+    bottom: 100px;
+    left: calc(50% - 70px);
+    width: auto;
+    background-color: var(--accent-bg);
+    color: var(--accent-txt);
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
