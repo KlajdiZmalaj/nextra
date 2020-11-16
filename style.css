@@ -3,78 +3,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
 html:root {
-  --accent: #cc0318;
-  --accent-bg: #cc0318;
-  --accent-txt: #fff;
-  --primary-bg: #ffffff;
-  --primary-txt: #707070;
-  --secondary-bg: #202d35;
-  --secondary-txt: #fff;
-  --mainBg: #3b4f5d;
-  --mainBgCol: #fff;
-  --bg1: #2f414c;
-  --col1: #fff;
-  --teableHeadersBg: #cc0318;
-  --teableHeadersCol: #fff;
-  --teableSubHeadersBg: #3f5463;
+  --accent: #005293;
+  --accent-bg: #005293;
+  --accent-txt: #ffcc00;
+  --primary-bg: #005293;
+  --primary-txt: #ffffff;
+  --secondary-bg: #ffffff;
+  --secondary-txt: #000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #e7e7e7;
+  --col1: #000;
+  --teableHeadersBg: #ffcc00;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #005293;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #161d2f;
+  --tableBorders: #a3a3a3;
   --casinoGradient1: #00000000;
   --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #cc0318;
+  --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "kingbet1";
+  --skin: "bsport10";
 }
 
-body {
-  background-size: 2038px !important;
+#favouriteTournaments li:before {
+  -webkit-filter: brightness(0.1);
+          filter: brightness(0.1);
 }
 
-body footer .footer-logo a:before {
-  -webkit-filter: grayscale(1) brightness(2.1);
-          filter: grayscale(1) brightness(2.1);
-  opacity: 0.5;
-}
-
-.logged-page .registration-holder .form-holder form .note {
-  color: var(--col1) !important;
-}
-
-.logged-page .registration-holder .form-holder form .buttons {
-  background: transparent;
+.side-bar .single-block .block-content form input[type="submit"] {
+  background-color: var(--accent-txt);
 }
 
 body.landing-page {
-  background-color: #31343d !important;
+  background-color: #181e2c !important;
   background-image: none;
 }
 
 .torn-a {
-  background: var(--secondary-bg) !important;
-  color: var(--secondary-txt) !important;
-  background: var(--secondary-bg) !important;
-  color: var(--secondary-txt) !important;
+  background: #e7e7e7 !important;
 }
 
-.clive-container > .clive-inner > .clgames-container:nth-child(2) {
-  display: block;
-  margin-bottom: 0;
-}
-
-.clive-container .clive-inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1;
-          flex: 1 1;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+html .logged-center .usrlist #client_list td {
+  border: 1px solid #b1adad !important;
 }
 
 @media (max-width: 1008px) {
@@ -226,7 +198,7 @@ th {
 
 body {
   margin: 0;
-  background-image: url("https://nextra.pcluster.info/nextra/images/bg/red.jpg");
+  background-image: url("https://nextra.pcluster.info/nextra/images/bg/blue.jpg");
   background-size: 100% 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -421,7 +393,7 @@ input[type="submit"] {
   top: 1px;
   width: 3px;
   height: 7px;
-  border: solid #3b4f5d;
+  border: solid #005293;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -464,7 +436,7 @@ input[type="submit"] {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #3b4f5d;
+  border: 2px solid #005293;
 }
 
 .radio input:checked ~ .radiocircle:after {
@@ -473,7 +445,7 @@ input[type="submit"] {
   width: 9px;
   height: 9px;
   border: none;
-  background: #3b4f5d;
+  background: #005293;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -505,7 +477,7 @@ input[type="submit"] {
   top: 1px;
   width: 3px;
   height: 7px;
-  border: solid #3b4f5d;
+  border: solid #005293;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -800,7 +772,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .help:before {
   display: none;
   content: "";
-  border-bottom: 9px solid #3b4f5d;
+  border-bottom: 9px solid #0a497e;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   position: absolute;
@@ -855,7 +827,7 @@ input[type="submit"] {
 .header .top-bar .top-bar-content .login-bar .settings .controls-menu .option-block .title {
   padding-top: 8px;
   padding-left: 5px;
-  border-bottom: 1px solid #3b4f5d;
+  border-bottom: 1px solid #0a497e;
   cursor: default;
   pointer-events: none;
 }
@@ -866,7 +838,7 @@ input[type="submit"] {
   line-height: 25px;
   padding-left: 25px;
   position: relative;
-  border-bottom: 1px solid #3b4f5d;
+  border-bottom: 1px solid #0a497e;
   cursor: pointer;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
@@ -881,7 +853,7 @@ input[type="submit"] {
           transform: translateY(-50%);
   width: 12px;
   height: 12px;
-  border: 1px solid #3b4f5d;
+  border: 1px solid #0a497e;
   border-radius: 50%;
 }
 
@@ -896,7 +868,7 @@ input[type="submit"] {
   width: 10px;
   height: 10px;
   border: none;
-  background: #59778c;
+  background: #1072c5;
   border-radius: 50%;
 }
 
@@ -1054,7 +1026,7 @@ input[type="submit"] {
   height: 70px;
   display: block;
   position: relative;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTA2LjIgODAuNzUiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudCk7fS5jbHMtMntmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTIpO30uY2xzLTN7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC0zKTt9LmNscy00e2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQtNCk7fS5jbHMtNXtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTUpO30uY2xzLTZ7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC02KTt9LmNscy03e2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQtNyk7fS5jbHMtOHtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTgpO30uY2xzLTl7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC05KTt9LmNscy0xMCwuY2xzLTE1e2ZpbGw6I2ZmZjt9LmNscy0xMXtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTEwKTt9LmNscy0xMntmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTExKTt9LmNscy0xM3tmaWxsOiNjY2M7fS5jbHMtMTR7ZmlsbDojYjNiM2IzO30uY2xzLTE1e29wYWNpdHk6MC4yO2lzb2xhdGlvbjppc29sYXRlO308L3N0eWxlPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iODEuOSIgeTE9IjY5LjQ2IiB4Mj0iODEuOSIgeTI9IjExLjI1IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYTcwMDAyIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZTkwMjFhIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC0yIiB4MT0iMTI0LjIyIiB5MT0iNjkuNDYiIHgyPSIxMjQuMjIiIHkyPSIxMS4yNSIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudCIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTMiIHgxPSI0OTkuNDEiIHkxPSI2OS40NiIgeDI9IjQ5OS40MSIgeTI9IjExLjI1IiB4bGluazpocmVmPSIjbGluZWFyLWdyYWRpZW50Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtNCIgeDE9IjQ3Ny45NSIgeTE9IjE4LjA2IiB4Mj0iNTA2LjIiIHkyPSIxOC4wNiIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudCIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTUiIHgxPSIxNjcuNzciIHkxPSI2OS40NiIgeDI9IjE2Ny43NyIgeTI9IjExLjI1IiB4bGluazpocmVmPSIjbGluZWFyLWdyYWRpZW50Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtNiIgeDE9IjIzNi42MiIgeTE9IjY5LjQ3IiB4Mj0iMjM2LjYyIiB5Mj0iMTEuMjUiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQiLz48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC03IiB4MT0iMzEwLjc0IiB5MT0iMTEuMjUiIHgyPSIzMTAuNzQiIHkyPSI2OS40NiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2Q2ZDZkNiIvPjxzdG9wIG9mZnNldD0iMC4xNSIgc3RvcC1jb2xvcj0iI2RkZCIvPjxzdG9wIG9mZnNldD0iMC41OSIgc3RvcC1jb2xvcj0iI2U4ZThlOCIvPjxzdG9wIG9mZnNldD0iMC43IiBzdG9wLWNvbG9yPSIjY2JjYmNiIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYjdiN2I3Ii8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC04IiB4MT0iMzgyLjUzIiB5MT0iMTEuMjUiIHgyPSIzODIuNTMiIHkyPSI2OS40NiIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudC03Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtOSIgeDE9IjQ1Mi43NyIgeTE9IjExLjI1IiB4Mj0iNDUyLjc3IiB5Mj0iNjkuNDYiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQtNyIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTEwIiB4MT0iMjMuMDMiIHkxPSIzLjYxIiB4Mj0iMjMuMDMiIHkyPSI3Ny4xOCIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudC03Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMTEiIHgxPSI0Ni4zIiB5MT0iMTEuMjYiIHgyPSI0Ni4zIiB5Mj0iNjkuNDEiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQtNyIvPjwvZGVmcz48dGl0bGU+bG9nbzwvdGl0bGU+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xMTMuNTcsNjkuNDZIOTVMNzIuNTUsNDcuMjhINjMuODNWNjkuNDZINTAuMjNWMTEuMjVoMTMuNlYzMy42OWg4LjM5TDkzLjQsMTEuMjVIMTEyTDg0LjExLDQwLjQxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTEzMSw2OS40NkgxMTcuNDJWMTEuMjVIMTMxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTUwNi4yLDY5LjQ2SDQ5Mi42MVYyNC44N0w1MDYuMiwxMS4yNVoiLz48cGF0aCBjbGFzcz0iY2xzLTQiIGQ9Ik00OTIuNjEsMjQuODdINDc4bDEzLjI2LTEzLjYyaDE1WiIvPjxwYXRoIGNsYXNzPSJjbHMtNSIgZD0iTTE5OC44Nyw2OS40NkgxODUuMjhsLTM1LTM5LjE4VjY5LjQ2aC0xMy42VjExLjI1aDEzLjZsMzUsMzl2LTM5aDEzLjU5WiIvPjxwYXRoIGNsYXNzPSJjbHMtNiIgZD0iTTI2OC42Nyw2OS40NmgtNDUuMWExOC44OCwxOC44OCwwLDAsMS0xMy40Ni01LjIzLDE3LjM0LDE3LjM0LDAsMCwxLTUuNTUtMTMuMThWMjkuNjhhMTcuNDEsMTcuNDEsMCwwLDEsNS41NS0xMy4xNywxOC44MiwxOC44MiwwLDAsMSwxMy40OC01LjI2aDQ1LjFWMjQuODdIMjIzLjU3Yy0zLjYyLDAtNS40NCwxLjYyLTUuNDQsNC44NVY1MWMwLDMuMjUsMS44Miw0Ljg2LDUuNDQsNC44NmgzMS41VjQ3LjE3SDIzNi42MVYzMy41N2gzMi4wNloiLz48cGF0aCBjbGFzcz0iY2xzLTciIGQ9Ik0zNDAuMDgsNDBxNy4xNCw0LjQxLDcuMTQsMTMuNDZBMTUuNzIsMTUuNzIsMCwwLDEsMzQzLDY0LjUxcS00LjUzLDUtMTIuMjQsNC45NUgyNzQuMjVWMTEuMjVoNTUuNTJxNy43MywwLDEyLjI0LDVhMTYsMTYsMCwwLDEsNC4wNywxMS4wOFEzNDYuMDgsMzUuNDYsMzQwLjA4LDQwWm0tMTAuMjktNi40cTIuOTQsMCwyLjk0LTQuMzZ0LTMtNC4zNEgyODcuODV2OC43Wm0uOTEsMjIuM3EyLjk0LDAsMi45NC00LjM2dC0zLTQuMzRIMjg3Ljg1djguNzJaIi8+PHBhdGggY2xhc3M9ImNscy04IiBkPSJNNDEzLjYxLDI0Ljg3SDM2NXY4LjdoNDUuNDV2MTMuNkgzNjV2OC43Mmg0OC41VjY5LjQ2SDM1MS40M1YxMS4yNWg2Mi4yWiIvPjxwYXRoIGNsYXNzPSJjbHMtOSIgZD0iTTQ3MywyNC44N0g0NTkuMTVWNjkuNDZINDQ1LjU2VjI0Ljg3SDQxOS4yOFYxMS4yNWg2N1oiLz48cG9seWdvbiBjbGFzcz0iY2xzLTEwIiBwb2ludHM9IjQ1LjIxIDExLjMyIDQ3LjM5IDExLjg0IDQ3LjM5IDY4LjkgNDUuMjUgNjkuNDEgNDUuMjEgNjkuNDIgNDUuMjEgMTEuMzIiLz48cGF0aCBjbGFzcz0iY2xzLTExIiBkPSJNMTIuODYsMy42MWwyLjQ3LjU5LDI3LjE1LDYuNDdWNzAuMDZMMTYuNCw3Ni4zMmwtMy41MS44NnMxLTEsMi40Ni0yLjYyQzE5LjQ2LDcwLDI3LjE1LDYwLjY4LDI1LjkyLDU1Ljk0cy0xMy4xNi0xMS4xNS0xOS4wNi0xNGMtMi0xLTMuMjctMS41NC0zLjI3LTEuNTRzMS4zMi0uNTgsMy4yNy0xLjU0YzUuOS0yLjg4LDE3LjgyLTkuMjQsMTkuMDYtMTQsMS4yOS01LTcuMTktMTQuOTUtMTEuMTUtMTkuMjNoMEMxMy42NCw0LjM3LDEyLjg2LDMuNjEsMTIuODYsMy42MVoiLz48cmVjdCBjbGFzcz0iY2xzLTEyIiB4PSI0NS4yMSIgeT0iMTEuMjYiIHdpZHRoPSIyLjE4IiBoZWlnaHQ9IjU4LjE1Ii8+PHBhdGggY2xhc3M9ImNscy0xMyIgZD0iTTMuNjEsMzYuNzZBMy42MiwzLjYyLDAsMSwxLDAsNDAuMzhIMEEzLjYxLDMuNjEsMCwwLDEsMy42MSwzNi43NloiLz48cGF0aCBjbGFzcz0iY2xzLTEzIiBkPSJNMTEuODEsMEEzLjYxLDMuNjEsMCwxLDEsOC4xOSwzLjYxLDMuNjEsMy42MSwwLDAsMSwxMS44MSwwWiIvPjxwYXRoIGNsYXNzPSJjbHMtMTQiIGQ9Ik0xMi44Niw3My41MWEzLjYyLDMuNjIsMCwxLDEtMy42MSwzLjYzaDBBMy42MywzLjYzLDAsMCwxLDEyLjg2LDczLjUxWiIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMTUiIHBvaW50cz0iNDEwLjQ2IDQwLjc1IDQxMC40NiAzMy41NyAzNjUuMDEgMzMuNTcgMzY1LjAxIDI0Ljg3IDQxMy42MSAyNC44NyA0MTMuNjMgMTEuMjUgMzUxLjQzIDExLjI1IDM1MS40MyA0MC43NSA0MTAuNDYgNDAuNzUiLz48cG9seWdvbiBjbGFzcz0iY2xzLTE1IiBwb2ludHM9IjQ5Mi42MSAyNC44NyA0OTIuNjEgNDAuNzUgNTA2LjIgNDAuNzUgNTA2LjIgMTEuMjUgNDkxLjIxIDExLjI1IDQ3Ny45NSAyNC44NyA0OTIuNjEgMjQuODciLz48cmVjdCBjbGFzcz0iY2xzLTE1IiB4PSIyMzYuNjEiIHk9IjMzLjU3IiB3aWR0aD0iMzIuMDYiIGhlaWdodD0iNy4xOCIvPjxwYXRoIGNsYXNzPSJjbHMtMTUiIGQ9Ik0zNDEuMTksNDAuNzVjLS4zNi0uMjctLjcyLS41NC0xLjExLS43OHE2LTQuNTIsNi0xMi42NkExNiwxNiwwLDAsMCwzNDIsMTYuMjNxLTQuNTEtNS0xMi4yNC01SDI3NC4yNXYyOS41Wk0yODcuODUsMjQuODdoNDEuOTJxMywwLDMsNC4zNHQtMi45NCw0LjM2SDI4Ny44NVoiLz48cG9seWdvbiBjbGFzcz0iY2xzLTE1IiBwb2ludHM9IjQ0NS41NiA0MC43NSA0NTkuMTUgNDAuNzUgNDU5LjE1IDI0Ljg3IDQ3My4wMSAyNC44NyA0ODYuMjcgMTEuMjUgNDE5LjI4IDExLjI1IDQxOS4yOCAyNC44NyA0NDUuNTYgMjQuODcgNDQ1LjU2IDQwLjc1Ii8+PHBvbHlnb24gY2xhc3M9ImNscy0xNSIgcG9pbnRzPSI4NC40NiA0MC43NSA4NC4xMSA0MC40MSAxMTEuOTggMTEuMjUgOTMuNCAxMS4yNSA3Mi4yMiAzMy42OSA2My44MyAzMy42OSA2My44MyAxMS4yNSA1MC4yMyAxMS4yNSA1MC4yMyA0MC43NSA4NC40NiA0MC43NSIvPjxwYXRoIGNsYXNzPSJjbHMtMTUiIGQ9Ik0yMTguMTMsNDAuNzV2LTExYzAtMy4yMywxLjgyLTQuODUsNS40NC00Ljg1aDQ1LjEyVjExLjI1aC00NS4xYTE4LjgyLDE4LjgyLDAsMCwwLTEzLjQ4LDUuMjYsMTcuNDEsMTcuNDEsMCwwLDAtNS41NSwxMy4xN1Y0MC43NVoiLz48cmVjdCBjbGFzcz0iY2xzLTE1IiB4PSIxMTcuNDIiIHk9IjExLjI1IiB3aWR0aD0iMTMuNTkiIGhlaWdodD0iMjkuNSIvPjxyZWN0IGNsYXNzPSJjbHMtMTUiIHg9IjE4NS4yOCIgeT0iMTEuMjUiIHdpZHRoPSIxMy41OSIgaGVpZ2h0PSIyOS41Ii8+PHBvbHlnb24gY2xhc3M9ImNscy0xNSIgcG9pbnRzPSIxNTAuMjcgNDAuNzUgMTUwLjI3IDMwLjI4IDE1OS42MyA0MC43NSAxNzYuNzcgNDAuNzUgMTUwLjI3IDExLjI1IDEzNi42NyAxMS4yNSAxMzYuNjcgNDAuNzUgMTUwLjI3IDQwLjc1Ii8+PC9nPjwvZz48L3N2Zz4=");
+  background-image: url("http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1271,8 +1243,8 @@ input[type="submit"] {
   -ms-flex-item-align: center;
       align-self: center;
   padding: 0 5px;
-  -webkit-filter: grayscale(1) brightness(0) invert(1);
-          filter: grayscale(1) brightness(0) invert(1);
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+          filter: grayscale(1) brightness(0) invert(0);
 }
 
 .side-bar .single-block .block-title span {
@@ -1405,7 +1377,7 @@ input[type="submit"] {
 
 .side-bar .single-block .block-content form[name="fastslip3"] .ui-selectmenu-button .ui-icon,
 .side-bar .single-block .block-content form[name="fastslip3"] select .ui-icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -1436,7 +1408,7 @@ input[type="submit"] {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
@@ -1675,7 +1647,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block .block-content.sports-menu form input[type="submit"]:hover {
-  background-color: #4f6a7c;
+  background-color: #0e64ad;
 }
 
 .side-bar .single-block .block-content.sports-menu .tabs {
@@ -1994,7 +1966,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets form div input[type="submit"] {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/search-icon.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/search-icon.png);
   background-size: 50%;
   background-position: center left 12px;
   background-repeat: no-repeat;
@@ -2078,7 +2050,7 @@ input[type="submit"] {
   height: 18px;
   background-color: rgba(0, 0, 0, 0.24);
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
 }
@@ -2132,7 +2104,7 @@ input[type="submit"] {
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting {
-  background-color: #3b4f5d;
+  background-color: #005293;
 }
 
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip.waiting .single-betslip-title {
@@ -2680,7 +2652,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .combination-group select .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section .ui-selectmenu-button .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section select .ui-icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -3013,7 +2985,7 @@ input[type="submit"] {
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table th select .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td .ui-selectmenu-button .ui-icon,
 .side-bar .single-block.betslip-holder .betslip .combination-wrapper .totals-section table td select .ui-icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -3433,7 +3405,7 @@ input[type="submit"] {
   background-color: var(--bg1);
   color: var(--col1);
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
 }
@@ -3530,7 +3502,7 @@ input[type="submit"] {
   width: 18px;
   height: 18px;
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -3548,7 +3520,7 @@ input[type="submit"] {
   width: 18px;
   height: 18px;
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/star.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/star.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 12px auto;
@@ -3565,7 +3537,7 @@ input[type="submit"] {
 }
 
 .single-sport .anchor.favourite .fav.off {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/star-off.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/star-off.png);
 }
 
 .single-sport .anchor.favourite .fav.off:hover {
@@ -3574,195 +3546,195 @@ input[type="submit"] {
 }
 
 .single-sport .anchor.sport-1 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-1.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-1.svg);
 }
 
 .single-sport .anchor.sport-2 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-2.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-2.svg);
 }
 
 .single-sport .anchor.sport-3 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-3.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-3.svg);
 }
 
 .single-sport .anchor.sport-4 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-4.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-4.svg);
 }
 
 .single-sport .anchor.sport-5 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-5.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-5.svg);
 }
 
 .single-sport .anchor.sport-6 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-6.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-6.svg);
 }
 
 .single-sport .anchor.sport-7 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-7.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-7.svg);
 }
 
 .single-sport .anchor.sport-8 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-8.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-8.svg);
 }
 
 .single-sport .anchor.sport-9 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-9.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-9.svg);
 }
 
 .single-sport .anchor.sport-10 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-10.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-10.svg);
 }
 
 .single-sport .anchor.sport-11 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-11.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-11.svg);
 }
 
 .single-sport .anchor.sport-12 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-12.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-12.svg);
 }
 
 .single-sport .anchor.sport-13 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-13.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-13.svg);
 }
 
 .single-sport .anchor.sport-14 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-14.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-14.svg);
 }
 
 .single-sport .anchor.sport-15 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-15.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-15.svg);
 }
 
 .single-sport .anchor.sport-16 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-16.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-16.svg);
 }
 
 .single-sport .anchor.sport-17 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-17.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-17.svg);
 }
 
 .single-sport .anchor.sport-18 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-18.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-18.svg);
 }
 
 .single-sport .anchor.sport-19 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-19.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-19.svg);
 }
 
 .single-sport .anchor.sport-20 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-20.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-20.svg);
 }
 
 .single-sport .anchor.sport-21 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-21.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-21.svg);
 }
 
 .single-sport .anchor.sport-22 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-22.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-22.svg);
 }
 
 .single-sport .anchor.sport-23 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-23.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-23.svg);
 }
 
 .single-sport .anchor.sport-24 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-24.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-24.svg);
 }
 
 .single-sport .anchor.sport-25 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-25.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-25.svg);
 }
 
 .single-sport .anchor.sport-26 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-26.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-26.svg);
 }
 
 .single-sport .anchor.sport-27 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-27.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-27.svg);
 }
 
 .single-sport .anchor.sport-28 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-28.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-28.svg);
 }
 
 .single-sport .anchor.sport-29 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-29.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-29.svg);
 }
 
 .single-sport .anchor.sport-30 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-30.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-30.svg);
 }
 
 .single-sport .anchor.sport-31 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-31.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-31.svg);
 }
 
 .single-sport .anchor.sport-32 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-32.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-32.svg);
 }
 
 .single-sport .anchor.sport-33 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-33.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-33.svg);
 }
 
 .single-sport .anchor.sport-34 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-34.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-34.svg);
 }
 
 .single-sport .anchor.sport-35 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-35.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-35.svg);
 }
 
 .single-sport .anchor.sport-36 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-36.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-36.svg);
 }
 
 .single-sport .anchor.sport-37 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-37.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-37.svg);
 }
 
 .single-sport .anchor.sport-38 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-38.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-38.svg);
 }
 
 .single-sport .anchor.sport-39 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-39.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-39.svg);
 }
 
 .single-sport .anchor.sport-60 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-60.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-60.svg);
 }
 
 .single-sport .anchor.sport-61 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-61.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-61.png);
 }
 
 .single-sport .anchor.sport-109 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-109.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-109.svg);
 }
 
 .single-sport .anchor.sport-110 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-110.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-110.png);
 }
 
 .single-sport .anchor.sport-111 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-111.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-111.png);
 }
 
 .single-sport .anchor.sport-117 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-117.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-117.svg);
 }
 
 .single-sport .anchor.sport-118 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-118.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-118.png);
 }
 
 .single-sport .anchor.sport-121 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-121.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-121.png);
 }
 
 .single-sport .anchor.sport-125 .icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-125.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-125.png);
 }
 
 .single-sport .states {
@@ -3907,7 +3879,7 @@ input[type="submit"] {
 }
 
 .single-sport .states .state .championship.selected .anchor {
-  background: #3b4f5d;
+  background: #0a96f0;
   color: #ebebeb;
   font-weight: 500;
 }
@@ -4081,7 +4053,7 @@ input[type="submit"] {
 
 .center-content .main-slider .single-slide .odds-holder .single-odd div {
   float: left;
-  color: #3b4f5d;
+  color: #005293;
   position: absolute;
   left: 5px;
   top: 50%;
@@ -4124,14 +4096,14 @@ input[type="submit"] {
   border-radius: 50%;
   padding: 0;
   display: inline-block;
-  border: 2px solid #3b4f5d;
+  border: 2px solid #005293;
   cursor: pointer;
   margin: 0 3px;
   background: transparent;
 }
 
 .center-content .main-slider .slick-dots li.slick-active button, .center-content .main-slider .slick-dots li:hover button {
-  background-color: #3b4f5d;
+  background-color: #005293;
 }
 
 .center-content .center-block {
@@ -5147,7 +5119,7 @@ div.landing-page .banner-content {
   margin: 0 auto;
   max-width: 1920px;
   height: 555px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/landing-images/homeBanner.jpg) !important;
+  background-image: url(//nextra.pcluster.info/bsport10/images/landing-images/homeBanner.jpg) !important;
   background-size: initial;
   background-repeat: no-repeat;
   background-position: top center;
@@ -5271,7 +5243,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:first-child:before
   content: "";
   width: 45px;
   height: 45px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/landing-images/fIcon.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/landing-images/fIcon.svg);
   display: block;
   background-repeat: no-repeat;
   background-position: center;
@@ -5283,7 +5255,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(2):befor
   content: "";
   width: 45px;
   height: 45px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/landing-images/Icon2.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/landing-images/Icon2.svg);
   display: block;
   background-repeat: no-repeat;
   background-position: center;
@@ -5295,7 +5267,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:nth-child(3):befor
   content: "";
   width: 45px;
   height: 45px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/landing-images/Icon3.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/landing-images/Icon3.svg);
   display: block;
   background-repeat: no-repeat;
   background-position: center;
@@ -5307,7 +5279,7 @@ div.landing-page .banner-content .bottom-text-holder .quarter:last-child:before 
   content: "";
   width: 45px;
   height: 45px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/landing-images/Icon4.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/landing-images/Icon4.svg);
   display: block;
   background-repeat: no-repeat;
   background-position: center;
@@ -5328,19 +5300,19 @@ div.landing-page .banner-content .grid a {
 
 div.landing-page .banner-content .grid a.become-agent {
   float: right;
-  background: #3b4f5d;
+  background: #005293;
 }
 
 div.landing-page .banner-content .grid a.become-agent:hover {
-  background: #27343e;
+  background: #003660;
 }
 
 div.landing-page .banner-content .grid a.register-online {
-  background: #3b4f5d;
+  background: #0a96f0;
 }
 
 div.landing-page .banner-content .grid a.register-online:hover {
-  background: #27343e;
+  background: #0877bf;
 }
 
 .landing-bottom-holder {
@@ -5561,7 +5533,7 @@ footer .footer-logo a:before {
   height: 70px;
   display: block;
   position: relative;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTA2LjIgODAuNzUiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudCk7fS5jbHMtMntmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTIpO30uY2xzLTN7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC0zKTt9LmNscy00e2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQtNCk7fS5jbHMtNXtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTUpO30uY2xzLTZ7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC02KTt9LmNscy03e2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQtNyk7fS5jbHMtOHtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTgpO30uY2xzLTl7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC05KTt9LmNscy0xMCwuY2xzLTE1e2ZpbGw6I2ZmZjt9LmNscy0xMXtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTEwKTt9LmNscy0xMntmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTExKTt9LmNscy0xM3tmaWxsOiNjY2M7fS5jbHMtMTR7ZmlsbDojYjNiM2IzO30uY2xzLTE1e29wYWNpdHk6MC4yO2lzb2xhdGlvbjppc29sYXRlO308L3N0eWxlPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iODEuOSIgeTE9IjY5LjQ2IiB4Mj0iODEuOSIgeTI9IjExLjI1IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYTcwMDAyIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZTkwMjFhIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC0yIiB4MT0iMTI0LjIyIiB5MT0iNjkuNDYiIHgyPSIxMjQuMjIiIHkyPSIxMS4yNSIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudCIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTMiIHgxPSI0OTkuNDEiIHkxPSI2OS40NiIgeDI9IjQ5OS40MSIgeTI9IjExLjI1IiB4bGluazpocmVmPSIjbGluZWFyLWdyYWRpZW50Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtNCIgeDE9IjQ3Ny45NSIgeTE9IjE4LjA2IiB4Mj0iNTA2LjIiIHkyPSIxOC4wNiIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudCIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTUiIHgxPSIxNjcuNzciIHkxPSI2OS40NiIgeDI9IjE2Ny43NyIgeTI9IjExLjI1IiB4bGluazpocmVmPSIjbGluZWFyLWdyYWRpZW50Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtNiIgeDE9IjIzNi42MiIgeTE9IjY5LjQ3IiB4Mj0iMjM2LjYyIiB5Mj0iMTEuMjUiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQiLz48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC03IiB4MT0iMzEwLjc0IiB5MT0iMTEuMjUiIHgyPSIzMTAuNzQiIHkyPSI2OS40NiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2Q2ZDZkNiIvPjxzdG9wIG9mZnNldD0iMC4xNSIgc3RvcC1jb2xvcj0iI2RkZCIvPjxzdG9wIG9mZnNldD0iMC41OSIgc3RvcC1jb2xvcj0iI2U4ZThlOCIvPjxzdG9wIG9mZnNldD0iMC43IiBzdG9wLWNvbG9yPSIjY2JjYmNiIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYjdiN2I3Ii8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC04IiB4MT0iMzgyLjUzIiB5MT0iMTEuMjUiIHgyPSIzODIuNTMiIHkyPSI2OS40NiIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudC03Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtOSIgeDE9IjQ1Mi43NyIgeTE9IjExLjI1IiB4Mj0iNDUyLjc3IiB5Mj0iNjkuNDYiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQtNyIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTEwIiB4MT0iMjMuMDMiIHkxPSIzLjYxIiB4Mj0iMjMuMDMiIHkyPSI3Ny4xOCIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudC03Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMTEiIHgxPSI0Ni4zIiB5MT0iMTEuMjYiIHgyPSI0Ni4zIiB5Mj0iNjkuNDEiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQtNyIvPjwvZGVmcz48dGl0bGU+bG9nbzwvdGl0bGU+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xMTMuNTcsNjkuNDZIOTVMNzIuNTUsNDcuMjhINjMuODNWNjkuNDZINTAuMjNWMTEuMjVoMTMuNlYzMy42OWg4LjM5TDkzLjQsMTEuMjVIMTEyTDg0LjExLDQwLjQxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTEzMSw2OS40NkgxMTcuNDJWMTEuMjVIMTMxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTUwNi4yLDY5LjQ2SDQ5Mi42MVYyNC44N0w1MDYuMiwxMS4yNVoiLz48cGF0aCBjbGFzcz0iY2xzLTQiIGQ9Ik00OTIuNjEsMjQuODdINDc4bDEzLjI2LTEzLjYyaDE1WiIvPjxwYXRoIGNsYXNzPSJjbHMtNSIgZD0iTTE5OC44Nyw2OS40NkgxODUuMjhsLTM1LTM5LjE4VjY5LjQ2aC0xMy42VjExLjI1aDEzLjZsMzUsMzl2LTM5aDEzLjU5WiIvPjxwYXRoIGNsYXNzPSJjbHMtNiIgZD0iTTI2OC42Nyw2OS40NmgtNDUuMWExOC44OCwxOC44OCwwLDAsMS0xMy40Ni01LjIzLDE3LjM0LDE3LjM0LDAsMCwxLTUuNTUtMTMuMThWMjkuNjhhMTcuNDEsMTcuNDEsMCwwLDEsNS41NS0xMy4xNywxOC44MiwxOC44MiwwLDAsMSwxMy40OC01LjI2aDQ1LjFWMjQuODdIMjIzLjU3Yy0zLjYyLDAtNS40NCwxLjYyLTUuNDQsNC44NVY1MWMwLDMuMjUsMS44Miw0Ljg2LDUuNDQsNC44NmgzMS41VjQ3LjE3SDIzNi42MVYzMy41N2gzMi4wNloiLz48cGF0aCBjbGFzcz0iY2xzLTciIGQ9Ik0zNDAuMDgsNDBxNy4xNCw0LjQxLDcuMTQsMTMuNDZBMTUuNzIsMTUuNzIsMCwwLDEsMzQzLDY0LjUxcS00LjUzLDUtMTIuMjQsNC45NUgyNzQuMjVWMTEuMjVoNTUuNTJxNy43MywwLDEyLjI0LDVhMTYsMTYsMCwwLDEsNC4wNywxMS4wOFEzNDYuMDgsMzUuNDYsMzQwLjA4LDQwWm0tMTAuMjktNi40cTIuOTQsMCwyLjk0LTQuMzZ0LTMtNC4zNEgyODcuODV2OC43Wm0uOTEsMjIuM3EyLjk0LDAsMi45NC00LjM2dC0zLTQuMzRIMjg3Ljg1djguNzJaIi8+PHBhdGggY2xhc3M9ImNscy04IiBkPSJNNDEzLjYxLDI0Ljg3SDM2NXY4LjdoNDUuNDV2MTMuNkgzNjV2OC43Mmg0OC41VjY5LjQ2SDM1MS40M1YxMS4yNWg2Mi4yWiIvPjxwYXRoIGNsYXNzPSJjbHMtOSIgZD0iTTQ3MywyNC44N0g0NTkuMTVWNjkuNDZINDQ1LjU2VjI0Ljg3SDQxOS4yOFYxMS4yNWg2N1oiLz48cG9seWdvbiBjbGFzcz0iY2xzLTEwIiBwb2ludHM9IjQ1LjIxIDExLjMyIDQ3LjM5IDExLjg0IDQ3LjM5IDY4LjkgNDUuMjUgNjkuNDEgNDUuMjEgNjkuNDIgNDUuMjEgMTEuMzIiLz48cGF0aCBjbGFzcz0iY2xzLTExIiBkPSJNMTIuODYsMy42MWwyLjQ3LjU5LDI3LjE1LDYuNDdWNzAuMDZMMTYuNCw3Ni4zMmwtMy41MS44NnMxLTEsMi40Ni0yLjYyQzE5LjQ2LDcwLDI3LjE1LDYwLjY4LDI1LjkyLDU1Ljk0cy0xMy4xNi0xMS4xNS0xOS4wNi0xNGMtMi0xLTMuMjctMS41NC0zLjI3LTEuNTRzMS4zMi0uNTgsMy4yNy0xLjU0YzUuOS0yLjg4LDE3LjgyLTkuMjQsMTkuMDYtMTQsMS4yOS01LTcuMTktMTQuOTUtMTEuMTUtMTkuMjNoMEMxMy42NCw0LjM3LDEyLjg2LDMuNjEsMTIuODYsMy42MVoiLz48cmVjdCBjbGFzcz0iY2xzLTEyIiB4PSI0NS4yMSIgeT0iMTEuMjYiIHdpZHRoPSIyLjE4IiBoZWlnaHQ9IjU4LjE1Ii8+PHBhdGggY2xhc3M9ImNscy0xMyIgZD0iTTMuNjEsMzYuNzZBMy42MiwzLjYyLDAsMSwxLDAsNDAuMzhIMEEzLjYxLDMuNjEsMCwwLDEsMy42MSwzNi43NloiLz48cGF0aCBjbGFzcz0iY2xzLTEzIiBkPSJNMTEuODEsMEEzLjYxLDMuNjEsMCwxLDEsOC4xOSwzLjYxLDMuNjEsMy42MSwwLDAsMSwxMS44MSwwWiIvPjxwYXRoIGNsYXNzPSJjbHMtMTQiIGQ9Ik0xMi44Niw3My41MWEzLjYyLDMuNjIsMCwxLDEtMy42MSwzLjYzaDBBMy42MywzLjYzLDAsMCwxLDEyLjg2LDczLjUxWiIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMTUiIHBvaW50cz0iNDEwLjQ2IDQwLjc1IDQxMC40NiAzMy41NyAzNjUuMDEgMzMuNTcgMzY1LjAxIDI0Ljg3IDQxMy42MSAyNC44NyA0MTMuNjMgMTEuMjUgMzUxLjQzIDExLjI1IDM1MS40MyA0MC43NSA0MTAuNDYgNDAuNzUiLz48cG9seWdvbiBjbGFzcz0iY2xzLTE1IiBwb2ludHM9IjQ5Mi42MSAyNC44NyA0OTIuNjEgNDAuNzUgNTA2LjIgNDAuNzUgNTA2LjIgMTEuMjUgNDkxLjIxIDExLjI1IDQ3Ny45NSAyNC44NyA0OTIuNjEgMjQuODciLz48cmVjdCBjbGFzcz0iY2xzLTE1IiB4PSIyMzYuNjEiIHk9IjMzLjU3IiB3aWR0aD0iMzIuMDYiIGhlaWdodD0iNy4xOCIvPjxwYXRoIGNsYXNzPSJjbHMtMTUiIGQ9Ik0zNDEuMTksNDAuNzVjLS4zNi0uMjctLjcyLS41NC0xLjExLS43OHE2LTQuNTIsNi0xMi42NkExNiwxNiwwLDAsMCwzNDIsMTYuMjNxLTQuNTEtNS0xMi4yNC01SDI3NC4yNXYyOS41Wk0yODcuODUsMjQuODdoNDEuOTJxMywwLDMsNC4zNHQtMi45NCw0LjM2SDI4Ny44NVoiLz48cG9seWdvbiBjbGFzcz0iY2xzLTE1IiBwb2ludHM9IjQ0NS41NiA0MC43NSA0NTkuMTUgNDAuNzUgNDU5LjE1IDI0Ljg3IDQ3My4wMSAyNC44NyA0ODYuMjcgMTEuMjUgNDE5LjI4IDExLjI1IDQxOS4yOCAyNC44NyA0NDUuNTYgMjQuODcgNDQ1LjU2IDQwLjc1Ii8+PHBvbHlnb24gY2xhc3M9ImNscy0xNSIgcG9pbnRzPSI4NC40NiA0MC43NSA4NC4xMSA0MC40MSAxMTEuOTggMTEuMjUgOTMuNCAxMS4yNSA3Mi4yMiAzMy42OSA2My44MyAzMy42OSA2My44MyAxMS4yNSA1MC4yMyAxMS4yNSA1MC4yMyA0MC43NSA4NC40NiA0MC43NSIvPjxwYXRoIGNsYXNzPSJjbHMtMTUiIGQ9Ik0yMTguMTMsNDAuNzV2LTExYzAtMy4yMywxLjgyLTQuODUsNS40NC00Ljg1aDQ1LjEyVjExLjI1aC00NS4xYTE4LjgyLDE4LjgyLDAsMCwwLTEzLjQ4LDUuMjYsMTcuNDEsMTcuNDEsMCwwLDAtNS41NSwxMy4xN1Y0MC43NVoiLz48cmVjdCBjbGFzcz0iY2xzLTE1IiB4PSIxMTcuNDIiIHk9IjExLjI1IiB3aWR0aD0iMTMuNTkiIGhlaWdodD0iMjkuNSIvPjxyZWN0IGNsYXNzPSJjbHMtMTUiIHg9IjE4NS4yOCIgeT0iMTEuMjUiIHdpZHRoPSIxMy41OSIgaGVpZ2h0PSIyOS41Ii8+PHBvbHlnb24gY2xhc3M9ImNscy0xNSIgcG9pbnRzPSIxNTAuMjcgNDAuNzUgMTUwLjI3IDMwLjI4IDE1OS42MyA0MC43NSAxNzYuNzcgNDAuNzUgMTUwLjI3IDExLjI1IDEzNi42NyAxMS4yNSAxMzYuNjcgNDAuNzUgMTUwLjI3IDQwLjc1Ii8+PC9nPjwvZz48L3N2Zz4=");
+  background-image: url("http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -5617,7 +5589,7 @@ footer .footer-copyright {
 }
 
 footer .footer-copyright:before {
-  content: "kingbet1 @2020 All rights reserved.";
+  content: "bsport10 @2020 All rights reserved.";
   color: var(--mainBgCol);
   text-align: center;
   display: -webkit-box;
@@ -5775,7 +5747,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: black;
   border-radius: 50%;
   padding: 2px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cross.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cross.png);
   background-size: 8px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -6123,7 +6095,7 @@ footer.center-footer .footer-logos .group-1 {
 .odds-table .match-name .team-names.has-info .info-box .odd-types .single-type {
   width: 33%;
   background: #c2c2c2;
-  color: #3b4f5d;
+  color: #005293;
   font-size: 12px;
   text-align: center;
   font-weight: bold;
@@ -6171,7 +6143,7 @@ footer.center-footer .footer-logos .group-1 {
   left: 0;
   top: 0;
   width: 50%;
-  background: #3b4f5d;
+  background: #005293;
 }
 
 .odds-table .match-name .team-names.has-info .info-box .bars-holder .single-bar-holder:nth-child(2) {
@@ -6250,7 +6222,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: black;
   border-radius: 50%;
   padding: 2px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cross.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cross.png);
   background-size: 8px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -6349,15 +6321,15 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.odd-up .quote:after {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/odd-up.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/odd-up.png);
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.odd-equal .quote:after {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/odd-equal.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/odd-equal.png);
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.odd-down .quote:after {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/odd-down.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/odd-down.png);
 }
 
 .odds-table .single-match-odds .single-match-odds-table .odd-holder .single-odd.selected {
@@ -6422,7 +6394,7 @@ footer.center-footer .footer-logos .group-1 {
 .results-page .results-filter .single-filter input[type="date"] {
   color: darkgray;
   background-color: #b398d1;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/colored-calendar.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/colored-calendar.png);
   background-size: auto 100%;
   background-position: right top;
   background-repeat: no-repeat;
@@ -6440,7 +6412,7 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: #b398d1;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/colored-triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/colored-triangle-down.png);
   background-size: auto 100%;
   background-position: right top;
   background-repeat: no-repeat;
@@ -6585,7 +6557,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .results-page .results .single-result .result-match .result div.status {
   line-height: 60px;
-  color: #3b4f5d;
+  color: #0a497e;
   font-weight: bold;
 }
 
@@ -6616,8 +6588,8 @@ footer.center-footer .footer-logos .group-1 {
   width: 21px;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
-  -webkit-filter: grayscale(1) brightness(0) invert(1);
-          filter: grayscale(1) brightness(0) invert(1);
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+          filter: grayscale(1) brightness(0) invert(0);
 }
 
 .championship-page .title img.icon:before,
@@ -6974,12 +6946,12 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   width: 37px;
   height: 26px;
-  background: #3b4f5d;
+  background: #0a96f0;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   border: none;
   font-size: 0;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/search-icon.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/search-icon.png);
   background-size: 50%;
   background-position: center left 9px;
   background-repeat: no-repeat;
@@ -6988,7 +6960,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .sports-book-page .filters-holder .search-form input[type="text"] {
   border: none;
-  border-left: 1px solid #3b4f5d;
+  border-left: 1px solid #0a96f0;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   line-height: 24px;
@@ -7056,8 +7028,8 @@ footer.center-footer .footer-logos .group-1 {
   cursor: pointer;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
-  -webkit-filter: grayscale(1) brightness(0) invert(1);
-          filter: grayscale(1) brightness(0) invert(1);
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+          filter: grayscale(1) brightness(0) invert(0);
 }
 
 .sports-book-page .title .title-icon.closed {
@@ -7518,11 +7490,11 @@ footer.center-footer .footer-logos .group-1 {
 
 .become-an-agent-page .page-content .inner-content .content-block.last-block p .colored {
   font-weight: bold;
-  color: #3b4f5d;
+  color: #0a96f0;
 }
 
 .become-an-agent-page .page-content .inner-content .content-block .title {
-  color: #3b4f5d;
+  color: #0a96f0;
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
@@ -7535,15 +7507,15 @@ footer.center-footer .footer-logos .group-1 {
   display: inline-block;
   margin: 0 10px;
   padding: 0 20px;
-  border: 2px solid #3b4f5d;
+  border: 2px solid #0a96f0;
   border-radius: 3px;
-  color: #3b4f5d;
+  color: #0a96f0;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
 
 .become-an-agent-page .page-content .inner-content .content-block .title a:hover {
-  background: #3b4f5d;
+  background: #0a96f0;
   color: #ebebeb;
 }
 
@@ -7574,7 +7546,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: #3b4f5d;
+  background: #0a96f0;
 }
 
 .dark-overlay {
@@ -7770,7 +7742,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: var(--bg1);
   color: var(--col1);
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
   -webkit-transition: 0.3s all;
@@ -7806,7 +7778,7 @@ footer.center-footer .footer-logos .group-1 {
   background-position: center;
   background-size: cover;
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-right.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-right.png);
   -webkit-transform: translateY(-50%) rotate(0deg);
           transform: translateY(-50%) rotate(0deg);
 }
@@ -7956,7 +7928,7 @@ footer.center-footer .footer-logos .group-1 {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-image: url(//nextra.pcluster.info/kingbet1/images/locked.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/locked.svg);
   background-size: 60%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -7980,7 +7952,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type:hover .odd-type:empty {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/locked-white.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/locked-white.svg);
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-zero {
@@ -8036,21 +8008,21 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-up .odd-type:after {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/odd-up.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/odd-up.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-down .odd-type:after {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/odd-down.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/odd-down.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .sports-container .matches .single-match .match-odds .single-odd-type.odd-equal .odd-type:after {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/odd-equal.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/odd-equal.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
@@ -8167,15 +8139,15 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-up .quote:after {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/odd-up.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/odd-up.png);
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-equal .quote:after {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/odd-equal.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/odd-equal.png);
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-down .quote:after {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/odd-down.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/odd-down.png);
 }
 
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-zero {
@@ -8238,7 +8210,7 @@ footer.center-footer .footer-logos .group-1 {
   border: none;
   margin-top: 26px;
   height: 2px;
-  background: #3b4f5d;
+  background: #0a96f0;
   border-radius: 1px !important;
 }
 
@@ -8249,13 +8221,13 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 50% !important;
   top: -4px;
   border: none;
-  background: #27343e;
+  background: #003660;
   cursor: pointer;
 }
 
 .live-odds-table table tr td.odd-holder .match-live-sliders .home-team .live-slider-holder .ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle:hover,
 .live-odds-table table tr td.odd-holder .match-live-sliders .away-team .live-slider-holder .ui-widget.ui-widget-content.ui-slider-horizontal .ui-slider-handle:hover {
-  color: #131a1f;
+  color: #00192d;
 }
 
 .live-odds-table table tr td.odd-holder .match-live-sliders .home-team .live-slider-holder .slider-controls,
@@ -8425,8 +8397,8 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
   cursor: pointer;
-  -webkit-filter: grayscale(1) brightness(0) invert(1);
-          filter: grayscale(1) brightness(0) invert(1);
+  -webkit-filter: grayscale(1) brightness(0) invert(0);
+          filter: grayscale(1) brightness(0) invert(0);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-title img.active {
@@ -8626,24 +8598,24 @@ footer.center-footer .footer-logos .group-1 {
   margin: 5px 6px 4px;
   width: 36px;
   height: 25px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/soccer-field.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/soccer-field.svg);
   background-size: 100% 100%;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-5 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/tennis-field.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/tennis-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-2 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/basketball-field.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/basketball-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-4 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/hockey-field.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/hockey-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .time-info .open-event-view .field-image.sport-23 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/volleyball-field.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/volleyball-field.svg);
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper {
@@ -8681,7 +8653,7 @@ footer.center-footer .footer-logos .group-1 {
   top: calc(50% - 15px);
   -webkit-animation: rotate 2s ease-in-out infinite;
           animation: rotate 2s ease-in-out infinite;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/refresh-purple.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/refresh-purple.svg);
   background-size: cover;
   background-position: center;
 }
@@ -8766,21 +8738,21 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.odd-up .odd-type:after {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/odd-up.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/odd-up.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.odd-down .odd-type:after {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/odd-down.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/odd-down.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
 }
 
 .live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.odd-equal .odd-type:after {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/odd-equal.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/odd-equal.png);
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
@@ -9029,167 +9001,167 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-1 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-1.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-1.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-2 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-2.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-2.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-3 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-3.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-3.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-4 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-4.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-4.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-5 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-5.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-5.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-6 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-6.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-6.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-7 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-7.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-7.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-8 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-8.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-8.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-9 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-9.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-9.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-10 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-10.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-10.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-11 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-11.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-11.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-12 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-12.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-12.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-13 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-13.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-13.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-14 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-14.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-14.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-15 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-15.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-15.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-16 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-16.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-16.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-17 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-17.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-17.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-18 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-18.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-18.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-19 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-19.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-19.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-20 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-20.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-20.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-21 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-21.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-21.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-22 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-22.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-22.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-23 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-23.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-23.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-24 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-24.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-24.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-25 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-25.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-25.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-26 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-26.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-26.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-27 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-27.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-27.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-28 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-28.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-28.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-29 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-29.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-29.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-30 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-30.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-30.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-31 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-31.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-31.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-32 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-32.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-32.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-33 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-33.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-33.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-34 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-34.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-34.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-35 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-35.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-35.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-36 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-36.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-36.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-37 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-37.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-37.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-38 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-38.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-38.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-39 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-39.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-39.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-60 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-60.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-60.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-icon.sport-117 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-117.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-117.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view {
@@ -9214,34 +9186,34 @@ footer.center-footer .footer-logos .group-1 {
   margin: 5px 6px 4px;
   width: 36px;
   height: 25px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/soccer-field.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/soccer-field.svg);
   background-size: 100% 100%;
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.basketball {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/basketball-field.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/basketball-field.png);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-5 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/tennis-field.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/tennis-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-2 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/basketball-field.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/basketball-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-4 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/hockey-field.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/hockey-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .open-event-view-wrapper .open-event-view .field-image.sport-23 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/volleyball-field.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/volleyball-field.svg);
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-details-wrapper .match-details {
   height: 28px;
   background-color: #ebebeb;
-  border: 1px solid #3b4f5d;
+  border: 1px solid #0a96f0;
   border-radius: 3px;
   width: 40px;
   margin: 9px 12px;
@@ -9253,12 +9225,12 @@ footer.center-footer .footer-logos .group-1 {
   width: 100%;
   text-align: center;
   font-size: 9px;
-  color: #3b4f5d;
+  color: #0a96f0;
   font-weight: 700;
 }
 
 .live-sports-diary .matches-wrapper .single-match .match-details-wrapper .match-details .match-date {
-  background: #3b4f5d;
+  background: #0a96f0;
   color: #ebebeb;
 }
 
@@ -9348,9 +9320,9 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .top-part .score {
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/live-result-background.jpg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/live-result-background.jpg);
   background-size: 100% 100%;
-  border: 1px solid #3b4f5d;
+  border: 1px solid #005293;
   width: 35px;
   float: left;
   display: inline-block;
@@ -9363,7 +9335,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 19px;
   font-size: 13px;
   font-weight: bold;
-  color: #3b4f5d;
+  color: #005293;
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .top-part .team-names {
@@ -9406,167 +9378,167 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-1 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-1.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-1.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-2 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-2.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-2.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-3 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-3.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-3.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-4 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-4.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-4.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-5 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-5.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-5.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-6 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-6.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-6.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-7 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-7.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-7.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-8 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-8.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-8.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-9 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-9.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-9.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-10 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-10.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-10.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-11 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-11.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-11.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-12 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-12.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-12.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-13 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-13.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-13.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-14 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-14.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-14.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-15 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-15.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-15.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-16 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-16.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-16.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-17 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-17.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-17.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-18 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-18.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-18.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-19 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-19.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-19.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-20 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-20.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-20.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-21 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-21.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-21.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-22 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-22.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-22.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-23 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-23.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-23.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-24 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-24.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-24.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-25 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-25.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-25.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-26 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-26.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-26.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-27 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-27.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-27.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-28 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-28.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-28.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-29 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-29.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-29.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-30 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-30.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-30.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-31 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-31.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-31.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-32 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-32.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-32.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-33 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-33.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-33.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-34 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-34.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-34.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-35 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-35.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-35.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-36 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-36.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-36.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-37 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-37.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-37.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-38 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-38.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-38.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-39 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-39.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-39.svg);
 }
 
 .live-multiview .multiview-slider-wrapper .multiview-slider .single-element .bottom-part .icon.sport-117 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/sport-icons/sport-icon-117.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/sport-icons/sport-icon-117.svg);
 }
 
 .live-multiview .multiview-matches {
-  background: #3b4f5d;
+  background: #0a96f0;
   padding: 20px 25px;
 }
 
@@ -9587,7 +9559,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #3b4f5d;
+  background: #0a497e;
   text-transform: uppercase;
   color: #fff;
 }
@@ -9616,7 +9588,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-multiview .multiview-matches .single-multiview .multiview-content {
   display: none;
-  border-bottom: 5px solid #3b4f5d;
+  border-bottom: 5px solid #0a497e;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper {
@@ -9665,9 +9637,9 @@ footer.center-footer .footer-logos .group-1 {
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .match-info .score {
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/live-result-background.jpg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/live-result-background.jpg);
   background-size: 100% 100%;
-  border: 1px solid #3b4f5d;
+  border: 1px solid #005293;
   width: 35px;
   float: left;
   display: inline-block;
@@ -9680,7 +9652,7 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 19px;
   font-size: 13px;
   font-weight: bold;
-  color: #3b4f5d;
+  color: #005293;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .match-info .team-names {
@@ -9725,28 +9697,28 @@ footer.center-footer .footer-logos .group-1 {
   margin: 5px 6px 4px;
   width: 36px;
   height: 25px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/soccer-field.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/soccer-field.svg);
   background-size: 100% 100%;
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.basketball {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/basketball-field.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/basketball-field.png);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-5 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/tennis-field.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/tennis-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-2 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/basketball-field.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/basketball-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-4 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/hockey-field.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/hockey-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .open-event-view-wrapper .open-event-view .field-image.sport-23 {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/volleyball-field.svg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/volleyball-field.svg);
 }
 
 .live-multiview .multiview-matches .single-multiview .multiview-content .match-info-wrapper .expand-wrapper {
@@ -9985,7 +9957,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button .ui-icon,
 .logged-page .registration-holder .form-holder form .input-wrapper select .ui-icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -9996,7 +9968,7 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
@@ -10067,7 +10039,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #3b4f5d;
+  border: 2px solid #005293;
 }
 
 .logged-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -10076,7 +10048,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #3b4f5d;
+  background: #005293;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10098,7 +10070,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #3b4f5d;
+  background: #005293;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10142,7 +10114,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .registration-holder .form-holder form .note {
   font-size: 11px;
-  color: #3b4f5d;
+  color: #005293;
   line-height: 18px;
   padding-right: 30px;
 }
@@ -10173,7 +10145,7 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 3px;
   cursor: pointer;
   float: none;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -10194,7 +10166,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .registration-holder .form-holder form .buttons .single-button.proceed {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
   background-color: #3a8c43;
 }
 
@@ -10368,7 +10340,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .input-wrapper .ui-selectmenu-button .ui-icon,
 .registration-page .registration-holder .form-holder form .input-wrapper select .ui-icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -10379,7 +10351,7 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
@@ -10450,7 +10422,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #3b4f5d;
+  border: 2px solid #005293;
 }
 
 .registration-page .registration-holder .form-holder form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -10459,7 +10431,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #3b4f5d;
+  background: #005293;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10481,7 +10453,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #3b4f5d;
+  background: #005293;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -10525,7 +10497,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .registration-page .registration-holder .form-holder form .note {
   font-size: 11px;
-  color: #27343e;
+  color: #003660;
   line-height: 18px;
   padding-right: 30px;
 }
@@ -10557,7 +10529,7 @@ footer.center-footer .footer-logos .group-1 {
   border-radius: 3px;
   cursor: pointer;
   float: none;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -10578,7 +10550,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .registration-page .registration-holder .form-holder form .buttons .single-button.proceed {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
   background-color: #3a8c43;
 }
 
@@ -10644,7 +10616,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   line-height: 30px;
   margin: 0 2px 0 290px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
   background-color: #2e9c3d;
 }
 
@@ -10837,7 +10809,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .help-page .help-menu ul li.selected a {
   font-weight: 500;
-  color: #3b4f5d;
+  color: #0a497e;
 }
 
 .help-page .help-menu ul li span {
@@ -10876,12 +10848,12 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .help-page .help-menu ul li .sub-menu li a:hover {
-  color: #3b4f5d;
+  color: #0a497e;
 }
 
 .help-page .help-menu ul li .sub-menu li.selected a {
   font-weight: 500;
-  color: #3b4f5d;
+  color: #0a497e;
 }
 
 .help-page .help-menu ul li.has-sub-menu span {
@@ -10900,7 +10872,7 @@ footer.center-footer .footer-logos .group-1 {
   height: 18px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
   -webkit-transition: 0.3s all;
@@ -11083,7 +11055,7 @@ footer.center-footer .footer-logos .group-1 {
   font-weight: bold;
   line-height: 30px;
   margin: 0 2px 0 290px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
   background-color: #2e9c3d;
 }
 
@@ -11269,7 +11241,7 @@ footer.center-footer .footer-logos .group-1 {
   height: 18px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
   background-position: left 4px center;
   background-repeat: no-repeat;
   -webkit-transition: 0.3s all;
@@ -11412,14 +11384,14 @@ footer.center-footer .footer-logos .group-1 {
   cursor: pointer;
   margin-top: 5px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/remove-row.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/remove-row.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .logged-page .logged-table.cashdesk-table tr th:nth-child(1) .add-remove-icon.add,
 .logged-page .logged-table.cashdesk-table tr td:nth-child(1) .add-remove-icon.add {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/add-row.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/add-row.png);
   margin-bottom: 5px;
 }
 
@@ -11683,7 +11655,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .cashdesk-content {
   width: 100%;
   display: inline-block;
-  border-bottom: 5px solid #3b4f5d;
+  border-bottom: 5px solid #0a497e;
   background-color: #d4d4d4;
 }
 
@@ -11720,8 +11692,8 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked ~ .checkmark {
-  border-color: #3b4f5d;
-  background-color: #3b4f5d;
+  border-color: #0a96f0;
+  background-color: #0a96f0;
 }
 
 .logged-page .cashdesk-content .checkboxes .holder .group .check input:checked ~ .checkmark:after {
@@ -11820,7 +11792,7 @@ footer.center-footer .footer-logos .group-1 {
   padding-right: 8px;
   border-radius: 3px;
   cursor: pointer;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -11842,7 +11814,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .cashdesk-content .cashdesk-tabs .row .buttons div.proceed {
   margin-right: 0;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
   background-color: #2e9c3d;
 }
 
@@ -11943,7 +11915,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-table tr td:nth-child(2) .hour {
-  color: #1d272e;
+  color: #042037;
 }
 
 .logged-page .transactions-table tr td.fifteen i {
@@ -11982,14 +11954,14 @@ footer.center-footer .footer-logos .group-1 {
   height: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-image: url(//nextra.pcluster.info/kingbet1/images/check-purple-transparent.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/check-purple-transparent.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .logged-page .transactions-table tr td.status-cell .status.not-checked {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cross-red.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cross-red.png);
   background-size: auto;
   height: 17px;
   width: 21px;
@@ -12320,7 +12292,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .message-details-table tr td .time {
-  color: #3b4f5d;
+  color: #005293;
 }
 
 .logged-page .message-details-table tr td .red {
@@ -12334,7 +12306,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 12px;
   color: #c2c2c2;
   line-height: 18px;
-  border-bottom: 5px solid #3b4f5d;
+  border-bottom: 5px solid #0a497e;
 }
 
 .logged-page .message-content .buttons {
@@ -12354,7 +12326,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -12369,7 +12341,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-page .message-content .buttons .single-button.delete-button {
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -12381,14 +12353,14 @@ footer.center-footer .footer-logos .group-1 {
 .logged-page .message-content .buttons .single-button.reply-button {
   margin-right: 0;
   float: right;
-  background-color: #3b4f5d;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/reply-button.png);
-  -webkit-box-shadow: inset 0 1px #2d3c47;
-          box-shadow: inset 0 1px #2d3c47;
+  background-color: #0a96f0;
+  background-image: url(//nextra.pcluster.info/bsport10/images/reply-button.png);
+  -webkit-box-shadow: inset 0 1px #0981ce;
+          box-shadow: inset 0 1px #0981ce;
 }
 
 .logged-page .message-content .buttons .single-button.reply-button:hover {
-  background-color: #2d3c47;
+  background-color: #0981ce;
 }
 
 .logged-center {
@@ -12499,7 +12471,7 @@ footer.center-footer .footer-logos .group-1 {
   right: 0px;
   top: 3px;
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/search-icon-gray.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/search-icon-gray.png);
   background-position: center;
   background-size: 50% auto;
   background-repeat: no-repeat;
@@ -12724,7 +12696,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .change-password-page .input-wrapper .ui-selectmenu-button .ui-icon,
 .logged-center .change-password-page .input-wrapper select .ui-icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -12762,7 +12734,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #3b4f5d;
+  border: 2px solid #005293;
 }
 
 .logged-center .change-password-page .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -12771,7 +12743,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #3b4f5d;
+  background: #005293;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -12793,7 +12765,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #3b4f5d;
+  background: #005293;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -12888,7 +12860,7 @@ footer.center-footer .footer-logos .group-1 {
   float: right;
   margin-right: 30px;
   float: right;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: #2e9c3d;
@@ -12904,7 +12876,7 @@ footer.center-footer .footer-logos .group-1 {
   float: left;
   margin-left: 30px;
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -12994,7 +12966,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-center .transaction-filters .row .row-content .input-holder .ui-selectmenu-button .ui-icon,
 .logged-center .transaction-filters .row .row-content .input-holder select .ui-icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -13031,7 +13003,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-center .transaction-filters .row .row-content input[type="date"] {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/calendar-white.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/calendar-white.png);
   background-size: auto 60%;
   background-position: right 8px center;
   background-repeat: no-repeat;
@@ -13093,7 +13065,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -13109,7 +13081,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .transaction-filters .row .buttons-holder .single-button.cancel-button {
   margin-left: 30px;
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -13121,14 +13093,14 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button {
   margin-right: 30px;
   float: right;
-  background-color: #3b4f5d;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/search-icon.png);
-  -webkit-box-shadow: inset 0 1px #2d3c47;
-          box-shadow: inset 0 1px #2d3c47;
+  background-color: #0a96f0;
+  background-image: url(//nextra.pcluster.info/bsport10/images/search-icon.png);
+  -webkit-box-shadow: inset 0 1px #0981ce;
+          box-shadow: inset 0 1px #0981ce;
 }
 
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button:hover {
-  background-color: #2d3c47;
+  background-color: #0981ce;
 }
 
 .logged-center .transaction-filters .row .buttons-holder .single-button.search-button.new {
@@ -13139,7 +13111,7 @@ footer.center-footer .footer-logos .group-1 {
 .logged-center .transaction-filters .row .buttons-holder .single-button.proceed-button {
   margin-right: 30px;
   float: right;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: #2e9c3d;
@@ -13460,7 +13432,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-content .messages table tr td .status.read:after {
-  background-color: #3b4f5d;
+  background-color: #005293;
 }
 
 .logged-content .messages .table-legend {
@@ -13483,8 +13455,8 @@ footer.center-footer .footer-logos .group-1 {
 
 .logged-content .messages .table-legend div .icon {
   position: absolute;
-  background: #3b4f5d;
-  border: 2px solid #3b4f5d;
+  background: #005293;
+  border: 2px solid #005293;
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -13525,14 +13497,14 @@ footer.center-footer .footer-logos .group-1 {
   height: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-image: url(//nextra.pcluster.info/kingbet1/images/check-purple-transparent.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/check-purple-transparent.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .logged-content .transactions table tr td.status-cell .status.not-checked {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cross-red.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cross-red.png);
   background-size: auto;
   height: 17px;
   width: 21px;
@@ -13879,11 +13851,11 @@ footer.center-footer .footer-logos .group-1 {
           box-sizing: border-box;
   display: inline-block;
   width: 100%;
-  background: #3b4f5d;
+  background: #0a497e;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: inset 0px 1px 0 #3b4f5d;
-          box-shadow: inset 0px 1px 0 #3b4f5d;
+  -webkit-box-shadow: inset 0px 1px 0 #0a497e;
+          box-shadow: inset 0px 1px 0 #0a497e;
 }
 
 .reports .calculations .single-calculation .holder {
@@ -14075,24 +14047,24 @@ footer.center-footer .footer-logos .group-1 {
   padding-left: 20px;
   font-size: 13px;
   font-weight: 500;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cross-red.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cross-red.png);
   background-size: 14px;
   background-position: left 3px top 5px;
   background-repeat: no-repeat;
 }
 
 .transactions-legend-holder .legend .single-item.running {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/runnning-icon-white.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/runnning-icon-white.png);
   background-position: left 1px top 3px;
 }
 
 .transactions-legend-holder .legend .single-item.pending {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/pending-icon.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/pending-icon.png);
   background-position: left 1px top 3px;
 }
 
 .transactions-legend-holder .legend .single-item.complete {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/check-green.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/check-green.png);
   background-position: left 1px top 5px;
 }
 
@@ -14116,7 +14088,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .transactions-legend-holder .rows-per-page .ui-selectmenu-button .ui-icon,
 .transactions-legend-holder .rows-per-page select .ui-icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -14147,12 +14119,12 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .logged-page .transactions-legend-holder .legend .single-item.complete {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/plus.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/plus.png);
   background-position: top 3px left;
 }
 
 .logged-page .transactions-legend-holder .legend .single-item.failed {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/minus.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/minus.png);
   background-position: top 4px left;
 }
 
@@ -14542,7 +14514,7 @@ footer.center-footer .footer-logos .group-1 {
 .login-popup-wrapper .coupon-details-popup.new-banner-popup .row select .ui-icon,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row .ui-selectmenu-button .ui-icon,
 .login-popup-wrapper .deposit-iframe-popup.new-banner-popup .row select .ui-icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -14579,7 +14551,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #3b4f5d;
+  background: #0a497e;
   text-transform: uppercase;
 }
 
@@ -15637,7 +15609,7 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.print-button,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.print-button {
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/print-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/print-button.png);
   background-color: #2e9c3d;
 }
 
@@ -15649,15 +15621,15 @@ footer.center-footer .footer-logos .group-1 {
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button {
   margin-right: 0;
-  background-color: #3b4f5d;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/send-button.png);
-  -webkit-box-shadow: inset 0 1px #2d3c47;
-          box-shadow: inset 0 1px #2d3c47;
+  background-color: #0a96f0;
+  background-image: url(//nextra.pcluster.info/bsport10/images/send-button.png);
+  -webkit-box-shadow: inset 0 1px #0981ce;
+          box-shadow: inset 0 1px #0981ce;
 }
 
 .coupon-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover,
 .login-popup-wrapper .popup-content .first-blocks .block .buttons .button.send-button:hover {
-  background-color: #2d3c47;
+  background-color: #0981ce;
 }
 
 .coupon-popup-wrapper .popup-content .first-blocks .block:first-child,
@@ -15881,8 +15853,8 @@ footer.center-footer .footer-logos .group-1 {
   color: #ebebeb;
   font-size: 14px;
   font-weight: bold;
-  background-color: #3b4f5d;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/show-all-icon.png);
+  background-color: #0a96f0;
+  background-image: url(//nextra.pcluster.info/bsport10/images/show-all-icon.png);
 }
 
 .search-results-popup .search-results-content .inner-wrapper {
@@ -15926,10 +15898,10 @@ footer.center-footer .footer-logos .group-1 {
   border-bottom-left-radius: 3px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
-  background-color: #3b4f5d;
+  background-color: #0a497e;
   color: #fff;
   font-size: 0;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/search-icon.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/search-icon.png);
   background-size: 45% auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -15938,7 +15910,7 @@ footer.center-footer .footer-logos .group-1 {
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form input[type="submit"]:hover,
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form input[type="button"]:hover,
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .inside-search-form .button:hover {
-  background-color: #4f6a7c;
+  background-color: #0e64ad;
 }
 
 .search-results-popup .search-results-content .inner-wrapper .search-results-holder .single-sport .sport-title {
@@ -16132,7 +16104,7 @@ footer.center-footer .footer-logos .group-1 {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  background: #3b4f5d;
+  background: #0a497e;
   text-transform: uppercase;
 }
 
@@ -16246,17 +16218,17 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 33px;
   margin: 0 2px;
   margin-right: 0;
-  background-color: #3b4f5d;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/send-button.png);
-  -webkit-box-shadow: inset 0 1px #2d3c47;
-          box-shadow: inset 0 1px #2d3c47;
+  background-color: #0a96f0;
+  background-image: url(//nextra.pcluster.info/bsport10/images/send-button.png);
+  -webkit-box-shadow: inset 0 1px #0981ce;
+          box-shadow: inset 0 1px #0981ce;
   float: left;
   border: none;
 }
 
 .login-popup .login-content form .button-holder div:hover,
 .login-popup .login-content form .button-holder input[type="submit"]:hover {
-  background-color: #2d3c47;
+  background-color: #0981ce;
 }
 
 .login-popup .login-content form .button-holder div.register-button,
@@ -16266,7 +16238,7 @@ footer.center-footer .footer-logos .group-1 {
   -webkit-box-shadow: inset 0 1px #ee6704;
           box-shadow: inset 0 1px #ee6704;
   background-color: #fb6e06;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/register-white.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/register-white.png);
 }
 
 .login-popup .login-content form .button-holder div.register-button:hover,
@@ -16337,7 +16309,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #3b4f5d;
+  color: #005293;
 }
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16356,7 +16328,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -16371,7 +16343,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.confirm-button {
   float: right;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/confirm-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/confirm-button.png);
   background-color: #2e9c3d;
 }
 
@@ -16382,7 +16354,7 @@ footer.center-footer .footer-logos .group-1 {
 .bet-confirm-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.cancel-button {
   float: left;
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -16467,7 +16439,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #3b4f5d;
+  color: #005293;
 }
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16486,7 +16458,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -16501,7 +16473,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.confirm-button {
   float: right;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/confirm-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/confirm-button.png);
   background-color: #2e9c3d;
 }
 
@@ -16512,7 +16484,7 @@ footer.center-footer .footer-logos .group-1 {
 .deposit-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.cancel-button {
   float: left;
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -16598,7 +16570,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .title span a {
-  color: #3b4f5d;
+  color: #005293;
 }
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons {
@@ -16617,7 +16589,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -16632,7 +16604,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.confirm-button {
   float: right;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/confirm-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/confirm-button.png);
   background-color: #2e9c3d;
 }
 
@@ -16643,7 +16615,7 @@ footer.center-footer .footer-logos .group-1 {
 .bonus-popup-wrapper .bet-confirm-popup .bet-confirm-content .buttons .button.cancel-button {
   float: left;
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -16757,7 +16729,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .payment-method-table table tbody tr td:nth-child(3) .purple, .payment-method-table table tbody tr td:nth-child(4) .purple, .payment-method-table table tbody tr td:nth-child(5) .purple {
-  background: #3b4f5d;
+  background: #0a96f0;
   color: #ebebeb;
   line-height: 50px;
   text-align: center;
@@ -16821,11 +16793,11 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .messages-page .message-content .buttons .single-button.back-button {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/search-icon-green.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/search-icon-green.png);
 }
 
 .messages-page .message-content .buttons .single-button.reply-button {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/send-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/send-button.png);
 }
 
 .messages-page .logged-table tr td {
@@ -16873,7 +16845,7 @@ footer.center-footer .footer-logos .group-1 {
   padding-right: 8px;
   border-radius: 3px;
   cursor: pointer;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 4px;
   background-repeat: no-repeat;
@@ -17162,7 +17134,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .deposit-page .block .right-content .wrapper .input-group .ui-selectmenu-button .ui-icon,
 .deposit-page .block .right-content .wrapper .input-group select .ui-icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -17221,7 +17193,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .single-amount.selected {
-  background-color: #3b4f5d;
+  background-color: #005293;
 }
 
 .deposit-page .block .right-content .wrapper .deposit-amounts .amount-block {
@@ -17243,7 +17215,7 @@ footer.center-footer .footer-logos .group-1 {
   padding-right: 8px;
   border-radius: 3px;
   cursor: pointer;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
   background-size: auto 60%;
   background-position: left 5px top 7px;
   background-repeat: no-repeat;
@@ -17263,7 +17235,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .deposit-page .block .right-content .wrapper .buttons div.proceed-button {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
   background-color: #2e9c3d;
   float: right;
 }
@@ -17756,9 +17728,9 @@ footer.center-footer .footer-logos .group-1 {
   line-height: 34px;
   padding: 0 8;
   border-radius: 4px;
-  background-color: #3b4f5d;
-  -webkit-box-shadow: inset 0 1px #2d3c47;
-          box-shadow: inset 0 1px #2d3c47;
+  background-color: #0a96f0;
+  -webkit-box-shadow: inset 0 1px #0981ce;
+          box-shadow: inset 0 1px #0981ce;
   cursor: pointer;
   margin-bottom: 10px;
 }
@@ -17770,7 +17742,7 @@ footer.center-footer .footer-logos .group-1 {
 }
 
 .download-button:hover {
-  background-color: #2d3c47;
+  background-color: #0981ce;
 }
 
 .marketing-assets-holder {
@@ -18068,7 +18040,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .input-wrapper .ui-selectmenu-button .ui-icon,
 .new-profile-page .input-wrapper select .ui-icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -18600,7 +18572,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .new-profile-page .turn-over-content.provider .ui-selectmenu-button .ui-icon,
 .new-profile-page .turn-over-content.provider select .ui-icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -18730,7 +18702,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .input-wrapper .ui-selectmenu-button .ui-icon,
 .contact-us-form form .input-wrapper select .ui-icon {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png) !important;
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png) !important;
   background-size: auto;
   background-position: center top 8px;
 }
@@ -18741,7 +18713,7 @@ footer.center-footer .footer-logos .group-1 {
   text-indent: 1px;
   text-overflow: "";
   background-color: transparent;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/triangle-down.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/triangle-down.png);
   background-size: 5px auto;
   background-position: right 5px center;
   background-repeat: no-repeat;
@@ -18814,7 +18786,7 @@ footer.center-footer .footer-logos .group-1 {
   height: calc(100% - 2px);
   width: calc(100% - 2px);
   background-color: transparent;
-  border: 2px solid #3b4f5d;
+  border: 2px solid #005293;
 }
 
 .contact-us-form form .input-wrapper .radio-holder .radio input:checked ~ .radiocircle:after {
@@ -18823,7 +18795,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #3b4f5d;
+  background: #005293;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -18845,7 +18817,7 @@ footer.center-footer .footer-logos .group-1 {
   width: 9px;
   height: 9px;
   border: none;
-  background: #3b4f5d;
+  background: #005293;
   border-radius: 50%;
   -webkit-transform: none;
           transform: none;
@@ -18868,7 +18840,7 @@ footer.center-footer .footer-logos .group-1 {
   background-color: #3a8c43;
   border-radius: 4px;
   margin-right: 10px;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/back-icon.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/back-icon.png);
   background-position: left 7px center;
   background-size: auto 24px;
   background-repeat: no-repeat;
@@ -18883,7 +18855,7 @@ footer.center-footer .footer-logos .group-1 {
 
 .contact-us-form form .buttons-holder .single-button.cancel-button {
   background-color: #ce3131;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/cancel-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/cancel-button.png);
   -webkit-box-shadow: inset 0 1px #b12a2a;
           box-shadow: inset 0 1px #b12a2a;
 }
@@ -18895,14 +18867,14 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .buttons-holder .single-button.search-button {
   margin-right: 30px;
   float: right;
-  background-color: #3b4f5d;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/search-icon.png);
-  -webkit-box-shadow: inset 0 1px #2d3c47;
-          box-shadow: inset 0 1px #2d3c47;
+  background-color: #0a96f0;
+  background-image: url(//nextra.pcluster.info/bsport10/images/search-icon.png);
+  -webkit-box-shadow: inset 0 1px #0981ce;
+          box-shadow: inset 0 1px #0981ce;
 }
 
 .contact-us-form form .buttons-holder .single-button.search-button:hover {
-  background-color: #2d3c47;
+  background-color: #0981ce;
 }
 
 .contact-us-form form .buttons-holder .single-button.search-button.new {
@@ -18913,7 +18885,7 @@ footer.center-footer .footer-logos .group-1 {
 .contact-us-form form .buttons-holder .single-button.proceed-button {
   margin-right: 30px;
   float: right;
-  background-image: url(//nextra.pcluster.info/kingbet1/images/proceed-button.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/proceed-button.png);
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: #2e9c3d;
@@ -19042,12 +19014,12 @@ a {
 }
 
 span.ui-icon.ui-icon-circle-triangle-w {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/angle-left-orange.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/angle-left-orange.png);
   background-position: center;
 }
 
 span.ui-icon.ui-icon-circle-triangle-e {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/angle-right-orange.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/angle-right-orange.png);
   background-position: center;
 }
 
@@ -19276,7 +19248,7 @@ select option {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #3b4f5d;
+  border-top-color: #005293;
   -webkit-animation: spin 5s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 5s linear infinite;
@@ -19398,7 +19370,7 @@ select option {
   width: 100%;
   background-color: var(--mainBg);
   color: var(--mainBgCol);
-  background-image: url(//nextra.pcluster.info/kingbet1/images/casino/casinoBg.jpeg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/casino/casinoBg.jpeg);
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -19570,7 +19542,7 @@ select option {
 }
 
 .casino-pro-down .casino-pro-list .casino-pro-item:hover {
-  background-color: #3b4f5d;
+  background-color: #0a96f0;
 }
 
 .casino-pro-down .casino-pro-list .casino-pro-item-img {
@@ -19694,7 +19666,7 @@ select option {
 
 .game-grid-item .gg-item-details .gg-item-ico .gg-info:hover,
 .game-grid-item .gg-item-details .gg-item-ico .gg-star:hover {
-  color: #3b4f5d;
+  color: #005293;
 }
 
 .game-grid-item:hover .game-overlay {
@@ -19764,8 +19736,8 @@ select option {
 
 .game-overlay-inner .game-play-contianer .game-play-btn {
   color: #c2c2c2;
-  background-color: #3b4f5d;
-  border: 2px solid #3b4f5d;
+  background-color: #005293;
+  border: 2px solid #005293;
   text-decoration: none;
   border-radius: 3px;
   padding: 6px 30px;
@@ -19776,16 +19748,16 @@ select option {
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn-b {
-  background-color: #3b4f5d;
+  background-color: #0a96f0;
   color: #ebebeb;
-  border: 2px solid #3b4f5d;
+  border: 2px solid #0a96f0;
   padding: 6px 25px;
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn-b:hover {
   background-color: #ebebeb !important;
   color: #c2c2c2 !important;
-  border: 2px solid #3b4f5d;
+  border: 2px solid #0a96f0;
 }
 
 .game-overlay-inner .game-play-contianer .game-play-btn:hover {
@@ -19834,7 +19806,7 @@ select option {
 }
 
 .tour-container {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/poker/poker-bg1.jpg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/poker/poker-bg1.jpg);
   background-repeat: no-repeat;
   background-size: auto 114%;
   background-position: 0px -100px;
@@ -19903,7 +19875,7 @@ select option {
 }
 
 .reg-container {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/poker/blue-bg1.png);
+  background-image: url(//nextra.pcluster.info/bsport10/images/poker/blue-bg1.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
@@ -19938,7 +19910,7 @@ select option {
 }
 
 .ptext-container {
-  background-image: url(//nextra.pcluster.info/kingbet1/images/poker/poker-bg2.jpg);
+  background-image: url(//nextra.pcluster.info/bsport10/images/poker/poker-bg2.jpg);
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: 0px center;
@@ -20694,7 +20666,7 @@ body .loader__ball {
   width: 180px;
   height: 70px;
   display: block;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTA2LjIgODAuNzUiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudCk7fS5jbHMtMntmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTIpO30uY2xzLTN7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC0zKTt9LmNscy00e2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQtNCk7fS5jbHMtNXtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTUpO30uY2xzLTZ7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC02KTt9LmNscy03e2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQtNyk7fS5jbHMtOHtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTgpO30uY2xzLTl7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC05KTt9LmNscy0xMCwuY2xzLTE1e2ZpbGw6I2ZmZjt9LmNscy0xMXtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTEwKTt9LmNscy0xMntmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTExKTt9LmNscy0xM3tmaWxsOiNjY2M7fS5jbHMtMTR7ZmlsbDojYjNiM2IzO30uY2xzLTE1e29wYWNpdHk6MC4yO2lzb2xhdGlvbjppc29sYXRlO308L3N0eWxlPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iODEuOSIgeTE9IjY5LjQ2IiB4Mj0iODEuOSIgeTI9IjExLjI1IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYTcwMDAyIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZTkwMjFhIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC0yIiB4MT0iMTI0LjIyIiB5MT0iNjkuNDYiIHgyPSIxMjQuMjIiIHkyPSIxMS4yNSIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudCIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTMiIHgxPSI0OTkuNDEiIHkxPSI2OS40NiIgeDI9IjQ5OS40MSIgeTI9IjExLjI1IiB4bGluazpocmVmPSIjbGluZWFyLWdyYWRpZW50Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtNCIgeDE9IjQ3Ny45NSIgeTE9IjE4LjA2IiB4Mj0iNTA2LjIiIHkyPSIxOC4wNiIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudCIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTUiIHgxPSIxNjcuNzciIHkxPSI2OS40NiIgeDI9IjE2Ny43NyIgeTI9IjExLjI1IiB4bGluazpocmVmPSIjbGluZWFyLWdyYWRpZW50Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtNiIgeDE9IjIzNi42MiIgeTE9IjY5LjQ3IiB4Mj0iMjM2LjYyIiB5Mj0iMTEuMjUiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQiLz48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC03IiB4MT0iMzEwLjc0IiB5MT0iMTEuMjUiIHgyPSIzMTAuNzQiIHkyPSI2OS40NiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2Q2ZDZkNiIvPjxzdG9wIG9mZnNldD0iMC4xNSIgc3RvcC1jb2xvcj0iI2RkZCIvPjxzdG9wIG9mZnNldD0iMC41OSIgc3RvcC1jb2xvcj0iI2U4ZThlOCIvPjxzdG9wIG9mZnNldD0iMC43IiBzdG9wLWNvbG9yPSIjY2JjYmNiIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYjdiN2I3Ii8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC04IiB4MT0iMzgyLjUzIiB5MT0iMTEuMjUiIHgyPSIzODIuNTMiIHkyPSI2OS40NiIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudC03Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtOSIgeDE9IjQ1Mi43NyIgeTE9IjExLjI1IiB4Mj0iNDUyLjc3IiB5Mj0iNjkuNDYiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQtNyIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTEwIiB4MT0iMjMuMDMiIHkxPSIzLjYxIiB4Mj0iMjMuMDMiIHkyPSI3Ny4xOCIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudC03Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMTEiIHgxPSI0Ni4zIiB5MT0iMTEuMjYiIHgyPSI0Ni4zIiB5Mj0iNjkuNDEiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQtNyIvPjwvZGVmcz48dGl0bGU+bG9nbzwvdGl0bGU+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xMTMuNTcsNjkuNDZIOTVMNzIuNTUsNDcuMjhINjMuODNWNjkuNDZINTAuMjNWMTEuMjVoMTMuNlYzMy42OWg4LjM5TDkzLjQsMTEuMjVIMTEyTDg0LjExLDQwLjQxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTEzMSw2OS40NkgxMTcuNDJWMTEuMjVIMTMxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTUwNi4yLDY5LjQ2SDQ5Mi42MVYyNC44N0w1MDYuMiwxMS4yNVoiLz48cGF0aCBjbGFzcz0iY2xzLTQiIGQ9Ik00OTIuNjEsMjQuODdINDc4bDEzLjI2LTEzLjYyaDE1WiIvPjxwYXRoIGNsYXNzPSJjbHMtNSIgZD0iTTE5OC44Nyw2OS40NkgxODUuMjhsLTM1LTM5LjE4VjY5LjQ2aC0xMy42VjExLjI1aDEzLjZsMzUsMzl2LTM5aDEzLjU5WiIvPjxwYXRoIGNsYXNzPSJjbHMtNiIgZD0iTTI2OC42Nyw2OS40NmgtNDUuMWExOC44OCwxOC44OCwwLDAsMS0xMy40Ni01LjIzLDE3LjM0LDE3LjM0LDAsMCwxLTUuNTUtMTMuMThWMjkuNjhhMTcuNDEsMTcuNDEsMCwwLDEsNS41NS0xMy4xNywxOC44MiwxOC44MiwwLDAsMSwxMy40OC01LjI2aDQ1LjFWMjQuODdIMjIzLjU3Yy0zLjYyLDAtNS40NCwxLjYyLTUuNDQsNC44NVY1MWMwLDMuMjUsMS44Miw0Ljg2LDUuNDQsNC44NmgzMS41VjQ3LjE3SDIzNi42MVYzMy41N2gzMi4wNloiLz48cGF0aCBjbGFzcz0iY2xzLTciIGQ9Ik0zNDAuMDgsNDBxNy4xNCw0LjQxLDcuMTQsMTMuNDZBMTUuNzIsMTUuNzIsMCwwLDEsMzQzLDY0LjUxcS00LjUzLDUtMTIuMjQsNC45NUgyNzQuMjVWMTEuMjVoNTUuNTJxNy43MywwLDEyLjI0LDVhMTYsMTYsMCwwLDEsNC4wNywxMS4wOFEzNDYuMDgsMzUuNDYsMzQwLjA4LDQwWm0tMTAuMjktNi40cTIuOTQsMCwyLjk0LTQuMzZ0LTMtNC4zNEgyODcuODV2OC43Wm0uOTEsMjIuM3EyLjk0LDAsMi45NC00LjM2dC0zLTQuMzRIMjg3Ljg1djguNzJaIi8+PHBhdGggY2xhc3M9ImNscy04IiBkPSJNNDEzLjYxLDI0Ljg3SDM2NXY4LjdoNDUuNDV2MTMuNkgzNjV2OC43Mmg0OC41VjY5LjQ2SDM1MS40M1YxMS4yNWg2Mi4yWiIvPjxwYXRoIGNsYXNzPSJjbHMtOSIgZD0iTTQ3MywyNC44N0g0NTkuMTVWNjkuNDZINDQ1LjU2VjI0Ljg3SDQxOS4yOFYxMS4yNWg2N1oiLz48cG9seWdvbiBjbGFzcz0iY2xzLTEwIiBwb2ludHM9IjQ1LjIxIDExLjMyIDQ3LjM5IDExLjg0IDQ3LjM5IDY4LjkgNDUuMjUgNjkuNDEgNDUuMjEgNjkuNDIgNDUuMjEgMTEuMzIiLz48cGF0aCBjbGFzcz0iY2xzLTExIiBkPSJNMTIuODYsMy42MWwyLjQ3LjU5LDI3LjE1LDYuNDdWNzAuMDZMMTYuNCw3Ni4zMmwtMy41MS44NnMxLTEsMi40Ni0yLjYyQzE5LjQ2LDcwLDI3LjE1LDYwLjY4LDI1LjkyLDU1Ljk0cy0xMy4xNi0xMS4xNS0xOS4wNi0xNGMtMi0xLTMuMjctMS41NC0zLjI3LTEuNTRzMS4zMi0uNTgsMy4yNy0xLjU0YzUuOS0yLjg4LDE3LjgyLTkuMjQsMTkuMDYtMTQsMS4yOS01LTcuMTktMTQuOTUtMTEuMTUtMTkuMjNoMEMxMy42NCw0LjM3LDEyLjg2LDMuNjEsMTIuODYsMy42MVoiLz48cmVjdCBjbGFzcz0iY2xzLTEyIiB4PSI0NS4yMSIgeT0iMTEuMjYiIHdpZHRoPSIyLjE4IiBoZWlnaHQ9IjU4LjE1Ii8+PHBhdGggY2xhc3M9ImNscy0xMyIgZD0iTTMuNjEsMzYuNzZBMy42MiwzLjYyLDAsMSwxLDAsNDAuMzhIMEEzLjYxLDMuNjEsMCwwLDEsMy42MSwzNi43NloiLz48cGF0aCBjbGFzcz0iY2xzLTEzIiBkPSJNMTEuODEsMEEzLjYxLDMuNjEsMCwxLDEsOC4xOSwzLjYxLDMuNjEsMy42MSwwLDAsMSwxMS44MSwwWiIvPjxwYXRoIGNsYXNzPSJjbHMtMTQiIGQ9Ik0xMi44Niw3My41MWEzLjYyLDMuNjIsMCwxLDEtMy42MSwzLjYzaDBBMy42MywzLjYzLDAsMCwxLDEyLjg2LDczLjUxWiIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMTUiIHBvaW50cz0iNDEwLjQ2IDQwLjc1IDQxMC40NiAzMy41NyAzNjUuMDEgMzMuNTcgMzY1LjAxIDI0Ljg3IDQxMy42MSAyNC44NyA0MTMuNjMgMTEuMjUgMzUxLjQzIDExLjI1IDM1MS40MyA0MC43NSA0MTAuNDYgNDAuNzUiLz48cG9seWdvbiBjbGFzcz0iY2xzLTE1IiBwb2ludHM9IjQ5Mi42MSAyNC44NyA0OTIuNjEgNDAuNzUgNTA2LjIgNDAuNzUgNTA2LjIgMTEuMjUgNDkxLjIxIDExLjI1IDQ3Ny45NSAyNC44NyA0OTIuNjEgMjQuODciLz48cmVjdCBjbGFzcz0iY2xzLTE1IiB4PSIyMzYuNjEiIHk9IjMzLjU3IiB3aWR0aD0iMzIuMDYiIGhlaWdodD0iNy4xOCIvPjxwYXRoIGNsYXNzPSJjbHMtMTUiIGQ9Ik0zNDEuMTksNDAuNzVjLS4zNi0uMjctLjcyLS41NC0xLjExLS43OHE2LTQuNTIsNi0xMi42NkExNiwxNiwwLDAsMCwzNDIsMTYuMjNxLTQuNTEtNS0xMi4yNC01SDI3NC4yNXYyOS41Wk0yODcuODUsMjQuODdoNDEuOTJxMywwLDMsNC4zNHQtMi45NCw0LjM2SDI4Ny44NVoiLz48cG9seWdvbiBjbGFzcz0iY2xzLTE1IiBwb2ludHM9IjQ0NS41NiA0MC43NSA0NTkuMTUgNDAuNzUgNDU5LjE1IDI0Ljg3IDQ3My4wMSAyNC44NyA0ODYuMjcgMTEuMjUgNDE5LjI4IDExLjI1IDQxOS4yOCAyNC44NyA0NDUuNTYgMjQuODcgNDQ1LjU2IDQwLjc1Ii8+PHBvbHlnb24gY2xhc3M9ImNscy0xNSIgcG9pbnRzPSI4NC40NiA0MC43NSA4NC4xMSA0MC40MSAxMTEuOTggMTEuMjUgOTMuNCAxMS4yNSA3Mi4yMiAzMy42OSA2My44MyAzMy42OSA2My44MyAxMS4yNSA1MC4yMyAxMS4yNSA1MC4yMyA0MC43NSA4NC40NiA0MC43NSIvPjxwYXRoIGNsYXNzPSJjbHMtMTUiIGQ9Ik0yMTguMTMsNDAuNzV2LTExYzAtMy4yMywxLjgyLTQuODUsNS40NC00Ljg1aDQ1LjEyVjExLjI1aC00NS4xYTE4LjgyLDE4LjgyLDAsMCwwLTEzLjQ4LDUuMjYsMTcuNDEsMTcuNDEsMCwwLDAtNS41NSwxMy4xN1Y0MC43NVoiLz48cmVjdCBjbGFzcz0iY2xzLTE1IiB4PSIxMTcuNDIiIHk9IjExLjI1IiB3aWR0aD0iMTMuNTkiIGhlaWdodD0iMjkuNSIvPjxyZWN0IGNsYXNzPSJjbHMtMTUiIHg9IjE4NS4yOCIgeT0iMTEuMjUiIHdpZHRoPSIxMy41OSIgaGVpZ2h0PSIyOS41Ii8+PHBvbHlnb24gY2xhc3M9ImNscy0xNSIgcG9pbnRzPSIxNTAuMjcgNDAuNzUgMTUwLjI3IDMwLjI4IDE1OS42MyA0MC43NSAxNzYuNzcgNDAuNzUgMTUwLjI3IDExLjI1IDEzNi42NyAxMS4yNSAxMzYuNjcgNDAuNzUgMTUwLjI3IDQwLjc1Ii8+PC9nPjwvZz48L3N2Zz4=");
+  background-image: url("http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -20783,7 +20755,7 @@ span.ui-slider-handle:before {
 
 .antepost-holder div span:first-child {
   width: calc(100% - 90px);
-  border-right: 1px solid #3b4f5d;
+  border-right: 1px solid #0a96f0;
 }
 
 .antepost-holder div span:last-child {
@@ -20792,7 +20764,7 @@ span.ui-slider-handle:before {
 }
 
 .antepost-holder div.antepost-header {
-  background-color: #3b4f5d;
+  background-color: #005293;
 }
 
 .antepost-holder div.antepost-header span {
@@ -20851,7 +20823,7 @@ span.ui-slider-handle:before {
 .antepost-name-wrap {
   display: inline-block;
   width: 100%;
-  background-color: #3b4f5d;
+  background-color: #0a96f0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 5px;

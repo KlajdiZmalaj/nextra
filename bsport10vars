@@ -65,4 +65,8 @@ body.landing-page {
 .torn-a {
   background: #e7e7e7 !important;
 }
-//
+html {
+  .logged-center .usrlist #client_list td {
+    border: 1px solid #b1adad !important;
+  }
+}
