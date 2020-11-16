@@ -5481,4 +5481,29 @@ input[type="password"]::placeholder {
   top: 1px;
   margin-right: 2px;
 }
+
+/* virtual */
+.virtu-box {
+  min-height: calc(100vh - 245px);
+  background-image: url(https://gradm-api.pcluster.info/api/skin/6/image/34464041bc0b1d7fc5b52444f280013b.jpeg);
+  background-color: #000;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  position: relative;
+  background-size: 100%;
+}
+
+.virtu-box .virtu-btn {
+  position: absolute;
+  bottom: 100px;
+  left: calc(50% - 70px);
+  width: auto;
+  background-color: var(--accent-bg);
+  color: var(--accent-txt);
+  text-transform: uppercase;
+  padding: 10px;
+  cursor: pointer;
+}
 /*# sourceMappingURL=extra.css.map */
