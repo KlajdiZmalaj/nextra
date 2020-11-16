@@ -2638,7 +2638,7 @@ body .radio input:checked ~ .radiocircle:after {
 .single-panel
 .panel-title
 .odd-types .single-odd-type {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .live-content-wrapper
@@ -5423,5 +5423,62 @@ input[type="password"]::placeholder {
 .clgames-container .clgames-item-img {
   background-color: transparent;
   padding: 0;
+}
+
+.sports-book-page .championship-table tr td .print-group .radio-holder {
+  padding: 5px;
+}
+
+.sports-book-page .championship-table tr td .print-group .radio-holder label {
+  font-size: 13px;
+}
+
+.sports-book-page .championship-table tr td .print-group .single-print {
+  width: calc(100% / 10 - 10px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0 5px;
+  overflow: hidden;
+}
+
+.print-group .rad-box {
+  width: calc(100% / 5 - 20px);
+  margin: 0 !important;
+  padding: 0;
+  height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+[onclick="getMarkets();"] {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  position: relative;
+  bottom: 2px;
+}
+
+[onclick="getMarkets();"] i.fa.fa-info-circle {
+  position: relative;
+  top: 1px;
+  margin-right: 2px;
 }
 /*# sourceMappingURL=extra.css.map */

@@ -2427,12 +2427,11 @@ body .radio input:checked ~ .radiocircle:after {
   justify-content: center;
 
   .single-odd-type {
-    opacity: .5;
+    opacity: 0.5;
     &.selected {
       opacity: 1;
     }
   }
-  
 }
 
 html div.landing-page .banner-content .bottom-text-holder .quarter {
@@ -4777,4 +4776,43 @@ span.ui-slider-handle:before {
 .clgames-container .clgames-item-img {
   background-color: transparent;
   padding: 0;
+}
+.sports-book-page .championship-table tr td .print-group .radio-holder {
+  padding: 5px;
+  label {
+    font-size: 13px;
+  }
+}
+.sports-book-page .championship-table tr td .print-group .single-print {
+  width: calc(100% / 10 - 10px);
+  display: flex;
+  margin: 0;
+  height: 27px;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 5px;
+  overflow: hidden;
+}
+.print-group {
+  .rad-box {
+    width: calc(100% / 5 - 20px);
+    margin: 0 !important;
+    padding: 0;
+    height: 27px;
+    display: flex;
+    align-items: center;
+  }
+}
+[onclick="getMarkets();"] {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  position: relative;
+  bottom: 2px;
+  i.fa.fa-info-circle {
+    position: relative;
+    top: 1px;
+    margin-right: 2px;
+  }
 }
