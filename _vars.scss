@@ -312,7 +312,7 @@ html {
     flex-flow: column;
     .top-bar {
       order: 2;
-      max-width: 1360px;
+      max-width: 100%;
       margin: 0 auto;
       .login-bar {
         display: flex !important;
@@ -588,4 +588,7 @@ html {
 
 .sports-book-page .championship-table {
   color: #222;
+}
+.grid {
+  max-width: 100% !important;
 }

@@ -335,7 +335,7 @@ html .header .top-bar {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
-  max-width: 1360px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -674,6 +674,10 @@ html .single-sport .anchor.sport-135 .icon {
 
 .sports-book-page .championship-table {
   color: #222;
+}
+
+.grid {
+  max-width: 100% !important;
 }
 
 button,
