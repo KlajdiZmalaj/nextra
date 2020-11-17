@@ -1,59 +1,389 @@
-$skin: "topbet365";
-$cdnPath: "/nextra.pcluster.info/#{$skin}";
+$skin: "1xpro";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/topbet365/images/logo2.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/60/image/01aee99446d084908851397ec18505c8.jpeg";
-$bodyCol: #0d1528;
+$logoUrl: "https://nextra.pcluster.info/1xpro/images/logo2.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/blue.jpg";
+$bodyCol: var(--secondary-bg);
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
+
 html:root {
-  --accent: #ffeb3b;
-  --accent-bg: #ffeb3b;
-  --accent-txt: #000;
-  --primary-bg: #1c1c1c;
+  --accent: #e63946;
+  --accent-bg: #e63946;
+  --accent-txt: #fff;
+  --primary-bg: #182b46;
   --primary-txt: #fff;
-  --secondary-bg: #2e2e2e;
+  --secondary-bg: #1d3557;
   --secondary-txt: #fff;
-  --mainBg: #282828;
-  --mainBgCol: #fff;
-  --bg1: #323232;
-  --col1: #fff;
-  --teableHeadersBg: #14805e;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #636363;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #edf0f3;
+  --col1: #000;
+  --teableHeadersBg: #a8dadc;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #457b9d;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #535353;
-  --casinoGradient1: linear-gradient(
-    -90deg,
-    rgba(239, 32, 138, 1) 0%,
-    rgba(35, 116, 222, 1) 50%,
-    rgba(11, 138, 61, 1) 100%
-  );
-  --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --tableBorders: #c0c0c0;
+  --casinoGradient1: rgba(0, 0, 0, 0);
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --casinoGradient2: #e63946;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "estrelas";
+  --skin: "1xpro";
 }
 
-$secondary: #14805e;
+$secondary: #f0c808;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #14805e;
-$secondaryDarkCol: #fff;
-$primary: #323232;
+$secondaryDark: #f0c808;
+$secondaryDarkCol: #222;
+$primary: #53bce0;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #323232;
+$sb-2: #333844;
 
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 html body {
-  background-position-y: 80px !important;
-  background-attachment: initial;
+  background-size: 270px !important;
+  font-family: "Lato", sans-serif !important;
+  background-image: url(https://nextra.pcluster.info/1xpro/images/texture.png);
 }
-// .coupon-details-buttons .button.cashout {
-//   display: none !important;
-// }
+body.landing-page {
+  background-color: #001020 !important;
+  background-image: none;
+}
+
+.odds-table .second-header td {
+  color: #086bbb !important;
+}
+footer .footer-logo a {
+  filter: grayscale(1) invert(1);
+}
+.header .top-bar {
+  border-image: linear-gradient(to right, red, #fff) 11px 100%;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-bottom: 3px solid;
+  border-image-source: linear-gradient(
+    to right,
+    #ba0000,
+    #bc0706 35%,
+    #ffffff 35%,
+    #ececeb 55%,
+    #4caf50 55%
+  );
+}
+html {
+  .odds-table
+    .single-match-odds
+    .single-match-odds-table
+    .odd-holder
+    .single-odd
+    .label {
+    color: var(--accent-bg);
+  }
+  .live-odds-table table tr td.odd-holder .single-live-odd .label {
+    color: var(--accent-bg);
+  }
+  .single-sport {
+    border-top: 1px solid #1787e3;
+    background: #0160ae;
+    color: #fff;
+  }
+}
+html {
+  .side-bar .single-block .block-content.sports-menu .tabs {
+    display: flex;
+  }
+  .side-bar .single-block .block-content.sports-menu .tabs .single-tab {
+    background: #01428c;
+    color: #fff;
+    border: 1px solid #0160ae;
+  }
+  .tabs-holder .tabs-row {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
+  .tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
+    background: #ffcc00;
+    color: #01428c;
+  }
+  .tabs-holder .tabs-row .single-tab {
+    line-height: 15px;
+    width: calc(20% - 1px);
+    border-right: 1px solid #b9b8b8;
+    border-bottom: 1px solid #b9b8b8;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    color: #031134;
+    font-size: 13px;
+    font-weight: 500;
+    background: #dddddd;
+    -webkit-box-shadow: inset 0 1px 0 #f1f1f1;
+    box-shadow: inset 0 1px 0 #f1f1f1;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    margin: 0;
+  }
+
+  .tabs-holder .tabs-row .inner-tabs {
+    margin: 0 !important;
+  }
+
+  .tabs-holder .tabs-row .inner-tabs .single-inner-tab {
+    margin: 1px;
+    line-height: 36px;
+    width: calc(20% - 1px);
+    border-right: 1px solid #b9b8b8;
+    border-bottom: 1px solid #b9b8b8;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    color: #ebebeb;
+    font-size: 11px;
+    font-weight: 500;
+    background: #3558bd;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .championship {
+    background: #f6f6f6;
+    color: #01428c;
+  }
+  .single-sport .states .state .championship.selected .anchor {
+    background: #01428c;
+  }
+  .table-wrapper {
+    background: #fff;
+  }
+  #sportsGrid tr:nth-child(odd) {
+    background: #dbdbdb;
+  }
+  .sports-book-page
+    .championship-table
+    tr
+    td
+    .single-tournament
+    .check
+    .checkmark,
+  .sports-book-page
+    .championship-table
+    tr
+    td
+    .single-tournament
+    .check
+    input:checked
+    ~ .checkmark {
+    border: 1px solid #0160ae;
+  }
+  .sports-book-page
+    .championship-table
+    tr
+    td
+    .single-tournament
+    .check
+    input:checked
+    ~ .checkmark:after {
+    border-color: #0160ae;
+  }
+  .sports-book-page .filters-holder .search-form input[type="text"] {
+    background: #dbdbdb;
+  }
+  .sports-book-page .filters-holder span .filters-icon:before {
+    top: 4px;
+    background: #ffcc00;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #sportBookDiv .buttons-holder {
+    .single-button {
+      &:nth-child(1):before {
+        content: "\f762";
+        font-family: "Font Awesome 5 Pro";
+        font-size: 20px;
+        margin: 0 5px;
+      }
+      &:nth-child(2):before {
+        content: "\f08e";
+        font-family: "Font Awesome 5 Pro";
+        font-size: 20px;
+        margin: 0 5px;
+      }
+    }
+  }
+  .sports-book-page .filters-holder .buttons-holder .single-button {
+    border: 1px solid #d0d4d9;
+    box-shadow: 15px 11px 10px -16px #0160ae;
+  }
+  .logged-page .logged-menu ul li .sub-menu li:nth-child(odd) {
+    background: #e6e6e6;
+  }
+  .logged-page .logged-menu ul li .sub-menu li {
+    background: #ffffff;
+    color: #006e97;
+  }
+}
+
+div#mainHomePage {
+  display: flex;
+  flex-flow: column;
+  > div {
+    order: 99;
+  }
+  .main-slider {
+    order: 2;
+  }
+
+  #upcomingBets {
+    order: 1;
+  }
+}
+.center-content .sports-book {
+  border-bottom: 1px solid #ffffff;
+}
+
+.header .top-header .top-header-content .logo-holder {
+  width: 170px;
+  position: absolute;
+  left: 48%;
+  transform: translateX(-50%);
+  display: flex;
+}
+html {
+  .header .top-header .top-header-content .primary-menu {
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    ul {
+      margin: 0 auto;
+      #indexCasino {
+        margin-right: 100px;
+      }
+      #indexCasinoLive {
+        margin-left: 100px;
+      }
+    }
+  }
+  .header .top-bar .top-bar-content {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+  }
+  .header .top-header .top-header-content .primary-menu li a:after {
+    font-family: "ikonaSvg2" !important;
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    .top-bar {
+      order: 2;
+      max-width: 1360px;
+      margin: 0 auto;
+      .login-bar {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+      }
+      [name="login"] {
+        margin-left: auto;
+      }
+    }
+    .bottom-header {
+      order: 3;
+    }
+    .top-header {
+      order: 1;
+    }
+  }
+}
+
+@font-face {
+  font-family: "ikonaSvg2";
+  src: url("https://nextra.pcluster.info/1xpro/fonts/icomoon.eot?rsl9kg");
+  src: url("https://nextra.pcluster.info/1xpro/fonts/icomoon.eot?rsl9kg#iefix")
+      format("embedded-opentype"),
+    url("https://nextra.pcluster.info/1xpro/fonts/icomoon.ttf?rsl9kg")
+      format("truetype"),
+    url("https://nextra.pcluster.info/1xpro/fonts/icomoon.woff?rsl9kg")
+      format("woff"),
+    url("https://nextra.pcluster.info/1xpro/fonts/icomoon.svg?rsl9kg#icomoon")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.home-page .center-content .competition-filter {
+  display: block;
+  padding: 10px 0px;
+  .title {
+    height: 20px;
+  }
+  .competitions ul {
+    justify-content: center;
+    li {
+      margin-left: 1px;
+      margin-right: 0;
+      margin-top: 1px;
+      width: calc(100% / 5 - 34px);
+      background-color: var(--tableBorders);
+      white-space: break-spaces;
+      height: 25px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 6px 3px 6px 3px;
+      border: none;
+      border-radius: 0px;
+    }
+  }
+  #favouriteTournaments li:before {
+    width: 22px;
+    height: 22px;
+    left: 5px;
+    top: 7px;
+  }
+}
+
+.left-side-bar .single-item .item-button .first-part {
+  display: flex;
+}
+.side-bar.left-side-bar:before {
+  content: "";
+  width: 100%;
+  height: 131px;
+  display: block;
+  background-image: url(//nextra.pcluster.info/1xpro/images/dracula.jpg);
+  background-size: cover;
+}
+html .main-content .single-sport {
+  border-top: 1px solid var(--secondary-bg);
+  background: var(--primary-bg);
+  color: #fff;
+}
+
+.center-content .popular-bets {
+  border-bottom: none;
+  margin-bottom: 1px;
+  .title img {
+    margin-top: 12px;
+  }
+}
