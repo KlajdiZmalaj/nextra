@@ -693,6 +693,76 @@ html .header .top-header {
   background: #1d3557c4;
 }
 
+html .center-content .sports-book {
+  background: #223348;
+  color: #a8dadc;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html .events-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 100%;
+}
+
+html .events-info > div {
+  padding: 0 10px !important;
+  margin-right: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 19px;
+  width: auto;
+  cursor: default;
+}
+
+html .events-info > div:nth-child(1) {
+  background: #009688;
+  color: #fff;
+}
+
+html .events-info > div:nth-child(2) {
+  background: #8bc34a;
+  color: #000;
+}
+
+html .events-info > div:nth-child(3) {
+  background: #3f51b5;
+  color: #fff;
+}
+
+html .events-info > div:nth-child(4) {
+  background: #b5473f;
+  color: #fff;
+}
+
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;
