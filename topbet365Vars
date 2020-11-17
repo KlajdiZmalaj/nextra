@@ -3,8 +3,8 @@ $cdnPath: "/nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "https://nextra.pcluster.info/topbet365/images/logo2.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/60/image/01aee99446d084908851397ec18505c8.jpeg";
-$bodyCol: #0d1528;
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/24/image/51345629667ab67c22bd180144b9a245.jpeg";
+$bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
@@ -53,6 +53,7 @@ $sb-2: #323232;
 html body {
   background-position-y: 80px !important;
   background-attachment: initial;
+  background-size: 1970px;
 }
 // .coupon-details-buttons .button.cashout {
 //   display: none !important;

@@ -376,6 +376,18 @@ html .header .top-header {
           order: 1;
 }
 
+html .lang-container {
+  position: relative;
+  margin-top: 0;
+  overflow: visible;
+}
+
+html .lang-container .lang-down {
+  position: absolute;
+  top: 100%;
+  width: 90%;
+}
+
 @font-face {
   font-family: "ikonaSvg2";
   src: url("https://nextra.pcluster.info/1xpro/fonts/icomoon.eot?rsl9kg");

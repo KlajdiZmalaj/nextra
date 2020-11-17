@@ -334,6 +334,16 @@ html {
       order: 1;
     }
   }
+  .lang-container {
+    position: relative;
+    margin-top: 0;
+    overflow: visible;
+    .lang-down {
+      position: absolute;
+      top: 100%;
+      width: 90%;
+    }
+  }
 }
 
 @font-face {
