@@ -2235,7 +2235,9 @@ div.landing-page .banner-content:before {
   display: flex;
   align-items: center;
   .team-names {
-    white-space: pre-wrap;
+    white-space: break-spaces;
+    width: 70%;
+    flex-shrink: 0;
   }
   .bottom-info {
     display: flex;
@@ -2248,6 +2250,9 @@ div.landing-page .banner-content:before {
       padding: 0;
       margin: 0;
       text-align: center;
+      color: var(--accent);
+      font-weight: bold;
+      font-size: 12px;
     }
     .current-minute,
     .current-period {

@@ -2412,7 +2412,10 @@ div.landing-page .banner-content:before {
 }
 
 .sports-container .matches .single-match .match-info .team-names {
-  white-space: pre-wrap;
+  white-space: break-spaces;
+  width: 70%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .sports-container .matches .single-match .match-info .bottom-info {
@@ -2437,6 +2440,9 @@ div.landing-page .banner-content:before {
   padding: 0;
   margin: 0;
   text-align: center;
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 12px;
 }
 
 .sports-container .matches .single-match .match-info .bottom-info .current-minute,
