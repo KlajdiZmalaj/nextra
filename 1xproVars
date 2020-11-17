@@ -232,16 +232,14 @@ html {
 div#mainHomePage {
   display: flex;
   flex-flow: column;
-  .main-slider {
-    order: 1;
+  > div {
+    order: 99;
   }
-  .center-block:nth-child(2) {
+  .main-slider {
     order: 2;
   }
+
   #upcomingBets {
-    order: 5;
-  }
-  #marketMoversBets {
-    order: 5;
+    order: 1;
   }
 }
