@@ -254,27 +254,28 @@ div#mainHomePage {
   transform: translateX(-50%);
   display: flex;
 }
-.header .top-header .top-header-content .primary-menu {
-  justify-content: space-between;
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  ul {
-    margin: 0 auto;
-    #indexCasino {
-      margin-right: 100px;
-    }
-    #indexCasinoLive {
-      margin-left: 100px;
+html {
+  .header .top-header .top-header-content .primary-menu {
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    ul {
+      margin: 0 auto;
+      #indexCasino {
+        margin-right: 100px;
+      }
+      #indexCasinoLive {
+        margin-left: 100px;
+      }
     }
   }
-}
-
-.header .top-bar .top-bar-content {
-  display: flex;
-  align-items: center;
-  justify-content: start;
+  .header .top-bar .top-bar-content {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
 }
