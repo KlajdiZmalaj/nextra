@@ -299,3 +299,25 @@ html {
   font-style: normal;
   font-display: block;
 }
+
+.center-content .competition-filter {
+      display: block;
+      .competitions ul {
+      justify-content: center;
+      li {
+    margin-left: 1px;
+    width: calc(100% / 5 - 34px);
+    background-color: var(--tableBorders);
+    margin-top: 1px;
+    white-space: break-spaces;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        padding: 6px 3px 6px 3px;
+    border: none;
+    border-radius: 0px;
+      }
+}
+}
