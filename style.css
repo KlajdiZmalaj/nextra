@@ -281,7 +281,7 @@ div#mainHomePage #upcomingBets {
   display: flex;
 }
 
-.header .top-header .top-header-content .primary-menu {
+html .header .top-header .top-header-content .primary-menu {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -295,19 +295,19 @@ div#mainHomePage #upcomingBets {
   display: flex;
 }
 
-.header .top-header .top-header-content .primary-menu ul {
+html .header .top-header .top-header-content .primary-menu ul {
   margin: 0 auto;
 }
 
-.header .top-header .top-header-content .primary-menu ul #indexCasino {
+html .header .top-header .top-header-content .primary-menu ul #indexCasino {
   margin-right: 100px;
 }
 
-.header .top-header .top-header-content .primary-menu ul #indexCasinoLive {
+html .header .top-header .top-header-content .primary-menu ul #indexCasinoLive {
   margin-left: 100px;
 }
 
-.header .top-bar .top-bar-content {
+html .header .top-bar .top-bar-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
