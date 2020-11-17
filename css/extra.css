@@ -5482,6 +5482,20 @@ input[type="password"]::placeholder {
   margin-right: 2px;
 }
 
+.casino-search-container .casino-search-inner .cs-b {
+  width: 100%;
+}
+
+.casino-search-container .casino-search-inner .cs-b .casino-category {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.casino-search-container .casino-search-inner .cs-b .casino-category .casino-category-item a {
+  font-size: 14px;
+}
+
 /* virtual */
 .virtu-box {
   min-height: calc(100vh - 245px);
