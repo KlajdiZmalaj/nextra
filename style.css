@@ -466,6 +466,10 @@ html .main-content .single-sport {
   margin-bottom: 1px;
 }
 
+.center-content .popular-bets .title img {
+  margin-top: 11px;
+}
+
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;
