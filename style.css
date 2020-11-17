@@ -281,7 +281,7 @@ div#mainHomePage #upcomingBets {
   display: flex;
 }
 
-.header .top-header .top-header-content .primary-menu {
+html .header .top-header .top-header-content .primary-menu {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -295,19 +295,19 @@ div#mainHomePage #upcomingBets {
   display: flex;
 }
 
-.header .top-header .top-header-content .primary-menu ul {
+html .header .top-header .top-header-content .primary-menu ul {
   margin: 0 auto;
 }
 
-.header .top-header .top-header-content .primary-menu ul #indexCasino {
+html .header .top-header .top-header-content .primary-menu ul #indexCasino {
   margin-right: 100px;
 }
 
-.header .top-header .top-header-content .primary-menu ul #indexCasinoLive {
+html .header .top-header .top-header-content .primary-menu ul #indexCasinoLive {
   margin-left: 100px;
 }
 
-.header .top-bar .top-bar-content {
+html .header .top-bar .top-bar-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -317,6 +317,51 @@ div#mainHomePage #upcomingBets {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
+}
+
+.home-page .center-content .competition-filter {
+  display: block;
+  padding: 10px 0px;
+}
+
+.home-page .center-content .competition-filter .title {
+  height: 20px;
+}
+
+.home-page .center-content .competition-filter .competitions ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-page .center-content .competition-filter .competitions ul li {
+  margin-left: 1px;
+  margin-right: 0;
+  margin-top: 1px;
+  width: calc(100% / 5 - 34px);
+  background-color: var(--tableBorders);
+  white-space: break-spaces;
+  height: 25px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6px 3px 6px 3px;
+  border: none;
+  border-radius: 0px;
+}
+
+.home-page .center-content .competition-filter .competitions ul #favouriteTournaments li:before {
+  width: 22px;
+  height: 22px;
+  left: 5px;
+  top: 7px;
 }
 
 @media (max-width: 1008px) {
