@@ -266,6 +266,59 @@ div#mainHomePage #upcomingBets {
           order: 1;
 }
 
+.center-content .sports-book {
+  border-bottom: 1px solid #ffffff;
+}
+
+.header .top-header .top-header-content .logo-holder {
+  width: 170px;
+  position: absolute;
+  left: 48%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .top-header .top-header-content .primary-menu {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .top-header .top-header-content .primary-menu ul {
+  margin: 0 auto;
+}
+
+.header .top-header .top-header-content .primary-menu ul #indexCasino {
+  margin-right: 100px;
+}
+
+.header .top-header .top-header-content .primary-menu ul #indexCasinoLive {
+  margin-left: 100px;
+}
+
+.header .top-bar .top-bar-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;

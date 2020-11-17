@@ -243,3 +243,38 @@ div#mainHomePage {
     order: 1;
   }
 }
+.center-content .sports-book {
+  border-bottom: 1px solid #ffffff;
+}
+
+.header .top-header .top-header-content .logo-holder {
+  width: 170px;
+  position: absolute;
+  left: 48%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.header .top-header .top-header-content .primary-menu {
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  ul {
+    margin: 0 auto;
+    #indexCasino {
+      margin-right: 100px;
+    }
+    #indexCasinoLive {
+      margin-left: 100px;
+    }
+  }
+}
+
+.header .top-bar .top-bar-content {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
