@@ -5037,6 +5037,10 @@ span {
   cursor: pointer;
 }
 
+.casino-pro-down {
+  right: 0;
+}
+
 .casino-pro-down .casino-pro-list .casino-pro-item {
   display: -webkit-box;
   display: -ms-flexbox;
