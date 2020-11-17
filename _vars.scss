@@ -411,3 +411,68 @@ html .main-content .single-sport {
   background: var(--primary-bg);
   color: #fff;
 }
+
+html {
+  .single-sport .anchor.sport {
+    &-1 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/042-ball.svg");
+    }
+    &-2 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/009-basketball ball.svg");
+    }
+    &-4 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/028-hockey stick.svg");
+    }
+    &-5 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/048-tennis ball.svg");
+    }
+    &-6 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/041-soccer goal.svg");
+    }
+    &-7 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/042-ball.svg");
+    }
+    &-9 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/025-golf field.svg");
+    }
+    &-12 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/037-rugby.svg");
+    }
+    &-13 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/037-rugby.svg");
+    }
+    &-15 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/039-ice skate.svg");
+    }
+    &-16 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/038-rugby.svg");
+    }
+    &-19 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/015-cricket ball.svg");
+    }
+    &-20 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/034-ping pong.svg");
+    }
+    &-21 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/016-cricket bat.svg");
+    }
+    &-22 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/018-darts.svg");
+    }
+    &-23 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/032-volleyball net.svg");
+    }
+    &-26 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/046-swim.svg");
+    }
+    &-29 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/042-ball.svg");
+    }
+    &-81 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/055-windsurf.svg");
+    }
+    &-135 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/043-soccer field.svg");
+    }
+  }
+}

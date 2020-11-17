@@ -51,8 +51,8 @@ footer .footer-logo a {
      border-image: linear-gradient(to right, red, #fff) 11px 100%;
   border-image-slice: 1;
   border-width: 2px;
-  border-bottom: 3px solid;
-  border-image-source: linear-gradient(to right, #ba0000, #bc0706 35%, #ffffff 35%, #ececeb 55%, #4caf50 55%);
+  border-bottom: 8px solid;
+  border-image-source: linear-gradient(to right, #ba0000, #bc0706 30%, #ffffff 40%, #ffffff 55%, #4caf50 65%);
 }
 
 html .odds-table
@@ -457,6 +457,86 @@ html .main-content .single-sport {
   border-top: 1px solid var(--secondary-bg);
   background: var(--primary-bg);
   color: #fff;
+}
+
+html .single-sport .anchor.sport-1 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/042-ball.svg");
+}
+
+html .single-sport .anchor.sport-2 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/009-basketball ball.svg");
+}
+
+html .single-sport .anchor.sport-4 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/028-hockey stick.svg");
+}
+
+html .single-sport .anchor.sport-5 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/048-tennis ball.svg");
+}
+
+html .single-sport .anchor.sport-6 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/041-soccer goal.svg");
+}
+
+html .single-sport .anchor.sport-7 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/042-ball.svg");
+}
+
+html .single-sport .anchor.sport-9 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/025-golf field.svg");
+}
+
+html .single-sport .anchor.sport-12 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/037-rugby.svg");
+}
+
+html .single-sport .anchor.sport-13 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/037-rugby.svg");
+}
+
+html .single-sport .anchor.sport-15 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/039-ice skate.svg");
+}
+
+html .single-sport .anchor.sport-16 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/038-rugby.svg");
+}
+
+html .single-sport .anchor.sport-19 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/015-cricket ball.svg");
+}
+
+html .single-sport .anchor.sport-20 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/034-ping pong.svg");
+}
+
+html .single-sport .anchor.sport-21 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/016-cricket bat.svg");
+}
+
+html .single-sport .anchor.sport-22 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/018-darts.svg");
+}
+
+html .single-sport .anchor.sport-23 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/032-volleyball net.svg");
+}
+
+html .single-sport .anchor.sport-26 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/046-swim.svg");
+}
+
+html .single-sport .anchor.sport-29 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/042-ball.svg");
+}
+
+html .single-sport .anchor.sport-81 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/055-windsurf.svg");
+}
+
+html .single-sport .anchor.sport-135 .icon {
+  background-image: url("//nextra.pcluster.info/1xpro/images/newicons/043-soccer field.svg");
 }
 
 button,
