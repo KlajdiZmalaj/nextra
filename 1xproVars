@@ -228,3 +228,20 @@ html {
     color: #006e97;
   }
 }
+
+div#mainHomePage {
+  display: flex;
+  flex-flow: column;
+  .main-slider {
+    order: 1;
+  }
+  .center-block:nth-child(2) {
+    order: 2;
+  }
+  #upcomingBets {
+    order: 5;
+  }
+  #marketMoversBets {
+    order: 5;
+  }
+}
