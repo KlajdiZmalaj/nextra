@@ -313,6 +313,7 @@ html .header .top-bar .top-bar-content {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
+  width: 100%;
 }
 
 .home-page .center-content .competition-filter {
@@ -353,7 +354,7 @@ html .header .top-bar .top-bar-content {
   border-radius: 0px;
 }
 
-.home-page .center-content .competition-filter .competitions ul #favouriteTournaments li:before {
+.home-page .center-content .competition-filter #favouriteTournaments li:before {
   width: 22px;
   height: 22px;
   left: 5px;
