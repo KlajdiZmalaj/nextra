@@ -390,6 +390,15 @@ html .header .top-header .top-header-content .primary-menu li a:after {
   display: flex;
 }
 
+.side-bar.left-side-bar:before {
+  content: "";
+  width: 100%;
+  height: 131px;
+  display: block;
+  background-image: url(//nextra.pcluster.info/1xpro/images/dracula.jpg);
+  background-size: cover;
+}
+
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;
