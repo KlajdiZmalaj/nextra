@@ -89,14 +89,14 @@ footer .footer-logo a {
   border-image: linear-gradient(to right, red, #fff) 11px 100%;
   border-image-slice: 1;
   border-width: 2px;
-  border-bottom: 3px solid;
+  border-bottom: 8px solid;
   border-image-source: linear-gradient(
     to right,
     #ba0000,
-    #bc0706 35%,
-    #ffffff 35%,
-    #ececeb 55%,
-    #4caf50 55%
+    #bc0706 30%,
+    #ffffff 40%,
+    #ffffff 55%,
+    #4caf50 65%
   );
 }
 html {
