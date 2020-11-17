@@ -4854,6 +4854,17 @@ span.ui-slider-handle:before {
     margin-right: 9px;
   }
 }
+
+.casino-search-container .casino-search-inner .cs-b {
+  width: 100%;
+  .casino-category {
+    justify-content: center;
+    .casino-category-item a {
+      font-size: 16px;
+    }
+  }
+}
+
 /* virtual */
 .virtu-box {
   min-height: calc(100vh - 245px);
