@@ -1027,6 +1027,7 @@ body .logged-page .logged-table tfoot tr td,
   width: 60px;
   display: block;
 }
+//
 .ed-b-content .ed-b-head {
   margin: 10px 0;
   font-size: 19px;
@@ -2229,6 +2230,38 @@ div.landing-page .banner-content:before {
 .sports-container .matches .single-match .bottom-info div {
   padding-bottom: 0 !important;
   padding-top: 0 !important;
+}
+.sports-container .matches .single-match .match-info {
+  display: flex;
+  align-items: center;
+  .team-names {
+    white-space: break-spaces;
+    width: 70%;
+    flex-shrink: 0;
+  }
+  .bottom-info {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    .result {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      color: var(--accent);
+      font-weight: bold;
+      font-size: 12px;
+    }
+    .current-minute,
+    .current-period {
+      width: 50%;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+  }
 }
 .sports-container .sports .single-match.selected {
   background: unset !important;
@@ -4809,11 +4842,16 @@ span.ui-slider-handle:before {
   align-items: center;
   padding-left: 20px;
   position: relative;
-  bottom: 2px;
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  bottom: 0;
+  width: 200px;
+  margin-left: auto;
+  cursor: pointer;
   i.fa.fa-info-circle {
     position: relative;
     top: 1px;
-    margin-right: 2px;
+    margin-right: 9px;
   }
 }
 

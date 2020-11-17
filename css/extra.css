@@ -2402,6 +2402,57 @@ div.landing-page .banner-content:before {
   padding-top: 0 !important;
 }
 
+.sports-container .matches .single-match .match-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sports-container .matches .single-match .match-info .team-names {
+  white-space: break-spaces;
+  width: 70%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.sports-container .matches .single-match .match-info .bottom-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sports-container .matches .single-match .match-info .bottom-info .result {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.sports-container .matches .single-match .match-info .bottom-info .current-minute,
+.sports-container .matches .single-match .match-info .bottom-info .current-period {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 .sports-container .sports .single-match.selected {
   background: unset !important;
   color: unset !important;
@@ -5473,13 +5524,18 @@ input[type="password"]::placeholder {
           align-items: center;
   padding-left: 20px;
   position: relative;
-  bottom: 2px;
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  bottom: 0;
+  width: 200px;
+  margin-left: auto;
+  cursor: pointer;
 }
 
 [onclick="getMarkets();"] i.fa.fa-info-circle {
   position: relative;
   top: 1px;
-  margin-right: 2px;
+  margin-right: 9px;
 }
 
 .casino-search-container .casino-search-inner .cs-b {
