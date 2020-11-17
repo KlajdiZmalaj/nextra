@@ -35,7 +35,7 @@ body.landing-page {
 }
 
 body {
-  background-image: none;
+  background-image: none !important;
 }
 
 .odds-table .second-header td {
