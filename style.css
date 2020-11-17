@@ -320,6 +320,10 @@ html .header .top-bar .top-bar-content {
   width: 100%;
 }
 
+html .header .top-header .top-header-content .primary-menu li a:after {
+  font-family: "ikonaSvg2" !important;
+}
+
 @font-face {
   font-family: "ikonaSvg2";
   src: url("https://nextra.pcluster.info/1xpro/fonts/icomoon.eot?rsl9kg");
