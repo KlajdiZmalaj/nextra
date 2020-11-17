@@ -34,7 +34,7 @@ html:root {
   --accent: #e63946;
   --accent-bg: #e63946;
   --accent-txt: #fff;
-  --primary-bg: #182b46;
+  --primary-bg: #223348;
   --primary-txt: #fff;
   --secondary-bg: #1d3557;
   --secondary-txt: #fff;
@@ -271,7 +271,7 @@ div#mainHomePage {
   }
 }
 .center-content .sports-book {
-  border-bottom: 1px solid #ffffff;
+  margin-bottom: 1px;
 }
 
 .header .top-header .top-header-content .logo-holder {
@@ -364,9 +364,10 @@ html {
 
 .home-page .center-content .competition-filter {
   display: block;
-  padding: 10px 0px;
+  padding: 0px 0px;
   .title {
-    height: 20px;
+    height: 26px;
+    line-height: 26px;
   }
   .competitions ul {
     justify-content: center;
@@ -374,6 +375,7 @@ html {
       margin-left: 1px;
       margin-right: 0;
       margin-top: 1px;
+      margin-bottom: 0px;
       width: calc(100% / 5 - 34px);
       background-color: var(--tableBorders);
       white-space: break-spaces;
@@ -407,9 +409,14 @@ html {
   background-size: cover;
 }
 html .main-content .single-sport {
-  border-top: 1px solid var(--secondary-bg);
+  border-top: none;
   background: var(--primary-bg);
-  color: #fff;
+  color: var(--accent-txt);
+  margin-bottom: 1px;
+}
+
+.center-content .popular-bets .title img {
+  margin-top: 11px;
 }
 
 html {
