@@ -713,6 +713,10 @@ html .center-content .sports-book {
           justify-content: center;
 }
 
+html .center-content .sports-book .title {
+  font-size: 24px;
+}
+
 html .events-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -741,6 +745,7 @@ html .events-info > div {
   height: 19px;
   width: auto;
   cursor: default;
+  font-size: 14px;
 }
 
 html .events-info > div:nth-child(1) {

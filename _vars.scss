@@ -611,6 +611,9 @@ html {
     align-items: center;
     justify-content: center;
   }
+  .center-content .sports-book .title {
+    font-size: 24px;
+  }
   .events-info {
     display: flex;
     align-items: center;
@@ -625,6 +628,7 @@ html {
       height: 19px;
       width: auto;
       cursor: default;
+      font-size: 14px;
     }
     > div:nth-child(1) {
       background: #009688;
