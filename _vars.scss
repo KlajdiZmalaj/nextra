@@ -48,16 +48,15 @@ $sb-2: #333844;
 
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 html body {
-  background-size: 2038px !important;
+  background-size: 270px !important;
   font-family: "Lato", sans-serif !important;
+  background-image: url(https://nextra.pcluster.info/1xpro/images/texture.png);
 }
 body.landing-page {
   background-color: #001020 !important;
   background-image: none;
 }
-body {
-  background-image: none !important;
-}
+
 .odds-table .second-header td {
   color: #086bbb !important;
 }
@@ -287,6 +286,31 @@ html {
   }
   .header .top-header .top-header-content .primary-menu li a:after {
     font-family: "ikonaSvg2" !important;
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    .top-bar {
+      order: 2;
+      max-width: 1360px;
+      margin: 0 auto;
+      .login-bar {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+      }
+      [name="login"] {
+        margin-left: auto;
+      }
+    }
+    .bottom-header {
+      order: 3;
+    }
+    .top-header {
+      order: 1;
+    }
   }
 }
 

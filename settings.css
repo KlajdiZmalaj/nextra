@@ -25,17 +25,14 @@ html:root {
 }
 
 html body {
-  background-size: 2038px !important;
+  background-size: 270px !important;
   font-family: "Lato", sans-serif !important;
+  background-image: url(https://nextra.pcluster.info/1xpro/images/texture.png);
 }
 
 body.landing-page {
   background-color: #001020 !important;
   background-image: none;
-}
-
-body {
-  background-image: none !important;
 }
 
 .odds-table .second-header td {
@@ -324,6 +321,54 @@ html .header .top-bar .top-bar-content {
 
 html .header .top-header .top-header-content .primary-menu li a:after {
   font-family: "ikonaSvg2" !important;
+}
+
+html .header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+html .header .top-bar {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+html .header .top-bar .login-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+}
+
+html .header .top-bar [name="login"] {
+  margin-left: auto;
+}
+
+html .header .bottom-header {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+html .header .top-header {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
 }
 
 @font-face {
