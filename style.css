@@ -271,7 +271,7 @@ div#mainHomePage #upcomingBets {
 }
 
 .center-content .sports-book {
-  border-bottom: 1px solid #ffffff;
+  margin-bottom: 1px;
 }
 
 .header .top-header .top-header-content .logo-holder {
