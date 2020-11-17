@@ -279,4 +279,23 @@ html {
     justify-content: start;
     width: 100%;
   }
+  .header .top-header .top-header-content .primary-menu li a:after {
+    font-family: "ikonaSvg2" !important;
+  }
+}
+
+@font-face {
+  font-family: "ikonaSvg2";
+  src: url("https://nextra.pcluster.info/1xpro/fonts/icomoon.eot?rsl9kg");
+  src: url("https://nextra.pcluster.info/1xpro/fonts/icomoon.eot?rsl9kg#iefix")
+      format("embedded-opentype"),
+    url("https://nextra.pcluster.info/1xpro/fonts/icomoon.ttf?rsl9kg")
+      format("truetype"),
+    url("https://nextra.pcluster.info/1xpro/fonts/icomoon.woff?rsl9kg")
+      format("woff"),
+    url("https://nextra.pcluster.info/1xpro/fonts/icomoon.svg?rsl9kg#icomoon")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
