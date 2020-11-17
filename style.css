@@ -327,7 +327,7 @@ html .header .top-header .top-header-content .primary-menu li a:after {
   font-family: "ikonaSvg2" !important;
 }
 
-html .header {
+html html .header {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -338,7 +338,7 @@ html .header {
           flex-flow: column;
 }
 
-html .header .top-bar {
+html html .header .top-bar {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
@@ -346,7 +346,7 @@ html .header .top-bar {
   margin: 0 auto;
 }
 
-html .header .top-bar .login-bar {
+html html .header .top-bar .login-bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -359,17 +359,17 @@ html .header .top-bar .login-bar {
   width: 100%;
 }
 
-html .header .top-bar [name="login"] {
+html html .header .top-bar [name="login"] {
   margin-left: auto;
 }
 
-html .header .bottom-header {
+html html .header .bottom-header {
   -webkit-box-ordinal-group: 4;
       -ms-flex-order: 3;
           order: 3;
 }
 
-html .header .top-header {
+html html .header .top-header {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
