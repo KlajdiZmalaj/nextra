@@ -277,6 +277,12 @@ div#mainHomePage {
   left: 48%;
   transform: translateX(-50%);
   display: flex;
+  align-items: center;
+  justify-content: center;
+  a:before {
+    width: 120px;
+    height: 70px;
+  }
 }
 html {
   .header .top-header .top-header-content .primary-menu {
