@@ -40,10 +40,6 @@ body.landing-page {
   background-image: none;
 }
 
-.odds-table .second-header td {
-  color: #086bbb !important;
-}
-
 footer .footer-logo a {
   -webkit-filter: grayscale(1) invert(1);
           filter: grayscale(1) invert(1);
@@ -85,9 +81,9 @@ html .side-bar .single-block .block-content.sports-menu .tabs {
 }
 
 html .side-bar .single-block .block-content.sports-menu .tabs .single-tab {
-  background: #01428c;
-  color: #fff;
-  border: 1px solid #0160ae;
+  background: var(--teableSubHeadersBg);
+  color: var(--teableSubHeadersCol);
+  border: 1px solid var(--mainBg);
 }
 
 html .tabs-holder .tabs-row {
