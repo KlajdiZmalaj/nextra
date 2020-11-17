@@ -10,25 +10,25 @@ $bodyCol: var(--secondary-bg);
 $invet: 0;
 
 html:root {
-  --accent: #ffcc00;
-  --accent-bg: #086bbb;
+  --accent: #e63946;
+  --accent-bg: #e63946;
   --accent-txt: #fff;
-  --primary-bg: #061131;
+  --primary-bg: #182b46;
   --primary-txt: #fff;
-  --secondary-bg: #0a1b4e;
+  --secondary-bg: #1d3557;
   --secondary-txt: #fff;
   --mainBg: #ffffff;
   --mainBgCol: #000;
   --bg1: #edf0f3;
   --col1: #000;
-  --teableHeadersBg: #ffcc00;
+  --teableHeadersBg: #a8dadc;
   --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #01428c;
+  --teableSubHeadersBg: #457b9d;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #c0c0c0;
   --casinoGradient1: rgba(0, 0, 0, 0);
   --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #f0c808;
+  --casinoGradient2: #e63946;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
   --skin: "1xpro";
@@ -56,7 +56,7 @@ body.landing-page {
   background-image: none;
 }
 body {
-  background-image: none;
+  background-image: none !important;
 }
 .odds-table .second-header td {
   color: #086bbb !important;
@@ -349,4 +349,9 @@ html {
   display: block;
   background-image: url(//nextra.pcluster.info/1xpro/images/dracula.jpg);
   background-size: cover;
+}
+html .main-content .single-sport {
+  border-top: 1px solid var(--secondary-bg);
+  background: var(--primary-bg);
+  color: #fff;
 }
