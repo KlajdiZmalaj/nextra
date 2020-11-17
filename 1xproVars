@@ -10,25 +10,25 @@ $bodyCol: var(--secondary-bg);
 $invet: 0;
 
 html:root {
-  --accent: #ffcc00;
-  --accent-bg: #086bbb;
+  --accent: #e63946;
+  --accent-bg: #e63946;
   --accent-txt: #fff;
-  --primary-bg: #061131;
+  --primary-bg: #182b46;
   --primary-txt: #fff;
-  --secondary-bg: #0a1b4e;
+  --secondary-bg: #1d3557;
   --secondary-txt: #fff;
   --mainBg: #ffffff;
   --mainBgCol: #000;
   --bg1: #edf0f3;
   --col1: #000;
-  --teableHeadersBg: #ffcc00;
+  --teableHeadersBg: #a8dadc;
   --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #01428c;
+  --teableSubHeadersBg: #457b9d;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #c0c0c0;
   --casinoGradient1: rgba(0, 0, 0, 0);
   --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #f0c808;
+  --casinoGradient2: #e63946;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
   --skin: "1xpro";
@@ -45,13 +45,18 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #333844;
-body {
-  background-size: 2038px !important;
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+html body {
+  background-size: 270px !important;
+  font-family: "Lato", sans-serif !important;
+  background-image: url(https://nextra.pcluster.info/1xpro/images/texture.png);
 }
 body.landing-page {
   background-color: #001020 !important;
   background-image: none;
 }
+
 .odds-table .second-header td {
   color: #086bbb !important;
 }
@@ -282,6 +287,31 @@ html {
   .header .top-header .top-header-content .primary-menu li a:after {
     font-family: "ikonaSvg2" !important;
   }
+  .header {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    .top-bar {
+      order: 2;
+      max-width: 1360px;
+      margin: 0 auto;
+      .login-bar {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+      }
+      [name="login"] {
+        margin-left: auto;
+      }
+    }
+    .bottom-header {
+      order: 3;
+    }
+    .top-header {
+      order: 1;
+    }
+  }
 }
 
 @font-face {
@@ -300,24 +330,52 @@ html {
   font-display: block;
 }
 
-.center-content .competition-filter {
-      display: block;
-      .competitions ul {
-      justify-content: center;
-      li {
-    margin-left: 1px;
-    width: calc(100% / 5 - 34px);
-    background-color: var(--tableBorders);
-    margin-top: 1px;
-    white-space: break-spaces;
-    height: 25px;
-    text-align: center;
-    display: flex;
+.home-page .center-content .competition-filter {
+  display: block;
+  padding: 10px 0px;
+  .title {
+    height: 20px;
+  }
+  .competitions ul {
     justify-content: center;
-    align-items: center;
-        padding: 6px 3px 6px 3px;
-    border: none;
-    border-radius: 0px;
-      }
+    li {
+      margin-left: 1px;
+      margin-right: 0;
+      margin-top: 1px;
+      width: calc(100% / 5 - 34px);
+      background-color: var(--tableBorders);
+      white-space: break-spaces;
+      height: 25px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 6px 3px 6px 3px;
+      border: none;
+      border-radius: 0px;
+    }
+  }
+  #favouriteTournaments li:before {
+    width: 22px;
+    height: 22px;
+    left: 5px;
+    top: 7px;
+  }
 }
+
+.left-side-bar .single-item .item-button .first-part {
+  display: flex;
+}
+.side-bar.left-side-bar:before {
+  content: "";
+  width: 100%;
+  height: 131px;
+  display: block;
+  background-image: url(//nextra.pcluster.info/1xpro/images/dracula.jpg);
+  background-size: cover;
+}
+html .main-content .single-sport {
+  border-top: 1px solid var(--secondary-bg);
+  background: var(--primary-bg);
+  color: #fff;
 }
