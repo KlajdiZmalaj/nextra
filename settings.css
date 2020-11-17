@@ -3,7 +3,7 @@ html:root {
   --accent: #e63946;
   --accent-bg: #e63946;
   --accent-txt: #fff;
-  --primary-bg: #182b46;
+  --primary-bg: #223348;
   --primary-txt: #fff;
   --secondary-bg: #1d3557;
   --secondary-txt: #fff;
@@ -51,8 +51,8 @@ footer .footer-logo a {
      border-image: linear-gradient(to right, red, #fff) 11px 100%;
   border-image-slice: 1;
   border-width: 2px;
-  border-bottom: 3px solid;
-  border-image-source: linear-gradient(to right, #ba0000, #bc0706 35%, #ffffff 35%, #ececeb 55%, #4caf50 55%);
+  border-bottom: 8px solid;
+  border-image-source: linear-gradient(to right, #ba0000, #bc0706 30%, #ffffff 40%, #ffffff 55%, #4caf50 65%);
 }
 
 html .odds-table
