@@ -668,8 +668,8 @@ html .single-sport .anchor.sport-135 .icon {
 .single-sport .states .state .championship:hover .icon,
 .single-sport .states .state > .anchor.special:hover .icon,
 .single-sport > .anchor:hover .icon {
-  -webkit-filter: hue-rotate(240deg) brightness(1.5);
-          filter: hue-rotate(240deg) brightness(1.5);
+  -webkit-filter: hue-rotate(240deg) brightness(1.5) !important;
+          filter: hue-rotate(240deg) brightness(1.5) !important;
 }
 
 button,

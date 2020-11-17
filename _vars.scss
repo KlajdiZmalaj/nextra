@@ -582,6 +582,6 @@ html {
 .single-sport .states .state > .anchor.special:hover,
 .single-sport > .anchor:hover {
   .icon {
-    filter: hue-rotate(240deg) brightness(1.5);
+    filter: hue-rotate(240deg) brightness(1.5) !important;
   }
 }
