@@ -56,6 +56,9 @@ body.landing-page {
   background-color: #001020 !important;
   background-image: none;
 }
+body {
+  background-image: none;
+}
 .odds-table .second-header td {
   color: #086bbb !important;
 }
@@ -335,4 +338,8 @@ html {
     left: 5px;
     top: 7px;
   }
+}
+
+.left-side-bar .single-item .item-button .first-part {
+  display: flex;
 }

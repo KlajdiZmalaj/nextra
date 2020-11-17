@@ -34,6 +34,10 @@ body.landing-page {
   background-image: none;
 }
 
+body {
+  background-image: none;
+}
+
 .odds-table .second-header td {
   color: #086bbb !important;
 }
@@ -374,6 +378,12 @@ html .header .top-header .top-header-content .primary-menu li a:after {
   height: 22px;
   left: 5px;
   top: 7px;
+}
+
+.left-side-bar .single-item .item-button .first-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 button,
