@@ -45,8 +45,12 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #333844;
-body {
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+html body {
   background-size: 2038px !important;
+  font-family: "Lato", sans-serif !important;
 }
 body.landing-page {
   background-color: #001020 !important;

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
 html:root {
   --accent: #ffcc00;
   --accent-bg: #086bbb;
@@ -23,8 +24,9 @@ html:root {
   --skin: "1xpro";
 }
 
-body {
+html body {
   background-size: 2038px !important;
+  font-family: "Lato", sans-serif !important;
 }
 
 body.landing-page {
