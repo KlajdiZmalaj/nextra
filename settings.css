@@ -454,9 +454,10 @@ html .lang-container .lang-down {
 }
 
 html .main-content .single-sport {
-  border-top: 1px solid var(--secondary-bg);
+  border-top: none;
   background: var(--primary-bg);
-  color: #fff;
+  color: var(--accent-txt);
+  margin-bottom: 1px;
 }
 
 button,
