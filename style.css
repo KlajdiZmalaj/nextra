@@ -21447,4 +21447,18 @@ span.ui-slider-handle:before {
 }
 
 .antepost-name {
-  border-color: var(--tableBorders
+  border-color: var(--tableBorders);
+  padding: 0 !important;
+}
+
+.antepost-name-wrap {
+  display: inline-block;
+  width: 100%;
+  background-color: #333844;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 5px;
+}
+
+/*End Antepost*/
+/*# sourceMappingURL=style.css.map */
