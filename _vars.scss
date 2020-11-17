@@ -10,6 +10,27 @@ $bodyCol: var(--secondary-bg);
 $invet: 0;
 
 html:root {
+  // --accent: #e63946;
+  // --accent-bg: #e63946;
+  // --accent-txt: #fff;
+  // --primary-bg: #182b46;
+  // --primary-txt: #fff;
+  // --secondary-bg: #1d3557;
+  // --secondary-txt: #fff;
+  // --mainBg: #ffffff;
+  // --mainBgCol: #000;
+  // --bg1: #edf0f3;
+  // --col1: #000;
+  // --teableHeadersBg: #a8dadc;
+  // --teableHeadersCol: #000000;
+  // --teableSubHeadersBg: #457b9d;
+  // --teableSubHeadersCol: #ffffff;
+  // --tableBorders: #c0c0c0;
+  // --casinoGradient1: rgba(0, 0, 0, 0);
+  // --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  // --casinoGradient2: #e63946;
+  // --casinoGradient2-txt: #000;
+  // --backDrops: #000000cf;
   --accent: #e63946;
   --accent-bg: #e63946;
   --accent-txt: #fff;
@@ -17,15 +38,15 @@ html:root {
   --primary-txt: #fff;
   --secondary-bg: #1d3557;
   --secondary-txt: #fff;
-  --mainBg: #ffffff;
-  --mainBgCol: #000;
-  --bg1: #edf0f3;
-  --col1: #000;
+  --mainBg: #455467;
+  --mainBgCol: #fff;
+  --bg1: #546478;
+  --col1: #fff;
   --teableHeadersBg: #a8dadc;
   --teableHeadersCol: #000000;
   --teableSubHeadersBg: #457b9d;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #c0c0c0;
+  --tableBorders: #6e8094;
   --casinoGradient1: rgba(0, 0, 0, 0);
   --casinoGradient1-txt: rgba(255, 255, 255, 0);
   --casinoGradient2: #e63946;
@@ -378,12 +399,4 @@ html .main-content .single-sport {
   border-top: 1px solid var(--secondary-bg);
   background: var(--primary-bg);
   color: #fff;
-}
-
-.center-content .popular-bets {
-  border-bottom: none;
-  margin-bottom: 1px;
-  .title img {
-    margin-top: 12px;
-  }
 }
