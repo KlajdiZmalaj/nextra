@@ -664,6 +664,18 @@ html .single-sport .anchor.sport-135 .icon {
   left: 5px;
 }
 
+.main-content-holder {
+  -webkit-box-shadow: 0 0 80px -40px #a8dadc;
+          box-shadow: 0 0 80px -40px #a8dadc;
+}
+
+.single-sport .states .state .championship:hover .icon,
+.single-sport .states .state > .anchor.special:hover .icon,
+.single-sport > .anchor:hover .icon {
+  -webkit-filter: hue-rotate(240deg) brightness(1.5);
+          filter: hue-rotate(240deg) brightness(1.5);
+}
+
 button,
 hr,
 input {

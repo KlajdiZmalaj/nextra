@@ -668,6 +668,18 @@ html .single-sport .anchor.sport-135 .icon {
   left: 5px;
 }
 
+.main-content-holder {
+  -webkit-box-shadow: 0 0 80px -40px #a8dadc;
+          box-shadow: 0 0 80px -40px #a8dadc;
+}
+
+.single-sport .states .state .championship:hover .icon,
+.single-sport .states .state > .anchor.special:hover .icon,
+.single-sport > .anchor:hover .icon {
+  -webkit-filter: hue-rotate(240deg) brightness(1.5);
+          filter: hue-rotate(240deg) brightness(1.5);
+}
+
 @media (max-width: 1008px) {
   html {
     overflow-x: auto;
@@ -21435,18 +21447,4 @@ span.ui-slider-handle:before {
 }
 
 .antepost-name {
-  border-color: var(--tableBorders);
-  padding: 0 !important;
-}
-
-.antepost-name-wrap {
-  display: inline-block;
-  width: 100%;
-  background-color: #333844;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 0 5px;
-}
-
-/*End Antepost*/
-/*# sourceMappingURL=style.css.map */
+  border-color: var(--tableBorders
