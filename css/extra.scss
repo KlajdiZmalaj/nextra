@@ -4934,3 +4934,22 @@ span.ui-slider-handle:before {
 body .center-content .popular-bets .days ul li {
   line-height: 27px;
 }
+
+#help-button,
+.main-footer .footer-menu {
+  display: none;
+}
+
+.main-footer .responsible a,
+.main-footer .grid > a {
+  pointer-events: none;
+}
+
+.side-bar.left-side-bar > .single-item,
+.header
+  .bottom-header
+  .bottom-header-content
+  ul.secondary-menu
+  li:nth-last-child(2) {
+  display: none;
+}
