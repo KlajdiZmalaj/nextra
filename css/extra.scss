@@ -4945,11 +4945,20 @@ body .center-content .popular-bets .days ul li {
   pointer-events: none;
 }
 
-.side-bar.left-side-bar > .single-item,
-.header
+.side-bar.left-side-bar [onclick="todayOdds();"],
+.side-bar.left-side-bar [onclick="resultsPage();"],
+.header.sports-page
   .bottom-header
   .bottom-header-content
   ul.secondary-menu
   li:nth-last-child(2) {
   display: none;
+}
+
+.header.sports-page.live-page
+  .bottom-header
+  .bottom-header-content
+  ul.secondary-menu
+  li:nth-last-child(2) {
+  display: inline-block;
 }

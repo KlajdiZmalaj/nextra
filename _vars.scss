@@ -655,3 +655,27 @@ html {
     }
   }
 }
+
+.side-bar.right-side-bar {
+  .single-block .block-content.white {
+    padding: 15px 15px;
+    background: var(--mainBg);
+    border-left: 1px solid var(--bg1);
+  }
+  .single-block.betslip-holder .betslip {
+    border: none;
+    width: 100%;
+  }
+  .single-block .block-content.verify-coupon {
+    padding: 15px;
+    padding-top: 15px;
+  }
+  .single-block:nth-child(3) .block-title {
+    background: var(--teableHeadersBg);
+    color: var(--teableHeadersCol);
+    span {
+      text-align: left;
+      padding-left: 10px;
+    }
+  }
+}
