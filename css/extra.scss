@@ -4963,6 +4963,17 @@ body .center-content .popular-bets .days ul li {
   li:nth-last-child(2) {
   display: inline-block;
 }
+
+
+.header.sports-page.live-page
+  .bottom-header
+  .bottom-header-content
+  ul.secondary-menu
+  li:nth-last-child(2)
+  a[href="#"] {
+  display: inline-block;
+}
+
 .side-bar .single-block.betslip-holder .my-bets .legend .single-item {
   min-width: calc(100% / 3 - 6px) !important;
   margin: 0 3px;
