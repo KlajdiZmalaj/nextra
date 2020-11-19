@@ -5675,4 +5675,8 @@ li:nth-last-child(2) {
 .side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-title span {
   color: #000;
 }
+
+.side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip .single-betslip-title .buttons div i {
+  color: #000;
+}
 /*# sourceMappingURL=extra.css.map */
