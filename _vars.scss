@@ -692,7 +692,9 @@ html body .casino-section .casino-container .casino-inner {
   padding-top: 280px !important;
   height: calc(100% - 290px) !important;
 }
-
+.main-content .center-content.wide {
+  width: calc(100% - 306px);
+}
 //start closed sidebar
 
 .side-bar.left-side-bar.closed {
