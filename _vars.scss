@@ -790,6 +790,9 @@ html {
     .single-odd-block {
     margin: 0 !important;
   }
+  .live-odds-table table tr td.odd-holder .single-live-odd .label {
+    color: #65b5e7 !important;
+  }
 }
 
 @-webkit-keyframes bgGrad {
