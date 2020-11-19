@@ -679,3 +679,15 @@ html {
     }
   }
 }
+.casino-section .casino-container::before {
+  display: none;
+}
+html .casino-section {
+  background-image: url(http://nextra.pcluster.info/1xpro/images/casino/topbanner.jpg);
+  background-size: 1360px;
+}
+html body .casino-section .casino-container .casino-inner {
+  padding: 0 !important;
+  padding-top: 280px !important;
+  height: calc(100% - 290px) !important;
+}
