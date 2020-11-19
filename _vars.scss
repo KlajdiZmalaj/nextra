@@ -692,7 +692,9 @@ html body .casino-section .casino-container .casino-inner {
   padding-top: 280px !important;
   height: calc(100% - 290px) !important;
 }
-
+.main-content .center-content.wide {
+  width: calc(100% - 546px);
+}
 //start closed sidebar
 
 .side-bar.left-side-bar.closed {
@@ -704,9 +706,11 @@ html body .casino-section .casino-container .casino-inner {
     }
   }
 
-  .single-block .block-title,
-  .single-block .sports-menu {
+  .single-block .block-title {
     display: flex;
+  }
+  .single-block .sports-menu {
+    display: inline-block;
   }
   .single-sport .anchor {
     font-size: 13px;
@@ -720,23 +724,24 @@ html body .casino-section .casino-container .casino-inner {
 
 .side-bar.left-side-bar.closed > .single-block:first-child .block-title:before {
   content: "\f1e3" !important;
+  font: normal normal normal 14px/1 FontAwesome;
+  left: 10px;
+  top: 11px;
+  position: absolute;
 }
 //end closed sidebar
 body .side-bar .single-block.betslip-holder {
   overflow-x: visible;
 }
 html {
-  .left-side-bar.closed .single-sport .anchor .icon {
-    left: 4px;
-    width: 25px;
-    height: 22px;
-  }
-  .side-bar.closed.left-side-bar:before {
-    height: 36px;
-  }
+  // .left-side-bar.closed .single-sport .anchor .icon {
+  //   left: 4px;
+  //   width: 25px;
+  //   height: 22px;
+  // }
   .left-side-bar > .single-block:first-child .block-title {
     color: transparent !important;
-    &:before {
+    &:after {
       content: "Menu";
       font: inherit;
       left: 10px;
