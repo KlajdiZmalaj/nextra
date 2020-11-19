@@ -4962,3 +4962,16 @@ body .center-content .popular-bets .days ul li {
   li:nth-last-child(2) {
   display: inline-block;
 }
+.side-bar .single-block.betslip-holder .my-bets .legend .single-item {
+  min-width: calc(100% / 3 - 6px) !important;
+  margin: 0 3px;
+  float: left !important;
+  width: auto !important;
+}
+.side-bar .single-block.betslip-holder .my-bets .bets-wrapper .single-betslip {
+  background: #fec82e;
+  color: #000;
+  .single-betslip-title span {
+    color: #000;
+  }
+}
