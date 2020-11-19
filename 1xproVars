@@ -595,9 +595,9 @@ html {
 .sports-book-page .championship-table {
   color: #222;
 }
-.grid {
-  max-width: 100% !important;
-}
+// .grid {
+//   max-width: 100% !important;
+// }
 html .header .top-bar .top-bar-content .login-bar .settings .controls-menu {
   left: 0;
   right: auto;
@@ -652,6 +652,30 @@ html {
     > div:nth-child(4) {
       background: #b5473f;
       color: #fff;
+    }
+  }
+}
+
+.side-bar.right-side-bar {
+  .single-block .block-content.white {
+    padding: 15px 15px;
+    background: var(--mainBg);
+    border-left: 1px solid var(--bg1);
+  }
+  .single-block.betslip-holder .betslip {
+    border: none;
+    width: 100%;
+  }
+  .single-block .block-content.verify-coupon {
+    padding: 15px;
+    padding-top: 15px;
+  }
+  .single-block:nth-child(3) .block-title {
+    background: var(--teableHeadersBg);
+    color: var(--teableHeadersCol);
+    span {
+      text-align: left;
+      padding-left: 10px;
     }
   }
 }
