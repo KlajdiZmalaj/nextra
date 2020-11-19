@@ -695,7 +695,7 @@ html body .casino-section .casino-container .casino-inner {
 
 //start closed sidebar
 
-.left-side-bar.closed {
+.side-bar.left-side-bar.closed {
   width: 250px;
   .single-block:first-child {
     display: flex;
@@ -718,7 +718,7 @@ html body .casino-section .casino-container .casino-inner {
   }
 }
 
-.left-side-bar.closed > .single-block:first-child .block-title:before {
+.side-bar.left-side-bar.closed > .single-block:first-child .block-title:before {
   content: "\f1e3" !important;
 }
 //end closed sidebar
