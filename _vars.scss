@@ -748,7 +748,7 @@ html {
   .center-content .match-of-the-day .odd-bars .single-bar {
     .bar {
       height: 33px;
-      background: linear-gradient(270deg, #a8dadc, #e63946);
+      background: linear-gradient(270deg, #a8dadc 0%, #e63946 70%);
       background-size: 400% 400%;
     }
     &:nth-child(2) .bar {
