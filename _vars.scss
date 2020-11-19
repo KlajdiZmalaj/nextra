@@ -715,4 +715,61 @@ html {
       color: #222 !important;
     }
   }
+  .center-content .match-of-the-day .odd-bars .single-bar .bar {
+    height: 33px;
+    background: linear-gradient(270deg, #a8dadc, #e63946);
+    background-size: 400% 400%;
+    -webkit-animation: bgGrad 0.5s ease infinite;
+    -moz-animation: bgGrad 0.5s ease infinite;
+    -o-animation: bgGrad 0.5s ease infinite;
+    animation: bgGrad 0.5s ease infinite;
+  }
+  .center-content .match-of-the-day .odd-bars .single-bar .bar .inner:after {
+    display: none;
+  }
+}
+
+@-webkit-keyframes bgGrad {
+  0% {
+    background-position: 0% 47%;
+  }
+  50% {
+    background-position: 100% 54%;
+  }
+  100% {
+    background-position: 0% 47%;
+  }
+}
+@-moz-keyframes bgGrad {
+  0% {
+    background-position: 0% 47%;
+  }
+  50% {
+    background-position: 100% 54%;
+  }
+  100% {
+    background-position: 0% 47%;
+  }
+}
+@-o-keyframes bgGrad {
+  0% {
+    background-position: 0% 47%;
+  }
+  50% {
+    background-position: 100% 54%;
+  }
+  100% {
+    background-position: 0% 47%;
+  }
+}
+@keyframes bgGrad {
+  0% {
+    background-position: 0% 47%;
+  }
+  50% {
+    background-position: 100% 54%;
+  }
+  100% {
+    background-position: 0% 47%;
+  }
 }
