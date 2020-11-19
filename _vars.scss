@@ -751,19 +751,19 @@ html {
       background: linear-gradient(270deg, #a8dadc, #e63946);
       background-size: 400% 400%;
     }
-    &:nth-child(2) {
+    &:nth-child(2) .bar {
       -webkit-animation: bgGrad 4s ease infinite;
       -moz-animation: bgGrad 4s ease infinite;
       -o-animation: bgGrad 4s ease infinite;
       animation: bgGrad 4s ease infinite;
     }
-    &:nth-child(3) {
+    &:nth-child(3) .bar {
       -webkit-animation: bgGrad 2s ease infinite;
       -moz-animation: bgGrad 2s ease infinite;
       -o-animation: bgGrad 2s ease infinite;
       animation: bgGrad 2s ease infinite;
     }
-    &:nth-child(4) {
+    &:nth-child(4) .bar {
       -webkit-animation: bgGrad 5s ease infinite;
       -moz-animation: bgGrad 5s ease infinite;
       -o-animation: bgGrad 5s ease infinite;
