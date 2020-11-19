@@ -691,3 +691,33 @@ html body .casino-section .casino-container .casino-inner {
   padding-top: 280px !important;
   height: calc(100% - 290px) !important;
 }
+
+//start closed sidebar
+
+.left-side-bar.closed {
+  width: 250px;
+  .single-block:first-child {
+    display: flex;
+    span {
+      display: inline-block;
+    }
+  }
+
+  .single-block .block-title,
+  .single-block .sports-menu {
+    display: flex;
+  }
+  .single-sport .anchor {
+    font-size: 13px;
+    padding: 8px 0 8px 35px;
+    height: auto;
+    .check {
+      display: block;
+    }
+  }
+}
+
+.left-side-bar.closed > .single-block:first-child .block-title:before {
+  content: "\f1e3" !important;
+}
+//end closed sidebar
