@@ -745,4 +745,77 @@ html {
       color: #222 !important;
     }
   }
+  .center-content .match-of-the-day .odd-bars .single-bar {
+    .bar {
+      height: 33px;
+      background: linear-gradient(270deg, #a8dadc 0%, #e63946 70%);
+      background-size: 400% 400%;
+    }
+    &:nth-child(2) .bar {
+      -webkit-animation: bgGrad 4s ease infinite;
+      -moz-animation: bgGrad 4s ease infinite;
+      -o-animation: bgGrad 4s ease infinite;
+      animation: bgGrad 4s ease infinite;
+    }
+    &:nth-child(3) .bar {
+      -webkit-animation: bgGrad 2s ease infinite;
+      -moz-animation: bgGrad 2s ease infinite;
+      -o-animation: bgGrad 2s ease infinite;
+      animation: bgGrad 2s ease infinite;
+    }
+    &:nth-child(4) .bar {
+      -webkit-animation: bgGrad 5s ease infinite;
+      -moz-animation: bgGrad 5s ease infinite;
+      -o-animation: bgGrad 5s ease infinite;
+      animation: bgGrad 5s ease infinite;
+    }
+  }
+  .center-content .match-of-the-day .odd-bars .single-bar .bar .inner:after {
+    display: none;
+  }
+}
+
+@-webkit-keyframes bgGrad {
+  0% {
+    background-position: 0% 47%;
+  }
+  50% {
+    background-position: 100% 54%;
+  }
+  100% {
+    background-position: 0% 47%;
+  }
+}
+@-moz-keyframes bgGrad {
+  0% {
+    background-position: 0% 47%;
+  }
+  50% {
+    background-position: 100% 54%;
+  }
+  100% {
+    background-position: 0% 47%;
+  }
+}
+@-o-keyframes bgGrad {
+  0% {
+    background-position: 0% 47%;
+  }
+  50% {
+    background-position: 100% 54%;
+  }
+  100% {
+    background-position: 0% 47%;
+  }
+}
+@keyframes bgGrad {
+  0% {
+    background-position: 0% 47%;
+  }
+  50% {
+    background-position: 100% 54%;
+  }
+  100% {
+    background-position: 0% 47%;
+  }
 }
