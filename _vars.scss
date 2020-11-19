@@ -705,7 +705,9 @@ html body .casino-section .casino-container .casino-inner {
       display: inline-block;
     }
   }
-
+  .single-block.antepost {
+    display: flex;
+  }
   .single-block .block-title {
     display: flex;
   }
