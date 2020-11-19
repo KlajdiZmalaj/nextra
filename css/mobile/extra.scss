@@ -9231,3 +9231,17 @@ span {
 [data-logged="true"][data-access="2"] .single_menu_item.newclient {
   display: block !important;
 }
+
+.casino_container
+  .casino_type
+  .ct_games_container
+  .ctg_games
+  .ctg_game_item
+  div[class*="_btn_"]
+  a {
+  background: var(--accent-bg);
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: var(--accent-txt);
+}
