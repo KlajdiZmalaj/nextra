@@ -728,14 +728,11 @@ body .side-bar .single-block.betslip-holder {
   overflow-x: visible;
 }
 html {
-  .left-side-bar.closed .single-sport .anchor .icon {
-    left: 4px;
-    width: 25px;
-    height: 22px;
-  }
-  .side-bar.closed.left-side-bar:before {
-    height: 36px;
-  }
+  // .left-side-bar.closed .single-sport .anchor .icon {
+  //   left: 4px;
+  //   width: 25px;
+  //   height: 22px;
+  // }
   .left-side-bar > .single-block:first-child .block-title {
     color: transparent !important;
     &:before {
