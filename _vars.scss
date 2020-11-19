@@ -704,4 +704,15 @@ html {
   .side-bar.closed.left-side-bar:before {
     height: 36px;
   }
+  .left-side-bar > .single-block:first-child .block-title {
+    color: transparent !important;
+    &:before {
+      content: "Menu";
+      font: inherit;
+      left: 10px;
+      top: 0px;
+      position: absolute;
+      color: transparent !important;
+    }
+  }
 }
