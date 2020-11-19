@@ -4498,6 +4498,7 @@ body .odds-table .single-match-row td.match-name {
       padding-left: 5px;
       width: calc(100% - 35px);
       font-size: 13px;
+      white-space: break-spaces;
     }
   }
   .allmatches-container {
@@ -4963,7 +4964,6 @@ body .center-content .popular-bets .days ul li {
   li:nth-last-child(2) {
   display: inline-block;
 }
-
 
 .header.sports-page.live-page
   .bottom-header
