@@ -839,3 +839,22 @@ html {
     background-position: 0% 47%;
   }
 }
+
+.center-content .percentage-block .single-over-under {
+  .percentage-graph .ct-series-a .ct-slice-donut {
+    stroke-width: 5px !important;
+  }
+  .percentage-graph .ct-series-b .ct-slice-donut {
+    stroke-width: 5px !important;
+  }
+}
+
+.center-content .percentage-block .single-over-under .percentage-graph:after {
+  content: "";
+  box-shadow: none;
+}
+.odds-block-type-percentages .odd,
+.center-content .percentage-block .bets .bet .odd {
+  width: calc(100% - 1px);
+  margin: 0 1px;
+}
