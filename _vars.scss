@@ -773,6 +773,16 @@ html {
   .center-content .match-of-the-day .odd-bars .single-bar .bar .inner:after {
     display: none;
   }
+  .center-content .match-of-the-day .odds-block-type-percentages {
+    display: flex;
+    justify-content: center;
+  }
+  .center-content
+    .match-of-the-day
+    .odds-block-type-percentages
+    .single-odd-block {
+    margin: 0 !important;
+  }
 }
 
 @-webkit-keyframes bgGrad {
