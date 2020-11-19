@@ -280,8 +280,9 @@ div#mainHomePage {
   align-items: center;
   justify-content: center;
   a:before {
-    width: 120px;
+    width: 110px !important;
     height: 70px;
+    left: 1px;
   }
 }
 html {
