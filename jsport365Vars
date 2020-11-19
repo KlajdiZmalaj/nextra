@@ -15,8 +15,8 @@ html:root {
     --accent-txt: #000;
     --primary-bg: #000000;
     --primary-txt: #ffffff;
-    --secondary-bg: #f8f8f8;
-    --secondary-txt: #000;
+    --secondary-bg: #545454;
+    --secondary-txt: #fff;
     --mainBg: #000000;
     --mainBgCol: #fff;
     --bg1: #2d2d2d;

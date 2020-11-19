@@ -692,21 +692,58 @@ html body .casino-section .casino-container .casino-inner {
   padding-top: 280px !important;
   height: calc(100% - 290px) !important;
 }
+.main-content .center-content.wide {
+  width: calc(100% - 546px);
+}
+//start closed sidebar
+
+.side-bar.left-side-bar.closed {
+  width: 250px;
+  .single-block:first-child {
+    display: flex;
+    span {
+      display: inline-block;
+    }
+  }
+  .single-block.antepost {
+    display: flex;
+  }
+  .single-block .block-title {
+    display: flex;
+  }
+  .single-block .sports-menu {
+    display: inline-block;
+  }
+  .single-sport .anchor {
+    font-size: 13px;
+    padding: 8px 0 8px 35px;
+    height: auto;
+    .check {
+      display: block;
+    }
+  }
+}
+
+.side-bar.left-side-bar.closed > .single-block:first-child .block-title:before {
+  content: "\f1e3" !important;
+  font: normal normal normal 14px/1 FontAwesome;
+  left: 10px;
+  top: 11px;
+  position: absolute;
+}
+//end closed sidebar
 body .side-bar .single-block.betslip-holder {
   overflow-x: visible;
 }
 html {
-  .left-side-bar.closed .single-sport .anchor .icon {
-    left: 4px;
-    width: 25px;
-    height: 22px;
-  }
-  .side-bar.closed.left-side-bar:before {
-    height: 36px;
-  }
+  // .left-side-bar.closed .single-sport .anchor .icon {
+  //   left: 4px;
+  //   width: 25px;
+  //   height: 22px;
+  // }
   .left-side-bar > .single-block:first-child .block-title {
     color: transparent !important;
-    &:before {
+    &:after {
       content: "Menu";
       font: inherit;
       left: 10px;
@@ -715,17 +752,46 @@ html {
       color: #222 !important;
     }
   }
-  .center-content .match-of-the-day .odd-bars .single-bar .bar {
-    height: 33px;
-    background: linear-gradient(270deg, #a8dadc, #e63946);
-    background-size: 400% 400%;
-    -webkit-animation: bgGrad 0.5s ease infinite;
-    -moz-animation: bgGrad 0.5s ease infinite;
-    -o-animation: bgGrad 0.5s ease infinite;
-    animation: bgGrad 0.5s ease infinite;
+  .center-content .match-of-the-day .odd-bars .single-bar {
+    .bar {
+      height: 33px;
+      background: linear-gradient(270deg, #a8dadc 0%, #e63946 70%);
+      background-size: 400% 400%;
+    }
+    &:nth-child(2) .bar {
+      -webkit-animation: bgGrad 4s ease infinite;
+      -moz-animation: bgGrad 4s ease infinite;
+      -o-animation: bgGrad 4s ease infinite;
+      animation: bgGrad 4s ease infinite;
+    }
+    &:nth-child(3) .bar {
+      -webkit-animation: bgGrad 2s ease infinite;
+      -moz-animation: bgGrad 2s ease infinite;
+      -o-animation: bgGrad 2s ease infinite;
+      animation: bgGrad 2s ease infinite;
+    }
+    &:nth-child(4) .bar {
+      -webkit-animation: bgGrad 5s ease infinite;
+      -moz-animation: bgGrad 5s ease infinite;
+      -o-animation: bgGrad 5s ease infinite;
+      animation: bgGrad 5s ease infinite;
+    }
   }
   .center-content .match-of-the-day .odd-bars .single-bar .bar .inner:after {
     display: none;
+  }
+  .center-content .match-of-the-day .odds-block-type-percentages {
+    display: flex;
+    justify-content: center;
+  }
+  .center-content
+    .match-of-the-day
+    .odds-block-type-percentages
+    .single-odd-block {
+    margin: 0 !important;
+  }
+  .live-odds-table table tr td.odd-holder .single-live-odd .label {
+    color: #65b5e7 !important;
   }
 }
 
@@ -772,4 +838,27 @@ html {
   100% {
     background-position: 0% 47%;
   }
+}
+
+.main-content .center-content .percentage-block .single-over-under {
+  .percentage-graph .ct-series-a .ct-slice-donut {
+    stroke-width: 5px !important;
+  }
+  .percentage-graph .ct-series-b .ct-slice-donut {
+    stroke-width: 5px !important;
+  }
+}
+
+.main-content
+  .center-content
+  .percentage-block
+  .single-over-under
+  .percentage-graph:after {
+  content: "";
+  box-shadow: none;
+}
+.main-content .odds-block-type-percentages .odd,
+.main-content .center-content .percentage-block .bets .bet .odd {
+  width: calc(100% - 1px);
+  margin: 0 1px;
 }
