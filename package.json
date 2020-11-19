@@ -1,0 +1,26 @@
+{
+  "name": "nextra",
+  "version": "1.0.0",
+  "description": "nextra test",
+  "main": "ada",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "node-sass --include-path scss style.scss   style.css --output-style compressed",
+    "settings": "node-sass --include-path scss settings.scss   settings.css --output-style compressed",
+    "extra": "node-sass --include-path scss css/extra.scss   css/extra.css --output-style compressed",
+    "extram": "node-sass --include-path scss css/mobile/extra.scss   css/mobile/extra.css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KlajdiZmalaj/nextra.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KlajdiZmalaj/nextra/issues"
+  },
+  "homepage": "https://github.com/KlajdiZmalaj/nextra#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
