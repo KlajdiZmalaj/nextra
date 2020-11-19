@@ -840,7 +840,7 @@ html {
   }
 }
 
-.center-content .percentage-block .single-over-under {
+.main-content .center-content .percentage-block .single-over-under {
   .percentage-graph .ct-series-a .ct-slice-donut {
     stroke-width: 5px !important;
   }
@@ -849,12 +849,15 @@ html {
   }
 }
 
-.center-content .percentage-block .single-over-under .percentage-graph:after {
+.main-content.center-content
+  .percentage-block
+  .single-over-under
+  .percentage-graph:after {
   content: "";
   box-shadow: none;
 }
-.odds-block-type-percentages .odd,
-.center-content .percentage-block .bets .bet .odd {
+.main-content .odds-block-type-percentages .odd,
+.main-content .center-content .percentage-block .bets .bet .odd {
   width: calc(100% - 1px);
   margin: 0 1px;
 }
