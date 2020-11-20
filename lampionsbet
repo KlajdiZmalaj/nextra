@@ -1,0 +1,51 @@
+$skin: "lampionsbet";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
+
+$logoUrl: "https://nextra.pcluster.info/lampionsbet/images/logo.png";
+
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/35/image/38b545eef15810dc5dc058404699e422.jpeg";
+$bodyCol: #000;
+
+//invet 1 light skin inver 0 dark skin (images)
+$invet: 1;
+html:root {
+  --accent: #bf1414;
+  --accent-bg: #bf1414;
+  --accent-txt: #fff;
+  --primary-bg: #1c1c1c;
+  --primary-txt: #fff;
+  --secondary-bg: #2e2e2e;
+  --secondary-txt: #fff;
+  --mainBg: #282828;
+  --mainBgCol: #fff;
+  --bg1: #323232;
+  --col1: #fff;
+  --teableHeadersBg: #b0b0b0;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #636363;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #535353;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #636363;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+  --skin: "lampionsbet";
+}
+
+$secondary: #ea2125;
+$secondaryCol: #fff;
+$black: #000000;
+$secondaryDark: #ea2125;
+$secondaryDarkCol: #fff;
+$primary: #323232;
+$white: #ebebeb;
+$blue: #262ca8;
+$green: #2e9c3d;
+$red: #e1042e;
+$sb-2: #323232;
+body.landing-page {
+  background-color: #1e1e1e !important;
+  background-image: none;
+}
