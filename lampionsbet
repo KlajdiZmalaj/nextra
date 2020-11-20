@@ -1,37 +1,37 @@
-$skin: "goldwin";
+$skin: "lampionsbet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/goldwin/images/logo.svg";
+$logoUrl: "https://nextra.pcluster.info/lampionsbet/images/logo.png";
 
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/14/image/67045414d4c3d8269850866fc88768c4.jpeg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/35/image/38b545eef15810dc5dc058404699e422.jpeg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #fca311;
-  --accent-bg: #fca311;
-  --accent-txt: #000;
-  --primary-bg: #14213d;
+  --accent: #bf1414;
+  --accent-bg: #bf1414;
+  --accent-txt: #fff;
+  --primary-bg: #1c1c1c;
   --primary-txt: #fff;
-  --secondary-bg: #1e2d4e;
+  --secondary-bg: #2e2e2e;
   --secondary-txt: #fff;
-  --mainBg: #e5e5e5;
-  --mainBgCol: #1b2e56;
-  --bg1: #0c1425;
+  --mainBg: #282828;
+  --mainBgCol: #fff;
+  --bg1: #323232;
   --col1: #fff;
-  --teableHeadersBg: #283a63;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #3e4a65;
+  --teableHeadersBg: #b0b0b0;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #636363;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #324165;
+  --tableBorders: #535353;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "goldwin";
+  --skin: "lampionsbet";
 }
 
 $secondary: #ea2125;
@@ -48,8 +48,4 @@ $sb-2: #323232;
 body.landing-page {
   background-color: #1e1e1e !important;
   background-image: none;
-}
-
-body {
-  background-position-y: 100px;
 }

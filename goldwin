@@ -1,3 +1,5 @@
+
+
 $skin: "goldwin";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
@@ -50,6 +52,6 @@ body.landing-page {
   background-image: none;
 }
 
-body {
-  background-position-y: 100px;
+body{
+      background-position-y: 100px;
 }
