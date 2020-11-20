@@ -163,6 +163,7 @@ html {
 html {
   .virtu-box {
     background-image: url(//nextra.pcluster.info/masterbet/images/virtual.jpg);
+    background-position-y: -80px;
   }
   .casino-section {
     background-image: url(//nextra.pcluster.info/masterbet/images/casinonew.jpg);
