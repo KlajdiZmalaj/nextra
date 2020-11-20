@@ -159,3 +159,22 @@ html {
     color: var(--accent);
   }
 }
+
+html {
+  .virtu-box {
+    background-image: url(//nextra.pcluster.info/masterbet/images/virtual.jpg);
+  }
+  .casino-section {
+    background-image: url(//nextra.pcluster.info/masterbet/images/casinonew.jpg);
+    background-size: 1360px;
+  }
+  body .casino-section .casino-container .casino-inner {
+    padding-top: 374px;
+    height: calc(100% - 388px) !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .game-grid {
+    column-gap: 18px;
+  }
+}

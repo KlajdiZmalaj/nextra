@@ -2,7 +2,7 @@ $skin: "topbet365";
 $cdnPath: "/nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/topbet365/images/logo2.svg";
+$logoUrl: "https://nextra.pcluster.info/topbet365/images/logo22.svg";
 $bodyBg: "https://gradm-api.pcluster.info/api/skin/24/image/51345629667ab67c22bd180144b9a245.jpeg";
 $bodyCol: #000;
 
@@ -10,8 +10,8 @@ $bodyCol: #000;
 $invet: 1;
 html:root {
   --accent: #ffeb3b;
-  --accent-bg: #ffeb3b;
-  --accent-txt: #000;
+  --accent-bg: #fff;
+  --accent-txt: #14805e;
   --primary-bg: #1c1c1c;
   --primary-txt: #fff;
   --secondary-bg: #2e2e2e;
@@ -35,7 +35,7 @@ html:root {
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "estrelas";
+  --skin: "topbet356";
 }
 
 $secondary: #14805e;

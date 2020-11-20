@@ -705,9 +705,13 @@ html body .casino-section .casino-container .casino-inner {
       display: inline-block;
     }
   }
+<<<<<<< HEAD
+
+=======
   .single-block.antepost {
     display: flex;
   }
+>>>>>>> eff22d242586e330e14baad251ebefe0d4da708c
   .single-block .block-title {
     display: flex;
   }
