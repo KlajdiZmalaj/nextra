@@ -8723,9 +8723,9 @@ div[data-source="in_play"] .sport_odds_main {
 
   .odds-class-list {
     .btnQuota.select {
-      width: calc(100% / 2 - 3px);
+      width: calc(100% / 1 - 3px);
       box-sizing: border-box;
-      border-radius: 0;
+      border-radius: 4px;
       flex-shrink: 0;
       flex-grow: 1;
       height: 32px;
