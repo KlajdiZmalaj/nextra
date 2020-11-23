@@ -1,5 +1,3 @@
-
-
 $skin: "goldwin";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
@@ -19,8 +17,8 @@ html:root {
   --primary-txt: #fff;
   --secondary-bg: #1e2d4e;
   --secondary-txt: #fff;
-  --mainBg: #e5e5e5;
-  --mainBgCol: #1b2e56;
+  --mainBg: #111d35;
+  --mainBgCol: #ffffff;
   --bg1: #0c1425;
   --col1: #fff;
   --teableHeadersBg: #283a63;
@@ -41,7 +39,7 @@ $secondaryCol: #fff;
 $black: #000000;
 $secondaryDark: #ea2125;
 $secondaryDarkCol: #fff;
-$primary: #323232;
+$primary: #fca311;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
@@ -52,6 +50,6 @@ body.landing-page {
   background-image: none;
 }
 
-body{
-      background-position-y: 100px;
+body {
+  background-position-y: 100px;
 }
