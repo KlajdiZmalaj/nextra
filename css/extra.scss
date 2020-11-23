@@ -4467,9 +4467,12 @@ body .odds-table .single-match-row td.match-name {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
-  padding: 2px 5px;
+  padding: 5px 5px;
 }
+.casino-pro-item .casino-pro-item-img[onclick="selectProvider(6);"] {
+  display: none;
+}
+
 .allmatches-head {
   display: flex;
   align-items: center;
