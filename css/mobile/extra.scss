@@ -9246,3 +9246,14 @@ span {
   display: block;
   color: var(--accent-txt);
 }
+.sport_quota_class {
+  &[data-active="false"] {
+    .btnQuotaArrow {
+      a:after {
+        content: "\f078";
+        font-family: "Font Awesome 5 Pro";
+        margin: 0 5px;
+      }
+    }
+  }
+}
