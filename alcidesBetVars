@@ -230,3 +230,6 @@ body.landing-page {
 .header .top-header .top-header-content .primary-menu li a:after {
   color: #fff!important;
 }
+.lang-container {
+  display:none;
+}
