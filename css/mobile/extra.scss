@@ -9249,6 +9249,7 @@ span {
 .sport_quota_class {
   &[data-active="false"] {
     .btnQuotaArrow {
+      max-width: 56px;
       a:after {
         content: "\f078";
         font-family: "Font Awesome 5 Pro";
