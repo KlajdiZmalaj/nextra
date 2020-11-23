@@ -50,6 +50,123 @@ body.landing-page {
   background-image: none;
 }
 
-body {
-  background-position-y: 100px;
+.main-content.home-page
+  .left-side-bar
+  .single-block:first-child
+  .block-title
+  span,
+.main-content.home-page
+  .right-side-bar
+  .single-block:first-child
+  .block-title
+  span,
+.main-content.home-page
+  .right-side-bar
+  .single-block:nth-child(2)
+  .block-title
+  span {
+  color: var(--accent-bg);
+  font-weight: 500;
+}
+
+.single-sport .states .state .championship.selected .anchor {
+  color: var(--accent);
+}
+.single-sport
+  .states
+  .state
+  .championship
+  .anchor
+  .check
+  input:checked
+  ~ .checkmark:after,
+.single-sport
+  .states
+  .state
+  .championship
+  .anchor
+  .check
+  input:checked
+  ~ .checkmark {
+  border-color: var(--accent) !important;
+}
+
+.odds-table .second-header td.day {
+  color: var(--accent);
+}
+
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
+  border: 1px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+
+.tabs-holder .tabs-row .single-tab {
+  border-bottom: 2px solid transparent !important;
+}
+
+.tabs-holder .tabs-row .single-tab:hover,
+.tabs-holder .tabs-row .single-tab.active {
+  border-bottom: 2px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+.odds-table .second-header {
+  opacity: 1 !important;
+}
+
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .selections-wrapper
+  .single-event
+  .selected-bet
+  .bet
+  .quote {
+  color: var(--accent);
+}
+
+.header .top-header .top-header-content .primary-menu .header-buttons > button,
+.header .top-header .top-header-content .primary-menu .header-buttons > a {
+  background: #000 !important;
+  color: #fff !important;
+}
+body
+  .side-bar
+  .single-block.betslip-holder
+  .betslip-controllers
+  .single-controller.active {
+  background: #14191d;
+  color: #e9e9e9;
+}
+.header .top-header .top-header-content .logo-holder a:before {
+  width: 230px !important;
+}
+html {
+  .live-odds-table table tr td.odd-holder .single-live-odd .label,
+  span.odd-type,
+  .odds-table .second-header td {
+    color: var(--accent);
+  }
+}
+
+html {
+  .virtu-box {
+    background-image: url(//nextra.pcluster.info/masterbet/images/virtual.jpg);
+    background-position-y: -80px;
+  }
+  .casino-section {
+    background-image: url(//nextra.pcluster.info/masterbet/images/casinonew.jpg);
+    background-size: 1360px;
+  }
+  body .casino-section .casino-container .casino-inner {
+    padding-top: 374px;
+    height: calc(100% - 388px) !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .game-grid {
+    column-gap: 18px;
+  }
 }
