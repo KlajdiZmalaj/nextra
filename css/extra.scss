@@ -667,6 +667,7 @@ body .casino-section .casino-container .casino-inner {
 .game-grid-container {
   background: transparent;
   backdrop-filter: blur(31px);
+  -webkit-backdrop-filter: blur(31px);
 }
 .betlist-legend-holder .legend .single-item:after {
   content: "";
