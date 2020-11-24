@@ -8412,7 +8412,9 @@ li.fast_menu_option a span:nth-child(2) {
 .main_container[data-page="login"][data-mode="coupon_base"] > .main_content {
   padding-top: 74px;
 }
-
+.main_container[data-page="login"][data-mode="coupon_base"]>.main_content .single-block.betslip-holder{
+  padding-top: 30px;
+}
 .loader-overlay {
   display: none !important;
 }
@@ -8637,6 +8639,8 @@ div[data-source="upcoming"][data-sport-id="1"] p.sport_icon span.glyph:before {
 .sport_content_odds.live .odds_class:after {
   background: var(--teableHeadersBg);
   color: var(--teableHeadersCol);
+  text-align: center;
+  font-weight: 700;
 }
 
 // .main_container_tile {
