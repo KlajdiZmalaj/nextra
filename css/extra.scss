@@ -1269,7 +1269,19 @@ li#miniTablet_1_325:before {
   -webkit-filter: none;
   filter: none;
 }
-
+.center-content .competition-filter .title {
+  display: none;
+}
+#favouriteTournaments li:before {
+  top: 8px;
+}
+.center-content .competition-filter .competitions ul li {
+  padding: 6px 0px;
+  margin: 1px;
+  width: calc(100% / 3 - 34px);
+  height: 26px;
+  align-items: center;
+}
 /*start logged part mobile*/
 [data-logged="true"][data-state="open"] .main_submenu .button.saldo {
   background-color: var(--accent-bg);
