@@ -64,3 +64,7 @@ $sb-2: #444444;
   justify-content: space-between;
   align-items: center;
 }
+
+div[data-source="in_play"] .main_container_tile, div[data-source="upcoming"] .main_container_tile {
+    background-color: #6d6b64;
+}
