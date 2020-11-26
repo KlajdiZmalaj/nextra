@@ -8208,32 +8208,9 @@ a.button.right.login {
   &.icon-125 {
     background-image: url(https://nextra.pcluster.info/css/fonts/rainbow.jpg);
   }
-}
-
-span.gpicon.icon-121 {
-  mask-image: url(https://nextra.pcluster.info/css/fonts/overwatch.svg);
-  background: var(--col1);
-  width: 30px;
-  height: 20px;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-position: center;
-  -webkit-mask-position: center;
-}
-
-span.gpicon.icon-111 {
-  mask-image: url(https://nextra.pcluster.info/css/fonts/overwatch.svg);
-  background: var(--col1);
-  width: 30px;
-  height: 20px;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-position: center;
-  -webkit-mask-position: center;
+  &.icon-111 {
+    background-image: url(https://nextra.pcluster.info/css/fonts/dota.svg);
+  }
 }
 
 input.sport_search_controller {
