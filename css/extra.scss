@@ -667,6 +667,7 @@ body .casino-section .casino-container .casino-inner {
 .game-grid-container {
   background: transparent;
   backdrop-filter: blur(31px);
+  -webkit-backdrop-filter: blur(31px);
 }
 .betlist-legend-holder .legend .single-item:after {
   content: "";
@@ -1269,7 +1270,19 @@ li#miniTablet_1_325:before {
   -webkit-filter: none;
   filter: none;
 }
-
+.center-content .competition-filter .title {
+  display: none;
+}
+#favouriteTournaments li:before {
+  top: 8px;
+}
+.center-content .competition-filter .competitions ul li {
+  padding: 6px 0px;
+  margin: 1px;
+  width: calc(100% / 3 - 34px);
+  height: 26px;
+  align-items: center;
+}
 /*start logged part mobile*/
 [data-logged="true"][data-state="open"] .main_submenu .button.saldo {
   background-color: var(--accent-bg);
@@ -4955,7 +4968,7 @@ body .center-content .popular-bets .days ul li {
   .bottom-header
   .bottom-header-content
   ul.secondary-menu
-  li:nth-last-child(2)
+  li:nth-child(7)
   a[href="#"] {
   display: none;
 }
