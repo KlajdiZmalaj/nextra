@@ -9258,3 +9258,11 @@ span {
     }
   }
 }
+.new_user_form {
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+}
+.new_user_form form .row .cell.button .single-button {
+  color: var(--accent-txt);
+  background: var(--accent-bg);
+}
