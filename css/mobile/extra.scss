@@ -8353,7 +8353,12 @@ span.sport_search_button {
   align-items: center;
   justify-content: center;
   background: var(--bg1);
+  color: var(--col1);
   margin: 3px;
+  .item_name,
+  span {
+    color: var(--col1);
+  }
 }
 
 .menu_items_container {
@@ -8412,7 +8417,9 @@ li.fast_menu_option a span:nth-child(2) {
 .main_container[data-page="login"][data-mode="coupon_base"] > .main_content {
   padding-top: 74px;
 }
-.main_container[data-page="login"][data-mode="coupon_base"]>.main_content .single-block.betslip-holder{
+.main_container[data-page="login"][data-mode="coupon_base"]
+  > .main_content
+  .single-block.betslip-holder {
   padding-top: 30px;
 }
 .loader-overlay {
@@ -8860,6 +8867,11 @@ body {
   color: var(--col1);
   box-shadow: inset 0 0 16px -8px black;
   padding-left: 10px;
+}
+
+.lista_messagi.giroconto .row.tippo.utente input.input {
+  background: var(--col1);
+  color: var(--bg1);
 }
 .giroconto.fields .button {
   color: var(--accent-txt);
