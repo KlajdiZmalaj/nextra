@@ -10,25 +10,46 @@ $bodyCol: var(--secondary-bg);
 $invet: 0;
 
 html:root {
-  --accent: #ffcc00;
-  --accent-bg: #086bbb;
+  // --accent: #e63946;
+  // --accent-bg: #e63946;
+  // --accent-txt: #fff;
+  // --primary-bg: #182b46;
+  // --primary-txt: #fff;
+  // --secondary-bg: #1d3557;
+  // --secondary-txt: #fff;
+  // --mainBg: #ffffff;
+  // --mainBgCol: #000;
+  // --bg1: #edf0f3;
+  // --col1: #000;
+  // --teableHeadersBg: #a8dadc;
+  // --teableHeadersCol: #000000;
+  // --teableSubHeadersBg: #457b9d;
+  // --teableSubHeadersCol: #ffffff;
+  // --tableBorders: #c0c0c0;
+  // --casinoGradient1: rgba(0, 0, 0, 0);
+  // --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  // --casinoGradient2: #e63946;
+  // --casinoGradient2-txt: #000;
+  // --backDrops: #000000cf;
+  --accent: #e63946;
+  --accent-bg: #e63946;
   --accent-txt: #fff;
-  --primary-bg: #061131;
+  --primary-bg: #223348;
   --primary-txt: #fff;
-  --secondary-bg: #0a1b4e;
+  --secondary-bg: #1d3557;
   --secondary-txt: #fff;
-  --mainBg: #ffffff;
-  --mainBgCol: #000;
-  --bg1: #edf0f3;
-  --col1: #000;
-  --teableHeadersBg: #ffcc00;
+  --mainBg: #455467;
+  --mainBgCol: #fff;
+  --bg1: #546478;
+  --col1: #fff;
+  --teableHeadersBg: #a8dadc;
   --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #01428c;
+  --teableSubHeadersBg: #457b9d;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #c0c0c0;
+  --tableBorders: #6e8094;
   --casinoGradient1: rgba(0, 0, 0, 0);
   --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #f0c808;
+  --casinoGradient2: #e63946;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
   --skin: "1xpro";
@@ -45,16 +66,19 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #333844;
-body {
-  background-size: 2038px !important;
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+html body {
+  background-size: 270px !important;
+  font-family: "Lato", sans-serif !important;
+  background-image: url(https://nextra.pcluster.info/1xpro/images/texture.png);
+  background-repeat: repeat;
 }
 body.landing-page {
   background-color: #001020 !important;
   background-image: none;
 }
-.odds-table .second-header td {
-  color: #086bbb !important;
-}
+
 footer .footer-logo a {
   filter: grayscale(1) invert(1);
 }
@@ -62,14 +86,14 @@ footer .footer-logo a {
   border-image: linear-gradient(to right, red, #fff) 11px 100%;
   border-image-slice: 1;
   border-width: 2px;
-  border-bottom: 3px solid;
+  border-bottom: 8px solid;
   border-image-source: linear-gradient(
     to right,
     #ba0000,
-    #bc0706 35%,
-    #ffffff 35%,
-    #ececeb 55%,
-    #4caf50 55%
+    #bc0706 30%,
+    #ffffff 40%,
+    #ffffff 55%,
+    #4caf50 65%
   );
 }
 html {
@@ -95,9 +119,9 @@ html {
     display: flex;
   }
   .side-bar .single-block .block-content.sports-menu .tabs .single-tab {
-    background: #01428c;
-    color: #fff;
-    border: 1px solid #0160ae;
+    background: var(--teableSubHeadersBg);
+    color: var(--teableSubHeadersCol);
+    border: 1px solid var(--mainBg);
   }
   .tabs-holder .tabs-row {
     display: flex;
@@ -227,4 +251,618 @@ html {
     background: #ffffff;
     color: #006e97;
   }
+}
+
+div#mainHomePage {
+  display: flex;
+  flex-flow: column;
+  > div {
+    order: 99;
+  }
+  .main-slider {
+    order: 2;
+  }
+
+  #upcomingBets {
+    order: 1;
+  }
+}
+.center-content .sports-book {
+  margin-bottom: 1px;
+}
+
+.header .top-header .top-header-content .logo-holder {
+  width: 170px;
+  position: absolute;
+  left: 48%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a:before {
+    width: 110px !important;
+    height: 70px;
+    left: 1px;
+  }
+}
+html {
+  .header .top-header .top-header-content .primary-menu {
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    ul {
+      margin: 0 auto;
+      #indexCasino {
+        margin-right: 100px;
+      }
+      #indexCasinoLive {
+        margin-left: 100px;
+      }
+    }
+  }
+  .header .top-bar .top-bar-content {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+  }
+  .header .top-header .top-header-content .primary-menu li a:after {
+    font-family: "ikonaSvg2" !important;
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    .top-bar {
+      order: 2;
+      max-width: 100%;
+      margin: 0 auto;
+      .login-bar {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+      }
+      [name="login"] {
+        margin-left: auto;
+      }
+    }
+    .bottom-header {
+      order: 3;
+    }
+    .top-header {
+      order: 1;
+    }
+  }
+  .lang-container {
+    position: relative;
+    margin-top: 0;
+    overflow: visible;
+    .lang-down {
+      position: absolute;
+      top: 100%;
+      width: 90%;
+    }
+  }
+}
+
+@font-face {
+  font-family: "ikonaSvg2";
+  src: url("https://nextra.pcluster.info/1xpro/fonts/icomoon.eot?rsl9kg");
+  src: url("https://nextra.pcluster.info/1xpro/fonts/icomoon.eot?rsl9kg#iefix")
+      format("embedded-opentype"),
+    url("https://nextra.pcluster.info/1xpro/fonts/icomoon.ttf?rsl9kg")
+      format("truetype"),
+    url("https://nextra.pcluster.info/1xpro/fonts/icomoon.woff?rsl9kg")
+      format("woff"),
+    url("https://nextra.pcluster.info/1xpro/fonts/icomoon.svg?rsl9kg#icomoon")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.home-page .center-content .competition-filter {
+  display: block;
+  padding: 0px 0px;
+  .title {
+    height: 26px;
+    line-height: 26px;
+  }
+  .competitions ul {
+    justify-content: center;
+    li {
+      margin-left: 1px;
+      margin-right: 0;
+      margin-top: 1px;
+      margin-bottom: 0px;
+      width: calc(100% / 5 - 34px);
+      background-color: var(--tableBorders);
+      white-space: break-spaces;
+      height: 25px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 6px 3px 6px 3px;
+      border: none;
+      border-radius: 0px;
+    }
+  }
+  #favouriteTournaments li:before {
+    width: 22px;
+    height: 22px;
+    left: 5px;
+    top: 7px;
+  }
+}
+
+.left-side-bar .single-item .item-button .first-part {
+  display: flex;
+}
+.side-bar.left-side-bar:before {
+  content: "";
+  width: 100%;
+  height: 131px;
+  display: block;
+  background-image: url(//nextra.pcluster.info/1xpro/images/dracula.jpg);
+  background-size: cover;
+}
+html .main-content .single-sport {
+  border-top: none;
+  background: var(--primary-bg);
+  color: var(--accent-txt);
+  margin-bottom: 1px;
+}
+
+.center-content .popular-bets .title img {
+  margin-top: 11px;
+}
+
+html {
+  .single-sport .anchor.sport {
+    &-1 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/042-ball.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-2 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/009-basketball ball.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-3 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/005-baseball ball.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-4 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/028-hockey stick.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-5 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/048-tennis ball.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-6 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/041-soccer goal.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-7 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/042-ball.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-9 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/025-golf field.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-12 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/037-rugby.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-13 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/037-rugby.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-15 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/039-ice skate.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-16 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/038-rugby.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-19 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/015-cricket ball.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-20 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/034-ping pong.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-21 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/016-cricket bat.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-22 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/018-darts.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-23 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/032-volleyball net.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-26 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/046-swim.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-29 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/042-ball.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-81 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/055-windsurf.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-117 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/011-boxing.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-135 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/042-ball.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+  }
+}
+.main-content-holder {
+  box-shadow: 0 0 80px -40px #a8dadc;
+}
+
+.single-sport .states .state .championship:hover,
+.single-sport .states .state > .anchor.special:hover,
+.single-sport > .anchor:hover {
+  .icon {
+    filter: hue-rotate(240deg) brightness(1.5) !important;
+  }
+}
+
+.sports-book-page .championship-table {
+  color: #222;
+}
+// .grid {
+//   max-width: 100% !important;
+// }
+html .header .top-bar .top-bar-content .login-bar .settings .controls-menu {
+  left: 0;
+  right: auto;
+}
+html .header .top-header {
+  background: #1d3557c4;
+}
+
+html {
+  .center-content .sports-book {
+    background: #223348;
+    color: #a8dadc;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .center-content .sports-book .title {
+    font-size: 24px;
+  }
+  .events-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    > div {
+      padding: 0 10px !important;
+      margin-right: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 19px;
+      width: auto;
+      cursor: default;
+      font-size: 14px;
+    }
+    > div:nth-child(1) {
+      background: #009688;
+
+      color: #fff;
+    }
+    > div:nth-child(2) {
+      background: #8bc34a;
+      color: #000;
+    }
+    > div:nth-child(3) {
+      background: #3f51b5;
+      color: #fff;
+    }
+    > div:nth-child(4) {
+      background: #b5473f;
+      color: #fff;
+    }
+  }
+}
+
+.side-bar.right-side-bar {
+  .single-block .block-content.white {
+    padding: 15px 15px;
+    background: var(--mainBg);
+    border-left: 1px solid var(--bg1);
+  }
+  .single-block.betslip-holder .betslip {
+    border: none;
+    width: 100%;
+  }
+  .single-block .block-content.verify-coupon {
+    padding: 15px;
+    padding-top: 15px;
+  }
+  .single-block:nth-child(3) .block-title {
+    background: var(--teableHeadersBg);
+    color: var(--teableHeadersCol);
+    span {
+      text-align: left;
+      padding-left: 10px;
+    }
+  }
+}
+.casino-section .casino-container::before {
+  display: none;
+}
+html .casino-section {
+  background-image: url(http://nextra.pcluster.info/1xpro/images/casino/topbanner.jpg);
+  background-size: 1360px;
+}
+html body .casino-section .casino-container .casino-inner {
+  padding: 0 !important;
+  padding-top: 280px !important;
+  height: calc(100% - 290px) !important;
+}
+.main-content .center-content.wide {
+  width: calc(100% - 546px);
+}
+//start closed sidebar
+
+.side-bar.left-side-bar.closed {
+  width: 250px;
+  .single-block:first-child {
+    display: flex;
+    span {
+      display: inline-block;
+    }
+  }
+<<<<<<< HEAD
+
+=======
+  .single-block.antepost {
+    display: flex;
+  }
+>>>>>>> eff22d242586e330e14baad251ebefe0d4da708c
+  .single-block .block-title {
+    display: flex;
+  }
+  .single-block .sports-menu {
+    display: inline-block;
+  }
+  .single-sport .anchor {
+    font-size: 13px;
+    padding: 8px 0 8px 35px;
+    height: auto;
+    .check {
+      display: block;
+    }
+  }
+}
+
+.side-bar.left-side-bar.closed > .single-block:first-child .block-title:before {
+  content: "\f1e3" !important;
+  font: normal normal normal 14px/1 FontAwesome;
+  left: 10px;
+  top: 11px;
+  position: absolute;
+}
+//end closed sidebar
+body .side-bar .single-block.betslip-holder {
+  overflow-x: visible;
+}
+html {
+  // .left-side-bar.closed .single-sport .anchor .icon {
+  //   left: 4px;
+  //   width: 25px;
+  //   height: 22px;
+  // }
+  .left-side-bar > .single-block:first-child .block-title {
+    color: transparent !important;
+    &:after {
+      content: "Menu";
+      font: inherit;
+      left: 10px;
+      top: 0px;
+      position: absolute;
+      color: #222 !important;
+    }
+  }
+  .center-content .match-of-the-day .odd-bars .single-bar {
+    .bar {
+      height: 33px;
+      background: linear-gradient(270deg, #a8dadc 0%, #e63946 70%);
+      background-size: 400% 400%;
+    }
+    &:nth-child(2) .bar {
+      -webkit-animation: bgGrad 4s ease infinite;
+      -moz-animation: bgGrad 4s ease infinite;
+      -o-animation: bgGrad 4s ease infinite;
+      animation: bgGrad 4s ease infinite;
+    }
+    &:nth-child(3) .bar {
+      -webkit-animation: bgGrad 2s ease infinite;
+      -moz-animation: bgGrad 2s ease infinite;
+      -o-animation: bgGrad 2s ease infinite;
+      animation: bgGrad 2s ease infinite;
+    }
+    &:nth-child(4) .bar {
+      -webkit-animation: bgGrad 5s ease infinite;
+      -moz-animation: bgGrad 5s ease infinite;
+      -o-animation: bgGrad 5s ease infinite;
+      animation: bgGrad 5s ease infinite;
+    }
+  }
+  .center-content .match-of-the-day .odd-bars .single-bar .bar .inner:after {
+    display: none;
+  }
+  .center-content .match-of-the-day .odds-block-type-percentages {
+    display: flex;
+    justify-content: center;
+  }
+  .center-content
+    .match-of-the-day
+    .odds-block-type-percentages
+    .single-odd-block {
+    margin: 0 !important;
+  }
+  .live-odds-table table tr td.odd-holder .single-live-odd .label {
+    color: #65b5e7 !important;
+  }
+}
+
+@-webkit-keyframes bgGrad {
+  0% {
+    background-position: 0% 47%;
+  }
+  50% {
+    background-position: 100% 54%;
+  }
+  100% {
+    background-position: 0% 47%;
+  }
+}
+@-moz-keyframes bgGrad {
+  0% {
+    background-position: 0% 47%;
+  }
+  50% {
+    background-position: 100% 54%;
+  }
+  100% {
+    background-position: 0% 47%;
+  }
+}
+@-o-keyframes bgGrad {
+  0% {
+    background-position: 0% 47%;
+  }
+  50% {
+    background-position: 100% 54%;
+  }
+  100% {
+    background-position: 0% 47%;
+  }
+}
+@keyframes bgGrad {
+  0% {
+    background-position: 0% 47%;
+  }
+  50% {
+    background-position: 100% 54%;
+  }
+  100% {
+    background-position: 0% 47%;
+  }
+}
+
+.main-content .center-content .percentage-block .single-over-under {
+  .percentage-graph .ct-series-a .ct-slice-donut {
+    stroke-width: 5px !important;
+  }
+  .percentage-graph .ct-series-b .ct-slice-donut {
+    stroke-width: 5px !important;
+  }
+}
+
+.main-content
+  .center-content
+  .percentage-block
+  .single-over-under
+  .percentage-graph:after {
+  content: "";
+  box-shadow: none;
+}
+.main-content .odds-block-type-percentages .odd,
+.main-content .center-content .percentage-block .bets .bet .odd {
+  width: calc(100% - 1px);
+  margin: 0 1px;
 }

@@ -95,10 +95,6 @@ body {
   border-color: var(--accent) !important;
 }
 
-.odds-table .second-header td.day {
-  color: var(--accent);
-}
-
 .tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
 .tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
   border: 1px solid var(--accent-bg) !important;
@@ -131,15 +127,33 @@ body {
   color: var(--accent);
 }
 
-.odds-table .second-header td {
-  color: var(--accent);
-}
-
 body.landing-page {
   background-color: #31343d !important;
   background-image: none;
 }
 .center-content.live-center-content {
-      grid-template-columns: 1fr 340px !important;
-
+  grid-template-columns: 1fr 340px !important;
+}
+html body .sport.active[id*="LVSPORT"] {
+  .single-match .match-info,
+  .single-match .match-odds {
+    background: var(--bg1) !important;
+    color: var(--col1) !important;
+  }
+}
+.sport.active .single-match {
+  border-left: 0 !important;
+}
+body {
+  .allmatches-head,
+  .sports-container .matches .single-match .match-odds .single-odd-type {
+    background: #14191d;
+  }
+}
+html {
+  .live-odds-table table tr td.odd-holder .single-live-odd .label,
+  span.odd-type,
+  .odds-table .second-header td {
+    color: var(--accent);
+  }
 }

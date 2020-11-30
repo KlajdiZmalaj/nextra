@@ -136,3 +136,46 @@ body.landing-page {
   color: var(--accent);
 }
 
+.header .top-header .top-header-content .primary-menu .header-buttons > button,
+.header .top-header .top-header-content .primary-menu .header-buttons > a {
+  background: #000 !important;
+  color: #fff !important;
+}
+body
+  .side-bar
+  .single-block.betslip-holder
+  .betslip-controllers
+  .single-controller.active {
+  background: #14191d;
+  color: #e9e9e9;
+}
+.header .top-header .top-header-content .logo-holder a:before {
+  width: 230px !important;
+}
+html {
+  .live-odds-table table tr td.odd-holder .single-live-odd .label,
+  span.odd-type,
+  .odds-table .second-header td {
+    color: var(--accent);
+  }
+}
+
+html {
+  .virtu-box {
+    background-image: url(//nextra.pcluster.info/masterbet/images/virtual.jpg);
+    background-position-y: -80px;
+  }
+  .casino-section {
+    background-image: url(//nextra.pcluster.info/masterbet/images/casinonew.jpg);
+    background-size: 1360px;
+  }
+  body .casino-section .casino-container .casino-inner {
+    padding-top: 374px;
+    height: calc(100% - 388px) !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .game-grid {
+    column-gap: 18px;
+  }
+}

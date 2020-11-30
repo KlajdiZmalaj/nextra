@@ -1,61 +1,60 @@
 $skin: "topbet365";
-$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$cdnPath: "/nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/topbet365/images/logo2.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/red.jpg";
+$logoUrl: "https://nextra.pcluster.info/topbet365/images/logo22.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/24/image/51345629667ab67c22bd180144b9a245.jpeg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #c8151e;
-  --accent-bg: #c8151e;
-  --accent-txt: #ffffff;
-  --primary-bg: #444444;
+  --accent: #ffeb3b;
+  --accent-bg: #fff;
+  --accent-txt: #14805e;
+  --primary-bg: #1c1c1c;
   --primary-txt: #fff;
-  --secondary-bg: #161616;
+  --secondary-bg: #2e2e2e;
   --secondary-txt: #fff;
-  --mainBg: #1e1e1e;
+  --mainBg: #282828;
   --mainBgCol: #fff;
-  --bg1: #3e3e3e;
+  --bg1: #323232;
   --col1: #fff;
-  --teableHeadersBg: linear-gradient(to bottom, #373838, #2d2e2d);
+  --teableHeadersBg: #14805e;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #666666;
-  --teableSubHeadersCol: #cccccc;
-  --tableBorders: #666666;
-  --casinoGradient1: #00000000;
-  --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #636363;
+  --teableSubHeadersBg: #636363;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #535353;
+  --casinoGradient1: linear-gradient(
+    -90deg,
+    rgba(239, 32, 138, 1) 0%,
+    rgba(35, 116, 222, 1) 50%,
+    rgba(11, 138, 61, 1) 100%
+  );
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "topbet365";
+  --skin: "topbet356";
 }
 
-$secondary: #c8151e;
+$secondary: #14805e;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #c8151e;
+$secondaryDark: #14805e;
 $secondaryDarkCol: #fff;
 $primary: #323232;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #444444;
-body.landing-page {
-  background-color: #0e0e0e !important;
-  background-image: none;
-}
+$sb-2: #323232;
 
-.live-content-wrapper
-  .live-sports-overview
-  .sport-container
-  .single-panel
-  .panel-content
-  .single-match
-  .odds-wrapper
-  .label {
-  background: #161616 !important;
+html body {
+  background-position-y: 80px !important;
+  background-attachment: initial;
+  background-size: 1970px;
 }
+// .coupon-details-buttons .button.cashout {
+//   display: none !important;
+// }

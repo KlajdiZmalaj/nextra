@@ -225,8 +225,29 @@ body.landing-page {
 }
 
 .header .top-header {
-  background: #000000!important;
+  background: #000000 !important;
 }
 .header .top-header .top-header-content .primary-menu li a:after {
-  color: #fff!important;
+  color: #fff !important;
 }
+.lang-container {
+  display: none;
+}
+
+//hide casino, virtual..
+.header .top-header .top-header-content .primary-menu ul li#indexCasino,
+.header .top-header .top-header-content .primary-menu ul li#indexCasinoLive,
+.header .top-header .top-header-content .primary-menu ul li#indexVirtual,
+.header .top-header .top-header-content .primary-menu ul li#indexPoker {
+  display: none;
+}
+
+.single_menu_item.casino,
+.single_menu_item.virtual_games {
+  display: none !important;
+}
+.fast_menu .fast_menu_option a[href="/mobile/casino"],
+.fast_menu .fast_menu_option a[href="/Sport/virtual365/launchExt"] {
+  display: none;
+}
+//hide casino, virtual..

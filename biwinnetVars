@@ -39,9 +39,16 @@ $black: #000000;
 $secondaryDark: #d1a813;
 $secondaryDarkCol: #222;
 $primary: #676d7b;
-#70757f
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #333844;
+
+html {
+  .live-odds-table table tr td.odd-holder .single-live-odd .label,
+  span.odd-type,
+  .odds-table .second-header td {
+    color: var(--accent);
+  }
+}

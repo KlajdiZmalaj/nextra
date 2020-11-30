@@ -1,11 +1,11 @@
 html:root {
   --accent: #075424;
-  --accent-bg: #075424;
-  --accent-txt: #fff;
+  --accent-bg: #fdd402;
+  --accent-txt: #222;
   --primary-bg: #d9d9d9;
   --primary-txt: #000000;
-  --secondary-bg: #ffffff;
-  --secondary-txt: #000;
+  --secondary-bg: #075424;
+  --secondary-txt: #fff;
   --mainBg: #ffffff;
   --mainBgCol: #000;
   --bg1: #e7e7e7;
@@ -17,7 +17,7 @@ html:root {
   --tableBorders: #a3a3a3;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --casinoGradient2: #fdd402;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
   --skin: "fourbet";
@@ -57,16 +57,37 @@ html body {
 }
 
 .header .top-header {
-  background: var(--accent-bg) !important;
-  color: var(--accent-txt) !important;
-  border-bottom: 4px solid #var(--casinoGradient2) !important;
+  border-bottom: 4px solid var(--casinoGradient2) !important;
 }
 
 .header .top-bar {
-  background: #0e1428 !important;
-  color: var(--accent-txt) !important;
+  background: #000 !important;
+  color: #fff !important;
 }
 
 footer {
   background: var(--accent-bg) !important;
+}
+.header .top-header .top-header-content .primary-menu ul li.active {
+  color: #ffeb3b !important;
+}
+.header .top-header .top-header-content .primary-menu li a:after {
+  color: inherit !important;
+}
+html {
+  .header .top-header .top-header-content .primary-menu ul li:hover:before,
+  .header .top-header .top-header-content .primary-menu ul li.active:before {
+    border-bottom: 10px solid #fdd402 !important;
+  }
+}
+html footer {
+  background: #075424 !important;
+  color: #fff !important;
+}
+html .torn-a {
+  background: #e9e9e9;
+  color: #000000;
+}
+.single-sport .states .state .championship.selected .anchor {
+  background: #e7e7e7 !important;
 }

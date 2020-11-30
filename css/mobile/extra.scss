@@ -3,6 +3,35 @@
 * {
   box-sizing: border-box;
 }
+///added from mixins.less
+.main_submenu .button {
+  line-height: normal;
+  text-align: center;
+  width: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 40px;
+  float: left;
+  text-decoration: none;
+  border: none;
+  padding-top: 0;
+}
+
+.main_submenu .button svg {
+  width: 100%;
+  display: block;
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  fill: var(--accent-txt);
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+///end added from mixins.less
 
 [data-logged="true"] ul#login_data li {
   float: left;
@@ -957,7 +986,6 @@
 .login-popup-wrapper .coupon-details-popup .coupon-details-content .title img,
 .login-popup-wrapper .deposit-iframe-popup .coupon-details-content .title img {
   display: inline-block;
-  float: left;
   padding: 8px 10px 0 20px;
 }
 
@@ -8076,6 +8104,7 @@ a.button.right.login {
   }
 
   &.icon-4,
+  &.icon-15,
   &.icon-24 {
     background-image: url(https://nextra.pcluster.info/css/fonts/hokey.svg);
   }
@@ -8179,37 +8208,8 @@ a.button.right.login {
   &.icon-125 {
     background-image: url(https://nextra.pcluster.info/css/fonts/rainbow.jpg);
   }
-}
-
-span.gpicon.icon-121 {
-  mask-image: url(https://nextra.pcluster.info/css/fonts/overwatch.svg);
-  background: var(--col1);
-  width: 30px;
-  height: 20px;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-position: center;
-  -webkit-mask-position: center;
-}
-
-span.gpicon.icon-111 {
-  -webkit-mask-image: url(https://nextra.pcluster.info/css/fonts/dota.svg);
-  mask-image: url(https://nextra.pcluster.info/css/fonts/dota.svg);
-  background: var(--col1);
-  height: 24px;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-position: center;
-  -webkit-mask-position: center;
-  padding: 0;
-  font-size: 20px;
-
-  &::before {
-    display: none;
+  &.icon-111 {
+    background-image: url(https://nextra.pcluster.info/css/fonts/dota.svg);
   }
 }
 
@@ -8247,6 +8247,9 @@ span.sport_search_button {
 }
 
 [data-page="account"],
+[data-page="movimenti"],
+[data-page="scommesse"],
+[data-page="coupon"],
 [data-page="login"] {
   a.button.right.logout {
     background-color: var(--accent-bg);
@@ -8321,7 +8324,12 @@ span.sport_search_button {
   align-items: center;
   justify-content: center;
   background: var(--bg1);
+  color: var(--col1);
   margin: 3px;
+  .item_name,
+  span {
+    color: var(--col1);
+  }
 }
 
 .menu_items_container {
@@ -8370,15 +8378,21 @@ li.fast_menu_option a span:nth-child(2) {
   color: var(--mainBgCol);
 }
 
-.main_container > .main_content,
-.fields {
+.main_container > .main_content {
+  padding-top: 130px;
+}
+[data-logged="false"] > .fields {
   padding-top: 130px;
 }
 
 .main_container[data-page="login"][data-mode="coupon_base"] > .main_content {
   padding-top: 74px;
 }
-
+.main_container[data-page="login"][data-mode="coupon_base"]
+  > .main_content
+  .single-block.betslip-holder {
+  padding-top: 30px;
+}
 .loader-overlay {
   display: none !important;
 }
@@ -8603,6 +8617,8 @@ div[data-source="upcoming"][data-sport-id="1"] p.sport_icon span.glyph:before {
 .sport_content_odds.live .odds_class:after {
   background: var(--teableHeadersBg);
   color: var(--teableHeadersCol);
+  text-align: center;
+  font-weight: 700;
 }
 
 // .main_container_tile {
@@ -8689,9 +8705,9 @@ div[data-source="in_play"] .sport_odds_main {
 
   .odds-class-list {
     .btnQuota.select {
-      width: calc(100% / 3 - 3px);
+      width: calc(100% / 1 - 3px);
       box-sizing: border-box;
-      border-radius: 0;
+      border-radius: 4px;
       flex-shrink: 0;
       flex-grow: 1;
       height: 32px;
@@ -8823,6 +8839,11 @@ body {
   box-shadow: inset 0 0 16px -8px black;
   padding-left: 10px;
 }
+
+.lista_messagi.giroconto .row.tippo.utente input.input {
+  background: var(--col1);
+  color: var(--bg1);
+}
 .giroconto.fields .button {
   color: var(--accent-txt);
   background: var(--accent-bg);
@@ -8854,4 +8875,381 @@ body {
 .selected-user {
   display: flex;
   flex-flow: column;
+}
+
+div[data-source="in_play"]
+  .sport_odds_main
+  .sport_line_title
+  .sport_odds_live_result {
+  margin-right: auto !important;
+}
+
+.live_result iframe {
+  margin-bottom: 0;
+}
+.sport_content_odds.live[data-sport-id="1"] .live_result iframe {
+  min-height: 485px;
+}
+.sport_content_odds.live[data-sport-id="2"] .live_result iframe {
+  min-height: 270px;
+}
+.sport_content_odds.live[data-sport-id="3"] .live_result iframe {
+  min-height: 340px;
+}
+.live_result {
+  background: #333 !important;
+  p.info {
+    display: flex;
+  }
+}
+.lista_movimenti.lista_scommesse {
+  padding-top: 20px;
+  > .row:not(.scommesse) {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--tableBorders);
+    padding-bottom: 7px;
+    &.info {
+      flex-flow: column;
+    }
+    label {
+      width: 25%;
+      flex-shrink: 0;
+    }
+    > div:nth-child(2) {
+      width: 75%;
+      flex-shrink: 0;
+    }
+    input,
+    select {
+      height: 30px;
+      width: 100%;
+    }
+  }
+  .button-holder {
+    width: 100%;
+  }
+}
+
+.lista_messagi .legenda_scommesse .tipo span.vincente,
+.lista_messagi .legenda_scommesse .tipo span.tipo.vincente {
+  background-color: #2da050;
+}
+
+.lista_messagi .legenda_scommesse .tipo span.perdente,
+.lista_messagi .legenda_scommesse .tipo span.tipo.perdente {
+  background-color: #ff423d;
+}
+.lista_messagi .legenda_scommesse .tipo span.annullata_dal_cliente,
+.lista_messagi .legenda_scommesse .tipo span.tipo.annullata_dal_cliente {
+  background-color: #0073b9;
+}
+
+span {
+  &[data-op="1"] {
+    background: #dcb630 !important; //running
+  }
+  &[data-op="2"] {
+    background: #2da050 !important; //vincente
+  }
+  &[data-op="3"] {
+    background: #ff423d !important; //perdente
+  }
+  &[data-op="4"] {
+    background: #0073b9 !important; //rifiutata
+  }
+  &[data-op="9"] {
+    background: #8da1ad !important; //valutazione
+  }
+  &[data-op="co"] {
+    background: #f4c685 !important; //cashout
+  }
+  &[data-op="pr"] {
+    background: #c929ad !important;
+  }
+  &[data-op="p"] {
+    background: #934add !important;
+  }
+}
+.menu_items_container span.menu-language-container {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-evenly;
+  height: auto;
+}
+.sport_single_quote[data-locked="true"] {
+  pointer-events: none;
+  position: relative;
+  overflow: hidden;
+  &::before {
+    content: "\f30d";
+    font-family: "Font Awesome 5 Pro";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    background: var(--bg1);
+    color: var(--col1);
+    z-index: 1;
+    font-weight: 300;
+  }
+}
+.ctg_g_icon {
+  height: 100px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: bottom;
+  }
+}
+.casino_container {
+  padding-top: 123px;
+}
+.casino_container
+  .casino_type
+  .ct_games_container
+  .ctg_games
+  .ctg_game_item
+  .ctg_g_icon {
+  background: transparent !important;
+  padding: 0 !important;
+}
+.coupon_widget #id_coupon_verifica {
+  width: 80%;
+}
+.coupon_widget #verifica_b {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  &:before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 25px;
+  }
+  img {
+    display: none;
+  }
+}
+[data-mode="coupon_check"],
+[data-mode="coupon_book"] {
+  &.main_container > .main_content {
+    padding-top: 0;
+  }
+  .submenu_header.nouvo_utente {
+    margin-top: 100px;
+  }
+}
+
+[data-page="login"] {
+  .fields {
+    &:before {
+      content: "\f2bd";
+      font-family: "Font Awesome 5 Pro";
+      font-size: 110px;
+      font-weight: 300;
+      /* margin: 0 auto; */
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent);
+    }
+    input.input {
+      background: var(--bg1);
+      color: var(--col1);
+      width: 100%;
+      height: 40px;
+      border: 1px solid var(--tableBorders);
+    }
+    .fields .button.login {
+      width: 100%;
+      text-align: center;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 27px;
+      font-weight: 400;
+      font-size: 17px;
+    }
+  }
+}
+
+[data-logged="true"][data-access="2"] .single_menu_item.newclient {
+  display: block !important;
+}
+
+.new_user_form {
+  background: #240d45;
+  display: inline-block;
+  width: 100%;
+}
+
+.new_user_form form .row .cell {
+  padding: 0 10px;
+}
+
+.new_user_form form .row .cell .input-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.new_user_form form .row .cell .input-wrapper .label {
+  width: 100%;
+  display: block;
+  padding: 8px 0;
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.new_user_form form .row .cell .input-wrapper .date-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.new_user_form form .row .cell .input-wrapper .date-holder .select {
+  min-width: calc(33% - 4px);
+  margin: 0 2px;
+}
+
+.new_user_form form .row .cell .input-wrapper .radio-holder {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.new_user_form form .row .cell .input-wrapper .radio-holder .radio {
+  min-width: 80px;
+  margin-right: 20px;
+}
+
+.new_user_form
+  form
+  .row
+  .cell
+  .input-wrapper
+  .radio-holder
+  .radio
+  input[type="radio"] {
+  float: left;
+  margin-right: 5px;
+}
+
+.new_user_form form .row .cell .input-wrapper.phone {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.new_user_form form .row .cell .input-wrapper.phone select {
+  width: 30%;
+  border-radius: 0;
+  border: none;
+  height: 30px;
+  line-height: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-left: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+
+.new_user_form form .row .cell .input-wrapper.phone input {
+  width: calc(70% - 15px);
+}
+
+.new_user_form form .row .cell .input-wrapper [data-error] {
+  border-color: red;
+  border-style: solid;
+}
+
+.new_user_form form .row .cell.button {
+  padding: 20px;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.new_user_form form .row .cell.button .single-button {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  font-size: 16px;
+  padding: 0;
+  color: white;
+  background: #f58634;
+  text-align: center;
+  font-weight: bold;
+}
+
+.single_menu_item.newclient,
+.single_menu_item.website {
+  display: none !important;
+}
+
+[data-logged="true"][data-access="2"] .single_menu_item.newclient {
+  display: block !important;
+}
+
+.casino_container
+  .casino_type
+  .ct_games_container
+  .ctg_games
+  .ctg_game_item
+  div[class*="_btn_"]
+  a {
+  background: var(--accent-bg);
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: var(--accent-txt);
+}
+.sport_quota_class {
+  &[data-active="false"] {
+    .btnQuotaArrow {
+      max-width: 56px;
+      a:after {
+        content: "\f078";
+        font-family: "Font Awesome 5 Pro";
+        margin: 0 5px;
+      }
+    }
+  }
+}
+.new_user_form {
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+}
+.new_user_form form .row .cell.button .single-button {
+  color: var(--accent-txt);
+  background: var(--accent-bg);
 }

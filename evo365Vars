@@ -54,3 +54,16 @@ $sb-2: #444444;
 .side-bar .single-block .block-content.sports-menu .sports-menu-bottom {
     background: var(--tableBorders);
 }
+
+//casino live
+.clive-container > .clive-inner > .clgames-container:nth-child(2) {
+  display: block;
+  margin-bottom: 0;
+}
+
+.clive-container .clive-inner {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  align-items: center;
+}
