@@ -3422,11 +3422,15 @@ body .odds-table .single-match-row td.match-name {
     justify-content: flex-start;
   }
 }
+@media only screen and (max-width: 1279px) {
+  .center-content.wide.left-closed {
+    width: calc(100% - 332px);
+  }
+}
 .single-match-row .match-details {
   display: flex;
   flex-flow: column;
 }
-//
 
 .lxd {
   display: none;
