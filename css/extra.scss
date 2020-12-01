@@ -671,7 +671,7 @@ body .casino-section .game-grid {
 
 body .casino-section .casino-container .casino-inner {
   width: 100%;
- // padding: 15px;
+  // padding: 15px;
   padding-top: 310px;
   height: calc(100% - 310px) !important;
   overflow: scroll;
@@ -5079,6 +5079,14 @@ body .center-content .popular-bets .days ul li {
     content: "\f30d";
     font-family: "Font Awesome 5 Pro";
     font-size: 25px;
+  }
+}
+.usrlist #client_list {
+  .passwd::after {
+    content: "\f30d";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 15px;
+    padding-left: 5px;
   }
 }
 
