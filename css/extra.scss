@@ -4931,7 +4931,8 @@ span.ui-slider-handle:before {
   max-width: 1360px;
   margin: 0 auto;
   position: relative;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
   .virtu-btn {
     position: absolute;
     bottom: 48px;
