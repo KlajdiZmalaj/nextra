@@ -5022,3 +5022,9 @@ body .center-content .popular-bets .days ul li {
   background: var(--mainBg);
   color: var(--mainBgCol);
 }
+
+body #tabletsDay {
+  .odds-table .single-match-row td.match-name .team {
+    white-space: nowrap;
+  }
+}
