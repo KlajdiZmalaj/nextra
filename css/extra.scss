@@ -5077,5 +5077,12 @@ body #tabletsDay {
   .odds-table .single-match-row td.match-name .team {
     white-space: nowrap;
     cursor: pointer;
+    position: unset;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+  }
+  .odds-table .single-match-row td.match-name .team-names {
+    position: relative;
   }
 }
