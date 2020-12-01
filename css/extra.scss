@@ -605,6 +605,8 @@ footer .footer-copyright {
 }
 .casino-section .casino-container {
   position: relative;
+  width: 100%;
+  max-width: 1360px;
   &::before {
     content: "";
     background-image: url("//nextra.pcluster.info/css/images/kido.png");
@@ -4221,11 +4223,12 @@ body .odds-table .single-match-row td.match-name {
 .game-grid {
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(6, 210px);
+  // grid-template-columns: repeat(6, 210px);
   -webkit-column-gap: 20px;
   column-gap: 20px;
   margin-bottom: 20px;
   grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fill, 208px);
 }
 
 .game-grid .game-grid-item-a {
