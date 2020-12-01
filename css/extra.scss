@@ -649,6 +649,24 @@ body .casino-section .game-grid {
     width: 100% !important;
   }
 }
+
+@media (max-device-width: 500px) {
+  .clive-banner-container,
+  .clive-container {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    .clive-inner {
+      width: 100%;
+      max-width: 1360px;
+      margin: 0 auto;
+    }
+  }
+  .clive-banner-inner .clive-banner-img {
+    min-width: 100%;
+  }
+}
+
 body .casino-section .casino-container .casino-inner {
   width: 100%;
   padding: 15px;
@@ -3422,11 +3440,15 @@ body .odds-table .single-match-row td.match-name {
     justify-content: flex-start;
   }
 }
+@media only screen and (max-width: 1279px) {
+  .center-content.wide.left-closed {
+    width: calc(100% - 332px);
+  }
+}
 .single-match-row .match-details {
   display: flex;
   flex-flow: column;
 }
-//
 
 .lxd {
   display: none;
@@ -4679,10 +4701,23 @@ span.ui-slider-handle:before {
   .block-content.sports-menu
   .sports-menu-bottom
   #sports-menu-slider {
-  margin: 10px 30px;
+  margin: 10px;
   height: 2px;
   padding: 3px 0;
   cursor: pointer;
+}
+.side-bar
+  .single-block
+  .block-content.sports-menu
+  .sports-menu-bottom
+  .slider-controls {
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  .single-control {
+    transform: unset !important;
+    width: auto;
+  }
 }
 .side-bar
   .single-block
