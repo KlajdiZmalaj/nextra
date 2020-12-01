@@ -50,12 +50,15 @@ body.landing-page {
   background-color: #000000 !important;
   background-image: none;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 * {
   font-weight: 600;
 }
 
 .sport_odds_name,
 .main_page_title {
-  font-weight: 600;
+  font-weight: 900;
   font-size: 15px;
+  font-family: "Lato", sans-serif;
 }
