@@ -5070,3 +5070,9 @@ body .center-content .popular-bets .days ul li {
     margin: 5px;
   }
 }
+
+body #tabletsDay {
+  .odds-table .single-match-row td.match-name .team {
+    white-space: nowrap;
+  }
+}
