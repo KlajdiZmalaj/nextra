@@ -50,3 +50,12 @@ body.landing-page {
   background-color: #000000 !important;
   background-image: none;
 }
+* {
+  font-weight: 600;
+}
+
+.sport_odds_name,
+.main_page_title {
+  font-weight: 600;
+  font-size: 15px;
+}
