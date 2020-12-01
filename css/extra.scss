@@ -5057,3 +5057,16 @@ body .center-content .popular-bets .days ul li {
   background: var(--mainBg);
   color: var(--mainBgCol);
 }
+
+.list-users #client_list {
+  .button.green.disabled {
+    background: #6dcd3b;
+    display: inline-block;
+    margin: 5px;
+  }
+  .button.red.enabled {
+    background: red;
+    display: inline-block;
+    margin: 5px;
+  }
+}
