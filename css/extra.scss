@@ -2754,7 +2754,7 @@ input#resultDate {
   width: 100%;
   white-space: break-spaces;
   max-width: 280px;
-  overflow: hidden;
+  // overflow: hidden;
   height: 25px;
 }
 .odds-table .single-match-row td .goal-odd .label {
@@ -5063,5 +5063,6 @@ body .center-content .popular-bets .days ul li {
 body #tabletsDay {
   .odds-table .single-match-row td.match-name .team {
     white-space: nowrap;
+    cursor: pointer;
   }
 }
