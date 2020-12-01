@@ -5062,12 +5062,13 @@ body .center-content .popular-bets .days ul li {
   .button.green.disabled {
     background: #6dcd3b;
     display: inline-block;
-    margin: 5px;
   }
   .button.red.enabled {
     background: red;
     display: inline-block;
-    margin: 5px;
+  }
+  img {
+    max-width: 50px;
   }
 }
 
