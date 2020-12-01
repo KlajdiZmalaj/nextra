@@ -8513,6 +8513,9 @@ body .main_container_group_item .sport_count {
     color: inherit;
     line-height: 12px;
     width: calc(100% - 40px);
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
   }
 
   .sport_single_quote {
@@ -8532,10 +8535,12 @@ body .main_container_group_item .sport_count {
     display: flex;
     align-items: center;
     margin-bottom: 0;
-
+    line-height: normal;
+    min-height: 0px;
     .sport_odds_date {
       order: 2;
       color: inherit;
+      margin: 0;
     }
   }
 
