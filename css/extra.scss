@@ -5075,6 +5075,11 @@ body .center-content .popular-bets .days ul li {
   img {
     max-width: 50px;
   }
+  .passwd::after {
+    content: "\f30d";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 25px;
+  }
 }
 
 body #tabletsDay {
