@@ -5107,3 +5107,10 @@ body #tabletsDay {
   background: #fff;
   color: #000;
 }
+.hovermenu-container {
+  position: relative;
+  order: 1;
+  div#submenu-bot.height-fix {
+    height: 32px;
+  }
+}
