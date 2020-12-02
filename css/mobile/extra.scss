@@ -9262,7 +9262,9 @@ span {
 .main_page_title {
   font-weight: 500;
 }
-
+.quote.old {
+  text-decoration: line-through;
+}
 .new_user_form form .row .cell .input-wrapper .label:after {
   content: "*";
   color: red;
