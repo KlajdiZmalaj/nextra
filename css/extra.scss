@@ -5199,6 +5199,9 @@ body #tabletsDay {
   width: 266px;
   flex-shrink: unset;
 
+  .single-sport.active .states {
+    display: block !important;
+  }
   .single-block .block-title {
     display: flex;
   }
@@ -5218,7 +5221,9 @@ body #tabletsDay {
     font-size: 13px;
     height: auto;
   }
-
+  .single-sport .states .state > .anchor.special {
+    padding: 0 0 0 5px;
+  }
   > .single-block:first-child .block-title:before {
     content: "\f1e3" !important;
   }
@@ -5247,7 +5252,9 @@ body #tabletsDay {
     width: 200px;
     flex-shrink: unset;
     position: relative;
-
+    .single-sport.active .states {
+      display: block !important;
+    }
     .single-block .block-title {
       display: flex;
     }
@@ -5267,7 +5274,9 @@ body #tabletsDay {
       font-size: 13px;
       height: auto;
     }
-
+    .single-sport .states .state > .anchor.special {
+      padding: 0 0 0 5px;
+    }
     > .single-block:first-child .block-title:before {
       content: "\f1e3" !important;
     }

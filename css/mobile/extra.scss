@@ -8977,6 +8977,58 @@ span {
     background: #934add !important;
   }
 }
+
+// .table_footer .row_details.evento .first_row > .status [data-status="0"] {
+//   background-color: #0073b9;
+// }
+// .table_footer .row_details.evento .first_row > .status [data-status="1"] {
+//   background-color: #2da050;
+// }
+// .table_footer .row_details.evento .first_row > .status [data-status="2"] {
+//   background-color: #ff423d;
+// }
+
+.table_footer [data-status="0"]:before {
+  background-color: #dcb630;
+}
+.table_footer [data-status="1"]:before {
+  background-color: #2da050;
+}
+.table_footer [data-status="2"]:before {
+  background-color: #ff423d;
+}
+
+span {
+  &[data-status="0"] {
+    background: #dcb630 !important; //running
+  }
+  &[data-status="1"] {
+    background: #2da050 !important; //vincente
+  }
+  &[data-status="2"] {
+    background: #ff423d !important; //perdente
+  }
+
+  // &[data-status="3"] {
+  //   background: #ff423d !important; //perdente
+  // }
+  &[data-status="4"] {
+    background: #0073b9 !important; //rifiutata
+  }
+  &[data-status="9"] {
+    background: #8da1ad !important; //valutazione
+  }
+  &[data-status="co"] {
+    background: #f4c685 !important; //cashout
+  }
+  &[data-status="pr"] {
+    background: #c929ad !important;
+  }
+  &[data-status="p"] {
+    background: #934add !important;
+  }
+}
+
 .menu_items_container span.menu-language-container {
   display: flex !important;
   align-items: center;
@@ -9300,7 +9352,13 @@ span {
   background-position: center;
   background-repeat: no-repeat;
 }
-
+.fields.lista_messagi
+  .msg_list
+  .msg
+  .table_footer
+  .row_arrow.glyph.icon-arrow8-down {
+  pointer-events: none;
+}
 .coupon_widget
   .single-block
   .betslip
@@ -9465,15 +9523,7 @@ span {
   margin: 0;
   padding: 0;
 }
-.table_footer .row_details.evento .first_row > .status [data-status="0"] {
-  background-color: #0073b9;
-}
-.table_footer .row_details.evento .first_row > .status [data-status="1"] {
-  background-color: #2da050;
-}
-.table_footer .row_details.evento .first_row > .status [data-status="2"] {
-  background-color: #ff423d;
-}
+
 .table_footer .row_details.evento .first_row .event_details {
   width: calc(100% - 30px);
 }
