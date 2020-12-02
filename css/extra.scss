@@ -4310,7 +4310,18 @@ body .odds-table .single-match-row td.match-name {
   width: 210px;
   height: 148.583px;
 }
-
+.game-overlay-inner .game-pro-container .game-pro-ico {
+  width: 100%;
+}
+@media only screen and (max-width: 1279px) {
+  html .game-grid {
+    column-gap: 10px;
+  }
+  .game-grid {
+    column-gap: 10px;
+    margin-bottom: 10px;
+  }
+}
 .side-bar
   .single-block.betslip-holder
   .betslip
@@ -5262,6 +5273,30 @@ body #tabletsDay {
     .single-block.antepost {
       display: flex;
     }
+  }
+  body .odds-table .single-match-row td.match-name .match-id,
+  body .odds-table .single-match-row td.match-name .match-details,
+  body .odds-table .single-match-row td.match-name .team-names {
+    margin-left: 5px !important;
+  }
+  .odds-table .single-match-row td.odd-cell {
+    width: auto;
+    min-width: 20px;
+  }
+
+  .center-content .popular-bets .days {
+    width: calc(100% - 160px);
+    ul {
+      padding-right: 0px;
+      li {
+        font-size: 13px;
+        padding: 0 5px;
+      }
+    }
+  }
+  .odds-table .match-name .team-names {
+    height: auto !important;
+    min-height: 25px;
   }
 }
 
