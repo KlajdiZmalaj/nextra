@@ -9427,7 +9427,6 @@ span {
   background: red;
   position: absolute;
 }
-
 .table_footer .row_details.evento {
   padding: 5px;
   background: rgba(0, 0, 0, 0.2);
@@ -9483,6 +9482,23 @@ span {
   font-weight: normal;
   margin-bottom: 5px;
 }
+.table_footer
+  .row_details.evento
+  .first_row
+  .event_details
+  .team-names
+  .live_label {
+  float: right;
+  margin-right: 5px;
+  border: 1px solid;
+  padding: 1px 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 16px;
+  font-size: 11px;
+  border-radius: 3px;
+  color: #fff;
+}
 .table_footer .row_details.evento .first_row .event_details .event-date {
   color: #ba77fd;
   margin-bottom: 10px;
@@ -9498,4 +9514,8 @@ span {
 }
 .table_footer .row_details.evento .row_details_more {
   margin-bottom: 5px;
+}
+.table_footer .row_details.evento .row_details_more .row_details:nth-child(5),
+.table_footer .row_details.evento .row_details_more .row_details:nth-child(6) {
+  display: none;
 }
