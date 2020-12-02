@@ -9276,3 +9276,154 @@ span {
 .new_user_form form .row .cell:nth-child(15) .input-wrapper .label:after {
   display: none;
 }
+
+.fields.lista_messagi .row .printer,
+.fields.lista_messaggi.lista_movimenti .row .printer,
+.fields.lista_messaggi.access-list .row .printer,
+.fields.lista_messagi.giroconto .row .printer {
+  cursor: pointer;
+  position: absolute;
+  right: 22px;
+  top: 4px;
+  width: 24px;
+  height: 20px;
+  z-index: 999;
+}
+.fields.lista_messagi .row .printer span,
+.fields.lista_messaggi.lista_movimenti .row .printer span,
+.fields.lista_messaggi.access-list .row .printer span,
+.fields.lista_messagi.giroconto .row .printer span {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://nextra.nextra.bet/bbgame/images/print-button-white.png");
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.coupon_widget
+  .single-block
+  .betslip
+  #coupon
+  #couponEvents
+  .single-event
+  .selected-bet
+  .remove-icon {
+  height: 26px;
+  width: 36px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-right: 1px solid #b3b3ba;
+  float: left;
+  cursor: pointer;
+}
+.coupon_widget
+  .single-block
+  .betslip
+  #coupon
+  #couponEvents
+  .single-event
+  .selected-bet {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.coupon_widget
+  .single-block
+  .betslip
+  #coupon
+  #couponEvents
+  .single-event
+  .selected-bet
+  .bet {
+  width: calc(100% - 37px);
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.coupon_widget
+  .single-block
+  .betslip
+  #coupon
+  #couponEvents
+  .single-event
+  .selected-bet
+  .bet
+  .quote-holder {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.coupon_widget
+  .single-block
+  .betslip
+  #coupon
+  #couponEvents
+  .single-event
+  .selected-bet
+  .bet
+  .quote-holder
+  .quote.old {
+  line-height: 15px;
+  margin-top: -5px;
+  text-decoration: none;
+  color: #00113c;
+  position: relative;
+}
+
+.coupon_widget
+  .single-block
+  .betslip
+  #coupon
+  #couponEvents
+  .single-event
+  .selected-bet
+  .bet
+  .quote-holder
+  .quote.old:empty {
+  display: none;
+}
+
+.coupon_widget
+  .single-block
+  .betslip
+  #coupon
+  #couponEvents
+  .single-event
+  .selected-bet
+  .bet
+  .quote-holder
+  .quote.old:not(:empty):after {
+  display: inline-block;
+  content: "";
+  height: 1px;
+  width: calc(100% - 3px);
+  left: -2px;
+  top: calc(50% - 1px);
+  background: red;
+  position: absolute;
+}
