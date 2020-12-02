@@ -5107,3 +5107,94 @@ body #tabletsDay {
   background: #fff;
   color: #000;
 }
+
+// start remove closed left menu
+.side-bar.left-side-bar.closed-by-toggle.closed {
+  width: 266px;
+  flex-shrink: unset;
+
+  .single-block .block-title {
+    display: flex;
+  }
+  .single-block .sports-menu {
+    display: inline-block;
+  }
+
+  .single-block:first-child .block-title {
+    display: flex;
+  }
+  .single-block:first-child span,
+  .single-block:first-child .title-icon {
+    display: inline-block;
+  }
+  .single-sport .anchor {
+    padding: 8px 0 8px 35px;
+    font-size: 13px;
+    height: auto;
+  }
+
+  > .single-block:first-child .block-title:before {
+    content: "\f1e3" !important;
+  }
+  > .single-block:first-child .title-icon {
+    display: none !important;
+  }
+  .single-sport .anchor .trigger {
+    display: inline-block;
+  }
+  .single-sport .anchor .check {
+    display: block;
+  }
+  .single-block.antepost {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 1279px) {
+  .center-content.wide.left-closed {
+    width: calc(100% - 546px);
+  }
+
+  .side-bar.left-side-bar.closed {
+    width: 266px;
+    flex-shrink: unset;
+    position: relative;
+
+    .single-block .block-title {
+      display: flex;
+    }
+    .single-block .sports-menu {
+      display: inline-block;
+    }
+
+    .single-block:first-child .block-title {
+      display: flex;
+    }
+    .single-block:first-child span,
+    .single-block:first-child .title-icon {
+      display: inline-block;
+    }
+    .single-sport .anchor {
+      padding: 8px 0 8px 35px;
+      font-size: 13px;
+      height: auto;
+    }
+
+    > .single-block:first-child .block-title:before {
+      content: "\f1e3" !important;
+    }
+    > .single-block:first-child .title-icon {
+      display: none !important;
+    }
+    .single-sport .anchor .trigger {
+      display: inline-block;
+    }
+    .single-sport .anchor .check {
+      display: block;
+    }
+    .single-block.antepost {
+      display: flex;
+    }
+  }
+}
+
+// end remove closed left menu
