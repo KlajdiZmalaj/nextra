@@ -5111,9 +5111,15 @@ body #tabletsDay {
 .submenu-top {
   display: none;
 }
+.center-content > .hovermenu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .hovermenu-container {
   position: relative;
   order: 1;
+  display: none;
   div#submenu-bot {
     height: auto !important;
   }
