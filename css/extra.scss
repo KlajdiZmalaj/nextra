@@ -2767,7 +2767,8 @@ input#resultDate {
   width: 100%;
 }
 .odds-table .single-match-row td.match-name {
-  min-width: 234px;
+  // min-width: 234px;
+  min-width: auto;
 }
 .logged-table.transactions-table.betlist-table #betlist td a .remove:before {
   content: "x";
