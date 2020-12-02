@@ -668,6 +668,13 @@ body .casino-section .game-grid {
     min-width: 100%;
   }
 }
+.clive-banner-container,
+.clive-container,
+.iframe-content {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
 
 .clive-banner-inner .clive-banner-img {
   min-width: auto;
@@ -5230,8 +5237,8 @@ body #tabletsDay {
 }
 @media only screen and (max-width: 1279px) {
   body {
-    min-width: 1030px;
-}
+    min-width: 1090px;
+  }
   .center-content.wide.left-closed {
     width: calc(100% - 546px);
   }
@@ -5328,4 +5335,10 @@ body #tabletsDay {
   }
 }
 
+.logged-page .left-side-bar.closed .logged-menu ul li ul li a {
+  font-size: 12px;
+}
+.logged-page .left-side-bar.closed .logged-menu ul li.has-sub-menu > i {
+  display: none;
+}
 // end remove closed left menu
