@@ -5107,11 +5107,50 @@ body #tabletsDay {
   background: #fff;
   color: #000;
 }
+.submenu-top {
+  display: none;
+}
 .hovermenu-container {
   position: relative;
   order: 1;
-  div#submenu-bot.height-fix {
-    height: 32px;
+  div#submenu-bot {
+    height: auto !important;
+  }
+  .submenu-bot-inner {
+    padding: 5px;
+  }
+  .submenu-bot-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .submenu-opt-b {
+    width: 150px;
+    padding: 2px 10px;
+    border-radius: 0;
+    height: 23px;
+    padding: 0;
+  }
+  .submenu-opt-a {
+    padding: 2px 10px;
+    border-radius: 0;
+    height: 23px;
+    background-size: 14px;
+  }
+  .submenu-opt-c {
+    border-radius: 0;
+    height: 23px;
+    i {
+      font-size: 17px;
+    }
+  }
+  select#quickTransferUser {
+    width: 220px;
+  }
+  .submenu-opt-b-input {
+    width: 100%;
+    height: auto;
   }
 }
 
