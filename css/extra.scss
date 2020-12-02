@@ -5234,7 +5234,7 @@ body #tabletsDay {
   }
 
   .side-bar.left-side-bar.closed {
-    width: 266px;
+    width: 220px;
     flex-shrink: unset;
     position: relative;
 
@@ -5297,6 +5297,29 @@ body #tabletsDay {
   .odds-table .match-name .team-names {
     height: auto !important;
     min-height: 25px;
+  }
+
+  .center-content
+    .match-of-the-day
+    .odds-block-type-percentages
+    .single-odd-block
+    .odd-type-row
+    .odd-holder {
+    width: 60px;
+  }
+  .center-content
+    .match-of-the-day
+    .odds-block-type-percentages
+    .single-odd-block
+    .odd-type-row
+    .percentage {
+    width: calc(100% - 70px);
+    padding: 5px 4px;
+  }
+  .center-content .percentage-block .single-over-under .team-names .home-team,
+  .center-content .percentage-block .single-over-under .team-names .away-team {
+    font-size: 12px;
+    text-transform: capitalize;
   }
 }
 
