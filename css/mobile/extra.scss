@@ -9274,3 +9274,34 @@ span {
 .new_user_form form .row .cell:nth-child(15) .input-wrapper .label:after {
   display: none;
 }
+
+.fields.lista_messagi .row .printer,
+.fields.lista_messaggi.lista_movimenti .row .printer,
+.fields.lista_messaggi.access-list .row .printer,
+.fields.lista_messagi.giroconto .row .printer {
+  cursor: pointer;
+  position: absolute;
+  right: 22px;
+  top: 4px;
+  width: 24px;
+  height: 20px;
+  z-index: 999;
+}
+.fields.lista_messagi .row .printer span,
+.fields.lista_messaggi.lista_movimenti .row .printer span,
+.fields.lista_messaggi.access-list .row .printer span,
+.fields.lista_messagi.giroconto .row .printer span {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://nextra.nextra.bet/bbgame/images/print-button-white.png");
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+// .fields.lista_messagi .row .printer {
+//   background-image: url(https://nextra.nextra.bet/bbgame/images/print-button-white.png);
+//   background-size: 90%;
+//   background-position: center;
+//   background-repeat: no-repeat;
+// }
