@@ -9265,3 +9265,14 @@ span {
 .quote.old {
   text-decoration: line-through;
 }
+.new_user_form form .row .cell .input-wrapper .label:after {
+  content: "*";
+  color: red;
+  padding-left: 5px;
+}
+.new_user_form form .row .cell .input-wrapper.phone .label:after,
+.new_user_form form .row .cell:nth-child(13) .input-wrapper .label:after,
+.new_user_form form .row .cell:nth-child(14) .input-wrapper .label:after,
+.new_user_form form .row .cell:nth-child(15) .input-wrapper .label:after {
+  display: none;
+}
