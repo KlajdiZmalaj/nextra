@@ -5229,12 +5229,15 @@ body #tabletsDay {
   }
 }
 @media only screen and (max-width: 1279px) {
+  body {
+    min-width: 1030px;
+}
   .center-content.wide.left-closed {
     width: calc(100% - 546px);
   }
 
   .side-bar.left-side-bar.closed {
-    width: 220px;
+    width: 200px;
     flex-shrink: unset;
     position: relative;
 
@@ -5277,19 +5280,21 @@ body #tabletsDay {
   body .odds-table .single-match-row td.match-name .match-id,
   body .odds-table .single-match-row td.match-name .match-details,
   body .odds-table .single-match-row td.match-name .team-names {
-    margin-left: 5px !important;
+    margin-left: 0px !important;
   }
   .odds-table .single-match-row td.odd-cell {
     width: auto;
     min-width: 20px;
   }
-
+  .odd {
+    min-width: 29px;
+  }
   .center-content .popular-bets .days {
     width: calc(100% - 160px);
     ul {
       padding-right: 0px;
       li {
-        font-size: 13px;
+        font-size: 12px;
         padding: 0 5px;
       }
     }
