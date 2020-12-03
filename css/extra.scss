@@ -664,9 +664,6 @@ body .casino-section .game-grid {
       margin: 0 auto;
     }
   }
-  .clive-banner-inner .clive-banner-img {
-    min-width: 100%;
-  }
 }
 .clive-banner-container,
 .clive-container,
@@ -676,17 +673,12 @@ body .casino-section .game-grid {
   margin: 0 auto;
 }
 
-.clive-banner-inner .clive-banner-img {
-  min-width: auto;
-}
 .clive-container .clive-inner {
-  max-width: 1360px;
   width: 100%;
-  margin: 0 auto;
 }
 .clive-banner-inner .clive-banner-img {
-  max-width: 1360px;
-  min-width: 100%;
+  min-width: 100px;
+  width: 100%;
 }
 body .casino-section .casino-container .casino-inner {
   width: 100%;
@@ -5009,6 +5001,9 @@ span.ui-slider-handle:before {
 .poker-container {
   max-width: 1360px;
   margin: 0 auto;
+  .poker-inner {
+    width: 100%;
+  }
   .tour-container .tour-inner {
     display: none;
   }
@@ -5242,7 +5237,7 @@ body #tabletsDay {
 }
 @media only screen and (max-width: 1279px) {
   body {
-    min-width: 1090px;
+    min-width: 1200px;
   }
 
   .logged-center .usrlist {
@@ -5252,18 +5247,28 @@ body #tabletsDay {
     .usrlist-inner thead tr th:nth-child(2) {
       width: 100px;
     }
-    .usrlist-inner thead tr th:nth-child(4) {
-      width: 100px;
-    }
+
     #client_list td {
       padding: 5px 0px;
     }
   }
-
+  .logged-page .cashier-table tbody tr td:last-child .button.print {
+    width: auto;
+    height: 22px;
+    margin: 5px 0;
+    padding: 5px 5px;
+  }
   .center-content.wide.left-closed {
     width: calc(100% - 546px);
   }
-
+  .center-content.logged-center.big {
+    margin-left: 0;
+  }
+  .side-bar.left-side-bar {
+    width: 200px;
+    flex-shrink: unset;
+    position: relative;
+  }
   .side-bar.left-side-bar.closed {
     width: 200px;
     flex-shrink: unset;
