@@ -5244,6 +5244,22 @@ body #tabletsDay {
   body {
     min-width: 1090px;
   }
+
+  .logged-center .usrlist {
+    #client_list th {
+      padding: 5px 0px;
+    }
+    .usrlist-inner thead tr th:nth-child(2) {
+      width: 100px;
+    }
+    .usrlist-inner thead tr th:nth-child(4) {
+      width: 100px;
+    }
+    #client_list td {
+      padding: 5px 0px;
+    }
+  }
+
   .center-content.wide.left-closed {
     width: calc(100% - 546px);
   }
