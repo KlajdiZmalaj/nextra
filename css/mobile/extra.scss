@@ -5382,7 +5382,6 @@
   .bets-wrapper
   .single-betslip
   .single-betslip-title {
-  background-color: rgba(255, 255, 255, 0.28);
   display: inline-block;
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -5551,7 +5550,7 @@
   background: #fec82e;
   color: #222;
   &.refused {
-    background: #ad0000;
+    background: #ff423d;
     color: #fff;
   }
 }
