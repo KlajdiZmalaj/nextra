@@ -58,3 +58,21 @@ html body {
 // .coupon-details-buttons .button.cashout {
 //   display: none !important;
 // }
+
+
+//casino live
+.clive-container > .clive-inner > .clgames-container:nth-child(2) {
+  display: block;
+  margin-bottom: 0;
+}
+
+.clive-container .clive-inner {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div[data-source="in_play"] .main_container_tile, div[data-source="upcoming"] .main_container_tile {
+    background-color: #6d6b64;
+}
