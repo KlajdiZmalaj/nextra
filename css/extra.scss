@@ -5242,7 +5242,7 @@ body #tabletsDay {
 }
 @media only screen and (max-width: 1279px) {
   body {
-    min-width: 1090px;
+    min-width: 1200px;
   }
 
   .logged-center .usrlist {
@@ -5252,18 +5252,28 @@ body #tabletsDay {
     .usrlist-inner thead tr th:nth-child(2) {
       width: 100px;
     }
-    .usrlist-inner thead tr th:nth-child(4) {
-      width: 100px;
-    }
+
     #client_list td {
       padding: 5px 0px;
     }
   }
-
+  .logged-page .cashier-table tbody tr td:last-child .button.print {
+    width: auto;
+    height: 22px;
+    margin: 5px 0;
+    padding: 5px 5px;
+  }
   .center-content.wide.left-closed {
     width: calc(100% - 546px);
   }
-
+  .center-content.logged-center.big {
+    margin-left: 0;
+  }
+  .side-bar.left-side-bar {
+    width: 200px;
+    flex-shrink: unset;
+    position: relative;
+  }
   .side-bar.left-side-bar.closed {
     width: 200px;
     flex-shrink: unset;
