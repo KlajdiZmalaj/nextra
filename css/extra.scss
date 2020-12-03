@@ -668,7 +668,26 @@ body .casino-section .game-grid {
     min-width: 100%;
   }
 }
+.clive-banner-container,
+.clive-container,
+.iframe-content {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
 
+.clive-banner-inner .clive-banner-img {
+  min-width: auto;
+}
+.clive-container .clive-inner {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+}
+.clive-banner-inner .clive-banner-img {
+  max-width: 1360px;
+  min-width: 100%;
+}
 body .casino-section .casino-container .casino-inner {
   width: 100%;
   // padding: 15px;
@@ -4298,7 +4317,18 @@ body .odds-table .single-match-row td.match-name {
   width: 210px;
   height: 148.583px;
 }
-
+.game-overlay-inner .game-pro-container .game-pro-ico {
+  width: 100%;
+}
+@media only screen and (max-width: 1279px) {
+  html .game-grid {
+    column-gap: 10px;
+  }
+  .game-grid {
+    column-gap: 10px;
+    margin-bottom: 10px;
+  }
+}
 .side-bar
   .single-block.betslip-holder
   .betslip
@@ -5169,6 +5199,9 @@ body #tabletsDay {
   width: 266px;
   flex-shrink: unset;
 
+  .single-sport.active .states {
+    display: block !important;
+  }
   .single-block .block-title {
     display: flex;
   }
@@ -5188,7 +5221,9 @@ body #tabletsDay {
     font-size: 13px;
     height: auto;
   }
-
+  .single-sport .states .state > .anchor.special {
+    padding: 0 0 0 5px;
+  }
   > .single-block:first-child .block-title:before {
     content: "\f1e3" !important;
   }
@@ -5206,15 +5241,36 @@ body #tabletsDay {
   }
 }
 @media only screen and (max-width: 1279px) {
+  body {
+    min-width: 1090px;
+  }
+
+  .logged-center .usrlist {
+    #client_list th {
+      padding: 5px 0px;
+    }
+    .usrlist-inner thead tr th:nth-child(2) {
+      width: 100px;
+    }
+    .usrlist-inner thead tr th:nth-child(4) {
+      width: 100px;
+    }
+    #client_list td {
+      padding: 5px 0px;
+    }
+  }
+
   .center-content.wide.left-closed {
     width: calc(100% - 546px);
   }
 
   .side-bar.left-side-bar.closed {
-    width: 266px;
+    width: 200px;
     flex-shrink: unset;
     position: relative;
-
+    .single-sport.active .states {
+      display: block !important;
+    }
     .single-block .block-title {
       display: flex;
     }
@@ -5234,7 +5290,9 @@ body #tabletsDay {
       font-size: 13px;
       height: auto;
     }
-
+    .single-sport .states .state > .anchor.special {
+      padding: 0 0 0 5px;
+    }
     > .single-block:first-child .block-title:before {
       content: "\f1e3" !important;
     }
@@ -5251,6 +5309,61 @@ body #tabletsDay {
       display: flex;
     }
   }
+  body .odds-table .single-match-row td.match-name .match-id,
+  body .odds-table .single-match-row td.match-name .match-details,
+  body .odds-table .single-match-row td.match-name .team-names {
+    margin-left: 0px !important;
+  }
+  .odds-table .single-match-row td.odd-cell {
+    width: auto;
+    min-width: 20px;
+  }
+  .odd {
+    min-width: 29px;
+  }
+  .center-content .popular-bets .days {
+    width: calc(100% - 160px);
+    ul {
+      padding-right: 0px;
+      li {
+        font-size: 12px;
+        padding: 0 5px;
+      }
+    }
+  }
+  .odds-table .match-name .team-names {
+    height: auto !important;
+    min-height: 25px;
+  }
+
+  .center-content
+    .match-of-the-day
+    .odds-block-type-percentages
+    .single-odd-block
+    .odd-type-row
+    .odd-holder {
+    width: 60px;
+  }
+  .center-content
+    .match-of-the-day
+    .odds-block-type-percentages
+    .single-odd-block
+    .odd-type-row
+    .percentage {
+    width: calc(100% - 70px);
+    padding: 5px 4px;
+  }
+  .center-content .percentage-block .single-over-under .team-names .home-team,
+  .center-content .percentage-block .single-over-under .team-names .away-team {
+    font-size: 12px;
+    text-transform: capitalize;
+  }
 }
 
+.logged-page .left-side-bar.closed .logged-menu ul li ul li a {
+  font-size: 12px;
+}
+.logged-page .left-side-bar.closed .logged-menu ul li.has-sub-menu > i {
+  display: none;
+}
 // end remove closed left menu
