@@ -8443,12 +8443,23 @@ span.gpicon.icon-web + span {
     background: transparent;
   }
 }
+.lista_messagi .msg_list .msg .text {
+  font-weight: 400;
+}
+.lista_messagi .legenda_scommesse .tipo p {
+  font-weight: 400;
+}
+.lista_scommesse .msg_list .row.info .table_header {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  font-weight: 500;
+}
 
 .lista_messagi {
   .msg_list .msg {
     color: var(--col1);
-    border-top-color: var(--tableBorders);
     background: var(--bg1);
+    border: 1px solid var(--accent);
 
     .center {
       padding-bottom: 10px;
@@ -8839,10 +8850,11 @@ body {
 }
 
 .lista_messagi .row.tippo.utente input.input {
-  background: var(--bg1);
-  color: var(--col1);
+  background: #fff;
+  color: #222;
   box-shadow: inset 0 0 16px -8px black;
   padding-left: 10px;
+  width: 100%;
 }
 
 .lista_messagi.giroconto .row.tippo.utente input.input {
@@ -9426,4 +9438,8 @@ span {
   top: calc(50% - 1px);
   background: red;
   position: absolute;
+}
+.fields .button.login {
+  font-weight: 600;
+  font-size: 14px;
 }
