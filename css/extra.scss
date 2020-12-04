@@ -42,6 +42,10 @@
 .logged-center .change-password-page.edit-user-page .row:last-child {
   width: 100%;
 }
+.logged-center .change-password-page > .text {
+  display: none;
+}
+
 .logged-center .usrlist #client_list td {
   padding: 5px;
 }
@@ -4610,12 +4614,13 @@ body .odds-table .single-match-row td.match-name {
 
 .clive-container {
   background-color: #000;
-  padding: 20px;
+  padding: 50px 0px;
   .clgames-container,
   .clive-header,
   .clive-strip,
   .clive-games-container {
     display: none;
+    padding: 0px 30px;
   }
 
   .clive-inner .clive-games-container:last-child {
@@ -5239,7 +5244,12 @@ body #tabletsDay {
   body {
     min-width: 1200px;
   }
-
+  .header .top-header .top-header-content .primary-menu ul li.active a {
+    font-size: 14px;
+  }
+  .header .top-header .top-header-content .primary-menu li a:after {
+    font-size: 25px;
+  }
   .logged-center .usrlist {
     #client_list th {
       padding: 5px 0px;
