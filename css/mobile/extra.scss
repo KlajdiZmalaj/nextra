@@ -9038,6 +9038,13 @@ span {
   }
 }
 
+.msg_list.scommesse {
+  .table_footer .row_details.evento .first_row > .status {
+    width: auto;
+    padding-right: 5px;
+  }
+}
+
 .menu_items_container span.menu-language-container {
   display: flex !important;
   align-items: center;
