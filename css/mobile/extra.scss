@@ -8982,6 +8982,9 @@ span {
   &[data-op="p"] {
     background: #934add !important;
   }
+  &[data-op="20"] {
+    background: #dcb630 !important; //running
+  }
 }
 
 // .table_footer .row_details.evento .first_row > .status [data-status="0"] {
