@@ -5250,6 +5250,9 @@ body #tabletsDay {
   body .header .top-header .top-header-content .primary-menu li a:after {
     font-size: 25px;
   }
+  .event-viewer-wrapper {
+    position: relative;
+  }
   .logged-center .usrlist {
     #client_list th {
       padding: 5px 0px;
@@ -5384,4 +5387,8 @@ body #tabletsDay {
 // end remove closed left menu
 .logged-center .change-password-page .text {
   display: none;
+}
+
+.single-sport .anchor.sport-26 .icon {
+  background-image: url(//nextra.pcluster.info/masterbet/images/sport-icons/sport-icon-26.svg);
 }
