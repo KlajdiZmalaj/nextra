@@ -8982,6 +8982,9 @@ span {
   &[data-op="p"] {
     background: #934add !important;
   }
+  &[data-op="20"] {
+    background: #dcb630 !important; //running
+  }
 }
 
 // .table_footer .row_details.evento .first_row > .status [data-status="0"] {
@@ -9032,6 +9035,13 @@ span {
   }
   &[data-status="p"] {
     background: #934add !important;
+  }
+}
+
+.msg_list.scommesse {
+  .table_footer .row_details.evento .first_row > .status {
+    width: auto;
+    padding-right: 5px;
   }
 }
 

@@ -76,3 +76,7 @@ html body {
 div[data-source="in_play"] .main_container_tile, div[data-source="upcoming"] .main_container_tile {
     background-color: #6d6b64;
 }
+body .clive-container>.clive-inner>.clgames-container .clgames-item .clgames-overlay .clg-btns-a,
+body .clive-container .clive-item .clive-overlay .cl-btns-a {
+  background-color:var(--accent);
+}
