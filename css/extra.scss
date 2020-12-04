@@ -2243,9 +2243,9 @@ body
   display: flex;
   flex-flow: column;
 
-  @media (max-width: 1500px) {
-    flex-flow: row;
-  }
+  // @media (max-width: 1500px) {
+  //   flex-flow: row;
+  // }
 }
 .live-center-view-container.stats-active .lc-left-module,
 .live-center-view-container.stats-active .lc-right-module {
