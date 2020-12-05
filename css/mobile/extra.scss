@@ -9647,6 +9647,14 @@ span {
       flex-grow: 1;
       width: calc(100% / 3 - 2px);
       white-space: nowrap;
+      align-items: center;
+      justify-content: center;
+      display: none;
+      &:nth-child(2),
+      &:nth-child(3),
+      &:nth-child(4) {
+        display: flex;
+      }
       a {
         color: inherit;
         font-size: 14px;
