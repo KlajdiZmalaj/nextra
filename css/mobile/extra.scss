@@ -9684,12 +9684,23 @@ span {
         list-style-type: none;
       }
       li.casino-pro-item {
-        margin-right: 20px;
+        margin-right: 5px;
         flex-shrink: 0;
+        border: 1px solid var(--tableBorders);
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--bg1);
+        color: var(--col1);
         img {
           height: 30px;
         }
       }
     }
   }
+}
+.casino_container .casino_type .ct_games_container .ctg_games .ctg_game_item {
+  margin-top: 0;
+  margin-bottom: 0;
 }
