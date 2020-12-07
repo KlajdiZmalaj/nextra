@@ -5250,6 +5250,14 @@ body #tabletsDay {
     display: flex;
   }
 }
+
+.logged-page .cashier-table tbody tr td:last-child .button.print {
+  padding: 5px 5px;
+  height: 20px;
+  width: auto;
+  margin: 5px 0px;
+}
+
 @media only screen and (max-width: 1279px) {
   body {
     min-width: 1200px;
