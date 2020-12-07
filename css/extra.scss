@@ -2243,9 +2243,9 @@ body
   display: flex;
   flex-flow: column;
 
-  @media (max-width: 1500px) {
-    flex-flow: row;
-  }
+  // @media (max-width: 1500px) {
+  //   flex-flow: row;
+  // }
 }
 .live-center-view-container.stats-active .lc-left-module,
 .live-center-view-container.stats-active .lc-right-module {
@@ -4110,6 +4110,16 @@ body .odds-table .single-match-row td.match-name {
   background-image: url(//nextra.nextra.bet/nextra/images/sport-icons/sport-icon-117.svg);
 }
 
+.single-sport .anchor.sport-43 .icon {
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-43.svg);
+}
+.single-sport .anchor.sport-44 .icon {
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-44.svg);
+}
+.single-sport .anchor.sport-135 .icon {
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-135.svg);
+}
+
 .ovlive-b {
   background-color: var(--bg1);
   color: var(--col1);
@@ -5240,6 +5250,14 @@ body #tabletsDay {
     display: flex;
   }
 }
+
+.logged-page .cashier-table tbody tr td:last-child .button.print {
+  padding: 5px 5px;
+  height: 20px;
+  width: auto;
+  margin: 5px 0px;
+}
+
 @media only screen and (max-width: 1279px) {
   body {
     min-width: 1200px;
@@ -5249,6 +5267,9 @@ body #tabletsDay {
   }
   body .header .top-header .top-header-content .primary-menu li a:after {
     font-size: 25px;
+  }
+  .event-viewer-wrapper {
+    position: relative;
   }
   .logged-center .usrlist {
     #client_list th {
@@ -5384,4 +5405,8 @@ body #tabletsDay {
 // end remove closed left menu
 .logged-center .change-password-page .text {
   display: none;
+}
+
+.single-sport .anchor.sport-26 .icon {
+  background-image: url(//nextra.pcluster.info/masterbet/images/sport-icons/sport-icon-26.svg);
 }
