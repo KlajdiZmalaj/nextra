@@ -72,3 +72,19 @@ body.landing-page {
   justify-content: space-between;
   align-items: center;
 }
+
+.casino_container
+  .casino_type
+  .ct_games_container
+  .ctg_games
+  .ctg_game_item:nth-child(2) {
+  display: none !important;
+}
+
+.casino_container
+  .casino_type
+  .ct_games_container
+  .ctg_games
+  .ctg_game_item:nth-child(2)[class*="cat_"] {
+  display: flex !important;
+}

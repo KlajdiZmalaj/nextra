@@ -74,3 +74,19 @@ html .header .top-header .top-header-content .logo-holder a:before {
 div[data-source="in_play"] .main_container_tile, div[data-source="upcoming"] .main_container_tile {
     background-color: #6d6b64;
 }
+
+.casino_container
+  .casino_type
+  .ct_games_container
+  .ctg_games
+  .ctg_game_item:nth-child(2) {
+  display: none !important;
+}
+
+.casino_container
+  .casino_type
+  .ct_games_container
+  .ctg_games
+  .ctg_game_item:nth-child(2)[class*="cat_"] {
+  display: flex !important;
+}
