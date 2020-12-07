@@ -9589,3 +9589,14 @@ span {
 .table_footer .row_details.evento .row_details_more .row_details:nth-child(6) {
   display: none;
 }
+
+.casino_container .casino_type .ct_games_container .ctg_games {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.ctg_game_item:after {
+  content: attr(data-name);
+  background: var(--teableHeadersBg);
+  color: var(--teableHeadersCol);
+}
