@@ -9744,3 +9744,8 @@ span {
     }
   }
 }
+img.casino-pro-item-img[alt="Novomatic"] {
+  filter: grayscale(1) invert(1) brightness(3);
+  width: 120px;
+  object-fit: contain;
+}
