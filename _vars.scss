@@ -1,63 +1,49 @@
-$skin: "topbet365";
-$cdnPath: "/nextra.pcluster.info/#{$skin}";
+$skin: "biwinner";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/topbet365/images/logo22.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/24/image/51345629667ab67c22bd180144b9a245.jpeg";
+$logoUrl: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NjkuNTUgOTMuNDYiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZmZkYjAwO30uY2xzLTJ7ZmlsbDojZmZmO308L3N0eWxlPjwvZGVmcz48ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTM2MS44Myw1Mi41NWExMCwxMCwwLDAsMC0zLjE4LTIuMTMsOS44Miw5LjgyLDAsMCwwLTMuOTEtLjc4SDMzOC4zOXYxOS45aDE2LjM1YTkuODIsOS44MiwwLDAsMCwzLjkxLS43OCwxMCwxMCwwLDAsMCwzLjE4LTIuMTNBMTAuMjUsMTAuMjUsMCwwLDAsMzY0LDYzLjVhOS40LDkuNCwwLDAsMCwuNzktMy44Nyw5LjY5LDkuNjksMCwwLDAtLjc5LTMuOTFBMTAuMTksMTAuMTksMCwwLDAsMzYxLjgzLDUyLjU1WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQ2NS4zOSwwSDIwLjc4QTIwLjgsMjAuOCwwLDAsMCwwLDIwLjc4VjkzLjQ2SDQ0OC43N2EyMC44MSwyMC44MSwwLDAsMCwyMC43OC0yMC43OVYwWk0yMC43OCw4OS4zQTE2LjYzLDE2LjYzLDAsMCwxLDQuMTYsNzIuNjdWMjAuNzhBMTYuNTYsMTYuNTYsMCwwLDEsOC45Myw5LjEzTDksOUExNi41NiwxNi41NiwwLDAsMSwyMC43OCw0LjE2SDI4MUwzMTYuNzgsODkuM1pNMzcyLjMsNjdhMTkuMjYsMTkuMjYsMCwwLDEtNC4wOSw2LDE5LDE5LDAsMCwxLTEzLjQ3LDUuNTZIMzI5LjM1VjQwLjY0aDI0LjE4YTguMzYsOC4zNiwwLDAsMCw4LjM0LTguMzgsOC4zMSw4LjMxLDAsMCwwLTguMzQtOC4zNWgtNS4zMXYwSDMyOS4zNVYxNC44N2gyNC4xOGExNi41MywxNi41MywwLDAsMSw2LjczLDEuNEExNy42OSwxNy42OSwwLDAsMSwzNjUuNzgsMjBhMTguMTMsMTguMTMsMCwwLDEsMy43NCw1LjUyLDE3LDE3LDAsMCwxLC4wOCwxMy4yNkExNy41OSwxNy41OSwwLDAsMSwzNjYsNDQuMzQsMTguODksMTguODksMCwwLDEsMzcyLjMsNjdabTc3LjM5LTQzLjA3SDQzNi45MlY3OC41OGgtOVYyMy45MUgzODkuMjlWNDAuNmgxMS42NHY5SDM4OS4yOXYxOS45SDQxNXY5SDM4MC4yNVYxNC44N2g2OS40NFoiLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iNDIuNzIgMTQuODggMTUuOTEgNzguNTggMjQuODIgNzguNTggNDIuNzIgMzYgNjAuNyA3OC41OCA2OS41MyA3OC41OCA0Mi43MiAxNC44OCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxNTguNjcgMTQuODggMTMxLjg3IDc4LjU4IDE0MC43OCA3OC41OCAxNTguNjcgMzYgMTc2LjY2IDc4LjU4IDE4NS40OCA3OC41OCAxNTguNjcgMTQuODgiLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMjY4LjQ5IDE0Ljg4IDI0MS42OCA3OC41OCAyNTAuNTkgNzguNTggMjY4LjQ5IDM2IDI4Ni40NyA3OC41OCAyOTUuMjkgNzguNTggMjY4LjQ5IDE0Ljg4Ii8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTA5Ljg1LDQ3LjZhMTcuMzcsMTcuMzcsMCwwLDAsOC4wNS0yMi4xNSwxNy4yOSwxNy4yOSwwLDAsMC0zLjcxLTUuNTMsMTcuNDgsMTcuNDgsMCwwLDAtNS41NC0zLjcsMTcuMTgsMTcuMTgsMCwwLDAtNi43Ni0xLjM1SDc4LjQ5djkuMDZoMjMuMzZhOC4zMSw4LjMxLDAsMCwxLDguMzUsOC4zNSw4LjMzLDguMzMsMCwwLDEtNSw3LjY2LDguNTEsOC41MSwwLDAsMS0zLjMuN0g3OC40OVY3OC41OGg5LjA1VjQ5LjUxaDEzLjg3bDEyLjI3LDI5LjA3aDkuMjNaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjM2LjksNTFhMTguNzEsMTguNzEsMCwwLDAtNS43OC02LjY1LDE3Ljk0LDE3Ljk0LDAsMCwwLDMuNjUtNS41NiwxNi43OSwxNi43OSwwLDAsMCwxLjMtNi41MiwxNi41NywxNi41NywwLDAsMC0xLjM5LTYuNzRBMTgsMTgsMCwwLDAsMjMwLjk0LDIwYTE3LjY5LDE3LjY5LDAsMCwwLTUuNTItMy43MywxNi41MywxNi41MywwLDAsMC02LjczLTEuNEgxOTQuNTJ2OS4wNmgxOC44N3YwaDUuM0E4LjMxLDguMzEsMCwwLDEsMjI3LDMyLjI2YTguMzYsOC4zNiwwLDAsMS04LjM0LDguMzhIMTk0LjUyVjc4LjU4aDI1LjM5YTE4LjYsMTguNiwwLDAsMCw3LjM4LTEuNDhBMTksMTksMCwwLDAsMjMzLjM4LDczYTE5LjIzLDE5LjIzLDAsMCwwLDQuMDgtNiwxOC4zMiwxOC4zMiwwLDAsMCwxLjQ4LTcuMzVBMTguNTYsMTguNTYsMCwwLDAsMjM2LjksNTFaTTIyOS4xMiw2My41YTEwLDEwLDAsMCwxLTUuMyw1LjI2LDkuODYsOS44NiwwLDAsMS0zLjkxLjc4SDIwMy41NlY0OS42NGgxNi4zNWE5Ljg2LDkuODYsMCwwLDEsMy45MS43OCw5LjkyLDkuOTIsMCwwLDEsNS4zLDUuMyw5Ljg2LDkuODYsMCwwLDEsLjc4LDMuOTFBOS41Niw5LjU2LDAsMCwxLDIyOS4xMiw2My41WiIvPjwvZz48L2c+PC9zdmc+";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
+
 html:root {
-  --accent: #ffeb3b;
-  --accent-bg: #fff;
-  --accent-txt: #14805e;
-  --primary-bg: #1c1c1c;
-  --primary-txt: #fff;
-  --secondary-bg: #2e2e2e;
+  --accent: #ffdb00;
+  --accent-bg: #ffffff;
+  --accent-txt: #000;
+  --primary-bg: #ffffff;
+  --primary-txt: #000000;
+  --secondary-bg: #182f38;
   --secondary-txt: #fff;
-  --mainBg: #282828;
+  --mainBg: #1d3842;
   --mainBgCol: #fff;
-  --bg1: #323232;
+  --bg1: #264653;
   --col1: #fff;
-  --teableHeadersBg: #14805e;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #636363;
+  --teableHeadersBg: #ffdb00;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #264653;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #535353;
-  --casinoGradient1: linear-gradient(
-    -90deg,
-    rgba(239, 32, 138, 1) 0%,
-    rgba(35, 116, 222, 1) 50%,
-    rgba(11, 138, 61, 1) 100%
-  );
+  --tableBorders: #42626f;
+  --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --casinoGradient2: #ffdb00;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "topbet356";
 }
 
-$secondary: #14805e;
+$secondary: #ffdb00;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #14805e;
-$secondaryDarkCol: #fff;
-$primary: #323232;
+$secondaryDark: #ffdb00;
+$secondaryDarkCol: #222;
+$primary: #333949;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #323232;
-
-html body {
-  background-position-y: 80px !important;
-  background-attachment: initial;
-  background-size: 1970px;
-}
-// .coupon-details-buttons .button.cashout {
-//   display: none !important;
-// }
+$sb-2: #333844;
 
 //casino live
 .clive-container > .clive-inner > .clgames-container:nth-child(2) {
@@ -71,34 +57,10 @@ html body {
   justify-content: space-between;
   align-items: center;
 }
-
-div[data-source="in_play"] .main_container_tile,
-div[data-source="upcoming"] .main_container_tile {
-  background-color: #6d6b64;
-}
-body
-  .clive-container
-  > .clive-inner
-  > .clgames-container
-  .clgames-item
-  .clgames-overlay
-  .clg-btns-a,
-body .clive-container .clive-item .clive-overlay .cl-btns-a {
-  background-color: var(--accent);
-}
-
 .casino_container
   .casino_type
   .ct_games_container
   .ctg_games
-  .ctg_game_item:nth-child(2) {
+  .ctg_game_item:nth-child(2):not([class*="cat_"]) {
   display: none !important;
-}
-
-.casino_container
-  .casino_type
-  .ct_games_container
-  .ctg_games
-  .ctg_game_item:nth-child(2)[class*="cat_"] {
-  display: flex !important;
 }
