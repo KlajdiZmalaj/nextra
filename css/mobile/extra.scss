@@ -9588,6 +9588,7 @@ span {
 .casino_container .casino_type .ct_games_container .ctg_games {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 .ctg_game_item {
   flex-flow: column;
@@ -9744,4 +9745,18 @@ img.casino-pro-item-img[alt="Novomatic"] {
   filter: grayscale(1) invert(1) brightness(3);
   width: 120px;
   object-fit: contain;
+}
+
+.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
+  &:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 190px;
+    background-image: url(https://nextra.pcluster.info/arababet/images/casinolive/clive-banner1.jpg);
+    background-position: topcenter;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
