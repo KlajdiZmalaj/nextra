@@ -168,3 +168,9 @@ html {
   justify-content: space-between;
   align-items: center;
 }
+
+.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
+  &:before {
+    background-image: url(//nextra.pcluster.info/masterbet/images/casinolive/clive-banner1.jpg) !important;
+  }
+}

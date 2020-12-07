@@ -1,187 +1,76 @@
-$skin: "masterbet";
+$skin: "biwinner";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/masterbet/images/logo2.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
+$logoUrl: "https://nextra.pcluster.info/crazybet/images/logo2.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/orange.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #95cd3b;
-  --accent-bg: #95cd3b;
-  --accent-txt: #000;
-  --primary-bg: #000;
+  --accent: #e51b1e;
+  --accent-bg: #ff5528;
+  --accent-txt: #fff;
+  --primary-bg: #2d2f32;
   --primary-txt: #fff;
-  --secondary-bg: #212931;
+  --secondary-bg: #242628;
   --secondary-txt: #fff;
-  --mainBg: #171d24;
+  --mainBg: #2a2a2a;
   --mainBgCol: #fff;
-  --bg1: #29333b;
+  --bg1: #3c3c3c;
   --col1: #fff;
-  --teableHeadersBg: #384351;
+  --teableHeadersBg: #e51b1e;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #14191d;
+  --teableSubHeadersBg: #191919;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #445461;
-  --casinoGradient1: linear-gradient(
-    to right,
-    #95cd3b00 3%,
-    #95cd3b 60%,
-    #95cd3b00 99%
-  );
-  --casinoGradient1-txt: #000;
+  --tableBorders: #595959;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "masterbet";
 }
 
-$secondary: #95cd3b;
+$secondary: #ea2125;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #95cd3b;
+$secondaryDark: #ea2125;
 $secondaryDarkCol: #fff;
-$primary: #607d8b;
+$primary: #323232;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #525b61;
+$sb-2: #323232;
 
 body {
   background-size: 2038px !important;
 }
 
-body.landing-page {
-  background-color: #31343d !important;
-  background-image: none;
+//casino live
+.clive-container > .clive-inner > .clgames-container:nth-child(2) {
+  display: block;
+  margin-bottom: 0;
 }
 
-.main-content.home-page
-  .left-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:nth-child(2)
-  .block-title
-  span {
-  color: var(--accent-bg);
-  font-weight: 500;
+.clive-container .clive-inner {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.single-sport .states .state .championship.selected .anchor {
-  color: var(--accent);
-}
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark:after,
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark {
-  border-color: var(--accent) !important;
-}
-
-.odds-table .second-header td.day {
-  color: var(--accent);
-}
-
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
-  border: 1px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-
-.tabs-holder .tabs-row .single-tab {
-  border-bottom: 2px solid transparent !important;
-}
-
-.tabs-holder .tabs-row .single-tab:hover,
-.tabs-holder .tabs-row .single-tab.active {
-  border-bottom: 2px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-.odds-table .second-header {
-  opacity: 1 !important;
-}
-
-.side-bar
-  .single-block.betslip-holder
-  .betslip
-  .selections-wrapper
-  .single-event
-  .selected-bet
-  .bet
-  .quote {
-  color: var(--accent);
-}
-
-.header .top-header .top-header-content .primary-menu .header-buttons > button,
-.header .top-header .top-header-content .primary-menu .header-buttons > a {
-  background: #000 !important;
-  color: #fff !important;
-}
-body
-  .side-bar
-  .single-block.betslip-holder
-  .betslip-controllers
-  .single-controller.active {
-  background: #14191d;
-  color: #e9e9e9;
-}
-.header .top-header .top-header-content .logo-holder a:before {
-  width: 230px !important;
-}
-html {
-  .live-odds-table table tr td.odd-holder .single-live-odd .label,
-  span.odd-type,
-  .odds-table .second-header td {
-    color: var(--accent);
-  }
-}
-
-html {
-  .virtu-box {
-    background-image: url(//nextra.pcluster.info/masterbet/images/virtual.jpg);
-    background-position-y: -80px;
-  }
-  .casino-section {
-    background-image: url(//nextra.pcluster.info/masterbet/images/casinonew.jpg);
-    background-size: 1360px;
-  }
-  body .casino-section .casino-container .casino-inner {
-    padding-top: 374px;
-    height: calc(100% - 388px) !important;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .game-grid {
-    column-gap: 18px;
-  }
+.casino_container
+  .casino_type
+  .ct_games_container
+  .ctg_games
+  .ctg_game_item:nth-child(2):not([class*="cat_"]) {
+  display: none !important;
 }
 
 .casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
   &:before {
-    background-image: url(//nextra.pcluster.info/masterbet/images/casinolive/clive-banner1.jpg) !important;
+    background-image: url(//nextra.pcluster.info/crazybet/images/casinolive/clive-banner1.jpg) !important;
   }
 }
