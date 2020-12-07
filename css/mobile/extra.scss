@@ -9747,7 +9747,10 @@ img.casino-pro-item-img[alt="Novomatic"] {
   object-fit: contain;
 }
 
-.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
+.casino_container
+  > .casino_type:nth-child(1)
+  .ct_games_container
+  > .ctg_games:nth-child(1) {
   &:before {
     content: "";
     display: block;
