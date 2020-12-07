@@ -72,14 +72,6 @@ $sb-2: #444444;
   .casino_type
   .ct_games_container
   .ctg_games
-  .ctg_game_item:nth-child(2) {
+  .ctg_game_item:nth-child(2):not([class*="cat_"]) {
   display: none !important;
-}
-
-.casino_container
-  .casino_type
-  .ct_games_container
-  .ctg_games
-  .ctg_game_item:nth-child(2)[class*="cat_"] {
-  display: flex !important;
 }
