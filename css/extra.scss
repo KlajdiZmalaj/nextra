@@ -5423,3 +5423,32 @@ body #tabletsDay {
 //@at-root
 //@error
 */
+
+#miniTablets {
+  .ui-widget-content {
+    border: 0;
+    background: var(--accent-bg);
+    color: var(--accent-col);
+    border: 0 !important;
+    border-radius: 0 !important;
+    height: 4px;
+  }
+  .ui-slider-range.ui-corner-all.ui-widget-header.ui-slider-range-max {
+    background: var(--mainBg);
+  }
+  div#customhandle_7 {
+    width: auto;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: -2px;
+    padding: 0 4px;
+    cursor: pointer;
+    background: var(--accent-bg);
+    color: var(--accent-txt);
+    border: 0;
+    border-radius: 0;
+  }
+}

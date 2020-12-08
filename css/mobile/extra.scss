@@ -10314,12 +10314,17 @@ img.casino-pro-item-img[alt="Novomatic"] {
       display: flex;
       margin-right: 1px !important;
     }
+    .radio-holder .radio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     .row {
       display: flex;
       flex-flow: row wrap;
       .cell {
         width: 50%;
-        @media(max-width:600px) {
+        @media (max-width: 600px) {
           width: 100%;
         }
         .label {
