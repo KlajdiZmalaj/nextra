@@ -1,41 +1,47 @@
-$skin: "biwinner";
-$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$skin: "topbet365";
+$cdnPath: "/nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/crazybet/images/logo2.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/orange.jpg";
+$logoUrl: "https://nextra.pcluster.info/topbet365/images/logo22.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/24/image/51345629667ab67c22bd180144b9a245.jpeg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #e51b1e;
-  --accent-bg: #ff5528;
-  --accent-txt: #fff;
-  --primary-bg: #2d2f32;
+  --accent: #ffeb3b;
+  --accent-bg: #fff;
+  --accent-txt: #14805e;
+  --primary-bg: #1c1c1c;
   --primary-txt: #fff;
-  --secondary-bg: #242628;
+  --secondary-bg: #2e2e2e;
   --secondary-txt: #fff;
-  --mainBg: #2a2a2a;
+  --mainBg: #282828;
   --mainBgCol: #fff;
-  --bg1: #3c3c3c;
+  --bg1: #323232;
   --col1: #fff;
-  --teableHeadersBg: #e51b1e;
+  --teableHeadersBg: #14805e;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #191919;
+  --teableSubHeadersBg: #636363;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #595959;
-  --casinoGradient1: #000000;
+  --tableBorders: #535353;
+  --casinoGradient1: linear-gradient(
+    -90deg,
+    rgba(239, 32, 138, 1) 0%,
+    rgba(35, 116, 222, 1) 50%,
+    rgba(11, 138, 61, 1) 100%
+  );
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #636363;
+  --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "topbet356";
 }
 
-$secondary: #ea2125;
+$secondary: #14805e;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #ea2125;
+$secondaryDark: #14805e;
 $secondaryDarkCol: #fff;
 $primary: #323232;
 $white: #ebebeb;
@@ -44,14 +50,22 @@ $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #323232;
 
-body {
-  background-size: 2038px !important;
+html body {
+  background-position-y: 80px !important;
+  background-attachment: initial;
+  background-size: 1970px;
 }
+// .coupon-details-buttons .button.cashout {
+//   display: none !important;
+// }
 
 //casino live
 .clive-container > .clive-inner > .clgames-container:nth-child(2) {
-  display: block;
+  display: none;
   margin-bottom: 0;
+}
+.clive-container .clive-inner .clive-games-container:last-child {
+  margin: 0 auto;
 }
 
 .clive-container .clive-inner {
@@ -61,6 +75,20 @@ body {
   align-items: center;
 }
 
+div[data-source="in_play"] .main_container_tile,
+div[data-source="upcoming"] .main_container_tile {
+  background-color: #6d6b64;
+}
+body
+  .clive-container
+  > .clive-inner
+  > .clgames-container
+  .clgames-item
+  .clgames-overlay
+  .clg-btns-a,
+body .clive-container .clive-item .clive-overlay .cl-btns-a {
+  background-color: var(--accent);
+}
 .casino_container
   .casino_type
   .ct_games_container
@@ -71,6 +99,6 @@ body {
 
 .casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
   &:before {
-    background-image: url(//nextra.pcluster.info/crazybet/images/casinolive/clive-banner1.jpg) !important;
+    background-image: url(//nextra.pcluster.info/topbet365/images/casinolive/clive-banner1.jpg) !important;
   }
 }

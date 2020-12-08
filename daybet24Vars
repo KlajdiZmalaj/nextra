@@ -54,10 +54,12 @@ $sb-2: #444444;
 
 //casino live
 .clive-container > .clive-inner > .clgames-container:nth-child(2) {
-  display: block;
+  display: none;
   margin-bottom: 0;
 }
-
+.clive-container .clive-inner .clive-games-container:last-child {
+  margin: 0 auto;
+}
 .clive-container .clive-inner {
   display: flex;
   flex: 1 1;
