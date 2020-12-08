@@ -10308,11 +10308,11 @@ img.casino-pro-item-img[alt="Novomatic"] {
 .form-holder.new_user_form {
   form {
     .date-holder .select {
-      min-width: auto;
+      min-width: auto !important;
       width: calc(100% / 3);
-      margin: 0;
+      margin: 0 !important;
       display: flex;
-      margin-right: 1px;
+      margin-right: 1px !important;
     }
     .row {
       display: flex;
