@@ -368,9 +368,9 @@
 
 #users-list .users_table .body .user[data-active="1"] .body_cell .level .arrow {
   border: none;
-  width: 5px;
-  height: 5px;
-  border: 1px solid var(--tableBorders);
+  width: 10px;
+  height: 10px;
+  border: 1px solid #00a651;
   border-radius: 50%;
 }
 #users-list .users_table.level_2 .body .user .body_cell {
@@ -514,7 +514,7 @@
   background-image: url(https://nextra.pcluster.info/images/users/cash-reg-ico.png);
 }
 #users-list .userList_legend .single-item.removed:before {
-  background-image: url(https://nextra.nextra.bet/nextra/images/users/person-na.png);
+  background-image: url(https://nextra.pcluster.info/nextra/images/users/person-na.png);
 }
 #users-list .userList_legend .single-item.active {
   padding-left: 24px;
