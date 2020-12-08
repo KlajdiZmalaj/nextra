@@ -10319,6 +10319,9 @@ img.casino-pro-item-img[alt="Novomatic"] {
       flex-flow: row wrap;
       .cell {
         width: 50%;
+        @media(max-width:600px) {
+          width: 100%;
+        }
         .label {
           color: inherit;
         }
