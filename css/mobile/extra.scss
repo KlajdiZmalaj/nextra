@@ -9132,7 +9132,9 @@ div[data-source="in_play"][data-sport-id="1"] p.sport_icon span.glyph:before,
 div[data-source="upcoming"][data-sport-id="1"] p.sport_icon span.glyph:before {
   color: var(--mainBgCol);
 }
-
+div[data-source="in_play"] p.sport_icon .flag-icon {
+  margin-top: 5px;
+}
 #coupon-widget .block-title:before {
   content: "\f543";
   font-family: "Font Awesome 5 Pro";
