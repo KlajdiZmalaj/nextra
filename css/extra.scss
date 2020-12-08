@@ -5268,6 +5268,12 @@ body #tabletsDay {
   body .header .top-header .top-header-content .primary-menu li a:after {
     font-size: 25px;
   }
+  body .header .top-header .top-header-content .primary-menu {
+    justify-content: left;
+  }
+  body .header .top-header .top-header-content {
+    justify-content: space-around;
+  }
   .event-viewer-wrapper {
     position: relative;
   }
