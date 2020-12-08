@@ -21,14 +21,18 @@
   width: 24px;
   padding: 0;
   background-color: var(--accent-bg);
-  color: var(--accent-col);
+  color: var(--accent-txt);
   margin-left: 15px;
   border: 1px solid;
   position: relative;
-  background-image: url(../../images/cross.png);
-  background-size: 48%;
-  background-position: center;
-  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:before {
+    content: "\f00d";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 18px;
+  }
 }
 #users-list .search-results {
   padding: 10px;
@@ -514,7 +518,7 @@
   background-image: url(https://nextra.pcluster.info/images/users/cash-reg-ico.png);
 }
 #users-list .userList_legend .single-item.removed:before {
-  background-image: url(https://nextra.pcluster.info/nextra/images/users/person-na.png);
+  background-image: url(https://nextra.pcluster.info/images/users/person-na.png);
 }
 #users-list .userList_legend .single-item.active {
   padding-left: 24px;
