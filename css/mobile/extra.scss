@@ -104,20 +104,37 @@
 #users-list .users_table .body .user .body_cell .level {
   text-align: center;
 }
-#users-list .users_table .body .user .body_cell .level .arrow {
-  display: inline-block;
-  width: auto;
-  height: 0;
-  margin-right: 6px;
-  border: 6px solid;
-  border-left: 12px solid var(--tableBorders);
-  border-right: none;
-  border-bottom-width: 6px;
-  border-top-color: transparent;
-  border-bottom-color: transparent;
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
+#users-list .users_table .body .user .body_cell .level {
+  .arrow {
+    display: inline-block;
+    width: auto;
+    height: 0;
+    margin-right: 6px;
+    border: 6px solid;
+    border-left: 12px solid var(--tableBorders);
+    border-right: none;
+    border-bottom-width: 6px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  &[data-active="3"] {
+    .arrow {
+      border-left: 12px solid #00aeef;
+    }
+  }
+  &[data-active="2"] {
+    .arrow {
+      border-left: 12px solid #ec008c;
+    }
+  }
+  &[data-active="1"] {
+    .arrow {
+      border-left: 12px solid #00a651;
+    }
+  }
 }
 #users-list .users_table .body .user .body_cell .level .level-number {
   display: inline-block;
@@ -348,9 +365,7 @@
 #users-list .users_table .body .user[data-active="2"] {
   background: rgba(255, 255, 255, 0);
 }
-#users-list .users_table .body .user[data-active="1"] {
-  background: var(--accent);
-}
+
 #users-list .users_table .body .user[data-active="1"] .body_cell .level .arrow {
   border: none;
   width: 5px;
