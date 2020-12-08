@@ -5443,7 +5443,7 @@ body #tabletsDay {
   .ui-slider-range.ui-corner-all.ui-widget-header.ui-slider-range-max {
     background: var(--mainBg);
   }
-  div#customhandle_7 {
+  div[id*="customhandle_"] {
     width: auto;
     font-size: 10px;
     display: flex;
