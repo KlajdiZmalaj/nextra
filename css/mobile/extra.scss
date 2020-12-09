@@ -10429,24 +10429,24 @@ li.fast_menu_option:nth-child(10) span:before {
 .default-bets {
   .single-bet {
     &:nth-child(1) {
-      background-color: #bb3030;
-      color: #fff;
+      background: #bb3030 !important;
+      color: #fff !important;
     }
     &:nth-child(2) {
-      background-color: #bbb230;
-      color: #222;
+      background: #bbb230 !important;
+      color: #222!important;
     }
     &:nth-child(3) {
-      background-color: #40bb30;
-      color: #222;
+      background: #40bb30!important;
+      color: #222!important;
     }
     &:nth-child(4) {
-      background-color: #30bba8;
+      background: #30bba8!important;
       color: #222;
     }
     &:nth-child(5) {
-      background-color: #4e30bb;
-      color: #fff;
+      background: #4e30bb!important;
+      color: #fff!important;
     }
   }
 }
