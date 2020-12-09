@@ -418,6 +418,34 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+// #users-list
+//   .users_table.level_2
+//   .body
+//   .user
+//   .body_cell:nth-child(4)
+//   .cassa-holder
+//   .icon {
+//   width: 40px;
+//   height: 20px;
+//   background-size: 90%;
+//   background-position: 0 1px;
+//   background-repeat: no-repeat;
+//   display: inline-block;
+//   transform: translateY(3px);
+//   background-image: url(https://nextra.pcluster.info/css/fonts/switch.png);
+// }
+// #users-list
+//   .users_table.level_2
+//   .body
+//   .user
+//   .body_cell:nth-child(4)
+//   .cassa-holder[data-cc="1"]
+//   .icon {
+//   background-position: 0 -17px;
+//   transform: translateY(5px);
+//   background-image: url(https://nextra.pcluster.info/css/fonts/switch.png);
+// }
+
 #users-list
   .users_table.level_2
   .body
@@ -428,11 +456,13 @@
   width: 40px;
   height: 20px;
   background-size: 90%;
-  background-position: 0 1px;
+  background-position: center;
   background-repeat: no-repeat;
   display: inline-block;
-  transform: translateY(3px);
-  background-image: url(https://nextra.pcluster.info/css/fonts/switch.png);
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+  background-image: url(https://nextra.nextra.bet/nextra/images/ccassa_0.png);
 }
 #users-list
   .users_table.level_2
@@ -441,9 +471,7 @@
   .body_cell:nth-child(4)
   .cassa-holder[data-cc="1"]
   .icon {
-  background-position: 0 -17px;
-  transform: translateY(5px);
-  background-image: url(https://nextra.pcluster.info/css/fonts/switch.png);
+  background-image: url(https://nextra.nextra.bet/nextra/images/ccassa_1.png);
 }
 #users-list .users_table.level_2 .body .user .body_cell:nth-child(6) {
   width: calc(15%);

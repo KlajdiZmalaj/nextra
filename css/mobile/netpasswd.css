@@ -1,0 +1,531 @@
+#users-list .search_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 10px;
+}
+#users-list .search_row span {
+  line-height: 24px;
+  padding-right: 10px;
+}
+#users-list .search_row .close-search {
+  width: 24px;
+  padding: 0;
+  background-color: var(--accent-bg);
+  color: var(--accent-col);
+  margin-left: 15px;
+  border: 1px solid;
+  position: relative;
+  background-image: url(../../images/cross.png);
+  background-size: 48%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#users-list .search-results {
+  padding: 10px;
+}
+#users-list .search-results .single_user {
+  line-height: 18px;
+  font-size: 14px;
+  padding: 2px 0;
+}
+#users-list .users_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#users-list .users_table th {
+  border: 1px solid var(--tableBorders);
+}
+#users-list .users_table .header .head_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid var(--tableBorders);
+  border-bottom: 1px solid var(--tableBorders);
+}
+#users-list .users_table .header .head_row .head_cell {
+  width: 20%;
+  text-align: center;
+  line-height: 28px;
+  border-right: 1px solid var(--tableBorders);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  text-transform: capitalize;
+}
+#users-list .users_table .header .head_row .head_cell:first-child {
+  border-left: 1px solid var(--tableBorders);
+  width: calc(10%);
+}
+#users-list .users_table .header .head_row .head_cell:nth-child(2) {
+  width: calc(30%);
+}
+#users-list .users_table .header .head_row .head_cell:nth-child(3) {
+  width: calc(10%);
+}
+#users-list .users_table .header .head_row .head_cell:nth-child(4) {
+  width: calc(30%);
+}
+#users-list .users_table .header .head_row .head_cell:nth-child(4) div {
+  text-align: center;
+}
+#users-list .users_table .header .head_row .head_cell:nth-child(5) {
+  width: calc(20%);
+}
+#users-list .users_table .header .head_row .head_cell:nth-child(5):empty {
+  display: none;
+}
+#users-list .users_table .body .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--tableBorders);
+  border-bottom: 1px solid var(--tableBorders);
+}
+#users-list .users_table .body .user .body_cell {
+  width: calc(20% - 2px);
+  border-right: 1px solid var(--tableBorders);
+  line-height: 28px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#users-list .users_table .body .user .body_cell .level {
+  text-align: center;
+}
+#users-list .users_table .body .user .body_cell .level .arrow {
+  display: inline-block;
+  width: auto;
+  height: 0;
+  margin-right: 6px;
+  border: 6px solid;
+  border-left: 12px solid var(--tableBorders);
+  border-right: none;
+  border-bottom-width: 6px;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+#users-list .users_table .body .user .body_cell .level .level-number {
+  display: inline-block;
+}
+#users-list .users_table .body .user .body_cell .password-holder {
+  width: 100%;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+}
+#users-list .users_table .body .user .body_cell .password-holder .icon {
+  margin-top: 4px;
+  width: 20px;
+  height: 20px;
+  background-image: url(https://nextra.nextra.bet/nextra/images/locked.svg);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  -webkit-filter: brightness(100);
+  filter: brightness(100);
+}
+#users-list .users_table .body .user .body_cell .username-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+#users-list .users_table .body .user .body_cell .change_password_wrapper {
+  background: rgba(0, 0, 0, 0.4);
+}
+#users-list
+  .users_table
+  .body
+  .user
+  .body_cell
+  .change_password_wrapper
+  .input-wrapper {
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#users-list
+  .users_table
+  .body
+  .user
+  .body_cell
+  .change_password_wrapper
+  .input-wrapper
+  .label {
+  line-height: 20px;
+}
+#users-list
+  .users_table
+  .body
+  .user
+  .body_cell
+  .change_password_wrapper
+  .input-wrapper
+  input {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#users-list
+  .users_table
+  .body
+  .user
+  .body_cell
+  .change_password_wrapper
+  .buttons-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+#users-list
+  .users_table
+  .body
+  .user
+  .body_cell
+  .change_password_wrapper
+  .buttons-holder
+  .single-button {
+  padding: 0 10px;
+  margin-bottom: 7px;
+  font-weight: bold;
+  background: #f58634;
+  color: #fff;
+}
+#users-list .users_table .body .user .body_cell .type-holder {
+  width: 100%;
+  line-height: 28px;
+  text-align: center;
+  padding-right: 12px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#users-list .users_table .body .user .body_cell .type-holder .icon {
+  width: 20px;
+  height: 20px;
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+}
+#users-list .users_table .body .user .body_cell .type-holder .icon:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: green;
+  display: inline-block;
+  margin-left: 23px;
+  border-radius: 50%;
+  -webkit-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+#users-list
+  .users_table
+  .body
+  .user
+  .body_cell
+  .type-holder[data-active="3"]
+  .icon {
+  background-image: url(https://nextra.nextra.bet/nextra/images/user-shirt.png);
+}
+#users-list
+  .users_table
+  .body
+  .user
+  .body_cell
+  .type-holder[data-active="2"]
+  .icon {
+  background-image: url(https://nextra.nextra.bet/nextra/images/shop-ico.png);
+}
+#users-list
+  .users_table
+  .body
+  .user
+  .body_cell
+  .type-holder[data-active="1"][data-cc="0"]
+  .icon {
+  background-image: url(https://nextra.nextra.bet/nextra/images/joystick-ico.png);
+}
+#users-list
+  .users_table
+  .body
+  .user
+  .body_cell
+  .type-holder[data-active="1"][data-cc="1"]
+  .icon {
+  background-image: url(https://nextra.nextra.bet/nextra/images/cash-reg-ico.png);
+}
+#users-list
+  .users_table
+  .body
+  .user
+  .body_cell
+  .type-holder[data-status="0"]
+  .icon:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: red;
+  display: inline-block;
+  margin-left: 23px;
+  border-radius: 50%;
+  -webkit-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+#users-list .users_table .body .user .body_cell:first-child {
+  border-left: 1px solid var(--tableBorders);
+  width: calc(10%);
+}
+#users-list .users_table .body .user .body_cell:nth-child(2) {
+  width: calc(30%);
+}
+#users-list .users_table .body .user .body_cell:nth-child(3) {
+  width: calc(10%);
+}
+#users-list .users_table .body .user .body_cell:nth-child(4) {
+  width: calc(30%);
+}
+#users-list .users_table .body .user .body_cell:nth-child(4) div {
+  text-align: center;
+}
+#users-list .users_table .body .user .body_cell:nth-child(5) {
+  width: calc(20%);
+}
+#users-list .users_table .body .user .body_cell:nth-child(5):empty {
+  display: none;
+}
+#users-list .users_table .body .user .body_cell:last-child {
+  border-left: 1px solid var(--tableBorders);
+  border-top: 1px solid var(--tableBorders);
+  width: calc(100%);
+}
+#users-list .users_table .body .user[data-open="false"] {
+  display: none;
+}
+#users-list
+  .users_table
+  .body
+  .user[data-state="false"]
+  .body_cell
+  .level
+  .arrow {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+#users-list .users_table .body .user[data-active="3"] {
+  background: rgba(0, 0, 0, 0.3);
+}
+#users-list .users_table .body .user[data-active="2"] {
+  background: rgba(255, 255, 255, 0);
+}
+#users-list .users_table .body .user[data-active="1"] {
+  background: var(--accent);
+}
+#users-list .users_table .body .user[data-active="1"] .body_cell .level .arrow {
+  border: none;
+  width: 5px;
+  height: 5px;
+  border: 1px solid var(--tableBorders);
+  border-radius: 50%;
+}
+#users-list .users_table.level_2 .body .user .body_cell {
+  text-align: center;
+}
+#users-list .users_table.level_2 .body .user .body_cell:first-child {
+  width: calc(12%);
+}
+#users-list .users_table.level_2 .body .user .body_cell:nth-child(2) {
+  width: calc(28%);
+}
+#users-list
+  .users_table.level_2
+  .body
+  .user
+  .body_cell:nth-child(2)
+  .username-holder {
+  padding: 0 5px;
+}
+#users-list .users_table.level_2 .body .user .body_cell:nth-child(3) {
+  width: calc(15%);
+}
+#users-list .users_table.level_2 .body .user .body_cell:nth-child(4) {
+  width: calc(15%);
+}
+#users-list .users_table.level_2 .body .user .body_cell:nth-child(5) {
+  width: calc(15%);
+}
+#users-list
+  .users_table.level_2
+  .body
+  .user
+  .body_cell:nth-child(5)
+  .cassa-holder {
+  width: 100%;
+  line-height: 28px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#users-list
+  .users_table.level_2
+  .body
+  .user
+  .body_cell:nth-child(5)
+  .cassa-holder
+  .icon {
+  width: 40px;
+  height: 20px;
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+  background-image: url(https://nextra.nextra.bet/nextra/images/ccassa_0.png);
+}
+#users-list
+  .users_table.level_2
+  .body
+  .user
+  .body_cell:nth-child(5)
+  .cassa-holder[data-cc="1"]
+  .icon {
+  background-image: url(https://nextra.nextra.bet/nextra/images/ccassa_1.png);
+}
+#users-list .users_table.level_2 .body .user .body_cell:nth-child(6) {
+  width: calc(15%);
+}
+#users-list .users_table.level_2 .body .user .body_cell:last-child {
+  width: calc(100%);
+}
+#users-list .users_table.level_2 .body .user .body_cell:last-child:empty {
+  display: none;
+}
+#users-list .users_table.level_2 .header .head_row .head_cell {
+  text-align: center;
+}
+#users-list .users_table.level_2 .header .head_row .head_cell:first-child {
+  width: calc(12%);
+}
+#users-list .users_table.level_2 .header .head_row .head_cell:nth-child(2) {
+  width: calc(28%);
+}
+#users-list .users_table.level_2 .header .head_row .head_cell:nth-child(3) {
+  width: calc(15%);
+}
+#users-list .users_table.level_2 .header .head_row .head_cell:nth-child(4) {
+  width: calc(15%);
+}
+#users-list .users_table.level_2 .header .head_row .head_cell:nth-child(5) {
+  width: calc(15%);
+}
+#users-list .users_table.level_2 .header .head_row .head_cell:nth-child(6) {
+  width: calc(15%);
+}
+#users-list .userList_legend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 5px 0;
+}
+#users-list .userList_legend .single-item {
+  min-width: 58px;
+  padding-left: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  position: relative;
+}
+#users-list .userList_legend .single-item:before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 80%;
+}
+#users-list .userList_legend .single-item.admin:before {
+  background-image: url(https://nextra.nextra.bet/nextra/images/user-suit.png);
+}
+#users-list .userList_legend .single-item.agent:before {
+  background-image: url(https://nextra.nextra.bet/nextra/images/user-shirt.png);
+}
+#users-list .userList_legend .single-item.shop:before {
+  background-image: url(https://nextra.nextra.bet/nextra/images/shop-ico.png);
+}
+#users-list .userList_legend .single-item.player:before {
+  background-image: url(https://nextra.nextra.bet/nextra/images/joystick-ico.png);
+}
+#users-list .userList_legend .single-item.cashier:before {
+  background-image: url(https://nextra.nextra.bet/nextra/images/cash-reg-ico.png);
+}
+#users-list .userList_legend .single-item.removed:before {
+  background-image: url(https://nextra.nextra.bet/nextra/images/person-na.png);
+}
+#users-list .userList_legend .single-item.active {
+  padding-left: 24px;
+}
+#users-list .userList_legend .single-item.active:before {
+  background-color: green;
+  border-radius: 50%;
+  top: 8px;
+  width: 14px;
+  height: 14px;
+}
+#users-list .userList_legend .single-item.unactive {
+  padding-left: 24px;
+}
+#users-list .userList_legend .single-item.unactive:before {
+  background-color: red;
+  border-radius: 50%;
+  top: 8px;
+  width: 14px;
+  height: 14px;
+}
+
+/* SHOWING CASINO LIVE & CLIENT LIST IN MENU */
+
+[data-logged][data-access] .single_menu_item.casino_live {
+  display: block !important;
+}
+
+[data-logged="true"][data-access="3"] .single_menu_item.newclient,
+[data-logged="true"][data-access="2"] .single_menu_item.newclient,
+[data-logged="true"][data-access="3"] .single_menu_item.client_list,
+[data-logged="true"][data-access="2"] .single_menu_item.client_list {
+  display: block !important;
+}
+/* END */
