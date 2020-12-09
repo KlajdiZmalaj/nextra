@@ -3,7 +3,10 @@
 * {
   box-sizing: border-box;
 }
-
+.body_cell,
+.head_cell {
+  flex-grow: 1;
+}
 #users-list .search_row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -407,7 +410,7 @@
   .users_table.level_2
   .body
   .user
-  .body_cell:nth-child(5)
+  .body_cell:nth-child(4)
   .cassa-holder {
   width: 100%;
   line-height: 28px;
@@ -419,28 +422,28 @@
   .users_table.level_2
   .body
   .user
-  .body_cell:nth-child(5)
+  .body_cell:nth-child(4)
   .cassa-holder
   .icon {
   width: 40px;
   height: 20px;
   background-size: 90%;
-  background-position: center;
+  background-position: 0 1px;
   background-repeat: no-repeat;
   display: inline-block;
-  -webkit-transform: translateY(5px);
-  -ms-transform: translateY(5px);
-  transform: translateY(5px);
-  background-image: url(https://nextra.nextra.bet/nextra/images/ccassa_0.png);
+  transform: translateY(3px);
+  background-image: url(https://nextra.pcluster.info/css/fonts/switch.png);
 }
 #users-list
   .users_table.level_2
   .body
   .user
-  .body_cell:nth-child(5)
+  .body_cell:nth-child(4)
   .cassa-holder[data-cc="1"]
   .icon {
-  background-image: url(https://nextra.nextra.bet/nextra/images/ccassa_1.png);
+  background-position: 0 -17px;
+  transform: translateY(5px);
+  background-image: url(https://nextra.pcluster.info/css/fonts/switch.png);
 }
 #users-list .users_table.level_2 .body .user .body_cell:nth-child(6) {
   width: calc(15%);
@@ -10426,4 +10429,3 @@ img.casino-pro-item-img[alt="Novomatic"] {
 li.fast_menu_option:nth-child(10) span:before {
   background-image: url(https://nextra.pcluster.info/css/fonts/roulette.svg) !important;
 }
-
