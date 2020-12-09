@@ -10458,3 +10458,15 @@ img.casino-pro-item-img[alt="Novomatic"] {
 li.fast_menu_option:nth-child(10) span:before {
   background-image: url(https://nextra.pcluster.info/css/fonts/roulette.svg) !important;
 }
+
+.ctg_game_btn_login {
+  position: unset;
+  a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
