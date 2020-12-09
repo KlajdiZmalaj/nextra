@@ -48,3 +48,18 @@ $sb-2: #323232;
 .sports-container #LVSPORT_5 .matches .single-match .match-info, .sports-container #LVSPORT_5 .matches .single-match .match-odds, .sports-container #LVSPORT_5 .matches .single-match .match-info, .sports-container #LVSPORT_5 .matches .single-match .match-odds ,.sports-container #LVSPORT_23 .matches .single-match .match-info, .sports-container #LVSPORT_23 .matches .single-match .match-odds, .sports-container #LVSPORT_23 .matches .single-match .match-info, .sports-container #LVSPORT_23 .matches .single-match .match-odds {
   color :#fff !important
 }
+
+.header .top-header .top-header-content .logo-holder:before {
+    content: " ";
+    width: 48px;
+    height: 67px;
+    display: block;
+    position: absolute;
+    background-image: url(https://nextra.pcluster.info/naxbet365/images/ironmen.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header .top-header .top-header-content .logo-holder a:before {
+    left: 40px;
+}
