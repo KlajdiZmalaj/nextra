@@ -203,5 +203,19 @@ html {
       background-repeat: no-repeat;
       background-size: contain;
     }
+    &:before {
+      content: "";
+      width: 100%;
+      height: 300px;
+         background: url(//nextra.pcluster.info/masterbet/images/evo.jpg);
+      height: 300px;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      top: 200%;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
   }
 }
