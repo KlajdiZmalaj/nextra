@@ -10,27 +10,27 @@ $bodyCol: #000;
 $invet: 0;
 
 html:root {
-    --accent: #fec900;
-    --accent-bg: #fec900;
-    --accent-txt: #000;
-    --primary-bg: #ffffff;
-    --primary-txt: #707070;
-    --secondary-bg: #23211d;
-    --secondary-txt: #fff;
-    --mainBg: #1b1a17;
-    --mainBgCol: #fff;
-    --bg1: #23221e;
-    --col1: #fff;
-    --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
-    --teableHeadersCol: #000000;
-    --teableSubHeadersBg: #353532;
-    --teableSubHeadersCol: #ffffff;
-    --tableBorders: #3c3b37;
-    --casinoGradient1: #000000;
-    --casinoGradient1-txt: #fff;
-    --casinoGradient2: #f4c100;
-    --casinoGradient2-txt: #000;
-    --backDrops: #000000cf;
+  --accent: #fec900;
+  --accent-bg: #fec900;
+  --accent-txt: #000;
+  --primary-bg: #ffffff;
+  --primary-txt: #707070;
+  --secondary-bg: #23211d;
+  --secondary-txt: #fff;
+  --mainBg: #1b1a17;
+  --mainBgCol: #fff;
+  --bg1: #23221e;
+  --col1: #fff;
+  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #353532;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #3c3b37;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #f4c100;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
 }
 
 $secondary: #f4c100;
@@ -45,12 +45,10 @@ $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #444444;
 
-
 .torn-a {
-    background: var(--secondary-bg)!important;
-    color: var(--secondary-txt)!important;
+  background: var(--secondary-bg) !important;
+  color: var(--secondary-txt) !important;
 }
-
 
 //casino live
 .clive-container > .clive-inner > .clgames-container:nth-child(2) {
@@ -67,8 +65,10 @@ $sb-2: #444444;
   align-items: center;
 }
 
-div[data-source="in_play"] .main_container_tile, div[data-source="upcoming"] .main_container_tile {
-    background-color: #6d6b64;
+div[data-source="in_play"] .main_container_tile,
+div[data-source="upcoming"] .main_container_tile {
+  background: var(--teableHeadersBg);
+  color: var(--teableHeadersCol);
 }
 
 .casino_container
