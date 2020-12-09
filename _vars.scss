@@ -68,3 +68,7 @@ body {
 .header .top-header .top-header-content .logo-holder a:before {
   left: 40px;
 }
+
+div[data-source="in_play"] .sport_odds_main {
+  min-height: 80px !important;
+}
