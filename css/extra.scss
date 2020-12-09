@@ -5477,3 +5477,27 @@ body #tabletsDay {
   }
 }
 //end casino live evolution
+.default-bets {
+  .single-bet {
+    &:nth-child(1) {
+      background-color: #bb3030;
+      color: #fff;
+    }
+    &:nth-child(2) {
+      background-color: #bbb230;
+      color: #222;
+    }
+    &:nth-child(3) {
+      background-color: #40bb30;
+      color: #222;
+    }
+    &:nth-child(4) {
+      background-color: #30bba8;
+      color: #222;
+    }
+    &:nth-child(5) {
+      background-color: #4e30bb;
+      color: #fff;
+    }
+  }
+}
