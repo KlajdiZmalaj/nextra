@@ -2088,10 +2088,10 @@ body #oddsMenu tr {
   content: "\e905";
 }
 #indexCasino a:after {
-  content: "\e908";
+  content: "\e907";
 }
 #indexCasinoLive a:after {
-  content: "\e907";
+  content: "\e908";
 }
 #indexPoker a:after {
   content: "\e906";
@@ -5449,7 +5449,6 @@ body #tabletsDay {
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin-top: -2px;
     padding: 0 4px;
     cursor: pointer;
