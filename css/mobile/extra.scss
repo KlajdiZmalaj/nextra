@@ -8448,7 +8448,7 @@ a.button.right.login {
   overflow: auto;
 
   .fast_menu_option {
-    width: 140px !important;
+    width: 94px !important;
     display: flex;
     flex-flow: column;
     flex-shrink: 0;
@@ -8473,7 +8473,7 @@ a.button.right.login {
     }
 
     &:nth-child(7) {
-      order: 3;
+      order: 6;
     }
 
     &:nth-child(8) {
@@ -10377,4 +10377,7 @@ img.casino-pro-item-img[alt="Novomatic"] {
     width: 100%;
     text-align: center;
   }
+}
+li.fast_menu_option:nth-child(10) span:before {
+  background-image: url(https://nextra.pcluster.info/css/fonts/roulette.svg) !important;
 }
