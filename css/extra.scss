@@ -5458,3 +5458,22 @@ body #tabletsDay {
     border-radius: 0;
   }
 }
+
+//start casino live evolution
+.clive-container > .clive-inner > .clgames-container:nth-child(2) {
+  display: block;
+  margin-bottom: 0;
+}
+.clive-container .clive-inner {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
+  &:before {
+    background-image: url(//nextra.pcluster.info/masterbet/images/casinolive/clive-banner1.jpg) !important;
+  }
+}
+//end casino live evolution
