@@ -9464,6 +9464,19 @@ div[data-source="in_play"]
 .sport_content_odds.live[data-sport-id="3"] .live_result iframe {
   min-height: 340px;
 }
+.sport_content_odds.live[data-sport-id="4"] .live_result iframe {
+  min-height: 355px;
+}
+.sport_content_odds.live[data-sport-id="5"] .live_result iframe {
+  min-height: 255px;
+}
+.sport_content_odds.live[data-sport-id="20"] .live_result iframe {
+  min-height: 0px;
+  height: 0px;
+}
+.sport_content_odds.live[data-sport-id="23"] .live_result iframe {
+  min-height: 255px;
+}
 .live_result {
   background: #333 !important;
   p.info {
