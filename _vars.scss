@@ -76,3 +76,7 @@ div[data-source="upcoming"] .main_container_tile {
     background: #000000 !important;
   }
 }
+
+div[data-source="in_play"] .sport_odds_main {
+  min-height: 80px !important;
+}
