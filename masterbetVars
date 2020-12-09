@@ -185,3 +185,23 @@ html {
     background-image: url(//nextra.pcluster.info/masterbet/images/casinolive/clive-banner1.jpg) !important;
   }
 }
+
+.banner-block {
+  a[href="/Sport/became-an-agent"] {
+    position: relative;
+    &:after {
+      content: "";
+      width: 100%;
+      height: 300px;
+      background: url(//nextra.pcluster.info/masterbet/images/bookra.jpg);
+      height: 300px;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      top: 100%;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}

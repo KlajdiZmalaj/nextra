@@ -10283,12 +10283,33 @@ span {
         &:nth-child(4) {
           order: 1;
         }
+        &:nth-child(2) {
+          display: none;
+        }
+
         &:nth-child(6) {
           order: 2;
         }
-
+        &:nth-child(3) {
+          order: 3;
+        }
+        &:nth-child(5) {
+          order: 4;
+        }
+        &:nth-child(11) {
+          order: 5;
+        }
+        &:nth-child(9) {
+          order: 6;
+        }
+        &:nth-child(7) {
+          order: 7;
+        }
         &:nth-child(1) {
           order: 999;
+        }
+        &:last-child {
+          display: none;
         }
         img {
           height: 30px;
