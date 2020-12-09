@@ -71,3 +71,9 @@ div[data-source="upcoming"] .main_container_tile {
   color: var(--teableHeadersCol);
 }
 
+.sport_odds_main.live {
+div.quota {
+      background: #000000 !important;
+
+}
+}
