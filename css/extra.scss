@@ -5486,18 +5486,36 @@ body #tabletsDay {
 }
 
 //christamas
-.header .top-header .top-header-content .primary-menu ul li:after {
-  content: " ";
-  width: 42px;
-  height: 31px;
-  display: block;
+// .header .top-header .top-header-content .primary-menu ul li:after {
+//   content: " ";
+//   width: 42px;
+//   height: 31px;
+//   display: block;
+//   position: absolute;
+//   background-image: url(https://www.flaticon.com/premium-icon/icons/svg/3726/3726320.svg);
+//   background-size: contain;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   top: -33px;
+//   z-index: 1;
+// }
+
+// .header .top-header .top-header-content .primary-menu ul li {
+//   top: 20px;
+// }
+
+div.landing-page .banner-content:after {
+  content: "";
   position: absolute;
-  background-image: url(https://www.flaticon.com/premium-icon/icons/svg/3726/3726320.svg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  top: -33px;
-  z-index: 1;
+  top: -2px;
+  left: 0;
+  height: 100%;
+  background-size: initial;
+  background-repeat: repeat;
+  width: 100%;
+  background-image: url(https://i.giphy.com/media/CkBzt6qXCCXw4/giphy.webp);
+  opacity: 0.06;
+  z-index: 0;
 }
 
 .side-bar .single-block .block-title.toggle-title:before {
@@ -5510,9 +5528,6 @@ body #tabletsDay {
   background-size: initial;
   background-repeat: repeat;
   width: 100%;
-}
-.header .top-header .top-header-content .primary-menu ul li {
-  top: 20px;
 }
 
 .casino-section:after {
@@ -5529,5 +5544,8 @@ body #tabletsDay {
   z-index: 0;
   right: 0;
   opacity: 0.04;
+}
+.casino-section .casino-container {
+  z-index: 5;
 }
 //christamas
