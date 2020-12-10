@@ -5562,7 +5562,9 @@ div.landing-page .banner-content:after {
 .casino-section .casino-container {
   z-index: 5;
 }
-
+.header .top-header .top-header-content .primary-menu ul li:after {
+  pointer-events: none;
+}
 .header .top-header .top-header-content .primary-menu ul li:after {
   /* opacity: 0.9; */
   content: " ";
