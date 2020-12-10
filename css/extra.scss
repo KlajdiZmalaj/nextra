@@ -5549,3 +5549,21 @@ div.landing-page .banner-content:after {
   z-index: 5;
 }
 //christamas
+.main-content.home-page .grid {
+  position: relative;
+}
+.main-content.home-page .grid:after {
+  content: "";
+  width: 180px;
+  height: 300px;
+  /* background: #222; */
+  top: -30px;
+  position: absolute;
+  background-image: url(http://nextra.pcluster.info/images/xmas/xmas-ball.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: -150px;
+  z-index: -1;
+  filter: drop-shadow(1px -2px 36px var(--accent)) brightness(1.1)
+    grayscale(0.2);
+}
