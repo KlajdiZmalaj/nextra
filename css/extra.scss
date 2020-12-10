@@ -5610,6 +5610,36 @@ div.landing-page .banner-content:after {
   width: 36px;
 }
 
+.clive-container
+  .clive-inner
+  .clive-games-container
+  .clive-item.clive-item-big:before {
+  content: "";
+  position: absolute;
+  top: -14px;
+  left: 0;
+  height: 50px;
+  background: url(http://nextra.pcluster.info/images/xmas/icebig.png);
+  background-size: cover;
+  background-repeat: repeat;
+  width: 100%;
+}
+
+.clive-container
+  > .clive-inner
+  > .clgames-container:nth-child(2)
+  .clgames-inner
+  .clgames-item-big:before {
+  content: "";
+  position: absolute;
+  top: -14px;
+  left: 0;
+  height: 50px;
+  background: url(http://nextra.pcluster.info/images/xmas/icebig.png);
+  background-size: contain;
+  width: 100%;
+}
+
 //christamas
 .main-content.home-page .grid {
   position: relative;
