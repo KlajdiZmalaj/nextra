@@ -54,17 +54,17 @@ body {
   background-position-y: 100px;
 }
 
-.header .top-header .top-header-content .logo-holder:before {
-    content: " ";
-    width: 48px;
-    height: 67px;
-    display: block;
-    position: absolute;
-    background-image: url(https://nextra.pcluster.info/naxbet365/images/ironmen.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.header .top-header .top-header-content .logo-holder a:before {
-    left: 40px;
-}
+// .header .top-header .top-header-content .logo-holder:before {
+//     content: " ";
+//     width: 48px;
+//     height: 67px;
+//     display: block;
+//     position: absolute;
+//     background-image: url(https://nextra.pcluster.info/naxbet365/images/ironmen.png);
+//     background-size: contain;
+//     background-position: center;
+//     background-repeat: no-repeat;
+// }
+// .header .top-header .top-header-content .logo-holder a:before {
+//     left: 40px;
+// }
