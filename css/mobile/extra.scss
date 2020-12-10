@@ -9391,12 +9391,7 @@ body {
 }
 
 //
-[data-logged="true"] [data-access="1"] {
-  a.single_menu_item.wallet,
-  a.single_menu_item.cashout {
-    display: none !important;
-  }
-}
+
 .menu_items_container .single_menu_item.wallet,
 .menu_items_container .single_menu_item.cashout,
 .menu_items_container .single_menu_item.movimenti[href="/mobile/depositi"],
@@ -10377,6 +10372,8 @@ span {
   margin-top: 0;
   margin-bottom: 0;
   padding: 5px;
+  max-width: 225px;
+
   .ctg_g_icon {
     height: auto;
     img {
@@ -10473,5 +10470,14 @@ li.fast_menu_option:nth-child(10) span:before {
     top: 0;
     width: 100%;
     height: 100%;
+  }
+}
+
+.main_container[data-logged="true"][data-access="1"] {
+  .main_content .menu_items_container {
+    a.single_menu_item.wallet,
+    a.single_menu_item.cashout {
+      display: none !important;
+    }
   }
 }
