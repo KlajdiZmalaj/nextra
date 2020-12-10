@@ -5537,13 +5537,27 @@ div.landing-page .banner-content:after {
   display: block;
   position: absolute;
   background-image: url(https://cdevn.world/web_assets/components/__layout/__styles/NewYear/images/snow-offers-181f7aed7fffc167742872cbdd820287.svg);
-  background-size: contain;
+  background-size: 33%;
   background-position: center;
-  background-repeat: no-repeat;
-  top: -28px;
+  background-repeat: repeat;
+  top: 0px;
   z-index: 0;
   right: 0;
   opacity: 0.04;
+}
+.casino-search-container {
+  position: relative;
+}
+.casino-search-container:after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 20px;
+  background: url(https://cdevn.world/web_assets/components/__layout/__styles/NewYear/images/search-snow-61beb1c7259faa045b162eb170f9c0a4.png);
+  background-size: auto;
+  background-repeat: repeat;
+  width: 100%;
 }
 .casino-section .casino-container {
   z-index: 5;
