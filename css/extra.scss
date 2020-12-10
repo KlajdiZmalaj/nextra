@@ -5583,20 +5583,23 @@ div.landing-page .banner-content:after {
   transition: 0.3s;
   transform: rotate(0deg);
   transform-origin: top;
-  animation: xmasBall 0.5s infinite linear;
+  animation: xmasBall 2.5s infinite linear;
 }
 
 @keyframes xmasBall {
   0% {
     transform: rotate(0deg);
   }
-  33% {
+  25% {
     transform: rotate(-10deg);
   }
-  66% {
+  50% {
     transform: rotate(0deg);
   }
-  100% {
+  70% {
     transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
