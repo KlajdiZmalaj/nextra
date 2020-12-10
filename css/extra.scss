@@ -5562,6 +5562,52 @@ div.landing-page .banner-content:after {
 .casino-section .casino-container {
   z-index: 5;
 }
+
+.header .top-header .top-header-content .primary-menu ul li:after {
+  /* opacity: 0.9; */
+  content: " ";
+  width: 36px;
+  height: 29px;
+  display: block;
+  position: absolute;
+  background-image: url(http://nextra.pcluster.info/images/xmas/ice1.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: -25px;
+  z-index: 1;
+}
+
+.header .top-header .top-header-content .primary-menu ul li {
+  top: 20px;
+}
+
+.header .top-header .top-header-content .primary-menu ul li:nth-child(6):after {
+  background-image: url(http://nextra.pcluster.info/images/xmas/ice3.png);
+  width: 33px;
+}
+
+.header .top-header .top-header-content .primary-menu ul li:nth-child(3):after {
+  background-image: url(http://nextra.pcluster.info/images/xmas/ice2.png);
+  top: -26px;
+  height: 35px;
+  width: 44px;
+}
+
+.header .top-header .top-header-content .primary-menu ul li:nth-child(5):after {
+  background-image: url(http://nextra.pcluster.info/images/xmas/ice1.png);
+  top: -26px;
+  transform: rotate(-35deg);
+  left: 19px;
+  width: 31px;
+}
+.header .top-header .top-header-content .primary-menu ul li:nth-child(2):after {
+  top: -22px;
+  transform: rotate(-32deg);
+  left: 5px;
+  width: 36px;
+}
+
 //christamas
 .main-content.home-page .grid {
   position: relative;
@@ -5608,7 +5654,7 @@ div.landing-page .banner-content:after {
   position: relative;
 }
 .slick-slider:after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
@@ -5620,4 +5666,3 @@ div.landing-page .banner-content:after {
   filter: brightness(1.5);
   opacity: 0.4;
 }
-
