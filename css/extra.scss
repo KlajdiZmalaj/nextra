@@ -5603,3 +5603,21 @@ div.landing-page .banner-content:after {
     transform: rotate(0deg);
   }
 }
+
+.slick-slider {
+  position: relative;
+}
+.slick-slider:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(https://nextra.pcluster.info/images/xmas/main.png);
+  top: 0;
+  left: 0;
+  background-size: 107%;
+  background-position: center;
+  filter: brightness(1.5);
+  opacity: 0.4;
+}
+
