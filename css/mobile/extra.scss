@@ -3,7 +3,10 @@
 * {
   box-sizing: border-box;
 }
-
+.body_cell,
+.head_cell {
+  flex-grow: 1;
+}
 #users-list .search_row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -407,7 +410,7 @@
   .users_table.level_2
   .body
   .user
-  .body_cell:nth-child(5)
+  .body_cell:nth-child(4)
   .cassa-holder {
   width: 100%;
   line-height: 28px;
@@ -415,11 +418,39 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+// #users-list
+//   .users_table.level_2
+//   .body
+//   .user
+//   .body_cell:nth-child(4)
+//   .cassa-holder
+//   .icon {
+//   width: 40px;
+//   height: 20px;
+//   background-size: 90%;
+//   background-position: 0 1px;
+//   background-repeat: no-repeat;
+//   display: inline-block;
+//   transform: translateY(3px);
+//   background-image: url(https://nextra.pcluster.info/css/fonts/switch.png);
+// }
+// #users-list
+//   .users_table.level_2
+//   .body
+//   .user
+//   .body_cell:nth-child(4)
+//   .cassa-holder[data-cc="1"]
+//   .icon {
+//   background-position: 0 -17px;
+//   transform: translateY(5px);
+//   background-image: url(https://nextra.pcluster.info/css/fonts/switch.png);
+// }
+
 #users-list
   .users_table.level_2
   .body
   .user
-  .body_cell:nth-child(5)
+  .body_cell:nth-child(4)
   .cassa-holder
   .icon {
   width: 40px;
@@ -437,7 +468,7 @@
   .users_table.level_2
   .body
   .user
-  .body_cell:nth-child(5)
+  .body_cell:nth-child(4)
   .cassa-holder[data-cc="1"]
   .icon {
   background-image: url(https://nextra.nextra.bet/nextra/images/ccassa_1.png);
@@ -10317,6 +10348,7 @@ span {
         }
         &:nth-child(7) {
           order: 7;
+          display: none;
         }
         &:nth-child(1) {
           order: 999;
@@ -10340,6 +10372,8 @@ span {
   margin-top: 0;
   margin-bottom: 0;
   padding: 5px;
+  max-width: 225px;
+
   .ctg_g_icon {
     height: auto;
     img {
@@ -10425,4 +10459,25 @@ img.casino-pro-item-img[alt="Novomatic"] {
 }
 li.fast_menu_option:nth-child(10) span:before {
   background-image: url(https://nextra.pcluster.info/css/fonts/roulette.svg) !important;
+}
+
+.ctg_game_btn_login {
+  position: unset;
+  a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.main_container[data-logged="true"][data-access="1"] {
+  .main_content .menu_items_container {
+    a.single_menu_item.wallet,
+    a.single_menu_item.cashout {
+      display: none !important;
+    }
+  }
 }
