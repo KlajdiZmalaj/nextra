@@ -81,3 +81,7 @@ div.quota {
 div[data-source="in_play"] .sport_odds_main {
   min-height: 80px !important;
 }
+
+ul#favouriteSports {
+  background : #fff
+}
