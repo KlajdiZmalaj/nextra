@@ -9391,7 +9391,12 @@ body {
 }
 
 //
-
+[data-logged="true"] [data-access="1"] {
+  a.single_menu_item.wallet,
+  a.single_menu_item.cashout {
+    display: none !important;
+  }
+}
 .menu_items_container .single_menu_item.wallet,
 .menu_items_container .single_menu_item.cashout,
 .menu_items_container .single_menu_item.movimenti[href="/mobile/depositi"],
@@ -10470,4 +10475,3 @@ li.fast_menu_option:nth-child(10) span:before {
     height: 100%;
   }
 }
-
