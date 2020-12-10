@@ -5545,19 +5545,19 @@ div.landing-page .banner-content:after {
   right: 0;
   opacity: 0.04;
 }
-.casino-section .casino-container::before {
+.casino-search-container {
+  position: relative;
+}
+.casino-search-container:after {
   content: "";
-  background-image: url(//nextra.pcluster.info/css/images/kido.png);
-  width: 100px;
-  height: 100px;
   position: absolute;
+  top: -2px;
   left: 0;
-  top: 0;
-  background-position: center;
-  background-size: contain;
-  transform: rotate(-90deg);
-  left: -93px;
-  top: 50px;
+  height: 20px;
+  background: url(https://cdevn.world/web_assets/components/__layout/__styles/NewYear/images/search-snow-61beb1c7259faa045b162eb170f9c0a4.png);
+  background-size: auto;
+  background-repeat: repeat;
+  width: 100%;
 }
 .casino-section .casino-container {
   z-index: 5;
