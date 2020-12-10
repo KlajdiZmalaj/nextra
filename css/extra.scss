@@ -5277,6 +5277,7 @@ body #tabletsDay {
   body .header .top-header .top-header-content {
     justify-content: space-around;
   }
+
   .event-viewer-wrapper {
     position: relative;
   }
@@ -5483,3 +5484,50 @@ body #tabletsDay {
 .single-tab {
   white-space: nowrap;
 }
+
+//christamas
+.header .top-header .top-header-content .primary-menu ul li:after {
+  content: " ";
+  width: 42px;
+  height: 31px;
+  display: block;
+  position: absolute;
+  background-image: url(https://www.flaticon.com/premium-icon/icons/svg/3726/3726320.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: -33px;
+  z-index: 1;
+}
+
+.side-bar .single-block .block-title.toggle-title:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 15px;
+  background: url(https://cdevn.world/web_assets/components/__layout/__styles/NewYear/images/search-snow-61beb1c7259faa045b162eb170f9c0a4.png);
+  background-size: initial;
+  background-repeat: repeat;
+  width: 100%;
+}
+.header .top-header .top-header-content .primary-menu ul li {
+  top: 20px;
+}
+
+.casino-section:after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-image: url(https://cdevn.world/web_assets/components/__layout/__styles/NewYear/images/snow-offers-181f7aed7fffc167742872cbdd820287.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: -28px;
+  z-index: 0;
+  right: 0;
+  opacity: 0.04;
+}
+//christamas
