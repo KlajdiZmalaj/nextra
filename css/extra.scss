@@ -5580,4 +5580,23 @@ div.landing-page .banner-content:after {
   z-index: -1;
   filter: drop-shadow(1px -2px 36px var(--accent)) brightness(1.1)
     grayscale(0.2);
+  transition: 0.3s;
+  transform: rotate(0deg);
+  transform-origin: top;
+  animation: xmasBall 0.5s infinite linear;
+}
+
+@keyframes xmasBall {
+  0% {
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(-10deg);
+  }
+  66% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
 }
