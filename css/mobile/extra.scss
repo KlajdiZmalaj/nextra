@@ -8493,10 +8493,12 @@ a.button.right.login {
 
     &:nth-child(3) {
       order: 10;
+      display: none;
     }
 
     &:nth-child(5) {
       order: 7;
+      display: none;
     }
 
     &:nth-child(6) {
