@@ -1,71 +1,82 @@
-$skin: "naxbet365";
+html:root {
+  --accent: #005293;
+  --accent-bg: #005293;
+  --accent-txt: #ffcc00;
+  --primary-bg: #005293;
+  --primary-txt: #ffffff;
+  --secondary-bg: #ffffff;
+  --secondary-txt: #000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #e7e7e7;
+  --col1: #000;
+  --teableHeadersBg: #ffcc00;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #005293;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #a3a3a3;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --casinoGradient2: #f4c100;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+  --skin: "bsport10";
+}
+
+$skin: "bsport10";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/naxbet365/images/logo.svg";
-
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/14/image/67045414d4c3d8269850866fc88768c4.jpeg";
+$logoUrl: "http://static.pcluster.info/skins/bsport10/img/logo/newlogo.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/blue.jpg";
 $bodyCol: #000;
-
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
-html:root {
-  --accent: #fca311;
-  --accent-bg: #fca311;
-  --accent-txt: #000;
-  --primary-bg: #14213d;
-  --primary-txt: #fff;
-  --secondary-bg: #1e2d4e;
-  --secondary-txt: #fff;
-  --mainBg: #111d35;
-  --mainBgCol: #ffffff;
-  --bg1: #0c1425;
-  --col1: #fff;
-  --teableHeadersBg: #283a63;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #3e4a65;
-  --teableSubHeadersCol: #ffffff;
-  --tableBorders: #324165;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
-  --casinoGradient2: #636363;
-  --casinoGradient2-txt: #000;
-  --backDrops: #000000cf;
-  --skin: "naxbet365";
-}
+$invet: 0;
 
-$secondary: #ea2125;
+$secondary: #005293;
 $secondaryCol: #fff;
-$black: #000000;
-$secondaryDark: #ea2125;
+
+$secondaryDark: #0a497e;
 $secondaryDarkCol: #fff;
-$primary: #fca311;
+$black: #000000;
+$primary: #c2c2c2;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #323232;
+$sb-2: #0a96f0;
+
+//icesport styles
+
+//black filter li logos
+#favouriteTournaments li:before {
+  filter: brightness(0.1);
+}
+
+.side-bar .single-block .block-content form input[type="submit"] {
+  background-color: var(--accent-txt);
+}
+
 body.landing-page {
-  background-color: #1e1e1e !important;
+  background-color: #181e2c !important;
   background-image: none;
 }
 
-body {
-  background-position-y: 100px;
+.torn-a {
+  background: #e7e7e7 !important;
+}
+html {
+  .logged-center .usrlist #client_list td {
+    border: 1px solid #b1adad !important;
+  }
 }
 
-//hide evolution
-.clive-container > .clive-inner > .clgames-container:nth-child(2) {
-  display: none !important;
-}
-.clive-container .clive-inner {
-  justify-content: center !important;
-}
 .casino_container
   .casino_type
   .ct_games_container
   .ctg_games
-  .ctg_game_item:nth-child(2):not([class*="cat_"]) {
-  display: none !important;
+  .ctg_game_item
+  .ctg_g_icon
+  img {
+  background-color: #005293;
 }
-//hide evolution

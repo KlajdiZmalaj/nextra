@@ -5714,3 +5714,18 @@ div.landing-page .banner-content:after {
 //   right: 0;
 //   background-position: center;
 // }
+
+.odds-table {
+  .goalScorer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    .callinvisible {
+      padding-top: 6px;
+    }
+    .odd.quote {
+      margin-right: 0;
+    }
+  }
+}
