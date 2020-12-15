@@ -10562,14 +10562,52 @@ li.fast_menu_option:nth-child(10) span:before {
 }
 .live_categories .single_filter_holder select {
   min-width: calc(50% - 4px);
-  line-height: 36px;
-  height: 36px;
-  padding: 5px;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.4);
+  padding: 7px 5px;
   margin: 2px;
   font-size: 14px !important;
+  appearance: none;
+  background-color: var(--teableSubHeadersBg);
+  color: var(--teableSubHeadersCol);
+  border: 1px solid var(--tableBorders);
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
+
+.sport_single_quote div .quota .quota {
+  color: var(--accent);
+}
+
+.live_categories .single_filter_holder {
+  position: relative;
+}
+.live_categories .single_filter_holder:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid var(--teableHeadersCol);
+  position: absolute;
+  left: calc(50% - 18px);
+  top: 16px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.live_categories .single_filter_holder:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid var(--teableHeadersCol);
+  position: absolute;
+  right: 8px;
+  top: 16px;
+  pointer-events: none;
+  z-index: 1;
+}
+
 .tournaments_wrapper {
   width: 100%;
   display: inline-block;
@@ -10586,7 +10624,6 @@ li.fast_menu_option:nth-child(10) span:before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: rgba(0, 0, 0, 0.2);
   padding: 5px 0;
   height: 30px;
   -webkit-box-align: center;
@@ -10608,13 +10645,6 @@ li.fast_menu_option:nth-child(10) span:before {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-.tournaments_wrapper
-  .tournaments_holder
-  .single_tournament_wrapper
-  .first_row
-  .half.championship_info {
-  color: #fff;
 }
 .tournaments_wrapper
   .tournaments_holder
@@ -10705,6 +10735,8 @@ li.fast_menu_option:nth-child(10) span:before {
   display: -ms-flexbox;
   display: flex;
   border-bottom: 1px solid #cfcfcf;
+  background: var(--mainBg);
+  color: var(--mainBgCol);
 }
 .tournaments_wrapper .tournaments_holder .single_match_holder:last-child {
   border-bottom: none;
@@ -10728,7 +10760,6 @@ li.fast_menu_option:nth-child(10) span:before {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  color: #fff;
 }
 .tournaments_wrapper
   .tournaments_holder
@@ -10839,6 +10870,7 @@ li.fast_menu_option:nth-child(10) span:before {
   .second_half
   .sport_single_quote {
   min-width: 45px;
+  border: 1px solid var(--tableBorders);
 }
 .tournaments_wrapper
   .tournaments_holder
@@ -10977,21 +11009,14 @@ li.fast_menu_option:nth-child(10) span:before {
 .sports_slider .single_sport_holder[data-active="true"] {
   opacity: 1;
 }
-
-.tournaments_wrapper
-  .sport_single_quote
-  .quota
-  .quota {
-  color: var(--accent);
-}
-.tournaments_wrapper
-  .sport_single_quote[data-selected="true"]
-  .quota
-  .quota {
-    background: var(--accent-bg);
-    color: var(--accent-txt);
+.tournaments_wrapper .sport_single_quote .quota .quota {
+  color: var(--accent-bg);
 }
 
+.tournaments_wrapper .sport_single_quote[data-selected="true"] .quota .quota {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+}
 
 @media screen and (device-aspect-ratio: 375/667) {
   select,

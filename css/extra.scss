@@ -5726,6 +5726,23 @@ div.landing-page .banner-content:after {
     }
     .odd.quote {
       margin-right: 0;
+      > div {
+        min-width: 40px;
+      }
+    }
+    .comboSign {
+      width: 40%;
+      min-width: 100px;
+      select {
+        width: 100%;
+      }
+    }
+    .comboPlayer {
+      width: 40%;
+      min-width: 100px;
+      select {
+        width: 100%;
+      }
     }
   }
 }
