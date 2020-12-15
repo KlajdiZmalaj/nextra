@@ -10897,6 +10897,51 @@ li.fast_menu_option:nth-child(10) span:before {
   font-weight: bold;
   cursor: pointer;
 }
+
+.tournaments_wrapper
+  .tournaments_holder
+  .single_match_holder
+  .second_half
+  .sport_single_quote[data-state="n"]
+  span.quota:after {
+  display: none;
+}
+.tournaments_wrapper
+  .tournaments_holder
+  .single_match_holder
+  .second_half
+  .sport_single_quote[data-state="u"]
+  span.quota:after {
+  padding: 0;
+  transform: rotate(45deg);
+  top: 0px;
+  right: -5px;
+  width: 2px;
+}
+.tournaments_wrapper
+  .tournaments_holder
+  .single_match_holder
+  .second_half
+  .sport_single_quote[data-state="d"]
+  span.quota:after {
+  padding: 0;
+  transform: rotate(-45deg);
+  bottom: 0px;
+  right: -4px;
+  width: 2px;
+}
+.tournaments_wrapper .tournaments_holder .single_match_holder .first_half {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin: 10px 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 45%;
+  flex: 1 0 45%;
+  max-width: 45%;
+  cursor: pointer;
+}
 //end live overview
 
 .landing_sport .main_container_tile p {
@@ -10904,10 +10949,6 @@ li.fast_menu_option:nth-child(10) span:before {
   margin-block-start: 0;
   margin-block-end: 0;
 }
-
-// .icon-1:before {
-//   color: red;
-// }
 
 .icon-1:before {
   color: #03ffae;
@@ -10937,20 +10978,20 @@ li.fast_menu_option:nth-child(10) span:before {
   opacity: 1;
 }
 
-.sports_slider .single_sport_holder .sport_name::after {
-  content: "";
-  border-bottom: 1px solid;
-}
-
 .tournaments_wrapper
-  .tournaments_holder
-  .single_match_holder
-  .second_half
-  .sport_single_quote[data-selected="false"]
+  .sport_single_quote
   .quota
   .quota {
   color: var(--accent);
 }
+.tournaments_wrapper
+  .sport_single_quote[data-selected="true"]
+  .quota
+  .quota {
+    background: var(--accent-bg);
+    color: var(--accent-txt);
+}
+
 
 @media screen and (device-aspect-ratio: 375/667) {
   select,
