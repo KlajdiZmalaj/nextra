@@ -10496,13 +10496,13 @@ li.fast_menu_option:nth-child(10) span:before {
   display: flex;
   width: calc(100%);
   overflow-x: scroll;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 .sports_slider .single_sport_holder {
-  min-width: 120px;
-  width: 120px;
+  min-width: 70px;
+  width: auto;
   height: 70px;
-  padding: 5px 0;
+  padding: 5px 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10516,11 +10516,12 @@ li.fast_menu_option:nth-child(10) span:before {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  order: 9999;
 }
 .sports_slider .single_sport_holder[data-active="true"] {
   font-weight: bold;
-  border-radius: 5px;
-  background: rgba(0, 0, 0, 0.3);
+  // border-radius: 5px;
+  // background: rgba(0, 0, 0, 0.3);
 }
 .sports_slider .single_sport_holder .sport_icon {
   width: 40px;
@@ -10561,13 +10562,13 @@ li.fast_menu_option:nth-child(10) span:before {
 }
 .live_categories .single_filter_holder select {
   min-width: calc(50% - 4px);
-  line-height: 40px;
-  height: 40px;
+  line-height: 36px;
+  height: 36px;
   padding: 5px;
   color: #fff;
   background: rgba(0, 0, 0, 0.4);
-  border: 1px solid #fff;
   margin: 2px;
+  font-size: 14px !important;
 }
 .tournaments_wrapper {
   width: 100%;
@@ -10897,3 +10898,91 @@ li.fast_menu_option:nth-child(10) span:before {
   cursor: pointer;
 }
 //end live overview
+
+.landing_sport .main_container_tile p {
+  padding: 10px 0 0px 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+// .icon-1:before {
+//   color: red;
+// }
+
+.icon-1:before {
+  color: #03ffae;
+}
+.icon-2:before {
+  color: #d43f23;
+}
+.icon-3:before {
+  color: #d44d3c;
+}
+.icon-4:before {
+  color: #ceb643;
+}
+.icon-5:before {
+  color: #61ce19;
+}
+.icon-20:before {
+  color: #d9dc07;
+}
+.icon-23:before {
+  color: #02c0de;
+}
+.sports_slider .single_sport_holder {
+  opacity: 0.9;
+}
+.sports_slider .single_sport_holder[data-active="true"] {
+  opacity: 1;
+}
+
+.sports_slider .single_sport_holder .sport_name::after {
+  content: "";
+  border-bottom: 1px solid;
+}
+
+.tournaments_wrapper
+  .tournaments_holder
+  .single_match_holder
+  .second_half
+  .sport_single_quote[data-selected="false"]
+  .quota
+  .quota {
+  color: var(--accent);
+}
+
+@media screen and (device-aspect-ratio: 375/667) {
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="url"] {
+    font-size: 16px;
+  }
+}
+
+.single_sport_holder[data-sport-id="1"] {
+  order: 1;
+}
+.single_sport_holder[data-sport-id="2"] {
+  order: 3;
+}
+.single_sport_holder[data-sport-id="5"] {
+  order: 2;
+}
+.single_sport_holder[data-sport-id="23"] {
+  order: 4;
+}
+.single_sport_holder[data-sport-id="4"] {
+  min-width: 89px;
+}
