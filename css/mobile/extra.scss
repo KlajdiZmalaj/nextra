@@ -10923,8 +10923,8 @@ li.fast_menu_option:nth-child(10) span:before {
       content: "\f078";
       font-family: "Font Awesome 5 Pro";
       position: absolute;
-      right: 3px;
-      top: 7px;
+      right: 5px;
+      top: 9px;
       font-size: 12px;
     }
     select {
@@ -10946,8 +10946,8 @@ li.fast_menu_option:nth-child(10) span:before {
       content: "\f078";
       font-family: "Font Awesome 5 Pro";
       position: absolute;
-      right: 3px;
-      top: 7px;
+      right: 5px;
+      top: 9px;
       font-size: 12px;
     }
     select {
@@ -11105,3 +11105,153 @@ li.fast_menu_option:nth-child(10) span:before {
 .single_sport_holder[data-sport-id="4"] {
   min-width: 89px;
 }
+
+// marcatori
+
+.matches_list .sport_content_odds .sport_odds_main .marcatori-selects {
+  width: calc(100% - 45px);
+  display: none;
+}
+.matches_list[data-type="1"]
+  .sport_content_odds
+  .sport_odds_main
+  .marcatori-selects {
+  width: calc(100% - 45px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.matches_list[data-type="1"]
+  .sport_content_odds
+  .sport_odds_main
+  .marcatori-selects
+  > div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 calc(50% - 40px);
+  flex: 1 0 calc(50% - 40px);
+  padding: 0 2px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.matches_list[data-type="1"]
+  .sport_content_odds
+  .sport_odds_main
+  .marcatori-selects
+  > div
+  select {
+  height: 36px;
+  width: 100%;
+}
+.matches_list[data-type="1"]
+  .sport_content_odds
+  .sport_odds_main
+  .marcatori-selects
+  > div.marcatori-value {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 60px;
+  flex: 1 0 60px;
+  margin: 0 10px;
+}
+.matches_list[data-type="1"]
+  .sport_content_odds
+  .sport_odds_main
+  .marcatori-selects
+  > div.marcatori-value
+  span {
+  width: 100%;
+  text-align: center;
+  height: 36px;
+  background: rgba(0, 0, 0, 0.2);
+  line-height: 36px;
+  color: #fff;
+  display: inline-block;
+}
+.matches_list[data-type="1"]
+  .sport_content_odds
+  .sport_odds_main
+  .marcatori-selects
+  > div.marcatori-value
+  span
+  .quota
+  .tipoquota {
+  display: none;
+}
+.matches_list[data-type="1"]
+  .sport_content_odds
+  .sport_odds_main
+  .marcatori-selects
+  > div.marcatori-value
+  span
+  .quota[data-selected="true"] {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  font-weight: bold;
+}
+.matches_list[data-type="1"]
+  .sport_content_odds
+  .sport_odds_main
+  .sport_quote_view {
+  display: none;
+}
+.sport_odds_main .marcatori-selects {
+  display: none;
+}
+.sport_odds_main[data-type="1"] .sport_quote_full_view {
+  display: none;
+}
+.sport_odds_main[data-type="1"] .marcatori-selects {
+  width: calc(100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  margin-bottom: 5px;
+}
+.sport_odds_main[data-type="1"] .marcatori-selects > div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 calc(50% - 40px);
+  flex: 1 0 calc(50% - 40px);
+  padding: 0 2px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.sport_odds_main[data-type="1"] .marcatori-selects > div select {
+  height: 36px;
+  width: 100%;
+}
+.sport_odds_main[data-type="1"] .marcatori-selects > div.marcatori-value {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 60px;
+  flex: 1 0 60px;
+  margin: 0 10px;
+}
+.sport_odds_main[data-type="1"] .marcatori-selects > div.marcatori-value span {
+  width: 100%;
+  text-align: center;
+  height: 36px;
+  background: rgba(0, 0, 0, 0.2);
+  line-height: 36px;
+  color: #fff;
+  display: inline-block;
+}
+.sport_odds_main[data-type="1"]
+  .marcatori-selects
+  > div.marcatori-value
+  span
+  .quota
+  .tipoquota {
+  display: none;
+}
+.sport_odds_main[data-type="1"]
+  .marcatori-selects
+  > div.marcatori-value
+  span
+  .quota[data-selected="true"] {
+  background: #f58634;
+  font-weight: bold;
+}
+
+// end marcatori
