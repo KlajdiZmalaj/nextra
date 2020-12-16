@@ -5733,15 +5733,47 @@ div.landing-page .banner-content:after {
     .comboSign {
       width: 40%;
       min-width: 100px;
+      position: relative;
+      &:after {
+        content: "\f078";
+        font-family: "Font Awesome 5 Pro";
+        position: absolute;
+        right: 3px;
+        top: -3px;
+        font-size: 12px;
+      }
       select {
         width: 100%;
+        background: var(--bg1);
+        color: var(--col1);
+        border-color: var(--tableBorders);
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        padding: 3px;
       }
     }
     .comboPlayer {
       width: 40%;
       min-width: 100px;
+      position: relative;
+      &:after {
+        content: "\f078";
+        font-family: "Font Awesome 5 Pro";
+        position: absolute;
+        right: 3px;
+        top: -3px;
+        font-size: 12px;
+      }
       select {
         width: 100%;
+        background: var(--bg1);
+        color: var(--col1);
+        border-color: var(--tableBorders);
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        padding: 3px;
       }
     }
   }

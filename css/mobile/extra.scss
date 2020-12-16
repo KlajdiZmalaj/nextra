@@ -10911,6 +10911,58 @@ li.fast_menu_option:nth-child(10) span:before {
 .sport_content_odds.live .odds_block[data-no-odds="true"] .search {
   display: none;
 }
+.sport_content_odds .marcatori-selects {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  .marcatori-spread {
+    position: relative;
+    width: 30%;
+    margin-right: 5px;
+    &:after {
+      content: "\f078";
+      font-family: "Font Awesome 5 Pro";
+      position: absolute;
+      right: 3px;
+      top: 7px;
+      font-size: 12px;
+    }
+    select {
+      width: 100%;
+      background: var(--bg1);
+      color: var(--col1);
+      border-color: var(--tableBorders);
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      padding: 3px;
+      font-size: 14px !important;
+    }
+  }
+  .marcatori-player {
+    position: relative;
+    width: 30%;
+    &:after {
+      content: "\f078";
+      font-family: "Font Awesome 5 Pro";
+      position: absolute;
+      right: 3px;
+      top: 7px;
+      font-size: 12px;
+    }
+    select {
+      width: 100%;
+      background: var(--bg1);
+      color: var(--col1);
+      border-color: var(--tableBorders);
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      padding: 3px;
+      font-size: 14px !important;
+    }
+  }
+}
 .sport_odds_search {
   display: -webkit-box;
   display: -ms-flexbox;
