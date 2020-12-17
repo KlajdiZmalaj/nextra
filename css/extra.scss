@@ -5714,3 +5714,67 @@ div.landing-page .banner-content:after {
 //   right: 0;
 //   background-position: center;
 // }
+
+.odds-table {
+  .goalScorer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    .callinvisible {
+      display: none;
+    }
+    .odd.quote {
+      margin-right: 0;
+      > div {
+        min-width: 40px;
+      }
+    }
+    .comboSign {
+      width: 40%;
+      min-width: 100px;
+      position: relative;
+      &:after {
+        content: "\f078";
+        font-family: "Font Awesome 5 Pro";
+        position: absolute;
+        right: 3px;
+        top: -3px;
+        font-size: 12px;
+      }
+      select {
+        width: 100%;
+        background: var(--bg1);
+        color: var(--col1);
+        border-color: var(--tableBorders);
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        padding: 3px;
+      }
+    }
+    .comboPlayer {
+      width: 40%;
+      min-width: 100px;
+      position: relative;
+      &:after {
+        content: "\f078";
+        font-family: "Font Awesome 5 Pro";
+        position: absolute;
+        right: 3px;
+        top: -3px;
+        font-size: 12px;
+      }
+      select {
+        width: 100%;
+        background: var(--bg1);
+        color: var(--col1);
+        border-color: var(--tableBorders);
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        padding: 3px;
+      }
+    }
+  }
+}
