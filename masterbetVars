@@ -219,3 +219,7 @@ html {
     }
   }
 }
+
+.sport_single_quote div span.tipoquota {
+  
+}
