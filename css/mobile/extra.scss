@@ -10807,10 +10807,11 @@ li.fast_menu_option:nth-child(10) span:before {
   .row:last-child
   .all_odds {
   cursor: pointer;
-  background: #ce6727;
+  background: var(--accent-bg);
   padding: 0 3px;
   border-radius: 3px;
   font-weight: bold;
+  color: var(--accent-txt);
 }
 .tournaments_wrapper
   .tournaments_holder
