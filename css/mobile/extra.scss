@@ -10734,7 +10734,7 @@ li.fast_menu_option:nth-child(10) span:before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-bottom: 1px solid #cfcfcf;
+  border-bottom: 1px solid var(--tableBorders);
   background: var(--mainBg);
   color: var(--mainBgCol);
 }
