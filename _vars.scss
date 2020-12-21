@@ -227,3 +227,7 @@ html .sport_single_quote div span.tipoquota {
 html .sport_single_quote[data-selected="true"] div span.tipoquota {
   opacity: 0.7;
 }
+
+.odds-table .goalScorer .odd.quote {
+  color: var(--accent);
+}
