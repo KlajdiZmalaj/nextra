@@ -85,3 +85,7 @@ div[data-source="in_play"] .sport_odds_main {
 ul#favouriteSports {
   background : #fff
 }
+
+.tournaments_wrapper .tournaments_holder .single_tournament_wrapper .first_row .half {
+  color:#222
+}
