@@ -1,55 +1,63 @@
-html:root {
-  --accent: #b30013;
-  --accent-bg: #b30013;
-  --accent-txt: #fff;
-  --primary-bg: #ffffff;
-  --primary-txt: #707070;
-  --secondary-bg: #111727;
-  --secondary-txt: #fff;
-  --mainBg: #2e3e49;
-  --mainBgCol: #fff;
-  --bg1: #24323b;
-  --col1: #fff;
-  --teableHeadersBg: #b30013;
-  --teableHeadersCol: #fff;
-  --teableSubHeadersBg: #3f5463;
-  --teableSubHeadersCol: #ffffff;
-  --tableBorders: #161d2f;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
-  --casinoGradient2: #b30013;
-  --casinoGradient2-txt: #000;
-  --backDrops: #000000cf;
-}
-
 $skin: "skylive";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "http://static.pcluster.info/skins/skylive/img/logo/newlogo.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/red.jpg";
+$logoUrl: "nextra.pcluster.info/skylive/images/newlogo.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
 $bodyCol: #000;
+
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
 
-$secondary: #005293;
+html:root {
+  --accent: #fec900;
+  --accent-bg: #fec900;
+  --accent-txt: #000;
+  --primary-bg: #ffffff;
+  --primary-txt: #707070;
+  --secondary-bg: #111727;
+  --secondary-txt: #fff;
+  --mainBg: #0e121d;
+  --mainBgCol: #fff;
+  --bg1: #333844;
+  --col1: #fff;
+  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #414755;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #161d2f;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #f4c100;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+  --skin: "skylive";
+}
+
+$secondary: #f4c100;
 $secondaryCol: #fff;
-
-$secondaryDark: #0a497e;
-$secondaryDarkCol: #fff;
 $black: #000000;
-$primary: #c2c2c2;
+$secondaryDark: #d1a813;
+$secondaryDarkCol: #222;
+$primary: #b8bfd2;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #0a96f0;
+$sb-2: #333844;
 
-//icesport styles
-
-body {
-  background-size: 2038px !important;
+//hide evolution
+.clive-container > .clive-inner > .clgames-container:nth-child(2) {
+  display: none !important;
 }
-.casino-section {
-  background-color: #1b0142 !important;
+.clive-container .clive-inner {
+  justify-content: center !important;
 }
+.casino_container
+  .casino_type
+  .ct_games_container
+  .ctg_games
+  .ctg_game_item:nth-child(2):not([class*="cat_"]) {
+  display: none !important;
+}
+//hide evolution
