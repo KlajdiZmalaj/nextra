@@ -4734,6 +4734,16 @@ body .odds-table .single-match-row td.match-name {
     background: var(--mainBg);
     color: var(--mainBgCol);
   }
+  .mCustomScrollBox {
+    height: auto !important;
+    overflow: visible !important;
+  }
+  .enable-scroll {
+    min-height: 2000px !important;
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
 }
 span.ui-slider-handle:before {
   pointer-events: none;
