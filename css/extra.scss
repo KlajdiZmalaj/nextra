@@ -3457,6 +3457,7 @@ body .odds-table .single-match-row td.match-name {
     position: relative;
     bottom: 1px;
     justify-content: flex-start;
+    white-space: nowrap;
   }
 }
 @media only screen and (max-width: 1279px) {
