@@ -74,3 +74,8 @@ body.landing-page {
   justify-content: space-between;
   align-items: center;
 }
+html .header .top-header .top-header-content .logo-holder a:before {
+  width: 240px;
+  height: 80px;
+  left: 15px;
+}
