@@ -2364,6 +2364,9 @@ body #oddsMenu tr:last-child {
   z-index: 1;
   line-height: initial;
 }
+.dark-overlay.show {
+  display: none;
+}
 @media only screen and (max-width: 1279px) {
   .left-side-bar.closed .single-block:first-child .block-title {
     display: flex !important;
