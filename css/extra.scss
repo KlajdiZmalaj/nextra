@@ -5138,6 +5138,11 @@ body .center-content .popular-bets .days ul li {
     font-family: "Font Awesome 5 Pro";
     font-size: 25px;
   }
+  .transfer::after {
+    content: "\f4a0";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 25px;
+  }
 }
 .usrlist #client_list {
   .passwd::after {
@@ -5145,6 +5150,11 @@ body .center-content .popular-bets .days ul li {
     font-family: "Font Awesome 5 Pro";
     font-size: 15px;
     padding-left: 5px;
+  }
+  .transfer::after {
+    content: "\f4a0";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 25px;
   }
 }
 
@@ -5808,6 +5818,7 @@ div.landing-page .banner-content:after {
 
 .ctran-inner {
   background-color: lightgray;
+  color: #222;
   width: 550px;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
