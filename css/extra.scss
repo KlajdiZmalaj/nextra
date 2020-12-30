@@ -5795,3 +5795,231 @@ div.landing-page .banner-content:after {
 .center-content .popular-bets .days ul {
   color: var(--teableSubHeadersCol);
 }
+
+.ctran-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.ctran-inner {
+  background-color: lightgray;
+  width: 550px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.ctran-head {
+  background-color: var(--accent-bg);
+  color: var(--accent-col);
+}
+
+.ctran-head-inner {
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.ctran-head-inner .ph-a {
+  color: #fff;
+}
+
+.ctran-head-inner .ph-a-ico {
+  margin-right: 10px;
+}
+
+.ctran-head-inner .ph-b {
+  color: #fff;
+  background-color: red;
+  width: 15px;
+  height: 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.ctran-head-inner .ph-b-ico {
+  position: absolute;
+  top: -2px;
+}
+
+.ctran-det {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 3fr;
+  grid-template-columns: 2fr 3fr;
+  -webkit-column-gap: 10px;
+  column-gap: 10px;
+  margin-bottom: 5px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.ctran-det-lab {
+  text-align: right;
+  color: #222;
+}
+
+.ctran-det-lab.al-fix {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.ctran-det-lat-sel {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 5px;
+  border: 1px solid #222;
+  background-image: url(./v.png);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: right -1px center;
+  width: 100%;
+  height: 25px;
+  outline: 0;
+  padding: 4px 25px 5px 5px;
+  cursor: pointer;
+}
+
+.ctran-det-lat-text {
+  padding: 0 5px;
+  height: 25px;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #222;
+  outline: 0;
+}
+
+.ctran-det-lat .impo-input {
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-right: 10px;
+  height: 25px;
+  line-height: 25px;
+  float: left;
+  font-size: 13px;
+  border-radius: 3px;
+  color: #222;
+  border: 1px solid #222;
+  width: 100%;
+  padding: 0 0 0 6px;
+}
+
+.ctran-det-lat .clt-txta {
+  resize: none;
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-right: 10px;
+  line-height: 25px;
+  float: left;
+  font-size: 13px;
+  border-radius: 3px;
+  color: #222;
+  border: 1px solid #222;
+  width: 100%;
+  padding: 0 0 0 6px;
+}
+
+.ctran-form {
+  padding: 10px 20px;
+}
+
+.ctran-form-inner {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 20px 40px;
+  margin-bottom: 15px;
+}
+
+.ctran-form-btn {
+  display: block;
+  margin: 0 auto;
+  margin-right: 0;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  background-color: #2e9c3d;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.ctran-form-btn-ico {
+  background-color: #fff;
+  color: #2e9c3d;
+  padding: 4px 5px;
+  margin-right: 5px;
+}
+
+.ctran-form-btn:hover {
+  opacity: 0.9;
+}
+
+.gt-head {
+  border-radius: 4px;
+  background-color: #f3f3f3;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.gt-head .ctran-det-lab {
+  font-weight: 700;
+}
+
+.gt-a {
+  border-radius: 4px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin-bottom: 22px;
+}
+
+.gt-b {
+  padding: 5px 20px;
+}
+
+.gt-c {
+  margin: 10px 10px 2px 5px;
+}
+
+.gt-c-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gt-c-inner .atxt {
+  margin-right: 10px;
+}
