@@ -5154,7 +5154,10 @@ body .center-content .popular-bets .days ul li {
   .transfer::after {
     content: "\f4a0";
     font-family: "Font Awesome 5 Pro";
-    font-size: 25px;
+    font-size: 16px;
+    position: relative;
+    left: 5px;
+    top: 1px;
   }
 }
 
@@ -5814,6 +5817,13 @@ div.landing-page .banner-content:after {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 10;
+  display: none;
+  &[style] {
+    display: block;
+  }
+  &[style="display: none;"] {
+    display: none;
+  }
 }
 
 .ctran-inner {
