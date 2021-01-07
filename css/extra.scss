@@ -5531,20 +5531,6 @@ body #tabletsDay {
 //   top: 20px;
 // }
 
-div.landing-page .banner-content:after {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: 0;
-  height: 100%;
-  background-size: initial;
-  background-repeat: repeat;
-  width: 100%;
-  background-image: url(https://i.giphy.com/media/CkBzt6qXCCXw4/giphy.webp);
-  opacity: 0.06;
-  z-index: 0;
-}
-
 // .side-bar .single-block .block-title.toggle-title:before {
 //   content: "";
 //   position: absolute;
@@ -5557,157 +5543,175 @@ div.landing-page .banner-content:after {
 //   width: 100%;
 // }
 
-.casino-section:after {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  display: block;
-  position: absolute;
-  background-image: url(https://cdevn.world/web_assets/components/__layout/__styles/NewYear/images/snow-offers-181f7aed7fffc167742872cbdd820287.svg);
-  background-size: 33%;
-  background-position: center;
-  background-repeat: repeat;
-  top: 0px;
-  z-index: 0;
-  right: 0;
-  opacity: 0.04;
-}
-.casino-search-container {
-  position: relative;
-}
-.casino-search-container:after {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: 0;
-  height: 20px;
-  background: url(https://cdevn.world/web_assets/components/__layout/__styles/NewYear/images/search-snow-61beb1c7259faa045b162eb170f9c0a4.png);
-  background-size: auto;
-  background-repeat: repeat;
-  width: 100%;
-}
-.casino-section .casino-container {
-  z-index: 5;
-}
+//
+
 .header .top-header .top-header-content .primary-menu ul li:after {
   pointer-events: none;
 }
-.header .top-header .top-header-content .primary-menu ul li:after {
-  /* opacity: 0.9; */
-  content: " ";
-  width: 36px;
-  height: 29px;
-  display: block;
-  position: absolute;
-  background-image: url(http://nextra.pcluster.info/images/xmas/ice1.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  top: -25px;
-  z-index: 1;
-}
+
+//christamas
+
+// div.landing-page .banner-content:after {
+//   content: "";
+//   position: absolute;
+//   top: -2px;
+//   left: 0;
+//   height: 100%;
+//   background-size: initial;
+//   background-repeat: repeat;
+//   width: 100%;
+//   background-image: url(https://i.giphy.com/media/CkBzt6qXCCXw4/giphy.webp);
+//   opacity: 0.06;
+//   z-index: 0;
+// }
+//.casino-section:after {
+//   content: " ";
+//   width: 100%;
+//   height: 100%;
+//   display: block;
+//   position: absolute;
+//   background-image: url(https://cdevn.world/web_assets/components/__layout/__styles/NewYear/images/snow-offers-181f7aed7fffc167742872cbdd820287.svg);
+//   background-size: 33%;
+//   background-position: center;
+//   background-repeat: repeat;
+//   top: 0px;
+//   z-index: 0;
+//   right: 0;
+//   opacity: 0.04;
+// }
+// .casino-search-container {
+//   position: relative;
+// }
+// .casino-search-container:after {
+//   content: "";
+//   position: absolute;
+//   top: -2px;
+//   left: 0;
+//   height: 20px;
+//   background: url(https://cdevn.world/web_assets/components/__layout/__styles/NewYear/images/search-snow-61beb1c7259faa045b162eb170f9c0a4.png);
+//   background-size: auto;
+//   background-repeat: repeat;
+//   width: 100%;
+// }
+// .casino-section .casino-container {
+//   z-index: 5;
+// }
+
+// .header .top-header .top-header-content .primary-menu ul li:after {
+//   /* opacity: 0.9; */
+//   content: " ";
+//   width: 36px;
+//   height: 29px;
+//   display: block;
+//   position: absolute;
+//   background-image: url(http://nextra.pcluster.info/images/xmas/ice1.png);
+//   background-size: contain;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   top: -25px;
+//   z-index: 1;
+// }
 
 .header .top-header .top-header-content .primary-menu ul li {
   top: 20px;
 }
 
-.header .top-header .top-header-content .primary-menu ul li:nth-child(6):after {
-  background-image: url(http://nextra.pcluster.info/images/xmas/ice3.png);
-  width: 33px;
-}
+// .header .top-header .top-header-content .primary-menu ul li:nth-child(6):after {
+//   background-image: url(http://nextra.pcluster.info/images/xmas/ice3.png);
+//   width: 33px;
+// }
 
-.header .top-header .top-header-content .primary-menu ul li:nth-child(3):after {
-  background-image: url(http://nextra.pcluster.info/images/xmas/ice2.png);
-  top: -26px;
-  height: 35px;
-  width: 44px;
-}
+// .header .top-header .top-header-content .primary-menu ul li:nth-child(3):after {
+//   background-image: url(http://nextra.pcluster.info/images/xmas/ice2.png);
+//   top: -26px;
+//   height: 35px;
+//   width: 44px;
+// }
 
-.header .top-header .top-header-content .primary-menu ul li:nth-child(5):after {
-  background-image: url(http://nextra.pcluster.info/images/xmas/ice1.png);
-  top: -26px;
-  transform: rotate(-35deg);
-  left: 19px;
-  width: 31px;
-}
-.header .top-header .top-header-content .primary-menu ul li:nth-child(2):after {
-  top: -22px;
-  transform: rotate(-32deg);
-  left: 5px;
-  width: 36px;
-}
+// .header .top-header .top-header-content .primary-menu ul li:nth-child(5):after {
+//   background-image: url(http://nextra.pcluster.info/images/xmas/ice1.png);
+//   top: -26px;
+//   transform: rotate(-35deg);
+//   left: 19px;
+//   width: 31px;
+// }
+// .header .top-header .top-header-content .primary-menu ul li:nth-child(2):after {
+//   top: -22px;
+//   transform: rotate(-32deg);
+//   left: 5px;
+//   width: 36px;
+// }
 
-.clive-container
-  .clive-inner
-  .clive-games-container
-  .clive-item.clive-item-big:before {
-  content: "";
-  position: absolute;
-  top: -14px;
-  left: 0;
-  height: 50px;
-  background: url(http://nextra.pcluster.info/images/xmas/icebig.png);
-  background-size: cover;
-  background-repeat: repeat;
-  width: 100%;
-}
+// .clive-container
+//   .clive-inner
+//   .clive-games-container
+//   .clive-item.clive-item-big:before {
+//   content: "";
+//   position: absolute;
+//   top: -14px;
+//   left: 0;
+//   height: 50px;
+//   background: url(http://nextra.pcluster.info/images/xmas/icebig.png);
+//   background-size: cover;
+//   background-repeat: repeat;
+//   width: 100%;
+// }
 
-.clive-container
-  > .clive-inner
-  > .clgames-container:nth-child(2)
-  .clgames-inner
-  .clgames-item-big:before {
-  content: "";
-  position: absolute;
-  top: -14px;
-  left: 0;
-  height: 50px;
-  background: url(http://nextra.pcluster.info/images/xmas/icebig.png);
-  background-size: contain;
-  width: 100%;
-}
+// .clive-container
+//   > .clive-inner
+//   > .clgames-container:nth-child(2)
+//   .clgames-inner
+//   .clgames-item-big:before {
+//   content: "";
+//   position: absolute;
+//   top: -14px;
+//   left: 0;
+//   height: 50px;
+//   background: url(http://nextra.pcluster.info/images/xmas/icebig.png);
+//   background-size: contain;
+//   width: 100%;
+// }
 
-//christamas
-.main-content.home-page .grid {
-  position: relative;
-}
-.main-content.home-page .grid:after {
-  content: "";
-  width: 180px;
-  height: 300px;
-  /* background: #222; */
-  top: -30px;
-  position: absolute;
-  background-image: url(http://nextra.pcluster.info/images/xmas/xmas-ball.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  left: -150px;
-  z-index: -1;
-  filter: drop-shadow(1px -2px 36px var(--accent)) brightness(1.1)
-    grayscale(0.2);
-  transition: 0.3s;
-  transform: rotate(0deg);
-  transform-origin: top;
-  animation: xmasBall 2.5s infinite linear;
-}
+// .main-content.home-page .grid {
+//   position: relative;
+// }
+// .main-content.home-page .grid:after {
+//   content: "";
+//   width: 180px;
+//   height: 300px;
+//   /* background: #222; */
+//   top: -30px;
+//   position: absolute;
+//   background-image: url(http://nextra.pcluster.info/images/xmas/xmas-ball.png);
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   left: -150px;
+//   z-index: -1;
+//   filter: drop-shadow(1px -2px 36px var(--accent)) brightness(1.1)
+//     grayscale(0.2);
+//   transition: 0.3s;
+//   transform: rotate(0deg);
+//   transform-origin: top;
+//   animation: xmasBall 2.5s infinite linear;
+// }
 
-@keyframes xmasBall {
-  0% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(-10deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  70% {
-    transform: rotate(10deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
+// @keyframes xmasBall {
+//   0% {
+//     transform: rotate(0deg);
+//   }
+//   25% {
+//     transform: rotate(-10deg);
+//   }
+//   50% {
+//     transform: rotate(0deg);
+//   }
+//   70% {
+//     transform: rotate(10deg);
+//   }
+//   100% {
+//     transform: rotate(0deg);
+//   }
+// }
 
 .slick-slider {
   position: relative;
