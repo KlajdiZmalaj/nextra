@@ -29,7 +29,7 @@ $skin: "fourbet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/nextra/images/logo.svg";
+$logoUrl: "https://nextra.pcluster.info/fourbet/images/logo.svg";
 $bodyBg: "https://nextra.pcluster.info/nextra/images/bg/green.jpg";
 $bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
