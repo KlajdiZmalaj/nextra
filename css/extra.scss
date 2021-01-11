@@ -1994,9 +1994,9 @@ body #oddsMenu tr {
 .footer-copyright {
   color: transparent !important;
   &::before {
-    content: var(--skin) "© 2020 All rights reserved.";
-    color: var(--mainBgCol) !important;
-    position: absolute;
+    content: var(--skin) "© 2021 All rights reserved." !important;
+    color: var(--mainBgCol) !important ;
+    position: absolute ;
     text-transform: uppercase;
   }
 }

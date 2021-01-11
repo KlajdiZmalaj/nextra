@@ -1,6 +1,6 @@
 //was play4bet => playbet
 
-$skin: "playbet";
+$skin: "play4bet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
@@ -33,7 +33,7 @@ html:root {
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "playbet";
+  --skin: "play4bet";
 }
 
 $secondary: #3ab7af;
