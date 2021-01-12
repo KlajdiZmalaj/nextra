@@ -32,7 +32,7 @@ $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "https://nextra.pcluster.info/fourbet/images/logo.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/green.jpg";
+$bodyBg: "https://nextra.pcluster.info/fourbet/images/matrix.jpg";
 $bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
@@ -58,6 +58,8 @@ $sb-2: #162444;
 html body {
   background-position-y: 80px !important;
   background-attachment: initial;
+  background-size: 1990px;
+  background-repeat: repeat-y;
 }
 
 .header .top-header {
