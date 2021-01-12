@@ -22,7 +22,7 @@ html:root {
     --casinoGradient2: #4caf50;
     --casinoGradient2-txt: #000;
     --backDrops: #000000cf;
-    --skin: "fourbet";
+    --skin: "matrix365";
 }
 
 $skin: "fourbet";
