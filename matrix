@@ -8,7 +8,7 @@ html:root {
   --accent-txt: #222;
   --primary-bg: #d9d9d9;
   --primary-txt: #000000;
-  --secondary-bg: #075424;
+  --secondary-bg: #000;
   --secondary-txt: #fff;
   --mainBg: #000000;
   --mainBgCol: #e5e5e5;
