@@ -583,6 +583,8 @@ footer {
 
 footer .footer-copyright {
   background: var(--bg1);
+  font-size: 0;
+  height: 12px;
 }
 
 .single-sport .anchor.sport-112 .icon {
@@ -1996,8 +1998,9 @@ body #oddsMenu tr {
   &::before {
     content: var(--skin) "© 2021 All rights reserved." !important;
     color: var(--mainBgCol) !important ;
-    position: absolute ;
+    position: absolute;
     text-transform: uppercase;
+    font-size: 12px;
   }
 }
 
