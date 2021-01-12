@@ -58,8 +58,8 @@ $sb-2: #162444;
 html body {
   background-position-y: 80px !important;
   background-attachment: initial;
-  background-size: 1990px;
-  background-repeat: repeat-y;
+  background-size: 2260px;
+  background-repeat: no-repeat;
 }
 
 .header .top-header {
