@@ -6070,3 +6070,10 @@ body #tabletsDay {
   object-fit: contain;
   object-position: center;
 }
+.odds-table .match-name .team-names.has-info .info-box .odd-types .single-type {
+  background: var(--bg1);
+  color: var(--col1);
+  border: 0;
+  box-shadow: none;
+  border-top: 1px solid var(--tableBorders);
+}
