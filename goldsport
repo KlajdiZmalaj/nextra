@@ -2,7 +2,7 @@ $skin: "goldsport";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/goldwin/images/logo.svg";
+$logoUrl: "https://nextra.pcluster.info/goldsport/images/logo2.png";
 
 $bodyBg: "https://gradm-api.pcluster.info/api/skin/14/image/67045414d4c3d8269850866fc88768c4.jpeg";
 $bodyCol: #071538;
@@ -52,4 +52,11 @@ body.landing-page {
 
 body {
   background-position-y: 100px;
+}
+
+.header .top-header .top-header-content .logo-holder a:before {
+  height: 80px !important;
+}
+body .main_header .main_header_left:after {
+  height: 50px !important;
 }

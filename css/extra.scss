@@ -4312,6 +4312,11 @@ body .odds-table .single-match-row td.match-name {
   width: 150px;
 }
 
+.game-grid-item[data-name="BlackJackLive"],
+.game-grid-item[data-name="Gems Bonanza"] {
+  display: none;
+}
+
 .game-grid .game-grid-item-b {
   -ms-grid-column: 5;
   -ms-grid-column-span: 2;
@@ -4552,7 +4557,8 @@ body .odds-table .single-match-row td.match-name {
   align-items: center;
   padding: 5px 5px;
 }
-.casino-pro-item .casino-pro-item-img[onclick="selectProvider(6);"] {
+.casino-pro-item .casino-pro-item-img[onclick="selectProvider(6);"],
+.casino-pro-item .casino-pro-item-img[onclick="selectProvider(14);"] {
   display: none;
 }
 
