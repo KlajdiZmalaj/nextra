@@ -1,28 +1,30 @@
 // was froutbet => matrix365
 
+//invet 1 light skin inver 0 dark skin (images)
+$invet: 1;
 html:root {
-    --accent: #4caf50;
-    --accent-bg: #4caf50;
-    --accent-txt: #222;
-    --primary-bg: #d9d9d9;
-    --primary-txt: #000000;
-    --secondary-bg: #075424;
-    --secondary-txt: #fff;
-    --mainBg: #000000;
-    --mainBgCol: #e5e5e5;
-    --bg1: #0f0f0f;
-    --col1: #e7e7e7;
-    --teableHeadersBg: #075424;
-    --teableHeadersCol: #ffffff;
-    --teableSubHeadersBg: #09441f;
-    --teableSubHeadersCol: #4caf50;
-    --tableBorders: #303030;
-    --casinoGradient1: #000000;
-    --casinoGradient1-txt: #fff;
-    --casinoGradient2: #4caf50;
-    --casinoGradient2-txt: #000;
-    --backDrops: #000000cf;
-    --skin: "matrix365";
+  --accent: #4caf50;
+  --accent-bg: #4caf50;
+  --accent-txt: #222;
+  --primary-bg: #d9d9d9;
+  --primary-txt: #000000;
+  --secondary-bg: #075424;
+  --secondary-txt: #fff;
+  --mainBg: #000000;
+  --mainBgCol: #e5e5e5;
+  --bg1: #0f0f0f;
+  --col1: #e7e7e7;
+  --teableHeadersBg: #075424;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #09441f;
+  --teableSubHeadersCol: #4caf50;
+  --tableBorders: #303030;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #4caf50;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+  --skin: "matrix365";
 }
 
 $skin: "fourbet";
@@ -63,8 +65,8 @@ html body {
 }
 
 .header .top-bar {
-  background: #000 !important;
-  color: #fff !important;
+  background: #1b1b1b !important;
+  color: #20ff00 !important;
 }
 
 footer {
@@ -87,7 +89,6 @@ html footer {
   color: #fff !important;
 }
 html .torn-a {
-    background: #0f0f0f;
-    color: #4CAF50;
+  background: #0f0f0f;
+  color: #4caf50;
 }
-
