@@ -6121,8 +6121,8 @@ body #tabletsDay {
   }
 }
 body {
-  .help-page .help-menu ul li a,
-  .help-page .help-menu ul li span {
+  .help-page .help-menu ul li .sub-menu li a,
+  .help-page .help-menu ul li .sub-menu li span {
     color: inherit ;
     &:hover {
       color: inherit ;
