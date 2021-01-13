@@ -6081,7 +6081,9 @@ body #tabletsDay {
 .transactions-legend-holder .notice {
   display: none;
 }
-.footer-menu li:nth-child(3) ,.footer-menu li:nth-child(2) ,.footer-menu li:nth-child(1) {
+.footer-menu li:nth-child(3),
+.footer-menu li:nth-child(2),
+.footer-menu li:nth-child(1) {
   display: none;
 }
 
@@ -6122,7 +6124,9 @@ body #tabletsDay {
 }
 body {
   .help-page .help-menu ul li .sub-menu li a,
-  .help-page .help-menu ul li .sub-menu li span {
+  .help-page .help-menu ul li .sub-menu li span,
+  .help-page .help-menu ul li a,
+  .help-page .help-menu ul li span {
     color: inherit;
     &:hover {
       color: inherit;
