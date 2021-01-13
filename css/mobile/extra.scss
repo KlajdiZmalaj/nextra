@@ -9004,6 +9004,14 @@ body .fast_menu_option .gpicon.icon-web:before {
   top: 5px;
 }
 
+body .fast_menu_option .gpicon.icon-poker-poker:before {
+  background-image: url(https://nextra.pcluster.info/css/fonts/poker.svg);
+  background-position: center;
+  background-size: contain;
+  /* background-position-y: 9px; */
+  position: relative;
+  top: 5px;
+}
 body .fast_menu_option .gpicon.icon-poker-casino:before {
   background-image: url(https://nextra.pcluster.info/css/fonts/casino.svg);
   background-position: center;
@@ -9012,7 +9020,6 @@ body .fast_menu_option .gpicon.icon-poker-casino:before {
   position: relative;
   top: 5px;
 }
-
 span.gpicon.icon-web + span {
   color: transparent !important;
   position: relative;
@@ -11281,4 +11288,11 @@ li.fast_menu_option:nth-child(10) span:before {
 .menu_items_container span.menu-language-container {
   position: fixed;
   top: 0;
+}
+
+.fast_menu_option:last-child {
+  display: none;
+}
+.sport_quota_class[data-active*="false"] {
+  height: 91px;
 }
