@@ -8486,13 +8486,14 @@ a.button.right.login {
     height: 70px;
     position: relative;
 
-    &:nth-child(1),
     &:nth-child(3),
-    &:nth-child(4),
     &:nth-child(2) {
       display: none;
     }
-
+    &:nth-child(1),
+    &:nth-child(4) {
+      order: 0;
+    }
     &:nth-child(7) {
       order: 1;
     }
@@ -11335,12 +11336,13 @@ img.casino-pro-item-img[alt="Novomatic"] {
 .sport_quota_class[data-active*="false"] {
   height: 91px;
 }
-
+.sport_quota_class[data-active*="false"] .oc-list {
+  display: flex;
+  flex-flow: row;
+}
 .oc-list {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-top: 0;
-  margin-bottom: 0;
   flex-flow: column;
 }
