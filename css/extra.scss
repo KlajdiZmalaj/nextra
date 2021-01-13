@@ -6105,6 +6105,7 @@ body #tabletsDay {
   background: var(--bg1);
   color: var(--col1);
   border: 0;
+  border-bottom: 1px solid var(--tableBorders);
   &:hover {
     background: var(--bg1);
     color: var(--col1);
@@ -6126,4 +6127,10 @@ body #tabletsDay {
   &:hover {
     color: inherit !important;
   }
+}
+
+html body .help-page .help-menu ul li.has-sub-menu span {
+  background: var(--teableSubHeadersBg) !important;
+  color: var(--teableSubHeadersCol) !important;
+  border-bottom: 1px solid var(--tableBorders);
 }
