@@ -69,3 +69,6 @@ body.landing-page {
 ul#favouriteSports {
   background : #fff
 }
+.fast_menu_option:last-child {
+  display: flex !important;
+}

@@ -96,9 +96,3 @@ ul#favouriteSports {
 .fast_menu_option:last-child {
   display: flex !important;
 }
-.fast_menu_option:last-child a span:last-child {
-  font-size: 0 !important;
-  &:before {
-    content: "Poker";
-  }
-}
