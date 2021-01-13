@@ -6096,8 +6096,8 @@ body #tabletsDay {
   border-bottom: 1px solid var(--tableBorders);
 }
 .help-page .help-menu ul li.selected a {
-  background: var(--accent-bg);
-  color: var(--accent-txt);
+  background: var(--accent-bg) !important;
+  color: var(--accent-txt) !important;
 }
 .help-page .help-menu ul li:hover,
 .help-page .help-menu ul li.open {
@@ -6145,5 +6145,14 @@ html body .help-page .help-menu ul li.has-sub-menu span {
     content: "Regolamento";
     font-size: 14px;
     font-weight: 400;
+  }
+}
+
+.help-page .help-menu ul {
+  li {
+    display: none;
+    &:nth-last-child(2) {
+      display: list-item;
+    }
   }
 }
