@@ -8486,35 +8486,57 @@ a.button.right.login {
     height: 70px;
     position: relative;
 
-    &:nth-child(1) {
+    &:nth-child(1),
+    &:nth-child(3),
+    &:nth-child(4) {
+      display: none;
+    }
+    &:nth-child(2) {
       order: 1;
-      display: none;
     }
-
-    &:nth-child(3) {
-      order: 10;
-      display: none;
-    }
-
-    &:nth-child(5) {
-      order: 7;
-      display: none;
-    }
-
-    &:nth-child(6) {
-      order: 6;
-    }
-
     &:nth-child(7) {
-      order: 6;
+      order: 2;
     }
-
-    &:nth-child(8) {
+    &:nth-child(9) {
+      order: 3;
+    }
+    &:nth-child(5) {
       order: 4;
     }
     &:nth-child(10) {
       order: 5;
     }
+    &:nth-child(9) {
+      order: 6;
+    }
+    &:nth-child(6) {
+      order: 7;
+    }
+
+    // &:nth-child(3) {
+    //   order: 10;
+    //   display: none;
+    // }
+
+    // &:nth-child(5) {
+    //   order: 7;
+    //   display: none;
+    // }
+
+    // &:nth-child(6) {
+    //   order: 6;
+    // }
+
+    // &:nth-child(7) {
+    //   order: 6;
+    // }
+
+    // &:nth-child(8) {
+    //   order: 4;
+    // }
+    // &:nth-child(10) {
+    //   order: 5;
+    // }
 
     > a {
       display: flex;
@@ -9004,14 +9026,25 @@ body .fast_menu_option .gpicon.icon-web:before {
   top: 5px;
 }
 
-body .fast_menu_option .gpicon.icon-poker-poker:before {
-  background-image: url(https://nextra.pcluster.info/css/fonts/poker.svg);
+body .fast_menu_option span.gpicon.icon-poker:before {
+  background-image: url(https://nextra.pcluster.info/css/fonts/poker.svg) !important;
+  background-size: 80%;
   background-position: center;
   background-size: contain;
   /* background-position-y: 9px; */
   position: relative;
   top: 5px;
+  content: "";
 }
+body .fast_menu_option span.gpicon.icon-poker + span {
+  font-size: 0 !important;
+  &:before {
+    content: "Poker";
+    font-size: 12px;
+    background: none !important;
+  }
+}
+
 body .fast_menu_option .gpicon.icon-poker-casino:before {
   background-image: url(https://nextra.pcluster.info/css/fonts/casino.svg);
   background-position: center;
