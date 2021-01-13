@@ -6081,7 +6081,7 @@ body #tabletsDay {
 .transactions-legend-holder .notice {
   display: none;
 }
-.footer-menu li:nth-child(2) {
+.footer-menu li:nth-child(3) ,.footer-menu li:nth-child(2) ,.footer-menu li:nth-child(1) {
   display: none;
 }
 
@@ -6123,16 +6123,23 @@ body #tabletsDay {
 body {
   .help-page .help-menu ul li .sub-menu li a,
   .help-page .help-menu ul li .sub-menu li span {
-    color: inherit ;
+    color: inherit;
     &:hover {
-      color: inherit ;
+      color: inherit;
     }
   }
 }
-
 
 html body .help-page .help-menu ul li.has-sub-menu span {
   background: var(--teableSubHeadersBg) !important;
   color: var(--teableSubHeadersCol) !important;
   border-bottom: 1px solid var(--tableBorders);
+}
+.footer-menu li:nth-child(4) a {
+  font-size: 0;
+  &::before {
+    content: "Regolamento";
+    font-size: 14px;
+    font-weight: 400;
+  }
 }
