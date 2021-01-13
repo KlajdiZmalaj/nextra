@@ -8488,29 +8488,28 @@ a.button.right.login {
 
     &:nth-child(1),
     &:nth-child(3),
-    &:nth-child(4) {
+    &:nth-child(4),
+    &:nth-child(2) {
       display: none;
     }
-    &:nth-child(2) {
+
+    &:nth-child(7) {
       order: 1;
     }
-    &:nth-child(7) {
+    &:nth-child(9) {
       order: 2;
     }
-    &:nth-child(9) {
+    &:nth-child(5) {
       order: 3;
     }
-    &:nth-child(5) {
+   
+
+    &:nth-child(10) {
       order: 4;
     }
-    &:nth-child(10) {
-      order: 5;
-    }
-    &:nth-child(9) {
-      order: 6;
-    }
+
     &:nth-child(6) {
-      order: 7;
+      order: 5;
     }
 
     // &:nth-child(3) {
@@ -9047,6 +9046,14 @@ body .fast_menu_option span.gpicon.icon-poker + span {
 
 body .fast_menu_option .gpicon.icon-poker-casino:before {
   background-image: url(https://nextra.pcluster.info/css/fonts/casino.svg);
+  background-position: center;
+  background-size: contain;
+  /* background-position-y: 9px; */
+  position: relative;
+  top: 5px;
+}
+body .fast_menu_option:nth-child(9) .gpicon.icon-poker-casino:before {
+  background-image: url(https://nextra.pcluster.info/css/fonts/roulette.svg);
   background-position: center;
   background-size: contain;
   /* background-position-y: 9px; */
@@ -10511,9 +10518,9 @@ img.casino-pro-item-img[alt="Novomatic"] {
     text-align: center;
   }
 }
-li.fast_menu_option:nth-child(10) span:before {
-  background-image: url(https://nextra.pcluster.info/css/fonts/roulette.svg) !important;
-}
+// li.fast_menu_option:nth-child(10) span:before {
+//   background-image: url(https://nextra.pcluster.info/css/fonts/roulette.svg) !important;
+// }
 
 .ctg_game_btn_login {
   position: unset;
