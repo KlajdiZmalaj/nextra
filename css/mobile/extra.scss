@@ -8502,7 +8502,6 @@ a.button.right.login {
     &:nth-child(5) {
       order: 3;
     }
-   
 
     &:nth-child(10) {
       order: 4;
@@ -11335,4 +11334,12 @@ img.casino-pro-item-img[alt="Novomatic"] {
 }
 .sport_quota_class[data-active*="false"] {
   height: 91px;
+}
+
+.oc-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
 }
