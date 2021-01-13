@@ -6120,14 +6120,16 @@ body #tabletsDay {
     color: var(--col1);
   }
 }
-
-.help-page .help-menu ul li a,
-.help-page .help-menu ul li span {
-  color: inherit !important;
-  &:hover {
-    color: inherit !important;
+body {
+  .help-page .help-menu ul li a,
+  .help-page .help-menu ul li span {
+    color: inherit ;
+    &:hover {
+      color: inherit ;
+    }
   }
 }
+
 
 html body .help-page .help-menu ul li.has-sub-menu span {
   background: var(--teableSubHeadersBg) !important;
