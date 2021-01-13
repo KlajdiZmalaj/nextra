@@ -235,3 +235,7 @@ html .sport_single_quote[data-selected="false"] div span.tipoquota {
 body [data-page="prematch-event"] .sport_quote_view .quota .quota {
   background: transparent;
 }
+body [data-page="prematch-event"] .sport_single_quote {
+  margin: 4px 2px !important;
+  border-radius: 3px;
+}
