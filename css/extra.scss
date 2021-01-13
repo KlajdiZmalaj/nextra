@@ -6084,3 +6084,46 @@ body #tabletsDay {
 .footer-menu li:nth-child(2) {
   display: none;
 }
+
+.help-page .help-menu {
+  border: 0;
+  background: var(--bg1);
+  color: var(--col1);
+}
+.help-page .help-menu ul li {
+  border-bottom: 1px solid var(--tableBorders);
+}
+.help-page .help-menu ul li.selected a {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+}
+.help-page .help-menu ul li:hover,
+.help-page .help-menu ul li.open {
+  background: transparent;
+}
+.help-page .help-menu ul li .sub-menu li {
+  background: var(--bg1);
+  color: var(--col1);
+  border: 0;
+  &:hover {
+    background: var(--bg1);
+    color: var(--col1);
+  }
+}
+
+.help-page .help-menu ul li .sub-menu li:nth-child(even) {
+  background: var(--bg1);
+  color: var(--col1);
+  &:hover {
+    background: var(--bg1);
+    color: var(--col1);
+  }
+}
+
+.help-page .help-menu ul li a,
+.help-page .help-menu ul li span {
+  color: inherit !important;
+  &:hover {
+    color: inherit !important;
+  }
+}
