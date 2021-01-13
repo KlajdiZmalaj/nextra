@@ -1,74 +1,237 @@
-$skin: "kobet24";
+$skin: "masterbet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDEuNzYgNzAuMjMiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZjhhYjBlO30uY2xzLTJ7ZmlsbDojZmZmO308L3N0eWxlPjwvZGVmcz48dGl0bGU+bG9nbzwvdGl0bGU+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xNC4yOS42Mkg0OUw0Mi42MSwzMC45MWwuNDEuNzNDNjQuNjcsMTQuMjgsNzYuMzQsMy41MSw3Ni44Mi41NGgzMy41NUw2Ny44MiwzOC4xNyw4NS4yNCw2NC42Myw4Ni4zOSw2Nmw0Ljg3LDQuMjVINTUuMzdBNC4yOCw0LjI4LDAsMCwwLDU1LjE2LDY2bC0xNS0yMy41NUwzNi42MSw1OWEyMS44MSwyMS44MSwwLDAsMCwuNiwxMS4yNUgwbC4xMi0uMTNBMjMuMTQsMjMuMTQsMCwwLDAsNi4wNiw1OC43NUwxNi42Nyw4LjJTMTgsLjYyLDE0LjI5LjYyWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE4OC4xLDBhMTAuNjUsMTAuNjUsMCwwLDEsMTAuNDIsMTIuODhsLTguODQsNDEuNDRhMjAsMjAsMCwwLDEtMTkuNTQsMTUuODNsLTU2LjIzLjA2YTEwLDEwLDAsMCwxLTkuNzktMTIuMDlsOS00Mi4zQTIwLDIwLDAsMCwxLDEzMi43MywwWk0xNDMuOTQsMTcuNTgsMTM3LjIsNTAuMjFhNSw1LDAsMCwwLDQuODksNkgxNTRhNC44Myw0LjgzLDAsMCwwLDQuNDktMi44NWwwLDBoMGEyMiwyMiwwLDAsMCwuNjktMi41M0wxNjYsMTguNjdxMS41Ni01LjYtNC4yNS01LjA4SDE0OC44NEE1LDUsMCwwLDAsMTQzLjk0LDE3LjU4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQ0MS4xNywxOC41NWMuMjMtMi4yOS0uMTktNC0xLjI1LTUuMjFhNS4yMSw1LjIxLDAsMCwwLTQtMS41Nkg0MDQuMTZMNDAxLjYyLDI0aDI3LjY3bC0uODEsMy41M2MtLjIxLjgyLS42NiwxLjU3LTIuNDksMS41N0g0MDUuNDVhNS41OSw1LjU5LDAsMCwwLTQuMTEsMS43LDkuMjQsOS4yNCwwLDAsMC0yLjI0LDQuOGwtMy4zLDE1LjgyLDAsLjE2Yy0uMjMsMi4yOS4xOSw0LDEuMjUsNS4yMWE1LjIzLDUuMjMsMCwwLDAsNC4wNSwxLjU2SDQzMi45TDQzNS41MSw0Nkg0MDkuNzVjLTEuMSwwLTEuNDMtLjI3LTEuNTEtLjM1YTEuMzIsMS4zMiwwLDAsMS0uMTUtLjgybC44My00LDIyLjYzLjA5YzIuMzIsMCw1LjMtMS4xNCw2LjM0LTYuNTlsMy4yNi0xNS42M1oiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik00NzEuMzEsMTEuODdsLTQuNTksMjIuMjVINDUzLjM3bDQuNS0yMi4yNUg0NDYuNzZsLTYuMSwyOS42MWE0LjI3LDQuMjcsMCwwLDAsLjkxLDMuNTlBNC4zNSw0LjM1LDAsMCwwLDQ0NSw0Ni43aDE5LjEzbC0yLjM4LDExLjczaDExLjUxbDkuNi00Ni41NloiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yNTIuMDksNDEuNjlsLTE3LjI4LS4xOC0xLjM1LDYuNjYsMTcuNDgsMHE0LjE3LS4xNSw1LTMuMDlDMjU2LjUsNDMuMTUsMjU1LjIyLDQyLDI1Mi4wOSw0MS42OVoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yNTYuMDUsMjIuNTRIMjM4LjUzbC0xLjM1LDYuNjYsMTcuNDgsMGMyLjc5LS4xLDQuNDYtMS4xMiw1LTMuMDhTMjU5LDIzLDI1Ni4wNSwyMi41NFoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik00OTEuMTEsMEgyMDUuODZzOC4xNywxLjUsNC41MywxOS4yNWwtOC4zMiwzOC44N2ExMCwxMCwwLDAsMCw5Ljc5LDEyLjA5bDI2MS4yOS0uMDZhMjAsMjAsMCwwLDAsMTkuNTMtMTUuODNsOC44NS00MS40NEExMC42NiwxMC42NiwwLDAsMCw0OTEuMTEsMFpNMjc0LjI1LDIyLjk0cS0xLDcuNS01Ljg3LDExLjQ4LDUuMzcsMy40LDMsMTIuNzhRMjY4LDYwLjU1LDI1MC4xLDYwLjM3bC0zNC41NCwwTDIyNS43OCw5LjhoMzUuMDhRMjc1LjMyLDExLDI3NC4yNSwyMi45NFptNzQuOTIsMzcuNDdoLTE0bDYuNS0zMS44OWgxNFptMjEuMzUtMzguMjYtNzEuMTQsMGMtMi41OS0uMDktNC4yMi41Ni00Ljg3LDJsLTEuNjksNC4zNCwxNy4yOCwwLTIuNTgsMTIuMTYtMTctLjE0LS4yNywyLjg2cS0uMjIsMy42MiwyLjIsMy45MWwzMi41NSwwLTIuNjgsMTMuMTRIMjg2LjY2cS0xNS4yNi0uOS0xMC4zMy0yNS4zMlQyOTgsOS44NEgzNzNaTTQ5Ny42MSwxMmwtOC44NCw0MS40NGExNi4wOCwxNi4wOCwwLDAsMS0xNS42MiwxMi42N2wtOTQuMzcsMEwzOTEuNzUsNGg5OS4zNmE2LjY1LDYuNjUsMCwwLDEsNi41LDhaIi8+PC9nPjwvZz48L3N2Zz4=";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
+$logoUrl: "https://nextra.pcluster.info/masterbet/images/logo2.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 0;
-
+$invet: 1;
 html:root {
-  --accent: #ffae00;
-  --accent-bg: #ffae00;
+  --accent: #95cd3b;
+  --accent-bg: #95cd3b;
   --accent-txt: #000;
-  --primary-bg: #ffffff;
-  --primary-txt: #707070;
-  --secondary-bg: #2b2a29;
+  --primary-bg: #000;
+  --primary-txt: #fff;
+  --secondary-bg: #212931;
   --secondary-txt: #fff;
-  --mainBg: #232220;
+  --mainBg: #171d24;
   --mainBgCol: #fff;
-  --bg1: #292826;
+  --bg1: #29333b;
   --col1: #fff;
-  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #ff8e01);
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #3c3b3b;
+  --teableHeadersBg: #384351;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #14191d;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #3c3b3b;
-  --casinoGradient1: #00000000;
-  --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #ffae00;
+  --tableBorders: #445461;
+  --casinoGradient1: linear-gradient(
+    to right,
+    #95cd3b00 3%,
+    #95cd3b 60%,
+    #95cd3b00 99%
+  );
+  --casinoGradient1-txt: #000;
+  --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "kobet24";
+  --skin: "masterbet";
 }
 
-$secondary: #f4c100;
+$secondary: #95cd3b;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #d1a813;
-$secondaryDarkCol: #222;
-$primary: #848484;
+$secondaryDark: #95cd3b;
+$secondaryDarkCol: #fff;
+$primary: #607d8b;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #444444;
+$sb-2: #525b61;
+
+body {
+  background-size: 2038px !important;
+}
+
 body.landing-page {
-  background-color: #121212 !important;
+  background-color: #31343d !important;
   background-image: none;
 }
 
-//casino live
-.clive-container > .clive-inner > .clgames-container:nth-child(2) {
-  display: none;
-  margin-bottom: 0;
-}
-.clive-container .clive-inner .clive-games-container:last-child {
-  margin: 0 auto;
+.main-content.home-page
+  .left-side-bar
+  .single-block:first-child
+  .block-title
+  span,
+.main-content.home-page
+  .right-side-bar
+  .single-block:first-child
+  .block-title
+  span,
+.main-content.home-page
+  .right-side-bar
+  .single-block:nth-child(2)
+  .block-title
+  span {
+  color: var(--accent-bg);
+  font-weight: 500;
 }
 
-.clive-container .clive-inner {
-  display: flex;
-  flex: 1 1;
-  justify-content: space-between;
-  align-items: center;
+.single-sport .states .state .championship.selected .anchor {
+  color: var(--accent);
+}
+.single-sport
+  .states
+  .state
+  .championship
+  .anchor
+  .check
+  input:checked
+  ~ .checkmark:after,
+.single-sport
+  .states
+  .state
+  .championship
+  .anchor
+  .check
+  input:checked
+  ~ .checkmark {
+  border-color: var(--accent) !important;
 }
 
-ul#favouriteSports {
-  background: #fff;
+.odds-table .second-header td.day {
+  color: var(--accent);
 }
-.fast_menu_option:last-child {
-  display: flex !important;
+
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
+  border: 1px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+
+.tabs-holder .tabs-row .single-tab {
+  border-bottom: 2px solid transparent !important;
+}
+
+.tabs-holder .tabs-row .single-tab:hover,
+.tabs-holder .tabs-row .single-tab.active {
+  border-bottom: 2px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+.odds-table .second-header {
+  opacity: 1 !important;
+}
+
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .selections-wrapper
+  .single-event
+  .selected-bet
+  .bet
+  .quote {
+  color: var(--accent);
+}
+
+.header .top-header .top-header-content .primary-menu .header-buttons > button,
+.header .top-header .top-header-content .primary-menu .header-buttons > a {
+  background: #000 !important;
+  color: #fff !important;
+}
+body
+  .side-bar
+  .single-block.betslip-holder
+  .betslip-controllers
+  .single-controller.active {
+  background: #14191d;
+  color: #e9e9e9;
+}
+.header .top-header .top-header-content .logo-holder a:before {
+  width: 230px !important;
+}
+html {
+  .live-odds-table table tr td.odd-holder .single-live-odd .label,
+  span.odd-type,
+  .odds-table .second-header td {
+    color: var(--accent);
+  }
+}
+
+html {
+  .virtu-box {
+    background-image: url(//nextra.pcluster.info/masterbet/images/virtual.jpg);
+    background-position-y: -80px;
+  }
+  .casino-section {
+    background-image: url(//nextra.pcluster.info/masterbet/images/casinonew.jpg);
+    background-size: 1360px;
+  }
+  body .casino-section .casino-container .casino-inner {
+    padding-top: 374px;
+    height: calc(100% - 388px) !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .game-grid {
+    column-gap: 18px;
+  }
+}
+
+.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
+  &:before {
+    background-image: url(//nextra.pcluster.info/masterbet/images/casinolive/clive-banner1.jpg) !important;
+  }
+}
+
+.banner-block {
+  a[href="/Sport/became-an-agent"] {
+    position: relative;
+    &:after {
+      content: "";
+      width: 100%;
+      height: 300px;
+      background: url(//nextra.pcluster.info/masterbet/images/bookra.jpg);
+      height: 300px;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      top: 100%;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    &:before {
+      content: "";
+      width: 100%;
+      height: 300px;
+      background: url(//nextra.pcluster.info/masterbet/images/evo.jpg);
+      height: 300px;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      top: 200%;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}
+
+html .sport_single_quote[data-selected="false"] div span.tipoquota {
+  opacity: 1;
+}
+
+// html .sport_single_quote[data-selected="true"] div span.tipoquota {
+//   opacity: 0.7;
+// }
+
+.odds-table .goalScorer .odd.quote {
+  color: var(--accent);
+}
+
+body [data-page="prematch-event"] .sport_quote_view .quota .quota {
+  background: transparent;
 }
