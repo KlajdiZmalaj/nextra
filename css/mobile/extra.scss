@@ -8494,10 +8494,10 @@ a.button.right.login {
       }
     }
     &:nth-child(3),
-    &:nth-child(2) {
+    &:nth-child(1) {
       display: none;
     }
-    &:nth-child(1),
+    &:nth-child(2),
     &:nth-child(4) {
       order: 0;
     }
