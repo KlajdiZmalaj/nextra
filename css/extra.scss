@@ -6156,3 +6156,21 @@ html body .help-page .help-menu ul li.has-sub-menu span {
     }
   }
 }
+
+.antepost-holder div span:first-child {
+  border-right: 1px solid var(--tableBorders);
+}
+.antepost-name-wrap {
+  background-color: var(--teableSubHeadersBg);
+  color: var(--teableSubHeadersCol) !important;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  line-height: initial;
+  padding: 0 10px;
+}
+.antepost-holder div.antepost-header {
+  background-color: var(--teableHeadersBg);
+  color: var(--teableHeadersCol);
+}
