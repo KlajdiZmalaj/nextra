@@ -55,7 +55,10 @@ body {
 }
 
 .header .top-header .top-header-content .logo-holder a:before {
-  height: 80px !important;
+  height: 110px !important;
+  width: 184px !important;
+  position: absolute !important;
+  top: -20px;
 }
 body .main_header .main_header_left:after {
   height: 50px !important;
