@@ -6178,3 +6178,19 @@ Sport-Icons:after {
   content: "🏀-🏈-⚽-🏓-⚾-🏐-🥎";
   display: flex;
 }
+
+body .odds-table.lastMinutes .single-match-row td.match-name .team {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+.game-overlay-inner .game-play-contianer .game-play-btn {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  border: 0;
+  &:hover {
+    background: var(--accent-bg);
+    color: var(--accent-txt);
+    border: 0;
+  }
+}
