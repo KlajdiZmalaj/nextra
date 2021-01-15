@@ -6179,7 +6179,9 @@ Sport-Icons:after {
   display: flex;
 }
 
-body .odds-table.lastMinutes .single-match-row td.match-name .team {
+
+body .odds-table.lastMinutes .single-match-row td.match-name .team,
+#miniTablets .single-match-row td.match-name .team {
   overflow: hidden;
   text-overflow: ellipsis;
   display: block;
