@@ -62,6 +62,6 @@ $sb-2: #333844;
 }
 //hide evolution
 
-#miniTablets .second-header td {
-  color: #fec900
+#miniTablets .second-header td ,.lastMinutes .second-header td{
+  color: #fec900 !important
 }
