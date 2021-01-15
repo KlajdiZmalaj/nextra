@@ -61,3 +61,7 @@ $sb-2: #333844;
   display: none !important;
 }
 //hide evolution
+
+#miniTablets .second-header td {
+  color: #fec900
+}
