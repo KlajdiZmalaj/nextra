@@ -97,12 +97,15 @@
 .usrlist-inner tbody tr td {
   border: 1px solid #c2c1c1;
   padding: 4px 0;
-  background-color: #ebebeb;
+  background-color: #EDECED;
   color: #222;
   clear: both;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.usrlist-inner tbody tr:nth-child(even) td {
+  background-color: #D4D4D4;
 }
 
 .usrlist-inner tbody tr td:nth-child(1) {
