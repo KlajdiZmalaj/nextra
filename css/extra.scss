@@ -6179,7 +6179,6 @@ Sport-Icons:after {
   display: flex;
 }
 
-
 body .odds-table.lastMinutes .single-match-row td.match-name .team,
 #miniTablets .single-match-row td.match-name .team {
   overflow: hidden;
@@ -6194,5 +6193,22 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
     background: var(--accent-bg);
     color: var(--accent-txt);
     border: 0;
+  }
+}
+
+.usrlist {
+  #client_list th:nth-child(3),
+  #client_list td:nth-child(3),
+  #client_list th:nth-child(5),
+  #client_list td:nth-child(5) {
+    width: 62px;
+  }
+  #client_list th:nth-child(4),
+  #client_list td:nth-child(4) {
+    width: 35px;
+  }
+  #client_list th:nth-child(7),
+  #client_list td:nth-child(7) {
+    width: 130px;
   }
 }
