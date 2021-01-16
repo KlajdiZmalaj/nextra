@@ -6294,7 +6294,10 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
   .gk-head .msd-det-lab {
     font-weight: 500;
   }
-  
+  .msg_text {
+    white-space: pre-line;
+  }
+
   .msd-det-lab {
    font-weight: 500;
   }
