@@ -78,5 +78,8 @@ html {
   .single-odd-type .odd-type:after,
   .single-live-odd .quote:after {
     display: block !important;
+    position: absolute;
+    left: 20px;
+    top: 10px;
   }
 }
