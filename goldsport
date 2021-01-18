@@ -64,6 +64,18 @@ body .main_header .main_header_left:after {
   height: 50px !important;
 }
 
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd {
+  position: relative;
+}
+
 html {
   .live-content-wrapper
     .live-sports-overview
@@ -81,5 +93,17 @@ html {
     position: absolute;
     left: 20px;
     top: 10px;
+  }
+}
+
+html {
+  .live-odds-table
+    table
+    tr
+    td.odd-holder
+    .single-live-odd.odd-zero
+    .quote:after {
+    left: 23px;
+    top: 20px;
   }
 }
