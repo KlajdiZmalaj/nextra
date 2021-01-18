@@ -64,17 +64,19 @@ body .main_header .main_header_left:after {
   height: 50px !important;
 }
 
-.live-content-wrapper
-  .live-sports-overview
-  .sport-container
-  .single-panel
-  .panel-content
-  .single-match
-  .odds-wrapper
-  .odds-holder
-  .single-odd
-  .odd-type:after,
-.single-odd-type .odd-type:after,
-.single-live-odd .quote:after {
-  display: none !important;
+html {
+  .live-content-wrapper
+    .live-sports-overview
+    .sport-container
+    .single-panel
+    .panel-content
+    .single-match
+    .odds-wrapper
+    .odds-holder
+    .single-odd
+    .odd-type:after,
+  .single-odd-type .odd-type:after,
+  .single-live-odd .quote:after {
+    display: block !important;
+  }
 }

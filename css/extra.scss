@@ -2209,7 +2209,7 @@ body
   display: grid !important;
   grid-template-columns: 1fr 340px;
   grid-template-rows: repeat(auto-fill, 35px);
-  @media (max-width: 1500px) {
+  @media (max-width: 1024px) {
     display: inline-block !important;
   }
 }
@@ -2240,7 +2240,7 @@ body
       font-size: 15px;
     }
   }
-  @media (max-width: 1500px) {
+  @media (max-width: 1024px) {
     max-height: 680px;
     overflow: auto;
   }
@@ -2249,9 +2249,9 @@ body
   display: flex;
   flex-flow: column;
 
-  // @media (max-width: 1500px) {
-  //   flex-flow: row;
-  // }
+  @media (max-width: 1024px) {
+    flex-flow: row;
+  }
 }
 .live-center-view-container.stats-active .lc-left-module,
 .live-center-view-container.stats-active .lc-right-module {
@@ -6332,3 +6332,12 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
     margin-right: 5px;
   }
 }
+<<<<<<< HEAD
+=======
+
+@media (max-width: 1366px) {
+  body .live-odds-table #oddsMenu tr {
+    width: 100%;
+  }
+}
+>>>>>>> f51fc359d6d8b4e2b298fb8faebc92a8c50e1060
