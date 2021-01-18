@@ -81,3 +81,48 @@ html .header .top-header .top-header-content .logo-holder a:before {
   height: 80px;
   left: 15px;
 }
+
+
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd {
+  position: relative;
+}
+
+html {
+  .live-content-wrapper
+    .live-sports-overview
+    .sport-container
+    .single-panel
+    .panel-content
+    .single-match
+    .odds-wrapper
+    .odds-holder
+    .single-odd
+    .odd-type:after,
+  .single-odd-type .odd-type:after,
+  .single-live-odd .quote:after {
+    display: block !important;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+  }
+}
+
+html {
+  .live-odds-table
+    table
+    tr
+    td.odd-holder
+    .single-live-odd.odd-zero
+    .quote:after {
+    left: 23px;
+    top: 20px;
+  }
+}
