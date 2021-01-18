@@ -91,7 +91,7 @@ html {
   .single-live-odd .quote:after {
     display: block !important;
     position: absolute;
-    left: 20px;
+    left: 0;
     top: 10px;
   }
 }
@@ -103,7 +103,25 @@ html {
     td.odd-holder
     .single-live-odd.odd-zero
     .quote:after {
-    left: 23px;
+    left: 0;
     top: 20px;
+  }
+}
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd {
+  padding-left: 12px;
+}
+
+html {
+  .sports-container .matches .single-match .match-odds .single-odd-type {
+    width: calc(100% / 3 - 34px);
+    padding-left: 18px;
   }
 }

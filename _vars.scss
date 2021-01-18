@@ -1,67 +1,85 @@
-$skin: "goldsport";
+//was play4bet => playbet
+
+$skin: "play4bet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/goldsport/images/logo2.png";
-
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/14/image/67045414d4c3d8269850866fc88768c4.jpeg";
-$bodyCol: #071538;
+$logoUrl: "https://nextra.pcluster.info/play4bet/images/logo.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/cyan.jpg";
+$bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
+
 html:root {
-  --accent: #fca311;
-  --accent-bg: #fca311;
+  --accent: #3ab7af;
+  --accent-bg: #3ab7af;
   --accent-txt: #000;
-  --primary-bg: #14213d;
+  --primary-bg: #0b2422;
   --primary-txt: #fff;
-  --secondary-bg: #1e2d4e;
+  --secondary-bg: #131313;
   --secondary-txt: #fff;
-  --mainBg: #111d35;
+  --mainBg: #000000;
   --mainBgCol: #ffffff;
-  --bg1: #0c1425;
+  --bg1: #131313;
   --col1: #fff;
-  --teableHeadersBg: #283a63;
+  --teableHeadersBg: #0d2a28;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #3e4a65;
+  --teableSubHeadersBg: #171717;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #324165;
+  --tableBorders: #0e2c2a;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "goldsport";
+  --skin: "play4bet";
 }
 
-$secondary: #ea2125;
+$secondary: #3ab7af;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #ea2125;
-$secondaryDarkCol: #fff;
-$primary: #fca311;
+$secondaryDark: #3ab7af;
+$secondaryDarkCol: #222;
+$primary: #000000;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #323232;
+$sb-2: #000000;
+
+footer {
+  background: var(--bg1);
+  border-top: 1px solid var(--mainBg);
+}
+footer .footer-copyright {
+  background: var(--mainBg);
+}
+
 body.landing-page {
-  background-color: #1e1e1e !important;
+  background-color: #121212 !important;
   background-image: none;
 }
 
-body {
-  background-position-y: 100px;
+//casino live
+.clive-container > .clive-inner > .clgames-container:nth-child(2) {
+  display: none;
+  margin-bottom: 0;
+}
+.clive-container .clive-inner .clive-games-container:last-child {
+  margin: 0 auto;
 }
 
-.header .top-header .top-header-content .logo-holder a:before {
-  height: 110px !important;
-  width: 184px !important;
-  position: absolute !important;
-  top: -20px;
+.clive-container .clive-inner {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  align-items: center;
 }
-body .main_header .main_header_left:after {
-  height: 50px !important;
+html .header .top-header .top-header-content .logo-holder a:before {
+  width: 240px;
+  height: 80px;
+  left: 15px;
 }
 
 .live-content-wrapper
