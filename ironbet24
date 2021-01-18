@@ -34,10 +34,10 @@ html:root {
   --skin: "naxbet365";
 }
 
-$secondary: #ea2125;
+$secondary: #fca311;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #ea2125;
+$secondaryDark: #fca311;
 $secondaryDarkCol: #fff;
 $primary: #fca311;
 $white: #ebebeb;
@@ -53,7 +53,6 @@ body.landing-page {
 body {
   background-position-y: 100px;
 }
-
 
 //hide evolution
 .clive-container > .clive-inner > .clgames-container:nth-child(2) {
