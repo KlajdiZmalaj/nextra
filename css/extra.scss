@@ -2334,7 +2334,8 @@ div.landing-page .banner-content:before {
   top: 12px;
 }
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-zero .quote:after {
-  left: 10px;
+  left: 6px;
+  transform: none;
 }
 .live-odds-table table tr td.odd-holder .single-live-odd .quote {
   padding-right: 3px;
@@ -6347,6 +6348,14 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
     color: var(--accent-txt) !important;
   }
 }
-.live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.odd-zero {
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd.odd-zero {
   min-height: 28px;
 }
