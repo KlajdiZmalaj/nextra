@@ -6338,3 +6338,12 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
     width: 100%;
   }
 }
+
+.logged-center .transaction-filters .row .buttons-holder .single-button {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  &:hover {
+    background: var(--accent-bg);
+    color: var(--accent-txt);
+  }
+}
