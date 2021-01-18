@@ -6340,10 +6340,10 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
 }
 
 .logged-center .transaction-filters .row .buttons-holder .single-button {
-  background: var(--accent-bg);
+  background-color: var(--accent-bg);
   color: var(--accent-txt);
   &:hover {
-    background: var(--accent-bg);
+    background-color: var(--accent-bg);
     color: var(--accent-txt);
   }
 }
