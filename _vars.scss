@@ -1,96 +1,127 @@
-// was froutbet => matrix365
+$skin: "goldsport";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
+
+$logoUrl: "https://nextra.pcluster.info/goldsport/images/logo2.png";
+
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/14/image/67045414d4c3d8269850866fc88768c4.jpeg";
+$bodyCol: #071538;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #4caf50;
-  --accent-bg: #4caf50;
-  --accent-txt: #222;
-  --primary-bg: #d9d9d9;
-  --primary-txt: #000000;
-  --secondary-bg: #000;
+  --accent: #fca311;
+  --accent-bg: #fca311;
+  --accent-txt: #000;
+  --primary-bg: #14213d;
+  --primary-txt: #fff;
+  --secondary-bg: #1e2d4e;
   --secondary-txt: #fff;
-  --mainBg: #000000;
-  --mainBgCol: #e5e5e5;
-  --bg1: #0f0f0f;
-  --col1: #e7e7e7;
-  --teableHeadersBg: #075424;
+  --mainBg: #111d35;
+  --mainBgCol: #ffffff;
+  --bg1: #0c1425;
+  --col1: #fff;
+  --teableHeadersBg: #283a63;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #09441f;
-  --teableSubHeadersCol: #4caf50;
-  --tableBorders: #303030;
+  --teableSubHeadersBg: #3e4a65;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #324165;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #4caf50;
+  --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "matrix365";
+  --skin: "goldsport";
 }
 
-$skin: "fourbet";
-$cdnPath: "//nextra.pcluster.info/#{$skin}";
-$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
-
-$logoUrl: "https://nextra.pcluster.info/fourbet/images/logo.svg";
-$bodyBg: "https://nextra.pcluster.info/fourbet/images/matrix.jpg";
-$bodyCol: #000;
-//invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
-
-$secondary: #075424;
+$secondary: #ea2125;
 $secondaryCol: #fff;
-
-$secondaryDark: #075424;
-$secondaryDarkCol: #fff;
 $black: #000000;
-$primary: #222;
-$white: #fff;
+$secondaryDark: #ea2125;
+$secondaryDarkCol: #fff;
+$primary: #fca311;
+$white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #162444;
-
-//black filter li logos
-#favouriteTournaments li:before {
-  filter: brightness(0.1);
+$sb-2: #323232;
+body.landing-page {
+  background-color: #1e1e1e !important;
+  background-image: none;
 }
 
-html body {
-  background-position-y: 80px !important;
-  background-attachment: initial;
-  background-size: 2260px;
-  background-repeat: no-repeat;
+body {
+  background-position-y: 100px;
 }
 
-.header .top-header {
-  border-bottom: 4px solid var(--casinoGradient2) !important;
+.header .top-header .top-header-content .logo-holder a:before {
+  height: 110px !important;
+  width: 184px !important;
+  position: absolute !important;
+  top: -20px;
+}
+body .main_header .main_header_left:after {
+  height: 50px !important;
 }
 
-.header .top-bar {
-  background: #1b1b1b !important;
-  color: #20ff00 !important;
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd {
+  position: relative;
 }
 
-footer {
-  background: var(--accent-bg) !important;
-}
-.header .top-header .top-header-content .primary-menu ul li.active {
-  color: #4caf50 !important;
-}
-.header .top-header .top-header-content .primary-menu li a:after {
-  color: inherit !important;
-}
 html {
-  .header .top-header .top-header-content .primary-menu ul li:hover:before,
-  .header .top-header .top-header-content .primary-menu ul li.active:before {
-    border-bottom: 10px solid #4caf50 !important;
+  .live-content-wrapper
+    .live-sports-overview
+    .sport-container
+    .single-panel
+    .panel-content
+    .single-match
+    .odds-wrapper
+    .odds-holder
+    .single-odd
+    .odd-type:after,
+  .single-odd-type .odd-type:after,
+  .single-live-odd .quote:after {
+    display: block !important;
+    position: absolute;
+    left: 0;
+    top: 10px;
   }
 }
-html footer {
-  background: #075424 !important;
-  color: #fff !important;
+
+html {
+  .live-odds-table
+    table
+    tr
+    td.odd-holder
+    .single-live-odd.odd-zero
+    .quote:after {
+    left: 0;
+    top: 20px;
+  }
 }
-html .torn-a {
-  background: #0f0f0f;
-  color: #4caf50;
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd {
+  padding-left: 12px;
+}
+
+html {
+  .sports-container .matches .single-match .match-odds .single-odd-type {
+    width: calc(100% / 3 - 34px);
+    padding-left: 18px;
+  }
 }

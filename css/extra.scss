@@ -6347,3 +6347,6 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
     color: var(--accent-txt) !important;
   }
 }
+.live-content-wrapper .live-sports-overview .sport-container .single-panel .panel-content .single-match .odds-wrapper .odds-holder .single-odd.odd-zero {
+  min-height: 28px;
+}
