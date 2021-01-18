@@ -36,7 +36,7 @@ html:root {
   --accent-txt: #fff;
   --primary-bg: #223348;
   --primary-txt: #fff;
-  --secondary-bg: #1d3557;
+  --secondary-bg: #010c26;
   --secondary-txt: #fff;
   --mainBg: #455467;
   --mainBgCol: #fff;
@@ -903,4 +903,69 @@ html {
 .main-content .center-content .percentage-block .bets .bet .odd {
   width: calc(100% - 1px);
   margin: 0 1px;
+}
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
+  background: var(--accent-bg) !important;
+  color: var(--accent-txt) !important;
+}
+html .tabs-holder .tabs-row .inner-tabs .single-inner-tab {
+  color: var(--teableHeadersCol);
+  font-size: 12px;
+  background: var(--teableHeadersBg);
+  text-shadow: none;
+  border: none;
+  border-right: 1px solid var(--tableBorders);
+  border-bottom: 1px solid var(--tableBorders);
+}
+
+html .tabs-holder .tabs-row .single-tab {
+  border-right: 1px solid var(--tableBorders);
+  border-bottom: 1px solid var(--tableBorders);
+  color: var(--teableHeadersCol);
+  background: var(--teableHeadersBg);
+  box-shadow: none;
+  text-shadow: none;
+  margin: 0;
+}
+html .header.logged-header .top-header {
+  flex-flow: unset;
+}
+html
+  .header.logged-header
+  .top-header
+  .top-header-content
+  .primary-menu
+  .header-buttons {
+  position: absolute;
+  right: 0;
+}
+html .header .top-bar .top-bar-content .login-bar {
+  justify-content: flex-end;
+}
+
+html .header.logged-header .top-header .top-header-content .primary-menu ul {
+  padding-left: 90px;
+}
+html .header .bottom-header {
+  background: var(--bg1);
+}
+
+html .center-content .sports-filter ul li:hover,
+html .center-content .sports-filter ul li.active,
+html .center-content .sports-filter-upcoming ul li:hover,
+html .center-content .sports-filter-upcoming ul li.active,
+html .center-content .teams-filter ul li:hover,
+html .center-content .teams-filter ul li.active {
+  background: linear-gradient(90deg, var(--tableBorders) 0, var(--accent-bg));
+}
+html #sportsGrid tr:nth-child(odd) {
+  background: #48586b3b;
+}
+html .center-content .sports-book {
+  background-image: url(https://t3.ftcdn.net/jpg/01/91/49/26/240_F_191492670_3c0KFlQkkJAtsyamdOGWssR1AWvgVagP.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  background-color: #040b28;
 }
