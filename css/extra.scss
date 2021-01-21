@@ -3447,10 +3447,19 @@ html body .block-title[onclick*="toggleNext"] {
 }
 .side-bar.right-side-bar {
   min-width: 286px;
-  height: calc(100vh - 153px);
-  overflow-y: scroll;
-  position: relative;
 }
+.live-page {
+  .side-bar.right-side-bar {
+    min-width: 286px;
+    max-height: 818px;
+    position: sticky;
+    top: 0;
+  }
+  .side-bar::-webkit-scrollbar {
+    display: block;
+  }
+}
+
 body .odds-table .single-match-row td.match-name {
   .match-id,
   .match-details,
