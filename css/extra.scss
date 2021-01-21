@@ -6374,9 +6374,9 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
 
 // transferimento
 .tts-btns {
-  border-bottom: 1px solid #062164;
-  background-color: #ebebeb;
+  background-color: var(--teableHeadersBg);
   padding: 4px;
+  margin-bottom: 1px;
 }
 
 .tts-btns-inner {
@@ -6445,14 +6445,8 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
 }
 .payment-method-table table tbody tr td:nth-child(2) .name {
   color: var(--accent);
-  font-size: 14px;
-  font-weight: bold;
 }
 .payment-method-table table tbody tr td:nth-child(2) span {
   color: var(--accent-txt);
-  font-size: 12px;
-  font-weight: 500;
-  width: 100%;
-  display: inline-block;
 }
 // end transferimento
