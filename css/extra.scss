@@ -1208,7 +1208,7 @@ body .logged-page .logged-table tfoot tr td,
   color: var(--accent);
 }
 .poker-strip {
-  background-color: var(--teableSubHeadersBg);
+  background-color: #000;
   color: var(--accent-col);
 }
 
@@ -5042,25 +5042,55 @@ span.ui-slider-handle:before {
 
 //poker
 .poker-banner-container {
-  max-width: 1360px;
-  margin: 0 auto;
-  width: 100%;
+  // max-width: 1360px;
+  // margin: 0 auto;
+  // width: 100%;
+  background: #000;
+  .poker-banner-inner {
+    max-width: 1360px;
+    margin: 0 auto;
+    width: 100%;
+  }
   .poker-banner-img {
     display: none;
   }
 }
 .poker-banner-container:after {
-  background-image: url(https://nextra.pcluster.info/bbgame/images/poker/poker-banner1.png);
+  background-image: url(https://nextra.pcluster.info/bbgame/images/poker/poker-banner1.jpg);
   background-size: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
   width: 100%;
-  height: 364px;
+  height: 560px;
   content: "";
   display: block;
   background-repeat: no-repeat;
 }
+
 .poker-container {
-  max-width: 1360px;
+  background: #000;
   margin: 0 auto;
+  padding-bottom: 60px;
+  .poker-strip.dbg {
+    display: none;
+  }
+  .poker-strip.isla .poker-strip-a img {
+    display: none;
+  }
+  .poker-strip.isla .poker-strip-a a:after {
+    content: "Gioca ora";
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid var(--accent-bg);
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: -10px;
+    color: var(--accent-bg);
+  }
+  .poker-strip.isla .poker-strip-a:nth-child(2),
+  .poker-strip.isla .poker-strip-a:nth-child(3) {
+    display: none;
+  }
   .poker-inner {
     width: 100%;
   }
@@ -5071,7 +5101,7 @@ span.ui-slider-handle:before {
     display: none;
   }
   .poker-strip {
-    padding: 140px 0px;
+    padding: 30px 0px;
   }
 }
 body .center-content .popular-bets .days ul li {
