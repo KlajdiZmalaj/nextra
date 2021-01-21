@@ -6373,6 +6373,10 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
 }
 
 // transferimento
+.tts-btn[href="/Sport/bo2_deposit"],
+.tts-btn[href="/Sport/bo2_withdrawal"] {
+  display: none !important;
+}
 .tts-btns {
   background-color: var(--teableHeadersBg);
   padding: 4px;
@@ -6404,7 +6408,9 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
 .tts-btns-inner .tts-btn.active {
   background-color: #2e9c3d;
 }
-
+.tts-btns-inner .tts-btn {
+  max-width: 300px;
+}
 .payment-method-table table tbody tr td .deposit-button,
 .payment-method-table table tbody tr td .withdraw-button {
   display: -webkit-box;
