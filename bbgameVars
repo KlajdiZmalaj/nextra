@@ -218,3 +218,18 @@ body [data-page="prematch-event"] .sport_single_quote {
   margin: 4px 2px !important;
   border-radius: 3px;
 }
+
+//poker on mob
+body .casino_container .ctg_game_item[data-name="DBGPOKER"] {
+  display: none !important;
+}
+body .fast_menu_option:last-child {
+  display: flex;
+}
+[data-logged][data-access] .single_menu_item.poker {
+  display: block !important;
+}
+.icon-menu-poker:before {
+  content: "\e98d";
+}
+//end poker on mob
