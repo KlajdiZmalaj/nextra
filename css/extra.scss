@@ -1208,7 +1208,7 @@ body .logged-page .logged-table tfoot tr td,
   color: var(--accent);
 }
 .poker-strip {
-  background-color: var(--teableSubHeadersBg);
+  background-color: #000;
   color: var(--accent-col);
 }
 
@@ -3447,10 +3447,19 @@ html body .block-title[onclick*="toggleNext"] {
 }
 .side-bar.right-side-bar {
   min-width: 286px;
-  height: calc(100vh - 153px);
-  overflow-y: scroll;
-  position: relative;
 }
+.live-page {
+  .side-bar.right-side-bar {
+    min-width: 286px;
+    max-height: 818px;
+    position: sticky;
+    top: 0;
+  }
+  .side-bar::-webkit-scrollbar {
+    display: block;
+  }
+}
+
 body .odds-table .single-match-row td.match-name {
   .match-id,
   .match-details,
@@ -5033,25 +5042,55 @@ span.ui-slider-handle:before {
 
 //poker
 .poker-banner-container {
-  max-width: 1360px;
-  margin: 0 auto;
-  width: 100%;
+  // max-width: 1360px;
+  // margin: 0 auto;
+  // width: 100%;
+  background: #000;
+  .poker-banner-inner {
+    max-width: 1360px;
+    margin: 0 auto;
+    width: 100%;
+  }
   .poker-banner-img {
     display: none;
   }
 }
 .poker-banner-container:after {
-  background-image: url(https://nextra.pcluster.info/bbgame/images/poker/poker-banner1.png);
+  background-image: url(https://nextra.pcluster.info/bbgame/images/poker/poker-banner1.jpg);
   background-size: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
   width: 100%;
-  height: 364px;
+  height: 560px;
   content: "";
   display: block;
   background-repeat: no-repeat;
 }
+
 .poker-container {
-  max-width: 1360px;
+  background: #000;
   margin: 0 auto;
+  padding-bottom: 60px;
+  .poker-strip.dbg {
+    display: none;
+  }
+  .poker-strip.isla .poker-strip-a img {
+    display: none;
+  }
+  .poker-strip.isla .poker-strip-a a:after {
+    content: "Gioca ora";
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid var(--accent-bg);
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: -10px;
+    color: var(--accent-bg);
+  }
+  .poker-strip.isla .poker-strip-a:nth-child(2),
+  .poker-strip.isla .poker-strip-a:nth-child(3) {
+    display: none;
+  }
   .poker-inner {
     width: 100%;
   }
@@ -5062,7 +5101,7 @@ span.ui-slider-handle:before {
     display: none;
   }
   .poker-strip {
-    padding: 140px 0px;
+    padding: 30px 0px;
   }
 }
 body .center-content .popular-bets .days ul li {
@@ -6362,3 +6401,88 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
   .single-odd.odd-zero {
   min-height: 28px;
 }
+
+// transferimento
+.tts-btn[href="/Sport/bo2_deposit"],
+.tts-btn[href="/Sport/bo2_withdrawal"] {
+  display: none !important;
+}
+.tts-btns {
+  background-color: var(--teableHeadersBg);
+  padding: 4px;
+  margin-bottom: 1px;
+}
+
+.tts-btns-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tts-btns-inner .tts-btn {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  height: 64px;
+  margin: 4px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #3558bd;
+  color: #ebebeb;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.tts-btns-inner .tts-btn:hover,
+.tts-btns-inner .tts-btn.active {
+  background-color: #2e9c3d;
+}
+.tts-btns-inner .tts-btn {
+  max-width: 300px;
+}
+.payment-method-table table tbody tr td .deposit-button,
+.payment-method-table table tbody tr td .withdraw-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #ed6c1e;
+  border-radius: 3px;
+  width: 100px;
+  padding: 0 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.payment-method-table table tbody tr td .deposit-button {
+  background-color: #2e9c3d;
+}
+.payment-method-table table tbody tr td .purple input {
+  max-width: 140px;
+  border: 0;
+  padding: 0;
+  line-height: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #9e9e9e;
+  -webkit-box-shadow: 0px 1px 1px 0px #98959c;
+  box-shadow: 0px 1px 1px 0px #98959c;
+}
+.payment-method-table table tbody tr td:nth-child(2) .name {
+  color: var(--accent);
+}
+.payment-method-table table tbody tr td:nth-child(2) span {
+  color: var(--accent-txt);
+}
+// end transferimento
