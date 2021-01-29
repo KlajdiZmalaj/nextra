@@ -458,83 +458,105 @@ body .center-content .sports-book .right-content .events-info div {
   }
 }
 
-#mainHomePage {
-  display: flex;
-  flex-flow: column;
-}
-#mainHomePage > div {
-  order: 99;
-}
-#mainHomePage .main-slider {
-  order: 1;
-}
-#mainHomePage #dailyBets {
-  order: 2;
-}
-#mainHomePage > div:nth-child(2) {
-  order: 3;
-}
-.home-page .center-content {
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
+html {
+  #mainHomePage {
+    display: flex;
+    flex-flow: column;
+  }
+  #mainHomePage > div {
+    order: 99;
+  }
+  #mainHomePage .main-slider {
+    order: 1;
+  }
+  #mainHomePage #dailyBets {
+    order: 2;
+  }
+  #mainHomePage > div:nth-child(2) {
+    order: 3;
+  }
+  .home-page .center-content {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
+
+  .center-content .popular-bets {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  .center-content .popular-bets .days {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    position: absolute;
+    right: 0;
+    width: 330px;
+    float: initial;
+  }
+
+  body .center-content .popular-bets .days ul li {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    word-break: break-word;
+    line-height: initial;
+  }
+  .center-content .popular-bets .days ul {
+    padding-right: 20px;
+    display: flex;
+    padding: 0;
+  }
+
+  #mainHomePage > div:nth-child(2) .sports-filter {
+    position: absolute;
+    right: 330px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+    background: transparent;
+  }
+  .side-bar {
+    border-right: 1px solid var(--tableBorders);
+    border-left: 1px solid var(--tableBorders);
+  }
+
+  .center-content .sports-book,
+  .side-bar .single-block .block-title {
+    background: var(--accent-bg);
+    color: var(--accent-txt);
+    backdrop-filter: blur(25px);
+  }
+
+  body .center-content .popular-bets {
+    backdrop-filter: blur(25px);
+  }
+
+  #mainHomePage > div:nth-child(2) .sports-filter #favouriteSports {
+    display: flex;
+    float: unset;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  #mainHomePage > div:nth-child(2) .sports-filter #favouriteSports li {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
-.center-content .popular-bets {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  width: 100%;
+.center-content .sports-filter ul li:after,
+.center-content .sports-filter-upcoming ul li:after,
+.center-content .teams-filter ul li:after {
+  display: none;
 }
-.center-content .popular-bets .days {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-  position: absolute;
-  right: 0;
-  width: 330px;
-  float: initial;
-}
-
-body .center-content .popular-bets .days ul li {
-  display: flex;
-  flex-flow: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  word-break: break-word;
-  line-height: initial;
-}
-.center-content .popular-bets .days ul {
-  padding-right: 20px;
-  display: flex;
-  padding: 0;
-}
-
-#mainHomePage > div:nth-child(2) .sports-filter {
-  position: absolute;
-  right: 330px;
-  width: 250px;
-  display: flex;
-  justify-content: flex-end;
-  background: transparent;
-}
-html .side-bar {
-  border-right: 1px solid var(--tableBorders);
-  border-left: 1px solid var(--tableBorders);
-}
-
-.center-content .sports-book,
-.side-bar .single-block .block-title {
-  background: var(--accent-bg);
-  color: var(--accent-txt);
-  backdrop-filter: blur(25px);
-}
-
-body .center-content .popular-bets {
-  backdrop-filter: blur(25px);
-}
-
 body .center-content .percentage-block {
   background: var(--secondary-bg);
   border-left: 1px solid var(--tableBorders);
