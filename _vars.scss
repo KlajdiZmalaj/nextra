@@ -564,6 +564,21 @@ html {
       background-color: #cccccc29 !important;
     }
   }
+  #favouriteTournaments li {
+    padding: 0;
+    padding-left: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    padding-right: 4px;
+    border-radius: 70px;
+  }
+  #favouriteTournaments li:before {
+    top: 3px;
+    left: 4px;
+    border-radius: 60px;
+  }
 }
 
 .center-content .sports-filter ul li:after,
