@@ -585,6 +585,24 @@ body .center-content .percentage-block {
     -webkit-box-shadow: none;
     box-shadow: none;
   }
+  .single-over-under .team-names {
+    text-align: center;
+  }
+  .single-over-under .team-names .home-team,
+  .single-over-under .team-names .away-team {
+    display: inline-block;
+  }
+  .single-over-under .team-names .vs {
+    font-size: 0;
+    width: auto;
+    display: inline-block;
+  }
+  .single-over-under .team-names .vs:before {
+    content: "-";
+    font-size: 12px;
+    position: relative;
+    width: 20px;
+  }
 }
 
 #favouriteSports {
