@@ -459,6 +459,10 @@ body .center-content .sports-book .right-content .events-info div {
 }
 
 html {
+  #dailyBets {
+    border-left: 1px solid var(--tableBorders);
+    border-right: 1px solid var(--tableBorders);
+  }
   .side-bar .single-block .block-content.sports-menu .tabs {
     background-color: #00000026;
     border-bottom: 1px solid var(--tableBorders);
