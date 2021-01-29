@@ -459,6 +459,10 @@ body .center-content .sports-book .right-content .events-info div {
 }
 
 html {
+  #dailyBets {
+    border-left: 1px solid var(--tableBorders);
+    border-right: 1px solid var(--tableBorders);
+  }
   .side-bar .single-block .block-content.sports-menu .tabs {
     background-color: #00000026;
     border-bottom: 1px solid var(--tableBorders);
@@ -557,6 +561,8 @@ html {
   #upcomingBets .popular-bets {
     border-bottom: 2px solid var(--accent);
     height: 55px;
+    border-left: 1px solid var(--tableBorders);
+    border-right: 1px solid var(--tableBorders);
   }
   #mainHomePage > div:nth-child(2) .sports-filter #favouriteSports,
   #upcomingBets .sports-filter-upcoming ul {
@@ -830,5 +836,19 @@ body .center-content .odds-graph-holder {
   #sb_10,
   [onclick*="(10)"] {
     background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-10.svg) !important;
+  }
+}
+
+#dailyBets {
+  .team-home img {
+    width: 40px;
+    position: absolute;
+    left: 30px;
+  }
+  .team-away img {
+    width: 40px;
+    position: absolute;
+    left: 30px;
+    transform: translateY(-30%);
   }
 }
