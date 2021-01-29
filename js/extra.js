@@ -18,4 +18,16 @@ $(document).ready(() => {
   addThemeContainerHeader();
   sportsToTableHeader();
   bannersSportRight();
+  var teamHome = $("#dailyBets .team-home"),
+    teamAway = $("#dailyBets .team-away");
+  teamHome.prepend(
+    `<img src="https://gradm-api.pcluster.info/storage/logos/${teamHome
+      .text()
+      .toLowerCase()}.png" alt=""/>`
+  );
+  teamAway.prepend(
+    `<img src="https://gradm-api.pcluster.info/storage/logos/${teamAway
+      .text()
+      .toLowerCase()}.png" alt=""/>`
+  );
 });
