@@ -650,6 +650,10 @@ body .center-content .percentage-block {
     left: auto;
   }
 }
+#marketMoversBets {
+  border-left: 1px solid var(--tableBorders);
+  border-right: 1px solid var(--tableBorders);
+}
 body .center-content .odds-graph-holder {
   background: var(--bg1);
   .match-odds-chart {
