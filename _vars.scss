@@ -537,4 +537,8 @@ body .center-content .percentage-block {
   .bets .bet .label {
     line-height: 33px;
   }
+  .bet.over {
+    width: calc(50% - 1px);
+    border-right: 1px solid var(--tableBorders);
+  }
 }
