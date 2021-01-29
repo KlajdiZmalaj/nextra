@@ -459,6 +459,14 @@ body .center-content .sports-book .right-content .events-info div {
 }
 
 html {
+  .side-bar .single-block .block-content.sports-menu .tabs {
+    background-color: #00000026;
+    border-bottom: 1px solid var(--tableBorders);
+  }
+  .header .top-header .top-header-content .logo-holder a:before {
+    background-position: left;
+    height: 47px;
+  }
   #mainHomePage {
     display: flex;
     flex-flow: column;
@@ -661,6 +669,9 @@ body .center-content .odds-graph-holder {
       padding: 0;
     }
   }
+}
+.odds-table .match-name .match-id {
+  width: 45px;
 }
 
 #favouriteSports {

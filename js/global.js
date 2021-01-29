@@ -34,7 +34,7 @@ function addThemeContainerHeader() {
     `<div class='themeContainer dark'>Dark Theme</div>`
   );
   $(".themeContainer").on("click", (e) => {
-    console.log($(e.target));
+    //console.log($(e.target));
     if ($(e.target).hasClass("dark")) {
       $("html").attr("data-theme", "theme2");
       $(e.target).removeClass("dark");
@@ -49,5 +49,7 @@ function addThemeContainerHeader() {
   });
 }
 function mostPopularBetsWidget() {
-  $('#mainHomePage>div:nth-child(2) .sports-filter').appendTo('#mainHomePage>div:nth-child(2) .popular-bets');
+  $("#mainHomePage>div:nth-child(2) .sports-filter").appendTo(
+    "#mainHomePage>div:nth-child(2) .popular-bets"
+  );
 }
