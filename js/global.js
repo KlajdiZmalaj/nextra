@@ -10,6 +10,7 @@ $(document).ready(() => {
 
   var oldEnableScrollbar = enableScrollbar;
   enableScrollbar = function () {
+    //console.log("ca ka old", oldEnableScrollbar);
     oldEnableScrollbar();
     $("#mCSB_3_container").mCustomScrollbar({
       scrollInertia: 200,
