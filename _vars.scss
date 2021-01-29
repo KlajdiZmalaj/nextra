@@ -325,7 +325,7 @@ html:root {
   --teableHeadersCol: #000000;
   --teableSubHeadersBg: #414755;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #161d2f;
+  --tableBorders: #ffffff0d;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #f4c100;
@@ -572,6 +572,10 @@ body .center-content .percentage-block {
   .bets .bet .odd {
     width: 100%;
     margin: 0;
+  }
+  .single-over-under .percentage-graph:after {
+    -webkit-box-shadow: none;
+    box-shadow: none;
   }
 }
 
