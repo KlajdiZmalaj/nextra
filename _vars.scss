@@ -478,3 +478,9 @@ html .side-bar {
   border-right: 1px solid var(--tableBorders);
   border-left: 1px solid var(--tableBorders);
 }
+
+.center-content .sports-book,
+.side-bar .single-block .block-title {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+}
