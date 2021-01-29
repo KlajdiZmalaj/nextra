@@ -654,6 +654,10 @@ body .center-content .percentage-block {
     left: auto;
   }
 }
+#marketMoversBets {
+  border-left: 1px solid var(--tableBorders);
+  border-right: 1px solid var(--tableBorders);
+}
 body .center-content .odds-graph-holder {
   background: var(--bg1);
   .match-odds-chart {
@@ -674,28 +678,61 @@ body .center-content .odds-graph-holder {
     border-top: 1px solid var(--tableBorders);
     width: 100%;
     padding: 0;
+    margin-top: 20px;
     .starting-odds {
       padding: 0;
+      .text {
+        padding: 0;
+        opacity: 0.5;
+        text-transform: uppercase;
+      }
+      .the-odds {
+        position: relative;
+        .second-row {
+          position: absolute;
+          top: 0;
+          left: 28px;
+        }
+      }
     }
     .current-odds {
       padding: 0;
+      .text {
+        padding: 0;
+        opacity: 0.5;
+        text-transform: uppercase;
+      }
+      .the-odds {
+        position: relative;
+        .second-row {
+          position: absolute;
+          top: 0;
+          left: 28px;
+        }
+      }
     }
   }
 }
 
-.center-content#marketMoversBets .most-searched {
-  width: auto;
-  float: right;
-  margin-top: -33px;
-  position: relative;
-  background: transparent;
-  text-transform: uppercase;
-  padding-right: 10px;
+.center-content #marketMoversBets {
+  .most-searched {
+    width: auto;
+    float: right;
+    margin-top: -33px;
+    position: relative;
+    background: transparent;
+    text-transform: uppercase;
+    padding-right: 10px;
+  }
   .teams-filter ul li {
     background-color: var(--bg1);
     height: 30px;
     line-height: 30px;
     border-right: 1px solid var(--tableBorders);
+    border-bottom: 1px solid var(--tableBorders);
+    &.active {
+      background-color: var(--accent-bg);
+    }
   }
 }
 
