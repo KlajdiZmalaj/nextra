@@ -452,6 +452,10 @@ body .center-content .sports-book .right-content .events-info div {
   text-transform: uppercase;
   padding-left: 10px;
   padding-right: 10px;
+  border-left: 1px solid var(--tableBorders);
+  &:first-child {
+    border-left: none;
+  }
 }
 
 #mainHomePage {
@@ -524,6 +528,7 @@ html .side-bar {
 .side-bar .single-block .block-title {
   background: var(--accent-bg);
   color: var(--accent-txt);
+  backdrop-filter: blur(25px);
 }
 
 body .center-content .popular-bets {
