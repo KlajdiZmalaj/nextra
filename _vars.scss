@@ -418,3 +418,12 @@ html[data-theme="theme2"] {
   --backDrops: #000000cf;
   --skin: "skylive";
 }
+
+.login-bar {
+  .settings,
+  #THEtime,
+  a[href="/Sport/recoveryPassword"],
+  form[action="/Sport/login"] {
+    border-left: 1px solid var(--tableBorders);
+  }
+}
