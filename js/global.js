@@ -48,3 +48,6 @@ function addThemeContainerHeader() {
     }
   });
 }
+function mostPopularBetsWidget() {
+  $('#mainHomePage>div:nth-child(2) .sports-filter').appendTo('#mainHomePage>div:nth-child(2) .popular-bets');
+}
