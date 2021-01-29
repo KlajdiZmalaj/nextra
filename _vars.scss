@@ -688,6 +688,7 @@ body .center-content .odds-graph-holder {
         height: 35px;
         line-height: 35px;
         padding-left: 10px;
+        border-right: 1px solid var(--tableBorders);
       }
       .the-odds {
         position: relative;
@@ -699,6 +700,8 @@ body .center-content .odds-graph-holder {
             padding-left: 10px;
             height: 35px;
             line-height: 35px;
+            font-size: 12px;
+            color: var(--mainBgCol) !important;
           }
           &:after {
             height: 0;
@@ -720,6 +723,7 @@ body .center-content .odds-graph-holder {
         height: 35px;
         line-height: 35px;
         padding-left: 10px;
+        border-right: 1px solid var(--tableBorders);
       }
       .the-odds {
         position: relative;
@@ -732,6 +736,7 @@ body .center-content .odds-graph-holder {
             padding-left: 10px;
             height: 35px;
             line-height: 35px;
+            font-size: 12px;
           }
         }
         .second-row {
@@ -742,7 +747,7 @@ body .center-content .odds-graph-holder {
           border: none;
           span {
             background: transparent;
-            width: 33%;
+            padding-left: 10px;
           }
         }
       }
