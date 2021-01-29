@@ -470,3 +470,7 @@ body .center-content .sports-book .right-content .events-info div {
 #mainHomePage > div:nth-child(2) {
   order: 3;
 }
+.home-page .center-content {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
