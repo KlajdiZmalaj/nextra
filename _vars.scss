@@ -592,6 +592,9 @@ body .center-content .percentage-block {
   }
   .single-over-under .team-names {
     text-align: center;
+    border-bottom: 1px solid var(--tableBorders);
+    padding: 5px 0;
+    font-size: 11px;
   }
   .single-over-under .team-names .home-team,
   .single-over-under .team-names .away-team {
