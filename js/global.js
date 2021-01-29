@@ -8,24 +8,17 @@ $(document).ready(() => {
       "font-family: 'american typewriter' ; text-shadow: 1px 1px 3px black ;"
   );
 
-  var oldEnableScrollbar = enableScrollbar;
-  enableScrollbar = function () {
-    //console.log("ca ka old", oldEnableScrollbar);
-    oldEnableScrollbar();
-    $("#mCSB_3_container").mCustomScrollbar({
-      scrollInertia: 200,
-      mouseWheelPixels: 170,
-      autoDraggerLength: false,
-    });
-  };
-
-  // setTimeout(function () {
-  //   $("#mCSB_3_container").mCustomScrollbar({
-  //     scrollInertia: 200,
-  //     mouseWheelPixels: 170,
-  //     autoDraggerLength: false,
-  //   });
-  // }, 2000);
+  if (window.location.href.includes("/Sport/sport")) {
+    var oldEnableScrollbar = enableScrollbar;
+    enableScrollbar = function () {
+      oldEnableScrollbar();
+      $("#mCSB_3_container").mCustomScrollbar({
+        scrollInertia: 200,
+        mouseWheelPixels: 170,
+        autoDraggerLength: false,
+      });
+    };
+  }
 });
 
 function addThemeContainerHeader() {

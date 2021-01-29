@@ -15,19 +15,27 @@ $(document).ready(() => {
       "font-size: 20px ;  text-decoration: underline ; " +
       "font-family: 'american typewriter' ; text-shadow: 1px 1px 3px black ;"
   );
+  //all pages Funx
   addThemeContainerHeader();
-  sportsToTableHeader();
-  bannersSportRight();
-  var teamHome = $("#dailyBets .team-home"),
-    teamAway = $("#dailyBets .team-away");
-  teamHome.prepend(
-    `<img src="https://gradm-api.pcluster.info/storage/logos/${teamHome
-      .text()
-      .toLowerCase()}.png" alt=""/>`
-  );
-  teamAway.prepend(
-    `<img src="https://gradm-api.pcluster.info/storage/logos/${teamAway
-      .text()
-      .toLowerCase()}.png" alt=""/>`
-  );
+  //sport page Funx
+  if (window.location.href.includes("/Sport/sport")) {
+    sportsToTableHeader();
+    bannersSportRight();
+    var teamHome = $("#dailyBets .team-home"),
+      teamAway = $("#dailyBets .team-away");
+    teamHome.prepend(
+      `<img src="https://gradm-api.pcluster.info/storage/logos/${teamHome
+        .text()
+        .toLowerCase()}.png" alt=""/>`
+    );
+    teamAway.prepend(
+      `<img src="https://gradm-api.pcluster.info/storage/logos/${teamAway
+        .text()
+        .toLowerCase()}.png" alt=""/>`
+    );
+  }
+  //live pages Funx
+  if (window.location.href.includes("/Sport/live")) {
+    bannersSportRight();
+  }
 });
