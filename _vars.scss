@@ -459,6 +459,9 @@ body .center-content .sports-book .right-content .events-info div {
 }
 
 html {
+  .right-side-bar .banner-block a {
+    pointer-events: all;
+  }
   #dailyBets {
     border-left: 1px solid var(--tableBorders);
     border-right: 1px solid var(--tableBorders);
