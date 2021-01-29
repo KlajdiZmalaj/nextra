@@ -467,6 +467,10 @@ html {
     background-position: left;
     height: 47px;
   }
+  .center-content .match-of-the-day {
+    backdrop-filter: blur(50px);
+    background: #00000070;
+  }
   #mainHomePage {
     display: flex;
     flex-flow: column;
