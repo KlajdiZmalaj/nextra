@@ -427,3 +427,21 @@ html[data-theme="theme2"] {
     border-left: 1px solid var(--tableBorders);
   }
 }
+
+html .side-bar,
+.side-bar .single-block .block-content,
+.side-bar .single-block .block-content.sports-menu .sports-menu-bottom,
+.main-content-holder {
+  background: transparent !important;
+  backdrop-filter: blur(25px);
+}
+[data-theme="theme1"] body {
+  background-image: url(//nextra.pcluster.info/skylive/images/theme1bg.png);
+  background-color: #0d0d0d;
+  background-size: auto;
+}
+[data-theme="theme2"] body {
+  background-image: url(//nextra.pcluster.info/skylive/images/theme2bg.png);
+  background-color: #001022;
+  background-size: auto;
+}
