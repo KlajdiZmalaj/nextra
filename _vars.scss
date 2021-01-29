@@ -670,11 +670,22 @@ body .center-content .odds-graph-holder {
     border-top: 1px solid var(--tableBorders);
     width: 100%;
     padding: 0;
+    margin-top: 20px;
     .starting-odds {
       padding: 0;
+      .text {
+        padding: 0;
+        opacity: 0.5;
+        text-transform: uppercase;
+      }
     }
     .current-odds {
       padding: 0;
+      .text {
+        padding: 0;
+        opacity: 0.5;
+        text-transform: uppercase;
+      }
     }
   }
 }
