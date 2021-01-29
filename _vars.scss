@@ -418,7 +418,11 @@ html[data-theme="theme2"] {
   --backDrops: #000000cf;
   --skin: "skylive";
 }
-
+body,
+.home-page .center-content,
+.home-page .main-content-holder {
+  background-color: transparent;
+}
 .login-bar {
   .settings,
   #THEtime,
