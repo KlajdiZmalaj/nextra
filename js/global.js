@@ -29,19 +29,22 @@ $(document).ready(() => {
 });
 
 function addThemeContainerHeader() {
+  $("html").attr("data-theme", "theme1");
   $(".top-bar > .grid").append(
     `<div class='themeContainer dark'>Dark Theme</div>`
   );
   $(".themeContainer").on("click", (e) => {
     console.log($(e.target));
     if ($(e.target).hasClass("dark")) {
-      $("html").attr("data-theme", "theme1");
-      $(e.target).remove("dark");
-      $(e.target).addClass("light");
-    } else {
       $("html").attr("data-theme", "theme2");
-      $(e.target).remove("light");
+      $(e.target).removeClass("dark");
+      $(e.target).addClass("light");
+      $(e.target).text("Light Theme");
+    } else {
+      $("html").attr("data-theme", "theme1");
+      $(e.target).removeClass("light");
       $(e.target).addClass("dark");
+      $(e.target).text("Dark Theme");
     }
   });
 }

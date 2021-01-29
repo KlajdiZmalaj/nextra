@@ -352,10 +352,80 @@ $sb-2: #333844;
 
 .themeContainer {
   position: absolute;
-  /* left: 0; */
-  top: 8px;
+  top: 10px;
   cursor: pointer;
   font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 86px;
+}
+
+.themeContainer.dark:before {
+  content: "\f186";
+  font-family: "Font Awesome 5 Pro";
+}
+.themeContainer.light:before {
+  content: "\f185";
+  font-family: "Font Awesome 5 Pro";
+}
+
+html[data-theme="theme1"] {
+  --accent: #fec550;
+  --accent-bg: #fec550;
+  --accent-txt: #000;
+  --primary-bg: #2e2e2e;
+  --primary-txt: #ffffff;
+  --secondary-bg: #1d1d1d;
+  --secondary-txt: #fff;
+  --mainBg: #0d0d0d;
+  --mainBgCol: #fff;
+  --bg1: #262626;
+  --col1: #fff;
+  --teableHeadersBg: #fec550;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #0d0d0d;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #3c3c3c;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #fec550;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+  --skin: "skylive";
+}
+html[data-theme="theme2"] {
+  --accent: #00ceff;
+  --accent-bg: #00ceff;
+  --accent-txt: #000;
+  --primary-bg: #1a2939;
+  --primary-txt: #fff;
+  --secondary-bg: #001524;
+  --secondary-txt: #fff;
+  --mainBg: #001022;
+  --mainBgCol: #fff;
+  --bg1: #1a2839;
+  --col1: #fff;
+  --teableHeadersBg: #00ceff;
+  --teableHeadersCol: #000;
+  --teableSubHeadersBg: #001022;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #3c3c3c;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #fec550;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+  --skin: "skylive";
+}
+
+.login-bar {
+  .settings,
+  #THEtime,
+  a[href="/Sport/recoveryPassword"],
+  form[action="/Sport/login"] {
+    border-left: 1px solid var(--tableBorders);
+  }
 }
 
 body .center-content .sports-book .right-content .events-info div {
