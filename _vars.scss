@@ -680,23 +680,39 @@ body .center-content .odds-graph-holder {
     padding: 0;
     margin-top: 20px;
     .starting-odds {
-      padding: 0;
+      padding: 0px;
       .text {
         padding: 0;
         opacity: 0.5;
         text-transform: uppercase;
+        height: 35px;
+        line-height: 35px;
+        padding-left: 10px;
       }
       .the-odds {
         position: relative;
+        .first-row {
+          span {
+            border-right: 1px solid var(--tableBorders);
+            text-align: left;
+            width: 50px;
+            padding-left: 10px;
+            height: 35px;
+            line-height: 35px;
+          }
+          &:after {
+            height: 2px;
+          }
+        }
         .second-row {
           position: absolute;
-          top: 0;
-          left: 28px;
+          top: 7px;
+          left: 4px;
         }
       }
     }
     .current-odds {
-      padding: 0;
+      padding: 7px 0px;
       .text {
         padding: 0;
         opacity: 0.5;
@@ -704,10 +720,24 @@ body .center-content .odds-graph-holder {
       }
       .the-odds {
         position: relative;
+        .first-row {
+          span {
+            border-right: 1px solid var(--tableBorders);
+            text-align: left;
+            width: 50px;
+            padding-left: 10px;
+            height: 35px;
+            line-height: 35px;
+          }
+        }
         .second-row {
           position: absolute;
           top: 0;
           left: 28px;
+          padding: 0;
+          span {
+            background: transparent;
+          }
         }
       }
     }
@@ -789,5 +819,19 @@ body .center-content .odds-graph-holder {
   #sb_10,
   [onclick*="(10)"] {
     background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-10.svg) !important;
+  }
+}
+
+#dailyBets {
+  .team-home img {
+    width: 40px;
+    position: absolute;
+    left: 30px;
+  }
+  .team-away img {
+    width: 40px;
+    position: absolute;
+    left: 30px;
+    transform: translateY(-30%);
   }
 }
