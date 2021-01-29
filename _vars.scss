@@ -561,6 +561,8 @@ html {
   #upcomingBets .popular-bets {
     border-bottom: 2px solid var(--accent);
     height: 55px;
+    border-left: 1px solid var(--tableBorders);
+    border-right: 1px solid var(--tableBorders);
   }
   #mainHomePage > div:nth-child(2) .sports-filter #favouriteSports,
   #upcomingBets .sports-filter-upcoming ul {
