@@ -634,6 +634,34 @@ body .center-content .percentage-block {
     left: auto;
   }
 }
+body .center-content .odds-graph-holder {
+  background: var(--bg1);
+  .match-odds-chart {
+    .ct-series-a * {
+      stroke: #07af1a;
+    }
+    .ct-series-b * {
+      stroke: #fec550;
+    }
+    .ct-series-c * {
+      stroke: #ffbf00;
+    }
+    .ct-grid {
+      stroke: none !important;
+    }
+  }
+  .section-odds {
+    border-top: 1px solid var(--tableBorders);
+    width: 100%;
+    padding: 0;
+    .starting-odds {
+      padding: 0;
+    }
+    .current-odds {
+      padding: 0;
+    }
+  }
+}
 
 #favouriteSports {
   #sb_1 {
