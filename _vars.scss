@@ -484,3 +484,7 @@ html .side-bar {
   background: var(--accent-bg);
   color: var(--accent-txt);
 }
+
+body .center-content .popular-bets {
+  backdrop-filter: blur(25px);
+}
