@@ -24,7 +24,8 @@ $(document).ready(() => {
     var id = data.get("loadGame");
     var name = data.get("name");
     if (id && name) {
-      openGamePopup(id, name);
+      // console.log("openGamePopup", window.openGamePopup);
+      window.openGame(null, id, name);
     }
   }
 });

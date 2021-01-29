@@ -2,7 +2,7 @@
 
 function bannersSportRight() {
   $(".right-side-bar .banner-block").append(
-    '<a href="/Sport/casino?loadGame=229&name=BerryBurst"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft1.png"/></a> <a href="/Sport/casino?loadGame=86&name=Arcane%Reel%Chaos"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft2.png"/></a> <a href="/Sport/casino?loadGame=110&name=Aloha!%Cluster%Pays"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft3.png"/></a>'
+    '<a href="/Sport/casino?loadGame=229&name=BerryBurst"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft1.png"/></a> <a href="/Sport/casino?loadGame=86&name=Arcane:%Reel%Chaos"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft2.png"/></a> <a href="/Sport/casino?loadGame=110&name=Aloha!%Cluster%Pays"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft3.png"/></a>'
   );
 }
 
