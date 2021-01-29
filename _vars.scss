@@ -700,6 +700,9 @@ body .center-content .odds-graph-holder {
             height: 35px;
             line-height: 35px;
           }
+          &:after {
+            height: 2px;
+          }
         }
         .second-row {
           position: absolute;
@@ -717,10 +720,24 @@ body .center-content .odds-graph-holder {
       }
       .the-odds {
         position: relative;
+        .first-row {
+          span {
+            border-right: 1px solid var(--tableBorders);
+            text-align: left;
+            width: 50px;
+            padding-left: 10px;
+            height: 35px;
+            line-height: 35px;
+          }
+        }
         .second-row {
           position: absolute;
           top: 0;
           left: 28px;
+          padding: 0;
+          span {
+            background: transparent;
+          }
         }
       }
     }
