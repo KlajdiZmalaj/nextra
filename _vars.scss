@@ -676,23 +676,35 @@ body .center-content .odds-graph-holder {
     padding: 0;
     margin-top: 20px;
     .starting-odds {
-      padding: 0;
+      padding: 0px;
       .text {
         padding: 0;
         opacity: 0.5;
         text-transform: uppercase;
+        height: 35px;
+        line-height: 35px;
       }
       .the-odds {
         position: relative;
+        .first-row {
+          span {
+            border-right: 1px solid var(--tableBorders);
+            text-align: left;
+            width: 50px;
+            padding-left: 10px;
+            height: 35px;
+            line-height: 35px;
+          }
+        }
         .second-row {
           position: absolute;
-          top: 0;
-          left: 28px;
+          top: 7px;
+          left: 4px;
         }
       }
     }
     .current-odds {
-      padding: 0;
+      padding: 7px 0px;
       .text {
         padding: 0;
         opacity: 0.5;
