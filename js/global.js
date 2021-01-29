@@ -10,7 +10,7 @@ $(document).ready(() => {
 
   setTimeout(function () {
     $("#mCSB_3_container").mCustomScrollbar({
-      scrollInertia: 0,
+      scrollInertia: 200,
       mouseWheelPixels: 170,
       autoDraggerLength: false,
     });
