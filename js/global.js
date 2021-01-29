@@ -19,6 +19,14 @@ $(document).ready(() => {
       });
     };
   }
+  if (window.location.href.includes("/Sport/casino")) {
+    var data = new URLSearchParams(window.location.search);
+    var id = data.get("loadGame");
+    var name = data.get("name");
+    if (id && name) {
+      openGamePopup(id, name);
+    }
+  }
 });
 
 function addThemeContainerHeader() {
