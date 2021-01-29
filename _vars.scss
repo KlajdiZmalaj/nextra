@@ -382,7 +382,7 @@ html[data-theme="theme1"] {
   --mainBgCol: #fff;
   --bg1: #262626;
   --col1: #fff;
-  --teableHeadersBg: rgba(255, 255, 255, 0.2);
+  --teableHeadersBg: rgb(67 62 62 / 23%);
   --teableHeadersCol: #fec550;
   --teableSubHeadersBg: #0d0d0d;
   --teableSubHeadersCol: #ffffff;
@@ -510,6 +510,7 @@ html {
     padding-right: 20px;
     display: flex;
     padding: 0;
+    height: 55px;
   }
 
   #mainHomePage > div:nth-child(2) .sports-filter {
@@ -535,6 +536,10 @@ html {
     backdrop-filter: blur(25px);
   }
 
+  #mainHomePage > div:nth-child(2) .popular-bets {
+    border-bottom: 2px solid var(--accent);
+    height: 55px;
+  }
   #mainHomePage > div:nth-child(2) .sports-filter #favouriteSports {
     display: flex;
     float: unset;
@@ -542,8 +547,8 @@ html {
     align-items: center;
   }
   #mainHomePage > div:nth-child(2) .sports-filter #favouriteSports li {
-    width: 36px;
-    height: 36px;
+    width: 50px;
+    height: 55px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
