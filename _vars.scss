@@ -310,18 +310,18 @@ $bodyCol: #000;
 $invet: 0;
 
 html:root {
-  --accent: #fec900;
-  --accent-bg: #fec900;
+  --accent: ##fec550;
+  --accent-bg: ##fec550;
   --accent-txt: #000;
   --primary-bg: #ffffff;
   --primary-txt: #707070;
-  --secondary-bg: #111727;
+  --secondary-bg: #1d1d1d;
   --secondary-txt: #fff;
   --mainBg: #0e121d;
   --mainBgCol: #fff;
-  --bg1: #333844;
+  --bg1: ##000;
   --col1: #fff;
-  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
+  --teableHeadersBg: #fec550;
   --teableHeadersCol: #000000;
   --teableSubHeadersBg: #414755;
   --teableSubHeadersCol: #ffffff;
@@ -418,7 +418,11 @@ html[data-theme="theme2"] {
   --backDrops: #000000cf;
   --skin: "skylive";
 }
-
+body,
+.home-page .center-content,
+.home-page .main-content-holder {
+  background-color: transparent;
+}
 .login-bar {
   .settings,
   #THEtime,
@@ -444,4 +448,9 @@ html .side-bar,
   background-image: url(//nextra.pcluster.info/skylive/images/theme2bg.png);
   background-color: #001022;
   background-size: auto;
+}
+body .center-content .sports-book .right-content .events-info div {
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
 }
