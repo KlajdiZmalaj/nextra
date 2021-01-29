@@ -9,5 +9,5 @@ $(document).ready(() => {
       "font-family: 'american typewriter' ; text-shadow: 1px 1px 3px black ;"
   );
   addThemeContainerHeader();
-  mostPopularBetsWidget();
+  sportsToTableHeader();
 });
