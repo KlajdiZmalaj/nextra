@@ -678,6 +678,23 @@ body .center-content .odds-graph-holder {
     }
   }
 }
+
+.center-content#marketMoversBets .most-searched {
+  width: auto;
+  float: right;
+  margin-top: -33px;
+  position: relative;
+  background: transparent;
+  text-transform: uppercase;
+  padding-right: 10px;
+  .teams-filter ul li {
+    background-color: var(--bg1);
+    height: 30px;
+    line-height: 30px;
+    border-right: 1px solid var(--tableBorders);
+  }
+}
+
 .odds-table .match-name .match-id {
   width: 45px;
 }
