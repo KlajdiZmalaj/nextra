@@ -670,11 +670,17 @@ body .center-content .odds-graph-holder {
     .ct-series-a * {
       stroke: #07af1a;
     }
+    g.ct-series.ct-series-a text.ct-label {
+      fill: #07af1a !important;
+    }
     .ct-series-b * {
       stroke: #fec550;
     }
     .ct-series-c * {
       stroke: #ffbf00;
+    }
+    g.ct-series.ct-series-c text.ct-label {
+      fill: #fec550 !important;
     }
     .ct-grid {
       stroke: none !important;
@@ -704,9 +710,11 @@ body .center-content .odds-graph-holder {
             text-align: left;
             width: 50px;
             padding-left: 10px;
+            padding-right: 5px;
             height: 35px;
             line-height: 35px;
             font-size: 12px;
+            font-weight: normal;
             color: var(--mainBgCol) !important;
           }
           &:after {
@@ -715,8 +723,12 @@ body .center-content .odds-graph-holder {
         }
         .second-row {
           position: absolute;
-          top: 7px;
+          top: 8px;
           left: 4px;
+          span {
+            margin-left: 20px;
+            width: 40px;
+          }
         }
       }
     }
@@ -729,6 +741,7 @@ body .center-content .odds-graph-holder {
         height: 35px;
         line-height: 35px;
         padding-left: 10px;
+        padding-right: 5px;
         border-right: 1px solid var(--tableBorders);
       }
       .the-odds {
@@ -743,17 +756,21 @@ body .center-content .odds-graph-holder {
             height: 35px;
             line-height: 35px;
             font-size: 12px;
+            font-weight: normal;
           }
         }
         .second-row {
           position: absolute;
-          top: 5px;
+          top: 6px;
           left: 4px;
           padding: 0;
           border: none;
           span {
             background: transparent;
-            padding-left: 10px;
+            margin-left: 20px;
+            width: 40px;
+            font-size: 12px;
+            font-weight: normal;
           }
         }
       }
