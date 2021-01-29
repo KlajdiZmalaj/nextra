@@ -382,8 +382,8 @@ html[data-theme="theme1"] {
   --mainBgCol: #fff;
   --bg1: #262626;
   --col1: #fff;
-  --teableHeadersBg: #fec550;
-  --teableHeadersCol: #000000;
+  --teableHeadersBg: rgba(255, 255, 255, 0.2);
+  --teableHeadersCol: #fec550;
   --teableSubHeadersBg: #0d0d0d;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #3c3c3c;
@@ -514,4 +514,18 @@ body .center-content .popular-bets .days ul li {
   display: flex;
   justify-content: flex-end;
   background: transparent;
+}
+html .side-bar {
+  border-right: 1px solid var(--tableBorders);
+  border-left: 1px solid var(--tableBorders);
+}
+
+.center-content .sports-book,
+.side-bar .single-block .block-title {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+}
+
+body .center-content .popular-bets {
+  backdrop-filter: blur(25px);
 }
