@@ -452,6 +452,10 @@ body .center-content .sports-book .right-content .events-info div {
   text-transform: uppercase;
   padding-left: 10px;
   padding-right: 10px;
+  border-left: 1px solid var(--tableBorders);
+  &:first-child {
+    border-left: none;
+  }
 }
 
 html {
@@ -572,6 +576,10 @@ body .center-content .percentage-block {
   .bet.over {
     width: calc(50% - 1px);
     border-right: 1px solid var(--tableBorders);
+  }
+  .bets .bet .odd {
+    width: 100%;
+    margin: 0;
   }
 }
 
