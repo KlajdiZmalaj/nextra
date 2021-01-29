@@ -573,6 +573,11 @@ html {
     width: auto;
     padding-right: 4px;
     border-radius: 70px;
+    &.active {
+      &:before {
+        filter: grayscale(1) brightness(0) !important;
+      }
+    }
   }
   #favouriteTournaments li:before {
     top: 3px;
