@@ -529,3 +529,24 @@ html .side-bar {
 body .center-content .popular-bets {
   backdrop-filter: blur(25px);
 }
+
+#mainHomePage > div:nth-child(2) .sports-filter #favouriteSports {
+  display: flex;
+  float: unset;
+  justify-content: flex-end;
+  align-items: center;
+}
+#mainHomePage > div:nth-child(2) .sports-filter #favouriteSports li {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-content .sports-filter ul li:after,
+.center-content .sports-filter-upcoming ul li:after,
+.center-content .teams-filter ul li:after {
+  display: none;
+}
