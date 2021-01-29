@@ -310,20 +310,20 @@ $bodyCol: #000;
 $invet: 0;
 
 html:root {
-  --accent: ##fec550;
-  --accent-bg: ##fec550;
+  --accent: #fec550;
+  --accent-bg: #fec550;
   --accent-txt: #000;
   --primary-bg: #ffffff;
   --primary-txt: #707070;
   --secondary-bg: #1d1d1d;
   --secondary-txt: #fff;
-  --mainBg: #0e121d;
+  --mainBg: #1d1d1d;
   --mainBgCol: #fff;
-  --bg1: ##000;
+  --bg1: #000;
   --col1: #fff;
   --teableHeadersBg: #fec550;
   --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #414755;
+  --teableSubHeadersBg: rgba(255, 255, 255, 0.2);
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #ffffff0d;
   --casinoGradient1: #000000;
@@ -478,6 +478,52 @@ html {
   .center-content .match-of-the-day {
     backdrop-filter: blur(50px);
     background: #00000070;
+    .odd-bars > .single-bar {
+      border-top: 1px solid var(--tableBorders);
+      &:nth-child(2) {
+        border-top: none;
+        height: 36px;
+      }
+    }
+    .percentages .percentage {
+      border-top: 1px solid var(--tableBorders);
+      border-left: 1px solid var(--tableBorders);
+      &:nth-child(1) {
+        border-top: none;
+        height: 36px;
+      }
+    }
+    .odds-block-type-percentages {
+      display: flex;
+      padding: 0;
+      .single-odd-block {
+        margin: 0;
+        width: calc(100% / 3 - 0px);
+        padding: 0;
+        border-right: 1px solid var(--tableBorders);
+        &:last-child {
+          border-right: 0;
+        }
+        .odd-type-row {
+          border-right: 0;
+          border-left: 0;
+          width: 100%;
+          .odd-holder {
+            padding: 0;
+            .odd {
+              width: 100%;
+              line-height: 40px;
+              height: 40px;
+              padding: 0;
+            }
+          }
+        }
+        .label {
+          line-height: 34px;
+          background: var(--teableHeadersBg);
+        }
+      }
+    }
   }
   #mainHomePage {
     display: flex;
@@ -861,6 +907,15 @@ body .center-content .odds-graph-holder {
 }
 
 #dailyBets {
+  .match-of-the-day-text {
+    width: auto;
+    float: right;
+    margin-top: -33px;
+    position: relative;
+    background: transparent;
+    text-transform: uppercase;
+    padding-right: 10px;
+  }
   .team-home img {
     width: 40px;
     position: absolute;
