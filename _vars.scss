@@ -488,3 +488,12 @@ html .side-bar {
 body .center-content .popular-bets {
   backdrop-filter: blur(25px);
 }
+
+body .center-content .percentage-block {
+  background: var(--secondary-bg);
+  border-left: 1px solid var(--tableBorders);
+  border-right: 1px solid var(--tableBorders);
+  .bets .bet .label {
+    line-height: 33px;
+  }
+}
