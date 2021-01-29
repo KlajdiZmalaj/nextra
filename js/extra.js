@@ -2,7 +2,7 @@
 
 function bannersSportRight() {
   $(".right-side-bar .banner-block").append(
-    '<a href="/Sport/casino""><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft1.png"/></a> <a href="/Sport/casino""><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft2.png"/></a> <a href="/Sport/casino""><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft3.png"/></a>'
+    '<a href="/Sport/casino?loadGame=229&name=BerryBurst"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft1.png"/></a> <a href="/Sport/casino?loadGame=86&name=Arcane:%Reel%Chaos"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft2.png"/></a> <a href="/Sport/casino?loadGame=110&name=Aloha!%Cluster%Pays"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft3.png"/></a>'
   );
 }
 
@@ -15,19 +15,27 @@ $(document).ready(() => {
       "font-size: 20px ;  text-decoration: underline ; " +
       "font-family: 'american typewriter' ; text-shadow: 1px 1px 3px black ;"
   );
+  //all pages Funx
   addThemeContainerHeader();
-  sportsToTableHeader();
-  bannersSportRight();
-  var teamHome = $("#dailyBets .team-home"),
-    teamAway = $("#dailyBets .team-away");
-  teamHome.prepend(
-    `<img src="https://gradm-api.pcluster.info/storage/logos/${teamHome
-      .text()
-      .toLowerCase()}.png" alt=""/>`
-  );
-  teamAway.prepend(
-    `<img src="https://gradm-api.pcluster.info/storage/logos/${teamAway
-      .text()
-      .toLowerCase()}.png" alt=""/>`
-  );
+  //sport page Funx
+  if (window.location.href.includes("/Sport/sport")) {
+    sportsToTableHeader();
+    bannersSportRight();
+    var teamHome = $("#dailyBets .team-home"),
+      teamAway = $("#dailyBets .team-away");
+    teamHome.prepend(
+      `<img src="https://gradm-api.pcluster.info/storage/logos/${teamHome
+        .text()
+        .toLowerCase()}.png" alt=""/>`
+    );
+    teamAway.prepend(
+      `<img src="https://gradm-api.pcluster.info/storage/logos/${teamAway
+        .text()
+        .toLowerCase()}.png" alt=""/>`
+    );
+  }
+  //live pages Funx
+  if (window.location.href.includes("/Sport/live")) {
+    bannersSportRight();
+  }
 });
