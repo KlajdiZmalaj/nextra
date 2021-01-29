@@ -310,25 +310,47 @@ $bodyCol: #000;
 $invet: 0;
 
 html:root {
+  // --accent: #fec550;
+  // --accent-bg: #fec550;
+  // --accent-txt: #000;
+  // --primary-bg: #ffffff;
+  // --primary-txt: #707070;
+  // --secondary-bg: #1d1d1d;
+  // --secondary-txt: #fff;
+  // --mainBg: #1d1d1d;
+  // --mainBgCol: #fff;
+  // --bg1: #000;
+  // --col1: #fff;
+  // --teableHeadersBg: #fec550;
+  // --teableHeadersCol: #000000;
+  // --teableSubHeadersBg: rgba(255, 255, 255, 0.2);
+  // --teableSubHeadersCol: #ffffff;
+  // --tableBorders: #ffffff0d;
+  // --casinoGradient1: #000000;
+  // --casinoGradient1-txt: #fff;
+  // --casinoGradient2: #f4c100;
+  // --casinoGradient2-txt: #000;
+  // --backDrops: #000000cf;
+  // --skin: "skylive";
   --accent: #fec550;
   --accent-bg: #fec550;
   --accent-txt: #000;
-  --primary-bg: #ffffff;
-  --primary-txt: #707070;
+  --primary-bg: #2e2e2e;
+  --primary-txt: #ffffff;
   --secondary-bg: #1d1d1d;
   --secondary-txt: #fff;
-  --mainBg: #1d1d1d;
+  --mainBg: #0d0d0d;
   --mainBgCol: #fff;
-  --bg1: #000;
+  --bg1: #262626;
   --col1: #fff;
-  --teableHeadersBg: #fec550;
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: rgba(255, 255, 255, 0.2);
+  --teableHeadersBg: rgb(67 62 62 / 23%);
+  --teableHeadersCol: #fec550;
+  --teableSubHeadersBg: #0d0d0d;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #ffffff0d;
+  --tableBorders: #3c3c3c;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --casinoGradient2: #fec550;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
   --skin: "skylive";
@@ -439,7 +461,7 @@ html .side-bar,
   background: transparent !important;
   backdrop-filter: blur(25px);
 }
-[data-theme="theme1"] body {
+html body {
   background-image: url(//nextra.pcluster.info/skylive/images/theme1bg.png);
   background-color: #0d0d0d;
   background-size: auto;
@@ -515,6 +537,7 @@ html {
               line-height: 40px;
               height: 40px;
               padding: 0;
+              border: none;
             }
           }
         }
@@ -927,4 +950,15 @@ body .center-content .odds-graph-holder {
     left: 30px;
     transform: translateY(-30%);
   }
+}
+
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .label {
+  background: var(--tableBorders) !important;
 }
