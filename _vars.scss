@@ -617,6 +617,7 @@ body .center-content .percentage-block {
   .bets .bet .odd {
     width: 100%;
     margin: 0;
+    color: var(--accent);
   }
   .single-over-under .percentage-graph:after {
     -webkit-box-shadow: none;
@@ -624,6 +625,9 @@ body .center-content .percentage-block {
   }
   .single-over-under .team-names {
     text-align: center;
+    border-bottom: 1px solid var(--tableBorders);
+    padding: 5px 0;
+    font-size: 11px;
   }
   .single-over-under .team-names .home-team,
   .single-over-under .team-names .away-team {
@@ -640,6 +644,34 @@ body .center-content .percentage-block {
     position: relative;
     width: 20px;
     left: auto;
+  }
+}
+body .center-content .odds-graph-holder {
+  background: var(--bg1);
+  .match-odds-chart {
+    .ct-series-a * {
+      stroke: #07af1a;
+    }
+    .ct-series-b * {
+      stroke: #fec550;
+    }
+    .ct-series-c * {
+      stroke: #ffbf00;
+    }
+    .ct-grid {
+      stroke: none !important;
+    }
+  }
+  .section-odds {
+    border-top: 1px solid var(--tableBorders);
+    width: 100%;
+    padding: 0;
+    .starting-odds {
+      padding: 0;
+    }
+    .current-odds {
+      padding: 0;
+    }
   }
 }
 .odds-table .match-name .match-id {
