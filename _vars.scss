@@ -349,3 +349,11 @@ $sb-2: #333844;
 .second-header td {
   color: #fec900 !important;
 }
+
+.themeContainer {
+  position: absolute;
+  /* left: 0; */
+  top: 8px;
+  cursor: pointer;
+  font-size: 12px;
+}
