@@ -860,6 +860,15 @@ body .center-content .odds-graph-holder {
 }
 
 #dailyBets {
+  .match-of-the-day-text {
+    width: auto;
+    float: right;
+    margin-top: -33px;
+    position: relative;
+    background: transparent;
+    text-transform: uppercase;
+    padding-right: 10px;
+  }
   .team-home img {
     width: 40px;
     position: absolute;
