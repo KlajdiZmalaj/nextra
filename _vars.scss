@@ -550,3 +550,15 @@ body .center-content .popular-bets {
 .center-content .teams-filter ul li:after {
   display: none;
 }
+body .center-content .percentage-block {
+  background: var(--secondary-bg);
+  border-left: 1px solid var(--tableBorders);
+  border-right: 1px solid var(--tableBorders);
+  .bets .bet .label {
+    line-height: 33px;
+  }
+  .bet.over {
+    width: calc(50% - 1px);
+    border-right: 1px solid var(--tableBorders);
+  }
+}
