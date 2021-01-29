@@ -382,8 +382,8 @@ html[data-theme="theme1"] {
   --mainBgCol: #fff;
   --bg1: #262626;
   --col1: #fff;
-  --teableHeadersBg: #fec550;
-  --teableHeadersCol: #000000;
+  --teableHeadersBg: rgba(255, 255, 255, 0.2);
+  --teableHeadersCol: #fec550;
   --teableSubHeadersBg: #0d0d0d;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #3c3c3c;
@@ -457,4 +457,8 @@ body .center-content .sports-book .right-content .events-info div {
 .home-page .center-content {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
+}
+html .side-bar {
+  border-right: 1px solid var(--tableBorders);
+  border-left: 1px solid var(--tableBorders);
 }
