@@ -1,5 +1,6 @@
 //EXTRA JS
 $(document).ready(() => {
+  $("body").attr("data-url", window.location.href);
   const skinUrl = window.location.host.split(".")[0];
   console.log(
     `%cEXTRA JS ACTIVATED SKIN: ${skinUrl.toUpperCase()}`,
