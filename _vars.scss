@@ -530,6 +530,10 @@ html {
     justify-content: flex-end;
     background: transparent;
   }
+
+  #upcomingBets .sports-filter-upcoming {
+    right: 0;
+  }
   .side-bar {
     border-right: 1px solid var(--tableBorders);
     border-left: 1px solid var(--tableBorders);
@@ -681,51 +685,51 @@ body .center-content .odds-graph-holder {
 .popular-bets {
   #sb_1,
   [onclick*="(1)"] {
-    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-1.svg);
+    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-1.svg) !important;
   }
 
   #sb_2,
   [onclick*="(2)"] {
-    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-2.svg);
+    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-2.svg) !important;
   }
 
   #sb_3,
   [onclick*="(3)"] {
-    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-3.svg);
+    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-3.svg) !important;
   }
 
   #sb_4,
   [onclick*="(4)"] {
-    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-4.svg);
+    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-4.svg) !important;
   }
 
   #sb_5,
   [onclick*="(5)"] {
-    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-5.svg);
+    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-5.svg) !important;
   }
 
   #sb_6,
   [onclick*="(6)"] {
-    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-6.svg);
+    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-6.svg) !important;
   }
 
   #sb_7,
   [onclick*="(7)"] {
-    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-7.svg);
+    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-7.svg) !important;
   }
 
   #sb_8,
   [onclick*="(8)"] {
-    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-8.svg);
+    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-8.svg) !important;
   }
 
   #sb_9,
   [onclick*="(9)"] {
-    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-9.svg);
+    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-9.svg) !important;
   }
 
   #sb_10,
   [onclick*="(10)"] {
-    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-10.svg);
+    background-image: url(//nextra.pcluster.info/skylive/images/sport-icons/sport-icon-10.svg) !important;
   }
 }
