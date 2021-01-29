@@ -546,6 +546,14 @@ html {
     justify-content: center;
     padding: 0;
     font-size: 0;
+    background-color: transparent;
+    background-size: contain;
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    &.active {
+      background-color: #cccccc29 !important;
+    }
   }
 }
 
