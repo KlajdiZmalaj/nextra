@@ -434,8 +434,7 @@ body,
 
 html .side-bar,
 .side-bar .single-block .block-content,
-.side-bar .single-block .block-content.sports-menu .sports-menu-bottom,
-.main-content-holder {
+.side-bar .single-block .block-content.sports-menu .sports-menu-bottom {
   background: transparent !important;
   backdrop-filter: blur(25px);
 }
@@ -453,4 +452,21 @@ body .center-content .sports-book .right-content .events-info div {
   text-transform: uppercase;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+#mainHomePage {
+  display: flex;
+  flex-flow: column;
+}
+#mainHomePage > div {
+  order: 99;
+}
+#mainHomePage .main-slider {
+  order: 1;
+}
+#mainHomePage #dailyBets {
+  order: 2;
+}
+#mainHomePage > div:nth-child(2) {
+  order: 3;
 }
