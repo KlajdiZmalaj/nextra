@@ -2207,7 +2207,7 @@ body
 }
 .center-content.live-center-content {
   display: grid !important;
-  grid-template-columns: 1fr 340px;
+  grid-template-columns: 1fr 380px;
   grid-template-rows: repeat(auto-fill, 35px);
   @media (max-width: 1024px) {
     display: inline-block !important;
@@ -6502,6 +6502,19 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
   height: 198px;
 }
 
+.team-str-alt-ico.yes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  &:before {
+    content: "\f8dd";
+    font-family: "Font Awesome 5 Pro";
+  }
+}
 .team-str-ico.yes {
   width: 20px;
   height: 20px;
@@ -6520,4 +6533,19 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
 }
 .live-center-container {
   order: 2;
+}
+
+.event-viewer-tv-wrapper {
+  height: 300px;
+  width: 100%;
+  grid-column: 2/3;
+  grid-row: 1/6;
+  max-height: 170px;
+  box-sizing: border-box;
+  width: calc(100% - 27px);
+  margin: 0 auto;
+}
+
+.event-viewer-tv-wrapper:not([style="display:none"]) + .event-viewer-wrapper {
+  grid-row: 6/21;
 }

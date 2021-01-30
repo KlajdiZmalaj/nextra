@@ -31,19 +31,27 @@ $(document).ready(() => {
   if (window.location.href.includes("/Sport/live")) {
     console.log("live log");
 
-    var tv = $(".event-viewer-tv-wrapper");
-    if (tv.find(".liveIframe")[0]) {
-      tv.appendTo(".event-viewer-wrapper");
-    }
+    // if ($(".event-viewer-tv-wrapper").find(".liveIframe")[0]) {
+    //   $(".event-viewer-tv-wrapper").appendTo(".event-viewer-wrapper");
+    // }
 
-    var oldstartLTM = startLTM;
-    startLTM = function () {
-      oldstartLTM();
-      tv = $(".event-viewer-tv-wrapper");
-      if (tv.find(".liveIframe")[0]) {
-        tv.appendTo(".event-viewer-wrapper");
-      }
-    };
+    // var oldstartLTM = startLTM;
+    // startLTM = function (id) {
+    //   oldstartLTM(id);
+    //   console.log("ca ka ltm", oldstartLTM, id);
+
+    //   setTimeout(() => {
+    //     $(".event-viewer-tv-wrapper").appendTo(".event-viewer-wrapper");
+    //   }, 1000);
+    // };
+    // var oldstartStream = startStream;
+    // startStream = function (id) {
+    //   oldstartStream(id);
+    //   console.log("ca ka start stream", oldstartStream, id);
+    //   setTimeout(() => {
+    //     $(".event-viewer-tv-wrapper").appendTo(".event-viewer-wrapper");
+    //   }, 1000);
+    // };
   }
 });
 
