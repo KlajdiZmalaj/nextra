@@ -9694,6 +9694,9 @@ span {
         justify-content: center;
         background: var(--bg1);
         color: var(--col1);
+        &:nth-child(2) ,&:last-child{
+          display: none;
+        }
         img {
           height: 30px;
         }
