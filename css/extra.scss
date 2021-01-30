@@ -6549,9 +6549,12 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
   box-sizing: border-box;
   width: calc(100% - 24px);
   margin: 0 auto;
+  position: sticky;
+  top: 0;
 }
 
 .event-viewer-tv-wrapper:not([style="display:none"]) + .event-viewer-wrapper {
   grid-row: 9/21;
   height: calc(100vh - 431px);
+  top: 260px;
 }
