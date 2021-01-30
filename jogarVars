@@ -62,3 +62,7 @@ body.landing-page {
   font-size: 15px;
   font-family: "Lato", sans-serif;
 }
+//winter brazilian fix icon
+.header .top-header .top-header-content .primary-menu ul li:nth-child(2):after {
+  left: 20px !important;
+}

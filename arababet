@@ -1,4 +1,4 @@
-$skin: "biwinner";
+$skin: "arababet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
@@ -31,6 +31,7 @@ html:root {
   --casinoGradient2: #ffdb00;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "arababet";
 }
 
 $secondary: #ffdb00;
@@ -47,13 +48,21 @@ $sb-2: #333844;
 
 //casino live
 .clive-container > .clive-inner > .clgames-container:nth-child(2) {
-  display: block;
+  display: none;
   margin-bottom: 0;
 }
-
+.clive-container .clive-inner .clive-games-container:last-child {
+  margin: 0 auto;
+}
 .clive-container .clive-inner {
   display: flex;
   flex: 1 1;
   justify-content: space-between;
   align-items: center;
+}
+
+.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
+  &:before {
+    background-image: url(https://nextra.pcluster.info/arababet/images/casinolive/clive-banner1.jpg);
+  }
 }

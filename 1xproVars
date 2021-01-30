@@ -481,6 +481,13 @@ html {
       height: 22px;
       left: 5px;
     }
+    &-10 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/011-boxing.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
     &-12 .icon {
       background-image: url("//nextra.pcluster.info/1xpro/images/newicons/037-rugby.svg");
       filter: hue-rotate(290deg);
@@ -504,6 +511,13 @@ html {
     }
     &-16 .icon {
       background-image: url("//nextra.pcluster.info/1xpro/images/newicons/038-rugby.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-17 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/044-stopwatch.svg");
       filter: hue-rotate(290deg);
       width: 25px;
       height: 22px;
@@ -553,6 +567,36 @@ html {
     }
     &-29 .icon {
       background-image: url("//nextra.pcluster.info/1xpro/images/newicons/042-ball.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+
+    &-40 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/023-flag.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+
+    &-43 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/039-ice skate.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-44 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/047-sword.svg");
+      filter: hue-rotate(290deg);
+      width: 25px;
+      height: 22px;
+      left: 5px;
+    }
+    &-48 .icon {
+      background-image: url("//nextra.pcluster.info/1xpro/images/newicons/039-ice skate.svg");
       filter: hue-rotate(290deg);
       width: 25px;
       height: 22px;
@@ -705,16 +749,10 @@ html body .casino-section .casino-container .casino-inner {
       display: inline-block;
     }
   }
-<<<<<<< HEAD
-
-=======
   .single-block.antepost {
     display: flex;
   }
->>>>>>> eff22d242586e330e14baad251ebefe0d4da708c
-  .single-block .block-title {
-    display: flex;
-  }
+
   .single-block .sports-menu {
     display: inline-block;
   }

@@ -62,8 +62,11 @@ html body {
 
 //casino live
 .clive-container > .clive-inner > .clgames-container:nth-child(2) {
-  display: block;
+  display: none;
   margin-bottom: 0;
+}
+.clive-container .clive-inner .clive-games-container:last-child {
+  margin: 0 auto;
 }
 
 .clive-container .clive-inner {
@@ -79,4 +82,11 @@ div[data-source="in_play"] .main_container_tile, div[data-source="upcoming"] .ma
 body .clive-container>.clive-inner>.clgames-container .clgames-item .clgames-overlay .clg-btns-a,
 body .clive-container .clive-item .clive-overlay .cl-btns-a {
   background-color:var(--accent);
+}
+
+
+.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
+  &:before {
+    background-image: url(//nextra.pcluster.info/topbet365/images/casinolive/clive-banner1.jpg) !important;
+  }
 }

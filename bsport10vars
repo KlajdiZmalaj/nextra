@@ -70,3 +70,7 @@ html {
     border: 1px solid #b1adad !important;
   }
 }
+
+.casino_container .casino_type .ct_games_container .ctg_games .ctg_game_item .ctg_g_icon img {
+  background-color: #005293;
+}

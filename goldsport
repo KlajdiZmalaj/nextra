@@ -1,0 +1,127 @@
+$skin: "goldsport";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
+
+$logoUrl: "https://nextra.pcluster.info/goldsport/images/logo2.png";
+
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/14/image/67045414d4c3d8269850866fc88768c4.jpeg";
+$bodyCol: #071538;
+
+//invet 1 light skin inver 0 dark skin (images)
+$invet: 1;
+html:root {
+  --accent: #fca311;
+  --accent-bg: #fca311;
+  --accent-txt: #000;
+  --primary-bg: #14213d;
+  --primary-txt: #fff;
+  --secondary-bg: #1e2d4e;
+  --secondary-txt: #fff;
+  --mainBg: #111d35;
+  --mainBgCol: #ffffff;
+  --bg1: #0c1425;
+  --col1: #fff;
+  --teableHeadersBg: #283a63;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #3e4a65;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #324165;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #636363;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+  --skin: "goldsport";
+}
+
+$secondary: #ea2125;
+$secondaryCol: #fff;
+$black: #000000;
+$secondaryDark: #ea2125;
+$secondaryDarkCol: #fff;
+$primary: #fca311;
+$white: #ebebeb;
+$blue: #262ca8;
+$green: #2e9c3d;
+$red: #e1042e;
+$sb-2: #323232;
+body.landing-page {
+  background-color: #1e1e1e !important;
+  background-image: none;
+}
+
+body {
+  background-position-y: 100px;
+}
+
+.header .top-header .top-header-content .logo-holder a:before {
+  height: 110px !important;
+  width: 184px !important;
+  position: absolute !important;
+  top: -20px;
+}
+body .main_header .main_header_left:after {
+  height: 50px !important;
+}
+
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd {
+  position: relative;
+}
+
+html {
+  .live-content-wrapper
+    .live-sports-overview
+    .sport-container
+    .single-panel
+    .panel-content
+    .single-match
+    .odds-wrapper
+    .odds-holder
+    .single-odd
+    .odd-type:after,
+  .single-odd-type .odd-type:after,
+  .single-live-odd .quote:after {
+    display: block !important;
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
+}
+
+html {
+  .live-odds-table
+    table
+    tr
+    td.odd-holder
+    .single-live-odd.odd-zero
+    .quote:after {
+    left: 0;
+    top: 20px;
+  }
+}
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd {
+  padding-left: 12px;
+}
+
+html {
+  .sports-container .matches .single-match .match-odds .single-odd-type {
+    width: calc(100% / 3 - 34px);
+    padding-left: 18px;
+  }
+}

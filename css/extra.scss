@@ -97,13 +97,16 @@
 .usrlist-inner tbody tr td {
   border: 1px solid #c2c1c1;
   padding: 4px 0;
-  background-color: #ebebeb;
+  background-color: #d4d4d4;
   color: #222;
   clear: both;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+// .usrlist-inner tbody tr:not([style="display: none;"]):nth-of-type(even) td {
+//   background-color: #d4d4d4;
+// }
 
 .usrlist-inner tbody tr td:nth-child(1) {
   width: 50px;
@@ -583,6 +586,8 @@ footer {
 
 footer .footer-copyright {
   background: var(--bg1);
+  font-size: 0;
+  height: 12px;
 }
 
 .single-sport .anchor.sport-112 .icon {
@@ -1203,7 +1208,7 @@ body .logged-page .logged-table tfoot tr td,
   color: var(--accent);
 }
 .poker-strip {
-  background-color: var(--teableSubHeadersBg);
+  background-color: #000;
   color: var(--accent-col);
 }
 
@@ -1994,10 +1999,11 @@ body #oddsMenu tr {
 .footer-copyright {
   color: transparent !important;
   &::before {
-    content: var(--skin) "© 2020 All rights reserved.";
-    color: var(--mainBgCol) !important;
+    content: var(--skin) "© 2021 All rights reserved." !important;
+    color: var(--mainBgCol) !important ;
     position: absolute;
     text-transform: uppercase;
+    font-size: 12px;
   }
 }
 
@@ -2088,10 +2094,10 @@ body #oddsMenu tr {
   content: "\e905";
 }
 #indexCasino a:after {
-  content: "\e908";
+  content: "\e907";
 }
 #indexCasinoLive a:after {
-  content: "\e907";
+  content: "\e908";
 }
 #indexPoker a:after {
   content: "\e906";
@@ -2203,7 +2209,7 @@ body
   display: grid !important;
   grid-template-columns: 1fr 340px;
   grid-template-rows: repeat(auto-fill, 35px);
-  @media (max-width: 1500px) {
+  @media (max-width: 1024px) {
     display: inline-block !important;
   }
 }
@@ -2219,7 +2225,8 @@ body
   background: var(--mainBg);
   margin: 12px;
   margin-top: 2px;
-
+  overflow-y: scroll;
+  flex-flow: column;
   &[style="display:none"] {
     align-items: center;
     justify-content: center;
@@ -2234,7 +2241,7 @@ body
       font-size: 15px;
     }
   }
-  @media (max-width: 1500px) {
+  @media (max-width: 1024px) {
     max-height: 680px;
     overflow: auto;
   }
@@ -2243,9 +2250,9 @@ body
   display: flex;
   flex-flow: column;
 
-  // @media (max-width: 1500px) {
-  //   flex-flow: row;
-  // }
+  @media (max-width: 1024px) {
+    flex-flow: row;
+  }
 }
 .live-center-view-container.stats-active .lc-left-module,
 .live-center-view-container.stats-active .lc-right-module {
@@ -2328,7 +2335,8 @@ div.landing-page .banner-content:before {
   top: 12px;
 }
 .live-odds-table table tr td.odd-holder .single-live-odd.odd-zero .quote:after {
-  left: 10px;
+  left: 6px;
+  transform: none;
 }
 .live-odds-table table tr td.odd-holder .single-live-odd .quote {
   padding-right: 3px;
@@ -2363,6 +2371,9 @@ body #oddsMenu tr:last-child {
   position: relative;
   z-index: 1;
   line-height: initial;
+}
+.dark-overlay.show {
+  display: none;
 }
 @media only screen and (max-width: 1279px) {
   .left-side-bar.closed .single-block:first-child .block-title {
@@ -3438,6 +3449,18 @@ html body .block-title[onclick*="toggleNext"] {
 .side-bar.right-side-bar {
   min-width: 286px;
 }
+.live-page {
+  .side-bar.right-side-bar {
+    min-width: 286px;
+    max-height: 818px;
+    position: sticky;
+    top: 0;
+  }
+  .side-bar::-webkit-scrollbar {
+    display: block;
+  }
+}
+
 body .odds-table .single-match-row td.match-name {
   .match-id,
   .match-details,
@@ -3457,6 +3480,7 @@ body .odds-table .single-match-row td.match-name {
     position: relative;
     bottom: 1px;
     justify-content: flex-start;
+    white-space: nowrap;
   }
 }
 @media only screen and (max-width: 1279px) {
@@ -4116,6 +4140,9 @@ body .odds-table .single-match-row td.match-name {
 .single-sport .anchor.sport-44 .icon {
   background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-44.svg);
 }
+.single-sport .anchor.sport-48 .icon {
+  background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-48.png);
+}
 .single-sport .anchor.sport-135 .icon {
   background-image: url(//nextra.pcluster.info/bbgame/images/sport-icons/sport-icon-135.svg);
 }
@@ -4305,6 +4332,11 @@ body .odds-table .single-match-row td.match-name {
   width: 150px;
 }
 
+.game-grid-item[data-name="BlackJackLive"],
+.game-grid-item[data-name="Gems Bonanza"] {
+  display: none;
+}
+
 .game-grid .game-grid-item-b {
   -ms-grid-column: 5;
   -ms-grid-column-span: 2;
@@ -4325,6 +4357,9 @@ body .odds-table .single-match-row td.match-name {
 }
 .game-overlay-inner .game-pro-container .game-pro-ico {
   width: 100%;
+  height: 20px;
+  object-fit: contain;
+  object-position: center;
 }
 @media only screen and (max-width: 1279px) {
   html .game-grid {
@@ -4545,7 +4580,8 @@ body .odds-table .single-match-row td.match-name {
   align-items: center;
   padding: 5px 5px;
 }
-.casino-pro-item .casino-pro-item-img[onclick="selectProvider(6);"] {
+.casino-pro-item .casino-pro-item-img[onclick="selectProvider(6);"],
+.casino-pro-item .casino-pro-item-img[onclick="selectProvider(14);"] {
   display: none;
 }
 
@@ -4729,6 +4765,16 @@ body .odds-table .single-match-row td.match-name {
     backdrop-filter: blur(0px);
     background: var(--mainBg);
     color: var(--mainBgCol);
+  }
+  .mCustomScrollBox {
+    height: auto !important;
+    overflow: visible !important;
+  }
+  .enable-scroll {
+    min-height: 2000px !important;
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
   }
 }
 span.ui-slider-handle:before {
@@ -4997,25 +5043,55 @@ span.ui-slider-handle:before {
 
 //poker
 .poker-banner-container {
-  max-width: 1360px;
-  margin: 0 auto;
-  width: 100%;
+  // max-width: 1360px;
+  // margin: 0 auto;
+  // width: 100%;
+  background: #000;
+  .poker-banner-inner {
+    max-width: 1360px;
+    margin: 0 auto;
+    width: 100%;
+  }
   .poker-banner-img {
     display: none;
   }
 }
 .poker-banner-container:after {
-  background-image: url(https://nextra.pcluster.info/bbgame/images/poker/poker-banner1.png);
+  background-image: url(https://nextra.pcluster.info/bbgame/images/poker/poker-banner1.jpg);
   background-size: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
   width: 100%;
-  height: 364px;
+  height: 560px;
   content: "";
   display: block;
   background-repeat: no-repeat;
 }
+
 .poker-container {
-  max-width: 1360px;
+  background: #000;
   margin: 0 auto;
+  padding-bottom: 60px;
+  .poker-strip.dbg {
+    display: none;
+  }
+  .poker-strip.isla .poker-strip-a img {
+    display: none;
+  }
+  .poker-strip.isla .poker-strip-a a:after {
+    content: "Gioca ora";
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid var(--accent-bg);
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: -10px;
+    color: var(--accent-bg);
+  }
+  .poker-strip.isla .poker-strip-a:nth-child(2),
+  .poker-strip.isla .poker-strip-a:nth-child(3) {
+    display: none;
+  }
   .poker-inner {
     width: 100%;
   }
@@ -5026,15 +5102,14 @@ span.ui-slider-handle:before {
     display: none;
   }
   .poker-strip {
-    padding: 140px 0px;
+    padding: 30px 0px;
   }
 }
 body .center-content .popular-bets .days ul li {
   line-height: 27px;
 }
 
-#help-button,
-.main-footer .footer-menu {
+#help-button {
   display: none;
 }
 
@@ -5121,6 +5196,11 @@ body .center-content .popular-bets .days ul li {
     font-family: "Font Awesome 5 Pro";
     font-size: 25px;
   }
+  .transfer::after {
+    content: "\f4a0";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 25px;
+  }
 }
 .usrlist #client_list {
   .passwd::after {
@@ -5128,6 +5208,14 @@ body .center-content .popular-bets .days ul li {
     font-family: "Font Awesome 5 Pro";
     font-size: 15px;
     padding-left: 5px;
+  }
+  .transfer::after {
+    content: "\f3d1";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 16px;
+    position: relative;
+    left: 5px;
+    top: 1px;
   }
 }
 
@@ -5159,7 +5247,7 @@ body #tabletsDay {
 .hovermenu-container {
   position: relative;
   order: 1;
-  display: none;
+  //display: none;
   div#submenu-bot {
     height: auto !important;
   }
@@ -5250,6 +5338,14 @@ body #tabletsDay {
     display: flex;
   }
 }
+
+.logged-page .cashier-table tbody tr td:last-child .button.print {
+  padding: 5px 5px;
+  height: 20px;
+  width: auto;
+  margin: 5px 0px;
+}
+
 @media only screen and (max-width: 1279px) {
   body {
     min-width: 1200px;
@@ -5260,6 +5356,13 @@ body #tabletsDay {
   body .header .top-header .top-header-content .primary-menu li a:after {
     font-size: 25px;
   }
+  body .header .top-header .top-header-content .primary-menu {
+    justify-content: left;
+  }
+  body .header .top-header .top-header-content {
+    justify-content: space-around;
+  }
+
   .event-viewer-wrapper {
     position: relative;
   }
@@ -5399,6 +5502,1022 @@ body #tabletsDay {
   display: none;
 }
 
-.single-sport .anchor.sport-26 .icon {
-  background-image: url(//nextra.pcluster.info/masterbet/images/sport-icons/sport-icon-26.svg);
+.single-sport .anchor.sport-40 .icon {
+  background-image: url(//nextra.pcluster.info/css/fonts/f1.svg);
+}
+
+.single-sport .anchor.sport-81 .icon {
+  background-image: url(//nextra.pcluster.info/css/fonts/sailing.svg);
+}
+
+.single-sport .anchor.sport-191 .icon {
+  background-image: url(//nextra.pcluster.info/css/fonts/car.svg);
+}
+/*
+//
+//@at-root
+//@error
+*/
+
+#miniTablets {
+  .ui-widget-content {
+    border: 0;
+    background: var(--accent-bg);
+    color: var(--accent-col);
+    border: 0 !important;
+    border-radius: 0 !important;
+    height: 4px;
+    width: 90%;
+  }
+  .ui-slider-range.ui-corner-all.ui-widget-header.ui-slider-range-max {
+    background: var(--mainBg);
+  }
+  div[id*="customhandle_"] {
+    width: auto;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2px;
+    padding: 0 4px;
+    cursor: pointer;
+    background: var(--accent-bg);
+    color: var(--accent-txt);
+    border: 0;
+    border-radius: 0;
+  }
+}
+
+//start casino live evolution
+.clive-container > .clive-inner > .clgames-container:nth-child(2) {
+  display: block;
+  margin-bottom: 0;
+}
+.clive-container .clive-inner {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
+  &:before {
+    background-image: url(//nextra.pcluster.info/masterbet/images/casinolive/clive-banner1.jpg) !important;
+  }
+}
+//end casino live evolution
+.single-tab {
+  white-space: nowrap;
+}
+
+//christamas
+// .header .top-header .top-header-content .primary-menu ul li:after {
+//   content: " ";
+//   width: 42px;
+//   height: 31px;
+//   display: block;
+//   position: absolute;
+//   background-image: url(https://www.flaticon.com/premium-icon/icons/svg/3726/3726320.svg);
+//   background-size: contain;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   top: -33px;
+//   z-index: 1;
+// }
+
+// .header .top-header .top-header-content .primary-menu ul li {
+//   top: 20px;
+// }
+
+// .side-bar .single-block .block-title.toggle-title:before {
+//   content: "";
+//   position: absolute;
+//   top: -2px;
+//   left: 0;
+//   height: 15px;
+//   background: url(https://cdevn.world/web_assets/components/__layout/__styles/NewYear/images/search-snow-61beb1c7259faa045b162eb170f9c0a4.png);
+//   background-size: initial;
+//   background-repeat: repeat;
+//   width: 100%;
+// }
+
+//
+
+.header .top-header .top-header-content .primary-menu ul li:after {
+  pointer-events: none;
+}
+
+//christamas
+
+// div.landing-page .banner-content:after {
+//   content: "";
+//   position: absolute;
+//   top: -2px;
+//   left: 0;
+//   height: 100%;
+//   background-size: initial;
+//   background-repeat: repeat;
+//   width: 100%;
+//   background-image: url(https://i.giphy.com/media/CkBzt6qXCCXw4/giphy.webp);
+//   opacity: 0.06;
+//   z-index: 0;
+// }
+//.casino-section:after {
+//   content: " ";
+//   width: 100%;
+//   height: 100%;
+//   display: block;
+//   position: absolute;
+//   background-image: url(https://cdevn.world/web_assets/components/__layout/__styles/NewYear/images/snow-offers-181f7aed7fffc167742872cbdd820287.svg);
+//   background-size: 33%;
+//   background-position: center;
+//   background-repeat: repeat;
+//   top: 0px;
+//   z-index: 0;
+//   right: 0;
+//   opacity: 0.04;
+// }
+// .casino-search-container {
+//   position: relative;
+// }
+// .casino-search-container:after {
+//   content: "";
+//   position: absolute;
+//   top: -2px;
+//   left: 0;
+//   height: 20px;
+//   background: url(https://cdevn.world/web_assets/components/__layout/__styles/NewYear/images/search-snow-61beb1c7259faa045b162eb170f9c0a4.png);
+//   background-size: auto;
+//   background-repeat: repeat;
+//   width: 100%;
+// }
+// .casino-section .casino-container {
+//   z-index: 5;
+// }
+
+// .header .top-header .top-header-content .primary-menu ul li:after {
+//   /* opacity: 0.9; */
+//   content: " ";
+//   width: 36px;
+//   height: 29px;
+//   display: block;
+//   position: absolute;
+//   background-image: url(http://nextra.pcluster.info/images/xmas/ice1.png);
+//   background-size: contain;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   top: -25px;
+//   z-index: 1;
+// }
+
+.header .top-header .top-header-content .primary-menu ul li {
+  top: 20px;
+}
+
+// .header .top-header .top-header-content .primary-menu ul li:nth-child(6):after {
+//   background-image: url(http://nextra.pcluster.info/images/xmas/ice3.png);
+//   width: 33px;
+// }
+
+// .header .top-header .top-header-content .primary-menu ul li:nth-child(3):after {
+//   background-image: url(http://nextra.pcluster.info/images/xmas/ice2.png);
+//   top: -26px;
+//   height: 35px;
+//   width: 44px;
+// }
+
+// .header .top-header .top-header-content .primary-menu ul li:nth-child(5):after {
+//   background-image: url(http://nextra.pcluster.info/images/xmas/ice1.png);
+//   top: -26px;
+//   transform: rotate(-35deg);
+//   left: 19px;
+//   width: 31px;
+// }
+// .header .top-header .top-header-content .primary-menu ul li:nth-child(2):after {
+//   top: -22px;
+//   transform: rotate(-32deg);
+//   left: 5px;
+//   width: 36px;
+// }
+
+// .clive-container
+//   .clive-inner
+//   .clive-games-container
+//   .clive-item.clive-item-big:before {
+//   content: "";
+//   position: absolute;
+//   top: -14px;
+//   left: 0;
+//   height: 50px;
+//   background: url(http://nextra.pcluster.info/images/xmas/icebig.png);
+//   background-size: cover;
+//   background-repeat: repeat;
+//   width: 100%;
+// }
+
+// .clive-container
+//   > .clive-inner
+//   > .clgames-container:nth-child(2)
+//   .clgames-inner
+//   .clgames-item-big:before {
+//   content: "";
+//   position: absolute;
+//   top: -14px;
+//   left: 0;
+//   height: 50px;
+//   background: url(http://nextra.pcluster.info/images/xmas/icebig.png);
+//   background-size: contain;
+//   width: 100%;
+// }
+
+// .main-content.home-page .grid {
+//   position: relative;
+// }
+// .main-content.home-page .grid:after {
+//   content: "";
+//   width: 180px;
+//   height: 300px;
+//   /* background: #222; */
+//   top: -30px;
+//   position: absolute;
+//   background-image: url(http://nextra.pcluster.info/images/xmas/xmas-ball.png);
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   left: -150px;
+//   z-index: -1;
+//   filter: drop-shadow(1px -2px 36px var(--accent)) brightness(1.1)
+//     grayscale(0.2);
+//   transition: 0.3s;
+//   transform: rotate(0deg);
+//   transform-origin: top;
+//   animation: xmasBall 2.5s infinite linear;
+// }
+
+// @keyframes xmasBall {
+//   0% {
+//     transform: rotate(0deg);
+//   }
+//   25% {
+//     transform: rotate(-10deg);
+//   }
+//   50% {
+//     transform: rotate(0deg);
+//   }
+//   70% {
+//     transform: rotate(10deg);
+//   }
+//   100% {
+//     transform: rotate(0deg);
+//   }
+// }
+
+//xmas
+// .slick-slider {
+//   position: relative;
+// }
+// .slick-slider:after {
+//   content: "";
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   background: url(https://nextra.pcluster.info/images/xmas/main.png);
+//   top: 0;
+//   left: 0;
+//   background-size: 107%;
+//   background-position: center;
+//   filter: brightness(1.5);
+//   opacity: 0.4;
+// }
+
+// .casino-search-container:before {
+//   content: '';
+//   width: 260px;
+//   height: 280px;
+//   background: url(https://nextra.pcluster.info/images/xmas/gonzo.png);
+//   background-size: contain;
+//   display: block;
+//   background-repeat: no-repeat;
+//   position: absolute;
+//   right: 0;
+//   top: 0;
+//   transform: translateY(-100%);
+//   right: 0;
+//   background-position: center;
+// }
+
+.odds-table {
+  .goalScorer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    .callinvisible {
+      display: none;
+    }
+    .odd.quote {
+      margin-right: 0;
+      > div {
+        min-width: 40px;
+      }
+    }
+    .comboSign {
+      width: 40%;
+      min-width: 100px;
+      position: relative;
+      &:after {
+        content: "\f078";
+        font-family: "Font Awesome 5 Pro";
+        position: absolute;
+        right: 3px;
+        top: -3px;
+        font-size: 12px;
+      }
+      select {
+        width: 100%;
+        background: var(--bg1);
+        color: var(--col1);
+        border-color: var(--tableBorders);
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        padding: 3px;
+      }
+    }
+    .comboPlayer {
+      width: 40%;
+      min-width: 100px;
+      position: relative;
+      &:after {
+        content: "\f078";
+        font-family: "Font Awesome 5 Pro";
+        position: absolute;
+        right: 3px;
+        top: -3px;
+        font-size: 12px;
+      }
+      select {
+        width: 100%;
+        background: var(--bg1);
+        color: var(--col1);
+        border-color: var(--tableBorders);
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        padding: 3px;
+      }
+    }
+  }
+}
+.center-content .popular-bets .days ul {
+  color: var(--teableSubHeadersCol);
+}
+
+.ctran-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  display: none;
+  &[style] {
+    display: block;
+  }
+  &[style="display: none;"] {
+    display: none;
+  }
+}
+
+.ctran-inner {
+  background-color: lightgray;
+  color: #222;
+  width: 550px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.ctran-head {
+  background-color: var(--accent-bg);
+  color: var(--accent-col);
+}
+
+.ctran-head-inner {
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.ctran-head-inner .ph-a {
+  color: #fff;
+}
+
+.ctran-head-inner .ph-a-ico {
+  margin-right: 10px;
+}
+
+.ctran-head-inner .ph-b {
+  color: #fff;
+  background-color: red;
+  width: 15px;
+  height: 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.ctran-head-inner .ph-b-ico {
+  position: absolute;
+  top: -2px;
+}
+
+.ctran-det {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 3fr;
+  grid-template-columns: 2fr 3fr;
+  -webkit-column-gap: 10px;
+  column-gap: 10px;
+  margin-bottom: 5px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.ctran-det-lab {
+  text-align: right;
+  color: #222;
+}
+
+.ctran-det-lab.al-fix {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.ctran-det-lat-sel {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 5px;
+  border: 1px solid #222;
+  background-image: url(./v.png);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: right -1px center;
+  width: 100%;
+  height: 25px;
+  outline: 0;
+  padding: 4px 25px 5px 5px;
+  cursor: pointer;
+}
+
+.ctran-det-lat-text {
+  padding: 0 5px;
+  height: 25px;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #222;
+  outline: 0;
+}
+
+.ctran-det-lat .impo-input {
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-right: 10px;
+  height: 25px;
+  line-height: 25px;
+  float: left;
+  font-size: 13px;
+  border-radius: 3px;
+  color: #222;
+  border: 1px solid #222;
+  width: 100%;
+  padding: 0 0 0 6px;
+}
+
+.ctran-det-lat .clt-txta {
+  resize: none;
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-right: 10px;
+  line-height: 25px;
+  float: left;
+  font-size: 13px;
+  border-radius: 3px;
+  color: #222;
+  border: 1px solid #222;
+  width: 100%;
+  padding: 0 0 0 6px;
+}
+
+.ctran-form {
+  padding: 10px 20px;
+}
+
+.ctran-form-inner {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 20px 40px;
+  margin-bottom: 15px;
+}
+
+.ctran-form-btn {
+  display: block;
+  margin: 0 auto;
+  margin-right: 0;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  background-color: #2e9c3d;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.ctran-form-btn-ico {
+  background-color: #fff;
+  color: #2e9c3d;
+  padding: 4px 5px;
+  margin-right: 5px;
+}
+
+.ctran-form-btn:hover {
+  opacity: 0.9;
+}
+
+.gt-head {
+  border-radius: 4px;
+  background-color: #f3f3f3;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.gt-head .ctran-det-lab {
+  font-weight: 700;
+}
+
+.gt-a {
+  border-radius: 4px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin-bottom: 22px;
+}
+
+.gt-b {
+  padding: 5px 20px;
+}
+
+.gt-c {
+  margin: 10px 10px 2px 5px;
+}
+
+.gt-c-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gt-c-inner .atxt {
+  margin-right: 10px;
+}
+
+.mCustomScrollbar {
+  touch-action: auto;
+}
+.casino-pro-down .casino-pro-list .casino-pro-item-img {
+  width: 100px;
+  height: 30px;
+  object-fit: contain;
+  object-position: center;
+}
+.odds-table .match-name .team-names.has-info .info-box .odd-types .single-type {
+  background: var(--bg1);
+  color: var(--col1);
+  border: 0;
+  box-shadow: none;
+  border-top: 1px solid var(--tableBorders);
+}
+// 💜 🧡 💚 🖤
+.transactions-legend-holder .notice {
+  display: none;
+}
+.footer-menu li:nth-child(3),
+.footer-menu li:nth-child(2),
+.footer-menu li:nth-child(1) {
+  display: none;
+}
+
+.help-page .help-menu {
+  border: 0;
+  background: var(--bg1);
+  color: var(--col1);
+}
+.help-page .help-menu ul li {
+  border-bottom: 1px solid var(--tableBorders);
+}
+.help-page .help-menu ul li.selected a {
+  background: var(--accent-bg) !important;
+  color: var(--accent-txt) !important;
+}
+.help-page .help-menu ul li:hover,
+.help-page .help-menu ul li.open {
+  background: transparent;
+}
+.help-page .help-menu ul li .sub-menu li {
+  background: var(--bg1);
+  color: var(--col1);
+  border: 0;
+  border-bottom: 1px solid var(--tableBorders);
+  &:hover {
+    background: var(--bg1);
+    color: var(--col1);
+  }
+}
+
+.help-page .help-menu ul li .sub-menu li:nth-child(even) {
+  background: var(--bg1);
+  color: var(--col1);
+  &:hover {
+    background: var(--bg1);
+    color: var(--col1);
+  }
+}
+body {
+  .help-page .help-menu ul li .sub-menu li a,
+  .help-page .help-menu ul li .sub-menu li span,
+  .help-page .help-menu ul li a,
+  .help-page .help-menu ul li span {
+    color: inherit;
+    &:hover {
+      color: inherit;
+    }
+  }
+}
+
+html body .help-page .help-menu ul li.has-sub-menu span {
+  background: var(--teableSubHeadersBg) !important;
+  color: var(--teableSubHeadersCol) !important;
+  border-bottom: 1px solid var(--tableBorders);
+}
+.footer-menu li:nth-child(4) a {
+  font-size: 0;
+  &::before {
+    content: "Regolamento";
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.help-page .help-menu ul {
+  li {
+    display: none;
+    &:nth-last-child(2) {
+      display: list-item;
+    }
+  }
+}
+
+.antepost-holder div span:first-child {
+  border-right: 1px solid var(--tableBorders);
+}
+.antepost-name-wrap {
+  background-color: var(--teableSubHeadersBg);
+  color: var(--teableSubHeadersCol) !important;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  line-height: initial;
+  padding: 0 10px;
+}
+.antepost-holder div.antepost-header {
+  background-color: var(--teableHeadersBg);
+  color: var(--teableHeadersCol);
+}
+Sport-Icons:after {
+  content: "🏀-🏈-⚽-🏓-⚾-🏐-🥎";
+  display: flex;
+}
+
+body .odds-table.lastMinutes .single-match-row td.match-name .team,
+#miniTablets .single-match-row td.match-name .team {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+.game-overlay-inner .game-play-contianer .game-play-btn {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  border: 0;
+  &:hover {
+    background: var(--accent-bg);
+    color: var(--accent-txt);
+    border: 0;
+  }
+}
+
+// .usrlist {
+//   #client_list th:nth-child(3),
+//   #client_list td:nth-child(3),
+//   #client_list th:nth-child(5),
+//   #client_list td:nth-child(5) {
+//     width: 62px;
+//   }
+//   #client_list th:nth-child(4),
+//   #client_list td:nth-child(4) {
+//     width: 35px;
+//   }
+//   #client_list th:nth-child(7),
+//   #client_list td:nth-child(7) {
+//     width: 130px;
+//   }
+// }
+//messagi pop up
+
+#msg_popin {
+  &.msd-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+  .msd-inner {
+    color: #000;
+    background-color: lightgray;
+    width: 550px;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .msd-head {
+    background-color: var(--accent-bg);
+    color: var(--accent-txt);
+  }
+  .msd-head-inner {
+    padding: 10px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .msd-head-inner .ph-a-ico {
+    margin-right: 10px;
+  }
+  .msd-form {
+    padding: 10px 20px;
+  }
+  .msd-form-inner {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px 40px;
+    margin-bottom: 15px;
+  }
+  .gk-head {
+    border-radius: 4px;
+    background-color: #f3f3f3;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  .gk-c {
+    margin: 10px 10px 2px 5px;
+    font-weight: 500;
+  }
+  .msd-det {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.7fr 3fr;
+    grid-template-columns: 0.7fr 3fr;
+    -webkit-column-gap: 10px;
+    column-gap: 10px;
+    margin-bottom: 5px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .gk-head .msd-det-lab {
+    font-weight: 500;
+  }
+  #msg_text {
+    white-space: pre-line;
+  }
+
+  .msd-det-lab {
+    font-weight: 500;
+  }
+  .gk-b {
+    border-radius: 4px;
+    background-color: #f3f3f3;
+    padding: 10px;
+    margin-bottom: 22px;
+  }
+  .msd-form-btn {
+    display: block;
+    margin: 0 auto;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    background-color: #2e9c3d;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .msd-form-btn-ico {
+    background-color: #fff;
+    color: #2e9c3d;
+    padding: 4px 5px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 1366px) {
+  body .live-odds-table #oddsMenu tr {
+    width: 100%;
+  }
+}
+
+.logged-center .transaction-filters .row .buttons-holder .single-button {
+  background-color: var(--accent-bg) !important;
+  color: var(--accent-txt) !important;
+  &:hover {
+    background-color: var(--accent-bg) !important;
+    color: var(--accent-txt) !important;
+  }
+}
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd.odd-zero {
+  min-height: 28px;
+}
+
+// transferimento
+.tts-btn[href="/Sport/bo2_deposit"],
+.tts-btn[href="/Sport/bo2_withdrawal"] {
+  display: none !important;
+}
+.tts-btns {
+  background-color: var(--teableHeadersBg);
+  padding: 4px;
+  margin-bottom: 1px;
+}
+
+.tts-btns-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tts-btns-inner .tts-btn {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  height: 64px;
+  margin: 4px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #3558bd;
+  color: #ebebeb;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.tts-btns-inner .tts-btn:hover,
+.tts-btns-inner .tts-btn.active {
+  background-color: #2e9c3d;
+}
+.tts-btns-inner .tts-btn {
+  max-width: 300px;
+}
+.payment-method-table table tbody tr td .deposit-button,
+.payment-method-table table tbody tr td .withdraw-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #ed6c1e;
+  border-radius: 3px;
+  width: 100px;
+  padding: 0 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.payment-method-table table tbody tr td .deposit-button {
+  background-color: #2e9c3d;
+}
+.payment-method-table table tbody tr td .purple input {
+  max-width: 140px;
+  border: 0;
+  padding: 0;
+  line-height: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #9e9e9e;
+  -webkit-box-shadow: 0px 1px 1px 0px #98959c;
+  box-shadow: 0px 1px 1px 0px #98959c;
+}
+.payment-method-table table tbody tr td:nth-child(2) .name {
+  color: var(--accent);
+}
+.payment-method-table table tbody tr td:nth-child(2) span {
+  color: var(--accent-txt);
+}
+// end transferimento
+
+// .event-viewer-tv-wrapper {
+//   grid-column: 2/3;
+//   grid-row: 1/21;
+//   /* max-height: 740px; */
+//   position: sticky;
+//   top: 0px;
+//   z-index: 2;
+//   /* width: 380px; */
+// }
+.liveIframe {
+  width: 100%;
+  height: 198px;
+}
+
+.team-str-ico.yes {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 25%;
+  top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+
+  &:before {
+    content: "\f8dd";
+    font-family: "Font Awesome 5 Pro";
+  }
+}
+.live-center-container {
+  order: 2;
 }

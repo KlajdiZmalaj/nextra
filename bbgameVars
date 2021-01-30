@@ -168,3 +168,68 @@ html {
   justify-content: space-between;
   align-items: center;
 }
+
+.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
+  &:before {
+    background-image: url(//nextra.pcluster.info/masterbet/images/casinolive/clive-banner1.jpg) !important;
+  }
+}
+
+
+.banner-block {
+  a[href="/Sport/became-an-agent"] {
+    position: relative;
+    &:after {
+      content: "";
+      width: 100%;
+      height: 300px;
+      background: url(//nextra.pcluster.info/masterbet/images/bookra.jpg);
+      height: 300px;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      top: 100%;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    &:before {
+      content: "";
+      width: 100%;
+      height: 300px;
+         background: url(//nextra.pcluster.info/masterbet/images/evo.jpg);
+      height: 300px;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      top: 200%;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}
+
+body [data-page="prematch-event"] .sport_quote_view .quota .quota {
+  background: transparent;
+  color: var(--accent);
+}
+body [data-page="prematch-event"] .sport_single_quote {
+  margin: 4px 2px !important;
+  border-radius: 3px;
+}
+
+//poker on mob
+body .casino_container .ctg_game_item[data-name="DBGPOKER"] {
+  display: none !important;
+}
+body .fast_menu_option:last-child {
+  display: flex;
+}
+[data-logged][data-access] .single_menu_item.poker {
+  display: block !important;
+}
+.icon-menu-poker:before {
+  content: "\e98d";
+}
+//end poker on mob

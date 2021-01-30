@@ -49,3 +49,7 @@ body.landing-page {
   background-color: #1e1e1e !important;
   background-image: none;
 }
+
+.tournaments_wrapper .sport_single_quote .quota .quota {
+  color: inherit !important;
+}

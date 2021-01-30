@@ -1,50 +1,58 @@
-$skin: "biwinner";
+$skin: "naxbet365";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/bomberbet/images/logo2.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
+$logoUrl: "https://nextra.pcluster.info/naxbet365/images/logo.svg";
+
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/14/image/67045414d4c3d8269850866fc88768c4.jpeg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 0;
-
+$invet: 1;
 html:root {
-  --accent: #fec900;
-  --accent-bg: #fec900;
+  --accent: #fca311;
+  --accent-bg: #fca311;
   --accent-txt: #000;
-  --primary-bg: #ffffff;
-  --primary-txt: #707070;
-  --secondary-bg: #111727;
+  --primary-bg: #14213d;
+  --primary-txt: #fff;
+  --secondary-bg: #1e2d4e;
   --secondary-txt: #fff;
-  --mainBg: #0e121d;
-  --mainBgCol: #fff;
-  --bg1: #333844;
+  --mainBg: #111d35;
+  --mainBgCol: #ffffff;
+  --bg1: #0c1425;
   --col1: #fff;
-  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #414755;
+  --teableHeadersBg: #283a63;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #3e4a65;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #161d2f;
+  --tableBorders: #324165;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "naxbet365";
 }
 
-$secondary: #f4c100;
+$secondary: #fca311;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #d1a813;
-$secondaryDarkCol: #222;
-$primary: #b8bfd2;
+$secondaryDark: #fca311;
+$secondaryDarkCol: #fff;
+$primary: #fca311;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #333844;
+$sb-2: #323232;
+body.landing-page {
+  background-color: #1e1e1e !important;
+  background-image: none;
+}
 
+body {
+  background-position-y: 100px;
+}
 
 //hide evolution
 .clive-container > .clive-inner > .clgames-container:nth-child(2) {

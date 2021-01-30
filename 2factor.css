@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.twostep-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ts-logo-inner {
+  display: none;
+}
+
+span.ts-banner-text {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ts-det-a {
+  display: flex;
+  flex-flow: column;
+  font-size: 14px;
+}
+input#code {
+  width: 100%;
+  border: 0;
+  background: #2a2a2a;
+  color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+}
+input#code::placeholder {
+  color: #fff;
+}
+
+input.ts-det-c-btn {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  background: #4d9d50;
+  color: #fff;
+  padding: 14px;
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.twostep-inner {
+  padding: 20px;
+  background: linear-gradient(45deg, #cfcfcf, #f7fdf7);
+  border: 2px dotted #4caf50;
+  box-shadow: 0 0 19px 8px #00968836;
+}

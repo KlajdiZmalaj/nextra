@@ -58,3 +58,9 @@ body.landing-page {
 .main_header .main_header_left {
   width: 200px !important;
 }
+
+.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
+  &:before {
+    background-image: url(//nextra.pcluster.info/1x2sportbet/images/casinolive/clive-banner1.jpg) !important;
+  }
+}

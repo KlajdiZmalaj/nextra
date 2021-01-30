@@ -52,3 +52,27 @@ html {
     color: var(--accent);
   }
 }
+.default-bets {
+  .single-bet {
+    &:nth-child(1) {
+      background: #bb3030 !important;
+      color: #fff !important;
+    }
+    &:nth-child(2) {
+      background: #bbb230 !important;
+      color: #222!important;
+    }
+    &:nth-child(3) {
+      background: #40bb30!important;
+      color: #fff !important;
+    }
+    &:nth-child(4) {
+      background: #30bba8!important;
+      color: #222 !important;
+    }
+    &:nth-child(5) {
+      background: #4e30bb!important;
+      color: #fff!important;
+    }
+  }
+}
