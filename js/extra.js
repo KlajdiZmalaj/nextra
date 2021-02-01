@@ -33,11 +33,13 @@ $(document).ready(() => {
     teamHome.prepend(
       `<img onerror="this.onerror=null;this.src='http://statistics.betconstruct.com/images/e/o/0/0.png';" src="https://gradm-api.pcluster.info/storage/logos/${teamHome
         .text()
+        .split(" ")[0]
         .toLowerCase()}.png" alt=""/>`
     );
     teamAway.prepend(
       `<img onerror="this.onerror=null;this.src='http://statistics.betconstruct.com/images/e/o/0/0.png';" src="https://gradm-api.pcluster.info/storage/logos/${teamAway
         .text()
+        .split(" ")[0]
         .toLowerCase()}.png" alt=""/>`
     );
   }
