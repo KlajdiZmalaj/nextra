@@ -1,6 +1,6 @@
 //GLOBAL JS
 function changeElTxt(el, txt) {
-  console.log("txtfix", el, txt);
+  //console.log("txtfix", el, txt);
   var cache = $(el).children();
   $(el).text(txt).append(cache);
 }
@@ -32,7 +32,6 @@ function languageFixOnSport() {
 }
 function removeDraggableTables() {
   $("#tablets > .tabletsOdds").each((ind, el) => {
-    console.log("ca ka", ind, el);
     $(el).attr("draggable", false);
   });
 }
@@ -60,12 +59,23 @@ $(document).ready(() => {
         autoDraggerLength: false,
       });
     };
-    //
-    var oldshowSportbook = showSportbook;
-    showSportbook = function (id) {
-      oldshowSportbook(id);
+    // draggable after request of dataTables /START
+    var oldaddChamTablets = addChamTablets;
+    addChamTablets = function (a, b) {
+      oldaddChamTablets(a, b);
       removeDraggableTables();
     };
+    var oldAddTablet = AddTablet;
+    AddTablet = function (a, b, c, d = 0) {
+      oldAddTablet(a, b, c, (d = 0));
+      removeDraggableTables();
+    };
+    var oldaddTabletAntepost = addTabletAntepost;
+    addTabletAntepost = function (a, b) {
+      oldaddTabletAntepost(a, b);
+      removeDraggableTables();
+    };
+    //draggable after request of dataTables /END
   }
   if (window.location.href.includes("/Sport/casino")) {
     var data = new URLSearchParams(window.location.search);
@@ -87,7 +97,6 @@ function addThemeContainerHeader() {
     `<div class='themeContainer dark'>Dark Theme</div>`
   );
   $(".themeContainer").on("click", (e) => {
-    //console.log($(e.target));
     if ($(e.target).hasClass("dark")) {
       $("html").attr("data-theme", "theme2");
       $(e.target).removeClass("dark");
