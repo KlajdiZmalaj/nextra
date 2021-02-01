@@ -6558,3 +6558,8 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
   height: calc(100vh - 431px);
   top: 260px;
 }
+html .logged-page {
+  .side-bar {
+    backdrop-filter: unset;
+  }
+}
