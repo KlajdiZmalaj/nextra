@@ -6577,15 +6577,3 @@ body .center-content .percentage-block .single-over-under .team-names {
     color: var(--col1);
   }
 }
-.sports-book-page .filters-holder .search-form input[type="submit"] {
-  background: var(--accent-bg);
-  color: var(--accent-txt);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  &:before {
-    content: "\f002";
-    font-family: "Font Awesome 5 Pro";
-    font-size: 14px;
-  }
-}
