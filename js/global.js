@@ -21,13 +21,13 @@ function languageFixOnSport() {
   var lang = window.language;
   $(
     "sports-book-page .filters-holder .buttons-holder .single-button:first-child"
-  ).text(languageObj[lang].addFav);
+  ).text(languageObj[lang]?.addFav);
   $(
     "sports-book-page .filters-holder .buttons-holder .single-button:last-child"
-  ).text(languageObj[lang].addFav);
+  ).text(languageObj[lang]?.proceed);
   changeElTxt(
     ".sports-book-page .title .select-events",
-    languageObj[lang].select_30_events
+    languageObj[lang]?.select_30_events
   );
 }
 function removeDraggableTables() {
