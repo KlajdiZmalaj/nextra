@@ -420,23 +420,23 @@ html[data-theme="theme1"] {
 html[data-theme="theme2"] {
   --accent: #00ceff;
   --accent-bg: #00ceff;
-  --accent-txt: #000;
-  --primary-bg: #1a2939;
-  --primary-txt: #fff;
-  --secondary-bg: #001524;
-  --secondary-txt: #fff;
-  --mainBg: #001022;
-  --mainBgCol: #fff;
-  --bg1: #1a2839;
-  --col1: #fff;
+  --accent-txt: #fff;
+  --primary-bg: #f8f8f8;
+  --primary-txt: #000;
+  --secondary-bg: #ffffff;
+  --secondary-txt: #000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #e8e9eb;
+  --col1: #000;
   --teableHeadersBg: #00ceff;
-  --teableHeadersCol: #000;
+  --teableHeadersCol: #fff;
   --teableSubHeadersBg: #001022;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #3c3c3c;
+  --tableBorders: #cecece;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #fec550;
+  --casinoGradient2: #2196f3;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
   --skin: "skylive";
@@ -467,8 +467,8 @@ html body {
   background-size: auto;
 }
 [data-theme="theme2"] body {
-  background-image: url(//nextra.pcluster.info/skylive/images/theme2bg.png);
-  background-color: #001022;
+  background-image: url(//nextra.pcluster.info/skylive/images/theme3bg.png);
+  background-color: #d0d0d0;
   background-size: auto;
 }
 body .center-content .sports-book .right-content .events-info div {
