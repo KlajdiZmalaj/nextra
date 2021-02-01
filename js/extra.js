@@ -4,9 +4,12 @@ function bannersCasino() {
   $(".right-side-bar .banner-block").append(
     '<a href="/Sport/casino?loadGame=229&name=BerryBurst"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft1.png"/></a> <a href="/Sport/casino?loadGame=86&name=Arcane:%Reel%Chaos"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft2.png"/></a> <a href="/Sport/casino?loadGame=110&name=Aloha!%Cluster%Pays"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft3.png"/></a>'
   );
-  $(".right-side-bar .single-block.antepost").append(
+  $(".left-side-bar .single-block.antepost").append(
     '<a href="/Sport/casino?loadGame=635&name=Dark Queen"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerRight1.png"/></a> <a href="/Sport/casino?loadGame=198&name=Twin Spin"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerRight2.png"/></a> '
   );
+}
+function replaceSrc(e) {
+  console.log("ca ka e", e, $(e));
 }
 
 $(document).ready(() => {
@@ -24,15 +27,16 @@ $(document).ready(() => {
   if (window.location.href.includes("/Sport/sport")) {
     sportsToTableHeader();
     bannersCasino();
+
     var teamHome = $("#dailyBets .team-home"),
       teamAway = $("#dailyBets .team-away");
     teamHome.prepend(
-      `<img src="https://gradm-api.pcluster.info/storage/logos/${teamHome
+      `<img onerror="this.onerror=null;this.src='http://statistics.betconstruct.com/images/e/o/0/0.png';" src="https://gradm-api.pcluster.info/storage/logos/${teamHome
         .text()
         .toLowerCase()}.png" alt=""/>`
     );
     teamAway.prepend(
-      `<img src="https://gradm-api.pcluster.info/storage/logos/${teamAway
+      `<img onerror="this.onerror=null;this.src='http://statistics.betconstruct.com/images/e/o/0/0.png';" src="https://gradm-api.pcluster.info/storage/logos/${teamAway
         .text()
         .toLowerCase()}.png" alt=""/>`
     );

@@ -983,14 +983,20 @@ body .center-content .odds-graph-holder {
   }
   .team-home img {
     width: 40px;
+    height: 40px;
     position: absolute;
-    left: 30px;
+    left: 14px;
+    object-fit: contain;
+    object-position: center;
   }
   .team-away img {
     width: 40px;
     position: absolute;
-    left: 30px;
+    left: 14px;
     transform: translateY(-30%);
+    object-fit: contain;
+    object-position: center;
+    height: 40px;
   }
 }
 
