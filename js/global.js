@@ -1,4 +1,42 @@
 //GLOBAL JS
+function changeElTxt(el, txt) {
+  console.log("txtfix", el, txt);
+  var cache = $(el).children();
+  $(el).text(txt).append(cache);
+}
+
+var languageObj = {
+  English: {
+    addFav: "add favorites",
+    proceed: "proceed",
+    select_30_events: "Select first 30 events",
+  },
+  Italiano: {
+    addFav: "prefferito",
+    proceed: "procedi",
+    select_30_events: "Seleziona i primi 30 eventi",
+  },
+};
+function languageFixOnSport() {
+  var lang = window.language;
+  $(
+    "sports-book-page .filters-holder .buttons-holder .single-button:first-child"
+  ).text(languageObj[lang].addFav);
+  $(
+    "sports-book-page .filters-holder .buttons-holder .single-button:last-child"
+  ).text(languageObj[lang].addFav);
+  changeElTxt(
+    ".sports-book-page .title .select-events",
+    languageObj[lang].select_30_events
+  );
+}
+function removeDraggableTables() {
+  $("#tablets > .tabletsOdds").each((ind, el) => {
+    console.log("ca ka", ind, el);
+    $(el).attr("draggable", false);
+  });
+}
+
 $(document).ready(() => {
   const skinUrl = window.location.host.split(".")[0];
   console.log(
@@ -7,8 +45,12 @@ $(document).ready(() => {
       "font-size: 20px ;  text-decoration: underline ; " +
       "font-family: 'american typewriter' ; text-shadow: 1px 1px 3px black ;"
   );
-
+  //merr alt language nga imazhi selektuar ne header
+  window.language = $("#lang-top .lang-flag").attr("alt");
   if (window.location.href.includes("/Sport/sport")) {
+    //
+    languageFixOnSport();
+    //
     var oldEnableScrollbar = enableScrollbar;
     enableScrollbar = function () {
       oldEnableScrollbar();
@@ -17,6 +59,12 @@ $(document).ready(() => {
         mouseWheelPixels: 170,
         autoDraggerLength: false,
       });
+    };
+    //
+    var oldshowSportbook = showSportbook;
+    showSportbook = function (id) {
+      oldshowSportbook(id);
+      removeDraggableTables();
     };
   }
   if (window.location.href.includes("/Sport/casino")) {
@@ -27,6 +75,9 @@ $(document).ready(() => {
       // console.log("openGamePopup", window.openGamePopup);
       window.openGame(null, id, name);
     }
+  }
+  if (window.location.href.includes("/Sport/live")) {
+    console.log("live log");
   }
 });
 
