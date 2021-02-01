@@ -45,7 +45,15 @@ function removeDraggableTables() {
     $(el).attr("draggable", false);
   });
 }
-
+function casinoPlayGame() {
+  var data = new URLSearchParams(window.location.search);
+  var id = data.get("loadGame");
+  var name = data.get("name");
+  if (id && name) {
+    // console.log("openGamePopup", window.openGamePopup);
+    window.openGame(null, id, name);
+  }
+}
 $(document).ready(() => {
   const skinUrl = window.location.host.split(".")[0];
   console.log(
@@ -93,13 +101,7 @@ $(document).ready(() => {
     //draggable after request of dataTables /END
   }
   if (window.location.href.includes("/Sport/casino")) {
-    var data = new URLSearchParams(window.location.search);
-    var id = data.get("loadGame");
-    var name = data.get("name");
-    if (id && name) {
-      // console.log("openGamePopup", window.openGamePopup);
-      window.openGame(null, id, name);
-    }
+    casinoPlayGame();
   }
   if (window.location.href.includes("/Sport/live")) {
     console.log("live log");
