@@ -1018,7 +1018,9 @@ html {
     }
   }
 }
-
+.sports-book-page {
+  backdrop-filter: blur(40px);
+}
 [data-theme="theme2"] {
   #dailyBets {
     > .popular-bets {
@@ -1037,6 +1039,10 @@ html {
   }
   body .center-content .popular-bets .days ul li {
     color: #222;
+  }
+  .center-content #marketMoversBets .teams-filter ul li.active {
+    background-color: #002341;
+    color: #fff;
   }
   [onclick="resultsPage();"] + .single-block,
   .single-block.antepost {
