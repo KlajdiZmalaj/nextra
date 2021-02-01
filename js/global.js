@@ -54,6 +54,36 @@ function casinoPlayGame() {
     window.openGame(null, id, name);
   }
 }
+
+function addThemeContainerHeader() {
+  $("html").attr("data-theme", "theme1");
+  $(".top-bar > .grid").append(
+    `<div class='themeContainer dark'>Dark Theme</div>`
+  );
+  $(".themeContainer").on("click", (e) => {
+    if ($(e.target).hasClass("dark")) {
+      $("html").attr("data-theme", "theme2");
+      $(e.target).removeClass("dark");
+      $(e.target).addClass("light");
+      $(e.target).text("Light Theme");
+    } else {
+      $("html").attr("data-theme", "theme1");
+      $(e.target).removeClass("light");
+      $(e.target).addClass("dark");
+      $(e.target).text("Dark Theme");
+    }
+  });
+}
+function sportsToTableHeader() {
+  $("#mainHomePage>div:nth-child(2) .sports-filter").appendTo(
+    "#mainHomePage>div:nth-child(2) .popular-bets"
+  );
+  $("#upcomingBets .sports-filter-upcoming").appendTo(
+    "#upcomingBets .popular-bets"
+  );
+}
+
+//GLOBAL CALLS
 $(document).ready(() => {
   const skinUrl = window.location.host.split(".")[0];
   console.log(
@@ -99,6 +129,13 @@ $(document).ready(() => {
       removeDraggableTables();
     };
     //draggable after request of dataTables /END
+
+    //main Banner replace slider
+    $(".main-slider").html(
+      `<img src="${$(
+        '.main-slider .slick-track img[src*="main-banner.jpg"]'
+      ).attr("src")}">`
+    );
   }
   if (window.location.href.includes("/Sport/casino")) {
     casinoPlayGame();
@@ -107,31 +144,3 @@ $(document).ready(() => {
     console.log("live log");
   }
 });
-
-function addThemeContainerHeader() {
-  $("html").attr("data-theme", "theme1");
-  $(".top-bar > .grid").append(
-    `<div class='themeContainer dark'>Dark Theme</div>`
-  );
-  $(".themeContainer").on("click", (e) => {
-    if ($(e.target).hasClass("dark")) {
-      $("html").attr("data-theme", "theme2");
-      $(e.target).removeClass("dark");
-      $(e.target).addClass("light");
-      $(e.target).text("Light Theme");
-    } else {
-      $("html").attr("data-theme", "theme1");
-      $(e.target).removeClass("light");
-      $(e.target).addClass("dark");
-      $(e.target).text("Dark Theme");
-    }
-  });
-}
-function sportsToTableHeader() {
-  $("#mainHomePage>div:nth-child(2) .sports-filter").appendTo(
-    "#mainHomePage>div:nth-child(2) .popular-bets"
-  );
-  $("#upcomingBets .sports-filter-upcoming").appendTo(
-    "#upcomingBets .popular-bets"
-  );
-}

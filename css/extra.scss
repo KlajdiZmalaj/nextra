@@ -3103,9 +3103,9 @@ img[src*="main-banner2.jpg"] {
   border-bottom: 1px solid var(--accent);
   border-right: 1px solid var(--accent);
 }
-.main-slider {
-  pointer-events: none;
-}
+// .main-slider {
+//   pointer-events: none;
+// }
 
 .live-menu-wrapper .has-dropdown-menu {
   height: calc(100vh - 234px);
