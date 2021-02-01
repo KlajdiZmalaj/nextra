@@ -434,9 +434,9 @@ html[data-theme="theme2"] {
   --mainBgCol: #000;
   --bg1: #e8e9eb;
   --col1: #000;
-  --teableHeadersBg: #00ceff;
+  --teableHeadersBg: #2bc8ed;
   --teableHeadersCol: #fff;
-  --teableSubHeadersBg: #001022;
+  --teableSubHeadersBg: #002341;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #cecece;
   --casinoGradient1: #000000;
@@ -446,6 +446,14 @@ html[data-theme="theme2"] {
   --backDrops: #000000cf;
   --skin: "skylive";
 }
+[data-theme="theme2"] {
+  #dailyBets {
+    > .popular-bets {
+      background-color: #002341;
+    }
+  }
+}
+
 body,
 .home-page .center-content,
 .home-page .main-content-holder {
@@ -555,7 +563,7 @@ html {
   }
   &[data-theme="theme2"] {
     .center-content .match-of-the-day {
-      background: transparent;
+      background: #f2f2f2;
     }
   }
   #mainHomePage {
