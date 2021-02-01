@@ -711,12 +711,17 @@ html {
     }
   }
   #favouriteTournaments li:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
     top: 3px;
     left: 4px;
     border-radius: 60px;
-    width: 20px;
-    display: block;
-    height: 20px;
   }
 }
 
