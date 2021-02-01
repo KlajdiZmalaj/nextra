@@ -673,6 +673,15 @@ html {
     background-repeat: no-repeat;
     &.active {
       background-color: #cccccc29 !important;
+      &:before {
+        border-width: 6px 0 0 0;
+        content: "";
+        border-left: 1px;
+        border: 5px solid transparent !important;
+        border-bottom: 5px solid var(--accent) !important;
+        position: absolute;
+        bottom: 0;
+      }
     }
   }
   &[data-theme="theme2"] {
@@ -680,6 +689,9 @@ html {
     #upcomingBets .sports-filter-upcoming li {
       &.active {
         background-color: #37373729 !important;
+        &:before {
+          border-bottom: 5px solid #002341 !important;
+        }
       }
     }
   }
