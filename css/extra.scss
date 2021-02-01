@@ -6570,3 +6570,10 @@ body .center-content .percentage-block .single-over-under .team-names {
   justify-content: center;
   align-items: center;
 }
+.sports-book-page .filters-holder .search-form input[type="text"] {
+  background: var(--bg1);
+  color: var(--col1);
+  &::placeholder {
+    color: var(--col1);
+  }
+}

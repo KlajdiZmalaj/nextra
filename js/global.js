@@ -11,12 +11,14 @@ var languageObj = {
     proceed: "proceed",
     select_30_events: "Select first 30 events",
     filters: "filters",
+    filter_trn: "Filter Tournaments",
   },
   Italiano: {
     addFav: "aggiungi a preferiti",
     proceed: "procedi",
     select_30_events: "Seleziona i primi 30 eventi",
     filters: "Filtri",
+    filter_trn: "Filtra Manifestazione",
   },
   French: {},
 };
@@ -36,6 +38,7 @@ function languageFixOnSport() {
     ".sports-book-page .filters-holder span",
     languageObj?.[lang]?.filters
   );
+  $("#isSearch").attr("placeholder", languageObj?.[lang]?.filter_trn);
 }
 function removeDraggableTables() {
   $("#tablets > .tabletsOdds").each((ind, el) => {
