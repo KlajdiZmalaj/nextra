@@ -369,7 +369,7 @@ $red: #e1042e;
 $sb-2: #333844;
 
 .second-header td {
-  color: #fec900 !important;
+  color: var(--accent) !important;
 }
 
 .themeContainer {
@@ -649,6 +649,7 @@ html {
     justify-content: flex-end;
     align-items: center;
   }
+
   #mainHomePage > div:nth-child(2) .sports-filter #favouriteSports li,
   #upcomingBets .sports-filter-upcoming li {
     width: 50px;
@@ -666,6 +667,14 @@ html {
     background-repeat: no-repeat;
     &.active {
       background-color: #cccccc29 !important;
+    }
+  }
+  &[data-theme="theme2"] {
+    #mainHomePage > div:nth-child(2) .sports-filter #favouriteSports li,
+    #upcomingBets .sports-filter-upcoming li {
+      &.active {
+        background-color: #37373729 !important;
+      }
     }
   }
   #favouriteTournaments li {
@@ -868,12 +877,14 @@ body .center-content .odds-graph-holder {
   }
   .teams-filter ul li {
     background-color: var(--bg1);
+    color: var(--col1);
     height: 30px;
     line-height: 30px;
     border-right: 1px solid var(--tableBorders);
     border-bottom: 1px solid var(--tableBorders);
     &.active {
       background-color: var(--accent-bg);
+      color: var(--accent-txt);
     }
   }
 }
