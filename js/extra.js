@@ -1,8 +1,11 @@
 //EXTRA JS (SKYLIVE)
 
-function bannersSportRight() {
+function bannersCasino() {
   $(".right-side-bar .banner-block").append(
     '<a href="/Sport/casino?loadGame=229&name=BerryBurst"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft1.png"/></a> <a href="/Sport/casino?loadGame=86&name=Arcane:%Reel%Chaos"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft2.png"/></a> <a href="/Sport/casino?loadGame=110&name=Aloha!%Cluster%Pays"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerLeft3.png"/></a>'
+  );
+  $(".right-side-bar .single-block.antepost").append(
+    '<a href="/Sport/casino?loadGame=635&name=Dark Queen"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerRight1.png"/></a> <a href="/Sport/casino?loadGame=198&name=Twin Spin"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerRight2.png"/></a> '
   );
 }
 
@@ -20,7 +23,7 @@ $(document).ready(() => {
   //sport page Funx
   if (window.location.href.includes("/Sport/sport")) {
     sportsToTableHeader();
-    bannersSportRight();
+    bannersCasino();
     var teamHome = $("#dailyBets .team-home"),
       teamAway = $("#dailyBets .team-away");
     teamHome.prepend(
@@ -36,6 +39,6 @@ $(document).ready(() => {
   }
   //live pages Funx
   if (window.location.href.includes("/Sport/live")) {
-    bannersSportRight();
+    bannersCasino();
   }
 });
