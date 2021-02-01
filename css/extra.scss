@@ -2215,17 +2215,16 @@ body
 }
 .event-viewer-wrapper {
   grid-column: 2/3;
-  grid-row: 7/21;
+  grid-row: 1/21;
   max-height: 740px;
   overflow: hidden;
   position: sticky;
-  top: 150px;
+  top: 0;
   z-index: 1;
   display: flex !important;
   background: var(--mainBg);
   margin: 12px;
   margin-top: 2px;
-  overflow-y: scroll;
 
   &[style="display:none"] {
     align-items: center;
@@ -6487,17 +6486,3 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
   color: var(--accent-txt);
 }
 // end transferimento
-
-.event-viewer-tv-wrapper {
-  grid-column: 2/3;
-  grid-row: 1/21;
-  /* max-height: 740px; */
-  position: sticky;
-  top: 0px;
-  z-index: 2;
-  /* width: 380px; */
-}
-.liveIframe {
-  width: 100%;
-  height: 198px;
-}
