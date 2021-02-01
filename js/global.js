@@ -10,24 +10,31 @@ var languageObj = {
     addFav: "add favorites",
     proceed: "proceed",
     select_30_events: "Select first 30 events",
+    filters: "filters",
   },
   Italiano: {
-    addFav: "prefferito",
+    addFav: "aggiungi a preferiti",
     proceed: "procedi",
     select_30_events: "Seleziona i primi 30 eventi",
+    filters: "Filtri",
   },
+  French: {},
 };
 function languageFixOnSport() {
   var lang = window.language;
   $(
-    "sports-book-page .filters-holder .buttons-holder .single-button:first-child"
-  ).text(languageObj[lang]?.addFav);
+    ".sports-book-page .filters-holder .buttons-holder .single-button:first-child"
+  ).text(languageObj?.[lang]?.addFav);
   $(
-    "sports-book-page .filters-holder .buttons-holder .single-button:last-child"
-  ).text(languageObj[lang]?.proceed);
+    ".sports-book-page .filters-holder .buttons-holder .single-button:last-child"
+  ).text(languageObj?.[lang]?.proceed);
   changeElTxt(
     ".sports-book-page .title .select-events",
-    languageObj[lang]?.select_30_events
+    languageObj?.[lang]?.select_30_events
+  );
+  changeElTxt(
+    ".sports-book-page .filters-holder span",
+    languageObj?.[lang]?.filters
   );
 }
 function removeDraggableTables() {
@@ -48,7 +55,12 @@ $(document).ready(() => {
   window.language = $("#lang-top .lang-flag").attr("alt");
   if (window.location.href.includes("/Sport/sport")) {
     //
-    languageFixOnSport();
+    var oldshowSportbook = showSportbook;
+    showSportbook = function (sport) {
+      oldshowSportbook(sport);
+      languageFixOnSport();
+    };
+
     //
     var oldEnableScrollbar = enableScrollbar;
     enableScrollbar = function () {
