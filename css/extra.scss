@@ -6563,3 +6563,10 @@ html .logged-page {
     backdrop-filter: unset;
   }
 }
+body .center-content .percentage-block .single-over-under .team-names {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
