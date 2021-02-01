@@ -1038,4 +1038,19 @@ html {
   body .center-content .popular-bets .days ul li {
     color: #222;
   }
+  [onclick="resultsPage();"] + .single-block,
+  .single-block.antepost {
+    .toggle-title {
+      background: #002341 !important;
+      color: #fff;
+      padding-left: 15px;
+      font-size: 12px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      img {
+        display: none;
+      }
+    }
+  }
 }
