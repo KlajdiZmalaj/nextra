@@ -548,6 +548,11 @@ html {
       }
     }
   }
+  &[data-theme="theme2"] {
+    .center-content .match-of-the-day {
+      background: transparent;
+    }
+  }
   #mainHomePage {
     display: flex;
     flex-flow: column;
