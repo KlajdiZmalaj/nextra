@@ -446,13 +446,6 @@ html[data-theme="theme2"] {
   --backDrops: #000000cf;
   --skin: "skylive";
 }
-[data-theme="theme2"] {
-  #dailyBets {
-    > .popular-bets {
-      background-color: #002341;
-    }
-  }
-}
 
 body,
 .home-page .center-content,
@@ -990,4 +983,17 @@ body .center-content .odds-graph-holder {
   .odds-wrapper
   .label {
   background: var(--tableBorders) !important;
+}
+
+[data-theme="theme2"] {
+  #dailyBets {
+    > .popular-bets {
+      background-color: #002341;
+      color: #00ceff;
+    }
+  }
+  footer .responsible,
+  footer .payment {
+    filter: grayscale(1) brightness(0.5);
+  }
 }
