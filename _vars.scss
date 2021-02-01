@@ -368,6 +368,11 @@ $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #333844;
 
+[data-theme="theme2"] {
+  .header .top-header .top-header-content .logo-holder a:before {
+    background-image: url(//nextra.pcluster.info/skylive/images/newlogo2.svg);
+  }
+}
 .second-header td {
   color: var(--accent) !important;
 }
