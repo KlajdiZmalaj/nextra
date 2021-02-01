@@ -984,6 +984,14 @@ body .center-content .odds-graph-holder {
   .label {
   background: var(--tableBorders) !important;
 }
+html {
+  .center-content .popular-bets .title {
+    padding-left: 15px;
+    img {
+      display: none;
+    }
+  }
+}
 
 [data-theme="theme2"] {
   #dailyBets {
@@ -995,5 +1003,13 @@ body .center-content .odds-graph-holder {
   footer .responsible,
   footer .payment {
     filter: grayscale(1) brightness(0.5);
+  }
+  #mainHomePage > div:nth-child(2) .popular-bets {
+    background: #fff;
+    color: #222;
+    border-bottom: 2px solid #002341;
+  }
+  html body .center-content .popular-bets .days ul li {
+    color: #222;
   }
 }
