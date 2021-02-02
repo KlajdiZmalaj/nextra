@@ -21,8 +21,8 @@ html:root {
   --mainBgCol: #fff;
   --bg1: #000;
   --col1: #fff;
-  --teableHeadersBg: #03a022;
-  --teableHeadersCol: #000;
+  --teableHeadersBg: linear-gradient(180deg, #03a022 14%, #09f172 200%);
+  --teableHeadersCol: #fff;
   --teableSubHeadersBg: linear-gradient(180deg, black 14%, #8bc34a 200%);
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #292929;
