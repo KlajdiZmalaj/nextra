@@ -6591,3 +6591,6 @@ html #settings-button {
 .center-content.live-center-content {
   grid-template-columns: 1fr 50% !important;
 }
+img[onclick*=";"] {
+  cursor: pointer;
+}
