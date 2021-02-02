@@ -10,7 +10,8 @@ $(document).ready(() => {
 
   if (window.location.href.includes("/Sport/sport")) {
     mainBannerClick = function () {
-      window.location.pathname = "Sport/casino-all?provider=3";
+      window.location.href =
+        window.location.origin + "/Sport/casino?provider=3";
     };
   }
 });

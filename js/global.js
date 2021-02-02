@@ -56,7 +56,12 @@ function casinoPlayGame() {
     window.openGame(null, id, name);
   }
   if (provider) {
-    selectProvider(provider);
+    getByProvider(provider);
+    document.getElementById(`p${provider}`).scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
   }
 }
 
