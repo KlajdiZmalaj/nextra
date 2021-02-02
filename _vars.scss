@@ -11,7 +11,7 @@ $invet: 0;
 
 html:root {
   --accent: #03a022;
-  --accent-bg: #ffffff;
+  --accent-bg: linear-gradient(180deg, white 14%, #8bc34a 200%);
   --accent-txt: #009688;
   --primary-bg: #ffffff;
   --primary-txt: #707070;
@@ -23,7 +23,7 @@ html:root {
   --col1: #fff;
   --teableHeadersBg: #8bc34a;
   --teableHeadersCol: #000;
-  --teableSubHeadersBg: linear-gradient(180deg, black 64%, #8bc34a 100%);
+  --teableSubHeadersBg: linear-gradient(180deg, black 14%, #8bc34a 200%);
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #292929;
   --casinoGradient1: #000000;
