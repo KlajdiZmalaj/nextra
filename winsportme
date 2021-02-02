@@ -3,16 +3,16 @@ $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "https://nextra.pcluster.info/winsport/images/logo.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/green.jpg";
-$bodyCol: #000;
+$bodyBg: "https://nextra.pcluster.info/winsport/images/winsportbg.jpg";
+$bodyCol: #1d1d1d;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 0;
 
 html:root {
-  --accent: #03a022;
+  --accent: #64ff01;
   --accent-bg: linear-gradient(180deg, white 14%, #8bc34a 200%);
-  --accent-txt: #009688;
+  --accent-txt: #03a022;
   --primary-bg: #ffffff;
   --primary-txt: #707070;
   --secondary-bg: #000000;
@@ -21,7 +21,7 @@ html:root {
   --mainBgCol: #fff;
   --bg1: #000;
   --col1: #fff;
-  --teableHeadersBg: #8bc34a;
+  --teableHeadersBg: #03a022;
   --teableHeadersCol: #000;
   --teableSubHeadersBg: linear-gradient(180deg, black 14%, #8bc34a 200%);
   --teableSubHeadersCol: #ffffff;
@@ -104,5 +104,10 @@ html {
   .header .top-header .top-header-content .logo-holder a:before {
     height: 50px;
     background-position: left;
+  }
+  body {
+    background-color: #1d1d1d;
+    background-position-y: 10px;
+    background-size: 2600px;
   }
 }
