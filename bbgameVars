@@ -233,3 +233,9 @@ body .fast_menu_option:last-child {
   content: "\e98d";
 }
 //end poker on mob
+
+
+.center-content.live-center-content {
+      grid-template-columns: 1fr 50% !important;
+
+}

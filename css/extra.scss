@@ -6581,3 +6581,6 @@ body .center-content .percentage-block .single-over-under .team-names {
 html #settings-button {
   display: none;
 }
+.center-content.live-center-content {
+  grid-template-columns: 1fr 50% !important;
+}
