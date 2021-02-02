@@ -4,6 +4,7 @@ function changeElTxt(el, txt) {
   var cache = $(el).children();
   $(el).text(txt).append(cache);
 }
+function mainBannerClick() {}
 
 var languageObj = {
   English: {
@@ -49,9 +50,13 @@ function casinoPlayGame() {
   var data = new URLSearchParams(window.location.search);
   var id = data.get("loadGame");
   var name = data.get("name");
+  var provider = data.get("provider");
   if (id && name) {
     // console.log("openGamePopup", window.openGamePopup);
     window.openGame(null, id, name);
+  }
+  if (provider) {
+    selectProvider(provider);
   }
 }
 
@@ -136,12 +141,12 @@ $(document).ready(() => {
 
     //main Banner replace slider
     $(".main-slider").html(
-      `<img src="${$(
+      `<img onclick="mainBannerClick();" src="${$(
         '.main-slider .slick-track img[src*="main-banner.jpg"]'
       ).attr("src")}">`
     );
   }
-  if (window.location.href.includes("/Sport/casino")) {
+  if (window.location.href.match(/Sport\/casino/g)) {
     casinoPlayGame();
   }
   if (window.location.href.includes("/Sport/live")) {
