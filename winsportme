@@ -7,7 +7,7 @@ $bodyBg: "https://nextra.pcluster.info/winsport/images/winsportbg.jpg";
 $bodyCol: #1d1d1d;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 0;
+$invet: 1;
 
 html:root {
   --accent: #64ff01;

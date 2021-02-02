@@ -106,11 +106,14 @@ $(document).ready(() => {
     var oldEnableScrollbar = enableScrollbar;
     enableScrollbar = function () {
       oldEnableScrollbar();
-      $("#mCSB_3_container").mCustomScrollbar({
-        scrollInertia: 200,
-        mouseWheelPixels: 170,
-        autoDraggerLength: false,
-      });
+      console.log("ca ka mCustomScrollbar", mCustomScrollbar);
+      if (mCustomScrollbar) {
+        $("#mCSB_3_container").mCustomScrollbar({
+          scrollInertia: 200,
+          mouseWheelPixels: 170,
+          autoDraggerLength: false,
+        });
+      }
     };
     // draggable after request of dataTables /START
     var oldaddChamTablets = addChamTablets;
@@ -119,8 +122,8 @@ $(document).ready(() => {
       removeDraggableTables();
     };
     var oldAddTablet = AddTablet;
-    AddTablet = function (a, b, c, d = 0) {
-      oldAddTablet(a, b, c, (d = 0));
+    AddTablet = function (a, b, c, d) {
+      oldAddTablet(a, b, c, d);
       removeDraggableTables();
     };
     var oldaddTabletAntepost = addTabletAntepost;
