@@ -116,7 +116,7 @@ $(document).ready(() => {
     var oldEnableScrollbar = enableScrollbar;
     enableScrollbar = function () {
       oldEnableScrollbar();
-      console.log("ca ka mCustomScrollbar", mCustomScrollbar);
+      //console.log("ca ka mCustomScrollbar", mCustomScrollbar);
       if (mCustomScrollbar && $(".enable-scroll")[0]) {
         $(".enable-scroll").mCustomScrollbar("destroy");
         $(".enable-scroll").mCustomScrollbar({
