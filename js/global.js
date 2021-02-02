@@ -110,8 +110,8 @@ $(document).ready(() => {
       if (mCustomScrollbar && $(".enable-scroll")[0]) {
         $(".enable-scroll").mCustomScrollbar("destroy");
         $(".enable-scroll").mCustomScrollbar({
-          scrollInertia: 200,
-          mouseWheelPixels: 170,
+          scrollInertia: 100,
+          mouseWheelPixels: 70,
           autoDraggerLength: false,
         });
       }
