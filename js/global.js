@@ -107,8 +107,9 @@ $(document).ready(() => {
     enableScrollbar = function () {
       oldEnableScrollbar();
       console.log("ca ka mCustomScrollbar", mCustomScrollbar);
-      if (mCustomScrollbar) {
-        $("#mCSB_3_container").mCustomScrollbar({
+      if (mCustomScrollbar && $(".enable-scroll")[0]) {
+        $(".enable-scroll").mCustomScrollbar("destroy");
+        $(".enable-scroll").mCustomScrollbar({
           scrollInertia: 200,
           mouseWheelPixels: 170,
           autoDraggerLength: false,
