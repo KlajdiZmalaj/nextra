@@ -11414,7 +11414,8 @@ img.casino-pro-item-img[alt="Novomatic"] {
   align-items: center;
   justify-content: center;
   &:before {
-    content: "\f26c";
+    content: "\f080";
+    font-weight: 300;
     font-size: 18px;
     font-family: "Font Awesome 5 Pro";
   }
@@ -11429,9 +11430,10 @@ img.casino-pro-item-img[alt="Novomatic"] {
   align-items: center;
   justify-content: center;
   &:before {
-    content: "\e024";
+    content: "\f080";
     font-size: 18px;
     font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
   }
 }
 
@@ -11527,6 +11529,7 @@ img.casino-pro-item-img[alt="Novomatic"] {
     content: "\f26c";
     font-size: 18px;
     font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
   }
 }
 
