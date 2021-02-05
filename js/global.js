@@ -165,6 +165,11 @@ $(document).ready(() => {
     oldshowMultiple();
     $("#cupInfo").remove();
   };
+  var oldshowSingle = showSingle;
+  showSingle = function () {
+    oldshowSingle();
+    $("#cupInfo").remove();
+  };
   if (window.location.href.match(/Sport\/casino/g)) {
     casinoPlayGame();
   }
