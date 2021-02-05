@@ -2,7 +2,7 @@ $skin: "winsport";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/winsport/images/logo.svg";
+$logoUrl: "https://nextra.pcluster.info/winsport/images/logo.png";
 $bodyBg: "https://nextra.pcluster.info/winsport/images/winsportbg.jpg";
 $bodyCol: #1d1d1d;
 
@@ -102,7 +102,8 @@ $sb-2: #444444;
 
 html {
   .header .top-header .top-header-content .logo-holder a:before {
-    height: 50px;
+    background-position: left;
+    width: 230px;
     background-position: left;
   }
   body {
