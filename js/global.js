@@ -157,14 +157,27 @@ $(document).ready(() => {
     var oldshowCombination = showCombination;
     showCombination = function () {
       oldshowCombination();
-      $("#coupon .totals-section").append(
-        '<div id="cupInfo"><i class="fad fa-info-circle"></i>La vincita potenziale di tutte le combinazioni può essere ottenuta solo se le selezioni pronosticate non sono in conflitto tra loro.</div>'
-      );
+      if ($("#cupInfo").length > 0) {
+      } else {
+        $("#coupon .totals-section").append(
+          '<div id="cupInfo"><i class="fad fa-info-circle"></i>La vincita potenziale di tutte le combinazioni può essere ottenuta solo se le selezioni pronosticate non sono in conflitto tra loro.</div>'
+        );
+      }
     };
     var oldshowMultiple = showMultiple;
     showMultiple = function () {
       oldshowMultiple();
       $("#cupInfo").remove();
+    };
+    var oldshowSplit = showSplit;
+    showSplit = function () {
+      oldshowSplit();
+      if ($("#cupInfo").length > 0) {
+      } else {
+        $("#coupon .totals-section").append(
+          '<div id="cupInfo"><i class="fad fa-info-circle"></i>La vincita potenziale di tutte le combinazioni può essere ottenuta solo se le selezioni pronosticate non sono in conflitto tra loro.</div>'
+        );
+      }
     };
     var oldshowSingle = showSingle;
     showSingle = function () {
@@ -172,7 +185,6 @@ $(document).ready(() => {
       $("#cupInfo").remove();
     };
   }
-
   if (window.location.href.match(/Sport\/casino/g)) {
     casinoPlayGame();
   }
