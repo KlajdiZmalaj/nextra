@@ -11369,3 +11369,88 @@ img.casino-pro-item-img[alt="Novomatic"] {
 .contact-us {
   display: none;
 }
+
+.sport_content_odds.live .main_container_tile .basic-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.sport_content_odds.live .main_container_tile .tracker-switch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 10px;
+  width: 50px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+.sport_content_odds.live .main_container_tile .tracker-switch div {
+  width: 50%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 37px;
+  display: none
+}
+
+.sport_content_odds.live .main_container_tile .tracker-switch div span {
+  width: 30px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(https://nextra.nextra.bet/nextra/images/television.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+.sport_content_odds.live .main_container_tile .tracker-switch div span.widget-icon {
+  background-image: url(../../images/radar.svg)
+}
+
+.sport_content_odds.live .live_result .brw,.sport_content_odds.live .live_result .bkw,.sport_content_odds.live .live_result .str {
+  display: none;
+  width: 100%
+}
+
+.sport_content_odds.live .live_result .str iframe {
+  width: 100%;
+  height: auto;
+  min-height: 57vw
+}
+
+.sport_content_odds.live[data-tracking="bkw"] .live_result .bkw {
+  display: inline-block
+}
+
+.sport_content_odds.live[data-tracking="stream"] .live_result .str {
+  display: inline-block
+}
+
+.sport_content_odds.live[data-tracking="brw"] .live_result .brw {
+  display: inline-block
+}
+
+.sport_content_odds.live[data-stream-allowed="false"] .main_container_tile .tracker-switch {
+  display: none
+}
+
+.sport_content_odds.live[data-stream-allowed="true"][data-tracking="brw"] .main_container_tile .tracker-switch div.stream,.sport_content_odds.live[data-stream-allowed="true"][data-tracking="bkw"] .main_container_tile .tracker-switch div.stream {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.sport_content_odds.live[data-stream-allowed="true"][data-tracking="stream"] .main_container_tile .tracker-switch div.widget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
