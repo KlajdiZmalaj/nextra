@@ -46,6 +46,7 @@ function removeDraggableTables() {
     $(el).attr("draggable", false);
   });
 }
+
 function casinoPlayGame() {
   var data = new URLSearchParams(window.location.search);
   var id = data.get("loadGame");
@@ -151,6 +152,19 @@ $(document).ready(() => {
       ).attr("src")}">`
     );
   }
+  //
+  var oldshowCombination = showCombination;
+  showCombination = function () {
+    oldshowCombination();
+    $("#coupon .totals-section").append(
+      '<div id="cupInfo"><i class="fad fa-info-circle"></i>La vincita potenziale di tutte le combinazioni può essere ottenuta solo se le selezioni pronosticate non sono in conflitto tra loro.</div>'
+    );
+  };
+  var oldshowMultiple = showMultiple;
+  showMultiple = function () {
+    oldshowMultiple();
+    $("#cupInfo").remove();
+  };
   if (window.location.href.match(/Sport\/casino/g)) {
     casinoPlayGame();
   }

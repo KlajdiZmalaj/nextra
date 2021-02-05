@@ -6594,3 +6594,21 @@ html #settings-button {
 img[onclick*=";"] {
   cursor: pointer;
 }
+
+#cupInfo {
+  width: calc(100% + 6px);
+  margin-left: -3px;
+  padding: 14px;
+  box-sizing: border-box;
+  font-size: 12px;
+  text-align: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+  i {
+    margin-right: 9px;
+    font-size: 18px;
+  }
+}
