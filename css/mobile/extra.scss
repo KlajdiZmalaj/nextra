@@ -11386,7 +11386,7 @@ img.casino-pro-item-img[alt="Novomatic"] {
   display: -ms-flexbox;
   display: flex;
   padding-right: 10px;
-  width: 50px;
+  width: 130px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -11551,4 +11551,15 @@ img.casino-pro-item-img[alt="Novomatic"] {
   -ms-flex: 1 0 55%;
   flex: 1 0 55%;
   max-width: 55%;
+}
+.main_container_tile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_container_tile p.sport_icon {
+  margin: 0;
+  padding-right: 0;
+  display: flex;
+  align-items: center;
 }
