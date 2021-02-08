@@ -66,3 +66,36 @@ body.landing-page {
 .header .top-header .top-header-content .primary-menu ul li:nth-child(2):after {
   left: 20px !important;
 }
+
+.contact-us {
+  display: inline-block !important;
+  width: 100%;
+  float: left;
+}
+.contact-us .button {
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--col1);
+  display: inline-block;
+  width: 100%;
+
+  background: var(--bg1);
+}
+.contact-us .content {
+  white-space: normal;
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contact-us {
+  display: inline-block;
+  width: 100%;
+  .content {
+    &[data-show="false"] {
+      display: none !important;
+    }
+  }
+}
