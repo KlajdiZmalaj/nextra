@@ -78,10 +78,17 @@ body.landing-page {
   font-size: 16px;
   font-weight: bold;
   color: var(--col1);
-  display: inline-block;
   width: 100%;
   animation: flashCol infinite linear 1s;
   background: var(--bg1);
+  font-size: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &::before {
+    content: "Fale Conosco";
+    font-size: 16px;
+  }
 }
 .contact-us .content {
   white-space: normal;
@@ -106,11 +113,32 @@ body.landing-page {
 
 @keyframes flashCol {
   0% {
-    background: var(--bg1);
-    color: var(--col1);
+    background: rgb(25, 139, 59);
+    color: rgb(255, 255, 255);
   }
   100% {
     background: var(--teableSubHeadersBg);
-    color: var(--teableSubHeadersCol);
+    color: #fff;
+  }
+}
+.main_container > .main_content {
+  padding-top: 0px !important;
+}
+
+html {
+  .main_header {
+    position: unset;
+    z-index: 0;
+    padding-top: 60px;
+  }
+  .main_header .main_header_left {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  .main_header .main_header_right {
+    position: fixed;
+    top: 0;
+    z-index: 1;
   }
 }
