@@ -93,7 +93,6 @@ function sportsToTableHeader() {
     "#upcomingBets .popular-bets"
   );
 }
-
 //GLOBAL CALLS
 $(document).ready(() => {
   const skinUrl = window.location.host.split(".")[0];

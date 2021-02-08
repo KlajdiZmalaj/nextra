@@ -51,7 +51,6 @@ body.landing-page {
   background-image: none;
 }
 
-
 //casino live
 .clive-container > .clive-inner > .clgames-container:nth-child(2) {
   display: none;
@@ -66,4 +65,14 @@ body.landing-page {
   flex: 1 1;
   justify-content: space-between;
   align-items: center;
+}
+
+.poker-container .poker-strip.dbg {
+  display: flex !important;
+}
+.poker-strip.isla {
+  display: none !important;
+}
+
+.poker-container .poker-strip.dbg .poker-strip-a a:after {
 }
