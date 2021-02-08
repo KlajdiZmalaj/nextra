@@ -1,4 +1,15 @@
+$skin: "skylive";
+$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
+$logoUrl: "//nextra.pcluster.info/skylive/images/newlogo.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
+$bodyCol: #000;
+
+//invet 1 light skin inver 0 dark skin (images)
+$invet: 0;
+
+html:root {
   --accent: #fec550;
   --accent-bg: #fec550;
   --accent-txt: #000;
@@ -1317,4 +1328,29 @@ body .center-content .odds-graph-holder {
   .odds-wrapper
   .label {
   background: var(--tableBorders) !important;
+}
+
+.poker-container .poker-strip.dbg {
+  display: flex !important;
+}
+.poker-strip.isla {
+  display: none !important;
+}
+
+.poker-container .poker-strip.dbg .poker-strip-a img {
+  display: none;
+}
+.poker-strip.dbg .poker-strip-a a:after {
+  content: "Gioca ora";
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 1px solid var(--accent-bg);
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: -10px;
+  color: var(--accent-bg);
+}
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
+  display: none;
 }
