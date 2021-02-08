@@ -80,7 +80,7 @@ body.landing-page {
   color: var(--col1);
   display: inline-block;
   width: 100%;
-
+  animation: flashCol infinite linear 1s;
   background: var(--bg1);
 }
 .contact-us .content {
@@ -97,5 +97,20 @@ body.landing-page {
     &[data-show="false"] {
       display: none !important;
     }
+  }
+}
+
+.help-page .help-menu ul li {
+  display: list-item !important;
+}
+
+@keyframes flashCol {
+  0% {
+    background: var(--bg1);
+    color: var(--col1);
+  }
+  100% {
+    background: var(--teableSubHeadersBg);
+    color: var(--teableSubHeadersCol);
   }
 }

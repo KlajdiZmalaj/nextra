@@ -151,7 +151,7 @@ $(document).ready(() => {
       ).attr("src")}">`
     );
   }
-  if (showCombination && showMultiple && showSingle) {
+  if (window.showCombination && window.showMultiple && window.showSingle) {
     //ku ka kupon ->
     var oldshowCombination = showCombination;
     showCombination = function () {
