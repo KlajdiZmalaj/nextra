@@ -15,11 +15,11 @@ html:root {
   --accent-txt: #000;
   --primary-bg: #000000;
   --primary-txt: #ffffff;
-  --secondary-bg: #545454;
+  --secondary-bg: #2c2c2c;
   --secondary-txt: #fff;
   --mainBg: #000000;
   --mainBgCol: #fff;
-  --bg1: #2d2d2d;
+  --bg1: #131313;
   --col1: #fff;
   --teableHeadersBg: #fdf10c;
   --teableHeadersCol: #000000;
@@ -74,9 +74,18 @@ body.landing-page {
   justify-content: space-between;
   align-items: center;
 }
-.block-content > .single-sport {
-  background: linear-gradient(to right, black, #fdf10c);
-  .anchor.sport-12 span {
-    color: #222;
+.block-content .single-sport {
+  .anchor {
+    background: linear-gradient(to right, black, #fdf10c);
+    &:hover {
+      background: linear-gradient(to right, black, #fdf10c) !important;
+    }
+    span {
+      color: #222;
+    }
   }
+}
+
+.center-content .popular-bets .title img {
+  filter: grayscale(1) invert(1);
 }
