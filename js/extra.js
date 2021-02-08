@@ -8,8 +8,23 @@ function bannersCasino() {
     '<a href="/Sport/casino?loadGame=635&name=Dark Queen"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerRight1.png"/></a> <a href="/Sport/casino?loadGame=198&name=Twin Spin"><img src="//nextra.pcluster.info/skylive/images/sportPage/bannerRight2.png"/></a> '
   );
 }
-function replaceSrc(e) {
-  console.log("ca ka e", e, $(e));
+
+function matchOfDayLogos() {
+  var teamHome = $("#dailyBets .team-home"),
+    teamAway = $("#dailyBets .team-away");
+  teamHome.prepend(
+    `<img onerror="this.onerror=null;this.src='http://statistics.betconstruct.com/images/e/o/0/0.png';" src="https://gradm-api.pcluster.info/storage/logos/${teamHome
+      .text()
+      .split(" ")
+      .join("")
+      .toLowerCase()}.png" alt=""/>`
+  );
+  teamAway.prepend(
+    `<img onerror="this.onerror=null;this.src='http://statistics.betconstruct.com/images/e/o/0/0.png';" src="https://gradm-api.pcluster.info/storage/logos/${teamAway
+      .text()
+      .split(" ")[0]
+      .toLowerCase()}.png" alt=""/>`
+  );
 }
 
 $(document).ready(() => {
@@ -27,21 +42,7 @@ $(document).ready(() => {
   if (window.location.href.includes("/Sport/sport")) {
     sportsToTableHeader();
     bannersCasino();
-
-    var teamHome = $("#dailyBets .team-home"),
-      teamAway = $("#dailyBets .team-away");
-    teamHome.prepend(
-      `<img onerror="this.onerror=null;this.src='http://statistics.betconstruct.com/images/e/o/0/0.png';" src="https://gradm-api.pcluster.info/storage/logos/${teamHome
-        .text()
-        .split(" ")[0]
-        .toLowerCase()}.png" alt=""/>`
-    );
-    teamAway.prepend(
-      `<img onerror="this.onerror=null;this.src='http://statistics.betconstruct.com/images/e/o/0/0.png';" src="https://gradm-api.pcluster.info/storage/logos/${teamAway
-        .text()
-        .split(" ")[0]
-        .toLowerCase()}.png" alt=""/>`
-    );
+    matchOfDayLogos();
   }
   //live pages Funx
   if (window.location.href.includes("/Sport/live")) {
