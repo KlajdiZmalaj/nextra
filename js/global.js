@@ -148,11 +148,11 @@ $(document).ready(() => {
   }
   if (window.showCombination && window.showMultiple && window.showSingle) {
     //ku ka kupon ->
-    var oldAddToCoupon = AddToCoupon;
-    AddToCoupon = function (a, b, c, d) {
-      oldAddToCoupon(a, b, c, d);
+    var oldbuildCoupon = buildCoupon;
+    buildCoupon = function (a, b, c) {
+      oldbuildCoupon(a, b, c);
       if ($("#cpnToggler > span").length > 0) {
-        $("#cpnToggler > span").text($(".match-count.selectionss").text());
+        $("#cpnToggler > span").text(a.eventi_totali);
       }
     };
     var oldshowCombination = showCombination;
