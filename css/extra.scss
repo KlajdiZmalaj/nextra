@@ -6613,7 +6613,24 @@ img[onclick*=";"] {
   }
 }
 
+#cpnToggler span {
+  position: absolute;
+  top: -6px;
+  right: -1px;
+  background: red;
+  color: #fff;
+  font-size: 14px;
+  width: 15px;
+  height: 15px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
 div#couponPopUp {
+  box-shadow: -2px -1px 20px 0px #0000005c;
   position: fixed;
   right: 10px;
   bottom: 70px;

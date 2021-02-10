@@ -6,8 +6,9 @@ function changeElTxt(el, txt) {
 }
 function mainBannerClick() {}
 function cpnPopUp() {
+  var cpnNr = $(".match-count.selectionss").text();
   $("body").prepend(
-    '<button id="cpnToggler"><i class="fal fa-receipt"></i></button>'
+    `<button id="cpnToggler"><i class="fal fa-receipt"></i> <span>${cpnNr}</span> </button>`
   );
   $("body").prepend(
     '<div id="couponPopUp" class="side-bar right-side-bar hidden"></div>'
