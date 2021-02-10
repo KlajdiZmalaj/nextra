@@ -1,149 +1,130 @@
-$skin: "jogar365";
+$skin: "jsport365";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "http://static.pcluster.info/skins/fastbet24/img/logo/newlogo.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/gold.jpg";
+$logoUrl: "//nextra.pcluster.info/jsport365/images/logo.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 0;
 
 html:root {
-  --accent: #af8a33;
-  --accent-bg: #af8a33;
+  --accent: #fdf10c;
+  --accent-bg: #fdf10c;
   --accent-txt: #000;
-  --primary-bg: #262626;
-  --primary-txt: #d5d5d5;
-  --secondary-bg: #303030;
+  --primary-bg: #000000;
+  --primary-txt: #ffffff;
+  --secondary-bg: #2c2c2c;
   --secondary-txt: #fff;
-  --mainBg: #1c1c1c;
+  --mainBg: #000000;
   --mainBgCol: #fff;
-  --bg1: #292929;
+  --bg1: #131313;
   --col1: #fff;
-  --teableHeadersBg: linear-gradient(#8f6b29, #d0aa3d, #df9f28);
+  --teableHeadersBg: #fdf10c;
   --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #434343;
+  --teableSubHeadersBg: #2e2e2e;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #4d4d4d;
-  --casinoGradient1: linear-gradient(to right, #040100, #bf570f);
-  --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --tableBorders: #484848;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --casinoGradient2: #fd0;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "jogar365";
+  --skin: "jsport365";
 }
 
-$secondary: #af8a33;
+$secondary: #fd0;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #a17f2f;
+$secondaryDark: #d1a813;
 $secondaryDarkCol: #222;
-$primary: #292929;
+$primary: #333949;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #292929;
+$sb-2: #333844;
+
+footer {
+  background: var(--bg1);
+  border-top: 1px solid var(--mainBg);
+}
+footer .footer-copyright {
+  background: var(--mainBg);
+}
 
 body.landing-page {
-  background-color: #000000 !important;
+  background-color: #121212 !important;
   background-image: none;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
-* {
-  font-weight: 600;
+//casino live
+.clive-container > .clive-inner > .clgames-container:nth-child(2) {
+  display: none;
+  margin-bottom: 0;
+}
+.clive-container .clive-inner .clive-games-container:last-child {
+  margin: 0 auto;
 }
 
-.sport_odds_name,
-.main_page_title {
-  font-weight: 900;
-  font-size: 15px;
-  font-family: "Lato", sans-serif;
-}
-//winter brazilian fix icon
-.header .top-header .top-header-content .primary-menu ul li:nth-child(2):after {
-  left: 20px !important;
-}
-
-.contact-us {
-  display: inline-block !important;
-  width: 100%;
-  float: left;
-}
-.contact-us .button {
-  line-height: 30px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: bold;
-  color: var(--col1);
-  width: 100%;
-  animation: flashCol infinite linear 1s;
-  background: var(--bg1);
-  font-size: 0px;
+.clive-container .clive-inner {
   display: flex;
+  flex: 1 1;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  &::before {
-    content: "Fale Conosco";
-    font-size: 16px;
-  }
 }
-.contact-us .content {
-  white-space: normal;
-  padding: 5px 10px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  > p:first-child,
-  h1 {
-    color: rgb(207, 22, 22);
-    font-size: 15px;
-  }
-}
-
-.contact-us {
-  display: inline-block;
-  width: 100%;
-  .content {
-    &[data-show="false"] {
-      display: none !important;
+.block-content .single-sport {
+  .anchor {
+    background: linear-gradient(to right, black, #fdf10c);
+    &:hover {
+      background: linear-gradient(to right, black, #fdf10c) !important;
+    }
+    span {
+      color: #222;
     }
   }
 }
 
-.help-page .help-menu ul li {
-  display: list-item !important;
+.center-content .popular-bets .title img {
+  filter: grayscale(1) invert(1);
 }
 
-@keyframes flashCol {
-  0% {
-    background: rgb(25, 139, 59);
-    color: rgb(255, 255, 255);
-  }
-  100% {
-    background: var(--teableSubHeadersBg);
-    color: #fff;
-  }
+.poker-container .poker-strip.dbg {
+  display: flex !important;
 }
-.main_container > .main_content {
-  padding-top: 0px !important;
+.poker-strip.isla {
+  display: none !important;
 }
 
-html {
-  .main_header {
-    position: unset;
-    z-index: 0;
-    padding-top: 60px;
-  }
-  .main_header .main_header_left {
-    position: fixed;
-    top: 0;
-    z-index: 2;
-  }
-  .main_header .main_header_right {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-  }
+.poker-container .poker-strip.dbg .poker-strip-a img {
+  display: none;
+}
+.poker-strip.dbg .poker-strip-a a:after {
+  content: "Gioca ora";
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 1px solid var(--accent-bg);
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: -10px;
+  color: var(--accent-bg);
+}
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
+  display: none;
+}
+
+html .casino-section {
+  background-size: 1360px;
+  background-image: url(http://nextra.pcluster.info/jsport365/images/Casino.jpg);
+}
+
+html body .casino-section .casino-container .casino-inner {
+  padding-top: 370px;
+}
+
+html div.landing-page .banner-content {
+  width: 100%;
+  background-image: url(//nextra.pcluster.info/jsport365/images/Home-1920.jpg) !important;
 }
