@@ -6623,11 +6623,11 @@ div#couponPopUp {
   transform: scale(1);
   transition: 0.3s;
   transform-origin: 85% 100%;
-  opacity: 0;
+  opacity: 1;
 }
 div#couponPopUp.hidden {
   transform: scale(0);
-  opacity: 1;
+  opacity: 0;
 }
 #cpnToggler {
   z-index: 2;
