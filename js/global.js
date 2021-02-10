@@ -148,6 +148,13 @@ $(document).ready(() => {
   }
   if (window.showCombination && window.showMultiple && window.showSingle) {
     //ku ka kupon ->
+    var oldAddToCoupon = AddToCoupon;
+    AddToCoupon = function (a, b, c, d) {
+      oldAddToCoupon(a, b, c, d);
+      if ($("#cpnToggler > span").length > 0) {
+        $("#cpnToggler > span").text($(".match-count.selectionss").text());
+      }
+    };
     var oldshowCombination = showCombination;
     showCombination = function () {
       oldshowCombination();
