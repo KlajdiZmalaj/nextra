@@ -151,6 +151,7 @@ $(document).ready(() => {
     var oldbuildCoupon = buildCoupon;
     buildCoupon = function (a, b, c) {
       oldbuildCoupon(a, b, c);
+      console.log("cpn json", a);
       if ($("#cpnToggler > span").length > 0) {
         $("#cpnToggler > span").text(a.eventi_totali);
       }
