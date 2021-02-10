@@ -5,6 +5,18 @@ function changeElTxt(el, txt) {
   $(el).text(txt).append(cache);
 }
 function mainBannerClick() {}
+function cpnPopUp() {
+  $("body").prepend(
+    '<button id="cpnToggler"><i class="fal fa-receipt"></i></button>'
+  );
+  $("body").prepend(
+    '<div id="couponPopUp" class="side-bar right-side-bar hidden"></div>'
+  );
+  $(".single-block.betslip-holder.active").appendTo("#couponPopUp");
+  $("#cpnToggler").on("click", () => {
+    $("#couponPopUp").toggleClass("hidden");
+  });
+}
 
 var languageObj = {
   English: {

@@ -6612,3 +6612,38 @@ img[onclick*=";"] {
     font-size: 18px;
   }
 }
+
+div#couponPopUp {
+  position: fixed;
+  right: 10px;
+  bottom: 70px;
+  z-index: 2;
+  height: 500px;
+  overflow-y: auto;
+  transform: scale(1);
+  transition: 0.3s;
+  transform-origin: 85% 100%;
+  opacity: 0;
+}
+div#couponPopUp.hidden {
+  transform: scale(0);
+  opacity: 1;
+}
+#cpnToggler {
+  z-index: 2;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  height: 50px;
+  width: 50px;
+  background: var(--accent-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  font-size: 25px;
+  border-radius: 60px;
+  border: 2px solid var(--accent);
+  cursor: pointer;
+}
