@@ -117,33 +117,15 @@ $(document).ready(() => {
     enableScrollbar = function () {
       oldEnableScrollbar();
       //console.log("ca ka mCustomScrollbar", mCustomScrollbar);
-      if (mCustomScrollbar && $(".enable-scroll")[0]) {
-        $(".enable-scroll").mCustomScrollbar("destroy");
-        $(".enable-scroll").mCustomScrollbar({
+      if (mCustomScrollbar && $(".enable-scroll.center-content")[0]) {
+        $(".enable-scroll.center-content").mCustomScrollbar("destroy");
+        $(".enable-scroll.center-content").mCustomScrollbar({
           scrollInertia: 100,
           mouseWheelPixels: 70,
           autoDraggerLength: false,
         });
       }
     };
-    // draggable after request of dataTables /START
-    var oldaddChamTablets = addChamTablets;
-    addChamTablets = function (a, b) {
-      oldaddChamTablets(a, b);
-      removeDraggableTables();
-    };
-    var oldAddTablet = AddTablet;
-    AddTablet = function (a, b, c, d) {
-      oldAddTablet(a, b, c, d);
-      removeDraggableTables();
-    };
-    var oldaddTabletAntepost = addTabletAntepost;
-    addTabletAntepost = function (a, b) {
-      oldaddTabletAntepost(a, b);
-      removeDraggableTables();
-    };
-    //draggable after request of dataTables /END
-
     //main Banner replace slider
     $(".main-slider").html(
       `<img onclick="mainBannerClick();" src="${$(
