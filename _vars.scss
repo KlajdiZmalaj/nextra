@@ -1,60 +1,62 @@
-$skin: "winsport";
+$skin: "jsport365";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/winsport/images/logo.svg";
-$bodyBg: "https://nextra.pcluster.info/winsport/images/winsportbg.jpg";
-$bodyCol: #1d1d1d;
+$logoUrl: "//nextra.pcluster.info/jsport365/images/logo.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
+$bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
 
 html:root {
-  --accent: #64ff01;
-  --accent-bg: linear-gradient(180deg, white 14%, #8bc34a 200%);
-  --accent-txt: #03a022;
-  --primary-bg: #ffffff;
-  --primary-txt: #707070;
-  --secondary-bg: #000000;
+  --accent: #fdf10c;
+  --accent-bg: #fdf10c;
+  --accent-txt: #000;
+  --primary-bg: #000000;
+  --primary-txt: #ffffff;
+  --secondary-bg: #2c2c2c;
   --secondary-txt: #fff;
-  --mainBg: #101010;
+  --mainBg: #000000;
   --mainBgCol: #fff;
-  --bg1: #000;
+  --bg1: #131313;
   --col1: #fff;
-  --teableHeadersBg: linear-gradient(180deg, #03a022 14%, #09f172 200%);
-  --teableHeadersCol: #fff;
-  --teableSubHeadersBg: linear-gradient(180deg, black 14%, #8bc34a 200%);
+  --teableHeadersBg: #fdf10c;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #2e2e2e;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #292929;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
-  --casinoGradient2: #03a022;
-  --casinoGradient2-txt: #fff;
+  --tableBorders: #484848;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --casinoGradient2: #fd0;
+  --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "jsport365";
 }
 
-$secondary: #03a022;
+$secondary: #fd0;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #03a022;
+$secondaryDark: #d1a813;
 $secondaryDarkCol: #222;
-$primary: #545454;
+$primary: #333949;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #444444;
+$sb-2: #333844;
 
-.side-bar
-  .single-block
-  .block-content.sports-menu
-  .sports-menu-bottom
-  #sports-menu-slider.ui-widget.ui-widget-content.ui-slider-horizontal {
-  background: var(--accent-bg);
+footer {
+  background: var(--bg1);
+  border-top: 1px solid var(--mainBg);
+}
+footer .footer-copyright {
+  background: var(--mainBg);
 }
 
-.side-bar .single-block .block-content.sports-menu .sports-menu-bottom {
-  background: var(--tableBorders);
+body.landing-page {
+  background-color: #121212 !important;
+  background-image: none;
 }
 
 //casino live
@@ -65,24 +67,34 @@ $sb-2: #444444;
 .clive-container .clive-inner .clive-games-container:last-child {
   margin: 0 auto;
 }
+
 .clive-container .clive-inner {
   display: flex;
   flex: 1 1;
   justify-content: space-between;
   align-items: center;
 }
+.block-content .single-sport {
+  .anchor {
+    background: linear-gradient(to right, black, #fdf10c);
+    &:hover {
+      background: linear-gradient(to right, black, #fdf10c) !important;
+    }
+    span {
+      color: #222;
+    }
+  }
+}
 
-//poker dbg enable
+.center-content .popular-bets .title img {
+  filter: grayscale(1) invert(1);
+}
+
 .poker-container .poker-strip.dbg {
   display: flex !important;
 }
-.poker-container .poker-strip.isla {
-  display: none;
-}
-
-.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
-.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
-  display: none;
+.poker-strip.isla {
+  display: none !important;
 }
 
 .poker-container .poker-strip.dbg .poker-strip-a img {
@@ -98,17 +110,21 @@ $sb-2: #444444;
   margin-top: -10px;
   color: var(--accent-bg);
 }
-//end poker dbg enable
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
+  display: none;
+}
 
-html {
-  .header .top-header .top-header-content .logo-holder a:before {
-    background-position: left;
-    width: 230px;
-    background-position: left;
-  }
-  body {
-    background-color: #1d1d1d;
-    background-position-y: 10px;
-    background-size: 2600px;
-  }
+html .casino-section {
+  background-size: 1360px;
+  background-image: url(http://nextra.pcluster.info/jsport365/images/Casino.jpg);
+}
+
+html body .casino-section .casino-container .casino-inner {
+  padding-top: 370px;
+}
+
+html div.landing-page .banner-content {
+  width: 100%;
+  background-image: url(//nextra.pcluster.info/jsport365/images/Home-1920.jpg) !important;
 }

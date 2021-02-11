@@ -5,6 +5,19 @@ function changeElTxt(el, txt) {
   $(el).text(txt).append(cache);
 }
 function mainBannerClick() {}
+function cpnPopUp() {
+  var cpnNr = $(".match-count.selectionss").text();
+  $("body").prepend(
+    `<button id="cpnToggler"><i class="fal fa-receipt"></i> <span>${cpnNr}</span> </button>`
+  );
+  $("body").prepend(
+    '<div id="couponPopUp" class="side-bar right-side-bar hidden"></div>'
+  );
+  $(".single-block.betslip-holder.active").appendTo("#couponPopUp");
+  $("#cpnToggler").on("click", () => {
+    $("#couponPopUp").toggleClass("hidden");
+  });
+}
 
 var languageObj = {
   English: {
@@ -46,6 +59,7 @@ function removeDraggableTables() {
     $(el).attr("draggable", false);
   });
 }
+
 function casinoPlayGame() {
   var data = new URLSearchParams(window.location.search);
   var id = data.get("loadGame");
@@ -92,7 +106,6 @@ function sportsToTableHeader() {
     "#upcomingBets .popular-bets"
   );
 }
-
 //GLOBAL CALLS
 $(document).ready(() => {
   const skinUrl = window.location.host.split(".")[0];
@@ -117,39 +130,62 @@ $(document).ready(() => {
     enableScrollbar = function () {
       oldEnableScrollbar();
       //console.log("ca ka mCustomScrollbar", mCustomScrollbar);
-      if (mCustomScrollbar && $(".enable-scroll")[0]) {
-        $(".enable-scroll").mCustomScrollbar("destroy");
-        $(".enable-scroll").mCustomScrollbar({
+      if (mCustomScrollbar && $(".enable-scroll.center-content")[0]) {
+        $(".enable-scroll.center-content").mCustomScrollbar("destroy");
+        $(".enable-scroll.center-content").mCustomScrollbar({
           scrollInertia: 100,
           mouseWheelPixels: 70,
           autoDraggerLength: false,
         });
       }
     };
-    // draggable after request of dataTables /START
-    var oldaddChamTablets = addChamTablets;
-    addChamTablets = function (a, b) {
-      oldaddChamTablets(a, b);
-      removeDraggableTables();
-    };
-    var oldAddTablet = AddTablet;
-    AddTablet = function (a, b, c, d) {
-      oldAddTablet(a, b, c, d);
-      removeDraggableTables();
-    };
-    var oldaddTabletAntepost = addTabletAntepost;
-    addTabletAntepost = function (a, b) {
-      oldaddTabletAntepost(a, b);
-      removeDraggableTables();
-    };
-    //draggable after request of dataTables /END
-
     //main Banner replace slider
     $(".main-slider").html(
       `<img onclick="mainBannerClick();" src="${$(
         '.main-slider .slick-track img[src*="main-banner.jpg"]'
       ).attr("src")}">`
     );
+  }
+  if (window.showCombination && window.showMultiple && window.showSingle) {
+    //ku ka kupon ->
+    var oldbuildCoupon = buildCoupon;
+    buildCoupon = function (a, b, c) {
+      oldbuildCoupon(a, b, c);
+      console.log("cpn json", a);
+      if ($("#cpnToggler > span").length > 0) {
+        $("#cpnToggler > span").text(a.eventi_totali);
+      }
+    };
+    var oldshowCombination = showCombination;
+    showCombination = function () {
+      oldshowCombination();
+      if ($("#cupInfo").length > 0) {
+      } else {
+        $("#coupon .totals-section").append(
+          '<div id="cupInfo"><i class="fad fa-info-circle"></i>La vincita potenziale di tutte le combinazioni può essere ottenuta solo se le selezioni pronosticate non sono in conflitto tra loro.</div>'
+        );
+      }
+    };
+    var oldshowMultiple = showMultiple;
+    showMultiple = function () {
+      oldshowMultiple();
+      $("#cupInfo").remove();
+    };
+    var oldshowSplit = showSplit;
+    showSplit = function () {
+      oldshowSplit();
+      if ($("#cupInfo").length > 0) {
+      } else {
+        $("#coupon .totals-section").append(
+          '<div id="cupInfo"><i class="fad fa-info-circle"></i>La vincita potenziale di tutte le combinazioni può essere ottenuta solo se le selezioni pronosticate non sono in conflitto tra loro.</div>'
+        );
+      }
+    };
+    var oldshowSingle = showSingle;
+    showSingle = function () {
+      oldshowSingle();
+      $("#cupInfo").remove();
+    };
   }
   if (window.location.href.match(/Sport\/casino/g)) {
     casinoPlayGame();

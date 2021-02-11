@@ -6594,3 +6594,77 @@ html #settings-button {
 img[onclick*=";"] {
   cursor: pointer;
 }
+
+#cupInfo {
+  width: calc(100% + 6px);
+  margin-left: -3px;
+  padding: 14px;
+  box-sizing: border-box;
+  font-size: 12px;
+  text-align: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--mainBg);
+  color: var(--mainBgCol);
+  i {
+    margin-right: 9px;
+    font-size: 18px;
+  }
+}
+
+#cpnToggler span {
+  position: absolute;
+  top: -6px;
+  right: -1px;
+  background: red;
+  color: #fff;
+  font-size: 14px;
+  width: 15px;
+  height: 15px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+div#couponPopUp {
+  box-shadow: -2px -1px 20px 0px #0000005c;
+  position: fixed;
+  right: 10px;
+  bottom: 70px;
+  z-index: 2;
+  height: 500px;
+  overflow-y: auto;
+  transform: scale(1);
+  transition: 0.3s;
+  transform-origin: 85% 100%;
+  opacity: 1;
+}
+div#couponPopUp.hidden {
+  transform: scale(0);
+  opacity: 0;
+}
+#cpnToggler {
+  z-index: 2;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  height: 50px;
+  width: 50px;
+  background: var(--accent-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  font-size: 25px;
+  border-radius: 60px;
+  border: 2px solid var(--accent);
+  cursor: pointer;
+}
+
+#couponPopup .block-title {
+  display: none;
+}
