@@ -118,6 +118,11 @@ $(document).ready(() => {
   //merr alt language nga imazhi selektuar ne header
   window.language = $("#lang-top .lang-flag").attr("alt");
   if (window.location.href.includes("/Sport/sport")) {
+    $(".side-bar").mCustomScrollbar = $(".side-bar").mCustomScrollbar({
+      scrollInertia: 100,
+      mouseWheelPixels: 70,
+      autoDraggerLength: false,
+    });
     //
     var oldshowSportbook = showSportbook;
     showSportbook = function (sport) {
@@ -138,6 +143,16 @@ $(document).ready(() => {
           autoDraggerLength: false,
         });
       }
+    };
+    var oldAddTabletLight = AddTabletLight;
+    AddTabletLight = function (a, b, c, d) {
+      oldAddTabletLight(a, b, c, d);
+      $(".left-side-bar.enable-scroll").mCustomScrollbar("destroy");
+      $(".left-side-bar.enable-scroll").mCustomScrollbar({
+        scrollInertia: 100,
+        mouseWheelPixels: 70,
+        autoDraggerLength: false,
+      });
     };
     //main Banner replace slider
     $(".main-slider").html(
