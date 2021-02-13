@@ -128,6 +128,11 @@ $(document).ready(() => {
     //
     var oldEnableScrollbar = enableScrollbar;
     enableScrollbar = function () {
+      $(".side-bar").mCustomScrollbar = $(".side-bar").mCustomScrollbar({
+        scrollInertia: 100,
+        mouseWheelPixels: 70,
+        autoDraggerLength: false,
+      });
       oldEnableScrollbar();
       //console.log("ca ka mCustomScrollbar", mCustomScrollbar);
       if (mCustomScrollbar && $(".enable-scroll.center-content")[0]) {
@@ -138,6 +143,16 @@ $(document).ready(() => {
           autoDraggerLength: false,
         });
       }
+    };
+    var oldAddTabletLight = AddTabletLight;
+    AddTabletLight = function (a, b, c, d) {
+      oldAddTabletLight(a, b, c, d);
+      $(".left-side-bar.enable-scroll").mCustomScrollbar("destroy");
+      $(".left-side-bar.enable-scroll").mCustomScrollbar({
+        scrollInertia: 100,
+        mouseWheelPixels: 70,
+        autoDraggerLength: false,
+      });
     };
     //main Banner replace slider
     $(".main-slider").html(
