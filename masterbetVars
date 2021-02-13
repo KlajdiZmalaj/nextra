@@ -3,7 +3,7 @@ $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "https://nextra.pcluster.info/masterbet/images/logo2.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
+$bodyBg: "https://nextra.pcluster.info/masterbet/images/mainBg.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
@@ -239,4 +239,352 @@ body [data-page="prematch-event"] .sport_quote_view .quota .quota {
 body [data-page="prematch-event"] .sport_single_quote {
   margin: 4px 2px !important;
   border-radius: 3px;
+}
+
+//start changes
+
+#favouriteTournaments {
+  flex-flow: initial;
+  padding: 0px 2px;
+  li {
+    width: 100%;
+    flex-shrink: inherit;
+    background: transparent;
+    border: none;
+    z-index: 0;
+    &:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      background: linear-gradient(
+        90deg,
+        var(--teableSubHeadersBg) 0,
+        var(--teableHeadersBg)
+      );
+      // box-shadow: 0 0 6px rgb(20 25 29);
+      transition: box-shadow 0.1s ease-in-out;
+      transform: translate(-50%, -50%) skew(-25deg);
+    }
+    &.active {
+      background: transparent;
+      &:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        background: linear-gradient(
+          90deg,
+          var(--accent-bg) 0,
+          var(--accent-bg)
+        );
+        // box-shadow: 0 0 6px rgb(20 25 29);
+        transition: box-shadow 0.1s ease-in-out;
+        transform: translate(-50%, -50%) skew(-25deg);
+      }
+    }
+  }
+}
+
+.center-content #marketMoversBets {
+  .odds-graph-holder {
+    background: linear-gradient(
+      45deg,
+      #171d24 0,
+      #29333b 50%,
+      #29333b 50%,
+      #37424b 80%,
+      #475567 105%
+    );
+    .section-odds .current-odds .the-odds .first-row {
+      line-height: 19px;
+    }
+  }
+  .most-searched {
+    width: auto;
+    float: right;
+    margin-top: -33px;
+    position: relative;
+    background: transparent;
+    text-transform: uppercase;
+    padding-right: 10px;
+  }
+}
+.center-content #dailyBets {
+  .match-of-the-day-text {
+    width: auto;
+    float: right;
+    margin-top: -33px;
+    position: relative;
+    background: transparent;
+    text-transform: uppercase;
+    padding-right: 10px;
+  }
+  .match-of-the-day .odds-block-type-percentages {
+    padding: 0px 0;
+    display: flex;
+    .single-odd-block {
+      margin: 0;
+      width: auto;
+    }
+  }
+  .match-of-the-day .odd-bars .single-bar {
+    border-top: 1px solid var(--tableBorders);
+    &:nth-child(2) {
+      border-top: none;
+      height: 36px;
+    }
+  }
+  .match-of-the-day .percentages .percentage {
+    border-top: 1px solid var(--tableBorders);
+    &:nth-child(1) {
+      border-top: none;
+      height: 36px;
+    }
+  }
+}
+
+body .center-content .percentage-block {
+  background: var(--mainBg);
+  border-left: 1px solid var(--tableBorders);
+  border-right: 1px solid var(--tableBorders);
+
+  .single-over-under .percentage-graph .ct-series-a .ct-slice-donut,
+  .single-over-under .percentage-graph .ct-series-b .ct-slice-donut {
+    stroke-width: 4px !important;
+  }
+
+  .bets {
+    margin-top: 5px;
+    .bet .label {
+      line-height: 33px;
+      background: var(--teableHeadersBg);
+      color: var(--teableHeadersCol);
+    }
+  }
+  .bet.over {
+    width: calc(50% - 1px);
+    border-right: 1px solid var(--tableBorders);
+  }
+  .bets .bet .odd {
+    width: 100%;
+    margin: 0;
+    color: var(--accent);
+    &.selected {
+      width: 100%;
+      color: var(--accent-txt);
+    }
+  }
+  .single-over-under .percentage-graph:after {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .single-over-under .team-names {
+    text-align: center;
+    border-bottom: 1px solid var(--tableBorders);
+    padding: 5px 0;
+    font-size: 11px;
+  }
+  .single-over-under .team-names .home-team,
+  .single-over-under .team-names .away-team {
+    display: inline-block;
+    font-size: 12px;
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px;
+    text-transform: capitalize;
+  }
+  .single-over-under .team-names .vs {
+    font-size: 0;
+    width: auto;
+    display: inline-block;
+  }
+  .single-over-under .team-names .vs:before {
+    content: "-";
+    font-size: 12px;
+    position: relative;
+    width: 20px;
+    left: auto;
+  }
+}
+
+body #dailyBets,
+body #upcomingBets,
+body #hottestBets,
+body #marketMoversBets {
+  margin-top: 15px;
+  border: 1px solid var(--tableBorders);
+  width: calc(100% - 2px);
+}
+
+.widget-wrapper .sports-filter {
+  border-bottom: 1px solid var(--tableBorders);
+}
+body .center-content .popular-bets .days ul {
+  padding-right: 0;
+  li {
+    border-right: 1px solid var(--tableBorders);
+  }
+}
+
+body #upcomingBets {
+  .sports-filter-upcoming {
+    width: auto;
+    float: right;
+    margin-top: -37px;
+    position: relative;
+    background: transparent;
+    text-transform: uppercase;
+    padding-right: 0px;
+    height: 36px;
+    line-height: 36px;
+    ul {
+      li {
+        height: 37px;
+        line-height: 37px;
+        padding: 0 20px;
+      }
+    }
+  }
+}
+
+body .center-content .sports-book .right-content .events-info div {
+  border-left: 2px solid var(--tableBorders);
+  height: 26px;
+  line-height: 30px;
+  margin-top: 4px;
+  padding: 0 10px;
+}
+
+.banner-block a[href="/Sport/became-an-agent"]:before {
+  margin-top: 40px;
+}
+.banner-block a[href="/Sport/became-an-agent"]:after {
+  margin-top: 10px;
+}
+
+body .right-side-bar .single-block:nth-child(3) .block-title {
+  background-color: var(--secondary-bg);
+}
+.side-bar .single-block .block-content.verify-coupon {
+  background-color: var(--secondary-bg);
+}
+.side-bar.right-side-bar .banner-block {
+  margin-top: 10px;
+}
+
+body .side-bar .single-block.betslip-holder .betslip {
+  margin: 10px 0;
+  border: none;
+}
+.side-bar .single-block#reservedCoupons .block-content {
+  background: var(--secondary-bg);
+  border-left: 3px solid var(--accent);
+}
+body .right-side-bar .single-block:nth-child(3) {
+  border-left: 3px solid var(--accent);
+}
+#mainHomePage {
+  display: flex;
+  flex-direction: column;
+}
+
+body #hottestBets {
+  -webkit-box-ordinal-group: 1;
+  -ms-flex-order: 2;
+  order: 1;
+  margin-bottom: 15px;
+}
+.center-content .center-block {
+  order: 2;
+}
+body #upcomingBets {
+  order: 3;
+}
+body #dailyBets {
+  order: 2;
+}
+body #marketMoversBets {
+  order: 5;
+}
+.side-bar .single-block .block-title {
+  background: linear-gradient(190deg, #5d7080 -20%, #384351 40%);
+}
+.center-content .popular-bets .title:before {
+  content: "\f521";
+  font-family: "Font Awesome 5 Pro" !important;
+  font-size: 18px;
+  color: #ffeb00;
+}
+
+.center-content .popular-bets .title img {
+  display: none !important;
+}
+
+body #upcomingBets .title:before {
+  content: "\f017";
+  font-family: "Font Awesome 5 Pro" !important;
+  color: var(--accent);
+}
+body #hottestBets .title:before {
+  content: "\f6df";
+  font-family: "Font Awesome 5 Pro" !important;
+  font-size: 18px;
+  color: #ff5200;
+}
+body #marketMoversBets .title:before {
+  content: "\f201";
+  font-family: "Font Awesome 5 Pro" !important;
+  color: var(--accent);
+}
+
+body #dailyBets .title:before {
+  content: "\f091";
+  font-family: "Font Awesome 5 Pro" !important;
+  font-size: 18px;
+  color: #ffeb00;
+}
+
+body .header .top-header .top-header-content .primary-menu ul {
+  margin-left: 0;
+  li {
+    top: 1px;
+    margin-right: 20px;
+  }
+}
+
+body .header .top-header .top-header-content .primary-menu ul li:hover:before,
+body .header .top-header .top-header-content .primary-menu ul li.active:before {
+  bottom: -9px !important;
+}
+
+body .header .top-header .top-header-content .primary-menu li a:after {
+  font-size: 20px;
+  left: 0;
+  bottom: -5px;
+  top: auto;
+}
+
+body #indexLivechat a:after {
+  font-size: 20px;
+}
+
+body .header .top-header .top-header-content .primary-menu {
+  justify-content: flex-end;
+  ul li {
+    margin-right: 15px;
+    a {
+      top: -20px;
+      padding-left: 28px;
+    }
+  }
 }
