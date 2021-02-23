@@ -164,3 +164,17 @@ html {
   text-transform: uppercase;
   color: #000;
 }
+.contact-us .content {
+  display: flex;
+  flex-flow: column;
+  > p {
+    order: 3;
+  }
+}
+.register-button {
+  order: 2;
+}
+.contact-us .content > p:first-child,
+.contact-us .content h1 {
+  order: 1;
+}
