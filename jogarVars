@@ -147,3 +147,20 @@ html {
     z-index: 1;
   }
 }
+
+.contact-us .content {
+  position: relative;
+}
+.contact-us .content .register-button {
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+}
+.contact-us .content .register-button a {
+  line-height: 28px;
+  padding: 3px 15px;
+  border: 1px solid #af8a33;
+  background: #af8a33;
+  text-transform: uppercase;
+  color: #000;
+}
