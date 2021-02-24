@@ -178,3 +178,124 @@ html {
 .contact-us .content h1 {
   order: 1;
 }
+
+.new_user_form [type="checkbox"],
+.new_user_form [type="radio"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  float: left;
+  margin-right: 10px;
+}
+.new_user_form [data-pcs] #promoCodeCheck {
+  display: none !important;
+}
+.new_user_form [data-pcs] .question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+  flex-direction: column;
+}
+.new_user_form [data-pcs] .question .label {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 20px;
+  max-width: calc(100% - 90px);
+}
+.new_user_form [data-pcs] .question .radios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+.new_user_form [data-pcs] .question .radios .radio [type="radio"] {
+  margin-right: 0;
+}
+.new_user_form [data-pcs] .question .radios .radio {
+  margin-right: 10px;
+}
+.new_user_form [data-pcs] .question .radios .radio .label {
+  display: inline-block;
+  float: none;
+  line-height: 30px;
+  margin-left: 10px;
+}
+.new_user_form [data-pcs][data-pcs="“true”"] #promoCodeCheck {
+  display: inline-block !important;
+}
+.new_user_form .section_captcha {
+  display: inline-block;
+}
+.new_user_form .section_captcha .captcha-desc {
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.new_user_form .input-wrapper input[type="“checkbox”"] {
+  float: left;
+  margin-top: 9px;
+}
+.new_user_form .input-wrapper#privacyError,
+.new_user_form .input-wrapper#agreeError {
+  padding: 10px 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.new_user_form .input-wrapper#privacyError .label,
+.new_user_form .input-wrapper#agreeError .label {
+  width: calc(100% - 30px);
+}
+.new_user_form
+  form
+  .row
+  .cell
+  .input-wrapper
+  .radio-holder
+  .radio
+  input[type="“radio”"] {
+  height: 15px;
+}
+.new_user_form form .row .cell .note {
+  color: #886b27;
+  padding-top: 10px;
+}
+.new_user_form form .row .cell .input-wrapper .error-cell {
+  font-size: 12px;
+  line-height: 15px;
+  color: white;
+  background: #f74e4e;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  position: relative;
+  display: none;
+}
+.new_user_form form .row .cell .input-wrapper .error-cell:before {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 6px 6px;
+  border-color: transparent transparent #f74e4e;
+  position: absolute;
+  top: -5px;
+  content: ‘’;
+  left: 12px;
+}
+.new_user_form form .row .cell .input-wrapper.error .error-cell {
+  display: inline-block;
+}
