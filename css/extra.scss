@@ -6668,3 +6668,21 @@ div#couponPopUp.hidden {
 #couponPopup .block-title {
   display: none;
 }
+
+.coupon-details-page-content .row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  > div {
+    width: 230px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+  }
+  .content {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+}
