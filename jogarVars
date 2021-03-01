@@ -147,3 +147,7 @@ html {
     z-index: 1;
   }
 }
+
+[data-logged="false"][data-access] .single_menu_item.register {
+  display: block !important;
+}

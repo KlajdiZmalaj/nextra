@@ -1,590 +1,178 @@
-$skin: "masterbet";
+$skin: "jogar365";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/masterbet/images/logo2.svg";
-$bodyBg: "https://nextra.pcluster.info/masterbet/images/mainBg.jpg";
+$logoUrl: "http://static.pcluster.info/skins/fastbet24/img/logo/newlogo.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/gold.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
+
 html:root {
-  --accent: #95cd3b;
-  --accent-bg: #95cd3b;
+  --accent: #af8a33;
+  --accent-bg: #af8a33;
   --accent-txt: #000;
-  --primary-bg: #000;
-  --primary-txt: #fff;
-  --secondary-bg: #212931;
+  --primary-bg: #262626;
+  --primary-txt: #d5d5d5;
+  --secondary-bg: #303030;
   --secondary-txt: #fff;
-  --mainBg: #171d24;
+  --mainBg: #1c1c1c;
   --mainBgCol: #fff;
-  --bg1: #29333b;
+  --bg1: #292929;
   --col1: #fff;
-  --teableHeadersBg: #384351;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #14191d;
+  --teableHeadersBg: linear-gradient(#8f6b29, #d0aa3d, #df9f28);
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #434343;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #445461;
-  --casinoGradient1: linear-gradient(
-    to right,
-    #95cd3b00 3%,
-    #95cd3b 60%,
-    #95cd3b00 99%
-  );
-  --casinoGradient1-txt: #000;
-  --casinoGradient2: #636363;
+  --tableBorders: #4d4d4d;
+  --casinoGradient1: linear-gradient(to right, #040100, #bf570f);
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "masterbet";
+  --skin: "jogar365";
 }
 
-$secondary: #95cd3b;
+$secondary: #af8a33;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #95cd3b;
-$secondaryDarkCol: #fff;
-$primary: #607d8b;
+$secondaryDark: #a17f2f;
+$secondaryDarkCol: #222;
+$primary: #292929;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #525b61;
-
-body {
-  background-size: 2038px !important;
-}
+$sb-2: #292929;
 
 body.landing-page {
-  background-color: #31343d !important;
+  background-color: #000000 !important;
   background-image: none;
 }
 
-.main-content.home-page
-  .left-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:nth-child(2)
-  .block-title
-  span {
-  color: var(--accent-bg);
-  font-weight: 500;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+* {
+  font-weight: 600;
 }
 
-.single-sport .states .state .championship.selected .anchor {
-  color: var(--accent);
+.sport_odds_name,
+.main_page_title {
+  font-weight: 900;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
 }
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark:after,
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark {
-  border-color: var(--accent) !important;
+//winter brazilian fix icon
+.header .top-header .top-header-content .primary-menu ul li:nth-child(2):after {
+  left: 20px !important;
 }
 
-.odds-table .second-header td.day {
-  color: var(--accent);
+.contact-us {
+  display: inline-block !important;
+  width: 100%;
+  float: left;
 }
-
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
-  border: 1px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-
-.tabs-holder .tabs-row .single-tab {
-  border-bottom: 2px solid transparent !important;
-}
-
-.tabs-holder .tabs-row .single-tab:hover,
-.tabs-holder .tabs-row .single-tab.active {
-  border-bottom: 2px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-.odds-table .second-header {
-  opacity: 1 !important;
-}
-
-.side-bar
-  .single-block.betslip-holder
-  .betslip
-  .selections-wrapper
-  .single-event
-  .selected-bet
-  .bet
-  .quote {
-  color: var(--accent);
-}
-
-.header .top-header .top-header-content .primary-menu .header-buttons > button,
-.header .top-header .top-header-content .primary-menu .header-buttons > a {
-  background: #000 !important;
-  color: #fff !important;
-}
-body
-  .side-bar
-  .single-block.betslip-holder
-  .betslip-controllers
-  .single-controller.active {
-  background: #14191d;
-  color: #e9e9e9;
-}
-.header .top-header .top-header-content .logo-holder a:before {
-  width: 230px !important;
-}
-html {
-  .live-odds-table table tr td.odd-holder .single-live-odd .label,
-  span.odd-type,
-  .odds-table .second-header td {
-    color: var(--accent);
-  }
-}
-
-html {
-  .virtu-box {
-    background-image: url(//nextra.pcluster.info/masterbet/images/virtual.jpg);
-    background-position-y: -80px;
-  }
-  .casino-section {
-    background-image: url(//nextra.pcluster.info/masterbet/images/casinonew.jpg);
-    background-size: 1360px;
-  }
-  body .casino-section .casino-container .casino-inner {
-    padding-top: 374px;
-    height: calc(100% - 388px) !important;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .game-grid {
-    column-gap: 18px;
-  }
-}
-
-.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
-  &:before {
-    background-image: url(//nextra.pcluster.info/masterbet/images/casinolive/clive-banner1.jpg) !important;
-  }
-}
-
-.banner-block {
-  a[href="/Sport/became-an-agent"] {
-    position: relative;
-    &:after {
-      content: "";
-      width: 100%;
-      height: 300px;
-      background: url(//nextra.pcluster.info/masterbet/images/bookra.jpg);
-      height: 300px;
-      display: block;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      top: 100%;
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
-    &:before {
-      content: "";
-      width: 100%;
-      height: 300px;
-      background: url(//nextra.pcluster.info/masterbet/images/evo.jpg);
-      height: 300px;
-      display: block;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      top: 200%;
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
-  }
-}
-
-html .sport_single_quote[data-selected="false"] div span.tipoquota {
-  opacity: 1;
-}
-
-// html .sport_single_quote[data-selected="true"] div span.tipoquota {
-//   opacity: 0.7;
-// }
-
-.odds-table .goalScorer .odd.quote {
-  color: var(--accent);
-}
-
-body [data-page="prematch-event"] .sport_quote_view .quota .quota {
-  background: transparent;
-  color: var(--accent);
-}
-body [data-page="prematch-event"] .sport_single_quote {
-  margin: 4px 2px !important;
-  border-radius: 3px;
-}
-
-//start changes
-
-#favouriteTournaments {
-  flex-flow: initial;
-  padding: 0px 2px;
-  li {
-    width: 100%;
-    flex-shrink: inherit;
-    background: transparent;
-    border: none;
-    z-index: 0;
-    &:after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      z-index: -1;
-      width: 100%;
-      height: 100%;
-      border-radius: 5px;
-      background: linear-gradient(
-        90deg,
-        var(--teableSubHeadersBg) 0,
-        var(--teableHeadersBg)
-      );
-      // box-shadow: 0 0 6px rgb(20 25 29);
-      transition: box-shadow 0.1s ease-in-out;
-      transform: translate(-50%, -50%) skew(-25deg);
-    }
-    &.active {
-      background: transparent;
-      &:after {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-        border-radius: 5px;
-        background: linear-gradient(
-          90deg,
-          var(--accent-bg) 0,
-          var(--accent-bg)
-        );
-        // box-shadow: 0 0 6px rgb(20 25 29);
-        transition: box-shadow 0.1s ease-in-out;
-        transform: translate(-50%, -50%) skew(-25deg);
-      }
-    }
-  }
-}
-
-.center-content #marketMoversBets {
-  .odds-graph-holder {
-    background: linear-gradient(
-      45deg,
-      #171d24 0,
-      #29333b 50%,
-      #29333b 50%,
-      #37424b 80%,
-      #475567 105%
-    );
-    .section-odds .current-odds .the-odds .first-row {
-      line-height: 19px;
-    }
-  }
-  .most-searched {
-    width: auto;
-    float: right;
-    margin-top: -33px;
-    position: relative;
-    background: transparent;
-    text-transform: uppercase;
-    padding-right: 10px;
-  }
-}
-.center-content #dailyBets {
-  .match-of-the-day-text {
-    width: auto;
-    float: right;
-    margin-top: -33px;
-    position: relative;
-    background: transparent;
-    text-transform: uppercase;
-    padding-right: 10px;
-  }
-  .match-of-the-day .odds-block-type-percentages {
-    padding: 0px 0;
-    display: flex;
-    .single-odd-block {
-      margin: 0;
-      width: auto;
-    }
-  }
-  .match-of-the-day .odd-bars .single-bar {
-    border-top: 1px solid var(--tableBorders);
-    &:nth-child(2) {
-      border-top: none;
-      height: 36px;
-    }
-  }
-  .match-of-the-day .percentages .percentage {
-    border-top: 1px solid var(--tableBorders);
-    &:nth-child(1) {
-      border-top: none;
-      height: 36px;
-    }
-  }
-}
-
-body .center-content .percentage-block {
-  background: var(--mainBg);
-  border-left: 1px solid var(--tableBorders);
-  border-right: 1px solid var(--tableBorders);
-
-  .single-over-under .percentage-graph .ct-series-a .ct-slice-donut,
-  .single-over-under .percentage-graph .ct-series-b .ct-slice-donut {
-    stroke-width: 4px !important;
-  }
-
-  .bets {
-    margin-top: 5px;
-    .bet .label {
-      line-height: 33px;
-      background: var(--teableHeadersBg);
-      color: var(--teableHeadersCol);
-    }
-  }
-  .bet.over {
-    width: calc(50% - 1px);
-    border-right: 1px solid var(--tableBorders);
-  }
-  .bets .bet .odd {
-    width: 100%;
-    margin: 0;
-    color: var(--accent);
-    &.selected {
-      width: 100%;
-      color: var(--accent-txt);
-    }
-  }
-  .single-over-under .percentage-graph:after {
-    -webkit-box-shadow: none;
-    box-shadow: none;
-  }
-  .single-over-under .team-names {
-    text-align: center;
-    border-bottom: 1px solid var(--tableBorders);
-    padding: 5px 0;
-    font-size: 11px;
-  }
-  .single-over-under .team-names .home-team,
-  .single-over-under .team-names .away-team {
-    display: inline-block;
-    font-size: 12px;
-    width: 50%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding: 0 5px;
-    text-transform: capitalize;
-  }
-  .single-over-under .team-names .vs {
-    font-size: 0;
-    width: auto;
-    display: inline-block;
-  }
-  .single-over-under .team-names .vs:before {
-    content: "-";
-    font-size: 12px;
-    position: relative;
-    width: 20px;
-    left: auto;
-  }
-}
-
-body #dailyBets,
-body #upcomingBets,
-body #hottestBets,
-body #marketMoversBets {
-  margin-top: 15px;
-  border: 1px solid var(--tableBorders);
-  width: calc(100% - 2px);
-}
-
-.widget-wrapper .sports-filter {
-  border-bottom: 1px solid var(--tableBorders);
-}
-body .center-content .popular-bets .days ul {
-  padding-right: 0;
-  li {
-    border-right: 1px solid var(--tableBorders);
-  }
-}
-
-body #upcomingBets {
-  .sports-filter-upcoming {
-    width: auto;
-    float: right;
-    margin-top: -37px;
-    position: relative;
-    background: transparent;
-    text-transform: uppercase;
-    padding-right: 0px;
-    height: 36px;
-    line-height: 36px;
-    ul {
-      li {
-        height: 37px;
-        line-height: 37px;
-        padding: 0 20px;
-      }
-    }
-  }
-}
-
-body .center-content .sports-book .right-content .events-info div {
-  border-left: 2px solid var(--tableBorders);
-  height: 26px;
+.contact-us .button {
   line-height: 30px;
-  margin-top: 4px;
-  padding: 0 10px;
-}
-
-.banner-block a[href="/Sport/became-an-agent"]:before {
-  margin-top: 40px;
-}
-.banner-block a[href="/Sport/became-an-agent"]:after {
-  margin-top: 10px;
-}
-
-body .right-side-bar .single-block:nth-child(3) .block-title {
-  background-color: var(--secondary-bg);
-}
-.side-bar .single-block .block-content.verify-coupon {
-  background-color: var(--secondary-bg);
-}
-.side-bar.right-side-bar .banner-block {
-  margin-top: 10px;
-}
-
-body .side-bar .single-block.betslip-holder .betslip {
-  margin: 10px 0;
-  border: none;
-}
-.side-bar .single-block#reservedCoupons .block-content {
-  background: var(--secondary-bg);
-  border-left: 3px solid var(--accent);
-}
-body .right-side-bar .single-block:nth-child(3) {
-  border-left: 3px solid var(--accent);
-}
-#mainHomePage {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--col1);
+  width: 100%;
+  animation: flashCol infinite linear 1s;
+  background: var(--bg1);
+  font-size: 0px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &::before {
+    content: "Fale Conosco";
+    font-size: 16px;
+  }
 }
-
-body #hottestBets {
-  -webkit-box-ordinal-group: 1;
-  -ms-flex-order: 2;
-  order: 1;
-  margin-bottom: 15px;
-}
-.center-content .center-block {
-  order: 2;
-}
-body #upcomingBets {
-  order: 3;
-}
-body #dailyBets {
-  order: 2;
-}
-body #marketMoversBets {
-  order: 5;
-}
-.side-bar .single-block .block-title {
-  background: linear-gradient(190deg, #5d7080 -20%, #384351 40%);
-}
-.center-content .popular-bets .title:before {
-  content: "\f521";
-  font-family: "Font Awesome 5 Pro" !important;
-  font-size: 18px;
-  color: #ffeb00;
-}
-
-.center-content .popular-bets .title img {
-  display: none !important;
-}
-
-body #upcomingBets .title:before {
-  content: "\f017";
-  font-family: "Font Awesome 5 Pro" !important;
-  color: var(--accent);
-}
-body #hottestBets .title:before {
-  content: "\f6df";
-  font-family: "Font Awesome 5 Pro" !important;
-  font-size: 18px;
-  color: #ff5200;
-}
-body #marketMoversBets .title:before {
-  content: "\f201";
-  font-family: "Font Awesome 5 Pro" !important;
-  color: var(--accent);
-}
-
-body #dailyBets .title:before {
-  content: "\f091";
-  font-family: "Font Awesome 5 Pro" !important;
-  font-size: 18px;
-  color: #ffeb00;
-}
-
-body .header .top-header .top-header-content .primary-menu ul {
-  margin-left: 0;
-  li {
-    top: 1px;
-    margin-right: 20px;
+.contact-us .content {
+  white-space: normal;
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  > p:first-child,
+  h1 {
+    color: rgb(207, 22, 22);
+    font-size: 15px;
   }
 }
 
-body .header .top-header .top-header-content .primary-menu ul li:hover:before,
-body .header .top-header .top-header-content .primary-menu ul li.active:before {
-  bottom: -9px !important;
-}
-
-body .header .top-header .top-header-content .primary-menu li a:after {
-  font-size: 20px;
-  left: 0;
-  bottom: -5px;
-  top: auto;
-}
-
-body #indexLivechat a:after {
-  font-size: 20px;
-}
-
-body .header .top-header .top-header-content .primary-menu {
-  justify-content: flex-end;
-  ul li {
-    margin-right: 15px;
-    a {
-      top: -20px;
-      padding-left: 28px;
+.contact-us {
+  display: inline-block;
+  width: 100%;
+  .content {
+    &[data-show="false"] {
+      display: none !important;
     }
   }
+}
+
+.help-page .help-menu ul li {
+  display: list-item !important;
+}
+
+@keyframes flashCol {
+  0% {
+    background: rgb(25, 139, 59);
+    color: rgb(255, 255, 255);
+  }
+  100% {
+    background: var(--teableSubHeadersBg);
+    color: #fff;
+  }
+}
+.main_container > .main_content {
+  padding-top: 0px !important;
+}
+
+html {
+  .main_header {
+    position: unset;
+    z-index: 0;
+    padding-top: 60px;
+  }
+  .main_header .main_header_left {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  .main_header .main_header_right {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+}
+
+[data-logged="false"][data-access] .single_menu_item.register {
+  display: block !important;
+}
+
+.contact-us .content {
+  position: relative;
+}
+.contact-us .content .register-button {
+  margin-left: 20px;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  bottom: 60px;
+}
+.contact-us .content .register-button a {
+  line-height: 28px;
+  padding: 3px 15px;
+  border: 1px solid #af8a33;
+  background: #af8a33;
+  text-transform: uppercase;
+  color: #000;
+}
+.contact-us .content p:nth-child(3),
+.contact-us .content p:nth-child(4),
+.contact-us .content p:nth-child(5),
+.contact-us .content p:nth-child(6) {
+  width: calc(100% - 120px);
 }
