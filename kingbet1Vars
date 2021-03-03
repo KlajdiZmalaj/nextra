@@ -89,3 +89,32 @@ body.landing-page {
   justify-content: space-between;
   align-items: center;
 }
+
+
+//poker
+
+.poker-container .poker-strip.dbg {
+  display: flex !important;
+}
+.poker-strip.isla {
+  display: none !important;
+}
+
+.poker-container .poker-strip.dbg .poker-strip-a img {
+  display: none;
+}
+.poker-strip.dbg .poker-strip-a a:after {
+  content: "Gioca ora";
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 1px solid var(--accent-bg);
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: -10px;
+  color: var(--accent-bg);
+}
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
+  display: none;
+}
+//end poker

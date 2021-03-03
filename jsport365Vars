@@ -115,16 +115,16 @@ body.landing-page {
   display: none;
 }
 
-html .casino-section {
-  background-size: 1360px;
-  background-image: url(http://nextra.pcluster.info/jsport365/images/Casino.jpg);
-}
+// html .casino-section {
+//   background-size: 1360px;
+//   background-image: url(http://nextra.pcluster.info/jsport365/images/Casino.jpg);
+// }
 
 html body .casino-section .casino-container .casino-inner {
   padding-top: 370px;
 }
 
-html div.landing-page .banner-content {
-  width: 100%;
-  background-image: url(//nextra.pcluster.info/jsport365/images/Home-1920.jpg) !important;
-}
+// html div.landing-page .banner-content {
+//   width: 100%;
+//   background-image: url(//nextra.pcluster.info/jsport365/images/Home-1920.jpg) !important;
+// }
