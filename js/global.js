@@ -155,11 +155,22 @@ $(document).ready(() => {
       });
     };
     //main Banner replace slider
-    $(".main-slider").html(
-      `<img onclick="mainBannerClick();" src="${$(
-        '.main-slider .slick-track img[src*="main-banner.jpg"]'
-      ).attr("src")}">`
-    );
+    $(".main-slider").slick("unslick");
+    if (btoa(window.location.host) === "Z29sZHNwb3J0LmxpdmU=") {
+      $("body").attr("host", "Z29sZHNwb3J0LmxpdmU=");
+      $(".main-slider").slick({
+        arrows: false,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 6000,
+        slidesToShow: 1,
+      });
+    }
+    // $(".main-slider").html(
+    //   `<img onclick="mainBannerClick();" src="${$(
+    //     '.main-slider .slick-track img[src*="main-banner.jpg"]'
+    //   ).attr("src")}">`
+    // );
   }
   if (window.showCombination && window.showMultiple && window.showSingle) {
     //ku ka kupon ->
