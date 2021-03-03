@@ -148,19 +148,13 @@ html {
   }
 }
 
-[data-logged="false"][data-access] .single_menu_item.register {
-  display: block !important;
-}
-
 .contact-us .content {
   position: relative;
 }
 .contact-us .content .register-button {
-  margin-left: 20px;
   display: inline-block;
-  position: absolute;
-  right: 10px;
-  bottom: 60px;
+  position: relative;
+  bottom: 0;
 }
 .contact-us .content .register-button a {
   line-height: 28px;
@@ -169,10 +163,4 @@ html {
   background: #af8a33;
   text-transform: uppercase;
   color: #000;
-}
-.contact-us .content p:nth-child(3),
-.contact-us .content p:nth-child(4),
-.contact-us .content p:nth-child(5),
-.contact-us .content p:nth-child(6) {
-  width: calc(100% - 120px);
 }

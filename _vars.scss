@@ -1,130 +1,302 @@
-$skin: "goldwin";
+$skin: "jogar365";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/goldwin/images/logo.svg";
-
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
+$logoUrl: "http://static.pcluster.info/skins/fastbet24/img/logo/newlogo.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/gold.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
+
 html:root {
-  --accent: #fec900;
-  --accent-bg: #fec900;
+  --accent: #af8a33;
+  --accent-bg: #af8a33;
   --accent-txt: #000;
-  --primary-bg: #ffffff;
-  --primary-txt: #707070;
-  --secondary-bg: #23211d;
+  --primary-bg: #262626;
+  --primary-txt: #d5d5d5;
+  --secondary-bg: #303030;
   --secondary-txt: #fff;
-  --mainBg: #1b1a17;
+  --mainBg: #1c1c1c;
   --mainBgCol: #fff;
-  --bg1: #23221e;
+  --bg1: #292929;
   --col1: #fff;
-  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
+  --teableHeadersBg: linear-gradient(#8f6b29, #d0aa3d, #df9f28);
   --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #353532;
+  --teableSubHeadersBg: #434343;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #3c3b37;
-  --casinoGradient1: #000000;
+  --tableBorders: #4d4d4d;
+  --casinoGradient1: linear-gradient(to right, #040100, #bf570f);
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "goldwin";
+  --skin: "jogar365";
 }
 
-$secondary: #f4c100;
+$secondary: #af8a33;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #d1a813;
+$secondaryDark: #a17f2f;
 $secondaryDarkCol: #222;
-$primary: #6d6d6d;
+$primary: #292929;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #444444;
+$sb-2: #292929;
 
-.torn-a {
-  background: var(--secondary-bg) !important;
-  color: var(--secondary-txt) !important;
+body.landing-page {
+  background-color: #000000 !important;
+  background-image: none;
 }
 
-//casino live
-.clive-container > .clive-inner > .clgames-container:nth-child(2) {
-  display: none;
-  margin-bottom: 0;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+* {
+  font-weight: 600;
 }
-.clive-container .clive-inner .clive-games-container:last-child {
-  margin: 0 auto;
+
+.sport_odds_name,
+.main_page_title {
+  font-weight: 900;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
 }
-.clive-container .clive-inner {
+//winter brazilian fix icon
+.header .top-header .top-header-content .primary-menu ul li:nth-child(2):after {
+  left: 20px !important;
+}
+
+.contact-us {
+  display: inline-block !important;
+  width: 100%;
+  float: left;
+}
+.contact-us .button {
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--col1);
+  width: 100%;
+  animation: flashCol infinite linear 1s;
+  background: var(--bg1);
+  font-size: 0px;
   display: flex;
-  flex: 1 1;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  &::before {
+    content: "Fale Conosco";
+    font-size: 16px;
+  }
 }
-
-div[data-source="in_play"] .main_container_tile,
-div[data-source="upcoming"] .main_container_tile {
-  background: var(--teableHeadersBg);
-  color: var(--teableHeadersCol);
-}
-
-.sport_odds_main.live {
-  div.quota {
-    background: #000000 !important;
+.contact-us .content {
+  white-space: normal;
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  > p:first-child,
+  h1 {
+    color: rgb(207, 22, 22);
+    font-size: 15px;
   }
 }
 
-div[data-source="in_play"] .sport_odds_main {
-  min-height: 80px !important;
+.contact-us {
+  display: inline-block;
+  width: 100%;
+  .content {
+    &[data-show="false"] {
+      display: none !important;
+    }
+  }
 }
 
-ul#favouriteSports {
-  background: #fff;
+.help-page .help-menu ul li {
+  display: list-item !important;
 }
 
-.tournaments_wrapper
-  .tournaments_holder
-  .single_tournament_wrapper
-  .first_row
-  .half {
-  color: #222;
+@keyframes flashCol {
+  0% {
+    background: rgb(25, 139, 59);
+    color: rgb(255, 255, 255);
+  }
+  100% {
+    background: var(--teableSubHeadersBg);
+    color: #fff;
+  }
+}
+.main_container > .main_content {
+  padding-top: 0px !important;
 }
 
-.fast_menu_option:last-child {
-  display: flex !important;
-}
-footer .responsible {
-  filter: invert(1);
+html {
+  .main_header {
+    position: unset;
+    z-index: 0;
+    padding-top: 60px;
+  }
+  .main_header .main_header_left {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  .main_header .main_header_right {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
 }
 
-//poker
-
-.poker-container .poker-strip.dbg {
-  display: flex !important;
+.contact-us .content {
+  position: relative;
 }
-.poker-strip.isla {
+.contact-us .content .register-button {
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+}
+.contact-us .content .register-button a {
+  line-height: 28px;
+  padding: 3px 15px;
+  border: 1px solid #af8a33;
+  background: #af8a33;
+  text-transform: uppercase;
+  color: #000;
+}
+.contact-us .content {
+  display: flex;
+  flex-flow: column;
+  > p {
+    order: 3;
+  }
+}
+.register-button {
+  order: 2;
+}
+.contact-us .content > p:first-child,
+.contact-us .content h1 {
+  order: 1;
+}
+
+.new_user_form [type="checkbox"],
+.new_user_form [type="radio"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  float: left;
+  margin-right: 10px;
+}
+.new_user_form [data-pcs] #promoCodeCheck {
   display: none !important;
 }
-
-.poker-container .poker-strip.dbg .poker-strip-a img {
+.new_user_form [data-pcs] .question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+  flex-direction: column;
+}
+.new_user_form [data-pcs] .question .label {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 20px;
+  max-width: calc(100% - 90px);
+}
+.new_user_form [data-pcs] .question .radios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+.new_user_form [data-pcs] .question .radios .radio [type="radio"] {
+  margin-right: 0;
+}
+.new_user_form [data-pcs] .question .radios .radio {
+  margin-right: 10px;
+}
+.new_user_form [data-pcs] .question .radios .radio .label {
+  display: inline-block;
+  float: none;
+  line-height: 30px;
+  margin-left: 10px;
+}
+.new_user_form [data-pcs][data-pcs="“true”"] #promoCodeCheck {
+  display: inline-block !important;
+}
+.new_user_form .section_captcha {
+  display: inline-block;
+}
+.new_user_form .section_captcha .captcha-desc {
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.new_user_form .input-wrapper input[type="“checkbox”"] {
+  float: left;
+  margin-top: 9px;
+}
+.new_user_form .input-wrapper#privacyError,
+.new_user_form .input-wrapper#agreeError {
+  padding: 10px 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.new_user_form .input-wrapper#privacyError .label,
+.new_user_form .input-wrapper#agreeError .label {
+  width: calc(100% - 30px);
+}
+.new_user_form
+  form
+  .row
+  .cell
+  .input-wrapper
+  .radio-holder
+  .radio
+  input[type="“radio”"] {
+  height: 15px;
+}
+.new_user_form form .row .cell .note {
+  color: #886b27;
+  padding-top: 10px;
+}
+.new_user_form form .row .cell .input-wrapper .error-cell {
+  font-size: 12px;
+  line-height: 15px;
+  color: white;
+  background: #f74e4e;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  position: relative;
   display: none;
 }
-.poker-strip.dbg .poker-strip-a a:after {
-  content: "Gioca ora";
-  font-size: 15px;
-  text-transform: uppercase;
-  border: 1px solid var(--accent-bg);
-  padding: 10px 20px;
-  border-radius: 4px;
-  margin-top: -10px;
-  color: var(--accent-bg);
+.new_user_form form .row .cell .input-wrapper .error-cell:before {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 6px 6px;
+  border-color: transparent transparent #f74e4e;
+  position: absolute;
+  top: -5px;
+  content: ‘’;
+  left: 12px;
 }
-.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
-.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
-  display: none;
+.new_user_form form .row .cell .input-wrapper.error .error-cell {
+  display: inline-block;
 }
 //end poker
