@@ -158,6 +158,8 @@ $(document).ready(() => {
     $(".main-slider").slick("unslick");
     if (btoa(window.location.host) === "Z29sZHNwb3J0LmxpdmU=") {
       $("body").attr("host", "Z29sZHNwb3J0LmxpdmU=");
+      $(".main-slider .single-slide:nth-child(3)").remove();
+      $(".main-slider .single-slide:nth-child(3)").remove();
       $(".main-slider").slick({
         arrows: false,
         dots: true,

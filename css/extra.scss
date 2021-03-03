@@ -3026,7 +3026,14 @@ div#ui-datepicker-div[style*="display: block"] {
   border-radius: 0;
   margin-left: 5px;
 }
+
 body:not([host="Z29sZHNwb3J0LmxpdmU="]) {
+  img[src*="main-banner5.jpg"],
+  img[src*="main-banner4.jpg"],
+  img[src*="main-banner3.jpg"],
+  img[src*="main-banner2.jpg"] {
+    display: none !important;
+  }
   .center-content .main-slider .slick-dots,
   .center-content .main-slider .single-slide {
     display: none !important;
@@ -3040,12 +3047,7 @@ body:not([host="Z29sZHNwb3J0LmxpdmU="]) {
 .center-content .main-slider .single-slide#slick-slide00 {
   display: flex !important;
 }
-img[src*="main-banner5.jpg"],
-img[src*="main-banner4.jpg"],
-img[src*="main-banner3.jpg"],
-img[src*="main-banner2.jpg"] {
-  display: none !important;
-}
+
 .login-popup .login-content form {
   background-color: var(--bg1);
   color: var(--col1);
