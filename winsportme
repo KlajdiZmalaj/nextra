@@ -32,7 +32,7 @@ html:root {
   // --casinoGradient2-txt: #fff;
   // --backDrops: #000000cf;
   --accent: #ffc601;
-  --accent-bg: linear-gradient(180deg, #ffedcc 14%, #ffc601 200%);
+  --accent-bg: #f1df9c;
   --accent-txt: #000000;
   --primary-bg: #ffffff;
   --primary-txt: #707070;
@@ -127,7 +127,7 @@ html {
     background-position: left;
   }
   body {
-     background-color: #000;
+    background-color: #000;
     background-position-y: 10px;
     background-size: 2195px;
   }
