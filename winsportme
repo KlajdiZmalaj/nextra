@@ -127,7 +127,7 @@ html {
     background-position: left;
   }
   body {
-    background-color: #1d1d1d;
+     background-color: #000;
     background-position-y: 10px;
     background-size: 2195px;
   }
