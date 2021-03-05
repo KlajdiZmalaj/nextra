@@ -1,62 +1,81 @@
-$skin: "jsport365";
+$skin: "winsport";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "//nextra.pcluster.info/jsport365/images/logo.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
-$bodyCol: #000;
+$logoUrl: "https://nextra.pcluster.info/winsport/images/logo.svg";
+$bodyBg: "https://nextra.pcluster.info/winsport/images/winsportbg.jpg";
+$bodyCol: #1d1d1d;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 0;
+$invet: 1;
 
 html:root {
-  --accent: #fdf10c;
-  --accent-bg: #fdf10c;
-  --accent-txt: #000;
-  --primary-bg: #000000;
-  --primary-txt: #ffffff;
-  --secondary-bg: #2c2c2c;
+  // --accent: #64ff01;
+  // --accent-bg: linear-gradient(180deg, white 14%, #8bc34a 200%);
+  // --accent-txt: #03a022;
+  // --primary-bg: #ffffff;
+  // --primary-txt: #707070;
+  // --secondary-bg: #000000;
+  // --secondary-txt: #fff;
+  // --mainBg: #101010;
+  // --mainBgCol: #fff;
+  // --bg1: #000;
+  // --col1: #fff;
+  // --teableHeadersBg: linear-gradient(180deg, #03a022 14%, #09f172 200%);
+  // --teableHeadersCol: #fff;
+  // --teableSubHeadersBg: linear-gradient(180deg, black 14%, #8bc34a 200%);
+  // --teableSubHeadersCol: #ffffff;
+  // --tableBorders: #292929;
+  // --casinoGradient1: #000000;
+  // --casinoGradient1-txt: #fff;
+  // --casinoGradient2: #03a022;
+  // --casinoGradient2-txt: #fff;
+  // --backDrops: #000000cf;
+  --accent: #ffc601;
+  --accent-bg: linear-gradient(180deg, #ffedcc 14%, #ffc601 200%);
+  --accent-txt: #000000;
+  --primary-bg: #ffffff;
+  --primary-txt: #707070;
+  --secondary-bg: #000000;
   --secondary-txt: #fff;
-  --mainBg: #000000;
+  --mainBg: #101010;
   --mainBgCol: #fff;
-  --bg1: #131313;
+  --bg1: #000;
   --col1: #fff;
-  --teableHeadersBg: #fdf10c;
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #2e2e2e;
+  --teableHeadersBg: linear-gradient(180deg, #ffc601 14%, #ff7a01 200%);
+  --teableHeadersCol: #000;
+  --teableSubHeadersBg: linear-gradient(180deg, black 14%, #866d29 200%);
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #484848;
-  --casinoGradient1: #00000000;
-  --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #fd0;
-  --casinoGradient2-txt: #000;
+  --tableBorders: #292929;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #ffc601;
+  --casinoGradient2-txt: #fff;
   --backDrops: #000000cf;
-  --skin: "jsport365";
 }
 
-$secondary: #fd0;
+$secondary: #ffc601;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #d1a813;
+$secondaryDark: #ffc601;
 $secondaryDarkCol: #222;
-$primary: #333949;
+$primary: #545454;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #333844;
+$sb-2: #444444;
 
-footer {
-  background: var(--bg1);
-  border-top: 1px solid var(--mainBg);
-}
-footer .footer-copyright {
-  background: var(--mainBg);
+.side-bar
+  .single-block
+  .block-content.sports-menu
+  .sports-menu-bottom
+  #sports-menu-slider.ui-widget.ui-widget-content.ui-slider-horizontal {
+  background: var(--accent-bg);
 }
 
-body.landing-page {
-  background-color: #121212 !important;
-  background-image: none;
+.side-bar .single-block .block-content.sports-menu .sports-menu-bottom {
+  background: var(--tableBorders);
 }
 
 //casino live
@@ -67,34 +86,24 @@ body.landing-page {
 .clive-container .clive-inner .clive-games-container:last-child {
   margin: 0 auto;
 }
-
 .clive-container .clive-inner {
   display: flex;
   flex: 1 1;
   justify-content: space-between;
   align-items: center;
 }
-.block-content .single-sport {
-  .anchor {
-    background: linear-gradient(to right, black, #fdf10c);
-    &:hover {
-      background: linear-gradient(to right, black, #fdf10c) !important;
-    }
-    span {
-      color: #222;
-    }
-  }
-}
 
-.center-content .popular-bets .title img {
-  filter: grayscale(1) invert(1);
-}
-
+//poker dbg enable
 .poker-container .poker-strip.dbg {
   display: flex !important;
 }
-.poker-strip.isla {
-  display: none !important;
+.poker-container .poker-strip.isla {
+  display: none;
+}
+
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
+  display: none;
 }
 
 .poker-container .poker-strip.dbg .poker-strip-a img {
@@ -110,21 +119,16 @@ body.landing-page {
   margin-top: -10px;
   color: var(--accent-bg);
 }
-.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
-.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
-  display: none;
+//end poker dbg enable
+
+html {
+  .header .top-header .top-header-content .logo-holder a:before {
+    height: 50px;
+    background-position: left;
+  }
+  body {
+    background-color: #1d1d1d;
+    background-position-y: 10px;
+    background-size: 2195px;
+  }
 }
-
-// html .casino-section {
-//   background-size: 1360px;
-//   background-image: url(http://nextra.pcluster.info/jsport365/images/Casino.jpg);
-// }
-
-html body .casino-section .casino-container .casino-inner {
-  padding-top: 370px;
-}
-
-// html div.landing-page .banner-content {
-//   width: 100%;
-//   background-image: url(//nextra.pcluster.info/jsport365/images/Home-1920.jpg) !important;
-// }

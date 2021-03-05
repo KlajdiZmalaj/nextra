@@ -10,9 +10,30 @@ $bodyCol: #1d1d1d;
 $invet: 1;
 
 html:root {
-  --accent: #64ff01;
-  --accent-bg: linear-gradient(180deg, white 14%, #8bc34a 200%);
-  --accent-txt: #03a022;
+  // --accent: #64ff01;
+  // --accent-bg: linear-gradient(180deg, white 14%, #8bc34a 200%);
+  // --accent-txt: #03a022;
+  // --primary-bg: #ffffff;
+  // --primary-txt: #707070;
+  // --secondary-bg: #000000;
+  // --secondary-txt: #fff;
+  // --mainBg: #101010;
+  // --mainBgCol: #fff;
+  // --bg1: #000;
+  // --col1: #fff;
+  // --teableHeadersBg: linear-gradient(180deg, #03a022 14%, #09f172 200%);
+  // --teableHeadersCol: #fff;
+  // --teableSubHeadersBg: linear-gradient(180deg, black 14%, #8bc34a 200%);
+  // --teableSubHeadersCol: #ffffff;
+  // --tableBorders: #292929;
+  // --casinoGradient1: #000000;
+  // --casinoGradient1-txt: #fff;
+  // --casinoGradient2: #03a022;
+  // --casinoGradient2-txt: #fff;
+  // --backDrops: #000000cf;
+  --accent: #ffc601;
+  --accent-bg: linear-gradient(180deg, #ffedcc 14%, #ffc601 200%);
+  --accent-txt: #000000;
   --primary-bg: #ffffff;
   --primary-txt: #707070;
   --secondary-bg: #000000;
@@ -21,22 +42,22 @@ html:root {
   --mainBgCol: #fff;
   --bg1: #000;
   --col1: #fff;
-  --teableHeadersBg: linear-gradient(180deg, #03a022 14%, #09f172 200%);
-  --teableHeadersCol: #fff;
-  --teableSubHeadersBg: linear-gradient(180deg, black 14%, #8bc34a 200%);
+  --teableHeadersBg: linear-gradient(180deg, #ffc601 14%, #ff7a01 200%);
+  --teableHeadersCol: #000;
+  --teableSubHeadersBg: linear-gradient(180deg, black 14%, #866d29 200%);
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #292929;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #03a022;
+  --casinoGradient2: #ffc601;
   --casinoGradient2-txt: #fff;
   --backDrops: #000000cf;
 }
 
-$secondary: #03a022;
+$secondary: #ffc601;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #03a022;
+$secondaryDark: #ffc601;
 $secondaryDarkCol: #222;
 $primary: #545454;
 $white: #ebebeb;
@@ -108,6 +129,6 @@ html {
   body {
     background-color: #1d1d1d;
     background-position-y: 10px;
-    background-size: 2600px;
+    background-size: 2195px;
   }
 }
