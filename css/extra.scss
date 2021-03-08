@@ -2227,6 +2227,7 @@ body
   margin-top: 2px;
   overflow-y: scroll;
   flex-flow: column;
+
   &[style="display:none"] {
     align-items: center;
     justify-content: center;
@@ -3342,9 +3343,6 @@ g.ct-series.ct-series-a {
 //   background: var(--mainBg);
 // }
 @media screen and (max-device-width: 500px) {
-  .event-viewer-tv-wrapper:not([style*="display"]) + .event-viewer-wrapper {
-    top: 0;
-  }
   .live-menu-wrapper .has-dropdown-menu {
     height: auto !important;
     overflow: visible !important;
@@ -6833,3 +6831,8 @@ table tbody tr td .lost {
 }
 
 //END ACOMBINAZIONE
+@media (max-width: 1022px) {
+  .event-viewer-tv-wrapper:not([style*="display"]) + .event-viewer-wrapper {
+    top: 0 !important;
+  }
+}
