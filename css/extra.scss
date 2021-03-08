@@ -6691,3 +6691,141 @@ div#couponPopUp.hidden {
     flex-grow: 1;
   }
 }
+
+//COMBINAZIONE CSS
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0 10px;
+  background-color: #e5e5e5;
+}
+
+.container {
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.playedCombs,
+.wonOrLost {
+  margin: 0 auto;
+  max-width: 1024px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.playedCombs > div,
+.wonOrLost > div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: 4px solid transparent;
+  background-color: #343743;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: 4px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.playedCombs > div:hover,
+.wonOrLost > div:hover {
+  opacity: 0.9;
+}
+
+.playedCombs > div#won,
+.wonOrLost > div#won {
+  background-color: #64b000;
+  color: #fff;
+}
+
+.playedCombs > div#lost,
+.wonOrLost > div#lost {
+  background-color: #c71a20;
+  color: #fff;
+}
+
+.playedCombs > div#running,
+.wonOrLost > div#running {
+  background-color: #3558bd;
+  color: #fff;
+}
+
+.playedCombs > div.selected,
+.wonOrLost > div.selected {
+  border-color: #03a9f4;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #c2c1c1;
+  margin: 20px auto;
+}
+
+table tbody tr {
+  background-color: #fff;
+}
+
+table tbody tr:hover {
+  background-color: #d9d9d9 !important;
+}
+
+table tbody tr th {
+  background: #062164;
+  font-size: 12px;
+  color: #ebebeb;
+  padding: 7px 3px;
+}
+
+table tbody tr:first-child th {
+  background-color: #07297c;
+  padding: 10px 0;
+  border-bottom: 1px solid #9c9a9a;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+table tbody tr:last-child {
+  font-weight: bold;
+}
+
+table tbody tr td {
+  color: #062164;
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+table tbody tr td .open {
+  width: 15px;
+  height: 15px;
+  background-color: #3558bd;
+}
+
+table tbody tr td .won {
+  width: 15px;
+  height: 15px;
+  background-color: #64b000;
+}
+
+table tbody tr td .lost {
+  width: 15px;
+  height: 15px;
+  background-color: #c71a20;
+}
+
+//END ACOMBINAZIONE
