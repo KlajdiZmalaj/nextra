@@ -9,9 +9,15 @@ $(document).ready(() => {
   );
 
   if (window.location.href.includes("/Sport/sport")) {
+    // mainBannerClick = function () {
+    //   window.location.href =
+    //     window.location.origin + "/Sport/casino?provider=3";
+    // };
+
     mainBannerClick = function () {
       window.location.href =
-        window.location.origin + "/Sport/casino?provider=3";
+        window.location.origin +
+        "/Sport/casino?loadGame=144&name=Boom' Brothers";
     };
   }
 });

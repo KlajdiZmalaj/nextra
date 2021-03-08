@@ -168,6 +168,9 @@ $(document).ready(() => {
         slidesToShow: 1,
       });
     }
+    $(".main-slider").on("click", () => {
+      mainBannerClick();
+    });
     // $(".main-slider").html(
     //   `<img onclick="mainBannerClick();" src="${$(
     //     '.main-slider .slick-track img[src*="main-banner.jpg"]'
