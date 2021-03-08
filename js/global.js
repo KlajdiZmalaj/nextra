@@ -223,5 +223,9 @@ $(document).ready(() => {
   }
   if (window.location.href.includes("/Sport/live")) {
     console.log("live log");
+    $('[name="viewport"]').attr(
+      "content",
+      "width=device-width, initial-scale=0.3"
+    );
   }
 });

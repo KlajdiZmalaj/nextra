@@ -6566,6 +6566,7 @@ body .odds-table.lastMinutes .single-match-row td.match-name .team,
   margin: 0 auto;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 .event-viewer-tv-wrapper:not([style*="display"]) + .event-viewer-wrapper {
