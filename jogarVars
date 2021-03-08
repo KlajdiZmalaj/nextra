@@ -164,3 +164,7 @@ html {
   text-transform: uppercase;
   color: #000;
 }
+
+body .deposit-page .block .right-content .wrapper {
+      color: var(--mainBgCol);
+}
