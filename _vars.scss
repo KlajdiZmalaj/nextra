@@ -165,6 +165,12 @@ html {
   color: #000;
 }
 
-body .deposit-page .block .right-content .wrapper {
-  color: var(--mainBgCol);
+body .deposit-page .block {
+  border: 1px solid var(--tableBorders);
+  border-radius: 6px;
+  .right-content .wrapper {
+    .sub-title {
+      color: var(--mainBgCol);
+    }
+  }
 }
