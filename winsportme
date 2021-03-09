@@ -127,8 +127,34 @@ html {
     background-position: left;
   }
   body {
-    background-color: #000;
     background-position-y: 10px;
     background-size: 2195px;
   }
+}
+
+ul#favouriteSports {
+  background: #fff;
+}
+
+.tournaments_wrapper
+  .tournaments_holder
+  .single_tournament_wrapper
+  .first_row
+  .half {
+  color: #222;
+}
+div[data-source="in_play"] .main_container_tile,
+div[data-source="upcoming"] .main_container_tile {
+  background: var(--teableHeadersBg);
+  color: var(--teableHeadersCol);
+}
+
+.sport_odds_main.live {
+  div.quota {
+    background: #000000 !important;
+  }
+}
+.torn-a {
+  background: var(--secondary-bg) !important;
+  color: var(--secondary-txt) !important;
 }
