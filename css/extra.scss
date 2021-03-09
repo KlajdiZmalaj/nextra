@@ -2380,10 +2380,6 @@ body #oddsMenu tr:last-child {
   .left-side-bar.closed .single-block:first-child .block-title {
     display: flex !important;
   }
-  .logged-page .logged-table tr th,
-  .logged-page .logged-table tr td {
-    padding: 0 0px;
-  }
 }
 .landing-bottom .single-block {
   .title {
@@ -5355,11 +5351,6 @@ body #tabletsDay {
   width: auto;
   margin: 5px 0px;
 }
-@media only screen and (max-width: 1199px) {
-  body {
-    min-width: auto;
-  }
-}
 
 @media only screen and (max-width: 1279px) {
   body {
@@ -5377,15 +5368,7 @@ body #tabletsDay {
   body .header .top-header .top-header-content {
     justify-content: space-around;
   }
-  .header
-    .top-header
-    .top-header-content
-    .primary-menu
-    .header-buttons
-    > button {
-    margin: 0 0px;
-    padding: 0 0px;
-  }
+
   .event-viewer-wrapper {
     position: relative;
   }
