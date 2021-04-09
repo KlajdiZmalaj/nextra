@@ -4654,6 +4654,10 @@ body .odds-table .single-match-row td.match-name {
 }
 .live-odds-table table tr td.odd-holder .single-live-odd .label {
   color: inherit;
+  white-space: nowrap;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .clive-games-container
