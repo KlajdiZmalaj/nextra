@@ -1,150 +1,189 @@
-//was play4bet => playbet
-
-$skin: "play4bet";
+$skin: "jogar365";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/play4bet/images/logo.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/cyan.jpg";
+$logoUrl: "http://static.pcluster.info/skins/fastbet24/img/logo/newlogo.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/gold.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 0;
 
 html:root {
-  --accent: #3ab7af;
-  --accent-bg: #3ab7af;
+  --accent: #af8a33;
+  --accent-bg: #af8a33;
   --accent-txt: #000;
-  --primary-bg: #0b2422;
-  --primary-txt: #fff;
-  --secondary-bg: #131313;
+  --primary-bg: #262626;
+  --primary-txt: #d5d5d5;
+  --secondary-bg: #303030;
   --secondary-txt: #fff;
-  --mainBg: #000000;
-  --mainBgCol: #ffffff;
-  --bg1: #131313;
+  --mainBg: #1c1c1c;
+  --mainBgCol: #fff;
+  --bg1: #292929;
   --col1: #fff;
-  --teableHeadersBg: #0d2a28;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #171717;
+  --teableHeadersBg: linear-gradient(#8f6b29, #d0aa3d, #df9f28);
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #434343;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #0e2c2a;
-  --casinoGradient1: #000000;
+  --tableBorders: #4d4d4d;
+  --casinoGradient1: linear-gradient(to right, #040100, #bf570f);
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #636363;
+  --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "play4bet";
+  --skin: "jogar365";
 }
 
-$secondary: #3ab7af;
+$secondary: #af8a33;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #3ab7af;
+$secondaryDark: #a17f2f;
 $secondaryDarkCol: #222;
-$primary: #000000;
+$primary: #292929;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #000000;
-
-footer {
-  background: var(--bg1);
-  border-top: 1px solid var(--mainBg);
-}
-footer .footer-copyright {
-  background: var(--mainBg);
-}
+$sb-2: #292929;
 
 body.landing-page {
-  background-color: #121212 !important;
+  background-color: #000000 !important;
   background-image: none;
 }
 
-//casino live
-.clive-container > .clive-inner > .clgames-container:nth-child(2) {
-  display: none;
-  margin-bottom: 0;
-}
-.clive-container .clive-inner .clive-games-container:last-child {
-  margin: 0 auto;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+* {
+  font-weight: 600;
 }
 
-.clive-container .clive-inner {
+.sport_odds_name,
+.main_page_title {
+  font-weight: 900;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+}
+//winter brazilian fix icon
+.header .top-header .top-header-content .primary-menu ul li:nth-child(2):after {
+  left: 20px !important;
+}
+
+.contact-us {
+  display: inline-block !important;
+  width: 100%;
+  float: left;
+}
+.contact-us .button {
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--col1);
+  width: 100%;
+  animation: flashCol infinite linear 1s;
+  background: var(--bg1);
+  font-size: 0px;
   display: flex;
-  flex: 1 1;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  &::before {
+    content: "Fale Conosco";
+    font-size: 16px;
+  }
 }
-html .header .top-header .top-header-content .logo-holder a:before {
-  width: 240px;
-  height: 80px;
-  left: 15px;
+.contact-us .content {
+  white-space: normal;
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  > p:first-child,
+  h1 {
+    color: rgb(207, 22, 22);
+    font-size: 15px;
+  }
 }
 
-.live-content-wrapper
-  .live-sports-overview
-  .sport-container
-  .single-panel
-  .panel-content
-  .single-match
-  .odds-wrapper
-  .odds-holder
-  .single-odd {
+.contact-us {
+  display: inline-block;
+  width: 100%;
+  .content {
+    &[data-show="false"] {
+      display: none !important;
+    }
+  }
+}
+
+.help-page .help-menu ul li {
+  display: list-item !important;
+}
+
+@keyframes flashCol {
+  0% {
+    background: rgb(25, 139, 59);
+    color: rgb(255, 255, 255);
+  }
+  100% {
+    background: var(--teableSubHeadersBg);
+    color: #fff;
+  }
+}
+.main_container > .main_content {
+  padding-top: 0px !important;
+}
+
+html {
+  .main_header {
+    position: unset;
+    z-index: 0;
+    padding-top: 60px;
+  }
+  .main_header .main_header_left {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  .main_header .main_header_right {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+}
+
+.contact-us .content {
   position: relative;
 }
+.contact-us .content .register-button {
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+}
+.contact-us .content .register-button a {
+  line-height: 28px;
+  padding: 3px 15px;
+  border: 1px solid #af8a33;
+  background: #af8a33;
+  text-transform: uppercase;
+  color: #000;
+}
 
-html {
-  .live-content-wrapper
-    .live-sports-overview
-    .sport-container
-    .single-panel
-    .panel-content
-    .single-match
-    .odds-wrapper
-    .odds-holder
-    .single-odd
-    .odd-type:after,
-  .single-odd-type .odd-type:after,
-  .single-live-odd .quote:after {
-    display: block !important;
-    position: absolute;
-    left: 0;
-    top: 10px;
+body .deposit-page .block {
+  border: 1px solid var(--tableBorders);
+  border-radius: 6px;
+  .right-content .wrapper {
+    .sub-title {
+      color: var(--mainBgCol);
+    }
   }
 }
 
-html {
-  .live-odds-table
-    table
-    tr
-    td.odd-holder
-    .single-live-odd.odd-zero
-    .quote:after {
-    left: 0;
-    top: 20px;
+.contact-us .content {
+  .reg-button a {
+    color: var(--accent);
   }
-}
-.live-content-wrapper
-  .live-sports-overview
-  .sport-container
-  .single-panel
-  .panel-content
-  .single-match
-  .odds-wrapper
-  .odds-holder
-  .single-odd {
-  padding-left: 12px;
-}
-
-html {
-  .sports-container .matches .single-match .match-odds .single-odd-type {
-    width: calc(100% / 3 - 34px);
-    padding-left: 18px;
+  h2 + div + div {
+    font-size: 0px;
+    &:before {
+      content: "Whatsapp   21 967787985";
+      font-size: 12px;
+    }
   }
-}
-
-html body #oddsMenu tr .odd-type {
-  background: #0d2a28;
-  color: #fff;
 }
