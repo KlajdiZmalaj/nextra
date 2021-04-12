@@ -187,9 +187,11 @@ body .deposit-page .block {
     }
   }
 }
-.input-wrapper .error-cell {
-  display: none;
-}
-.input-wrapper.error .error-cell {
-  display: block;
+html body {
+  .input-wrapper .error-cell {
+    display: none;
+  }
+  .input-wrapper.error .error-cell {
+    display: block;
+  }
 }
