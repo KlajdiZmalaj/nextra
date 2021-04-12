@@ -1,81 +1,64 @@
-$skin: "winsport";
+//was play4bet => playbet
+
+$skin: "play4bet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/winsport/images/logo.svg";
-$bodyBg: "https://nextra.pcluster.info/winsport/images/winsportbg.jpg";
-$bodyCol: #1d1d1d;
+$logoUrl: "https://nextra.pcluster.info/play4bet/images/logo.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/cyan.jpg";
+$bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
 
 html:root {
-  // --accent: #64ff01;
-  // --accent-bg: linear-gradient(180deg, white 14%, #8bc34a 200%);
-  // --accent-txt: #03a022;
-  // --primary-bg: #ffffff;
-  // --primary-txt: #707070;
-  // --secondary-bg: #000000;
-  // --secondary-txt: #fff;
-  // --mainBg: #101010;
-  // --mainBgCol: #fff;
-  // --bg1: #000;
-  // --col1: #fff;
-  // --teableHeadersBg: linear-gradient(180deg, #03a022 14%, #09f172 200%);
-  // --teableHeadersCol: #fff;
-  // --teableSubHeadersBg: linear-gradient(180deg, black 14%, #8bc34a 200%);
-  // --teableSubHeadersCol: #ffffff;
-  // --tableBorders: #292929;
-  // --casinoGradient1: #000000;
-  // --casinoGradient1-txt: #fff;
-  // --casinoGradient2: #03a022;
-  // --casinoGradient2-txt: #fff;
-  // --backDrops: #000000cf;
-  --accent: #fec900;
-  --accent-bg: #fec900;
+  --accent: #3ab7af;
+  --accent-bg: #3ab7af;
   --accent-txt: #000;
-  --primary-bg: #ffffff;
-  --primary-txt: #707070;
-  --secondary-bg: #23211d;
+  --primary-bg: #0b2422;
+  --primary-txt: #fff;
+  --secondary-bg: #131313;
   --secondary-txt: #fff;
-  --mainBg: #1b1a17;
-  --mainBgCol: #fff;
-  --bg1: #23221e;
+  --mainBg: #000000;
+  --mainBgCol: #ffffff;
+  --bg1: #131313;
   --col1: #fff;
-  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #353532;
+  --teableHeadersBg: #0d2a28;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #171717;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #3c3b37;
+  --tableBorders: #0e2c2a;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "play4bet";
 }
 
-$secondary: #f4c100;
+$secondary: #3ab7af;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #d1a813;
+$secondaryDark: #3ab7af;
 $secondaryDarkCol: #222;
-$primary: #6d6d6d;
+$primary: #000000;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #444444;
+$sb-2: #000000;
 
-.side-bar
-  .single-block
-  .block-content.sports-menu
-  .sports-menu-bottom
-  #sports-menu-slider.ui-widget.ui-widget-content.ui-slider-horizontal {
-  background: var(--accent-bg);
+footer {
+  background: var(--bg1);
+  border-top: 1px solid var(--mainBg);
+}
+footer .footer-copyright {
+  background: var(--mainBg);
 }
 
-.side-bar .single-block .block-content.sports-menu .sports-menu-bottom {
-  background: var(--tableBorders);
+body.landing-page {
+  background-color: #121212 !important;
+  background-image: none;
 }
 
 //casino live
@@ -86,75 +69,82 @@ $sb-2: #444444;
 .clive-container .clive-inner .clive-games-container:last-child {
   margin: 0 auto;
 }
+
 .clive-container .clive-inner {
   display: flex;
   flex: 1 1;
   justify-content: space-between;
   align-items: center;
 }
-
-//poker dbg enable
-.poker-container .poker-strip.dbg {
-  display: flex !important;
-}
-.poker-container .poker-strip.isla {
-  display: none;
+html .header .top-header .top-header-content .logo-holder a:before {
+  width: 240px;
+  height: 80px;
+  left: 15px;
 }
 
-.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
-.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
-  display: none;
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd {
+  position: relative;
 }
-
-.poker-container .poker-strip.dbg .poker-strip-a img {
-  display: none;
-}
-.poker-strip.dbg .poker-strip-a a:after {
-  content: "Gioca ora";
-  font-size: 15px;
-  text-transform: uppercase;
-  border: 1px solid var(--accent-bg);
-  padding: 10px 20px;
-  border-radius: 4px;
-  margin-top: -10px;
-  color: var(--accent-bg);
-}
-//end poker dbg enable
 
 html {
-  .header .top-header .top-header-content .logo-holder a:before {
-    height: 50px;
-    background-position: left;
-  }
-  body {
-    background-position-y: 10px;
-    background-size: 2195px;
+  .live-content-wrapper
+    .live-sports-overview
+    .sport-container
+    .single-panel
+    .panel-content
+    .single-match
+    .odds-wrapper
+    .odds-holder
+    .single-odd
+    .odd-type:after,
+  .single-odd-type .odd-type:after,
+  .single-live-odd .quote:after {
+    display: block !important;
+    position: absolute;
+    left: 0;
+    top: 10px;
   }
 }
 
-ul#favouriteSports {
-  background: #fff;
-}
-
-.tournaments_wrapper
-  .tournaments_holder
-  .single_tournament_wrapper
-  .first_row
-  .half {
-  color: #222;
-}
-div[data-source="in_play"] .main_container_tile,
-div[data-source="upcoming"] .main_container_tile {
-  background: var(--teableHeadersBg);
-  color: var(--teableHeadersCol);
-}
-
-.sport_odds_main.live {
-  div.quota {
-    background: #000000 !important;
+html {
+  .live-odds-table
+    table
+    tr
+    td.odd-holder
+    .single-live-odd.odd-zero
+    .quote:after {
+    left: 0;
+    top: 20px;
   }
 }
-.torn-a {
-  background: var(--secondary-bg) !important;
-  color: var(--secondary-txt) !important;
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd {
+  padding-left: 12px;
+}
+
+html {
+  .sports-container .matches .single-match .match-odds .single-odd-type {
+    width: calc(100% / 3 - 34px);
+    padding-left: 18px;
+  }
+}
+
+html body #oddsMenu tr .odd-type {
+  background: #0d2a28;
+  color: #fff;
 }

@@ -2335,8 +2335,16 @@ div.landing-page .banner-content:before {
   left: 5px;
   top: 12px;
 }
-.live-odds-table table tr td.odd-holder .single-live-odd.odd-zero .quote:after {
+
+html
+  .live-odds-table
+  table
+  tr
+  td.odd-holder
+  .single-live-odd.odd-zero
+  .quote:after {
   left: 6px;
+  top: 6px;
   transform: none;
 }
 .live-odds-table table tr td.odd-holder .single-live-odd .quote {
@@ -6819,19 +6827,27 @@ div#couponPopUp.hidden {
 table tbody tr td .open {
   // width: 15px;
   // height: 15px;
-  background-color: #3558bd;
+
+  &:not(.result-holder) {
+    background-color: #3558bd;
+  }
 }
 
 table tbody tr td .won {
   // width: 15px;
   // height: 15px;
-  background-color: #64b000;
+
+  &:not(.result-holder) {
+    background-color: #64b000;
+  }
 }
 
 table tbody tr td .lost {
   // width: 15px;
   // height: 15px;
-  background-color: #c71a20;
+  &:not(.result-holder) {
+    background-color: #c71a20;
+  }
 }
 
 //END ACOMBINAZIONE
