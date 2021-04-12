@@ -1,160 +1,197 @@
-$skin: "winsport";
+$skin: "jogar365";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/winsport/images/logo.svg";
-$bodyBg: "https://nextra.pcluster.info/winsport/images/winsportbg.jpg";
-$bodyCol: #1d1d1d;
+$logoUrl: "http://static.pcluster.info/skins/fastbet24/img/logo/newlogo.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/gold.jpg";
+$bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
 
 html:root {
-  // --accent: #64ff01;
-  // --accent-bg: linear-gradient(180deg, white 14%, #8bc34a 200%);
-  // --accent-txt: #03a022;
-  // --primary-bg: #ffffff;
-  // --primary-txt: #707070;
-  // --secondary-bg: #000000;
-  // --secondary-txt: #fff;
-  // --mainBg: #101010;
-  // --mainBgCol: #fff;
-  // --bg1: #000;
-  // --col1: #fff;
-  // --teableHeadersBg: linear-gradient(180deg, #03a022 14%, #09f172 200%);
-  // --teableHeadersCol: #fff;
-  // --teableSubHeadersBg: linear-gradient(180deg, black 14%, #8bc34a 200%);
-  // --teableSubHeadersCol: #ffffff;
-  // --tableBorders: #292929;
-  // --casinoGradient1: #000000;
-  // --casinoGradient1-txt: #fff;
-  // --casinoGradient2: #03a022;
-  // --casinoGradient2-txt: #fff;
-  // --backDrops: #000000cf;
-  --accent: #fec900;
-  --accent-bg: #fec900;
+  --accent: #af8a33;
+  --accent-bg: #af8a33;
   --accent-txt: #000;
-  --primary-bg: #ffffff;
-  --primary-txt: #707070;
-  --secondary-bg: #23211d;
+  --primary-bg: #262626;
+  --primary-txt: #d5d5d5;
+  --secondary-bg: #303030;
   --secondary-txt: #fff;
-  --mainBg: #1b1a17;
+  --mainBg: #1c1c1c;
   --mainBgCol: #fff;
-  --bg1: #23221e;
+  --bg1: #292929;
   --col1: #fff;
-  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
+  --teableHeadersBg: linear-gradient(#8f6b29, #d0aa3d, #df9f28);
   --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #353532;
+  --teableSubHeadersBg: #434343;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #3c3b37;
-  --casinoGradient1: #000000;
+  --tableBorders: #4d4d4d;
+  --casinoGradient1: linear-gradient(to right, #040100, #bf570f);
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
+  --skin: "jogar365";
 }
 
-$secondary: #f4c100;
+$secondary: #af8a33;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #d1a813;
+$secondaryDark: #a17f2f;
 $secondaryDarkCol: #222;
-$primary: #6d6d6d;
+$primary: #292929;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #444444;
+$sb-2: #292929;
 
-.side-bar
-  .single-block
-  .block-content.sports-menu
-  .sports-menu-bottom
-  #sports-menu-slider.ui-widget.ui-widget-content.ui-slider-horizontal {
-  background: var(--accent-bg);
+body.landing-page {
+  background-color: #000000 !important;
+  background-image: none;
 }
 
-.side-bar .single-block .block-content.sports-menu .sports-menu-bottom {
-  background: var(--tableBorders);
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+* {
+  font-weight: 600;
 }
 
-//casino live
-.clive-container > .clive-inner > .clgames-container:nth-child(2) {
-  display: none;
-  margin-bottom: 0;
-}
-.clive-container .clive-inner .clive-games-container:last-child {
-  margin: 0 auto;
-}
-.clive-container .clive-inner {
-  display: flex;
-  flex: 1 1;
-  justify-content: space-between;
-  align-items: center;
-}
-
-//poker dbg enable
-.poker-container .poker-strip.dbg {
-  display: flex !important;
-}
-.poker-container .poker-strip.isla {
-  display: none;
-}
-
-.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
-.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
-  display: none;
-}
-
-.poker-container .poker-strip.dbg .poker-strip-a img {
-  display: none;
-}
-.poker-strip.dbg .poker-strip-a a:after {
-  content: "Gioca ora";
+.sport_odds_name,
+.main_page_title {
+  font-weight: 900;
   font-size: 15px;
-  text-transform: uppercase;
-  border: 1px solid var(--accent-bg);
-  padding: 10px 20px;
-  border-radius: 4px;
-  margin-top: -10px;
-  color: var(--accent-bg);
+  font-family: "Lato", sans-serif;
 }
-//end poker dbg enable
+//winter brazilian fix icon
+.header .top-header .top-header-content .primary-menu ul li:nth-child(2):after {
+  left: 20px !important;
+}
+
+.contact-us {
+  display: inline-block !important;
+  width: 100%;
+  float: left;
+}
+.contact-us .button {
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--col1);
+  width: 100%;
+  animation: flashCol infinite linear 1s;
+  background: var(--bg1);
+  font-size: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &::before {
+    content: "Fale Conosco";
+    font-size: 16px;
+  }
+}
+.contact-us .content {
+  white-space: normal;
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  > p:first-child,
+  h1 {
+    color: rgb(207, 22, 22);
+    font-size: 15px;
+  }
+}
+
+.contact-us {
+  display: inline-block;
+  width: 100%;
+  .content {
+    &[data-show="false"] {
+      display: none !important;
+    }
+  }
+}
+
+.help-page .help-menu ul li {
+  display: list-item !important;
+}
+
+@keyframes flashCol {
+  0% {
+    background: rgb(25, 139, 59);
+    color: rgb(255, 255, 255);
+  }
+  100% {
+    background: var(--teableSubHeadersBg);
+    color: #fff;
+  }
+}
+.main_container > .main_content {
+  padding-top: 0px !important;
+}
 
 html {
-  .header .top-header .top-header-content .logo-holder a:before {
-    height: 50px;
-    background-position: left;
+  .main_header {
+    position: unset;
+    z-index: 0;
+    padding-top: 60px;
   }
-  body {
-    background-position-y: 10px;
-    background-size: 2195px;
+  .main_header .main_header_left {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  .main_header .main_header_right {
+    position: fixed;
+    top: 0;
+    z-index: 1;
   }
 }
 
-ul#favouriteSports {
-  background: #fff;
+.contact-us .content {
+  position: relative;
+}
+.contact-us .content .register-button {
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+}
+.contact-us .content .register-button a {
+  line-height: 28px;
+  padding: 3px 15px;
+  border: 1px solid #af8a33;
+  background: #af8a33;
+  text-transform: uppercase;
+  color: #000;
 }
 
-.tournaments_wrapper
-  .tournaments_holder
-  .single_tournament_wrapper
-  .first_row
-  .half {
-  color: #222;
-}
-div[data-source="in_play"] .main_container_tile,
-div[data-source="upcoming"] .main_container_tile {
-  background: var(--teableHeadersBg);
-  color: var(--teableHeadersCol);
-}
-
-.sport_odds_main.live {
-  div.quota {
-    background: #000000 !important;
+body .deposit-page .block {
+  border: 1px solid var(--tableBorders);
+  border-radius: 6px;
+  .right-content .wrapper {
+    .sub-title {
+      color: var(--mainBgCol);
+    }
   }
 }
-.torn-a {
-  background: var(--secondary-bg) !important;
-  color: var(--secondary-txt) !important;
+
+.contact-us .content {
+  .reg-button a {
+    color: var(--accent);
+  }
+  h2 + div + div {
+    font-size: 0px;
+    &:before {
+      content: "Whatsapp   21 967787985";
+      font-size: 12px;
+    }
+  }
+}
+html body {
+  .input-wrapper .error-cell {
+    display: none;
+  }
+  .input-wrapper.error .error-cell {
+    display: block;
+  }
 }

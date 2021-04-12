@@ -174,3 +174,22 @@ body .deposit-page .block {
     }
   }
 }
+
+.contact-us .content {
+  .reg-button a {
+    color: var(--accent);
+  }
+  h2 + div + div {
+    font-size: 0px;
+    &:before {
+      content: "Whatsapp   21 967787985";
+      font-size: 12px;
+    }
+  }
+}
+.input-wrapper .error-cell {
+  display: none;
+}
+.input-wrapper.error .error-cell {
+  display: block;
+}
