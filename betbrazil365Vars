@@ -1,8 +1,8 @@
-$skin: "betbrazil365";
+$skin: "gigabet";
 $cdnPath: "/nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/betbrazil365/images/logo22.svg";
+$logoUrl: "https://nextra.pcluster.info/gigabet/images/logo22.svg";
 $bodyBg: "https://gradm-api.pcluster.info/api/skin/24/image/51345629667ab67c22bd180144b9a245.jpeg";
 $bodyCol: #000;
 
@@ -35,7 +35,7 @@ html:root {
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "topbet356";
+  --skin: "betbrazil365";
 }
 
 $secondary: #14805e;
@@ -59,7 +59,6 @@ html body {
 //   display: none !important;
 // }
 
-
 //casino live
 .clive-container > .clive-inner > .clgames-container:nth-child(2) {
   display: none;
@@ -76,14 +75,20 @@ html body {
   align-items: center;
 }
 
-div[data-source="in_play"] .main_container_tile, div[data-source="upcoming"] .main_container_tile {
-    background-color: #6d6b64;
+div[data-source="in_play"] .main_container_tile,
+div[data-source="upcoming"] .main_container_tile {
+  background-color: #6d6b64;
 }
-body .clive-container>.clive-inner>.clgames-container .clgames-item .clgames-overlay .clg-btns-a,
+body
+  .clive-container
+  > .clive-inner
+  > .clgames-container
+  .clgames-item
+  .clgames-overlay
+  .clg-btns-a,
 body .clive-container .clive-item .clive-overlay .cl-btns-a {
-  background-color:var(--accent);
+  background-color: var(--accent);
 }
-
 
 .casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
   &:before {
