@@ -50,7 +50,7 @@ body.landing-page {
   background-color: #000000 !important;
   background-image: none;
 }
-
+@import url("https://nextra.pcluster.info/css/fonts/fontAwesome/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 * {
   font-weight: 600;
@@ -182,16 +182,38 @@ body .deposit-page .block {
   h2 + div + div {
     font-size: 0px;
     &:before {
-      content: "Whatsapp   21 967787985";
+      // content: "Whatsapp   21 967787985";
+      // font-size: 12px;
+      // content: "\f232";
+      // font: normal normal normal 14px/1 FontAwesome;
+      // font-family: FontAwesome !important;
+      // font-size: 12px;
+    }
+    &:after {
+      content: "21 967787985";
+      font-size: 12px;
+      background: url(https://nextra.pcluster.info/jogar365/images/whatsapp.svg);
+      min-width: 40px;
+      min-height: 40px;
+      padding-left: 19px;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+  h2 + div + div + div {
+    font-size: 0px;
+    &:before {
+      content: "info@jogar365.net";
       font-size: 12px;
     }
   }
+  h2 + div + div + div + div {
+    font-size: 0px;
+  }
 }
-html body {
-  .input-wrapper .error-cell {
-    display: none;
-  }
-  .input-wrapper.error .error-cell {
-    display: block;
-  }
+.input-wrapper .error-cell {
+  display: none;
+}
+.input-wrapper.error .error-cell {
+  display: block;
 }
