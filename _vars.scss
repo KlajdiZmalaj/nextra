@@ -1,197 +1,96 @@
-$skin: "jogar365";
+// was froutbet => matrix365
+
+//invet 1 light skin inver 0 dark skin (images)
+$invet: 1;
+html:root {
+  --accent: #4caf50;
+  --accent-bg: #4caf50;
+  --accent-txt: #222;
+  --primary-bg: #d9d9d9;
+  --primary-txt: #000000;
+  --secondary-bg: #000;
+  --secondary-txt: #fff;
+  --mainBg: #000000;
+  --mainBgCol: #e5e5e5;
+  --bg1: #0f0f0f;
+  --col1: #e7e7e7;
+  --teableHeadersBg: #075424;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #09441f;
+  --teableSubHeadersCol: #4caf50;
+  --tableBorders: #303030;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #4caf50;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+  --skin: "giokibet";
+}
+
+$skin: "giokibet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "http://static.pcluster.info/skins/fastbet24/img/logo/newlogo.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/gold.jpg";
+$logoUrl: "#{$imagesPath}/logo.svg";
+$bodyBg: "https://nextra.pcluster.info/fourbet/images/matrix.jpg";
 $bodyCol: #000;
-
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 0;
+$invet: 1;
 
-html:root {
-  --accent: #af8a33;
-  --accent-bg: #af8a33;
-  --accent-txt: #000;
-  --primary-bg: #262626;
-  --primary-txt: #d5d5d5;
-  --secondary-bg: #303030;
-  --secondary-txt: #fff;
-  --mainBg: #1c1c1c;
-  --mainBgCol: #fff;
-  --bg1: #292929;
-  --col1: #fff;
-  --teableHeadersBg: linear-gradient(#8f6b29, #d0aa3d, #df9f28);
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #434343;
-  --teableSubHeadersCol: #ffffff;
-  --tableBorders: #4d4d4d;
-  --casinoGradient1: linear-gradient(to right, #040100, #bf570f);
-  --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
-  --casinoGradient2-txt: #000;
-  --backDrops: #000000cf;
-  --skin: "jogar365";
-}
-
-$secondary: #af8a33;
+$secondary: #075424;
 $secondaryCol: #fff;
+
+$secondaryDark: #075424;
+$secondaryDarkCol: #fff;
 $black: #000000;
-$secondaryDark: #a17f2f;
-$secondaryDarkCol: #222;
-$primary: #292929;
-$white: #ebebeb;
+$primary: #222;
+$white: #fff;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #292929;
+$sb-2: #162444;
 
-body.landing-page {
-  background-color: #000000 !important;
-  background-image: none;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
-* {
-  font-weight: 600;
+//black filter li logos
+#favouriteTournaments li:before {
+  filter: brightness(0.1);
 }
 
-.sport_odds_name,
-.main_page_title {
-  font-weight: 900;
-  font-size: 15px;
-  font-family: "Lato", sans-serif;
-}
-//winter brazilian fix icon
-.header .top-header .top-header-content .primary-menu ul li:nth-child(2):after {
-  left: 20px !important;
-}
-
-.contact-us {
-  display: inline-block !important;
-  width: 100%;
-  float: left;
-}
-.contact-us .button {
-  line-height: 30px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: bold;
-  color: var(--col1);
-  width: 100%;
-  animation: flashCol infinite linear 1s;
-  background: var(--bg1);
-  font-size: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  &::before {
-    content: "Fale Conosco";
-    font-size: 16px;
-  }
-}
-.contact-us .content {
-  white-space: normal;
-  padding: 5px 10px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  > p:first-child,
-  h1 {
-    color: rgb(207, 22, 22);
-    font-size: 15px;
-  }
-}
-
-.contact-us {
-  display: inline-block;
-  width: 100%;
-  .content {
-    &[data-show="false"] {
-      display: none !important;
-    }
-  }
-}
-
-.help-page .help-menu ul li {
-  display: list-item !important;
-}
-
-@keyframes flashCol {
-  0% {
-    background: rgb(25, 139, 59);
-    color: rgb(255, 255, 255);
-  }
-  100% {
-    background: var(--teableSubHeadersBg);
-    color: #fff;
-  }
-}
-.main_container > .main_content {
-  padding-top: 0px !important;
-}
-
-html {
-  .main_header {
-    position: unset;
-    z-index: 0;
-    padding-top: 60px;
-  }
-  .main_header .main_header_left {
-    position: fixed;
-    top: 0;
-    z-index: 2;
-  }
-  .main_header .main_header_right {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-  }
-}
-
-.contact-us .content {
-  position: relative;
-}
-.contact-us .content .register-button {
-  display: inline-block;
-  position: relative;
-  bottom: 0;
-}
-.contact-us .content .register-button a {
-  line-height: 28px;
-  padding: 3px 15px;
-  border: 1px solid #af8a33;
-  background: #af8a33;
-  text-transform: uppercase;
-  color: #000;
-}
-
-body .deposit-page .block {
-  border: 1px solid var(--tableBorders);
-  border-radius: 6px;
-  .right-content .wrapper {
-    .sub-title {
-      color: var(--mainBgCol);
-    }
-  }
-}
-
-.contact-us .content {
-  .reg-button a {
-    color: var(--accent);
-  }
-  h2 + div + div {
-    font-size: 0px;
-    &:before {
-      content: "Whatsapp   21 967787985";
-      font-size: 12px;
-    }
-  }
-}
 html body {
-  .input-wrapper .error-cell {
-    display: none;
+  background-position-y: 80px !important;
+  background-attachment: initial;
+  background-size: 2260px;
+  background-repeat: no-repeat;
+}
+
+.header .top-header {
+  border-bottom: 4px solid var(--casinoGradient2) !important;
+}
+
+.header .top-bar {
+  background: #1b1b1b !important;
+  color: #20ff00 !important;
+}
+
+footer {
+  background: var(--accent-bg) !important;
+}
+.header .top-header .top-header-content .primary-menu ul li.active {
+  color: #4caf50 !important;
+}
+.header .top-header .top-header-content .primary-menu li a:after {
+  color: inherit !important;
+}
+html {
+  .header .top-header .top-header-content .primary-menu ul li:hover:before,
+  .header .top-header .top-header-content .primary-menu ul li.active:before {
+    border-bottom: 10px solid #4caf50 !important;
   }
-  .input-wrapper.error .error-cell {
-    display: block;
-  }
+}
+html footer {
+  background: #075424 !important;
+  color: #fff !important;
+}
+html .torn-a {
+  background: #0f0f0f;
+  color: #4caf50;
 }
