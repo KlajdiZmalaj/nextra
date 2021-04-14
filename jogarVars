@@ -3,7 +3,7 @@ $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
 $logoUrl: "http://static.pcluster.info/skins/fastbet24/img/logo/newlogo.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/gold.jpg";
+$bodyBg: "https://nextra.pcluster.info/#{$skin}/images/gold.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
@@ -55,7 +55,9 @@ body.landing-page {
 * {
   font-weight: 600;
 }
-
+body {
+  background-size: auto !important;
+}
 .sport_odds_name,
 .main_page_title {
   font-weight: 900;
@@ -216,4 +218,33 @@ body .deposit-page .block {
 }
 .input-wrapper.error .error-cell {
   display: block;
+}
+body {
+  .clive-banner-container {
+    width: 100%;
+    max-width: 100%;
+    background: var(--mainBg);
+  }
+  .clive-container {
+    width: 100%;
+    max-width: 100%;
+    .clive-inner {
+      width: 100%;
+      max-width: 1360px;
+      margin: 0 auto;
+    }
+  }
+}
+.side-bar.right-side-bar .banner-block {
+  position: relative;
+}
+.side-bar.right-side-bar .banner-block:after {
+  content: "";
+  background-image: url("https://nextra.pcluster.info/#{$skin}/images/banner-test.gif");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 10px;
 }
