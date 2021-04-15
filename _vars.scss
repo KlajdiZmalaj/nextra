@@ -1,250 +1,254 @@
-$skin: "jogar365";
+$skin: "bbgame";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "http://static.pcluster.info/skins/fastbet24/img/logo/newlogo.svg";
-$bodyBg: "https://nextra.pcluster.info/#{$skin}/images/gold.jpg";
+$logoUrl: "https://nextra.pcluster.info/bbgame/images/logo2.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 0;
-
+$invet: 1;
 html:root {
-  --accent: #af8a33;
-  --accent-bg: #af8a33;
+  --accent: #95cd3b;
+  --accent-bg: #95cd3b;
   --accent-txt: #000;
-  --primary-bg: #262626;
-  --primary-txt: #d5d5d5;
-  --secondary-bg: #303030;
+  --primary-bg: #000;
+  --primary-txt: #fff;
+  --secondary-bg: #212931;
   --secondary-txt: #fff;
-  --mainBg: #1c1c1c;
+  --mainBg: #212931;
   --mainBgCol: #fff;
-  --bg1: #292929;
+  --bg1: #29333b;
   --col1: #fff;
-  --teableHeadersBg: linear-gradient(#8f6b29, #d0aa3d, #df9f28);
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #434343;
+  --teableHeadersBg: #384351;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #14191d;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #4d4d4d;
-  --casinoGradient1: linear-gradient(to right, #040100, #bf570f);
-  --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --tableBorders: #445461;
+  --casinoGradient1: linear-gradient(
+    to right,
+    #95cd3b00 3%,
+    #95cd3b 60%,
+    #95cd3b00 99%
+  );
+  --casinoGradient1-txt: #000;
+  --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "jogar365";
+  --skin: "bbgame";
 }
 
-$secondary: #af8a33;
+$secondary: #95cd3b;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #a17f2f;
-$secondaryDarkCol: #222;
-$primary: #292929;
+$secondaryDark: #95cd3b;
+$secondaryDarkCol: #fff;
+$primary: #607d8b;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #292929;
+$sb-2: #525b61;
+
+body {
+  background-size: 2038px !important;
+}
+
+.main-content.home-page
+  .left-side-bar
+  .single-block:first-child
+  .block-title
+  span,
+.main-content.home-page
+  .right-side-bar
+  .single-block:first-child
+  .block-title
+  span,
+.main-content.home-page
+  .right-side-bar
+  .single-block:nth-child(2)
+  .block-title
+  span {
+  color: var(--accent-bg);
+  font-weight: 500;
+}
+
+.single-sport .states .state .championship.selected .anchor {
+  color: var(--accent);
+}
+.single-sport
+  .states
+  .state
+  .championship
+  .anchor
+  .check
+  input:checked
+  ~ .checkmark:after,
+.single-sport
+  .states
+  .state
+  .championship
+  .anchor
+  .check
+  input:checked
+  ~ .checkmark {
+  border-color: var(--accent) !important;
+}
+
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
+.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
+  border: 1px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+
+.tabs-holder .tabs-row .single-tab {
+  border-bottom: 2px solid transparent !important;
+}
+
+.tabs-holder .tabs-row .single-tab:hover,
+.tabs-holder .tabs-row .single-tab.active {
+  border-bottom: 2px solid var(--accent-bg) !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+.odds-table .second-header {
+  opacity: 1 !important;
+}
+
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .selections-wrapper
+  .single-event
+  .selected-bet
+  .bet
+  .quote {
+  color: var(--accent);
+}
 
 body.landing-page {
-  background-color: #000000 !important;
+  background-color: #31343d !important;
   background-image: none;
 }
-@import url("https://nextra.pcluster.info/css/fonts/fontAwesome/css/all.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
-* {
-  font-weight: 600;
+.center-content.live-center-content {
+  grid-template-columns: 1fr 340px !important;
+}
+html body .sport.active[id*="LVSPORT"] {
+  .single-match .match-info,
+  .single-match .match-odds {
+    background: var(--bg1) !important;
+    color: var(--col1) !important;
+  }
+}
+.sport.active .single-match {
+  border-left: 0 !important;
 }
 body {
-  background-size: auto !important;
-}
-.sport_odds_name,
-.main_page_title {
-  font-weight: 900;
-  font-size: 15px;
-  font-family: "Lato", sans-serif;
-}
-//winter brazilian fix icon
-.header .top-header .top-header-content .primary-menu ul li:nth-child(2):after {
-  left: 20px !important;
-}
-
-.contact-us {
-  display: inline-block !important;
-  width: 100%;
-  float: left;
-}
-.contact-us .button {
-  line-height: 30px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: bold;
-  color: var(--col1);
-  width: 100%;
-  animation: flashCol infinite linear 1s;
-  background: var(--bg1);
-  font-size: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  &::before {
-    content: "Fale Conosco";
-    font-size: 16px;
+  .allmatches-head,
+  .sports-container .matches .single-match .match-odds .single-odd-type {
+    background: #14191d;
   }
 }
-.contact-us .content {
-  white-space: normal;
-  padding: 5px 10px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  > p:first-child,
-  h1 {
-    color: rgb(207, 22, 22);
-    font-size: 15px;
-  }
-}
-
-.contact-us {
-  display: inline-block;
-  width: 100%;
-  .content {
-    &[data-show="false"] {
-      display: none !important;
-    }
-  }
-}
-
-.help-page .help-menu ul li {
-  display: list-item !important;
-}
-
-@keyframes flashCol {
-  0% {
-    background: rgb(25, 139, 59);
-    color: rgb(255, 255, 255);
-  }
-  100% {
-    background: var(--teableSubHeadersBg);
-    color: #fff;
-  }
-}
-.main_container > .main_content {
-  padding-top: 0px !important;
-}
-
 html {
-  .main_header {
-    position: unset;
-    z-index: 0;
-    padding-top: 60px;
-  }
-  .main_header .main_header_left {
-    position: fixed;
-    top: 0;
-    z-index: 2;
-  }
-  .main_header .main_header_right {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-  }
-}
-
-.contact-us .content {
-  position: relative;
-}
-.contact-us .content .register-button {
-  display: inline-block;
-  position: relative;
-  bottom: 0;
-}
-.contact-us .content .register-button a {
-  line-height: 28px;
-  padding: 3px 15px;
-  border: 1px solid #af8a33;
-  background: #af8a33;
-  text-transform: uppercase;
-  color: #000;
-}
-
-body .deposit-page .block {
-  border: 1px solid var(--tableBorders);
-  border-radius: 6px;
-  .right-content .wrapper {
-    .sub-title {
-      color: var(--mainBgCol);
-    }
-  }
-}
-
-.contact-us .content {
-  .reg-button a {
+  .live-odds-table table tr td.odd-holder .single-live-odd .label,
+  span.odd-type,
+  .odds-table .second-header td {
     color: var(--accent);
   }
-  h2 + div + div {
-    font-size: 0px;
-    &:before {
-      // content: "Whatsapp   21 967787985";
-      // font-size: 12px;
-      // content: "\f232";
-      // font: normal normal normal 14px/1 FontAwesome;
-      // font-family: FontAwesome !important;
-      // font-size: 12px;
-    }
+}
+//casino live
+.clive-container > .clive-inner > .clgames-container:nth-child(2) {
+  display: block;
+  margin-bottom: 0;
+}
+.clive-container .clive-inner {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
+  &:before {
+    background-image: url(//nextra.pcluster.info/masterbet/images/casinolive/clive-banner1.jpg) !important;
+  }
+}
+
+.banner-block {
+  a[href="/Sport/became-an-agent"] {
+    position: relative;
     &:after {
-      content: "21 967787985";
-      font-size: 12px;
-      background: url(https://nextra.pcluster.info/jogar365/images/whatsapp.svg);
-      min-width: 40px;
-      min-height: 40px;
-      padding-left: 19px;
+      content: "";
+      width: 100%;
+      height: 300px;
+      background: url(//nextra.pcluster.info/masterbet/images/bookra.jpg);
+      height: 300px;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      top: 100%;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    &:before {
+      content: "";
+      width: 100%;
+      height: 300px;
+      background: url(//nextra.pcluster.info/masterbet/images/evo.jpg);
+      height: 300px;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      top: 200%;
       background-repeat: no-repeat;
       background-size: contain;
     }
   }
-  h2 + div + div + div {
-    font-size: 0px;
-    &:before {
-      content: "info@jogar365.net";
-      font-size: 12px;
+}
+
+body [data-page="prematch-event"] .sport_quote_view .quota .quota {
+  background: transparent;
+  color: var(--accent);
+}
+body [data-page="prematch-event"] .sport_single_quote {
+  margin: 4px 2px !important;
+  border-radius: 3px;
+}
+
+//poker on mob
+body .casino_container .ctg_game_item[data-name="DBGPOKER"] {
+  display: none !important;
+}
+body .fast_menu_option:last-child {
+  display: flex;
+}
+[data-logged][data-access] .single_menu_item.poker {
+  display: block !important;
+}
+.icon-menu-poker:before {
+  content: "\e98d";
+}
+//end poker on mob
+
+.center-content.live-center-content {
+  grid-template-columns: 1fr 50% !important;
+}
+
+.championship-page {
+  .single-match-row {
+    td.match-name {
+      border-right: none;
+    }
+    td.odd-cell {
+      border-left: none;
+      border-right: none;
+      padding: 2px;
+      > div {
+        border: 1px solid var(--tableBorders);
+      }
     }
   }
-  h2 + div + div + div + div {
-    font-size: 0px;
-  }
-}
-.input-wrapper .error-cell {
-  display: none;
-}
-.input-wrapper.error .error-cell {
-  display: block;
-}
-body {
-  .clive-banner-container {
-    width: 100%;
-    max-width: 100%;
-    background: var(--mainBg);
-  }
-  .clive-container {
-    width: 100%;
-    max-width: 100%;
-    .clive-inner {
-      width: 100%;
-      max-width: 1360px;
-      margin: 0 auto;
-    }
-  }
-}
-.side-bar.right-side-bar .banner-block {
-  position: relative;
-}
-.side-bar.right-side-bar .banner-block:after {
-  content: "";
-  background-image: url("https://nextra.pcluster.info/#{$skin}/images/banner-test.gif");
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: 10px;
 }
