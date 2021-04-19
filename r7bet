@@ -9,8 +9,8 @@ $bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #ff1403;
-  --accent-bg: #14805e;
+  --accent: #14805e;
+  --accent-bg: #ff5722;
   --accent-txt: #000;
   --primary-bg: #101010;
   --primary-txt: #fff;
@@ -20,8 +20,8 @@ html:root {
   --mainBgCol: #fff;
   --bg1: #2d2d2d;
   --col1: #fff;
-  --teableHeadersBg: #14805e;
-  --teableHeadersCol: #ffffff;
+  --teableHeadersBg: #ff5722;
+  --teableHeadersCol: #000000;
   --teableSubHeadersBg: #484848;
   --teableSubHeadersCol: #ffffff;
   --tableBorders: #383838;
@@ -55,3 +55,34 @@ body.landing-page {
   background-color: #01050e !important;
   background-image: none;
 }
+
+.header .top-header .top-header-content .primary-menu ul li {
+  &#indexCasino,
+  &#indexCasinoLive,
+  &#indexVirtual,
+  &#indexPoker {
+    display: none;
+  }
+}
+
+//hide casino poker.. on mob
+.fast_menu .fast_menu_option {
+  &:nth-child(5),
+  &:nth-child(7),
+  &:nth-child(9) {
+    display: none;
+  }
+}
+
+body .menu_items_container {
+  .single_menu_item.casino,
+  .single_menu_item.casino_live,
+  .single_menu_item.virtual_games {
+    display: none !important;
+  }
+}
+
+body [data-logged][data-access] .single_menu_item.casino_live {
+  display: none !important;
+}
+//end hide casino poker.. on mob
