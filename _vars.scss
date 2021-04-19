@@ -1,66 +1,173 @@
-$skin: "webet";
+//was play4bet => playbet
+
+$skin: "play4bet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/#{$skin}/images/logo2.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/darkblue.jpg";
+$logoUrl: "https://nextra.pcluster.info/play4bet/images/logo.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/cyan.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
+
 html:root {
-  --accent: #ffeb3b;
-  --accent-bg: #ffeb3b;
-  --accent-txt: #222;
-  --primary-bg: #172a5c;
+  --accent: #3ab7af;
+  --accent-bg: #3ab7af;
+  --accent-txt: #000;
+  --primary-bg: #0b2422;
   --primary-txt: #fff;
-  --secondary-bg: #081538;
+  --secondary-bg: #131313;
   --secondary-txt: #fff;
-  --mainBg: #020c22;
-  --mainBgCol: #fff;
-  --bg1: #172a5c;
+  --mainBg: #000000;
+  --mainBgCol: #ffffff;
+  --bg1: #131313;
   --col1: #fff;
-  --teableHeadersBg: #102140;
+  --teableHeadersBg: #0d2a28;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #081732;
+  --teableSubHeadersBg: #171717;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #47598a;
-  --casinoGradient1: #00000000;
-  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --tableBorders: #0e2c2a;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "webet";
+  --skin: "play4bet";
 }
 
-$secondary: #ffeb3b;
+$secondary: #3ab7af;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #ffeb3b;
-$secondaryDarkCol: #fff;
-$primary: #172a5d;
+$secondaryDark: #3ab7af;
+$secondaryDarkCol: #222;
+$primary: #000000;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #172a5d;
-body {
-  background-size: 2038px !important;
+$sb-2: #000000;
+
+footer {
+  background: var(--bg1);
+  border-top: 1px solid var(--mainBg);
 }
-#favouriteTournaments li:before {
-  filter: brightness(0);
+footer .footer-copyright {
+  background: var(--mainBg);
 }
+
 body.landing-page {
-  background-color: #0e0c0d !important;
+  background-color: #121212 !important;
   background-image: none;
 }
 
-.main_header .main_header_left {
-  width: 200px !important;
+//casino live
+.clive-container > .clive-inner > .clgames-container:nth-child(2) {
+  display: none;
+  margin-bottom: 0;
+}
+.clive-container .clive-inner .clive-games-container:last-child {
+  margin: 0 auto;
 }
 
-.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
-  &:before {
-    background-image: url(//nextra.pcluster.info/1x2sportbet/images/casinolive/clive-banner1.jpg) !important;
+.clive-container .clive-inner {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  align-items: center;
+}
+html .header .top-header .top-header-content .logo-holder a:before {
+  width: 240px;
+  height: 80px;
+  left: 15px;
+}
+
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd {
+  position: relative;
+}
+
+html {
+  .live-content-wrapper
+    .live-sports-overview
+    .sport-container
+    .single-panel
+    .panel-content
+    .single-match
+    .odds-wrapper
+    .odds-holder
+    .single-odd
+    .odd-type:after,
+  .single-odd-type .odd-type:after,
+  .single-live-odd .quote:after {
+    display: block !important;
+    position: absolute;
+    left: 0;
+    top: 10px;
   }
 }
+
+html {
+  .live-odds-table
+    table
+    tr
+    td.odd-holder
+    .single-live-odd.odd-zero
+    .quote:after {
+    left: 0;
+    top: 20px;
+  }
+}
+.live-content-wrapper
+  .live-sports-overview
+  .sport-container
+  .single-panel
+  .panel-content
+  .single-match
+  .odds-wrapper
+  .odds-holder
+  .single-odd {
+  padding-left: 12px;
+}
+
+html {
+  .sports-container .matches .single-match .match-odds .single-odd-type {
+    width: calc(100% / 3 - 34px);
+    padding-left: 18px;
+  }
+}
+
+//poker dbg enable
+.poker-container .poker-strip.dbg {
+  display: flex !important;
+}
+.poker-container .poker-strip.isla {
+  display: none;
+}
+
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
+  display: none;
+}
+
+.poker-container .poker-strip.dbg .poker-strip-a img {
+  display: none;
+}
+.poker-strip.dbg .poker-strip-a a:after {
+  content: "Gioca ora";
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 1px solid var(--accent-bg);
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: -10px;
+  color: var(--accent-bg);
+}
+//end poker dbg enable
