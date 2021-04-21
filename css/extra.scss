@@ -6856,3 +6856,12 @@ table tbody tr td .lost {
     top: 0 !important;
   }
 }
+
+table.logged-table.sessions-table {
+  tbody tr td .won:not(.result-holder) {
+    background-color: transparent;
+  }
+  tbody tr td .lost:not(.result-holder) {
+    background-color: transparent;
+  }
+}
