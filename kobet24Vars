@@ -100,3 +100,12 @@ ul#favouriteSports {
   color: var(--accent-bg);
 }
 //end poker dbg enable
+
+
+body .casino-section {
+  background-image: url(http://nextra.pcluster.info/kobet24/images/casino/casinoBg.png);
+  background-size: 1358px;
+}
+body .casino-section .casino-container .casino-inner {
+  padding-top: 370px !important;
+}
