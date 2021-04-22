@@ -1,110 +1,89 @@
-$skin: "kobet24";
+$skin: "r7bet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDEuNzYgNzAuMjMiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZjhhYjBlO30uY2xzLTJ7ZmlsbDojZmZmO308L3N0eWxlPjwvZGVmcz48dGl0bGU+bG9nbzwvdGl0bGU+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xNC4yOS42Mkg0OUw0Mi42MSwzMC45MWwuNDEuNzNDNjQuNjcsMTQuMjgsNzYuMzQsMy41MSw3Ni44Mi41NGgzMy41NUw2Ny44MiwzOC4xNyw4NS4yNCw2NC42Myw4Ni4zOSw2Nmw0Ljg3LDQuMjVINTUuMzdBNC4yOCw0LjI4LDAsMCwwLDU1LjE2LDY2bC0xNS0yMy41NUwzNi42MSw1OWEyMS44MSwyMS44MSwwLDAsMCwuNiwxMS4yNUgwbC4xMi0uMTNBMjMuMTQsMjMuMTQsMCwwLDAsNi4wNiw1OC43NUwxNi42Nyw4LjJTMTgsLjYyLDE0LjI5LjYyWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE4OC4xLDBhMTAuNjUsMTAuNjUsMCwwLDEsMTAuNDIsMTIuODhsLTguODQsNDEuNDRhMjAsMjAsMCwwLDEtMTkuNTQsMTUuODNsLTU2LjIzLjA2YTEwLDEwLDAsMCwxLTkuNzktMTIuMDlsOS00Mi4zQTIwLDIwLDAsMCwxLDEzMi43MywwWk0xNDMuOTQsMTcuNTgsMTM3LjIsNTAuMjFhNSw1LDAsMCwwLDQuODksNkgxNTRhNC44Myw0LjgzLDAsMCwwLDQuNDktMi44NWwwLDBoMGEyMiwyMiwwLDAsMCwuNjktMi41M0wxNjYsMTguNjdxMS41Ni01LjYtNC4yNS01LjA4SDE0OC44NEE1LDUsMCwwLDAsMTQzLjk0LDE3LjU4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQ0MS4xNywxOC41NWMuMjMtMi4yOS0uMTktNC0xLjI1LTUuMjFhNS4yMSw1LjIxLDAsMCwwLTQtMS41Nkg0MDQuMTZMNDAxLjYyLDI0aDI3LjY3bC0uODEsMy41M2MtLjIxLjgyLS42NiwxLjU3LTIuNDksMS41N0g0MDUuNDVhNS41OSw1LjU5LDAsMCwwLTQuMTEsMS43LDkuMjQsOS4yNCwwLDAsMC0yLjI0LDQuOGwtMy4zLDE1LjgyLDAsLjE2Yy0uMjMsMi4yOS4xOSw0LDEuMjUsNS4yMWE1LjIzLDUuMjMsMCwwLDAsNC4wNSwxLjU2SDQzMi45TDQzNS41MSw0Nkg0MDkuNzVjLTEuMSwwLTEuNDMtLjI3LTEuNTEtLjM1YTEuMzIsMS4zMiwwLDAsMS0uMTUtLjgybC44My00LDIyLjYzLjA5YzIuMzIsMCw1LjMtMS4xNCw2LjM0LTYuNTlsMy4yNi0xNS42M1oiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik00NzEuMzEsMTEuODdsLTQuNTksMjIuMjVINDUzLjM3bDQuNS0yMi4yNUg0NDYuNzZsLTYuMSwyOS42MWE0LjI3LDQuMjcsMCwwLDAsLjkxLDMuNTlBNC4zNSw0LjM1LDAsMCwwLDQ0NSw0Ni43aDE5LjEzbC0yLjM4LDExLjczaDExLjUxbDkuNi00Ni41NloiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yNTIuMDksNDEuNjlsLTE3LjI4LS4xOC0xLjM1LDYuNjYsMTcuNDgsMHE0LjE3LS4xNSw1LTMuMDlDMjU2LjUsNDMuMTUsMjU1LjIyLDQyLDI1Mi4wOSw0MS42OVoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yNTYuMDUsMjIuNTRIMjM4LjUzbC0xLjM1LDYuNjYsMTcuNDgsMGMyLjc5LS4xLDQuNDYtMS4xMiw1LTMuMDhTMjU5LDIzLDI1Ni4wNSwyMi41NFoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik00OTEuMTEsMEgyMDUuODZzOC4xNywxLjUsNC41MywxOS4yNWwtOC4zMiwzOC44N2ExMCwxMCwwLDAsMCw5Ljc5LDEyLjA5bDI2MS4yOS0uMDZhMjAsMjAsMCwwLDAsMTkuNTMtMTUuODNsOC44NS00MS40NEExMC42NiwxMC42NiwwLDAsMCw0OTEuMTEsMFpNMjc0LjI1LDIyLjk0cS0xLDcuNS01Ljg3LDExLjQ4LDUuMzcsMy40LDMsMTIuNzhRMjY4LDYwLjU1LDI1MC4xLDYwLjM3bC0zNC41NCwwTDIyNS43OCw5LjhoMzUuMDhRMjc1LjMyLDExLDI3NC4yNSwyMi45NFptNzQuOTIsMzcuNDdoLTE0bDYuNS0zMS44OWgxNFptMjEuMzUtMzguMjYtNzEuMTQsMGMtMi41OS0uMDktNC4yMi41Ni00Ljg3LDJsLTEuNjksNC4zNCwxNy4yOCwwLTIuNTgsMTIuMTYtMTctLjE0LS4yNywyLjg2cS0uMjIsMy42MiwyLjIsMy45MWwzMi41NSwwLTIuNjgsMTMuMTRIMjg2LjY2cS0xNS4yNi0uOS0xMC4zMy0yNS4zMlQyOTgsOS44NEgzNzNaTTQ5Ny42MSwxMmwtOC44NCw0MS40NGExNi4wOCwxNi4wOCwwLDAsMS0xNS42MiwxMi42N2wtOTQuMzcsMEwzOTEuNzUsNGg5OS4zNmE2LjY1LDYuNjUsMCwwLDEsNi41LDhaIi8+PC9nPjwvZz48L3N2Zz4=";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
+$logoUrl: "https://nextra.pcluster.info/r7bet/images/logo2.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/green.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 0;
-
+$invet: 1;
 html:root {
-  --accent: #ffae00;
-  --accent-bg: #ffae00;
+  --accent: #14805e;
+  --accent-bg: #ff5722;
   --accent-txt: #000;
-  --primary-bg: #ffffff;
-  --primary-txt: #707070;
-  --secondary-bg: #2b2a29;
+  --primary-bg: #101010;
+  --primary-txt: #fff;
+  --secondary-bg: #151515;
   --secondary-txt: #fff;
-  --mainBg: #232220;
+  --mainBg: #212121;
   --mainBgCol: #fff;
-  --bg1: #292826;
+  --bg1: #2d2d2d;
   --col1: #fff;
-  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #ff8e01);
+  --teableHeadersBg: #ff5722;
   --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #3c3b3b;
+  --teableSubHeadersBg: #484848;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #3c3b3b;
-  --casinoGradient1: #00000000;
-  --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #ffae00;
+  --tableBorders: #383838;
+  --casinoGradient1: #2b335a;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "kobet24";
+  --skin: "r7bet";
 }
 
-$secondary: #f4c100;
+$secondary: #14805e;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #d1a813;
-$secondaryDarkCol: #222;
-$primary: #848484;
+$secondaryDark: #14805e;
+$secondaryDarkCol: #fff;
+$primary: #323232;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #444444;
+$sb-2: #323232;
+
+body {
+  background-size: 2038px !important;
+  background-color: var(--primary-bg) !important;
+  background-image: none !important;
+}
+
 body.landing-page {
-  background-color: #121212 !important;
+  background-color: #01050e !important;
   background-image: none;
 }
 
-//casino live
-.clive-container > .clive-inner > .clgames-container:nth-child(2) {
-  display: none;
-  margin-bottom: 0;
-}
-.clive-container .clive-inner .clive-games-container:last-child {
-  margin: 0 auto;
-}
-
-.clive-container .clive-inner {
-  display: flex;
-  flex: 1 1;
-  justify-content: space-between;
-  align-items: center;
+.header .top-header .top-header-content .primary-menu ul li {
+  // &#indexCasino,
+  // &#indexCasinoLive,
+  &#indexVirtual,
+  &#indexPoker {
+    display: none;
+  }
 }
 
-ul#favouriteSports {
-  background: #fff;
-}
-.fast_menu_option:last-child {
-  display: flex !important;
-}
-
-//poker dbg enable
-.poker-container .poker-strip.dbg {
-  display: flex !important;
-}
-.poker-container .poker-strip.isla {
-  display: none;
+//hide casino poker.. on mob
+.fast_menu .fast_menu_option {
+  &:nth-child(5)
+  // &:nth-child(7),
+  // &:nth-child(9)
+  {
+    display: none;
+  }
 }
 
-.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
-.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
-  display: none;
+body .menu_items_container {
+  // .single_menu_item.casino,
+  // .single_menu_item.casino_live,
+  .single_menu_item.virtual_games {
+    display: none !important;
+  }
 }
 
-.poker-container .poker-strip.dbg .poker-strip-a img {
-  display: none;
-}
-.poker-strip.dbg .poker-strip-a a:after {
-  content: "Gioca ora";
-  font-size: 15px;
-  text-transform: uppercase;
-  border: 1px solid var(--accent-bg);
-  padding: 10px 20px;
-  border-radius: 4px;
-  margin-top: -10px;
-  color: var(--accent-bg);
-}
-//end poker dbg enable
-
-body .casino-section {
-  background-image: url(http://nextra.pcluster.info/kobet24/images/casino/casinoBg.png);
-  background-size: 1358px;
-}
-body .casino-section .casino-container .casino-inner {
-  padding-top: 370px !important;
-}
+// body [data-logged][data-access] .single_menu_item.casino_live {
+//   display: none !important;
+// }
+//end hide casino poker.. on mob
