@@ -60,8 +60,9 @@ body.landing-page {
   // &#indexCasino,
   // &#indexCasinoLive,
   &#indexVirtual,
-  &#indexPoker {
-    display: none;
+  &#indexPoker,
+  &#indexLivechat {
+    display: none !important;
   }
 }
 

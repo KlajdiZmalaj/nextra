@@ -57,32 +57,34 @@ body.landing-page {
 }
 
 .header .top-header .top-header-content .primary-menu ul li {
-  &#indexCasino,
-  &#indexCasinoLive,
+  // &#indexCasino,
+  // &#indexCasinoLive,
   &#indexVirtual,
-  &#indexPoker {
-    display: none;
+  &#indexPoker,
+  &#indexLivechat {
+    display: none !important;
   }
 }
 
 //hide casino poker.. on mob
 .fast_menu .fast_menu_option {
-  &:nth-child(5),
-  &:nth-child(7),
-  &:nth-child(9) {
+  &:nth-child(5)
+  // &:nth-child(7),
+  // &:nth-child(9)
+  {
     display: none;
   }
 }
 
 body .menu_items_container {
-  .single_menu_item.casino,
-  .single_menu_item.casino_live,
+  // .single_menu_item.casino,
+  // .single_menu_item.casino_live,
   .single_menu_item.virtual_games {
     display: none !important;
   }
 }
 
-body [data-logged][data-access] .single_menu_item.casino_live {
-  display: none !important;
-}
+// body [data-logged][data-access] .single_menu_item.casino_live {
+//   display: none !important;
+// }
 //end hide casino poker.. on mob
