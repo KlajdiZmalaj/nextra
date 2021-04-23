@@ -1,8 +1,8 @@
-$skin: "getbet";
+$skin: "getbet"; //change to sporting365
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://gradm-api.pcluster.info/api/skin/49/image/131d162d7dd48e35ba4d9b69202e331a.png";
+$logoUrl: "https://nextra.pcluster.info/getbet/images/logo2.svg";
 $bodyBg: "https://nextra.pcluster.info/nextra/images/bg/red.jpg";
 $bodyCol: #000;
 
