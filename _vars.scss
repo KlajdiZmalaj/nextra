@@ -1,42 +1,42 @@
-$skin: "r7bet";
+$skin: "webet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/r7bet/images/logo2.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/green.jpg";
+$logoUrl: "https://nextra.pcluster.info/webet/images/logo2.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/darkblue.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #14805e;
-  --accent-bg: #ff5722;
-  --accent-txt: #000;
-  --primary-bg: #101010;
+  --accent: #ffeb3b;
+  --accent-bg: #ffeb3b;
+  --accent-txt: #222;
+  --primary-bg: #172a5c;
   --primary-txt: #fff;
-  --secondary-bg: #151515;
+  --secondary-bg: #081538;
   --secondary-txt: #fff;
-  --mainBg: #212121;
+  --mainBg: #020c22;
   --mainBgCol: #fff;
-  --bg1: #2d2d2d;
+  --bg1: #172a5c;
   --col1: #fff;
-  --teableHeadersBg: #ff5722;
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #484848;
+  --teableHeadersBg: #102140;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #081732;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #383838;
-  --casinoGradient1: #2b335a;
-  --casinoGradient1-txt: #fff;
+  --tableBorders: #47598a;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "r7bet";
+  --skin: "webet";
 }
 
-$secondary: #14805e;
+$secondary: #f15a24;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #14805e;
+$secondaryDark: #f15a24;
 $secondaryDarkCol: #fff;
 $primary: #323232;
 $white: #ebebeb;
@@ -44,73 +44,10 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #323232;
-
 body {
   background-size: 2038px !important;
-  background-color: var(--primary-bg) !important;
-  background-image: none !important;
 }
-
 body.landing-page {
-  background-color: #01050e !important;
+  background-color: #000 !important;
   background-image: none;
-}
-
-.header .top-header .top-header-content .primary-menu ul li {
-  // &#indexCasino,
-  // &#indexCasinoLive,
-  &#indexVirtual,
-  &#indexPoker,
-  &#indexLivechat {
-    display: none !important;
-  }
-}
-
-//hide casino poker.. on mob
-.fast_menu .fast_menu_option {
-  &:nth-child(5)
-  // &:nth-child(7),
-  // &:nth-child(9)
-  {
-    display: none;
-  }
-}
-
-body .menu_items_container {
-  // .single_menu_item.casino,
-  // .single_menu_item.casino_live,
-  .single_menu_item.virtual_games {
-    display: none !important;
-  }
-}
-
-// body [data-logged][data-access] .single_menu_item.casino_live {
-//   display: none !important;
-// }
-//end hide casino poker.. on mob
-
-.logged-page .logged-menu ul li .sub-menu {
-  li {
-    a[href="/Sport/cashdesk"] {
-      display: none;
-    }
-  }
-}
-
-.logged-page .logged-menu ul li .sub-menu li {
-  a[href="/Sport/bo2_fastPrint"],
-  a[href="/Sport/bo2_Print"] {
-    display: none;
-  }
-}
-
-.logged-content.admin-content
-  .big-buttons
-  .buttons-holder
-  .single-button[href="/Sport/cashdesk"],
-.logged-content.admin-content
-  .big-buttons
-  .buttons-holder
-  .single-button[href="/Sport/bo2_Print"] {
-  display: none;
 }
