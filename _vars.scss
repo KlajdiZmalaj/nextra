@@ -1,286 +1,63 @@
-$skin: "jogar365";
+$skin: "webet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "http://static.pcluster.info/skins/fastbet24/img/logo/newlogo.svg";
-$bodyBg: "https://nextra.pcluster.info/#{$skin}/images/gold.jpg";
+$logoUrl: "https://nextra.pcluster.info/webet/images/logo2.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/darkblue.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 0;
-
+$invet: 1;
 html:root {
-  --accent: #af8a33;
-  --accent-bg: #af8a33;
-  --accent-txt: #000;
-  --primary-bg: #262626;
-  --primary-txt: #d5d5d5;
-  --secondary-bg: #303030;
+  --accent: #ffeb3b;
+  --accent-bg: #ffeb3b;
+  --accent-txt: #222;
+  --primary-bg: #172a5c;
+  --primary-txt: #fff;
+  --secondary-bg: #081538;
   --secondary-txt: #fff;
-  --mainBg: #1c1c1c;
+  --mainBg: #020c22;
   --mainBgCol: #fff;
-  --bg1: #292929;
+  --bg1: #172a5c;
   --col1: #fff;
-  --teableHeadersBg: linear-gradient(#8f6b29, #d0aa3d, #df9f28);
-  --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #434343;
+  --teableHeadersBg: #102140;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #081732;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #4d4d4d;
-  --casinoGradient1: linear-gradient(to right, #040100, #bf570f);
-  --casinoGradient1-txt: #fff;
-  --casinoGradient2: #f4c100;
+  --tableBorders: #47598a;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "jogar365";
+  --skin: "webet";
 }
 
-$secondary: #af8a33;
+$secondary: #f15a24;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #a17f2f;
-$secondaryDarkCol: #222;
-$primary: #292929;
+$secondaryDark: #f15a24;
+$secondaryDarkCol: #fff;
+$primary: #323232;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #292929;
-
+$sb-2: #323232;
+body {
+  background-size: 2038px !important;
+}
 body.landing-page {
-  background-color: #000000 !important;
+  background-color: #000 !important;
   background-image: none;
 }
-@import url("https://nextra.pcluster.info/css/fonts/fontAwesome/css/all.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
-* {
-  font-weight: 600;
-}
+
 body {
-  background-size: auto !important;
-}
-.sport_odds_name,
-.main_page_title {
-  font-weight: 900;
-  font-size: 15px;
-  font-family: "Lato", sans-serif;
-}
-//winter brazilian fix icon
-.header .top-header .top-header-content .primary-menu ul li:nth-child(2):after {
-  left: 20px !important;
-}
-
-.contact-us {
-  display: inline-block !important;
-  width: 100%;
-  float: left;
-}
-.contact-us .button {
-  line-height: 30px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: bold;
-  color: var(--col1);
-  width: 100%;
-  animation: flashCol infinite linear 1s;
-  background: var(--bg1);
-  font-size: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  &::before {
-    content: "Fale Conosco";
-    font-size: 16px;
-  }
-}
-.contact-us .content {
-  white-space: normal;
-  padding: 5px 10px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  > p:first-child,
-  h1 {
-    color: rgb(207, 22, 22);
-    font-size: 15px;
+  .clive-container > .clive-inner > .clgames-container:nth-child(2) {
+    display: none;
   }
 }
 
-.contact-us {
-  display: inline-block;
-  width: 100%;
-  .content {
-    &[data-show="false"] {
-      display: none !important;
-    }
-  }
-}
-
-.help-page .help-menu ul li {
-  display: list-item !important;
-}
-
-@keyframes flashCol {
-  0% {
-    background: rgb(25, 139, 59);
-    color: rgb(255, 255, 255);
-  }
-  100% {
-    background: var(--teableSubHeadersBg);
-    color: #fff;
-  }
-}
-.main_container > .main_content {
-  padding-top: 0px !important;
-}
-
-html {
-  .main_header {
-    position: unset;
-    z-index: 0;
-    padding-top: 60px;
-  }
-  .main_header .main_header_left {
-    position: fixed;
-    top: 0;
-    z-index: 2;
-  }
-  .main_header .main_header_right {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-  }
-}
-
-.contact-us .content {
-  position: relative;
-}
-.contact-us .content .register-button {
-  display: inline-block;
-  position: relative;
-  bottom: 0;
-}
-.contact-us .content .register-button a {
-  line-height: 28px;
-  padding: 3px 15px;
-  border: 1px solid #af8a33;
-  background: #af8a33;
-  text-transform: uppercase;
-  color: #000;
-}
-
-body .deposit-page .block {
-  border: 1px solid var(--tableBorders);
-  border-radius: 6px;
-  .right-content .wrapper {
-    .sub-title {
-      color: var(--mainBgCol);
-    }
-  }
-}
-
-.contact-us .content {
-  .reg-button a {
-    color: var(--accent);
-  }
-  h2 + div + div {
-    font-size: 0px;
-    &:before {
-      // content: "Whatsapp   21 967787985";
-      // font-size: 12px;
-      // content: "\f232";
-      // font: normal normal normal 14px/1 FontAwesome;
-      // font-family: FontAwesome !important;
-      // font-size: 12px;
-    }
-    &:after {
-      content: "21 967787985";
-      font-size: 12px;
-      background: url(https://nextra.pcluster.info/jogar365/images/whatsapp.svg);
-      min-width: 40px;
-      min-height: 40px;
-      padding-left: 19px;
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
-  }
-  h2 + div + div + div {
-    font-size: 0px;
-    &:before {
-      content: "info@jogar365.net";
-      font-size: 12px;
-    }
-  }
-  h2 + div + div + div + div {
-    font-size: 0px;
-  }
-}
-.input-wrapper .error-cell {
-  display: none;
-}
-.input-wrapper.error .error-cell {
-  display: block;
-}
-body {
-  .clive-banner-container {
-    width: 100%;
-    max-width: 100%;
-    background: var(--mainBg);
-  }
-  .clive-container {
-    width: 100%;
-    max-width: 100%;
-    .clive-inner {
-      width: 100%;
-      max-width: 1360px;
-      margin: 0 auto;
-    }
-  }
-}
-.side-bar.right-side-bar .banner-block {
-  position: relative;
-}
-// .side-bar.right-side-bar .banner-block:after {
-//   content: "";
-//   background-image: url("https://nextra.pcluster.info/#{$skin}/images/banner-test.gif");
-//   position: absolute;
-//   width: 100%;
-//   height: 100%;
-//   background-size: contain;
-//   background-repeat: no-repeat;
-//   margin-top: 10px;
-// }
-
-.banner-block a[href="/Sport/became-an-agent"]:after {
-  margin-top: 10px;
-}
-.banner-block a[href="/Sport/became-an-agent"]:after {
-  content: "";
-  width: 100%;
-  height: 300px;
-  background: url(//nextra.pcluster.info/jogar365/images/bookra.jpg);
-  height: 300px;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  top: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.banner-block a[href="/Sport/became-an-agent"]:before {
-  margin-top: 40px;
-}
-.banner-block a[href="/Sport/became-an-agent"]:before {
-  content: "";
-  width: 100%;
-  height: 300px;
-  background: url(//nextra.pcluster.info/jogar365/images/evo.jpg);
-  height: 300px;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  top: 200%;
-  background-repeat: no-repeat;
-  background-size: contain;
+.clive-container .clive-inner .clive-games-container:last-child {
+  margin: 0 auto;
 }
