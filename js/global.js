@@ -156,8 +156,12 @@ $(document).ready(() => {
     };
     //main Banner replace slider
     $(".main-slider").slick("unslick");
-    if (btoa(window.location.host) === "Z29sZHNwb3J0LmxpdmU=") {
+    if (
+      btoa(window.location.host) === "Z29sZHNwb3J0LmxpdmU=" ||
+      btoa(window.location.host) === "d3d3LnI3YmV0Lm9yZw=="
+    ) {
       $("body").attr("host", "Z29sZHNwb3J0LmxpdmU=");
+      $("body").attr("host", "d3d3LnI3YmV0Lm9yZw==");
       $(".main-slider .single-slide:nth-child(3)").remove();
       $(".main-slider .single-slide:nth-child(3)").remove();
       $(".main-slider").slick({
