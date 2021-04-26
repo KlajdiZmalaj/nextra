@@ -56,3 +56,13 @@ body.landing-page {
   background-color: #0c1429 !important;
   background-image: none;
 }
+
+body {
+  .clive-container > .clive-inner > .clgames-container:nth-child(2) {
+    display: none;
+  }
+}
+
+.clive-container .clive-inner .clive-games-container:last-child {
+  margin: 0 auto;
+}
