@@ -1,53 +1,58 @@
-$skin: "webet";
+$skin: "getbet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/webet/images/logo2.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/darkblue.jpg";
+$logoUrl: "https://nextra.pcluster.info/getbet/images/logo2.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/red.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
+
 html:root {
-  --accent: #ffeb3b;
-  --accent-bg: #ffeb3b;
-  --accent-txt: #222;
-  --primary-bg: #172a5c;
+  --accent: #8ac5ed;
+  --accent-bg: #fff;
+  --accent-txt: #b30013;
+  --primary-bg: #11151a;
   --primary-txt: #fff;
-  --secondary-bg: #081538;
+  --secondary-bg: #8b000f;
   --secondary-txt: #fff;
-  --mainBg: #020c22;
+  --mainBg: #24323b;
   --mainBgCol: #fff;
-  --bg1: #172a5c;
+  --bg1: #2e3e49;
   --col1: #fff;
-  --teableHeadersBg: #102140;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #081732;
+  --teableHeadersBg: #b30013;
+  --teableHeadersCol: #fff;
+  --teableSubHeadersBg: #414755;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #47598a;
-  --casinoGradient1: #00000000;
-  --casinoGradient1-txt: rgba(255, 255, 255, 0);
-  --casinoGradient2: #636363;
+  --tableBorders: #161d2f;
+  --casinoGradient1: #0c1429b5;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "webet";
+  --skin: "getbet";
 }
 
-$secondary: #f15a24;
+$secondary: #b30013;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #f15a24;
+$secondaryDark: #b30013;
 $secondaryDarkCol: #fff;
-$primary: #323232;
+$primary: #2e3e49;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #323232;
+$sb-2: #2e3e49;
 body {
   background-size: 2038px !important;
 }
+.odds-table .second-header td {
+  color: #ffffff !important;
+}
+
 body.landing-page {
-  background-color: #000 !important;
+  background-color: #0c1429 !important;
   background-image: none;
 }

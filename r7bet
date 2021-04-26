@@ -60,8 +60,7 @@ body.landing-page {
   // &#indexCasino,
   // &#indexCasinoLive,
   &#indexVirtual,
-  &#indexPoker,
-  &#indexLivechat {
+  &#indexPoker {
     display: none !important;
   }
 }
@@ -88,3 +87,29 @@ body .menu_items_container {
 //   display: none !important;
 // }
 //end hide casino poker.. on mob
+
+.logged-page .logged-menu ul li .sub-menu {
+  li {
+    a[href="/Sport/cashdesk"] {
+      display: none;
+    }
+  }
+}
+
+.logged-page .logged-menu ul li .sub-menu li {
+  a[href="/Sport/bo2_fastPrint"],
+  a[href="/Sport/bo2_Print"] {
+    display: none;
+  }
+}
+
+.logged-content.admin-content
+  .big-buttons
+  .buttons-holder
+  .single-button[href="/Sport/cashdesk"],
+.logged-content.admin-content
+  .big-buttons
+  .buttons-holder
+  .single-button[href="/Sport/bo2_Print"] {
+  display: none;
+}
