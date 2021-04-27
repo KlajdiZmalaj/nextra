@@ -3042,7 +3042,9 @@ div#ui-datepicker-div[style*="display: block"] {
   border-radius: 0;
   margin-left: 5px;
 }
-
+.newSliderSlide {
+  height: auto;
+}
 body:not(.freezeSlider) {
   img[src*="main-banner5.jpg"],
   img[src*="main-banner4.jpg"],

@@ -195,11 +195,14 @@ $(document).ready(() => {
       if (banners.length >= 2) {
         //slider
         var template = `${banners
-          .map((banner) => `<img src="${banner?.image?.path}" alt="" />`)
+          .map(
+            (banner) =>
+              `<img class="newSliderSlide" src="${banner?.image?.path}" alt="" />`
+          )
           .join("")}`;
         jQuery(".main-slider").html(template);
-        if (jQuery("body").hasClass("freezeSlider"))
-          jQuery("body").removeClass("freezeSlider");
+        //fix for old slider
+        jQuery("body").addClass("freezeSlider");
         jQuery(".main-slider").slick({
           arrows: false,
           dots: true,
