@@ -160,7 +160,7 @@ $(document).ready(() => {
       btoa(window.location.host) === "Z29sZHNwb3J0LmxpdmU=" ||
       btoa(window.location.host) === "d3d3LnI3YmV0Lm9yZw=="
     ) {
-      $("body").attr("host", btoa(window.location.host));
+      $("body").addClass("freezeSlider");
       $(".main-slider .single-slide:nth-child(3)").remove();
       $(".main-slider .single-slide:nth-child(3)").remove();
       $(".main-slider").slick({
@@ -198,6 +198,8 @@ $(document).ready(() => {
           .map((banner) => `<img src="${banner?.image?.path}" alt="" />`)
           .join("")}`;
         jQuery(".main-slider").html(template);
+        if (jQuery("body").hasClass("freezeSlider"))
+          jQuery("body").removeClass("freezeSlider");
         jQuery(".main-slider").slick({
           arrows: false,
           dots: true,
