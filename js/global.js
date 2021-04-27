@@ -179,14 +179,32 @@ $(document).ready(() => {
     //     '.main-slider .slick-track img[src*="main-banner.jpg"]'
     //   ).attr("src")}">`
     // );
-    window.fetchSportBanners = async (skin, page, token) => {
+    window.fetchSportBanners = async (skin, token) => {
       const response = await fetch(
-        `https://gradm-api.pcluster.info/api/skin/banners/all?token${token}=&page=${page}&skin=${skin}`,
+        `https://gradm-api.pcluster.info/api/skin/banners/all?token=${token}&page=SPORT&skin=${skin}`,
         {
           method: "GET",
         }
       );
-      console.log("ca ka response ", response, response.json());
+      const data = await response.json();
+      const {
+        success: { banners },
+      } = data;
+
+      console.log("ca ka data ", data, banners);
+      if (banners.length >= 2) {
+        //slider
+        var template = `${banners
+          .map((banner) => `<img src="${banner?.image?.path}" alt="" />`)
+          .join("")}`;
+        jQuery(".center-content .main-slider").html(template);
+      } else {
+        //tek img
+        jQuery(".center-content .main-slider .single-slide img").attr(
+          "src",
+          banners[0]?.image?.path
+        );
+      }
     };
   }
   if (window.showCombination && window.showMultiple && window.showSingle) {
