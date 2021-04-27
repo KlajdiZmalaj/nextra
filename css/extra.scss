@@ -676,9 +676,12 @@ body .casino-section .game-grid {
 }
 
 .iframe-content {
-  width: 100%;
-  max-width: 1360px;
-  margin: 0 auto;
+  background: var(--primary-bg);
+  > .grid {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+  }
 }
 .clive-banner-container {
   background: var(--primary-bg);
