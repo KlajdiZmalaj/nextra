@@ -674,16 +674,23 @@ body .casino-section .game-grid {
     }
   }
 }
-.clive-banner-container,
-.clive-container,
+
 .iframe-content {
   width: 100%;
   max-width: 1360px;
   margin: 0 auto;
 }
-
+.clive-banner-container {
+  background: var(--primary-bg);
+  .clive-banner-inner {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+  }
+}
 .clive-container .clive-inner {
   width: 100%;
+  max-width: 1360px;
 }
 .clive-banner-inner .clive-banner-img {
   min-width: 100px;
