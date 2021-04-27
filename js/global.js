@@ -197,7 +197,14 @@ $(document).ready(() => {
         var template = `${banners
           .map((banner) => `<img src="${banner?.image?.path}" alt="" />`)
           .join("")}`;
-        jQuery(".center-content .main-slider").html(template);
+        jQuery(".main-slider").html(template);
+        jQuery(".main-slider").slick({
+          arrows: false,
+          dots: true,
+          autoplay: true,
+          autoplaySpeed: 6000,
+          slidesToShow: 1,
+        });
       } else {
         //tek img
         jQuery(".center-content .main-slider .single-slide img").attr(
