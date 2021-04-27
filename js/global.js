@@ -160,8 +160,7 @@ $(document).ready(() => {
       btoa(window.location.host) === "Z29sZHNwb3J0LmxpdmU=" ||
       btoa(window.location.host) === "d3d3LnI3YmV0Lm9yZw=="
     ) {
-      $("body").attr("host", "Z29sZHNwb3J0LmxpdmU=");
-      $("body").attr("host", "d3d3LnI3YmV0Lm9yZw==");
+      $("body").attr("host", btoa(window.location.host));
       $(".main-slider .single-slide:nth-child(3)").remove();
       $(".main-slider .single-slide:nth-child(3)").remove();
       $(".main-slider").slick({
@@ -180,6 +179,15 @@ $(document).ready(() => {
     //     '.main-slider .slick-track img[src*="main-banner.jpg"]'
     //   ).attr("src")}">`
     // );
+    window.fetchSportBanners = async (skin, page, token) => {
+      const response = await fetch(
+        `https://gradm-api.pcluster.info/api/skin/banners/all?token${token}=&page=${page}&skin=${skin}`,
+        {
+          method: "GET",
+        }
+      );
+      console.log("ca ka response ", response, response.json());
+    };
   }
   if (window.showCombination && window.showMultiple && window.showSingle) {
     //ku ka kupon ->
