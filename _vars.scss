@@ -136,6 +136,7 @@ body .menu_items_container {
           font-size: 0;
           &::before {
             content: "Saldo";
+            font-size: 13px;
           }
         }
       }
@@ -144,6 +145,7 @@ body .menu_items_container {
           font-size: 0;
           &::before {
             content: "Plafond";
+            font-size: 13px;
           }
         }
       }
