@@ -127,3 +127,26 @@ body .menu_items_container {
     font-size: 14px;
   }
 }
+
+.logged-center .transaction-filters form[action="/Sport/bo2_transfer.php"] {
+  .row:first-child {
+    .betlist-radios {
+      .radio-column:first-child {
+        label[for="transfer-manual"] {
+          font-size: 0;
+          &::before {
+            content: "Saldo";
+          }
+        }
+      }
+      .radio-column:last-child {
+        label[for="transfer-today"] {
+          font-size: 0;
+          &::before {
+            content: "Plafond";
+          }
+        }
+      }
+    }
+  }
+}
