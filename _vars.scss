@@ -152,3 +152,55 @@ body .menu_items_container {
     }
   }
 }
+// .sub-menu {
+//   a[] {
+//     display: none !important;
+//   }
+// }
+
+.logged-page
+  .logged-menu
+  ul
+  li
+  .sub-menu
+  li
+  a[href="/Sport/bo2_accountDetails"] {
+  display: none !important;
+}
+
+.header .bottom-header .bottom-header-content {
+  display: flex;
+
+  [href="/Sport/bo2_newUser"] {
+    color: #fddf02;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding-right: 15px;
+    font-weight: 600;
+    font-size: 13px;
+    i {
+      margin-right: 5px;
+    }
+  }
+}
+
+.buttons_container {
+  [data-action="deposita"] {
+    font-size: 0 !important;
+    &::before {
+      content: "Saldo";
+      font-size: 13px;
+    }
+  }
+
+  [data-action="preleva"] {
+    font-size: 0 !important;
+    &::before {
+      content: "Plafond";
+      font-size: 13px;
+    }
+  }
+}

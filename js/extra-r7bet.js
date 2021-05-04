@@ -18,5 +18,8 @@ $(document).ready(() => {
       "r7bet",
       "35da61c29d9c1fdc0debfdaa8e9294d678b4d2f8c2e7c8a9b26bb4589698031733aaef8cb5c253ab"
     );
+    // jQuery(".header .bottom-header .bottom-header-content").append(
+    //   '<a href="/Sport/bo2_newUser" alt=""><i class="fa fa-plus" aria-hidden="true"></i> Novo Usuário</a>'
+    // );
   }
 });
