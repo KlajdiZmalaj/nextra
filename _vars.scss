@@ -127,7 +127,37 @@ body .menu_items_container {
     font-size: 14px;
   }
 }
-
+.header
+  .top-header
+  .top-header-content
+  .primary-menu
+  ul
+  li
+  a[href="/Sport/casinolive"] {
+  font-size: 0;
+  &::before {
+    content: "Casino Live";
+    font-size: 14px;
+  }
+}
+.fast_menu .fast_menu_option > a[href="/mobile/casino"] {
+  > span:nth-child(2) {
+    font-size: 0%;
+    &::before {
+      content: "Casino";
+      font-size: 11px;
+    }
+  }
+}
+.fast_menu .fast_menu_option > a[href="/mobile/casinolive"] {
+  > span:nth-child(2) {
+    font-size: 0%;
+    &::before {
+      content: "Casino Live";
+      font-size: 11px;
+    }
+  }
+}
 .logged-center .transaction-filters form[action="/Sport/bo2_transfer.php"] {
   .row:first-child {
     .betlist-radios {
@@ -205,7 +235,7 @@ body .menu_items_container {
   }
 }
 .giroconto.fields .row.buttons .buttons_container {
-  display: flex;
+  display: flex !important;
   justify-content: center;
   align-items: center;
 }
