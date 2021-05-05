@@ -21,5 +21,7 @@ $(document).ready(() => {
     // jQuery(".header .bottom-header .bottom-header-content").append(
     //   '<a href="/Sport/bo2_newUser" alt=""><i class="fa fa-plus" aria-hidden="true"></i> Novo Usuário</a>'
     // );
+    jQuery("#quickTransferOperation option:nth-child(2)").text("Depositar");
+    jQuery("#quickTransferOperation option:nth-child(2)").text("Levantar");
   }
 });

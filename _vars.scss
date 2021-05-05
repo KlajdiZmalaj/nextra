@@ -239,3 +239,13 @@ body .menu_items_container {
   justify-content: center;
   align-items: center;
 }
+
+button.register-button.button.cashier-button.big {
+  .button-block:nth-child(3) {
+    font-size: 0;
+    &::before {
+      content: "Plafond";
+      font-size: 14px;
+    }
+  }
+}
