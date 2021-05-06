@@ -1,4 +1,44 @@
 //GLOBAL JS
+
+async function fetchSportBanners(skin, token) {
+  const response = await fetch(
+    `https://gradm-api.pcluster.info/api/skin/banners/all?token=${token}&page=SPORT&skin=${skin}`,
+    {
+      method: "GET",
+    }
+  );
+  const data = await response.json();
+  const {
+    success: { banners },
+  } = data;
+
+  console.log("ca ka data ", data, banners);
+  if (banners.length >= 2) {
+    //slider
+    var template = `${banners
+      .map(
+        (banner) =>
+          `<img class="newSliderSlide" src="${banner.image.path}" alt="" />`
+      )
+      .join("")}`;
+    jQuery(".main-slider").html(template);
+    //fix for old slider
+    jQuery("body").addClass("freezeSlider");
+    jQuery(".main-slider").slick({
+      arrows: false,
+      dots: true,
+      autoplay: true,
+      autoplaySpeed: 6000,
+      slidesToShow: 1,
+    });
+  } else {
+    //tek img
+    jQuery(".center-content .main-slider .single-slide img").attr(
+      "src",
+      banners[0].image.path
+    );
+  }
+}
 function changeElTxt(el, txt) {
   //console.log("txtfix", el, txt);
   var cache = $(el).children();
@@ -40,19 +80,19 @@ function languageFixOnSport() {
   var lang = window.language;
   $(
     ".sports-book-page .filters-holder .buttons-holder .single-button:first-child"
-  ).text(languageObj?.[lang]?.addFav);
+  ).text(languageObj[lang].addFav);
   $(
     ".sports-book-page .filters-holder .buttons-holder .single-button:last-child"
-  ).text(languageObj?.[lang]?.proceed);
+  ).text(languageObj[lang].proceed);
   changeElTxt(
     ".sports-book-page .title .select-events",
-    languageObj?.[lang]?.select_30_events
+    languageObj[lang].select_30_events
   );
   changeElTxt(
     ".sports-book-page .filters-holder span",
-    languageObj?.[lang]?.filters
+    languageObj[lang].filters
   );
-  $("#isSearch").attr("placeholder", languageObj?.[lang]?.filter_trn);
+  $("#isSearch").attr("placeholder", languageObj[lang].filter_trn);
 }
 function removeDraggableTables() {
   $("#tablets > .tabletsOdds").each((ind, el) => {
@@ -179,45 +219,6 @@ $(document).ready(() => {
     //     '.main-slider .slick-track img[src*="main-banner.jpg"]'
     //   ).attr("src")}">`
     // );
-    window.fetchSportBanners = async (skin, token) => {
-      const response = await fetch(
-        `https://gradm-api.pcluster.info/api/skin/banners/all?token=${token}&page=SPORT&skin=${skin}`,
-        {
-          method: "GET",
-        }
-      );
-      const data = await response.json();
-      const {
-        success: { banners },
-      } = data;
-
-      console.log("ca ka data ", data, banners);
-      if (banners.length >= 2) {
-        //slider
-        var template = `${banners
-          .map(
-            (banner) =>
-              `<img class="newSliderSlide" src="${banner?.image?.path}" alt="" />`
-          )
-          .join("")}`;
-        jQuery(".main-slider").html(template);
-        //fix for old slider
-        jQuery("body").addClass("freezeSlider");
-        jQuery(".main-slider").slick({
-          arrows: false,
-          dots: true,
-          autoplay: true,
-          autoplaySpeed: 6000,
-          slidesToShow: 1,
-        });
-      } else {
-        //tek img
-        jQuery(".center-content .main-slider .single-slide img").attr(
-          "src",
-          banners[0]?.image?.path
-        );
-      }
-    };
   }
   if (window.showCombination && window.showMultiple && window.showSingle) {
     //ku ka kupon ->
