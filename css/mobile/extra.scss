@@ -9963,7 +9963,9 @@ span {
 .single_menu_item.website {
   display: none !important;
 }
-
+.single_menu_item.chat {
+  display: flex !important;
+}
 [data-logged="true"][data-access="2"] .single_menu_item.newclient {
   display: block !important;
 }
