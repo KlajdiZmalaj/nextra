@@ -8977,9 +8977,9 @@ span.sport_search_button {
   }
 }
 
-div#chat-widget-container {
-  display: none;
-}
+// div#chat-widget-container {
+//   display: none;
+// }
 
 [class^="icon-"],
 [class*=" icon-"],
@@ -9963,9 +9963,9 @@ span {
 .single_menu_item.website {
   display: none !important;
 }
-.single_menu_item.chat {
-  display: flex !important;
-}
+// .single_menu_item.chat {
+//   display: flex !important;
+// }
 [data-logged="true"][data-access="2"] .single_menu_item.newclient {
   display: block !important;
 }
@@ -11363,7 +11363,26 @@ img.casino-pro-item-img[alt="Novomatic"] {
 }
 
 .livechat_button {
-  display: none;
+  position: fixed;
+  top: 15px;
+  right: 70px;
+  z-index: 3;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  a {
+    font-size: 0;
+    color: var(--secondary-txt);
+    text-decoration: none;
+    &:before {
+      content: "\f086";
+      font-family: "Font Awesome 5 Pro";
+      font-size: 32px;
+    }
+  }
 }
 .tournaments_wrapper
   .tournaments_holder
