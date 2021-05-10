@@ -1,376 +1,292 @@
-$skin: "r7bet";
+$skin: "jogar365";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/r7bet/images/logo2.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/green.jpg";
+$logoUrl: "http://static.pcluster.info/skins/fastbet24/img/logo/newlogo.svg";
+$bodyBg: "https://nextra.pcluster.info/#{$skin}/images/gold.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
+
 html:root {
-  --accent: #14805e;
-  --accent-bg: #ff5722;
+  --accent: #af8a33;
+  --accent-bg: #af8a33;
   --accent-txt: #000;
-  --primary-bg: #101010;
-  --primary-txt: #fff;
-  --secondary-bg: #151515;
+  --primary-bg: #262626;
+  --primary-txt: #d5d5d5;
+  --secondary-bg: #303030;
   --secondary-txt: #fff;
-  --mainBg: #212121;
+  --mainBg: #1c1c1c;
   --mainBgCol: #fff;
-  --bg1: #2d2d2d;
+  --bg1: #292929;
   --col1: #fff;
-  --teableHeadersBg: #ff5722;
+  --teableHeadersBg: linear-gradient(#8f6b29, #d0aa3d, #df9f28);
   --teableHeadersCol: #000000;
-  --teableSubHeadersBg: #484848;
+  --teableSubHeadersBg: #434343;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #383838;
-  --casinoGradient1: #2b335a;
+  --tableBorders: #4d4d4d;
+  --casinoGradient1: linear-gradient(to right, #040100, #bf570f);
   --casinoGradient1-txt: #fff;
-  --casinoGradient2: #636363;
+  --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "r7bet";
+  --skin: "jogar365";
 }
 
-$secondary: #14805e;
+$secondary: #af8a33;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #14805e;
-$secondaryDarkCol: #fff;
-$primary: #323232;
+$secondaryDark: #a17f2f;
+$secondaryDarkCol: #222;
+$primary: #292929;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #323232;
-
-body {
-  background-size: 2038px !important;
-  background-color: var(--primary-bg) !important;
-  background-image: none !important;
-}
+$sb-2: #292929;
 
 body.landing-page {
-  background-color: #01050e !important;
+  background-color: #000000 !important;
   background-image: none;
 }
+@import url("https://nextra.pcluster.info/css/fonts/fontAwesome/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+* {
+  font-weight: 600;
+}
+body {
+  background-size: auto !important;
+}
+.sport_odds_name,
+.main_page_title {
+  font-weight: 900;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+}
+//winter brazilian fix icon
+.header .top-header .top-header-content .primary-menu ul li:nth-child(2):after {
+  left: 20px !important;
+}
 
-.header .top-header .top-header-content .primary-menu ul li {
-  // &#indexCasino,
-  // &#indexCasinoLive,
-  &#indexVirtual,
-  &#indexPoker {
-    display: none !important;
+.contact-us {
+  display: inline-block !important;
+  width: 100%;
+  float: left;
+}
+.contact-us .button {
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--col1);
+  width: 100%;
+  animation: flashCol infinite linear 1s;
+  background: var(--bg1);
+  font-size: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &::before {
+    content: "Fale Conosco";
+    font-size: 16px;
+  }
+}
+.contact-us .content {
+  white-space: normal;
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  > p:first-child,
+  h1 {
+    color: rgb(207, 22, 22);
+    font-size: 15px;
   }
 }
 
-//hide casino poker.. on mob
-.fast_menu .fast_menu_option {
-  &:nth-child(5)
-  // &:nth-child(7),
-  // &:nth-child(9)
-  {
-    display: none;
-  }
-}
-
-body .menu_items_container {
-  // .single_menu_item.casino,
-  // .single_menu_item.casino_live,
-  .single_menu_item.virtual_games {
-    display: none !important;
-  }
-}
-
-// body [data-logged][data-access] .single_menu_item.casino_live {
-//   display: none !important;
-// }
-//end hide casino poker.. on mob
-
-.logged-page .logged-menu ul li .sub-menu {
-  li {
-    a[href="/Sport/cashdesk"] {
-      display: none;
+.contact-us {
+  display: inline-block;
+  width: 100%;
+  .content {
+    &[data-show="false"] {
+      display: none !important;
     }
   }
 }
 
-.logged-page .logged-menu ul li .sub-menu li {
-  a[href="/Sport/bo2_fastPrint"],
-  a[href="/Sport/bo2_Print"] {
-    display: none;
+.help-page .help-menu ul li {
+  display: list-item !important;
+}
+
+@keyframes flashCol {
+  0% {
+    background: rgb(25, 139, 59);
+    color: rgb(255, 255, 255);
+  }
+  100% {
+    background: var(--teableSubHeadersBg);
+    color: #fff;
+  }
+}
+.main_container > .main_content {
+  padding-top: 0px !important;
+}
+
+html {
+  .main_header {
+    position: unset;
+    z-index: 0;
+    padding-top: 60px;
+  }
+  .main_header .main_header_left {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  .main_header .main_header_right {
+    position: fixed;
+    top: 0;
+    z-index: 1;
   }
 }
 
-.logged-content.admin-content
-  .big-buttons
-  .buttons-holder
-  .single-button[href="/Sport/cashdesk"],
-.logged-content.admin-content
-  .big-buttons
-  .buttons-holder
-  .single-button[href="/Sport/bo2_Print"] {
+.contact-us .content {
+  position: relative;
+}
+.contact-us .content .register-button {
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+}
+.contact-us .content .register-button a {
+  line-height: 28px;
+  padding: 3px 15px;
+  border: 1px solid #af8a33;
+  background: #af8a33;
+  text-transform: uppercase;
+  color: #000;
+}
+
+body .deposit-page .block {
+  border: 1px solid var(--tableBorders);
+  border-radius: 6px;
+  .right-content .wrapper {
+    .sub-title {
+      color: var(--mainBgCol);
+    }
+  }
+}
+
+.contact-us .content {
+  .reg-button a {
+    color: var(--accent);
+  }
+  h2 + div + div {
+    font-size: 0px;
+    &:before {
+      // content: "Whatsapp   21 967787985";
+      // font-size: 12px;
+      // content: "\f232";
+      // font: normal normal normal 14px/1 FontAwesome;
+      // font-family: FontAwesome !important;
+      // font-size: 12px;
+    }
+    &:after {
+      content: "21 967787985";
+      font-size: 12px;
+      background: url(https://nextra.pcluster.info/jogar365/images/whatsapp.svg);
+      min-width: 40px;
+      min-height: 40px;
+      padding-left: 19px;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+  h2 + div + div + div {
+    font-size: 0px;
+    &:before {
+      content: "info@jogar365.net";
+      font-size: 12px;
+    }
+  }
+  h2 + div + div + div + div {
+    font-size: 0px;
+  }
+}
+.input-wrapper .error-cell {
   display: none;
 }
-
-.header
-  .top-header
-  .top-header-content
-  .primary-menu
-  ul
-  li
-  a[href="/Sport/casino"] {
-  font-size: 0;
-  &::before {
-    content: "Casino";
-    font-size: 14px;
-  }
+.input-wrapper.error .error-cell {
+  display: block;
 }
-.header
-  .top-header
-  .top-header-content
-  .primary-menu
-  ul
-  li
-  a[href="/Sport/casinolive"] {
-  font-size: 0;
-  &::before {
-    content: "Casino Live";
-    font-size: 14px;
+body {
+  .clive-banner-container {
+    width: 100%;
+    max-width: 100%;
+    background: var(--mainBg);
   }
-}
-.fast_menu .fast_menu_option > a[href="/mobile/casino"] {
-  > span:nth-child(2) {
-    font-size: 0%;
-    &::before {
-      content: "Casino";
-      font-size: 11px;
+  .clive-container {
+    width: 100%;
+    max-width: 100%;
+    .clive-inner {
+      width: 100%;
+      max-width: 1360px;
+      margin: 0 auto;
     }
   }
 }
-.fast_menu .fast_menu_option > a[href="/mobile/casinolive"] {
-  > span:nth-child(2) {
-    font-size: 0%;
-    &::before {
-      content: "Casino Live";
-      font-size: 11px;
-    }
-  }
+.side-bar.right-side-bar .banner-block {
+  position: relative;
 }
-.logged-center .transaction-filters form[action="/Sport/bo2_transfer.php"] {
-  .row:first-child {
-    .betlist-radios {
-      .radio-column:first-child {
-        label[for="transfer-manual"] {
-          font-size: 0;
-          &::before {
-            content: "Saldo";
-            font-size: 13px;
-          }
-        }
-      }
-      .radio-column:last-child {
-        label[for="transfer-today"] {
-          font-size: 0;
-          &::before {
-            content: "Plafond";
-            font-size: 13px;
-          }
-        }
-      }
-    }
-  }
-  .row:nth-last-child(3) {
-    .betlist-radios {
-      .radio-column:first-child {
-        label[for="transfer-manual"] {
-          font-size: 0;
-          &::before {
-            content: "Depositar";
-            font-size: 13px;
-          }
-        }
-      }
-      .radio-column:last-child {
-        label[for="transfer-today"] {
-          font-size: 0;
-          &::before {
-            content: "Levantar";
-            font-size: 13px;
-          }
-        }
-      }
-    }
-  }
-}
-// .sub-menu {
-//   a[] {
-//     display: none !important;
-//   }
+// .side-bar.right-side-bar .banner-block:after {
+//   content: "";
+//   background-image: url("https://nextra.pcluster.info/#{$skin}/images/banner-test.gif");
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   margin-top: 10px;
 // }
 
-.logged-page
-  .logged-menu
-  ul
-  li
-  .sub-menu
-  li
-  a[href="/Sport/bo2_accountDetails"] {
-  display: none !important;
+.banner-block a[href="/Sport/became-an-agent"]:after {
+  margin-top: 10px;
+}
+.banner-block a[href="/Sport/became-an-agent"]:after {
+  content: "";
+  width: 100%;
+  height: 300px;
+  background: url(//nextra.pcluster.info/jogar365/images/bookra.jpg);
+  height: 300px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.header .bottom-header .bottom-header-content {
-  display: flex;
-
-  [href="/Sport/bo2_newUser"] {
-    color: #fddf02;
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: auto;
-    padding-right: 15px;
-    font-weight: 600;
-    font-size: 13px;
-    i {
-      margin-right: 5px;
-    }
-  }
+.banner-block a[href="/Sport/became-an-agent"]:before {
+  margin-top: 40px;
 }
-
-.buttons_container {
-  [data-action="deposita"] {
-    font-size: 0 !important;
-    &::before {
-      content: "Saldo";
-      font-size: 13px;
-    }
-  }
-
-  [data-action="preleva"] {
-    font-size: 0 !important;
-    &::before {
-      content: "Plafond";
-      font-size: 13px;
-    }
-  }
+.banner-block a[href="/Sport/became-an-agent"]:before {
+  content: "";
+  width: 100%;
+  height: 300px;
+  background: url(//nextra.pcluster.info/jogar365/images/evo.jpg);
+  height: 300px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 200%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-.giroconto.fields .row.buttons .buttons_container {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-}
-
-button.register-button.button.cashier-button.big {
-  .button-block:nth-child(3) {
-    font-size: 0;
-    .balance {
-      font-size: 14px;
-    }
-    &::before {
-      content: "Plafond";
-      font-size: 14px;
-    }
-  }
-}
-div#ctran-container {
-  span.ph-a-text {
-    font-size: 0;
-    &::before {
-      content: "Transferencia";
-      font-size: 16px;
-    }
-  }
-  .gt-head {
-    .ctran-det:nth-child(3) {
-      span.clit-txt {
-        font-size: 0;
-        &::before {
-          content: "Plafond";
-          font-size: 16px;
-        }
-      }
-    }
-    .ctran-det:nth-child(4) {
-      span.clit-txt {
-        font-size: 0;
-        &::before {
-          content: "Plafond";
-          font-size: 16px;
-        }
-      }
-    }
-  }
-  .ctran-form-inner {
-    > div {
-      &:nth-child(4),
-      &:nth-child(6) {
-        .ctran-det:nth-child(1) {
-          label {
-            font-size: 0;
-            &::before {
-              content: "Depositar";
-              font-size: 16px;
-            }
-          }
-        }
-        .ctran-det:nth-child(2) {
-          label {
-            font-size: 0;
-            &::before {
-              content: "Levantar";
-              font-size: 16px;
-            }
-          }
-        }
-        .ctran-det:nth-child(3) {
-          label {
-            font-size: 0;
-            &::before {
-              content: "Quantia";
-              font-size: 16px;
-            }
-          }
-        }
-      }
-    }
-  }
-  .ctran-form-btn {
-    font-size: 0;
-    i {
-      font-size: 18px;
-    }
-    &::after {
-      content: "Confirmar";
-      font-size: 16px;
-    }
-  }
-}
-div#fidoHeader {
-  span.atxt {
-    font-size: 0;
-    &::before {
-      content: "Plafond";
-      font-size: 20px;
-    }
-  }
-}
-a.single_menu_item.casino_live {
-  .item_name {
-    font-size: 0;
-    &::before {
-      content: "Casino ao vivo";
-      font-size: 13px;
-    }
-  }
-}
-a.single_menu_item.casino {
-  .item_name {
-    font-size: 0;
-    &::before {
-      content: "Casino";
-      font-size: 13px;
-    }
-  }
+.livechat_button a:before {
+  color: var(--teableHeadersBg);
+  background: var(--teableHeadersBg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
