@@ -1,5 +1,11 @@
 @import url("../../css/fonts/fontAwesome/css/all.min.css");
-
+@font-face {
+  font-family: "ciro";
+  src: url("https://nextra.pcluster.info/css/fonts/ciro.ttf?woxfd5")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   box-sizing: border-box;
 }
