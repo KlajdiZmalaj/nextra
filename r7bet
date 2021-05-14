@@ -374,3 +374,21 @@ a.single_menu_item.casino {
     }
   }
 }
+#betlist .resetPosition {
+  position: relative;
+  cursor: pointer;
+  &::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    font-family: "Font Awesome 5 Pro";
+    position: absolute;
+    left: 9px;
+    top: -2px;
+    background-image: url(https://nextra.nextra.bet/nextra/images/money-flow.svg);
+    display: block;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(1) brightness(0);
+  }
+}
