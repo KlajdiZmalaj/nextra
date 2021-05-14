@@ -8851,6 +8851,12 @@ a.button.right.login {
   &.icon-129 {
     background-image: url(https://nextra.pcluster.info/css/fonts/snow-vehicle.svg);
   }
+  &.icon-131 {
+    background-image: url(https://nextra.pcluster.info/css/fonts/motocross.svg);
+  }
+  &.icon-190 {
+    background-image: url(https://nextra.pcluster.info/css/fonts/bike.svg);
+  }
 }
 
 input.sport_search_controller {
@@ -11595,4 +11601,10 @@ img.casino-pro-item-img[alt="Novomatic"] {
   padding-right: 0;
   display: flex;
   align-items: center;
+}
+
+.itoast-inner-container {
+  .itoast-title {
+    display: none;
+  }
 }
