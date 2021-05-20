@@ -1,65 +1,406 @@
-$skin: "d10sport";
+$skin: "r7bet";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "#{$imagesPath}/logo.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/darkblue.jpg";
+$logoUrl: "https://nextra.pcluster.info/r7bet/images/logo2.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/green.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #ffeb3b;
-  --accent-bg: #ffeb3b;
-  --accent-txt: #222;
-  --primary-bg: #172a5c;
+  --accent: #14805e;
+  --accent-bg: #ff5722;
+  --accent-txt: #000;
+  --primary-bg: #101010;
   --primary-txt: #fff;
-  --secondary-bg: #081538;
+  --secondary-bg: #151515;
   --secondary-txt: #fff;
-  --mainBg: #020c22;
+  --mainBg: #212121;
   --mainBgCol: #fff;
-  --bg1: #172a5c;
+  --bg1: #2d2d2d;
   --col1: #fff;
-  --teableHeadersBg: #102140;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #081732;
+  --teableHeadersBg: #ff5722;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #484848;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #47598a;
-  --casinoGradient1: #00000000;
-  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --tableBorders: #383838;
+  --casinoGradient1: #2b335a;
+  --casinoGradient1-txt: #fff;
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "mondbet";
+  --skin: "r7bet";
 }
-$secondary: #ffeb3b;
+
+$secondary: #14805e;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #ffeb3b;
+$secondaryDark: #14805e;
 $secondaryDarkCol: #fff;
-$primary: #172a5d;
+$primary: #323232;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #172a5d;
+$sb-2: #323232;
+
 body {
   background-size: 2038px !important;
+  background-color: var(--primary-bg) !important;
+  background-image: none !important;
 }
-#favouriteTournaments li:before {
-  filter: brightness(0);
-}
+
 body.landing-page {
-  background-color: #0e0c0d !important;
+  background-color: #01050e !important;
   background-image: none;
 }
 
-.main_header .main_header_left {
-  width: 200px !important;
-}
-
-.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
-  &:before {
-    background-image: url(//nextra.pcluster.info/1x2sportbet/images/casinolive/clive-banner1.jpg) !important;
+.header .top-header .top-header-content .primary-menu ul li {
+  // &#indexCasino,
+  // &#indexCasinoLive,
+  &#indexVirtual,
+  &#indexPoker {
+    display: none !important;
   }
 }
+
+//hide casino poker.. on mob
+.fast_menu .fast_menu_option {
+  &:nth-child(5)
+  // &:nth-child(7),
+  // &:nth-child(9)
+  {
+    display: none;
+  }
+}
+
+body .menu_items_container {
+  // .single_menu_item.casino,
+  // .single_menu_item.casino_live,
+  .single_menu_item.virtual_games {
+    display: none !important;
+  }
+}
+
+// body [data-logged][data-access] .single_menu_item.casino_live {
+//   display: none !important;
+// }
+//end hide casino poker.. on mob
+
+.logged-page .logged-menu ul li .sub-menu {
+  li {
+    a[href="/Sport/cashdesk"] {
+      display: none;
+    }
+  }
+}
+
+.logged-page .logged-menu ul li .sub-menu li {
+  a[href="/Sport/bo2_fastPrint"],
+  a[href="/Sport/bo2_Print"] {
+    display: none;
+  }
+}
+
+.logged-content.admin-content
+  .big-buttons
+  .buttons-holder
+  .single-button[href="/Sport/cashdesk"],
+.logged-content.admin-content
+  .big-buttons
+  .buttons-holder
+  .single-button[href="/Sport/bo2_Print"] {
+  display: none;
+}
+
+.header
+  .top-header
+  .top-header-content
+  .primary-menu
+  ul
+  li
+  a[href="/Sport/casino"] {
+  font-size: 0;
+  &::before {
+    content: "Casino";
+    font-size: 14px;
+  }
+}
+.header
+  .top-header
+  .top-header-content
+  .primary-menu
+  ul
+  li
+  a[href="/Sport/casinolive"] {
+  font-size: 0;
+  &::before {
+    content: "Casino Live";
+    font-size: 14px;
+  }
+}
+.fast_menu .fast_menu_option > a[href="/mobile/casino"] {
+  > span:nth-child(2) {
+    font-size: 0%;
+    &::before {
+      content: "Casino";
+      font-size: 11px;
+    }
+  }
+}
+.fast_menu .fast_menu_option > a[href="/mobile/casinolive"] {
+  > span:nth-child(2) {
+    font-size: 0%;
+    &::before {
+      content: "Casino Live";
+      font-size: 11px;
+    }
+  }
+}
+.logged-center .transaction-filters form[action="/Sport/bo2_transfer.php"] {
+  .row:first-child {
+    .betlist-radios {
+      .radio-column:first-child {
+        label[for="transfer-manual"] {
+          font-size: 0;
+          &::before {
+            content: "Saldo";
+            font-size: 13px;
+          }
+        }
+      }
+      .radio-column:last-child {
+        label[for="transfer-today"] {
+          font-size: 0;
+          &::before {
+            content: "Plafond";
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+  .row:nth-last-child(3) {
+    .betlist-radios {
+      .radio-column:first-child {
+        label[for="transfer-manual"] {
+          font-size: 0;
+          &::before {
+            content: "Depositar";
+            font-size: 13px;
+          }
+        }
+      }
+      .radio-column:last-child {
+        label[for="transfer-today"] {
+          font-size: 0;
+          &::before {
+            content: "Levantar";
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}
+// .sub-menu {
+//   a[] {
+//     display: none !important;
+//   }
+// }
+
+.logged-page
+  .logged-menu
+  ul
+  li
+  .sub-menu
+  li
+  a[href="/Sport/bo2_accountDetails"] {
+  display: none !important;
+}
+
+.header .bottom-header .bottom-header-content {
+  display: flex;
+
+  [href="/Sport/bo2_newUser"] {
+    color: #fddf02;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding-right: 15px;
+    font-weight: 600;
+    font-size: 13px;
+    i {
+      margin-right: 5px;
+    }
+  }
+}
+
+.buttons_container {
+  [data-action="deposita"] {
+    font-size: 0 !important;
+    &::before {
+      content: "Saldo";
+      font-size: 13px;
+    }
+  }
+
+  [data-action="preleva"] {
+    font-size: 0 !important;
+    &::before {
+      content: "Plafond";
+      font-size: 13px;
+    }
+  }
+}
+.giroconto.fields .row.buttons .buttons_container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+button.register-button.button.cashier-button.big {
+  .button-block:nth-child(3) {
+    font-size: 0;
+    .balance {
+      font-size: 14px;
+    }
+    &::before {
+      content: "Plafond";
+      font-size: 14px;
+    }
+  }
+}
+div#ctran-container {
+  span.ph-a-text {
+    font-size: 0;
+    &::before {
+      content: "Transferencia";
+      font-size: 16px;
+    }
+  }
+  .gt-head {
+    .ctran-det:nth-child(3) {
+      span.clit-txt {
+        font-size: 0;
+        &::before {
+          content: "Plafond";
+          font-size: 16px;
+        }
+      }
+    }
+    .ctran-det:nth-child(4) {
+      span.clit-txt {
+        font-size: 0;
+        &::before {
+          content: "Plafond";
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .ctran-form-inner {
+    > div {
+      &:nth-child(4),
+      &:nth-child(6) {
+        .ctran-det:nth-child(1) {
+          label {
+            font-size: 0;
+            &::before {
+              content: "Depositar";
+              font-size: 16px;
+            }
+          }
+        }
+        .ctran-det:nth-child(2) {
+          label {
+            font-size: 0;
+            &::before {
+              content: "Levantar";
+              font-size: 16px;
+            }
+          }
+        }
+        .ctran-det:nth-child(3) {
+          label {
+            font-size: 0;
+            &::before {
+              content: "Quantia";
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .ctran-form-btn {
+    font-size: 0;
+    i {
+      font-size: 18px;
+    }
+    &::after {
+      content: "Confirmar";
+      font-size: 16px;
+    }
+  }
+}
+div#fidoHeader {
+  span.atxt {
+    font-size: 0;
+    &::before {
+      content: "Plafond";
+      font-size: 20px;
+    }
+  }
+}
+a.single_menu_item.casino_live {
+  .item_name {
+    font-size: 0;
+    &::before {
+      content: "Casino ao vivo";
+      font-size: 13px;
+    }
+  }
+}
+a.single_menu_item.casino {
+  .item_name {
+    font-size: 0;
+    &::before {
+      content: "Casino";
+      font-size: 13px;
+    }
+  }
+}
+#betlist .resetPosition {
+  position: relative;
+  cursor: pointer;
+  &::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    font-family: "Font Awesome 5 Pro";
+    position: absolute;
+    left: 9px;
+    top: -2px;
+    background-image: url(https://nextra.nextra.bet/nextra/images/money-flow.svg);
+    display: block;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(1) brightness(0);
+  }
+}
+
+
+.logged-center .usrlist #client_list th{
+  &:nth-child(8) {
+    font-size: 0;
+    &::before {
+      content: "Plafond";
+      font-size: 12px;
+    }
+  }
+}
+
