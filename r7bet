@@ -392,3 +392,12 @@ a.single_menu_item.casino {
     filter: grayscale(1) brightness(0);
   }
 }
+
+.ctran-form-inner {
+  >.gt-c {
+    display: none;
+    + .gt-a {
+      display: none;
+    }
+  }
+}
