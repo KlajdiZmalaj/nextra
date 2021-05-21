@@ -1,96 +1,178 @@
-// was froutbet => matrix365
-
-//invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
-html:root {
-  --accent: #4caf50;
-  --accent-bg: #4caf50;
-  --accent-txt: #222;
-  --primary-bg: #d9d9d9;
-  --primary-txt: #000000;
-  --secondary-bg: #000;
-  --secondary-txt: #fff;
-  --mainBg: #000000;
-  --mainBgCol: #e5e5e5;
-  --bg1: #0f0f0f;
-  --col1: #e7e7e7;
-  --teableHeadersBg: #075424;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #09441f;
-  --teableSubHeadersCol: #4caf50;
-  --tableBorders: #303030;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
-  --casinoGradient2: #4caf50;
-  --casinoGradient2-txt: #000;
-  --backDrops: #000000cf;
-  --skin: "giokibet";
-}
-
-$skin: "giokibet";
+$skin: "jsport365";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "#{$imagesPath}/logo.svg";
-$bodyBg: "https://nextra.pcluster.info/fourbet/images/matrix.jpg";
+$logoUrl: "//nextra.pcluster.info/jsport365/images/logo.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
 $bodyCol: #000;
+
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
 
-$secondary: #075424;
+html:root {
+  --accent: #fdf10c;
+  --accent-bg: #fdf10c;
+  --accent-txt: #000;
+  --primary-bg: #000000;
+  --primary-txt: #ffffff;
+  --secondary-bg: #2c2c2c;
+  --secondary-txt: #fff;
+  --mainBg: #000000;
+  --mainBgCol: #fff;
+  --bg1: #131313;
+  --col1: #fff;
+  --teableHeadersBg: #fdf10c;
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #2e2e2e;
+  --teableSubHeadersCol: #ffffff;
+  --tableBorders: #484848;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
+  --casinoGradient2: #fd0;
+  --casinoGradient2-txt: #000;
+  --backDrops: #000000cf;
+  --skin: "jsport365";
+}
+
+$secondary: #fd0;
 $secondaryCol: #fff;
-
-$secondaryDark: #075424;
-$secondaryDarkCol: #fff;
 $black: #000000;
-$primary: #222;
-$white: #fff;
+$secondaryDark: #d1a813;
+$secondaryDarkCol: #222;
+$primary: #333949;
+$white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #162444;
-
-//black filter li logos
-#favouriteTournaments li:before {
-  filter: brightness(0.1);
-}
-
-html body {
-  background-position-y: 80px !important;
-  background-attachment: initial;
-  background-size: 2260px;
-  background-repeat: no-repeat;
-}
-
-.header .top-header {
-  border-bottom: 4px solid var(--casinoGradient2) !important;
-}
-
-.header .top-bar {
-  background: #1b1b1b !important;
-  color: #20ff00 !important;
-}
+$sb-2: #333844;
 
 footer {
-  background: var(--accent-bg) !important;
+  background: var(--bg1);
+  border-top: 1px solid var(--mainBg);
 }
-.header .top-header .top-header-content .primary-menu ul li.active {
-  color: #4caf50 !important;
+footer .footer-copyright {
+  background: var(--mainBg);
 }
-.header .top-header .top-header-content .primary-menu li a:after {
-  color: inherit !important;
+
+body.landing-page {
+  background-color: #121212 !important;
+  background-image: none;
 }
-html {
-  .header .top-header .top-header-content .primary-menu ul li:hover:before,
-  .header .top-header .top-header-content .primary-menu ul li.active:before {
-    border-bottom: 10px solid #4caf50 !important;
+
+//casino live
+.clive-container > .clive-inner > .clgames-container:nth-child(2) {
+  display: none;
+  margin-bottom: 0;
+}
+.clive-container .clive-inner .clive-games-container:last-child {
+  margin: 0 auto;
+}
+
+.clive-container .clive-inner {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  align-items: center;
+}
+.block-content .single-sport {
+  .anchor {
+    background: linear-gradient(to right, black, #fdf10c);
+    &:hover {
+      background: linear-gradient(to right, black, #fdf10c) !important;
+    }
+    span {
+      color: #222;
+    }
   }
 }
-html footer {
-  background: #075424 !important;
-  color: #fff !important;
+
+.center-content .popular-bets .title img {
+  filter: grayscale(1) invert(1);
 }
-html .torn-a {
-  background: #0f0f0f;
-  color: #4caf50;
+
+.poker-container .poker-strip.dbg {
+  display: flex !important;
+}
+.poker-strip.isla {
+  display: none !important;
+}
+
+.poker-container .poker-strip.dbg .poker-strip-a img {
+  display: none;
+}
+.poker-strip.dbg .poker-strip-a a:after {
+  content: "Gioca ora";
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 1px solid var(--accent-bg);
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: -10px;
+  color: var(--accent-bg);
+}
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
+  display: none;
+}
+
+// html .casino-section {
+//   background-size: 1360px;
+//   background-image: url(http://nextra.pcluster.info/jsport365/images/Casino.jpg);
+// }
+
+html body .casino-section .casino-container .casino-inner {
+  padding-top: 370px;
+}
+
+// html div.landing-page .banner-content {
+//   width: 100%;
+//   background-image: url(//nextra.pcluster.info/jsport365/images/Home-1920.jpg) !important;
+// }
+
+
+//make changes
+
+.fas.fa-eye {
+  cursor: pointer;
+}
+
+.header-buttons.hide {
+display: none !important;
+}
+
+
+.buttons-holder a.single-button:nth-child(2) {
+font-size: 0px !important;
+}
+
+.buttons-holder a.single-button i.fa.fa-print {
+  font-size: 21px;
+font-weight: 300 !important;
+}
+
+
+
+.logged-content.admin-content .row .buttons-holder .single-button:nth-child(2)::after {
+  content: 'Stampa Quota';
+  font-size: 21px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.widget-wrapper ul#favouriteSports {
+  background: #23221e;
+}
+
+body .center-content .percentage-block .single-over-under .team-names {
+  width: 90%;
+  margin: auto;
+}
+
+
+.explore-matches-page .title {
+  border-bottom: 1px solid #6d6d6d;
+  line-height: 36px;
+  width: calc(100% - 70px);
+  padding: 25px;
+  display: inline-block;
 }
