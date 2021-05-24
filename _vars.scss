@@ -2,16 +2,16 @@ $skin: "d10sport";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNjQzLjE3IDExOC41OSI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50KTt9LmNscy0ye2ZpbGw6I2ZmZjt9LmNscy0ze2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQtMik7fTwvc3R5bGU+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSI5MC4zNCIgeTE9IjEyNy43MyIgeDI9IjM4MS43OCIgeTI9Ii02LjY1IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSJyZWQiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZjQ4MDAiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTIiIHgxPSI1MS40IiB5MT0iNDMuMjciIHgyPSIzNDIuODQiIHkyPSItOTEuMTEiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQiLz48L2RlZnM+PHRpdGxlPmQxMHNiZXQtbG9nbzE8L3RpdGxlPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjM1Ni43OCAxMTguNTggMTAwLjM3IDExOC41OCAxMjAuNzQgMCAzNzcuMTUgMCAzNTYuNzggMTE4LjU4Ii8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjEsMEg4Ny43M3ExMS41MiwwLDE2LjE4LDUuNzd0Mi42MywxNy42NEw5My44Nyw5NS4yNHEtNC4wOCwyMy4zNi0yNywyMy4zNUgwWk0zMi4zNCw5NC4xOUg2Mi42OGMxLjkyLDAsMy4xLTEuMDcsMy41Ni0zLjIyTDc3LjQxLDI3LjYxYy4yMi0xLjM1LjE3LTIuMjMtLjE3LTIuNjJzLTEuMTMtLjYtMi4zNy0uNkg0NC43MloiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xNDAuNTQsMTA1Ljg1LDE1My4wNSwzNSwxMzMuOSw0MS42bDMuMzItMTguMzVMMTYyLDEyLjc0aDE3bC0xNi40Miw5My4xMVoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yMzYuMDYsMTA1Ljg1SDIwMi40cS0xOCwwLTE0LjY0LTE4LjM2bDkuODEtNTYuNHEzLjMzLTE4LjM2LDIxLjE2LTE4LjM1aDMzLjY2cTksMCwxMi43LDQuNTJ0Mi4wNiwxMy44M2wtOS45NCw1Ni40UTI1NCwxMDUuODUsMjM2LjA2LDEwNS44NVpNMjE5LjEzLDM0LjQxbC04Ljc3LDQ5Ljc1Yy0uMzUsMS42OS4zMSwyLjUzLDIsMi41M2gyMC40OWEyLjc4LDIuNzgsMCwwLDAsMi45My0yLjUybDguNzctNDkuNzVjLjI3LTEuNjktLjQtMi41My0yLTIuNTNIMjIxLjkzQTIuNjEsMi42MSwwLDAsMCwyMTkuMTMsMzQuNDFaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMzI0LjM3LDQyLjI3bDEuNDYtOC4zOGEyLjc2LDIuNzYsMCwwLDAtLjEzLTJjLS4yNy0uMzUtLjg5LS41My0xLjg3LS41M0gzMDUuNjFhMi42LDIuNiwwLDAsMC0yLjc5LDIuNTNsLTEuNiw4LjY0YTQsNCwwLDAsMCwuMjcsMi43M0E0LjU5LDQuNTksMCwwLDAsMzA0LDQ2LjUybDIzLjI4LDZxOS43LDIuNCwxMy4zLDYuMTJ0Mi4xMywxMi41TDMzOS44LDg3LjQ5cS0zLjE5LDE4LjM2LTIxLjE1LDE4LjM2aC0zM3EtMTgsMC0xNC42My0xOC4zNmwyLjEyLTEyLjI0SDI5NWwtMS43Myw5LjQ1YTIuNDIsMi40MiwwLDAsMCwuMiwyLDIuNTQsMi41NCwwLDAsMCwxLjkzLjU0aDE5LjgyYTIuODYsMi44NiwwLDAsMCwzLjA2LTIuNTNMMzE5Ljg0LDc1YTMuMTEsMy4xMSwwLDAsMC0uMi0yLjU5LDUuMTYsNS4xNiwwLDAsMC0yLjU5LTEuMjdMMjkzLjksNjVxLTkuNy0yLjUyLTEzLjMtNi4xOHQtMi4xMi0xMi40NGwyLjY2LTE1LjNxMy4zMi0xOC4zNCwyMS4xNS0xOC4zNWgzMS4xMnE5LDAsMTIuNyw0LjUydDIuMDcsMTMuODNsLTIsMTEuMThaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMzg2LjgzLDBoNTUuOTFxMTIuMzYsMCwxNi42OSw3dDEuMjYsMjQuNjVxLTIsMTItNS43NSwxNy42MmEyMC41MSwyMC41MSwwLDAsMS05LjgzLDhxNi4yNywyLjIsOC4wNSw3Ljc5dC0uNDMsMjBxLTMuNTYsMTkuNDktOS45MSwyNi41MXQtMTkuNTYsN0gzNjUuNzNabS03LjA4LDEwNy40aDQ0LjU2cTYuNjIsMCw5LjkxLTQuMzJ0NS42OC0xOHEyLjE5LTE0LjIyLjUxLTE4LjI5dC04LjMtNC4wN0gzODcuNzJabTkuOTMtNTUuNzNoNDMuMTRxNi42LDAsOS45MS00dDUuMzMtMTYuMThxMi0xMi44Ny40My0xNi42dC04LjU2LTMuNzNoLTQzWiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTQ3Ny4xMiwwaDczLjQzbC0xLjg3LDExLjE4SDQ4Ny4xOWwtNy4zNCw0MS4xN2g1MS44NGwtMiwxMS4xOEg0NzcuODZMNDcwLDEwNy40aDYxLjVsLTIsMTEuMTlINDU2WiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTY0MS4zMSwxMS4xOEg2MDUuNzNMNTg2LjYsMTE4LjU5aC0xMkw1OTMuNjksMTEuMThINTU4LjExTDU2MCwwaDgzLjE5WiIvPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTEyMC43NCwwSDEwNy4xNXMxMy41OSwwLDguMjEsMzEuMzNaIi8+PC9nPjwvZz48L3N2Zz4=";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/27/image/b7eb8bed35c1e609d1e43bfd928a5614.jpeg";
-$bodyCol: #00081b;
+$logoUrl: "#{$imagesPath}/logo.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/darkblue.jpg";
+$bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #ea2125;
-  --accent-bg: #ea2125;
-  --accent-txt: #fff;
+  --accent: #ffeb3b;
+  --accent-bg: #ffeb3b;
+  --accent-txt: #222;
   --primary-bg: #172a5c;
   --primary-txt: #fff;
   --secondary-bg: #081538;
@@ -30,13 +30,12 @@ html:root {
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "d10sport";
+  --skin: "mondbet";
 }
-
-$secondary: #ea2125;
+$secondary: #ffeb3b;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #ea2125;
+$secondaryDark: #ffeb3b;
 $secondaryDarkCol: #fff;
 $primary: #172a5d;
 $white: #ebebeb;
@@ -44,11 +43,105 @@ $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
 $sb-2: #172a5d;
-
+body {
+  background-size: 2038px !important;
+}
+#favouriteTournaments li:before {
+  filter: brightness(0);
+}
 body.landing-page {
-  background-color: #1e1e1e !important;
+  background-color: #0e0c0d !important;
   background-image: none;
 }
-body {
-  background-size: 2340px !important;
+
+.main_header .main_header_left {
+  width: 200px !important;
 }
+
+.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
+  &:before {
+    background-image: url(//nextra.pcluster.info/1x2sportbet/images/casinolive/clive-banner1.jpg) !important;
+  }
+}
+
+.logged-page .logged-menu ul li .sub-menu li a {
+  height: 100% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 18px;
+  width: 100%;
+}
+
+
+.logged-content.admin-content .coupon-check .content #coupon-check input[type="button"] {
+  width: 72px;
+  text-align: center;
+  line-height: 30px;
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  padding: 0;
+  border-radius: 5px;
+}
+
+
+body.landing-page {
+  background-color: #0e0c0d !important;
+  background-image: none;
+}
+
+.main_header .main_header_left {
+  width: 200px !important;
+}
+
+.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
+  &:before {
+    background-image: url(//nextra.pcluster.info/1x2sportbet/images/casinolive/clive-banner1.jpg) !important;
+  }
+}
+
+.logged-page .logged-menu ul li .sub-menu li a {
+  height: 100% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 18px;
+  width: 100%;
+}
+
+//poker dbg enable
+.poker-container .poker-strip.dbg {
+  display: flex !important;
+}
+.poker-container .poker-strip.isla {
+  display: none;
+}
+
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
+  display: none;
+}
+
+.poker-container .poker-strip.dbg .poker-strip-a img {
+  display: none;
+}
+.poker-strip.dbg .poker-strip-a a:after {
+  content: "Gioca ora";
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 1px solid var(--accent-bg);
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: -10px;
+  color: var(--accent-bg);
+}
+//end poker dbg enable
