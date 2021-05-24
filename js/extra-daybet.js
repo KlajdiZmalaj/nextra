@@ -10,12 +10,15 @@ $(document).ready(() => {
   $('<i class="fas fa-eye"></i>').appendTo(".primary-menu");
 });
 
+//ben te mundur hide dhe show ikonen e syrit
 $(document).ready(function () {
   $(".top-header .fas.fa-eye").click(function () {
     $(".header-buttons").toggleClass("hide");
   });
 });
 
+//kur jemi te loguar e shfaqim ikone e syrit ,
+// kur bejme log-out nk e shaq ikonen e syrit
 $(document).ready(function () {
   $(".fas.fa-eye").css({ display: "none" });
 

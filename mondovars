@@ -75,3 +75,17 @@ body.landing-page {
   padding-left: 18px;
   width: 100%;
 }
+
+
+.logged-content.admin-content .coupon-check #coupon-check input[type="button"] {
+  width: 72px;
+  text-align: center;
+  line-height: 30px;
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  padding: 0;
+  border-radius: 5px;
+}

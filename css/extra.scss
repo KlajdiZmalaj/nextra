@@ -6877,3 +6877,19 @@ table.logged-table.sessions-table {
     background-color: transparent;
   }
 }
+
+
+.clive-container .clive-item-img::after {
+  background-image: url(https://nextra.pcluster.info/icesport/images/casinolive/vivoLogo.png);
+  content: "";
+  display: block;
+  background-size: 195px;
+  height: 70px;
+  background-repeat: no-repeat;
+  left: 50%;
+  position: relative;
+  width: 100%;
+  transform: translateX(-50%);
+  background-position: center -20px;
+}
+

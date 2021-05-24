@@ -1,119 +1,92 @@
-$skin: "naxbet365";
+$skin: "d10sport";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/naxbet365/images/logo.svg";
-
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/14/image/67045414d4c3d8269850866fc88768c4.jpeg";
+$logoUrl: "#{$imagesPath}/logo.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/darkblue.jpg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #fca311;
-  --accent-bg: #fca311;
-  --accent-txt: #000;
-  --primary-bg: #14213d;
+  --accent: #ffeb3b;
+  --accent-bg: #ffeb3b;
+  --accent-txt: #222;
+  --primary-bg: #172a5c;
   --primary-txt: #fff;
-  --secondary-bg: #1e2d4e;
+  --secondary-bg: #081538;
   --secondary-txt: #fff;
-  --mainBg: #111d35;
-  --mainBgCol: #ffffff;
-  --bg1: #0c1425;
+  --mainBg: #020c22;
+  --mainBgCol: #fff;
+  --bg1: #172a5c;
   --col1: #fff;
-  --teableHeadersBg: #283a63;
+  --teableHeadersBg: #102140;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #3e4a65;
+  --teableSubHeadersBg: #081732;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #324165;
-  --casinoGradient1: #000000;
-  --casinoGradient1-txt: #fff;
+  --tableBorders: #47598a;
+  --casinoGradient1: #00000000;
+  --casinoGradient1-txt: rgba(255, 255, 255, 0);
   --casinoGradient2: #636363;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "naxbet365";
+  --skin: "mondbet";
 }
-
-$secondary: #fca311;
+$secondary: #ffeb3b;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #fca311;
+$secondaryDark: #ffeb3b;
 $secondaryDarkCol: #fff;
-$primary: #fca311;
+$primary: #172a5d;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #323232;
+$sb-2: #172a5d;
+body {
+  background-size: 2038px !important;
+}
+#favouriteTournaments li:before {
+  filter: brightness(0);
+}
 body.landing-page {
-  background-color: #1e1e1e !important;
+  background-color: #0e0c0d !important;
   background-image: none;
 }
 
-body {
-  background-position-y: 100px;
+.main_header .main_header_left {
+  width: 200px !important;
 }
 
-//hide evolution
-.clive-container > .clive-inner > .clgames-container:nth-child(2) {
-  display: none !important;
-}
-.clive-container .clive-inner {
-  justify-content: center !important;
-}
-.casino_container
-  .casino_type
-  .ct_games_container
-  .ctg_games
-  .ctg_game_item:nth-child(2):not([class*="cat_"]) {
-  display: none !important;
-}
-//hide evolution
-
-
-//make changes
-
-.fas.fa-eye {
-  cursor: pointer;
+.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
+  &:before {
+    background-image: url(//nextra.pcluster.info/1x2sportbet/images/casinolive/clive-banner1.jpg) !important;
+  }
 }
 
-.header-buttons.hide {
-display: none !important;
+.logged-page .logged-menu ul li .sub-menu li a {
+  height: 100% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 18px;
+  width: 100%;
 }
 
 
-.buttons-holder a.single-button:nth-child(2) {
-font-size: 0px !important;
-}
-
-.buttons-holder a.single-button i.fa.fa-print {
-  font-size: 21px;
-font-weight: 300 !important;
-}
-
-
-
-.logged-content.admin-content .row .buttons-holder .single-button:nth-child(2)::after {
-  content: 'Stampa Quota';
-  font-size: 21px;
+.logged-content.admin-content .coupon-check .content #coupon-check input[type="button"] {
+  width: 72px;
+  text-align: center;
+  line-height: 30px;
+  background: var(--accent-bg);
+  color: var(--accent-txt);
   font-weight: bold;
-  display: inline-block;
+  font-size: 14px;
+  border: none;
+  padding: 0;
+  border-radius: 5px;
 }
 
-.widget-wrapper ul#favouriteSports {
-  background: #23221e;
-}
-
-body .center-content .percentage-block .single-over-under .team-names {
-  width: 90%;
-  margin: auto;
-}
-
-
-.explore-matches-page .title {
-  border-bottom: 1px solid #6d6d6d;
-  line-height: 36px;
-  width: calc(100% - 70px);
-  padding: 25px;
-  display: inline-block;
-}
