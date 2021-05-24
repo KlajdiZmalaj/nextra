@@ -77,6 +77,7 @@ body.landing-page {
 }
 
 
+<<<<<<< HEAD
 .logged-content.admin-content .coupon-check #coupon-check input[type="button"] {
   width: 72px;
   text-align: center;
@@ -89,3 +90,32 @@ body.landing-page {
   padding: 0;
   border-radius: 5px;
 }
+=======
+//poker dbg enable
+.poker-container .poker-strip.dbg {
+  display: flex !important;
+}
+.poker-container .poker-strip.isla {
+  display: none;
+}
+
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
+  display: none;
+}
+
+.poker-container .poker-strip.dbg .poker-strip-a img {
+  display: none;
+}
+.poker-strip.dbg .poker-strip-a a:after {
+  content: "Gioca ora";
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 1px solid var(--accent-bg);
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: -10px;
+  color: var(--accent-bg);
+}
+//end poker dbg enable
+>>>>>>> 26d5954e36a93d99bbb18c34caf9d8fd5512613b
