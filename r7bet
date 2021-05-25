@@ -393,11 +393,33 @@ a.single_menu_item.casino {
   }
 }
 
-.ctran-form-inner {
-  >.gt-c {
-    display: none;
-    + .gt-a {
-      display: none;
+
+.logged-center .usrlist #client_list th{
+  &:nth-child(8) {
+    font-size: 0;
+    &::before {
+      content: "Plafond";
+      font-size: 12px;
+    }
+  }
+  &:nth-child(11) {
+    font-size: 0;
+    &::before {
+      content: "Plafond rede";
+      font-size: 12px;
+    }
+  }
+}
+
+.logged-page .left-side-bar .logged-menu ul li ul li a {
+  &[href="/Sport/bo2_transactionsTrust"] {
+    font-size: 0;
+    &::after {
+      content: "Histórico de transações Plafond";
+      font-size: 12px;
+    }
+    i{
+      font-size: 12px;
     }
   }
 }
