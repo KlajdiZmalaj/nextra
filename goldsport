@@ -125,3 +125,51 @@ html {
     padding-left: 18px;
   }
 }
+
+
+//make changes
+
+.fas.fa-eye {
+  cursor: pointer;
+}
+
+.header-buttons.hide {
+display: none !important;
+}
+
+
+.buttons-holder a.single-button:nth-child(2) {
+font-size: 0px !important;
+}
+
+.buttons-holder a.single-button i.fa.fa-print {
+  font-size: 21px;
+font-weight: 300 !important;
+}
+
+
+
+.logged-content.admin-content .row .buttons-holder .single-button:nth-child(2)::after {
+  content: 'Stampa Quota';
+  font-size: 21px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.widget-wrapper ul#favouriteSports {
+  background: #23221e;
+}
+
+body .center-content .percentage-block .single-over-under .team-names {
+  width: 90%;
+  margin: auto;
+}
+
+
+.explore-matches-page .title {
+  border-bottom: 1px solid #6d6d6d;
+  line-height: 36px;
+  width: calc(100% - 70px);
+  padding: 25px;
+  display: inline-block;
+}
