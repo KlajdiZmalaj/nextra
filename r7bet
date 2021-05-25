@@ -412,7 +412,7 @@ a.single_menu_item.casino {
 }
 
 .logged-page .left-side-bar .logged-menu ul li ul li a {
-  &[href="/Sport/bo2_transactionsTrust"]{
+  &[href="/Sport/bo2_transactionsTrust"] {
     font-size: 0;
     &::after {
       content: "Histórico de transações Plafond";
