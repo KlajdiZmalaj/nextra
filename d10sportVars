@@ -65,7 +65,7 @@ body.landing-page {
 }
 
 .logged-page .logged-menu ul li .sub-menu li a {
-  height: 100% !important;
+  height: initial !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -77,7 +77,7 @@ body.landing-page {
 }
 
 
-.logged-content.admin-content .coupon-check .content #coupon-check input[type="button"] {
+.logged-content.admin-content .coupon-check #coupon-check input[type="button"] {
   width: 72px;
   text-align: center;
   line-height: 30px;
@@ -89,35 +89,6 @@ body.landing-page {
   padding: 0;
   border-radius: 5px;
 }
-
-
-body.landing-page {
-  background-color: #0e0c0d !important;
-  background-image: none;
-}
-
-.main_header .main_header_left {
-  width: 200px !important;
-}
-
-.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
-  &:before {
-    background-image: url(//nextra.pcluster.info/1x2sportbet/images/casinolive/clive-banner1.jpg) !important;
-  }
-}
-
-.logged-page .logged-menu ul li .sub-menu li a {
-  height: 100% !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-left: 18px;
-  width: 100%;
-}
-
 //poker dbg enable
 .poker-container .poker-strip.dbg {
   display: flex !important;
@@ -146,17 +117,3 @@ body.landing-page {
 }
 //end poker dbg enable
 
-
-
-//make changes
-
-.center-content .popular-bets .days ul {
-  display: flex;
-  align-items: stretch;
-  height: 100%;
-}
-
-body .center-content .popular-bets .days ul li {
-  display: flex;
-  align-items: center;
-}
