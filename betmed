@@ -2,7 +2,7 @@ $skin: "betmed";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "";
+$logoUrl:'https://nextra.pcluster.info/betmed/images/med-logo.svg';
 $bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
 $bodyCol: #000;
 
