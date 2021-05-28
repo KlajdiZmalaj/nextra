@@ -1,8 +1,8 @@
-$skin: "elchapo";
+$skin: "damabet1710";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/elchapo/images/elchapo-logo.svg";
+$logoUrl:'https://nextra.pcluster.info/damabet1710/images/dama-transparent.svg';
 $bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
 $bodyCol: #000;
 
@@ -130,48 +130,14 @@ ul#favouriteSports {
 
 //make changes
 
-.fas.fa-eye {
-  cursor: pointer;
-}
 
-
-.header-buttons.hide {
-display: none !important;
-}
-
-
-.buttons-holder a.single-button:nth-child(2) {
-font-size: 0px !important;
-}
-
-.buttons-holder a.single-button i.fa.fa-print {
-  font-size: 21px;
-font-weight: 300 !important;
+.center-block  .widget-wrapper .sports-filter ul#favouriteSports {
+  background : #23221E ;
 }
 
 
 
-.logged-content.admin-content .row .buttons-holder .single-button:nth-child(2)::after {
-  content: 'Stampa Quota';
-  font-size: 21px;
-  font-weight: bold;
-  display: inline-block;
-}
-
-.widget-wrapper ul#favouriteSports {
-  background: #23221e;
-}
-
-body .center-content .percentage-block .single-over-under .team-names {
-  width: 90%;
-  margin: auto;
-}
 
 
-.explore-matches-page .title {
-  border-bottom: 1px solid #6d6d6d;
-  line-height: 36px;
-  width: calc(100% - 70px);
-  padding: 25px;
-  display: inline-block;
-}
+
+

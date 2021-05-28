@@ -287,3 +287,19 @@ body {
 body #indexLivechat {
   display:flex !important
 }
+
+body .center-content .percentage-block .single-over-under .team-names {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}

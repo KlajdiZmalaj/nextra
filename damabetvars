@@ -130,8 +130,9 @@ ul#favouriteSports {
 
 //make changes
 
-
-
+.center-block  .widget-wrapper .sports-filter ul#favouriteSports {
+  background : #23221E ;
+}
 
 
 
