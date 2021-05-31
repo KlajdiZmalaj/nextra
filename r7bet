@@ -423,3 +423,18 @@ a.single_menu_item.casino {
     }
   }
 }
+
+
+
+//display  hidden IP column
+.logged-page .logged-table tr th:last-child,
+ .logged-page .logged-table tr td:last-child  {
+  display: none;
+}
+
+
+//for mobile 
+.access_details tr  th:last-child , 
+.access_details tr  td:last-child{
+  display: none;
+}
