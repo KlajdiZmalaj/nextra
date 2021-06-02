@@ -303,7 +303,7 @@ body .center-content .percentage-block .single-over-under .team-names {
 
 div#cashoutB {
   width: 100px;
-  background-color: #fec82e !important;
+  background-color: #daaa26 !important;
   height: 40px;
   position: relative;
   margin-left: 200px;
@@ -339,4 +339,9 @@ font-weight: bold;
   position: absolute;
   left: 34px;
   content: 'Cashout';
+}
+
+.coupon-details-buttons div#cashoutB:hover{
+  background-color: #af913c !important;
+
 }
