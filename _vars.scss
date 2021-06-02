@@ -1,166 +1,62 @@
-$skin: "bbgame";
+$skin: "elchapo";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/bbgame/images/logo2.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
+$logoUrl: "https://nextra.pcluster.info/elchapo/images/elchapo-logo.svg";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/10/image/e926ea0ce337f075ae8d79d396ed8feb.jpeg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
-$invet: 1;
+$invet: 0;
+
 html:root {
-  --accent: #95cd3b;
-  --accent-bg: #95cd3b;
+  --accent: #fec900;
+  --accent-bg: #fec900;
   --accent-txt: #000;
-  --primary-bg: #000;
-  --primary-txt: #fff;
-  --secondary-bg: #212931;
+  --primary-bg: #ffffff;
+  --primary-txt: #707070;
+  --secondary-bg: #23211d;
   --secondary-txt: #fff;
-  --mainBg: #212931;
+  --mainBg: #1b1a17;
   --mainBgCol: #fff;
-  --bg1: #29333b;
+  --bg1: #23221e;
   --col1: #fff;
-  --teableHeadersBg: #384351;
-  --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #14191d;
+  --teableHeadersBg: linear-gradient(180deg, #f8cb24, #e79211);
+  --teableHeadersCol: #000000;
+  --teableSubHeadersBg: #353532;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #445461;
-  --casinoGradient1: linear-gradient(
-    to right,
-    #95cd3b00 3%,
-    #95cd3b 60%,
-    #95cd3b00 99%
-  );
-  --casinoGradient1-txt: #000;
-  --casinoGradient2: #636363;
+  --tableBorders: #3c3b37;
+  --casinoGradient1: #000000;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "bbgame";
 }
 
-$secondary: #95cd3b;
+$secondary: #f4c100;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #95cd3b;
-$secondaryDarkCol: #fff;
-$primary: #607d8b;
+$secondaryDark: #d1a813;
+$secondaryDarkCol: #222;
+$primary: #6d6d6d;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #525b61;
+$sb-2: #444444;
 
-body {
-  background-size: 2038px !important;
-}
-
-.main-content.home-page
-  .left-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:nth-child(2)
-  .block-title
-  span {
-  color: var(--accent-bg);
-  font-weight: 500;
+.torn-a {
+  background: var(--secondary-bg) !important;
+  color: var(--secondary-txt) !important;
 }
 
-.single-sport .states .state .championship.selected .anchor {
-  color: var(--accent);
-}
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark:after,
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark {
-  border-color: var(--accent) !important;
-}
-
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
-  border: 1px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-
-.tabs-holder .tabs-row .single-tab {
-  border-bottom: 2px solid transparent !important;
-}
-
-.tabs-holder .tabs-row .single-tab:hover,
-.tabs-holder .tabs-row .single-tab.active {
-  border-bottom: 2px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-.odds-table .second-header {
-  opacity: 1 !important;
-}
-
-.side-bar
-  .single-block.betslip-holder
-  .betslip
-  .selections-wrapper
-  .single-event
-  .selected-bet
-  .bet
-  .quote {
-  color: var(--accent);
-}
-
-body.landing-page {
-  background-color: #31343d !important;
-  background-image: none;
-}
-.center-content.live-center-content {
-  grid-template-columns: 1fr 340px !important;
-}
-html body .sport.active[id*="LVSPORT"] {
-  .single-match .match-info,
-  .single-match .match-odds {
-    background: var(--bg1) !important;
-    color: var(--col1) !important;
-  }
-}
-.sport.active .single-match {
-  border-left: 0 !important;
-}
-body {
-  .allmatches-head,
-  .sports-container .matches .single-match .match-odds .single-odd-type {
-    background: #14191d;
-  }
-}
-html {
-  .live-odds-table table tr td.odd-holder .single-live-odd .label,
-  span.odd-type,
-  .odds-table .second-header td {
-    color: var(--accent);
-  }
-}
 //casino live
 .clive-container > .clive-inner > .clgames-container:nth-child(2) {
-  display: block;
+  display: none;
   margin-bottom: 0;
+}
+.clive-container .clive-inner .clive-games-container:last-child {
+  margin: 0 auto;
 }
 .clive-container .clive-inner {
   display: flex;
@@ -169,89 +65,67 @@ html {
   align-items: center;
 }
 
-.casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
-  &:before {
-    background-image: url(//nextra.pcluster.info/masterbet/images/casinolive/clive-banner1.jpg) !important;
+div[data-source="in_play"] .main_container_tile,
+div[data-source="upcoming"] .main_container_tile {
+  background: var(--teableHeadersBg);
+  color: var(--teableHeadersCol);
+}
+
+.sport_odds_main.live {
+  div.quota {
+    background: #000000 !important;
   }
 }
 
-.banner-block {
-  a[href="/Sport/became-an-agent"] {
-    position: relative;
-    &:after {
-      content: "";
-      width: 100%;
-      height: 300px;
-      background: url(//nextra.pcluster.info/masterbet/images/bookra.jpg);
-      height: 300px;
-      display: block;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      top: 100%;
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
-    &:before {
-      content: "";
-      width: 100%;
-      height: 300px;
-      background: url(//nextra.pcluster.info/masterbet/images/evo.jpg);
-      height: 300px;
-      display: block;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      top: 200%;
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
-  }
+div[data-source="in_play"] .sport_odds_main {
+  min-height: 80px !important;
 }
 
-body [data-page="prematch-event"] .sport_quote_view .quota .quota {
-  background: transparent;
-  color: var(--accent);
-}
-body [data-page="prematch-event"] .sport_single_quote {
-  margin: 4px 2px !important;
-  border-radius: 3px;
+ul#favouriteSports {
+  background: #fff;
 }
 
-//poker on mob
-body .casino_container .ctg_game_item[data-name="DBGPOKER"] {
-  display: none !important;
-}
-body .fast_menu_option:last-child {
-  display: flex;
-}
-[data-logged][data-access] .single_menu_item.poker {
-  display: block !important;
-}
-.icon-menu-poker:before {
-  content: "\e98d";
-}
-//end poker on mob
-
-.center-content.live-center-content {
-  grid-template-columns: 1fr 50% !important;
+.tournaments_wrapper
+  .tournaments_holder
+  .single_tournament_wrapper
+  .first_row
+  .half {
+  color: #222;
 }
 
-.championship-page {
-  .single-match-row {
-    td.match-name {
-      border-right: none;
-    }
-    td.odd-cell {
-      border-left: none;
-      border-right: none;
-      padding: 2px;
-      > div {
-        border: 1px solid var(--tableBorders);
-      }
-    }
-  }
+.fast_menu_option:last-child {
+  display: flex !important;
 }
+
+//poker dbg enable
+.poker-container .poker-strip.dbg {
+  display: flex !important;
+}
+.poker-container .poker-strip.isla {
+  display: none;
+}
+
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(2),
+.poker-container .poker-strip.dbg .poker-strip-a:nth-child(3) {
+  display: none;
+}
+
+.poker-container .poker-strip.dbg .poker-strip-a img {
+  display: none;
+}
+.poker-strip.dbg .poker-strip-a a:after {
+  content: "Gioca ora";
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 1px solid var(--accent-bg);
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: -10px;
+  color: var(--accent-bg);
+}
+//end poker dbg enable
+
+
 
 
 //make changes
@@ -259,6 +133,7 @@ body .fast_menu_option:last-child {
 .fas.fa-eye {
   cursor: pointer;
 }
+
 
 .header-buttons.hide {
 display: none !important;
@@ -300,5 +175,4 @@ body .center-content .percentage-block .single-over-under .team-names {
   padding: 25px;
   display: inline-block;
 }
-
 
