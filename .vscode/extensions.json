@@ -1,3 +1,6 @@
 {
-  "recommendations": ["ritwickdey.live-sass"]
+  "recommendations": [
+    "ritwickdey.live-sass",
+    "donjayamanne.jquerysnippets"
+  ]
 }
