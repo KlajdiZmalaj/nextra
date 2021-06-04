@@ -4979,6 +4979,8 @@ span.ui-slider-handle:before {
   left: calc(50% - 96px);
   position: relative;
   width: 100%;
+  filter: invert(.7);
+
 }
 .clgames-container .clgames-item-img {
   background-color: transparent;
