@@ -438,3 +438,25 @@ a.single_menu_item.casino {
 .access_details tr  td:last-child{
   display: none;
 }
+
+.logged-content.admin-content .odds-search input[type="submit"],
+ .logged-content.admin-content .coupon-check input[type="button"] {
+  float: left;
+  width: 72px;
+  text-align: center;
+  line-height: 30px;
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  padding: 0;
+  border-radius: 5px;
+  cursor : pointer;
+}
+
+
+
+.logged-content .messages .table-legend .unread .icon {
+  margin-top: 15px ;
+}
