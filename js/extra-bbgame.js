@@ -21,11 +21,6 @@ $(document).ready(() => {
 
 
 
-//  $(document).ready(function(){
-//   $(".bottom-header-content li:last-child").append(" <b>click</b>").css("cursor", "pointer")
-  
-//    });
-
 
 // $( ".bottom-header-content li:last-child" ).bind( "click", function() {
 //   alert( "User clicked on 'foo.'" );
@@ -82,7 +77,6 @@ $(document).ready(() => {
 // function hit (e){ 
 //   alert( "The mouse cursor is at (" +e.pageX + ", " + e.pageY + ")" ); //thirret te funksioni me siper
 // }
-
 
 
 
