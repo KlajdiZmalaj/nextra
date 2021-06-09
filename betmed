@@ -114,7 +114,7 @@ ul#favouriteSports {
   display: none;
 }
 .poker-strip.dbg .poker-strip-a a:after {
-  content: "Gioca ora";
+  content: "Joue Maintenant";
   font-size: 15px;
   text-transform: uppercase;
   border: 1px solid var(--accent-bg);

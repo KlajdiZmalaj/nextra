@@ -6604,13 +6604,7 @@ html .logged-page {
     backdrop-filter: unset;
   }
 }
-body .center-content .percentage-block .single-over-under .team-names {
-  display: flex;
-  white-space: nowrap;
-  overflow: hidden;
-  justify-content: center;
-  align-items: center;
-}
+
 .sports-book-page .filters-holder .search-form input[type="text"] {
   background: var(--bg1);
   color: var(--col1);
@@ -6900,3 +6894,26 @@ table.logged-table.sessions-table {
   flex-flow: column;
 }
 
+
+body .center-content .percentage-block .single-over-under .team-names {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+
+.virtu-box .virtu-btn .virtu-txt:after {
+  content: "Joue Maintenant";
+  font-size: 15px;
+  font-weight: 600;
+}
