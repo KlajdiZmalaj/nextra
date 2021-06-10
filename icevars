@@ -159,3 +159,13 @@ body .center-content .percentage-block .single-over-under .team-names {
   padding: 25px;
   display: inline-block;
 }
+
+.main-footer .grid img {
+    filter: brightness(30%);
+}
+
+.center-content .popular-bets .days ul {
+  float: right;
+  padding-right: 20px;
+  color: white !important;
+}

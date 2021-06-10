@@ -1,117 +1,76 @@
-
 html:root {
-  --accent: #12421c;
-  --accent-bg: #ffcc00;
+  --accent: #0a96f0;
+  --accent-bg: #ff9800;
   --accent-txt: #000000;
-  --primary-bg: #12421c;
-  --primary-txt: #fff;
-  --secondary-bg: #2b883d;
-  --secondary-txt: #fff;
-  --mainBg: #ededed;
-  --mainBgCol: #222;
-  --bg1: #fff;
-  --col1: #222;
-  --teableHeadersBg: #2b883d;
-  --teableHeadersCol: #fff;
-  --teableSubHeadersBg: #dedede;
-  --teableSubHeadersCol: #222;
+  --primary-bg: #d9d9d9;
+  --primary-txt: #000000;
+  --secondary-bg: #ffffff;
+  --secondary-txt: #000;
+  --mainBg: #ffffff;
+  --mainBgCol: #000;
+  --bg1: #e7e7e7;
+  --col1: #000;
+  --teableHeadersBg: #0a96f0;
+  --teableHeadersCol: #ffffff;
+  --teableSubHeadersBg: #cccccc;
+  --teableSubHeadersCol: #000000;
   --tableBorders: #a3a3a3;
   --casinoGradient1: #000000;
   --casinoGradient1-txt: #fff;
   --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "stilobet365";
 }
 
-$skin: "stilobet365";
+$skin: "icesport";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/stilobet365/images/logo2.svg";
-$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/green.jpg";
+$logoUrl: "http://static.pcluster.info/skins/icesport/img/logo/logo.svg";
+$bodyBg: "https://nextra.pcluster.info/nextra/images/bg/blue.jpg";
 $bodyCol: #000;
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 
-$secondary: #278a3a;
+$secondary: #0a96f0;
 $secondaryCol: #fff;
 
-$secondaryDark: #094016;
+$secondaryDark: #128edb;
 $secondaryDarkCol: #fff;
-
 $black: #000000;
 $primary: #c2c2c2;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #278a3a;
+$sb-2: #0a96f0;
 
 //icesport styles
-
+.header .top-header .top-header-content .logo-holder a:before {
+  transform: scale(2);
+}
 //black filter li logos
 #favouriteTournaments li:before {
   filter: brightness(0.1);
 }
-html footer {
-  background: #222;
-  color: #fff;
-}
-
 body {
   background-size: 2038px !important;
 }
 
-.main-content.home-page
-  .left-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:nth-child(2)
-  .block-title
-  span {
-  color: var(--accent-bg);
+.casino-section {
+  background-color: #d0d5cf;
+}
+
+.side-bar .single-block:first-child .block-title,
+.side-bar .single-block:nth-child(2) .block-title {
+  background-color: var(--accent-bg);
+  color: var(--accent-txt);
 }
 
 .side-bar .single-block:first-child .block-title img,
 .side-bar .single-block:nth-child(2) .block-title img {
   -webkit-filter: grayscale(1) brightness(0) invert(0);
   filter: grayscale(1) brightness(0) invert(0);
-}
-
-.header .top-bar .top-bar-content .login-bar form input[type="text"],
-.header .top-bar .top-bar-content .login-bar form input[type="password"] {
-  color: var(--accent-txt) !important;
-}
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab {
-  border-color: #222 !important;
-}
-.header .top-header .top-header-content .primary-menu ul li.active {
-  color: #ffcc00 !important;
-}
-.header .top-header {
-  border-bottom: 4px solid #42d15d !important;
-}
-body.landing-page {
-  background-color: #000 !important;
-  background-image: none;
-}
-
-body {
-  .championship-page .title,
-  .total-goals-page .title,
-  .soccer-fixtures-page .title {
-    color: #fff;
-    background: #7f7f7f;
-  }
 }
 
 body .odds-table {
@@ -126,14 +85,32 @@ body {
   }
 }
 
-html {
-  .torn-a,
-  body #oddsMenu tr .odd-type {
-    border-bottom: 3px solid var(--accent-bg);
-    background: #12421c;
-    color: #fff;
+body .single-sport .states .state .championship.selected .anchor {
+  color: #fff !important;
+}
+
+body {
+  .single-sport
+    .states
+    .state
+    .championship
+    .anchor
+    .check
+    input:checked
+    ~ .checkmark,
+  .single-sport
+    .states
+    .state
+    .championship
+    .anchor
+    .check
+    input:checked
+    ~ .checkmark:after {
+    border-color: #fff !important;
   }
 }
+
+
 
 
 //make changes
@@ -183,9 +160,12 @@ body .center-content .percentage-block .single-over-under .team-names {
   display: inline-block;
 }
 
+.main-footer .grid img {
+    filter: brightness(30%);
+}
 
 .center-content .popular-bets .days ul {
   float: right;
   padding-right: 20px;
-  color: var(--teableHeadersCol) !important;
+  color: white !important;
 }
