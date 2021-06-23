@@ -69,10 +69,13 @@ $sb-2: #333844;
 
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 html body {
+  // background-size: 270px !important;
+  // font-family: "Lato", sans-serif !important;
+  // background-image: url(https://nextra.pcluster.info/1xpro/images/texture.png);
+  // background-repeat: repeat;
   background-size: 270px !important;
   font-family: "Lato", sans-serif !important;
-  background-image: url(https://nextra.pcluster.info/1xpro/images/texture.png);
-  background-repeat: repeat;
+  background: linear-gradient(180deg, #103059, #140b0b);
 }
 body.landing-page {
   background-color: #001020 !important;
@@ -88,7 +91,7 @@ footer .footer-logo a {
   border-width: 2px;
   border-bottom: 8px solid;
   border-image-source: linear-gradient(
-    to right,
+    to left,
     #ba0000,
     #bc0706 30%,
     #ffffff 40%,
@@ -662,9 +665,7 @@ html {
     align-items: center;
     justify-content: center;
   }
-  .center-content .sports-book .title {
-    font-size: 24px;
-  }
+
   .events-info {
     display: flex;
     align-items: center;
@@ -905,33 +906,29 @@ html {
   margin: 0 1px;
 }
 
-
-
-
 //make changes
-
 .fas.fa-eye {
   cursor: pointer;
 }
 
 .header-buttons.hide {
-display: none !important;
+  display: none !important;
 }
 
-
 .buttons-holder a.single-button:nth-child(2) {
-font-size: 0px !important;
+  font-size: 0px !important;
 }
 
 .buttons-holder a.single-button i.fa.fa-print {
   font-size: 21px;
-font-weight: 300 !important;
+  font-weight: 300 !important;
 }
 
-
-
-.logged-content.admin-content .row .buttons-holder .single-button:nth-child(2)::after {
-  content: 'Stampa Quota';
+.logged-content.admin-content
+  .row
+  .buttons-holder
+  .single-button:nth-child(2)::after {
+  content: "Stampa Quota";
   font-size: 21px;
   font-weight: bold;
   display: inline-block;
@@ -946,7 +943,6 @@ body .center-content .percentage-block .single-over-under .team-names {
   margin: auto;
 }
 
-
 .explore-matches-page .title {
   border-bottom: 1px solid #6d6d6d;
   line-height: 36px;
@@ -954,3 +950,221 @@ body .center-content .percentage-block .single-over-under .team-names {
   padding: 25px;
   display: inline-block;
 }
+
+//changes 5/6/2021
+.center-content .sports-book .right-content .events-info {
+  display: none;
+}
+
+#tableMultiple .amount .small-button {
+  height: 27px;
+  margin-top: 7px !important;
+}
+
+#tableMultiple input#stakeMultiple {
+  line-height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.amount span {
+  margin-top: 2px;
+}
+td.amount {
+  padding-left: 27px !important;
+}
+
+.combination-group table#tableMultiple {
+  border-top: 2px solid #6e8094 !important;
+}
+
+html .sports-book-page .filters-holder .search-form input[type="text"] {
+  background: var(--bg1);
+}
+
+.casino-search-container .casino-search-inner .cs-a .casino-search-btn {
+  background-color: var(--backDrops) !important;
+  width: 33px;
+  height: 24px;
+}
+
+// html .header .top-header .top-header-content .primary-menu ul #indexCasino {
+//   margin-right: 150px !important;
+// }
+
+// html .header .top-header .top-header-content .primary-menu ul #indexCasinoLive {
+//   margin-left: 150px !important;
+// }
+
+
+.header .top-header .top-header-content .primary-menu ul {
+  
+  margin-left: 318px !important;
+}
+
+.odd:hover,
+.single-odd .quote:hover {
+  background: linear-gradient(45deg, #ff423d, #4b4f58) !important;
+  color: var(--accent-txt) !important;
+}
+
+.widget-wrapper ul#favouriteSports {
+  background: #223348;
+}
+
+#tableMultiple .amount .small-button:hover {
+  background-color: var(--accent) !important;
+  transition: 0.6s;
+}
+
+footer.center-footer .footer-menu li a {
+  font-size: 0 !important;
+  padding: 0 5px;
+}
+
+footer.center-footer .grid.full-width {
+  max-width: 1040px;
+  display: flex !important;
+}
+
+footer.center-footer .payment {
+  margin-top: 10px;
+  margin-left: 10px;
+  max-width: none !important;
+}
+
+.ranges-holder .single-range:hover {
+  background-color: #e63946 !important;
+  transition: all 0.9s ease;
+}
+
+.casino-search-container .casino-search-inner .cs-a .casino-search-btn img {
+  width: 16px;
+  background-color: $white;
+  border-radius: 2px;
+}
+
+html .center-content .sports-book {
+  background: linear-gradient(45deg, #9b4d4b, #1e3658);
+}
+
+html .center-content .sports-book .title {
+  font-size: 24px;
+  color: $white;
+  font-weight: bolder;
+}
+
+.side-bar .single-block .block-content.sports-menu form input[type="submit"] {
+  background-color: transparent !important;
+  font-size: 0;
+  color: var(--mainBgCol);
+  opacity: 0.5;
+}
+
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .combination-wrapper
+  .totals-section
+  .totals
+  .buttons
+  div.proceed:hover {
+  color: #323030 !important;
+}
+
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .combination-wrapper
+  .totals-section
+  .totals
+  .buttons
+  div.cancel:hover {
+  color: #323030 !important;
+  background-color: #a33333 !important;
+}
+
+.side-bar
+  .single-block.betslip-holder
+  .betslip
+  .combination-wrapper
+  .totals-section
+  .totals
+  .buttons
+  div.cancel {
+  border-bottom: 3px solid #a33333;
+}
+
+.single-sport .states .state .championship .anchor {
+  font-size: 11px;
+}
+
+.center-content .teams-filter ul li {
+  width: calc(25% - 0px);
+}
+
+.required:after {
+  color: #e63946;
+}
+
+.center-content .competition-filter .competitions ul li:hover,
+.center-content .competition-filter .competitions ul li.active {
+  background: linear-gradient(231deg, #9b4d4b, #1e3658) !important;
+}
+
+//ANIMACION I THJESHTE NE CSS
+.center-content .sports-book .title {
+  padding: 12px 48px;
+  background: linear-gradient(
+    to right,
+    white 0,
+    rgb(37, 37, 37) 10%,
+    white 20%
+  );
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: leviz 8s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  letter-spacing: 10px;
+}
+
+@keyframes leviz {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: 548px;
+  }
+}
+
+//mobile/menu
+.menu_items_container .single_menu_item:hover {
+  background-color: var(--accent);
+  transition: 0.9s linear;
+}
+
+
+//  //  // //  //
+.fields .button.login {
+  max-width: 200px !important;
+  text-align: center;
+  border-radius: 50px !important;
+}
+
+
+.header.logged-header .top-header {
+  flex-flow: row !important;
+}
+
+
+
+button.register-button.button.cashier-button.big {
+  position: absolute;
+  right: -119px;
+}
+
+
+

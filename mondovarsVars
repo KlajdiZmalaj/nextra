@@ -1,4 +1,4 @@
-$skin: "d10sport";
+        $skin: "d10sport";
 $cdnPath: "//nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
@@ -117,3 +117,16 @@ body.landing-page {
 }
 //end poker dbg enable
 
+
+
+.coupon-details-page-content .row .content .status {
+    float: right;
+    line-height: 28px;
+    border: 1px solid #172a5d;
+    color: #172a5d;
+    font-size: 13px;
+    border-radius: 3px;
+    padding: 0 5px;
+    /* margin-top: 5px; */
+    width: auto;
+}

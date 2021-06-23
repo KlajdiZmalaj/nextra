@@ -9845,8 +9845,6 @@ span {
       align-items: center;
       justify-content: center;
       line-height: 27px;
-      font-weight: 400;
-      font-size: 17px;
     }
   }
 }
@@ -11609,14 +11607,52 @@ img.casino-pro-item-img[alt="Novomatic"] {
   }
 }
 
-
 .form-holder.new_user_form .error-cell {
- display : none;
+  display: none;
 }
-
 
 div[data-name="Book of Ra Deluxe"]::after {
-  content: 'Book of Ra' ;
+  content: "Book of Ra";
 }
+
+.single-block .block-content.white form input::placeholder {
+  color: #666565 !important;
+  font-size: 13px;
+}
+
+//forma tek mobile
+// [data-page="login"] .fields input.input {
+//   background: var(--mainBgCol);
+//   color: var(--casinoGradient2-txt);
+//   max-width: 700px;
+//   display: block;
+//   margin: auto;
+//   border-radius: 5px;
+// }
+
+// .fields .button.login {
+//   width: 200px !important;
+//   text-align: center;
+// }
+
+// .fields label {
+//   width: 56%;
+//   display: block;
+//   margin: auto;
+// }
+
+
+[data-logged="false"] > .fields {
+  position: absolute;
+  top: 23%;
+  width: 66% !important;
+  left: 17%;
+}
+
+// .fields .button.login {
+//   /* max-width: 259px; */
+//   padding: 8px 9px;
+//   border-radius: 50px;
+// }
 
 

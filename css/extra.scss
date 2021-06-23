@@ -1224,8 +1224,8 @@ body .logged-page .logged-table tfoot tr td,
 
 .odd:hover,
 .single-odd .quote:hover {
-  background: var(--accent-bg) !important;
-  color: var(--accent-txt) !important;
+  background: var(--accent-bg) ;
+  color: var(--accent-txt) ;
 }
 
 .logged-page .cashdesk-content {
@@ -3386,8 +3386,8 @@ g.ct-series.ct-series-a {
 .single-odd {
   .odd:hover,
   .quote:hover {
-    background: transparent !important;
-    color: inherit !important;
+    background: transparent ;
+    color: inherit ;
   }
 }
 
@@ -6916,4 +6916,15 @@ body .center-content .percentage-block .single-over-under .team-names {
   content: "Joue Maintenant";
   font-size: 15px;
   font-weight: 600;
+}
+
+.odd:hover, .single-odd .quote:hover {
+  background: var(--accent-bg) ;
+  color: var(--accent-txt) ;
+  transition: .6s ease-in-out ;
+}
+
+
+.footer-menu li:nth-child(3), .footer-menu li:nth-child(2), .footer-menu li:nth-child(1) {
+  display: none;
 }

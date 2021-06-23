@@ -175,6 +175,8 @@ body .center-content .percentage-block .single-over-under .team-names {
   padding: 25px;
   display: inline-block;
 }
+
+
 .logged-content.admin-content .odds-search input[type="submit"], 
 .logged-content.admin-content .coupon-check input[type="button"] {
   float: left;
@@ -188,4 +190,26 @@ body .center-content .percentage-block .single-over-under .team-names {
   border: none;
   padding: 0;
   border-radius: 5px;
+}
+
+
+//kot
+.reports-table .export-buttons .button {
+  display: inline-block;
+  background-color: var(--accent-bg);
+  border-radius: 3px;
+  color: var(--accent-txt);
+  padding: 0 7px;
+  font-weight: 300;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  line-height: 37px !important;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+
+.fa-file-excel-o:before {
+  content: "\f1c3";
+  line-height: 28px;
 }
