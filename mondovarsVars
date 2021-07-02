@@ -130,3 +130,7 @@ body.landing-page {
     /* margin-top: 5px; */
     width: auto;
 }
+
+.virtu-box .virtu-btn .virtu-txt:after {
+  content: "Joue Maintenant" !important;
+}

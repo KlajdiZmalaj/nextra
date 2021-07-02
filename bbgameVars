@@ -302,3 +302,8 @@ body .center-content .percentage-block .single-over-under .team-names {
 }
 
 
+
+.virtu-box .virtu-btn .virtu-txt:after {
+  content: "Joue Maintenant";
+  
+}

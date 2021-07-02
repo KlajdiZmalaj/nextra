@@ -997,10 +997,10 @@ html .sports-book-page .filters-holder .search-form input[type="text"] {
 // }
 
 
-.header .top-header .top-header-content .primary-menu ul {
+// .header .top-header .top-header-content .primary-menu ul {
   
-  margin-left: 318px !important;
-}
+//   margin-left: 318px !important;
+// }
 
 .odd:hover,
 .single-odd .quote:hover {
@@ -1166,5 +1166,20 @@ button.register-button.button.cashier-button.big {
   right: -119px;
 }
 
+
+
+
+
+html .header .top-header .top-header-content .primary-menu {
+  left: 22px;
+
+}
+
+
+@media screen and (max-width : 600px) {
+  .fields {
+      top :70px !important;
+  }
+}
 
 

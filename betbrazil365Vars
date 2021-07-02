@@ -1,4 +1,4 @@
-$skin: "gigabet";
+$skin: "gigabet";   //gigabet tek ftp
 $cdnPath: "/nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 

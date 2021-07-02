@@ -475,3 +475,32 @@ a.single_menu_item.casino {
     width: auto;
 }
 
+
+
+
+.logged-center .usrlist #client_list th:nth-child(8)::before {
+  font-size: 0px;
+}
+
+.logged-center .usrlist #client_list th:nth-child(8) {
+  font-size: 12px;
+}
+
+.logged-center .usrlist #client_list th:nth-child(11)::before {
+  font-size: 0px;
+}
+
+.logged-center .usrlist #client_list th:nth-child(11) {
+  font-size: 12px;
+}
+
+
+.buttons_container [data-action="deposita"]::before {
+  content: "Depositar";
+  font-size: 13px;
+}
+
+.buttons_container [data-action="preleva"]::before {
+  content: "Leventar";
+  font-size: 13px;
+}
