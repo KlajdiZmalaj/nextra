@@ -1,167 +1,73 @@
-$skin: "bbgame";
-$cdnPath: "//nextra.pcluster.info/#{$skin}";
+$skin: "gigabet";   //gigabet tek ftp
+$cdnPath: "/nextra.pcluster.info/#{$skin}";
 $imagesPath: "//nextra.pcluster.info/#{$skin}/images";
 
-$logoUrl: "https://nextra.pcluster.info/bbgame/images/logo2.svg";
-$bodyBg: "https://gradm-api.pcluster.info/api/skin/3/image/d097e5fdbc4d51a79ef62900353404e1.png";
+$logoUrl: "https://nextra.pcluster.info/gigabet/images/logo.png";
+$bodyBg: "https://gradm-api.pcluster.info/api/skin/24/image/51345629667ab67c22bd180144b9a245.jpeg";
 $bodyCol: #000;
 
 //invet 1 light skin inver 0 dark skin (images)
 $invet: 1;
 html:root {
-  --accent: #95cd3b;
-  --accent-bg: #95cd3b;
-  --accent-txt: #000;
-  --primary-bg: #000;
+  --accent: #ffeb3b;
+  --accent-bg: #fff;
+  --accent-txt: #14805e;
+  --primary-bg: #1c1c1c;
   --primary-txt: #fff;
-  --secondary-bg: #212931;
+  --secondary-bg: #2e2e2e;
   --secondary-txt: #fff;
-  --mainBg: #212931;
+  --mainBg: #282828;
   --mainBgCol: #fff;
-  --bg1: #29333b;
+  --bg1: #323232;
   --col1: #fff;
-  --teableHeadersBg: #384351;
+  --teableHeadersBg: #14805e;
   --teableHeadersCol: #ffffff;
-  --teableSubHeadersBg: #14191d;
+  --teableSubHeadersBg: #636363;
   --teableSubHeadersCol: #ffffff;
-  --tableBorders: #445461;
+  --tableBorders: #535353;
   --casinoGradient1: linear-gradient(
-    to right,
-    #95cd3b00 3%,
-    #95cd3b 60%,
-    #95cd3b00 99%
+    -90deg,
+    rgba(239, 32, 138, 1) 0%,
+    rgba(35, 116, 222, 1) 50%,
+    rgba(11, 138, 61, 1) 100%
   );
-  --casinoGradient1-txt: #000;
-  --casinoGradient2: #636363;
+  --casinoGradient1-txt: #fff;
+  --casinoGradient2: #f4c100;
   --casinoGradient2-txt: #000;
   --backDrops: #000000cf;
-  --skin: "bbgame";
+  --skin: "betbrazil365";
 }
 
-$secondary: #95cd3b;
+$secondary: #14805e;
 $secondaryCol: #fff;
 $black: #000000;
-$secondaryDark: #95cd3b;
+$secondaryDark: #14805e;
 $secondaryDarkCol: #fff;
-$primary: #607d8b;
+$primary: #323232;
 $white: #ebebeb;
 $blue: #262ca8;
 $green: #2e9c3d;
 $red: #e1042e;
-$sb-2: #525b61;
+$sb-2: #323232;
 
-body {
-  background-size: 2038px !important;
+html body {
+  background-position-y: 80px !important;
+  background-attachment: initial;
+  background-size: 1970px;
 }
+// .coupon-details-buttons .button.cashout {
+//   display: none !important;
+// }
 
-.main-content.home-page
-  .left-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:first-child
-  .block-title
-  span,
-.main-content.home-page
-  .right-side-bar
-  .single-block:nth-child(2)
-  .block-title
-  span {
-  color: var(--accent-bg);
-  font-weight: 500;
-}
-
-.single-sport .states .state .championship.selected .anchor {
-  color: var(--accent);
-}
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark:after,
-.single-sport
-  .states
-  .state
-  .championship
-  .anchor
-  .check
-  input:checked
-  ~ .checkmark {
-  border-color: var(--accent) !important;
-}
-
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab:hover,
-.tabs-holder .tabs-row .inner-tabs .single-inner-tab.active {
-  border: 1px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-
-.tabs-holder .tabs-row .single-tab {
-  border-bottom: 2px solid transparent !important;
-}
-
-.tabs-holder .tabs-row .single-tab:hover,
-.tabs-holder .tabs-row .single-tab.active {
-  border-bottom: 2px solid var(--accent-bg) !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-.odds-table .second-header {
-  opacity: 1 !important;
-}
-
-.side-bar
-  .single-block.betslip-holder
-  .betslip
-  .selections-wrapper
-  .single-event
-  .selected-bet
-  .bet
-  .quote {
-  color: var(--accent);
-}
-
-body.landing-page {
-  background-color: #31343d !important;
-  background-image: none;
-}
-.center-content.live-center-content {
-  grid-template-columns: 1fr 340px !important;
-}
-html body .sport.active[id*="LVSPORT"] {
-  .single-match .match-info,
-  .single-match .match-odds {
-    background: var(--bg1) !important;
-    color: var(--col1) !important;
-  }
-}
-.sport.active .single-match {
-  border-left: 0 !important;
-}
-body {
-  .allmatches-head,
-  .sports-container .matches .single-match .match-odds .single-odd-type {
-    background: #14191d;
-  }
-}
-html {
-  .live-odds-table table tr td.odd-holder .single-live-odd .label,
-  span.odd-type,
-  .odds-table .second-header td {
-    color: var(--accent);
-  }
-}
 //casino live
 .clive-container > .clive-inner > .clgames-container:nth-child(2) {
-  display: block;
+  display: none;
   margin-bottom: 0;
 }
+.clive-container .clive-inner .clive-games-container:last-child {
+  margin: 0 auto;
+}
+
 .clive-container .clive-inner {
   display: flex;
   flex: 1 1;
@@ -169,140 +75,23 @@ html {
   align-items: center;
 }
 
+div[data-source="in_play"] .main_container_tile,
+div[data-source="upcoming"] .main_container_tile {
+  background-color: #6d6b64;
+}
+body
+  .clive-container
+  > .clive-inner
+  > .clgames-container
+  .clgames-item
+  .clgames-overlay
+  .clg-btns-a,
+body .clive-container .clive-item .clive-overlay .cl-btns-a {
+  background-color: var(--accent);
+}
+
 .casino_container .casino_type .ct_games_container > .ctg_games:nth-child(1) {
   &:before {
-    background-image: url(//nextra.pcluster.info/masterbet/images/casinolive/clive-banner1.jpg) !important;
+    background-image: url(//nextra.pcluster.info/topbet365/images/casinolive/clive-banner1.jpg) !important;
   }
-}
-
-.banner-block {
-  a[href="/Sport/became-an-agent"] {
-    position: relative;
-    &:after {
-      content: "";
-      width: 100%;
-      height: 300px;
-      background: url(//nextra.pcluster.info/masterbet/images/bookra.jpg);
-      height: 300px;
-      display: block;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      top: 100%;
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
-    &:before {
-      content: "";
-      width: 100%;
-      height: 300px;
-      background: url(//nextra.pcluster.info/masterbet/images/evo.jpg);
-      height: 300px;
-      display: block;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      top: 200%;
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
-  }
-}
-
-body [data-page="prematch-event"] .sport_quote_view .quota .quota {
-  background: transparent;
-  color: var(--accent);
-}
-body [data-page="prematch-event"] .sport_single_quote {
-  margin: 4px 2px !important;
-  border-radius: 3px;
-}
-
-//poker on mob
-body .casino_container .ctg_game_item[data-name="DBGPOKER"] {
-  display: none !important;
-}
-body .fast_menu_option:last-child {
-  display: flex;
-}
-[data-logged][data-access] .single_menu_item.poker {
-  display: block !important;
-}
-.icon-menu-poker:before {
-  content: "\e98d";
-}
-//end poker on mob
-
-.center-content.live-center-content {
-  grid-template-columns: 1fr 50% !important;
-}
-
-.championship-page {
-  .single-match-row {
-    td.match-name {
-      border-right: none;
-    }
-    td.odd-cell {
-      border-left: none;
-      border-right: none;
-      padding: 2px;
-      > div {
-        border: 1px solid var(--tableBorders);
-      }
-    }
-  }
-}
-
-
-//make changes
-
-.fas.fa-eye {
-  cursor: pointer;
-}
-
-.header-buttons.hide {
-display: none !important;
-}
-
-
-.buttons-holder a.single-button:nth-child(2) {
-font-size: 0px !important;
-}
-
-.buttons-holder a.single-button i.fa.fa-print {
-  font-size: 21px;
-font-weight: 300 !important;
-}
-
-
-
-.logged-content.admin-content .row .buttons-holder .single-button:nth-child(2)::after {
-  content: 'Stampa Quota';
-  font-size: 21px;
-  font-weight: bold;
-  display: inline-block;
-}
-
-.widget-wrapper ul#favouriteSports {
-  background: #23221e;
-}
-
-body .center-content .percentage-block .single-over-under .team-names {
-  width: 90%;
-  margin: auto;
-}
-
-
-.explore-matches-page .title {
-  border-bottom: 1px solid #6d6d6d;
-  line-height: 36px;
-  width: calc(100% - 70px);
-  padding: 25px;
-  display: inline-block;
-}
-
-
-
-.virtu-box .virtu-btn .virtu-txt:after {
-  content: "Gioca ora" !important;
 }

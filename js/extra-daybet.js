@@ -17,6 +17,8 @@ $(document).ready(function () {
   });
 });
 
+
+
 //kur jemi te loguar e shfaqim ikone e syrit ,
 // kur bejme log-out nk e shaq ikonen e syrit
 $(document).ready(function () {
@@ -28,3 +30,4 @@ $(document).ready(function () {
     $(".fas.fa-eye").css({ display: "none" });
   }
 });
+
