@@ -1224,8 +1224,8 @@ body .logged-page .logged-table tfoot tr td,
 
 .odd:hover,
 .single-odd .quote:hover {
-  background: var(--accent-bg) ;
-  color: var(--accent-txt) ;
+  background: var(--accent-bg);
+  color: var(--accent-txt);
 }
 
 .logged-page .cashdesk-content {
@@ -3386,8 +3386,8 @@ g.ct-series.ct-series-a {
 .single-odd {
   .odd:hover,
   .quote:hover {
-    background: transparent ;
-    color: inherit ;
+    background: transparent;
+    color: inherit;
   }
 }
 
@@ -4979,8 +4979,7 @@ span.ui-slider-handle:before {
   left: calc(50% - 96px);
   position: relative;
   width: 100%;
-  filter: invert(.7);
-
+  filter: invert(0.7);
 }
 .clgames-container .clgames-item-img {
   background-color: transparent;
@@ -6894,7 +6893,6 @@ table.logged-table.sessions-table {
   flex-flow: column;
 }
 
-
 body .center-content .percentage-block .single-over-under .team-names {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6911,20 +6909,33 @@ body .center-content .percentage-block .single-over-under .team-names {
   margin: auto;
 }
 
-
 .virtu-box .virtu-btn .virtu-txt:after {
   content: "Gioca ora";
   font-size: 15px;
   font-weight: 600;
 }
 
-.odd:hover, .single-odd .quote:hover {
-  background: var(--accent-bg) ;
-  color: var(--accent-txt) ;
-  transition: .6s ease-in-out ;
+.odd:hover,
+.single-odd .quote:hover {
+  background: var(--accent-bg);
+  color: var(--accent-txt);
+  transition: 0.6s ease-in-out;
 }
 
-
-.footer-menu li:nth-child(3), .footer-menu li:nth-child(2), .footer-menu li:nth-child(1) {
+.footer-menu li:nth-child(3),
+.footer-menu li:nth-child(2),
+.footer-menu li:nth-child(1) {
   display: none;
+}
+
+.clive-container
+  > .clive-inner
+  > .clgames-container
+  .clgames-item.clgames-item-big {
+  display: none;
+}
+
+.clive-container .clive-inner .clive-games-container:last-child {
+  display: block;
+  margin: auto;
 }

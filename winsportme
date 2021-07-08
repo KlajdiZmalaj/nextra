@@ -205,3 +205,10 @@ body .center-content .percentage-block .single-over-under .team-names {
   padding: 25px;
   display: inline-block;
 }
+
+.clive-container
+  > .clive-inner
+  > .clgames-container
+  .clgames-item.clgames-item-big {
+  display: block !important;
+}

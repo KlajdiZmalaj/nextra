@@ -11641,7 +11641,6 @@ div[data-name="Book of Ra Deluxe"]::after {
 //   margin: auto;
 // }
 
-
 [data-logged="false"] > .fields {
   position: absolute;
   top: 23%;
@@ -11655,4 +11654,15 @@ div[data-name="Book of Ra Deluxe"]::after {
 //   border-radius: 50px;
 // }
 
+.casino_container
+  .casino_type
+  .ct_games_container
+  .ctg_games
+  .ctg_game_item:last-child {
+  visibility: hidden;
+}
 
+.casino_container .casino_type .ct_games_container .ctg_games .ctg_game_item {
+  position: relative;
+  left: 102px;
+}

@@ -176,3 +176,24 @@ body .center-content .percentage-block .single-over-under .team-names {
   padding: 25px;
   display: inline-block;
 }
+
+
+.clive-container
+  > .clive-inner
+  > .clgames-container
+  .clgames-item.clgames-item-big {
+  display: block !important;
+}
+
+.casino_container
+  .casino_type
+  .ct_games_container
+  .ctg_games
+  .ctg_game_item:last-child {
+  visibility: visible !important;
+}
+
+.casino_container .casino_type .ct_games_container .ctg_games .ctg_game_item {
+  position: relative;
+  left: 0 !important;
+}
