@@ -137,3 +137,6 @@ body .center-content .percentage-block .single-over-under .team-names {
   position: relative;
   left: 0 !important;
 }
+.clive-container .clive-inner .clive-games-container:last-child {
+  margin: 0 !important;
+}

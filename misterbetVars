@@ -57,7 +57,7 @@ body.landing-page {
   margin-bottom: 0;
 }
 .clive-container .clive-inner .clive-games-container:last-child {
-  margin: 0 auto;
+  margin: 0 !important;
 }
 
 .clive-container .clive-inner {

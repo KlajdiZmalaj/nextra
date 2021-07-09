@@ -78,3 +78,8 @@ body.landing-page {
   position: relative;
   left: 0 !important;
 }
+
+
+.clive-container .clive-inner .clive-games-container:last-child {
+  margin: 0 !important;
+}

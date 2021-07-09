@@ -54,7 +54,7 @@ body {
   margin-bottom: 0;
 }
 .clive-container .clive-inner .clive-games-container:last-child {
-  margin: 0 auto;
+  margin: 0 !important;
 }
 .clive-container .clive-inner {
   display: flex;
@@ -116,4 +116,26 @@ body .center-content .percentage-block .single-over-under .team-names {
   width: calc(100% - 70px);
   padding: 25px;
   display: inline-block;
+}
+
+
+
+.clive-container
+  > .clive-inner
+  > .clgames-container
+  .clgames-item.clgames-item-big {
+  display: block !important;
+}
+
+.casino_container
+  .casino_type
+  .ct_games_container
+  .ctg_games
+  .ctg_game_item:last-child {
+  visibility: visible !important;
+}
+
+.casino_container .casino_type .ct_games_container .ctg_games .ctg_game_item {
+  position: relative;
+  left: 0 !important;
 }

@@ -64,7 +64,7 @@ body {
 }
 
 .clive-container .clive-inner .clive-games-container:last-child {
-  margin: 0 auto;
+  margin: 0 !important;
 }
 
 
